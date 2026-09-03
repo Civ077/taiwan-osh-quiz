@@ -503,7 +503,7 @@ Q = [
   "應由交易平台使用者自行負責其個人資料之保護，受委託機關（構）就此不負任何管理之責任"],"a",
  "第33條：受委託機關（構）應建立對於個人資料之蒐集、處理、利用之內部控制與稽核機制，並應符合個人資料保護法之規定。第36條第1款：該內部控制與稽核機制訂定前應經中央主管機關核可，變更時亦同。第32條並定資訊安全事件管理程序及三十分鐘通報義務。",
  "What must the commissioned operator do about personal data?",
- ["Establish internal control and audit mechanisms for collecting, processing and using personal data, complying with the data protection law",
+ ["Establish internal control and audit mechanisms for collecting, processing and using personal data, meeting the data protection law",
   "Store all personal data with an overseas cloud provider and upload periodic backups in the format designated by the authority",
   "Obtain case by case approval from the central authority before each collection, without which no data may be used at all",
   "Leave data protection entirely to platform users, with the commissioned operator bearing no management responsibility"],

@@ -48,12 +48,16 @@ def read(name):
 
 
 def laws_in_sheet_order():
-    laws = [r.split(TAB) for r in read("tsv/Laws.tsv")][1:]
-    order = ([l for l in laws if l[0].startswith("OSH") and l[0] < "OSH-36"]
-             + [l for l in laws if l[0].startswith("ENV")]
-             + [l for l in laws if l[0] >= "OSH-36" and l[0].startswith("OSH")])
-    assert len(order) == len(laws), (len(order), len(laws))
-    return order
+    # Laws 分頁順序 = 本地 tsv/Laws.tsv 順序（依法規體系排序，由 build_sheet.FAMILIES 決定）
+    return [r.split(TAB) for r in read("tsv/Laws.tsv")][1:]
+
+
+def blank_tail(sheet, first_row, last_row, ncols):
+    """把 first_row..last_row 以空字串覆寫（雲端 GAS 仍是 v3、沒有 clear_from 時用來清掉多餘舊列）"""
+    if last_row < first_row:
+        return {"ok": True, "skipped": "nothing to blank"}
+    tsv = NL.join(TAB.join([""] * ncols) for _ in range(last_row - first_row + 1))
+    return post({"token": token(), "sheet": sheet, "mode": "range", "startCell": "A%d" % first_row, "tsv": tsv})
 
 
 def main(a):
@@ -74,11 +78,12 @@ def main(a):
         tsv = NL.join(l[5] + TAB + l[6] for l in order)
         print(post({"token": token(), "sheet": "Laws", "mode": "range", "startCell": "F2", "tsv": tsv}))
     elif cmd == "laws-all":
-        # 含標題列，從 A1 覆寫；之後把多出來的舊列刪掉（需 GAS v5）
+        # 含標題列，從 A1 覆寫；之後把多出來的舊列以空白覆寫（不需 GAS v5）
         order = laws_in_sheet_order()
         head = read("tsv/Laws.tsv")[0]
-        print(post({"token": token(), "sheet": "Laws", "mode": "range", "startCell": "A1", "tsv": head + NL + NL.join(TAB.join(l) for l in order)}))
-        print("刪除多餘列：", post({"token": token(), "sheet": "Laws", "mode": "clear_from", "from": len(order) + 2}))
+        rows = [head] + [TAB.join(r) for r in order]
+        print("Laws A1 起：", post({"token": token(), "sheet": "Laws", "mode": "range", "startCell": "A1", "tsv": NL.join(rows)}))
+        print("清空多餘列：", blank_tail("Laws", len(rows) + 1, 200, len(head.split(TAB))))
     elif cmd == "reset-all":
         # 雲端全部重灌（需 GAS v5）：Questions/Laws/Changelog 清掉舊列後用本地 tsv 重寫；Articles 另用 articles 指令
         print("Questions 清空：", post({"token": token(), "sheet": "Questions", "mode": "clear_from", "from": 2}))
@@ -112,6 +117,9 @@ def main(a):
         print("內容欄 A–U：", post({"token": token(), "sheet": "Questions", "mode": "range", "startCell": "A2", "tsv": content}))
         fill = NL.join(r[0] + TAB + r[21] + TAB + r[22] for r in rows)   # id, status, batch
         print("補新題 status/batch：", post({"token": token(), "sheet": "Questions", "mode": "fill_status", "tsv": fill}))
+        tail_to = int(os.environ.get("SYNC_TAIL", "0") or 0)          # 例：SYNC_TAIL=4856 會把 (題數+2)..4856 列清空
+        if tail_to:
+            print("清空多餘列：", blank_tail("Questions", len(rows) + 2, tail_to, 25))
     elif cmd == "status":
         # 用本地 status 欄覆寫 Questions!V2 起（會蓋掉 Sheet 上的審題狀態，僅在全部尚未審題時使用）
         rows = [r.split(TAB) for r in read("tsv/Questions.tsv")]

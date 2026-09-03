@@ -21,6 +21,7 @@ def covered():
 def laws():
     out = [("OSH-%02d" % i, zh) for i, (zh, *_) in enumerate(bs.OSH_LAWS, 1)]
     out += [("ENV-%02d" % i, zh) for i, (zh, *_) in enumerate(bs.ENV_LAWS, 1)]
+    out = [(lid, zh) for lid, zh in out if bs.in_scope(lid)]   # 只看指定範圍內法規
     return dict(out)
 
 def articles(zh):

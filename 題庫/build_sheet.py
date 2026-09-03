@@ -82,9 +82,39 @@ LAW_VER = {k: (v[2] or law_version_from_text(v[0])) for k, v in LAWS.items()}
 # 使用者指定納入遊戲之職安法規（2026-09-03）；其他職安法規之題目保留但 status=archived，Laws 權重 0
 SCOPE_OSH = {"OSH-01","OSH-02","OSH-09","OSH-11","OSH-10","OSH-07","OSH-36","OSH-20","OSH-17","OSH-15",
              "OSH-14","OSH-16","OSH-03","OSH-04","OSH-25","OSH-23","OSH-22","OSH-08","OSH-12","OSH-34","OSH-18","OSH-37","OSH-38","OSH-39","OSH-40","OSH-41","OSH-42","OSH-43","OSH-44","OSH-45","OSH-46","OSH-47","OSH-48","OSH-49","OSH-50"}
+# 使用者指定的 35 部職安法規（2026-09-04：「職安相關的只需要留我之前給的法條，其他移除」）
+OSH_KEEP = {f"OSH-{i:02d}" for i in (1,2,3,4,7,8,9,10,11,12,14,15,16,17,18,20,22,23,25,34,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50)}
 def in_scope(lid):
     if lid.startswith("ENV"): return True
-    i=int(lid[4:]); return i<=len(OSH_LAWS) and OSH_LAWS[i-1][3]>0
+    return lid in OSH_KEEP
+
+# Laws 分頁排序：依法規體系（母法→細則→子法）
+FAMILIES = [
+ ("職安-職業安全衛生法體系", [1,2,9,11,8]),
+ ("職安-設施與作業標準", [7,36,34,14,15,16,17,18,23,46]),
+ ("職安-危害性化學品與作業環境", [12,43,45,47,50,39,40]),
+ ("職安-機械設備", [42,44,41]),
+ ("職安-勞工健康與母性保護", [10,22,20]),
+ ("職安-勞動檢查", [3,4,25]),
+ ("職安-勞動條件與職場平等", [48,49,37,38]),
+ ("環保-環境基本與環評", [21,13,63,64,65,66]),
+ ("環保-空氣品質（含室內空品）", [1,2,26,27,28,29,32,33,34,35,3,4,36,37,38,30,31]),
+ ("環保-噪音", [5,6,39,40,41,42,43]),
+ ("環保-水污染與飲用水", [7,44,8,9,45,46,47,48,51,49,50]),
+ ("環保-廢棄物與資源循環", [10,52,11,53,54,55,56,57,58,59,60,61,24,62,12]),
+ ("環保-土壤及地下水", [19,77,78,79,80,81,82,83]),
+ ("環保-毒性化學物質與環境用藥", [20,67,68,69,70,71,72,73,74,75,76]),
+ ("環保-氣候變遷", [22,84,85,86,87,88,89,90,91]),
+ ("環保-環境教育與環檢機構", [23,92,93,94,96,97]),
+ ("環保-公害糾紛", [25,95]),
+ ("環保-海洋與生態保育", [14,15,16,17,18]),
+]
+def family_order():
+    out=[]
+    for fam,ids in FAMILIES:
+        g="OSH" if fam.startswith("職安") else "ENV"
+        out += [(f"{g}-{i:02d}", fam) for i in ids]
+    return out
 LAW_NAME = {k: v[0] for k, v in LAWS.items()}
 
 # 批次 → 模組清單（依序編號）
@@ -325,14 +355,21 @@ def article_count(zh):
 
 def build_laws(qcount=None):
     qcount = qcount or {}
-    rows = [["law_id","group","tier","name_zh","name_en","law_version","source_url","weight","note","articles","questions"]]
+    rows = [["law_id","group","tier","name_zh","name_en","law_version","source_url","weight","note","articles","questions","family"]]
+    byid = {}
     for i,(zh,en,pcode,w) in enumerate(OSH_LAWS, start=1):
         lid = f"OSH-{i:02d}"; code = PCODES.get(zh) or ""
-        tier = 1 if (1<=i<=17 or 34<=i<=50) else (2 if (i<=25 or i>=51) else 3)
-        rows.append([lid,"OSH",tier,zh,en,LAW_VER.get(lid) or law_version_from_text(zh),law_url(code),(w if in_scope(lid) else 0),("" if in_scope(lid) else "不在指定範圍，暫不使用"),article_count(zh),qcount.get(lid,0)])
+        byid[lid] = [lid,"OSH",1,zh,en,LAW_VER.get(lid) or law_version_from_text(zh),law_url(code),w,"",article_count(zh),qcount.get(lid,0)]
     for i,(zh,en,pcode,w,tier) in enumerate(ENV_LAWS, start=1):
         lid = f"ENV-{i:02d}"; code = PCODES.get(zh) or ""
-        rows.append([lid,"ENV",tier,zh,en,law_version_from_text(zh),law_url(code),w,"",article_count(zh),qcount.get(lid,0)])
+        byid[lid] = [lid,"ENV",tier,zh,en,law_version_from_text(zh),law_url(code),w,"",article_count(zh),qcount.get(lid,0)]
+    order = family_order()
+    listed = {lid for lid,_ in order}
+    missing = [lid for lid in byid if in_scope(lid) and lid not in listed]
+    assert not missing, f"FAMILIES 漏列：{missing}"
+    for lid,fam in order:
+        if lid in byid and in_scope(lid):
+            rows.append(byid[lid] + [fam])
     return rows
 
 # ---------- Questions ----------
@@ -340,6 +377,7 @@ Q_HEADER = ["id","law_group","law_id","law","article","law_version","category","
             "q_zh","a_zh","b_zh","c_zh","d_zh","q_en","a_en","b_en","c_en","d_en",
             "answer","explain_zh","explain_en","status","batch","reviewer","review_note"]
 
+DROPPED = {}
 def load_questions():
     rows = [Q_HEADER]; errs = []; seen = set(); n = 0
     per_batch = {}
@@ -349,6 +387,8 @@ def load_questions():
                 n += 1
                 if len(t) != 11: errs.append(f"#{n} 欄位數={len(t)}"); continue
                 lid,art,diff,cat,qz,oz,ans,ez,qe,oe,ee = t
+                if not in_scope(lid):
+                    n -= 1; DROPPED[lid] = DROPPED.get(lid, 0) + 1; continue
                 if len(oz)!=4 or len(oe)!=4: errs.append(f"#{n} 選項數不是4：{qz[:20]}")
                 if ans not in "abcd": errs.append(f"#{n} 答案非a-d：{ans}")
                 if diff not in (1,2,3): errs.append(f"#{n} 難度非1-3")

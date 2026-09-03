@@ -489,7 +489,7 @@ Q = [
  "第43條：中央主管機關每日上午第一次空氣品質預報資料達下列啟動時機之條件之一者，自預報日翌日起至各日上午第一次預報資料顯示已改善至未達啟動時機前，公私場所不得執行石化製程密閉設備或第22條揮發性有機液體儲槽清槽作業之開蓋作業（配合政府機關實施檢查者除外）：隔日起各空氣品質區有懸浮微粒或細懸浮微粒濃度可能達初級預警等級，且再次日為中級預警或嚴重惡化等級；隔日起各空氣品質區有連續二日懸浮微粒或細懸浮微粒濃度可能惡化至中級預警或嚴重惡化等級。第22條第8項亦有相同啟動時機規定。",
  "Which forecast conditions bar opening closed equipment or tanks for cleaning?",
  ["PM10 or PM2.5 may reach primary alert the next day with intermediate alert or severe deterioration the day after; or two consecutive days may deteriorate to intermediate alert or severe deterioration",
-  "PM10 or PM2.5 may reach intermediate alert the next day with mild severe deterioration the day after; or three consecutive days may deteriorate to primary or intermediate alert levels",
+  "PM10 or PM2.5 may reach intermediate alert the next day with mild severe deterioration the day after; or three consecutive days may deteriorate to primary or intermediate alert warning levels",
   "PM10 or PM2.5 has already reached primary alert on the same day; or five consecutive days may deteriorate to intermediate alert and the local authority has given notice",
   "Ozone or sulfur dioxide may reach primary alert the next day with intermediate alert the day after; or two consecutive days may deteriorate to mild severe deterioration or above"],
  "Article 43."),

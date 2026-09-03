@@ -112,7 +112,7 @@ Q = [
  ["部分條文明定不適用於液化石油氣，包括安全距離、防毒措施、霧劑製造及毒性氣體排放等規定","全部條文一律適用於液化石油氣，並無任何排除規定，液化石油氣應遵守本規則之所有條文","液化石油氣完全不適用本規則，應改依消防法及石油管理法之相關規定辦理其安全管理事項","液化石油氣僅適用第一章總則之定義規定，其餘各章之規定一律不適用於液化石油氣之事業"],"a",
  "第242條：本規則第34條、第47條、第58條、第59條、第61條至第65條、第71條第二款至第五款、第72條、第78條、第92條、第95條至第97條、第104條、第124條、第179條、第181條至第187條、第189條、第208條、第212條、第214條、第216條不適用於液化石油氣。第243條則列不適用於冷凍用高壓氣體之條文。",
  "What special rule applies to LPG under these Rules?",
- ["Certain articles are expressly inapplicable to LPG, including separation distances, anti-poison measures, aerosols and toxic discharge","All articles apply to LPG without any exclusion, so LPG must comply with every provision contained in these Rules","LPG is entirely outside these Rules and its safety is governed instead by the Fire Services Act and the Petroleum Act","LPG is subject only to the definitions in Chapter 1, all provisions of the remaining chapters being inapplicable to it"],
+ ["Certain articles are expressly inapplicable to LPG: separation distances, anti-poison measures, aerosols and toxic discharge","All articles apply to LPG without any exclusion, so LPG must comply with every provision contained in these Rules","LPG is entirely outside these Rules and its safety is governed instead by the Fire Services Act and the Petroleum Act","LPG is subject only to the definitions in Chapter 1, all provisions of the remaining chapters being inapplicable to it"],
  "Article 242 lists the articles inapplicable to LPG."),
 
 (HG,"第243條",2,"高壓氣體-適用範圍",
