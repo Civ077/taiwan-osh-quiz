@@ -1,6 +1,12 @@
 # -*- coding: utf-8 -*-
-"""組裝題庫：讀 batch1_*.py → 驗證 → 產出 OSH_ENV_QuizBank.xlsx（Laws/Questions/Config/Changelog 四分頁）＋ questions.json"""
-import json, sys, os, importlib
+"""組裝題庫：讀 batchN_*.py → 驗證 → 洗牌選項 → 產出
+   OSH_ENV_QuizBank.xlsx（Laws/Questions/Config/Changelog 四分頁，全部題目）
+   questions_all.json（全部）、questions_batchN.json（各批）
+   tsv/Questions_batchN.tsv（各批新增列，貼進 Google Sheet 用）
+用法：python build_sheet.py            # 全部批次
+"""
+import json, sys, os, importlib, random, glob, re
+from collections import Counter
 from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment
 from openpyxl.utils import get_column_letter
@@ -8,11 +14,24 @@ from openpyxl.utils import get_column_letter
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 
-LAW_VER = {"OSH-01": "民國114年12月19日", "OSH-02": "民國115年6月26日"}
-LAW_NAME = {"OSH-01": ("職業安全衛生法", "Occupational Safety and Health Act"),
-            "OSH-02": ("職業安全衛生法施行細則", "Enforcement Rules of the Occupational Safety and Health Act")}
+# 法規主檔：law_id → (中文名, 英文名, 版本日期, pcode)
+LAWS = {
+ "OSH-01": ("職業安全衛生法","Occupational Safety and Health Act","民國114年12月19日","N0060001"),
+ "OSH-02": ("職業安全衛生法施行細則","Enforcement Rules of the OSH Act","民國115年6月26日","N0060002"),
+ "OSH-07": ("職業安全衛生設施規則","Occupational Safety and Health Facilities Rules","民國115年6月30日","N0060009"),
+ "OSH-13": ("機械設備器具安全標準","Safety Standards for Machinery, Equipment and Tools","民國111年5月11日","N0060034"),
+ "OSH-36": ("營造安全衛生設施標準","Construction Safety and Health Facilities Standards","民國115年6月30日","N0060014"),
+}
+LAW_VER = {k: v[2] for k, v in LAWS.items()}
+LAW_NAME = {k: v[0] for k, v in LAWS.items()}
 
-# ---------- Laws 主檔 ----------
+# 批次 → 模組清單（依序編號）
+BATCHES = {
+ 1: ["batch1_a", "batch1_b", "batch1_c"],
+ 2: ["batch2_a", "batch2_b", "batch2_c", "batch2_d"],
+}
+
+# ---------- Laws 主檔（沿用批次 1 清單，另加 OSH-36 營造標準） ----------
 OSH_LAWS = [
  ("職業安全衛生法","Occupational Safety and Health Act","N0060001",3),
  ("職業安全衛生法施行細則","Enforcement Rules of the OSH Act","N0060002",3),
@@ -26,10 +45,10 @@ OSH_LAWS = [
  ("勞工健康保護規則","Labor Health Protection Rules","N0060022",3),
  ("職業安全衛生教育訓練規則","Occupational Safety and Health Education and Training Rules","N0060008",3),
  ("危害性化學品標示及通識規則","Regulations on Labeling and Hazard Communication of Hazardous Chemicals","N0060052",2),
- ("機械設備器具安全標準","Safety Standards for Machinery, Equipment and Tools","N0060012",2),
+ ("機械設備器具安全標準","Safety Standards for Machinery, Equipment and Tools","N0060034",2),
  ("高溫作業勞工作息時間標準","Standards for Work and Rest Time of Laborers in High-Temperature Work","N0060019",2),
  ("高架作業勞工保護措施標準","Standards for Protective Measures for Laborers in Work at Height","N0060020",2),
- ("精密作業勞工視機能保護設施標準","Standards for Visual Protection Facilities for Precision Work","N0060021",1),
+ ("精密作業勞工視機能保護設施標準","Standards for Visual Protection Facilities for Precision Work","N0060012",1),
  ("重體力勞動作業勞工保護措施標準","Standards for Protective Measures for Heavy Physical Labor","N0060023",1),
  ("異常氣壓危害預防標準","Standards for Prevention of Abnormal Pressure Hazards","N0060004",2),
  ("辦理勞工體格與健康檢查醫療機構認可及管理辦法","Regulations for Accreditation and Management of Medical Institutions for Labor Health Examinations","N0060035",1),
@@ -49,6 +68,7 @@ OSH_LAWS = [
  ("勞工體格與健康檢查特定檢查項目檢驗機構指定及管理作業要點","Directions for Designation of Laboratories for Specific Health Examination Items","",0),
  ("缺氧症預防規則","Rules for Prevention of Hypoxia","N0060010",3),
  ("勞工職業災害保險及保護法","Labor Occupational Accident Insurance and Protection Act","N0060072",2),
+ ("營造安全衛生設施標準","Construction Safety and Health Facilities Standards","N0060014",3),
 ]
 ENV_LAWS = [
  ("空氣污染防制法","Air Pollution Control Act","O0020001",3,1),
@@ -83,7 +103,7 @@ def build_laws():
     for i,(zh,en,pcode,w) in enumerate(OSH_LAWS, start=1):
         lid = f"OSH-{i:02d}"
         url = f"https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode={pcode}" if pcode else "https://law.isha.org.tw/ISHA_LAW/"
-        tier = 1 if (1<=i<=17 or i in (34,35)) else (2 if i<=25 else 3)
+        tier = 1 if (1<=i<=17 or i in (34,35,36)) else (2 if i<=25 else 3)
         rows.append([lid,"OSH",tier,zh,en,LAW_VER.get(lid,""),url,w,""])
     for i,(zh,en,pcode,w,tier) in enumerate(ENV_LAWS, start=1):
         lid = f"ENV-{i:02d}"
@@ -97,32 +117,29 @@ Q_HEADER = ["id","law_group","law_id","law","article","law_version","category","
             "answer","explain_zh","explain_en","status","batch","reviewer","review_note"]
 
 def load_questions():
-    allq = []
-    for m in ("batch1_a","batch1_b","batch1_c"):
-        mod = importlib.import_module(m)
-        allq.extend(mod.Q)
-    errs = []
-    rows = [Q_HEADER]
-    seen = set()
-    for n,t in enumerate(allq, start=1):
-        if len(t) != 11: errs.append(f"#{n} 欄位數={len(t)}"); continue
-        lid,art,diff,cat,qz,oz,ans,ez,qe,oe,ee = t
-        if len(oz)!=4 or len(oe)!=4: errs.append(f"#{n} 選項數不是4：{qz[:20]}")
-        if ans not in "abcd": errs.append(f"#{n} 答案非a-d：{ans}")
-        if diff not in (1,2,3): errs.append(f"#{n} 難度非1-3")
-        if lid not in LAW_VER: errs.append(f"#{n} law_id 未知：{lid}")
-        key = qz.strip()
-        if key in seen: errs.append(f"#{n} 題目重複：{qz[:30]}")
-        seen.add(key)
-        qid = f"Q{n:04d}"
-        # 固定種子洗牌選項，讓正確答案平均分布在 a–d（中英同步）
-        import random
-        order = [0,1,2,3]; random.Random(f"{qid}-osh-quiz").shuffle(order)
-        oz2 = [oz[i] for i in order]; oe2 = [oe[i] for i in order]
-        ans2 = "abcd"[order.index("abcd".index(ans))]
-        rows.append([qid,"OSH",lid,LAW_NAME[lid][0],art,LAW_VER[lid],cat,diff,
-                     qz,*oz2,qe,*oe2,ans2,ez,ee,"draft",1,"",""])
-    return rows, errs
+    rows = [Q_HEADER]; errs = []; seen = set(); n = 0
+    per_batch = {}
+    for bno, mods in sorted(BATCHES.items()):
+        for m in mods:
+            for t in importlib.import_module(m).Q:
+                n += 1
+                if len(t) != 11: errs.append(f"#{n} 欄位數={len(t)}"); continue
+                lid,art,diff,cat,qz,oz,ans,ez,qe,oe,ee = t
+                if len(oz)!=4 or len(oe)!=4: errs.append(f"#{n} 選項數不是4：{qz[:20]}")
+                if ans not in "abcd": errs.append(f"#{n} 答案非a-d：{ans}")
+                if diff not in (1,2,3): errs.append(f"#{n} 難度非1-3")
+                if lid not in LAWS: errs.append(f"#{n} law_id 未知：{lid}")
+                if len(set(oz))<4 or len(set(oe))<4: errs.append(f"#{n} 選項重複：{qz[:20]}")
+                key = qz.strip()
+                if key in seen: errs.append(f"#{n} 題目重複：{qz[:30]}")
+                seen.add(key)
+                qid = f"Q{n:04d}"
+                order = [0,1,2,3]; random.Random(f"{qid}-osh-quiz").shuffle(order)
+                oz2 = [oz[i] for i in order]; oe2 = [oe[i] for i in order]
+                ans2 = "abcd"[order.index("abcd".index(ans))]
+                row = [qid,"OSH",lid,LAW_NAME[lid],art,LAW_VER[lid],cat,diff,qz,*oz2,qe,*oe2,ans2,ez,ee,"draft",bno,"",""]
+                rows.append(row); per_batch.setdefault(bno, []).append(row)
+    return rows, errs, per_batch
 
 CONFIG = [
  ["key","value","說明 / Description"],
@@ -138,11 +155,13 @@ CONFIG = [
  ["languages","zh,en","支援語言 / supported languages"],
  ["active_status","active","前端只抓此 status 的題目 / only questions with this status are exported"],
 ]
-
 CHANGELOG = [
  ["date","law_id","law_version","change","affected_questions","action","done_by"],
  ["2026-09-03","OSH-01","民國114年12月19日","建立批次1：以全國法規資料庫現行條文出題（本法）","Q0001–Q0096","初版 draft，待審","Claude Code"],
  ["2026-09-03","OSH-02","民國115年6月26日","建立批次1：以全國法規資料庫現行條文出題（施行細則，115/7/1 施行）","Q0097–Q0129","初版 draft，待審","Claude Code"],
+ ["2026-09-03","OSH-07","民國115年6月30日","建立批次2：職業安全衛生設施規則（115/7/1 施行，部分條文 116/1/1）","batch=2 之 OSH-07","初版 draft，待審","Claude Code"],
+ ["2026-09-03","OSH-36","民國115年6月30日","建立批次2：營造安全衛生設施標準（第11條之2 自 116/7/1 施行）；Laws 分頁新增 OSH-36","batch=2 之 OSH-36","初版 draft，待審","Claude Code"],
+ ["2026-09-03","OSH-13","民國111年5月11日","建立批次2：機械設備器具安全標準；Laws 分頁 OSH-13 來源網址修正為 N0060034","batch=2 之 OSH-13","初版 draft，待審","Claude Code"],
 ]
 
 def style_header(ws):
@@ -150,14 +169,22 @@ def style_header(ws):
         c.font = Font(bold=True, color="FFFFFF"); c.fill = PatternFill("solid", fgColor="16324F")
         c.alignment = Alignment(vertical="center", wrap_text=True)
     ws.freeze_panes = "A2"
-
 def autowidth(ws, maxw=60):
     for col in ws.columns:
         w = max((len(str(c.value)) if c.value is not None else 0) for c in col)
         ws.column_dimensions[get_column_letter(col[0].column)].width = min(max(8, w*1.1), maxw)
+def tsv(rows):
+    out = []
+    for r in rows:
+        cells = []
+        for c in r:
+            s = '' if c is None else str(c)
+            cells.append(s.replace('\t',' ').replace('\r',' ').replace('\n',' '))
+        out.append('\t'.join(cells))
+    return '\n'.join(out)
 
 def main():
-    qrows, errs = load_questions()
+    qrows, errs, per_batch = load_questions()
     if errs:
         print("驗證錯誤："); [print(" ", e) for e in errs]; sys.exit(1)
     wb = Workbook()
@@ -173,20 +200,28 @@ def main():
     ws = wb.create_sheet("Changelog")
     for r in CHANGELOG: ws.append(r)
     style_header(ws); autowidth(ws, 70)
-    out = os.path.join(HERE, "OSH_ENV_QuizBank.xlsx")
-    wb.save(out)
-    # JSON（前端用）
+    wb.save(os.path.join(HERE, "OSH_ENV_QuizBank.xlsx"))
     keys = qrows[0]
     js = [dict(zip(keys, r)) for r in qrows[1:]]
-    with open(os.path.join(HERE,"questions_batch1.json"),"w",encoding="utf-8") as f:
-        json.dump(js, f, ensure_ascii=False, indent=1)
+    json.dump(js, open(os.path.join(HERE,"questions_all.json"),"w",encoding="utf-8"), ensure_ascii=False, indent=1)
+    os.makedirs(os.path.join(HERE,"tsv"), exist_ok=True)
+    for bno, rows in per_batch.items():
+        json.dump([dict(zip(keys, r)) for r in rows], open(os.path.join(HERE,f"questions_batch{bno}.json"),"w",encoding="utf-8"), ensure_ascii=False, indent=1)
+        open(os.path.join(HERE,"tsv",f"Questions_batch{bno}.tsv"),"w",encoding="utf-8",newline="").write(tsv(rows))
+    open(os.path.join(HERE,"tsv","Laws.tsv"),"w",encoding="utf-8",newline="").write(tsv(build_laws()))
+    open(os.path.join(HERE,"tsv","Changelog.tsv"),"w",encoding="utf-8",newline="").write(tsv(CHANGELOG))
+    # 前端用精簡 JSON
+    keep = ['id','law_id','law','article','law_version','category','difficulty','q_zh','a_zh','b_zh','c_zh','d_zh','q_en','a_en','b_en','c_en','d_en','answer','explain_zh','explain_en','status']
+    docs = os.path.join(os.path.dirname(HERE), "docs", "data", "questions.json")
+    if os.path.isdir(os.path.dirname(docs)):
+        json.dump({'generated':'2026-09-03','count':len(js),'questions':[{k:r[k] for k in keep} for r in js]}, open(docs,"w",encoding="utf-8"), ensure_ascii=False, separators=(',',':'))
     n = len(qrows)-1
-    from collections import Counter
-    print(f"OK：{n} 題 → {out}")
+    print(f"OK：{n} 題（{', '.join(f'批次{b}={len(r)}' for b,r in sorted(per_batch.items()))}）")
     print("依法規：", dict(Counter(r[2] for r in qrows[1:])))
     print("依難度：", dict(sorted(Counter(r[7] for r in qrows[1:]).items())))
     print("答案分布：", dict(sorted(Counter(r[18] for r in qrows[1:]).items())))
-    print("類別：", dict(Counter(r[6] for r in qrows[1:])))
+    for bno, rows in sorted(per_batch.items()):
+        print(f"批次{bno} 題號 {rows[0][0]}–{rows[-1][0]}，答案分布", dict(sorted(Counter(r[18] for r in rows).items())))
 
 if __name__ == "__main__":
     main()

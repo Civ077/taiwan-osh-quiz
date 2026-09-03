@@ -5,16 +5,16 @@ OSH-03	OSH	1	勞動檢查法	Labor Inspection Act		https://law.moj.gov.tw/LawCla
 OSH-04	OSH	1	勞動檢查法施行細則	Enforcement Rules of the Labor Inspection Act		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0080002	1	
 OSH-05	OSH	1	職業災害勞工保護法	Act for Protecting Workers of Occupational Accidents		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060041	1	
 OSH-06	OSH	1	職業災害勞工保護法施行細則	Enforcement Rules of the Act for Protecting Workers of Occupational Accidents		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060042	1	
-OSH-07	OSH	1	職業安全衛生設施規則	Occupational Safety and Health Facilities Rules		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060009	3	
+OSH-07	OSH	1	職業安全衛生設施規則	Occupational Safety and Health Facilities Rules	民國115年6月30日	https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060009	3	
 OSH-08	OSH	1	危險性工作場所審查及檢查辦法	Regulations for Review and Inspection of Dangerous Workplaces		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0080006	2	
 OSH-09	OSH	1	職業安全衛生管理辦法	Regulations of Occupational Safety and Health Management		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060003	3	
 OSH-10	OSH	1	勞工健康保護規則	Labor Health Protection Rules		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060022	3	
 OSH-11	OSH	1	職業安全衛生教育訓練規則	Occupational Safety and Health Education and Training Rules		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060008	3	
 OSH-12	OSH	1	危害性化學品標示及通識規則	Regulations on Labeling and Hazard Communication of Hazardous Chemicals		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060052	2	
-OSH-13	OSH	1	機械設備器具安全標準	Safety Standards for Machinery, Equipment and Tools		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060012	2	
+OSH-13	OSH	1	機械設備器具安全標準	Safety Standards for Machinery, Equipment and Tools	民國111年5月11日	https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060034	2	
 OSH-14	OSH	1	高溫作業勞工作息時間標準	Standards for Work and Rest Time of Laborers in High-Temperature Work		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060019	2	
 OSH-15	OSH	1	高架作業勞工保護措施標準	Standards for Protective Measures for Laborers in Work at Height		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060020	2	
-OSH-16	OSH	1	精密作業勞工視機能保護設施標準	Standards for Visual Protection Facilities for Precision Work		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060021	1	
+OSH-16	OSH	1	精密作業勞工視機能保護設施標準	Standards for Visual Protection Facilities for Precision Work		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060012	1	
 OSH-17	OSH	1	重體力勞動作業勞工保護措施標準	Standards for Protective Measures for Heavy Physical Labor		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060023	1	
 OSH-18	OSH	2	異常氣壓危害預防標準	Standards for Prevention of Abnormal Pressure Hazards		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060004	2	
 OSH-19	OSH	2	辦理勞工體格與健康檢查醫療機構認可及管理辦法	Regulations for Accreditation and Management of Medical Institutions for Labor Health Examinations		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060035	1	
@@ -34,6 +34,7 @@ OSH-32	OSH	3	製程安全評估定期實施辦法	Regulations for Periodic Proce
 OSH-33	OSH	3	勞工體格與健康檢查特定檢查項目檢驗機構指定及管理作業要點	Directions for Designation of Laboratories for Specific Health Examination Items		https://law.isha.org.tw/ISHA_LAW/	0	
 OSH-34	OSH	1	缺氧症預防規則	Rules for Prevention of Hypoxia		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060010	3	
 OSH-35	OSH	1	勞工職業災害保險及保護法	Labor Occupational Accident Insurance and Protection Act		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060072	2	
+OSH-36	OSH	1	營造安全衛生設施標準	Construction Safety and Health Facilities Standards	民國115年6月30日	https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060014	3	
 ENV-01	ENV	1	空氣污染防制法	Air Pollution Control Act		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0020001	3	
 ENV-02	ENV	1	空氣污染防制法施行細則	Enforcement Rules of the Air Pollution Control Act		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0020002	1	
 ENV-03	ENV	1	營建工程空氣污染防制設施管理辦法	Regulations on Air Pollution Control Facilities for Construction Projects		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0020021	3	

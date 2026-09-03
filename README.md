@@ -31,10 +31,11 @@
 ├─ README.md
 ├─ 法規原文/          從 law.moj.gov.tw 抓下的現行條文（HTML + 解析後 txt）＋ parse_law.py
 └─ 題庫/
-   ├─ batch1_a.py / batch1_b.py / batch1_c.py   第 1 批題目原始碼（Python 資料）
+   ├─ batch1_*.py / batch2_*.py                 各批題目原始碼（Python 資料）
    ├─ build_sheet.py                            驗證 → 洗牌選項 → 產出 xlsx + json
    ├─ OSH_ENV_QuizBank.xlsx                     上傳 Drive 的來源檔
-   └─ questions_batch1.json                     前端測試用
+   ├─ questions_all.json / questions_batchN.json
+   └─ tsv/                                      貼進 Google Sheet 用的 TSV
 ```
 
 ## 題庫欄位（Questions 分頁）
@@ -52,7 +53,7 @@ status(draft/reviewed/active), batch, reviewer, review_note`
 | 批次 | 範圍 | 題數 | 狀態 |
 |---|---|---|---|
 | 1 | 職業安全衛生法（114/12/19）＋施行細則（115/6/26） | 129 | draft，待審 |
-| 2 | 設施規則、營造安全衛生設施標準、機械設備器具安全標準 | ~200 | 未開始 |
+| 2 | 職業安全衛生設施規則（115/6/30）136 題、營造安全衛生設施標準（115/6/30）74 題、機械設備器具安全標準（111/5/11）37 題 | 247 | draft，待審 |
 | 3 | 缺氧、高架、高溫、異常氣壓、化學品標示、標示準則 | ~150 | 未開始 |
 | 4 | 管理辦法、教育訓練、健康保護、危工場所、製程安全 | ~150 | 未開始 |
 | 5 | 勞檢法系、災保法、母性保護、機器人、行政要點 | ~130 | 未開始 |
