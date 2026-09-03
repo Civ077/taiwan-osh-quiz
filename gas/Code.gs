@@ -47,9 +47,7 @@ function doPost(e) {
     if (!token || String(req.token || '') !== token) return json_({ ok: false, error: 'bad token' });
     const sh = ss.getSheetByName(String(req.sheet || ''));
     if (!sh) return json_({ ok: false, error: 'no sheet ' + req.sheet });
-    const rows = String(req.tsv || '').split(/
-?
-/).filter(r => r.trim() !== '').map(r => r.split('	'));
+    const rows = String(req.tsv || '').split(/\r?\n/).filter(r => r.trim() !== '').map(r => r.split('\t'));
     if (!rows.length) return json_({ ok: false, error: 'empty' });
     const width = Math.max.apply(null, rows.map(r => r.length));
     rows.forEach(r => { while (r.length < width) r.push(''); });
