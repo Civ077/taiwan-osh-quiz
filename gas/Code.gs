@@ -47,7 +47,8 @@ function doPost(e) {
     if (!token || String(req.token || '') !== token) return json_({ ok: false, error: 'bad token' });
     const sh = ss.getSheetByName(String(req.sheet || ''));
     if (!sh) return json_({ ok: false, error: 'no sheet ' + req.sheet });
-    const rows = String(req.tsv || '').split(/?
+    const rows = String(req.tsv || '').split(/
+?
 /).filter(r => r.trim() !== '').map(r => r.split('	'));
     if (!rows.length) return json_({ ok: false, error: 'empty' });
     const width = Math.max.apply(null, rows.map(r => r.length));
@@ -57,6 +58,17 @@ function doPost(e) {
       sh.getRange(a1).offset(0, 0, rows.length, width).setValues(rows);
       clearCacheSilent_();
       return json_({ ok: true, mode: 'range', sheet: sh.getName(), startCell: a1, rows: rows.length, cols: width });
+    }
+    if (req.mode === 'fill_status' && sh.getName() === SHEET_QUESTIONS) {
+      // rows: id 	 status 	 batch —— 只補 status 空白的列（新題），不動已審題目
+      const last0 = sh.getLastRow(); if (last0 < 2) return json_({ ok: true, filled: 0 });
+      const rng = sh.getRange(2, 1, last0 - 1, 23); const vals = rng.getValues();
+      const want = {}; rows.forEach(r => { want[String(r[0]).trim()] = [r[1] || 'draft', r[2] || '']; });
+      let filled = 0;
+      vals.forEach(v => { const id = String(v[0]).trim(); if (id && want[id] && String(v[21]).trim() === '') { v[21] = want[id][0]; v[22] = want[id][1]; filled++; } });
+      sh.getRange(2, 22, last0 - 1, 2).setValues(vals.map(v => [v[21], v[22]]));
+      clearCacheSilent_();
+      return json_({ ok: true, mode: 'fill_status', filled });
     }
     // append：Questions 依 id 去重；其他分頁直接接在最後一列之後
     const last = sh.getLastRow();

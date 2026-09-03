@@ -39,6 +39,17 @@ def main(a):
         order = [l for l in laws if l[0].startswith("OSH") and l[0] != "OSH-36"] + [l for l in laws if l[0].startswith("ENV")] + [l for l in laws if l[0] == "OSH-36"]
         assert len(order) == 61, len(order)
         print(post({"token": token(), "sheet": "Laws", "mode": "range", "startCell": "F2", "tsv": "\n".join(l[5] + "\t" + l[6] for l in order)}))
+    elif cmd == "sync":
+        rows = [r.split("	") for r in read("tsv/Questions.tsv")]
+        if rows and rows[0][0] == "id": rows = rows[1:]
+        content = ["	".join(r[:21]) for r in rows]          # A–U：id … explain_en
+        r1 = post({"token": token(), "sheet": "Questions", "mode": "range", "startCell": "A2", "tsv": "
+".join(content)})
+        print("內容欄 A–U：", r1)
+        # 新增列的 V–W（status/batch）：只補「原本沒有 id 的列」
+        new = [r for r in rows]  # 交給 append 去重也可，但 range 已寫入 id，改用 fill 模式補空白 status
+        print(post({"token": token(), "sheet": "Questions", "mode": "fill_status", "tsv": "
+".join(r[0] + "	" + r[21] + "	" + r[22] for r in rows)}))
     elif cmd == "raw":
         print(post({"token": token(), "sheet": a[1], "mode": "range", "startCell": a[2], "tsv": a[3]}))
     elif cmd == "ping":
