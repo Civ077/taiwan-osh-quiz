@@ -49,7 +49,7 @@ def laws_in_sheet_order():
     order = ([l for l in laws if l[0].startswith("OSH") and l[0] < "OSH-36"]
              + [l for l in laws if l[0].startswith("ENV")]
              + [l for l in laws if l[0] >= "OSH-36" and l[0].startswith("OSH")])
-    assert len(order) == 75, len(order)
+    assert len(order) == len(laws), (len(order), len(laws))
     return order
 
 

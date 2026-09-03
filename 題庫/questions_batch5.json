@@ -1020,10 +1020,10 @@
   "answer": "a",
   "explain_zh": "要點第3點：罰鍰繳納期限為送達處分書之次日起三十日內，屆滿未繳納者原處分機關擬具罰鍰催繳通知書催繳；第4點：催繳通知送達次日起十五日內仍未繳納者，得移送法務部行政執行署所屬分署執行。",
   "explain_en": "Points 3–4: 30 days from the day after service; a reminder notice; referral to the Administrative Enforcement Agency if still unpaid 15 days after the reminder.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0762",
@@ -1047,10 +1047,10 @@
   "answer": "b",
   "explain_zh": "第5點：甲類為上市上櫃公司、營造業承攬單一工程二億元以上、非營造業勞工三百人以上、依職安法第15條之1或第27條之1交付一定規模工程者；乙類為營造業五千萬元以上未達二億元、非營造業一百人以上未達三百人；丙類為營造業五百萬元以上未達五千萬元、非營造業六人以上未達一百人；丁類為未達前三類者。",
   "explain_en": "Point 5: Class A = listed companies, construction contracts NT$200M+, non-construction 300+ workers; Class B = NT$50M–200M or 100–299 workers; Class C = NT$5M–50M or 6–99 workers; Class D = below.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0763",
@@ -1074,10 +1074,10 @@
   "answer": "b",
   "explain_zh": "第5點第2款：乙類指營造業承攬單一工程之金額在五千萬元以上未達二億元者，或非營造業勞工總人數一百人以上未達三百人者。",
   "explain_en": "Point 5(2): Class B for NT$50M–200M contracts or 100–299 workers in non-construction industries.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0764",
@@ -1101,10 +1101,10 @@
   "answer": "a",
   "explain_zh": "第8點：應公布其事業單位、雇主之名稱及負責人姓名；處以罰鍰者應公布處分期日、違反條文及罰鍰金額；符合情形者並應公布職業災害之發生日期、發生地及罹災人數。",
   "explain_en": "Point 8: names and responsible person; penalty date, provisions and amount; accident date, location and victim count.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0765",
@@ -1128,10 +1128,10 @@
   "answer": "c",
   "explain_zh": "第9點：得依事業規模、性質或違反情節，加重其罰鍰至法定罰鍰最高額二分之一。第6點：同一違法態樣違反多項法條得逐一累加至最高罰鍰；不同態樣分別處罰。第10點：違反次數自違反之日往前回溯三年內累計。",
   "explain_en": "Point 9: up to half of the statutory maximum; Point 6: same-type violations accumulate to the maximum; Point 10: violation counts look back three years.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0766",
@@ -1155,10 +1155,10 @@
   "answer": "a",
   "explain_zh": "第2點：重大災害包括職安法第37條第2項之死亡、罹災三人以上、罹災一人以上需住院之職災；甲級災害為工作場所職災造成三人以上死亡、五人以上罹災（含失蹤）、經大眾傳播媒體廣為報導之火災爆炸有害氣體外洩等涉及勞工安全之災害；其他經認有必要者。",
   "explain_en": "Point 2: reportable accidents under OSH Act 37(2) plus Class A disasters (3+ deaths, 5+ victims, widely reported fires/explosions/leaks).",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0767",
@@ -1182,10 +1182,10 @@
   "answer": "c",
   "explain_zh": "第4點：發生死亡災害；罹災者肢體或器官嚴重受損危及生命或身體機能嚴重喪失且須住院治療連續達二十四小時以上；氨氯氟化氫光氣硫化氫二氧化硫等洩漏造成一人以上罹災勞工需住院；罹災人數三人以上。礦災空難海難震災輻射事故陸上交通事故及殺人刑事案件等他法已有機制者不在此限。",
   "explain_en": "Point 4: the four categories; excluded where other laws cover mining, aviation, maritime, earthquake, radiation, road traffic or homicide investigations.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0768",
@@ -1209,10 +1209,10 @@
   "answer": "a",
   "explain_zh": "第5點：事業單位職災通報案件應指派專人於二日內於「勞動檢查機構檢查資訊管理系統」確認處理方式並輸入資料，屬職安法第37條第2項之職災應產出重大災害通報表傳真職安署及地方主管機關；媒體廣為報導之災害應填具即時處理情形表通報，結報時間災情單純不宜超過二天、複雜不超過三天；假日應再以電話通報。",
   "explain_en": "Point 5: within 2 days, producing the major accident report form for reportable accidents; media-covered disasters get situation reports closed within 2–3 days; holiday accidents also phoned in.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0769",
@@ -1236,10 +1236,10 @@
   "answer": "c",
   "explain_zh": "第3點：受選拔當年度及前三年度未發生重大災害通報要點第2點所稱之重大災害或失能程度一至九等級之職災；前三年度失能傷害頻率及嚴重率均低於同行業前三年平均值；前三年度未曾獲五星獎或國家職業安全衛生獎；前四年度未連續四年獲優良單位獎；應建置管理系統者已通過 TOSHMS 驗證或績效審查且有效。",
   "explain_en": "Point 3: no major accidents or grade 1–9 disability accidents in the current and previous 3 years; frequency and severity rates below the industry 3-year averages; no Five-Star or National OSH Award in the last 3 years; TOSHMS certification where required.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0770",
@@ -1263,10 +1263,10 @@
   "answer": "c",
   "explain_zh": "第8點：連續二年榮獲優良獎，第三年經決審為優良獎之事業單位，得於通知送達翌日起十日內檢具五星獎自評表及佐證資料參加五星獎評選。第10點：五星獎得主之災保行業別費率依規定調整，且得參選國家職業安全衛生獎；勞檢機構自獲獎翌年起二年內得以監督指導代替一般例行檢查。",
   "explain_en": "Point 8: two consecutive years plus a third-year award; Point 10: Five-Star winners get insurance rate adjustments, National OSH Award eligibility, and two years of supervision in lieu of routine inspection.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0771",
@@ -1290,10 +1290,10 @@
   "answer": "a",
   "explain_zh": "第11點：於次年二月起接受推薦或自薦，四月中旬完成初審，五月完成決審為原則；獲選者經查證與事實不符或填報不實者得撤銷得獎資格並追回獎勵。第7點：初審由當地勞工主管機關、科學園區管理局、產業園區管理局等辦理，決審由職安署組設小組決定。",
   "explain_en": "Point 11: nominations from February, preliminary review by mid-April, final review in May; awards may be revoked for false information.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0772",
@@ -1317,10 +1317,10 @@
   "answer": "c",
   "explain_zh": "第1條：為保障遭遇職業災害勞工及其家屬之生活，加強職業災害預防及職業災害勞工重建，以促進社會安全，特制定本法。第106條：本法施行後職業災害勞工保護法除另有規定外不再適用。",
   "explain_en": "Article 1; Article 106: the former Act for Protecting Workers of Occupational Accidents no longer applies once this Act took effect.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0773",
@@ -1344,10 +1344,10 @@
   "answer": "b",
   "explain_zh": "第3條：本保險以勞動部勞工保險局為保險人辦理保險業務；保險基金之投資運用管理業務由勞動部勞動基金運用局辦理。第4條：由中央主管機關監理。",
   "explain_en": "Article 3: Bureau of Labor Insurance as insurer; Bureau of Labor Funds for investment management; Article 4: supervised by the central authority.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0774",
@@ -1371,10 +1371,10 @@
   "answer": "c",
   "explain_zh": "第5條：投保單位、被保險人、受益人等對保險人核定之案件有爭議時，應自行政處分達到之翌日起六十日內向中央主管機關申請審議，不服審議結果得提起訴願及行政訴訟；審議會委員應有職業醫學科專科醫師及勞工團體代表，比例合計不得低於五分之一。",
   "explain_en": "Article 5: 60 days; further appeal via administrative appeal and litigation; the review committee must include occupational physicians and labor representatives (at least one fifth combined).",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0775",
@@ -1398,10 +1398,10 @@
   "answer": "b",
   "explain_zh": "第6條：年滿十五歲以上受僱於領有執業證照、依法辦理登記、設有稅籍或經核發聘僱許可之雇主之勞工，及不得參加公教保險之政府機關學校受僱員工，應以其雇主為投保單位；未滿十五歲受僱者亦適用；技術生、建教生等準用。第11條：包括外國籍人員。",
   "explain_en": "Article 6: the employer; also applies to workers under 15 and, by analogy, apprentices and cooperative-education students; Article 11: includes foreign nationals.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0776",
@@ -1425,10 +1425,10 @@
   "answer": "b",
   "explain_zh": "第7條：無一定雇主或自營作業而參加職業工會之會員，及參加漁會之甲類會員，應以其所屬團體為投保單位。第8條：職業訓練機構受訓者以所屬機構為投保單位。第9條：實際從事勞動之雇主、外僱船員等得準用參加。",
   "explain_en": "Article 7: the union or fishermen's association; Article 8: trainees via training institutions; Article 9: working employers and foreign-hired seafarers may join by analogy.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0777",
@@ -1452,10 +1452,10 @@
   "answer": "c",
   "explain_zh": "第12條：投保單位應於本法施行之當日或勞工到職、入會、到訓之當日列表通知保險人辦理投保手續；離職退會結訓之當日辦理退保。第96條：未依規定辦理投保退保者處二萬元以上十萬元以下罰鍰並限期改善。",
   "explain_en": "Article 12: same-day enrollment and withdrawal; Article 96: failure → NT$20,000–100,000 fine with an order to correct.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0778",
@@ -1479,10 +1479,10 @@
   "answer": "b",
   "explain_zh": "第13條：符合第6條之勞工保險效力自到職當日起算，至離職當日停止（雇主符合資格前到職者自雇主領照登記設籍當日起算）；第7、8條之勞工於當日通知者自通知當日起算，非當日通知者自通知翌日起算。",
   "explain_en": "Article 13: coverage from the start date to the departure date regardless of enrollment timing; union/training enrollees depend on notification timing.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0779",
@@ -1506,10 +1506,10 @@
   "answer": "b",
   "explain_zh": "第15條：投保單位應備置勞工名冊、出勤工作紀錄及薪資帳冊，自被保險人離職退會結訓之日起保存五年；保險人得查對，投保單位不得規避妨礙拒絕。第94條：規避妨礙拒絕查對處五萬元以上三十萬元以下罰鍰；第97條：未備置或保存未達期限處二萬元以上十萬元以下罰鍰。",
   "explain_en": "Article 15: 5 years, open to the insurer's audit; Article 94: obstruction → NT$50,000–300,000; Article 97: missing records → NT$20,000–100,000.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0780",
@@ -1533,10 +1533,10 @@
   "answer": "d",
   "explain_zh": "第16條：保險費率分為行業別災害費率及上、下班災害單一費率，自施行之日起每三年調整一次；僱用員工達一定人數以上之投保單位，行業別災害費率採實績費率，按最近三年保險給付總額占應繳保險費總額及職業安全衛生辦理情形每年計算調整。",
   "explain_en": "Article 16: industry rates and a single commuting rate, reviewed every three years; larger employers use experience rating based on the last three years' claims and OSH performance.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0781",
@@ -1560,10 +1560,10 @@
   "answer": "c",
   "explain_zh": "第17條：月投保薪資按月薪資總額依投保薪資分級表申報；二月至七月調整者於當年八月底前通知，八月至次年一月調整者於次年二月底前通知，均自通知之次月一日生效；分級表下限與基本工資相同。第98條：以多報少或以少報多或未依限通知處二萬元以上十萬元以下罰鍰。",
   "explain_en": "Article 17: report by end of August or end of February respectively, effective the first of the following month; Article 98: misreporting → NT$20,000–100,000.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0782",
@@ -1587,10 +1587,10 @@
   "answer": "d",
   "explain_zh": "第19條：受僱勞工、受訓者等之保險費全部由投保單位負擔（第10條自行加保之實際從事勞動人員自行負擔）；職業工會會員被保險人負擔百分之六十、中央政府補助百分之四十；漁會甲類會員負擔百分之二十、政府補助百分之八十；外僱船員負擔百分之八十、政府補助百分之二十。",
   "explain_en": "Article 19: employers pay all for employees; union members 60/40 with government; fishermen 20/80; foreign-hired seafarers 80/20.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0783",
@@ -1614,10 +1614,10 @@
   "answer": "c",
   "explain_zh": "第21條：未依限繳納者得寬限十五日，寬限期滿翌日起每逾一日加徵應納費額百分之零點二滯納金，以百分之二十為限；加徵滯納金十五日後仍未繳納得移送行政執行，投保單位無財產可執行時由代表人或負責人負連帶清償責任。",
   "explain_en": "Article 21: 15-day grace, then 0.2% per day up to 20%; enforcement after 15 more days, with representatives jointly liable if the unit has no assets.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0784",
@@ -1641,10 +1641,10 @@
   "answer": "b",
   "explain_zh": "第26條：給付種類為醫療給付、傷病給付、失能給付、死亡給付、失蹤給付。第27條：保險效力停止之翌日起一年內仍得請領同一傷病之給付。",
   "explain_en": "Article 26: five benefit types; Article 27: claims for the same injury allowed within one year after coverage ends.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0785",
@@ -1668,10 +1668,10 @@
   "answer": "c",
   "explain_zh": "第28條：平均月投保薪資按發生保險事故之當月起前六個月之實際月投保薪資平均計算，未滿六個月按實際投保期間平均；以日為給付單位者按平均月投保薪資除以三十計算；未依規定投保者由保險人按薪資總額認定，但不高於全體被保險人平均月投保薪資等級。",
   "explain_en": "Article 28: six-month average (or actual period if shorter); daily rate = monthly average ÷ 30.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0786",
@@ -1695,10 +1695,10 @@
   "answer": "b",
   "explain_zh": "第37條：領取保險給付之請求權自得請領之日起因五年間不行使而消滅。第82條：第78至81條之津貼補助請求權亦為五年。",
   "explain_en": "Article 37: five years from the date the claim could be made; Article 82 applies the same to allowances and subsidies.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0787",
@@ -1722,10 +1722,10 @@
   "answer": "a",
   "explain_zh": "第42條：自不能工作之日起算第四日起得請領傷病給付；前二個月按平均月投保薪資發給，第三個月起按平均月投保薪資百分之七十發給，每半個月給付一次，最長以二年為限。",
   "explain_en": "Article 42: from the 4th day; full average insured salary for two months, then 70%, paid semi-monthly, up to two years.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0788",
@@ -1749,10 +1749,10 @@
   "answer": "a",
   "explain_zh": "第43條：經診斷永久失能者得請領失能一次金；失能程度符合者得請領失能年金：完全失能按平均月投保薪資百分之七十、嚴重失能百分之五十、部分失能百分之二十；請領部分失能年金期間不得同時領取同一傷病之傷病給付。第44條：眷屬補助每人加發百分之十最多百分之二十。",
   "explain_en": "Article 43: 70% / 50% / 20%; Article 44: dependent supplements of 10% each, up to 20%.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0789",
@@ -1776,10 +1776,10 @@
   "answer": "c",
   "explain_zh": "第45條：領取失能年金後保險人應至少每五年審核其失能程度（認無須審核者除外）；失能程度減輕仍符合條件者改按減輕後程度發給，減輕至不符合條件者停止年金另發失能一次金；審核應結合職能復健措施。第48條：終身無工作能力領取失能給付者逕予退保。",
   "explain_en": "Article 45: at least every five years, adjusting or converting to a lump sum as appropriate, combined with vocational rehabilitation; Article 48: permanently unable workers are withdrawn from insurance.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0790",
@@ -1803,10 +1803,10 @@
   "answer": "a",
   "explain_zh": "第51條：喪葬津貼按平均月投保薪資一次發給五個月，無遺屬者發給十個月；遺屬年金依第49條請領者按平均月投保薪資百分之五十發給，領失能年金期間死亡者按失能年金半數；遺屬一次金及遺屬津貼發給四十個月；同順序遺屬二人以上每多一人加發百分之十最多百分之二十。",
   "explain_en": "Article 51: funeral allowance 5 months (10 if no survivors); survivor pension 50% (half the disability pension if the deceased was receiving one); lump sum 40 months; +10% per additional survivor up to 20%.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0791",
@@ -1830,10 +1830,10 @@
   "answer": "d",
   "explain_zh": "第52條：順序為配偶及子女、父母、祖父母、受扶養之孫子女、受扶養之兄弟姊妹；當序遺屬存在時後順序不得請領；第一順序全部不符或死亡放棄或一年內未請領者第二順序得請領。第53條：以一人請領為限，二人以上應共同具領。",
   "explain_en": "Article 52: five ranks; later ranks excluded while an earlier rank exists; Article 53: one claimant, joint claims for multiple eligible survivors.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0792",
@@ -1857,10 +1857,10 @@
   "answer": "d",
   "explain_zh": "第55條：失蹤給付按平均月投保薪資百分之七十，於每滿三個月之期末給付一次，至生還之前一日、失蹤滿一年之前一日或受死亡宣告裁判確定死亡之前一日止；失蹤滿一年或受死亡宣告時遺屬得請領死亡給付。",
   "explain_en": "Article 55: 70%, paid every three months, until return, one year of disappearance or a death declaration, after which death benefits apply.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0793",
@@ -1884,10 +1884,10 @@
   "answer": "d",
   "explain_zh": "第58條：因不同保險事故同時請領本保險或其他社會保險年金給付時，本保險年金應考量數目金額種類及生活保障因素予以減額調整，減額比率以百分之五十為上限。第29條：同一事故同時符合多種社會保險給付條件時僅得擇一請領。",
   "explain_en": "Article 58: reduction up to 50%; Article 29: for the same event, only one social insurance benefit may be chosen.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0794",
@@ -1911,10 +1911,10 @@
   "answer": "a",
   "explain_zh": "第62條：得於年度應收保險費百分之二十及歷年經費執行賸餘額度範圍內編列經費，辦理職業災害預防、預防職業病健康檢查、職業傷病通報轉介及個案服務、職災勞工重建、捐補助職災預防及重建中心等事項。",
   "explain_en": "Article 62: 20% of annual premiums plus prior surpluses, for prevention, health checks, reporting and case services, rehabilitation, and the Prevention and Rehabilitation Center.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0795",
@@ -1938,10 +1938,10 @@
   "answer": "b",
   "explain_zh": "第64條：醫療復健（診治療養回復正常生活）、社會復健（心理支持社會適應福利諮詢權益維護）、職能復健（職能評估強化訓練復工協助）、職業重建（職業輔導評量職業訓練就業服務職務再設計創業輔導等）。涉及社福或醫療者應協調衛福主管機關。",
   "explain_en": "Article 64: medical, social, occupational (functional) and vocational rehabilitation, coordinated with health and welfare authorities where needed.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0796",
@@ -1965,10 +1965,10 @@
   "answer": "d",
   "explain_zh": "第66條：雇主或職災勞工得向中央主管機關認可之職能復健專業機構申請協助擬訂復工計畫、工作分析、功能性能力評估及強化訓練等職能復健服務；專業機構得申請補助。第67條：醫療終止後雇主應依復工計畫協助恢復原工作，無法者協議安置適當工作並提供輔助設施。",
   "explain_en": "Article 66: accredited occupational rehabilitation institutions, subsidized; Article 67: the employer must then help the worker return to the original or a suitable job with necessary aids.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0797",
@@ -1992,10 +1992,10 @@
   "answer": "a",
   "explain_zh": "第67條：應依復工計畫協助恢復原工作，無法恢復者經勞雇協議按健康狀況及能力安置適當工作；應提供必要輔助設施（器具、工作環境設備機具改善），得向地方主管機關申請補助。第95條：未協助恢復原工作或安置者處五萬元以上三十萬元以下罰鍰並限期改善。",
   "explain_en": "Article 67: return-to-work support, suitable placement and assistive facilities (subsidies available); Article 95: violation → NT$50,000–300,000 fine.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0798",
@@ -2019,10 +2019,10 @@
   "answer": "c",
   "explain_zh": "第68條：於認可開設職業傷病門診之醫療機構或認可之職能復健專業機構進行職能復健期間，得向地方主管機關請領職能復健津貼，合計最長發給一百八十日。第69條：僱用職災勞工協助復工調整職務或僱用其他單位職災勞工之事業單位得申請補助。",
   "explain_en": "Article 68: up to 180 days in total; Article 69: employers assisting return to work or hiring other units' injured workers may apply for subsidies.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0799",
@@ -2046,10 +2046,10 @@
   "answer": "d",
   "explain_zh": "第70條：中央主管機關應捐助成立財團法人職業災害預防及重建中心，捐助章程由中央主管機關定之。第71條經費來源包括第62條經費捐補助、政府捐補助、受託業務收入、基金孳息、捐贈等；第72條應建立內控稽核制度並定期查核、評鑑結果送立法院備查。",
   "explain_en": "Article 70: a foundation with a charter set by the central authority; Articles 71–72 cover funding, internal controls, audits and evaluation reported to the Legislative Yuan.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0800",
@@ -2073,10 +2073,10 @@
   "answer": "d",
   "explain_zh": "第73條：認可醫療機構辦理職業傷病門診、整合服務、區域網絡、個案管理、通報、疑似職業病實地訪視等；醫師對職業病因果關係診斷困難時得轉介認可機構；雇主、醫療機構或其他人員知悉勞工遭遇職業傷病者及勞工本人得向主管機關通報。",
   "explain_en": "Article 73: accredited hospitals run occupational injury clinics and reporting networks; employers, medical institutions, anyone aware, and the worker may report.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0801",
@@ -2100,10 +2100,10 @@
   "answer": "c",
   "explain_zh": "第75條：保險人認有必要得向中央主管機關申請職業病鑑定；被保險人對職業病給付有爭議且經認可醫療機構職醫診斷罹患職業病者，於申請審議時得請保險人逕向中央主管機關申請鑑定；中央主管機關應建置職業病鑑定專家名冊，依疾病類型遴聘委員組成鑑定會。第76條：鑑定會得會同調查，雇主勞工不得規避妨礙拒絕。",
   "explain_en": "Article 75: central authority appraisal with panels drawn from an expert roster; Article 76: investigations that employers and workers must not obstruct.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0802",
@@ -2127,10 +2127,10 @@
   "answer": "a",
   "explain_zh": "第78條：從事第63條第2項指定有害作業者於退保後經認可醫療機構職業醫學科專科醫師診斷係因保險有效期間執行職務致罹患職業病，得向保險人申請醫療補助、失能或死亡津貼，並得依第79、80條申請器具補助及照護補助。第63條：從事指定有害作業者得申請預防職業病健康檢查及健康追蹤檢查。",
   "explain_en": "Article 78: medical subsidy, disability or death allowance, plus assistive device and care subsidies under Articles 79–80; Article 63 provides preventive and follow-up health checks.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0803",
@@ -2154,10 +2154,10 @@
   "answer": "b",
   "explain_zh": "第81條：未加入本保險之勞工遭遇職業傷病致失能或死亡，得向保險人申請照護補助、失能補助或死亡補助。第101條：施行前應加保而未加保之雇主，勞工發生死亡或失能經依舊法補助者處補助金額相同額度罰鍰。",
   "explain_en": "Article 81: care, disability or death subsidies; Article 101: employers who failed to insure face a fine equal to the subsidy paid.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0804",
@@ -2181,10 +2181,10 @@
   "answer": "d",
   "explain_zh": "第84條：非有歇業或重大虧損報經主管機關核定、職災勞工經醫療終止後經評鑑合格醫院認定身心障礙不堪勝任工作、天災事變或不可抗力致事業不能繼續經營報經核定之情形，雇主不得預告終止勞動契約；預告準用勞基法。第85條：職災勞工得終止契約之情形（不堪勝任、事業單位消滅、雇主未協助復工或安置、安置未達協議）。",
   "explain_en": "Article 84: the three situations, with notice per the Labor Standards Act; Article 85 lists when the worker may terminate.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0805",
@@ -2208,10 +2208,10 @@
   "answer": "b",
   "explain_zh": "第88條：職業災害未認定前勞工得先請普通傷病假，期滿申請留職停薪者雇主應予留職停薪；經認定為職業災害者再以公傷病假處理。第95條：未予普通傷病假、留職停薪或公傷病假者處五萬元以上三十萬元以下罰鍰。",
   "explain_en": "Article 88: ordinary sick leave and unpaid leave pending confirmation, then occupational injury leave; Article 95: violation → NT$50,000–300,000.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0806",
@@ -2235,10 +2235,10 @@
   "answer": "a",
   "explain_zh": "第89條：事業單位以其事業招人承攬，就承攬人於承攬部分所使用之勞工應與承攬人連帶負職業災害補償責任，再承攬者亦同；就其所補償部分對職災勞工之雇主有求償權；補償標準依勞基法，已由雇主支付之費用得抵充。",
   "explain_en": "Article 89: joint liability with contractors and subcontractors, recourse against the employer, standards per the Labor Standards Act with offsets.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0807",
@@ -2262,10 +2262,10 @@
   "answer": "a",
   "explain_zh": "第91條：勞工因職業災害所致之損害，雇主應負賠償責任，但雇主能證明無過失者不在此限。第90條：雇主已依勞基法第59條給與補償者得於勞工領保險給付後就抵充金額請求返還；已依本法投保並繳費者，補償以平均工資與平均投保薪資之差額計算。",
   "explain_en": "Article 91: presumed liability rebuttable by proof of no fault; Article 90: offsets against Labor Standards Act compensation.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0808",
@@ -2289,10 +2289,10 @@
   "answer": "a",
   "explain_zh": "第93條：違反第86條未依勞基法或勞退條例標準期限給付退休金資遣費，或離職金低於資遣費標準或未於三十日內給付者，處三十萬元以上一百五十萬元以下罰鍰，令限期給付，屆期未給付按次處罰。第100條：受罰者應公布名稱負責人姓名處分日期字號條文事實及金額。",
   "explain_en": "Article 93: NT$300,000–1.5 million, repeatable; Article 100: penalized units are publicly named.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0809",
@@ -2316,10 +2316,10 @@
   "answer": "b",
   "explain_zh": "第92條：以詐欺或不正當行為領取保險給付津貼補助或為虛偽證明報告陳述及申報醫療費用者，按其領取金額處以二倍罰鍰；保險人或職安署得依民法請求損害賠償；涉及刑責移送司法機關；特約醫院診所因此領取之醫療費用由健保保險人在應領費用內扣除。",
   "explain_en": "Article 92: double fine, civil damages, criminal referral, and clawback of hospital payments through the NHI.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0810",
@@ -2694,10 +2694,10 @@
   "answer": "b",
   "explain_zh": "第1條：本標準依勞動基準法第四十九條第二項規定訂定之。",
   "explain_en": "Article 1: under Article 49(2) of the Labor Standards Act.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0824",
@@ -2721,10 +2721,10 @@
   "answer": "a",
   "explain_zh": "第3條：安全門及安全梯夜間工作時間內不得上鎖，通道不得堆置物品。第4條：出入口樓梯通道安全門廁所停車場等應有適當照明；第5條：應設緊急照明系統；第6條：主要人行道及安全門安全梯應有夜間足以辨識之明顯標示；第7條：空氣充分流通；第8條：提供保全、守衛或電子監視裝備。",
   "explain_en": "Article 3: unlocked and unobstructed; Articles 4–8: lighting, emergency lighting, visible signs, ventilation, and security guards or CCTV.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0825",
@@ -2748,10 +2748,10 @@
   "answer": "a",
   "explain_zh": "第9條：勞工非於雇主所能支配、管理之工作場所工作者，雇主應事前執行危害辨識、告知勞工工作環境危害因素及制定防護措施，並對勞工施以安全衛生教育及訓練，必要時提供個人防護設施。",
   "explain_en": "Article 9: prior hazard identification, disclosure, protective measures, training and PPE where necessary.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0826",
@@ -3234,10 +3234,10 @@
   "answer": "c",
   "explain_zh": "第3條：工業防火防爆技術顧問服務（防火防爆系統規劃設計施工管理性能確認）、工業通風技術顧問服務、暴露評估技術顧問服務、勞工健康顧問服務、職業安全衛生管理顧問服務五類。第5條：各申請類別分別置專職顧問人員四人以上，另置專任負責人；勞工健康顧問服務另需特約職醫至少一人。",
   "explain_en": "Article 3: five categories; Article 5: at least four full-time consultants per category plus a full-time responsible person, and a contracted occupational physician for health consulting.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0844",
@@ -3261,10 +3261,10 @@
   "answer": "b",
   "explain_zh": "第12條：認可有效期間最長三年，期滿繼續辦理者應於屆滿日前六十日至九十日期間內申請重新認可；核定得審酌服務實績、違規情形、品質查核結果。第12條之1：查核結果連續三次列丙等者不予認可，二年內不得以同名同址或同負責人再申請。",
   "explain_en": "Article 12: up to 3 years, renewal 60–90 days before expiry; Article 12-1: three consecutive grade-C audits bar renewal for two years.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0845",
@@ -3288,10 +3288,10 @@
   "answer": "b",
   "explain_zh": "第16條：應定期評估並確保顧問人員技術能力（紀錄保存三年），並使顧問人員參加講習研討會或訓練每年不得低於十二小時並登錄系統。第15條：應訂定顧問服務管理手冊，文件紀錄保存五年；第17條：臨場服務紀錄保存五年並交付事業單位；第18條：年度業務報告書於年度結束後九十日內完成保存十年。",
   "explain_en": "Article 16: 12 hours yearly; Article 15: management manual with 5-year records; Article 17: site service records 5 years; Article 18: annual report within 90 days, kept 10 years.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0846",
@@ -3315,10 +3315,10 @@
   "answer": "a",
   "explain_zh": "第19條：中央主管機關得定期查核顧問機構執行實績及品質並公開結果，區分優等、甲等、乙等及丙等；應改善者令限期改善並提書面報告；查核及認可得委託專業團體。第20條：主管機關及勞檢機構得派員查核，不得規避妨礙拒絕。",
   "explain_en": "Article 19: four grades, published, with improvement orders; Article 20: audits by authorities cannot be obstructed.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0847",
@@ -3342,10 +3342,10 @@
   "answer": "c",
   "explain_zh": "第24條：顧問人員未依規定受訓、未依規定執行或報告不實、未善盡保密責任、違反事業單位規定損及利益、離職、重複登錄、情節重大者得註銷登錄；因未受訓或執行不實註銷者三年內不得再申請登錄，因保密、損及利益或情節重大註銷者五年內不得再申請。第23條：機構經撤銷廢止認可者三年內不得申請。",
   "explain_en": "Article 24: 5 years for confidentiality/harm/serious cases; 3 years for training or reporting failures; Article 23: institutions whose accreditation is revoked wait 3 years.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0848",
@@ -3369,10 +3369,10 @@
   "answer": "a",
   "explain_zh": "第3條：事業單位管理系統建置、中小型事業單位安全衛生設備改善、調查研究諮詢服務技術輔導、工作環境改善、機械設備器具安全防護及本質安全化制度推動、教育訓練、作業環境監測及實驗室認證、危害性化學品標示及通識服務、推廣或健康促進活動、國際性會議或活動及其他認定事項；第4條：申請程序額度按年度公告。",
   "explain_en": "Article 3: eleven categories; Article 4: procedures and amounts announced annually.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0849",
@@ -3396,10 +3396,10 @@
   "answer": "b",
   "explain_zh": "第2條：對象為事業單位及有關團體，包括從事職業疾病防治教育訓練宣導設施改善管理制度建立機械本質安全化之財（社）團法人、雇主團體、勞工團體、大專校院及職災研究機構團體、認可辦理勞工健康檢查之醫療機構、其他推動職業安全衛生之團體。第5條：獎勵範圍為推動成效優良、研究發展技術推廣有具體成效者。",
   "explain_en": "Article 2: enterprises and related organizations; Article 5: rewards for outstanding promotion, research and technical dissemination.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0850",
@@ -3423,10 +3423,10 @@
   "answer": "c",
   "explain_zh": "第5條：以每二年辦理一次評核為原則。第8條：得依規模性質分組，評核結果分特優、優、良及普四個等第。第9條：良等以上頒發團體獎座並獎勵承辦人員，優等以上函報行政院表揚並得給予獎勵金。第2條：對象為經濟交通內政國防農業教育科技環保衛福等中央目的事業主管機關及直轄市縣市政府。",
   "explain_en": "Article 5: every two years; Article 8: four grades; Article 9: awards for good or above, Executive Yuan commendation and bonuses for excellent or above.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0851",
@@ -3450,10 +3450,10 @@
   "answer": "b",
   "explain_zh": "第3條：職業安全衛生策略及規劃、職業安全衛生納入相關法制之情形、執行情形及成效、績效檢討分析、督導及獎懲機制、其他安全衛生促進活動或特殊創新作為；細項由中央主管機關會商定之。第6、7條：以書面報告審查為原則並得實地查核，召開評核會議確定結果。",
   "explain_en": "Article 3: six items; Articles 6–7: document review with possible site checks and an evaluation meeting.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0852",
@@ -3477,10 +3477,10 @@
   "answer": "b",
   "explain_zh": "第3條：認可醫療機構分為勞工一般體格及健康檢查醫療機構、勞工特殊體格及健康檢查醫療機構。第4條：一般類須為健保特約機構、自備檢驗設備及X光機、聘醫師二名以上及放射師檢驗師護理人員、二年內未被撤銷認可，醫護人員應經指定課程訓練合格。",
   "explain_en": "Article 3: two types; Article 4: general-type requirements include NHI contract, equipment, two physicians plus radiographers/technologists/nurses, and trained staff.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0853",
@@ -3504,10 +3504,10 @@
   "answer": "b",
   "explain_zh": "第5條：須為一般類認可機構、具家醫內外婦產耳鼻喉骨神經泌尿眼皮膚精神職醫放射病理等四種以上診療科別並經醫院評鑑合格、自備特殊檢查設備、二年內未被撤銷；辦理指定公告特別危害健康作業檢查項目應就品質及能力取得第三者認證機構（財團法人全國認證基金會 TAF、美國病理學會 CAP、其他公告機構）之有效認證。",
   "explain_en": "Article 5: at least four listed departments with hospital accreditation, own equipment, and third-party laboratory accreditation (TAF, CAP or announced bodies) for designated items.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0854",
@@ -3531,10 +3531,10 @@
   "answer": "d",
   "explain_zh": "第7條：粉塵作業聘胸腔科或職業醫學科專科醫師；噪音作業聘耳鼻喉科或職業醫學科專科醫師且聽力檢查室背景噪音符合附表三（巡迴者需移動式聽力檢查室）；異常氣壓作業自備或租用經衛生主管機關核准登記之高壓氧設備。",
   "explain_en": "Article 7: dust → chest or occupational physician; noise → ENT or occupational physician plus compliant audiometric booth; abnormal pressure → hyperbaric oxygen equipment.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0855",
@@ -3558,10 +3558,10 @@
   "answer": "c",
   "explain_zh": "第8條、第9條：應於每年一月、四月、七月或十月檢附申請書及證明文件向當地勞工主管機關提出；第10條：地方審查後報中央核定公告並登錄系統，醫事人員或設備異動應於十五日內登錄。第11條：認可有效期間最長三年，期滿前三個月重新申請並附醫護人員在職訓練證明。",
   "explain_en": "Articles 8–9: quarterly application windows via the local labor authority; Article 10: central approval and registration; Article 11: up to 3 years, renewal 3 months before expiry.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0856",
@@ -3585,10 +3585,10 @@
   "answer": "a",
   "explain_zh": "第14條：辦理健檢之醫師及護理人員應接受職業衛生及健檢法規、健康檢查品質、健康管理及健康促進課程之在職教育訓練，每三年合計至少十小時；職業醫學科專科醫師僅需法規課程每三年至少二小時；網路學習採計不超過五小時。",
   "explain_en": "Article 14: 10 hours per 3 years on regulations, quality and health management; occupational physicians 2 hours of regulations; online up to 5 hours.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0857",
@@ -3612,10 +3612,10 @@
   "answer": "b",
   "explain_zh": "第16條：特殊體格及健康檢查認可醫療機構辦理特別危害健康作業定期健康檢查管理分級之判讀應由職業醫學科專科醫師為之。第17條：檢查應由所聘僱且執業登記於該機構之醫事人員為之，聽力師及分級判讀醫師得事先報准至該機構辦理；血中鉛尿中鉛尿中鎳砷鎘汞鉻銦等項目得委託指定機構檢驗，其他不得委託；不得無正當理由拒絕勞工。",
   "explain_en": "Article 16: occupational medicine specialists only; Article 17: exams by the institution's own registered staff, with specific biomarker items outsourceable to designated labs.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0858",
@@ -3639,10 +3639,10 @@
   "answer": "d",
   "explain_zh": "第18條：品質及管理計畫內容包括組織權責、檢查場所標示安全及隱私保護、醫事人員教育訓練、儀器設備及實驗室管理、執行程序、結果處理程序、報告及紀錄管理等，文件紀錄至少保存三年。第19條：檢查結果應依公告內容方式期限通報。第21條：中央得會同衛福部訪查並公開結果。",
   "explain_en": "Article 18: plan covering organization, privacy, staff training, equipment, procedures and records, kept 3 years; Article 19: results reported per announced format and deadline.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0859",
@@ -3666,10 +3666,10 @@
   "answer": "d",
   "explain_zh": "第24條：情節重大者（一年內二次限期改正未改、一年內受罰鍰二次以上、通報不實、詐欺侵占背信經起訴判決、停止業務仍繼續辦理等）得撤銷廢止認可或定期停止業務；經撤銷廢止後二年內以同一名稱或同一地點申請，或負責人以不同機構負責人申請者不予認可。",
   "explain_en": "Article 24: revocation for serious cases (repeated non-correction, two fines in a year, false reports, fraud, continuing while suspended); two-year bar on re-application by the same name, address or responsible person.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0860",
@@ -3693,10 +3693,10 @@
   "answer": "d",
   "explain_zh": "要點第3點：特定檢查項目指血中鉛、尿中鉛、尿中鎳、尿中無機砷、尿中鎘、血中汞、尿中汞、尿中鉻、血清銦及其他經勞動部指定公告之項目；第三者認證機構指認可辦法第5條第3項所定機構。",
   "explain_en": "Point 3: the listed biomarkers plus other items designated by the MOL.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0861",
@@ -3720,10 +3720,10 @@
   "answer": "b",
   "explain_zh": "第4點：有固定地址之醫療機構或醫事檢驗所並具必要檢驗儀器設備、具醫事檢驗師（生）證照之人員、取得第三者認證機構之有效認證。第6點：指定有效期間與認證有效期間相同，屆滿前九十日重新申請。第7點：應自行辦理不得委託，紀錄保存三年。",
   "explain_en": "Point 4: the three requirements; Point 6: designation runs with the accreditation, renewal 90 days before expiry; Point 7: no subcontracting, records 3 years.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0862",
@@ -3747,10 +3747,10 @@
   "answer": "c",
   "explain_zh": "第10點：停業歇業、遷移或儀器問題無法運作、人員異動不符資格、認證被暫時終止減列終止撤銷等情形，應於事實發生後三十日內申請停止全部或一部業務或廢止指定；停止期間最長一年，期間不得辦理；屆滿前三十日申請繼續辦理。第11點：屆期未改善、文件不實、不符資格等得撤銷廢止指定或定期停止業務。",
   "explain_en": "Point 10: apply within 30 days; suspension up to one year, with an application to resume 30 days before it ends; Point 11: revocation for uncorrected or false cases.",
-  "status": "archived",
+  "status": "draft",
   "batch": 5,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0863",

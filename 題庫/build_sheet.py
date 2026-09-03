@@ -80,7 +80,9 @@ LAW_VER = {k: (v[2] or law_version_from_text(v[0])) for k, v in LAWS.items()}
 # 使用者指定納入遊戲之職安法規（2026-09-03）；其他職安法規之題目保留但 status=archived，Laws 權重 0
 SCOPE_OSH = {"OSH-01","OSH-02","OSH-09","OSH-11","OSH-10","OSH-07","OSH-36","OSH-20","OSH-17","OSH-15",
              "OSH-14","OSH-16","OSH-03","OSH-04","OSH-25","OSH-23","OSH-22","OSH-08","OSH-12","OSH-34","OSH-18","OSH-37","OSH-38","OSH-39","OSH-40","OSH-41","OSH-42","OSH-43","OSH-44","OSH-45","OSH-46","OSH-47","OSH-48","OSH-49","OSH-50"}
-def in_scope(lid): return lid.startswith("ENV") or lid in SCOPE_OSH
+def in_scope(lid):
+    if lid.startswith("ENV"): return True
+    i=int(lid[4:]); return i<=len(OSH_LAWS) and OSH_LAWS[i-1][3]>0
 LAW_NAME = {k: v[0] for k, v in LAWS.items()}
 
 # 批次 → 模組清單（依序編號）
@@ -91,6 +93,7 @@ BATCHES = {
  4: ["batch4_a", "batch4_b", "batch4_c", "batch4_d"],
  5: ["batch5_a", "batch5_b", "batch5_c", "batch5_d"],
  6: ["batch6_a", "batch6_b", "batch6_c", "batch6_d", "batch6_e"],
+ 7: ["batch7_a", "batch7_b", "batch7_c", "batch7_d"],
 }
 
 # ---------- Laws 主檔（沿用批次 1 清單，另加 OSH-36 營造標準） ----------
@@ -120,14 +123,14 @@ OSH_LAWS = [
  ("工業用機器人危害預防標準","Standards for Prevention of Industrial Robot Hazards","N0060007",1),
  ("職業安全衛生標示設置準則","Guidelines for Installation of Occupational Safety and Health Signs","N0060013",2),
  ("勞動檢查法第二十八條所定勞工有立即發生危險之虞認定標準","Standards for Identifying Imminent Danger under Article 28 of the Labor Inspection Act","N0080009",2),
- ("推行職業安全衛生優良單位及人員選拔作業要點","Directions for Selection of Outstanding OSH Units and Personnel","",0),
+ ("推行職業安全衛生優良單位及人員選拔作業要點","Directions for Selection of Outstanding OSH Units and Personnel","",1),
  ("違反職業安全衛生法及勞動檢查法案件處理要點","Directions for Handling Violations of the OSH Act and Labor Inspection Act","",1),
  ("勞動部重大災害通報及檢查處理要點","MOL Directions for Major Accident Notification and Inspection","",1),
- ("職業安全衛生顧問服務機構與其顧問服務人員之認可及管理規則","Rules for Accreditation and Management of OSH Consulting Institutions","N0060054",0),
- ("政府機關推動職業安全衛生業務績效評核及獎勵辦法","Regulations for Performance Evaluation and Rewards of Government OSH Promotion","N0060061",0),
- ("促進職業安全衛生文化獎勵及補助辦法","Regulations for Rewards and Subsidies to Promote OSH Culture","N0060055",0),
+ ("職業安全衛生顧問服務機構與其顧問服務人員之認可及管理規則","Rules for Accreditation and Management of OSH Consulting Institutions","N0060054",1),
+ ("政府機關推動職業安全衛生業務績效評核及獎勵辦法","Regulations for Performance Evaluation and Rewards of Government OSH Promotion","N0060061",1),
+ ("促進職業安全衛生文化獎勵及補助辦法","Regulations for Rewards and Subsidies to Promote OSH Culture","N0060055",1),
  ("製程安全評估定期實施辦法","Regulations for Periodic Process Safety Assessment","N0060050",1),
- ("勞工體格與健康檢查特定檢查項目檢驗機構指定及管理作業要點","Directions for Designation of Laboratories for Specific Health Examination Items","",0),
+ ("勞工體格與健康檢查特定檢查項目檢驗機構指定及管理作業要點","Directions for Designation of Laboratories for Specific Health Examination Items","",1),
  ("缺氧症預防規則","Rules for Prevention of Hypoxia","N0060010",3),
  ("勞工職業災害保險及保護法","Labor Occupational Accident Insurance and Protection Act","N0060072",2),
  ("營造安全衛生設施標準","Construction Safety and Health Facilities Standards","N0060014",3),
@@ -145,6 +148,52 @@ OSH_LAWS = [
  ("勞動基準法","Labor Standards Act","N0030001",1),
  ("勞動基準法施行細則","Enforcement Rules of the Labor Standards Act","N0030002",1),
  ("特定化學物質危害預防標準","Standards for Prevention of Hazards from Specified Chemical Substances","N0060015",1),
+ ("勞工作業場所容許暴露標準","Standards of Permissible Exposure Limits at Job Sites","N0060004",3),
+ ("勞工作業環境監測實施辦法","Regulations Governing Workplace Environment Monitoring","N0060033",3),
+ ("危險性機械及設備安全檢查規則","Safety Inspection Rules for Dangerous Machinery and Equipment","N0060039",2),
+ ("既有危險性機械及設備安全檢查規則","Safety Inspection Rules for Existing Dangerous Machinery and Equipment","N0060053",1),
+ ("職場霸凌防治措施準則","Guidelines for Workplace Bullying Prevention Measures","N0060085",3),
+ ("地方主管機關受理最高負責人職場霸凌事件申訴處理辦法","Regulations for Local Authorities Handling Bullying Complaints against Top Executives","N0060086",1),
+ ("工程安全設計及整體工程統合管理辦法","Regulations on Engineering Safety Design and Integrated Project Management","N0060088",2),
+ ("新化學物質登記管理辦法","Regulations on Registration of New Chemical Substances","N0060069",1),
+ ("管制性化學品之指定及運作許可管理辦法","Regulations on Designation and Operating Permits of Controlled Chemicals","N0060068",1),
+ ("優先管理化學品之指定及運作管理辦法","Regulations on Designation and Operation Management of Priority Management Chemicals","N0060064",1),
+ ("機械設備器具安全資訊申報登錄辦法","Regulations on Safety Information Registration of Machinery, Equipment and Tools","N0060056",1),
+ ("機械設備器具監督管理辦法","Regulations on Supervision and Management of Machinery, Equipment and Tools","N0060063",1),
+ ("機械類產品型式驗證實施及監督管理辦法","Regulations on Type Certification of Machinery Products","N0060062",1),
+ ("機械類產品申請先行放行辦法","Regulations on Advance Release of Machinery Products","N0060057",1),
+ ("機械類產品申請免驗證辦法","Regulations on Exemption from Certification of Machinery Products","N0060059",1),
+ ("構造規格特殊產品安全評估報告及檢驗辦法","Regulations on Safety Assessment Reports for Products of Special Construction","N0060060",1),
+ ("安全標示與驗證合格標章使用及管理辦法","Regulations on Use of Safety Labels and Certification Marks","N0060058",1),
+ ("固定式起重機安全檢查構造標準","Construction Standards for Safety Inspection of Fixed Cranes","N0070022",1),
+ ("移動式起重機安全檢查構造標準","Construction Standards for Safety Inspection of Mobile Cranes","N0070021",1),
+ ("升降機安全檢查構造標準","Construction Standards for Safety Inspection of Lifts","N0070017",1),
+ ("吊籠安全檢查構造標準","Construction Standards for Safety Inspection of Gondolas","N0070023",1),
+ ("壓力容器安全檢查構造標準","Construction Standards for Safety Inspection of Pressure Vessels","N0060055",1),
+ ("林場安全衛生設施規則","Forestry Safety and Health Facilities Rules","N0060005",1),
+ ("礦場職業衛生設施標準","Mine Occupational Health Facilities Standards","N0060003",1),
+ ("船舶清艙解體職業安全規則","Occupational Safety Rules for Ship Tank Cleaning and Breaking","N0060031",1),
+ ("勞工健康服務專業機構管理規則","Rules for Management of Labor Health Service Institutions","N0060087",1),
+ ("勞工職業災害保險預防職業病健康檢查及健康追蹤檢查辦法","Regulations on Preventive Occupational Disease Health Examinations under Occupational Accident Insurance","N0060077",1),
+ ("勞工職業災害保險職業病鑑定作業實施辦法","Regulations on Occupational Disease Determination under Occupational Accident Insurance","N0060080",1),
+ ("職業災害勞工補助及核發辦法","Regulations on Subsidies for Workers with Occupational Accidents","N0060073",1),
+ ("職業災害勞工申請器具照護失能及死亡補助辦法","Regulations on Aids, Care, Disability and Death Subsidies for Occupational Accident Workers","N0060076",1),
+ ("職業災害勞工職業重建補助辦法","Regulations on Vocational Rehabilitation Subsidies for Occupational Accident Workers","N0060075",1),
+ ("職業災害勞工職能復健專業機構認可管理及補助辦法","Regulations on Accreditation of Occupational Rehabilitation Institutions","N0060082",1),
+ ("職業災害預防及職業災害勞工重建補助辦法","Regulations on Subsidies for Occupational Accident Prevention and Worker Rehabilitation","N0060081",1),
+ ("職業災害預防補助辦法","Regulations on Occupational Accident Prevention Subsidies","N0060049",1),
+ ("職業傷病診治醫療機構認可管理補助及職業傷病通報辦法","Regulations on Accreditation of Occupational Injury and Disease Medical Institutions and Notification","N0060083",1),
+ ("直轄市及縣市政府辦理協助職業災害勞工重返職場補助辦法","Regulations on Local Government Subsidies for Return-to-Work of Occupational Accident Workers","N0060079",1),
+ ("財團法人職業災害預防及重建中心監督及管理辦法","Regulations on Supervision of the Occupational Accident Prevention and Rehabilitation Center","N0060078",1),
+ ("危險性機械或設備代行檢查機構管理規則","Rules for Management of Designated Inspection Agencies for Dangerous Machinery and Equipment","N0070018",1),
+ ("勞動檢查員遴用及專業訓練辦法","Regulations on Recruitment and Training of Labor Inspectors","N0070006",1),
+ ("勞動檢查員執行職務迴避辦法","Regulations on Recusal of Labor Inspectors","N0070005",1),
+ ("直轄市勞動檢查機構組織準則","Organizational Guidelines for Municipal Labor Inspection Agencies","N0000014",0),
+ ("危險性機械及設備檢查費收費標準","Fee Standards for Inspection of Dangerous Machinery and Equipment","N0070020",0),
+ ("產品安全資訊申報登錄及型式驗證規費收費標準","Fee Standards for Safety Information Registration and Type Certification","N0060067",0),
+ ("管制性化學品許可申請收費標準","Fee Standards for Controlled Chemical Permit Applications","N0060072",0),
+ ("辦理勞工體格與健康檢查醫療機構認可審查收費標準","Fee Standards for Accreditation Review of Health Examination Institutions","N0060074",0),
+ ("職業安全衛生顧問服務機構審查收費標準","Fee Standards for Review of OSH Consulting Institutions","N0060084",0),
 ]
 ENV_LAWS = [
  ("空氣污染防制法","Air Pollution Control Act","O0020001",3,1),
@@ -172,7 +221,88 @@ ENV_LAWS = [
  ("環境教育法","Environmental Education Act","O0120001",1,3),
  ("資源循環推動法","Resource Circulation Promotion Act","O0050049",1,3),
  ("公害糾紛處理法","Public Nuisance Dispute Mediation Act","O0100002",1,3),
+ ('空氣污染防制專責單位或專責人員設置及管理辦法','Regulations on Air Pollution Control Dedicated Units and Personnel','O0020106',2,1),
+ ('固定污染源空氣污染物排放標準','Stationary Source Air Pollutant Emission Standards','O0020006',2,1),
+ ('空氣品質標準','Air Quality Standards','O0020007',2,1),
+ ('空氣品質嚴重惡化警告發布及緊急防制辦法','Regulations on Severe Air Quality Deterioration Warnings and Emergency Control','O0020015',1,1),
+ ('室內空氣品質管理法','Indoor Air Quality Management Act','O0130001',2,1),
+ ('室內空氣品質標準','Indoor Air Quality Standards','O0130005',1,1),
+ ('固定污染源設置操作及燃料使用許可證管理辦法','Regulations on Stationary Source Installation, Operation and Fuel Use Permits','O0020012',1,1),
+ ('空氣污染防制費收費辦法','Regulations on Air Pollution Control Fees','O0020027',1,1),
+ ('揮發性有機物空氣污染管制及排放標準','VOC Air Pollution Control and Emission Standards','O0020030',1,1),
+ ('鍋爐空氣污染物排放標準','Boiler Air Pollutant Emission Standards','O0020113',1,1),
+ ('汽車停車怠速管理辦法','Regulations on Vehicle Idling Management','O0020086',1,1),
+ ('空氣污染行為管制執行準則','Guidelines for Enforcement of Air Pollution Behavior Control','O0020036',1,1),
+ ('空氣品質監測站設置及監測準則','Guidelines for Air Quality Monitoring Station Siting and Monitoring','O0020121',1,1),
+ ('噪音管制法施行細則','Enforcement Rules of the Noise Control Act','O0030002',1,1),
+ ('環境音量標準','Environmental Noise Standards','O0030014',2,1),
+ ('噪音管制區劃定作業準則','Guidelines for Designating Noise Control Zones','O0030016',1,1),
+ ('易發生噪音設施設置及操作許可辦法','Regulations on Permits for Noise-Prone Facilities','O0030007',1,1),
+ ('機動車輛噪音管制標準','Motor Vehicle Noise Control Standards','O0030013',1,1),
+ ('水污染防治法施行細則','Enforcement Rules of the Water Pollution Control Act','O0040002',1,1),
+ ('地面水體分類及水質標準','Surface Water Classification and Quality Standards','O0040005',1,1),
+ ('廢（污）水處理專責單位或人員設置及管理辦法','Regulations on Wastewater Treatment Dedicated Units and Personnel','O0040070',2,1),
+ ('水污染防治措施計畫及許可申請審查管理辦法','Regulations on Water Pollution Control Plans and Permit Review','O0040055',1,1),
+ ('事業或污水下水道系統排放廢（污）水緊急應變辦法','Regulations on Emergency Response for Wastewater Discharge','O0040049',1,1),
+ ('飲用水管理條例','Drinking Water Management Act','O0040010',1,1),
+ ('飲用水水質標準','Drinking Water Quality Standards','O0040019',1,1),
+ ('土壤處理標準','Soil Treatment Standards','O0040031',1,1),
+ ('廢棄物清理法施行細則','Enforcement Rules of the Waste Disposal Act','O0050036',1,1),
+ ('有害事業廢棄物認定標準','Standards for Defining Hazardous Industrial Waste','O0050023',2,1),
+ ('公民營廢棄物清除處理機構許可管理辦法','Regulations on Permits for Public and Private Waste Clearance and Disposal Organizations','O0050039',2,1),
+ ('事業廢棄物清理計畫書審查管理辦法','Regulations on Review of Industrial Waste Disposal Plans','O0050084',1,1),
+ ('廢棄物清理專業技術人員管理辦法','Regulations on Waste Disposal Professional Technicians','O0050053',1,1),
+ ('一般廢棄物回收清除處理辦法','Regulations on General Waste Recycling, Clearance and Disposal','O0050024',1,1),
+ ('應回收廢棄物責任業者管理辦法','Regulations on Responsible Enterprises for Recyclable Waste','O0050062',1,1),
+ ('事業委託清理之相當注意義務認定準則','Guidelines on Due Care in Entrusting Waste Disposal','O0050085',1,1),
+ ('環境部事業廢棄物再利用管理辦法','MOENV Regulations on Industrial Waste Reuse','O0050082',1,1),
+ ('共通性事業廢棄物再利用管理辦法','Regulations on Reuse of Common Industrial Waste','O0050086',1,1),
+ ('資源回收再利用法施行細則','Enforcement Rules of the Resource Recycling Act','O0050076',1,1),
+ ('環境影響評估法施行細則','Enforcement Rules of the Environmental Impact Assessment Act','O0090002',1,1),
+ ('開發行為應實施環境影響評估細目及範圍認定標準','Standards for Determining Development Activities Requiring EIA','O0090012',2,1),
+ ('開發行為環境影響評估作業準則','Guidelines for EIA of Development Activities','O0090003',1,1),
+ ('政府政策環境影響評估作業辦法','Regulations on Strategic Environmental Assessment of Government Policies','O0090029',1,1),
+ ('毒性及關注化學物質管理法施行細則','Enforcement Rules of the Toxic and Concerned Chemical Substances Control Act','O0060013',1,2),
+ ('毒性及關注化學物質危害預防及應變計畫作業辦法','Regulations on Hazard Prevention and Response Plans for Toxic and Concerned Chemicals','O0060035',2,2),
+ ('毒性及關注化學物質專業技術管理人員設置及管理辦法','Regulations on Professional Technical Managers for Toxic and Concerned Chemicals','O0060046',2,2),
+ ('毒性及關注化學物質標示與安全資料表管理辦法','Regulations on Labeling and SDS for Toxic and Concerned Chemicals','O0060037',1,2),
+ ('毒性及關注化學物質運送管理辦法','Regulations on Transport of Toxic and Concerned Chemicals','O0060015',1,2),
+ ('毒性及關注化學物質許可登記核可管理辦法','Regulations on Permits, Registration and Approval of Toxic and Concerned Chemicals','O0060038',1,2),
+ ('毒性及關注化學物質運作與釋放量紀錄管理辦法','Regulations on Operation and Release Records of Toxic and Concerned Chemicals','O0060039',1,2),
+ ('毒性及關注化學物質應變器材與偵測警報設備管理辦法','Regulations on Response Equipment and Detection Alarms for Toxic and Concerned Chemicals','O0060036',1,2),
+ ('新化學物質及既有化學物質資料登錄辦法','Regulations on Registration of New and Existing Chemical Substances','O0060043',1,2),
+ ('環境用藥管理法','Environmental Agents Control Act','O0060001',1,2),
+ ('土壤及地下水污染整治法施行細則','Enforcement Rules of the Soil and Groundwater Pollution Remediation Act','O0110002',1,2),
+ ('土壤污染管制標準','Soil Pollution Control Standards','O0110005',2,2),
+ ('地下水污染管制標準','Groundwater Pollution Control Standards','O0110006',2,2),
+ ('土壤污染監測標準','Soil Pollution Monitoring Standards','O0110012',1,2),
+ ('地下水污染監測標準','Groundwater Pollution Monitoring Standards','O0110013',1,2),
+ ('土壤及地下水污染場址初步評估暨處理等級評定辦法','Regulations on Preliminary Assessment and Grading of Contaminated Sites','O0110022',1,2),
+ ('防止貯存系統污染地下水體設施及監測設備設置管理辦法','Regulations on Storage System Groundwater Protection Facilities and Monitoring','O0110010',1,2),
+ ('氣候變遷因應法施行細則','Enforcement Rules of the Climate Change Response Act','O0020103',1,3),
+ ('溫室氣體排放量盤查登錄及查驗管理辦法','Regulations on GHG Emission Inventory, Registration and Verification','O0020102',2,3),
+ ('碳費收費辦法','Carbon Fee Collection Regulations','O0020139',2,3),
+ ('自主減量計畫管理辦法','Regulations on Voluntary Reduction Plans','O0020140',1,3),
+ ('溫室氣體減量額度交易拍賣及移轉管理辦法','Regulations on Trading, Auction and Transfer of GHG Reduction Credits','O0020138',1,3),
+ ('溫室氣體自願減量專案管理辦法','Regulations on Voluntary GHG Reduction Projects','O0020137',1,3),
+ ('溫室氣體排放量增量抵換管理辦法','Regulations on Offsetting Incremental GHG Emissions','O0020136',1,3),
+ ('自願性產品碳足跡核定標示及管理辦法','Regulations on Voluntary Product Carbon Footprint Labeling','O0020142',1,3),
+ ('環境教育法施行細則','Enforcement Rules of the Environmental Education Act','O0120002',1,3),
+ ('環境講習執行辦法','Regulations on Environmental Lectures','O0120010',1,3),
+ ('環境教育人員認證及管理辦法','Regulations on Certification of Environmental Education Personnel','O0120006',1,3),
+ ('公害糾紛處理法施行細則','Enforcement Rules of the Public Nuisance Dispute Mediation Act','O0080002',1,3),
+ ('環境保護專責及技術人員訓練管理辦法','Regulations on Training of Environmental Protection Dedicated and Technical Personnel','O0100006',2,3),
+ ('環境檢驗測定機構管理辦法','Regulations on Environmental Testing Organizations','O0070001',1,3),
 ]
+
+for _i,(_zh,_en,_code,_w) in enumerate(OSH_LAWS, start=1):
+    LAWS.setdefault(f"OSH-{_i:02d}", (_zh,_en,"",_code))
+for _i,(_zh,_en,_code,_w,_t) in enumerate(ENV_LAWS, start=1):
+    LAWS.setdefault(f"ENV-{_i:02d}", (_zh,_en,"",_code))
+LAW_NAME = {k: v[0] for k, v in LAWS.items()}
+LAW_VER = {k: (v[2] or law_version_from_text(v[0])) for k, v in LAWS.items()}
+LAW_EN = {k: v[1] for k, v in LAWS.items()}
+LAW_CODE = {k: v[3] for k, v in LAWS.items()}
 
 PCODES = {}
 try:
@@ -191,7 +321,7 @@ def build_laws():
     rows = [["law_id","group","tier","name_zh","name_en","law_version","source_url","weight","note"]]
     for i,(zh,en,pcode,w) in enumerate(OSH_LAWS, start=1):
         lid = f"OSH-{i:02d}"; code = PCODES.get(zh) or ""
-        tier = 1 if (1<=i<=17 or i>=34) else (2 if i<=25 else 3)
+        tier = 1 if (1<=i<=17 or 34<=i<=50) else (2 if (i<=25 or i>=51) else 3)
         rows.append([lid,"OSH",tier,zh,en,LAW_VER.get(lid) or law_version_from_text(zh),law_url(code),(w if in_scope(lid) else 0),("" if in_scope(lid) else "不在指定範圍，暫不使用")])
     for i,(zh,en,pcode,w,tier) in enumerate(ENV_LAWS, start=1):
         lid = f"ENV-{i:02d}"; code = PCODES.get(zh) or ""
@@ -249,6 +379,7 @@ CHANGELOG = [
  ["2026-09-03","OSH-07","民國115年6月30日","建立批次2：職業安全衛生設施規則（115/7/1 施行，部分條文 116/1/1）","batch=2 之 OSH-07","初版 draft，待審","Claude Code"],
  ["2026-09-03","OSH-36","民國115年6月30日","建立批次2：營造安全衛生設施標準（第11條之2 自 116/7/1 施行）；Laws 分頁新增 OSH-36","batch=2 之 OSH-36","初版 draft，待審","Claude Code"],
  ["2026-09-03","OSH-13","民國111年5月11日","建立批次2：機械設備器具安全標準；Laws 分頁 OSH-13 來源網址修正為 N0060034","batch=2 之 OSH-13","初版 draft，待審","Claude Code"],
+ ["2026-09-03","OSH-51..96, ENV-26..97","見各題 law_version","依全國法規資料庫「職業安全衛生目／勞動檢查目／環境部各目」總表補齊：新增 46 部職安法規、72 部環保子法（原文已抓齊）；批次7 起建立題目（霸凌準則、工程安全設計、容許暴露、環測、危險性機械設備檢查、化學品三辦法、機械產品申報登錄／型式驗證、健康服務機構、職業病鑑定、職災補助…）","batch=7","初版 draft，待審","Claude Code"],
  ["2026-09-03","OSH-39,40,42,43,44,45,46,47,48,49,50","見各題 law_version","建立批次6：鉛、四烷基鉛、有機溶劑、特定化學物質、粉塵、化學品評估分級、鍋爐壓力容器、起重升降機具、碼頭裝卸、勞動基準法及施行細則（使用者 2026-09-03 增列之職安範圍）","batch=6","初版 draft，待審","Claude Code"],
  ["2026-09-03","OSH-03,04,35,22,20,21,16,17,23,25,29,31,30,19,27,26,33,28","見各題 law_version","建立批次5：勞動檢查法系（含施行細則、立即危險認定標準、違反案件處理要點、重大災害通報要點、優良單位選拔要點）、勞工職業災害保險及保護法、母性健康保護、妊娠及未滿十八歲禁止工作認定標準、女性夜間、精密、重體力、工業用機器人、顧問機構、文化獎勵、績效評核、健檢醫療機構認可、檢驗機構要點；Laws 分頁全部 61 部法規版本日期改由條文檔自動帶入","batch=5","初版 draft，待審","Claude Code"],
  ["2026-09-03","OSH-09,11,10,08,32","見各題 law_version","建立批次4：職業安全衛生管理辦法（115/6/29）、教育訓練規則（115/6/25）、勞工健康保護規則（115/6/26）、危險性工作場所審查及檢查辦法（109/7/17）、製程安全評估定期實施辦法（109/7/17）","batch=4","初版 draft，待審","Claude Code"],

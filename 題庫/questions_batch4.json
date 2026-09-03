@@ -4206,10 +4206,10 @@
   "answer": "b",
   "explain_zh": "第1條：本辦法依職業安全衛生法第十五條第三項規定訂定之。",
   "explain_en": "Article 1: under Article 15(3) of the OSH Act.",
-  "status": "archived",
+  "status": "draft",
   "batch": 4,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0691",
@@ -4233,10 +4233,10 @@
   "answer": "b",
   "explain_zh": "第2條：適用於勞檢法第26條第1項第1款石油裂解之石化工作場所，及第5款製造處置使用危險物及有害物達勞動檢查法施行細則附表一及附表二規定數量之工作場所。",
   "explain_en": "Article 2: the two workplace types under Labor Inspection Act Article 26(1)(1) and (5).",
-  "status": "archived",
+  "status": "draft",
   "batch": 4,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0692",
@@ -4260,10 +4260,10 @@
   "answer": "b",
   "explain_zh": "第3條：製程安全評估指利用結構化、系統化方式，辨識、分析工作場所潛在危害，而採取必要預防措施之評估；製程修改指既有安全防護措施未能控制新潛在危害之製程化學品技術設備操作程序或規模之變更。",
   "explain_en": "Article 3: structured, systematic hazard identification and analysis with precautions; 'process modification' is a change existing safeguards cannot control.",
-  "status": "archived",
+  "status": "draft",
   "batch": 4,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0693",
@@ -4287,10 +4287,10 @@
   "answer": "c",
   "explain_zh": "第4條：應每五年就製程安全資訊（附表一）及製程危害控制措施（附表二）實施製程安全評估，記錄過程及結果並製作評估報告及採取預防措施；製程修改時亦適用。",
   "explain_en": "Article 4: every five years, covering process safety information and process hazard controls, with a report and precautions; also on process modification.",
-  "status": "archived",
+  "status": "draft",
   "batch": 4,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0694",
@@ -4314,10 +4314,10 @@
   "answer": "b",
   "explain_zh": "第4條第2項：評估報告包括評估過程文件及結果、勞工參與、標準作業程序、教育訓練、承攬管理、啟動前安全檢查、機械完整性、動火許可、變更管理、事故調查、緊急應變、符合性稽核、商業機密（附表三至十四）。",
   "explain_en": "Article 4(2): the twelve process safety management elements (Annexes 3–14) plus assessment documents and results.",
-  "status": "archived",
+  "status": "draft",
   "batch": 4,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0695",
@@ -4341,10 +4341,10 @@
   "answer": "a",
   "explain_zh": "第5條：如果-結果分析、檢核表、如果-結果分析／檢核表、危害及可操作性分析（HazOp）、失誤模式及影響分析（FMEA）、故障樹分析（FTA）、其他經中央主管機關認可具同等功能之方法，應使用一種以上。",
   "explain_en": "Article 5: what-if, checklist, what-if/checklist, HAZOP, FMEA, FTA, or other approved equivalent methods.",
-  "status": "archived",
+  "status": "draft",
   "batch": 4,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0696",
@@ -4368,10 +4368,10 @@
   "answer": "c",
   "explain_zh": "第5條所列方法為如果-結果分析、檢核表、如果-結果分析／檢核表、危害及可操作性分析、失誤模式及影響分析、故障樹分析及其他經認可之同等方法；魚骨圖並未列入。",
   "explain_en": "Article 5 lists what-if, checklist, what-if/checklist, HAZOP, FMEA and FTA; the fishbone diagram is not listed.",
-  "status": "archived",
+  "status": "draft",
   "batch": 4,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0697",
@@ -4395,10 +4395,10 @@
   "answer": "b",
   "explain_zh": "第7條：工作場所負責人、製程安全評估人員（受訓或具能力經認可）、依管理辦法設置之職業安全衛生人員、工作場所作業主管、熟悉該場所作業之勞工；未置評估人員者得以完成訓練之工業安全技師及化工／職業衛生／機械／電機技師之一任之。",
   "explain_en": "Article 7: the five listed; alternative assessors are trained industrial safety engineers with chemical/hygiene/mechanical/electrical engineers.",
-  "status": "archived",
+  "status": "draft",
   "batch": 4,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0698",
@@ -4422,10 +4422,10 @@
   "answer": "d",
   "explain_zh": "第8條：應於五年期間屆滿日之三十日前或製程修改日之三十日前，填具製程安全評估報備書（附表十五）並檢附評估報告報請勞動檢查機構備查；報告應登錄於指定資訊網站；評估過程資料得留存備查。第9條：內容不完備者得限期補正。",
   "explain_en": "Article 8: 30 days before, with the Annex 15 filing form, registered online; Article 9: incomplete reports may be ordered corrected.",
-  "status": "archived",
+  "status": "draft",
   "batch": 4,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0699",
@@ -4449,10 +4449,10 @@
   "answer": "a",
   "explain_zh": "第6條：自依本辦法完成製程安全評估並報經勞動檢查機構備查之日、本辦法施行前依危險性工作場所審查及檢查辦法審查合格取得合格之日、或施行前完成製程安全重新評估之日起算。",
   "explain_en": "Article 6: from filing of the completed assessment, or from prior approval or re-assessment under the dangerous workplace regulations.",
-  "status": "archived",
+  "status": "draft",
   "batch": 4,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0700",
@@ -4476,10 +4476,10 @@
   "answer": "c",
   "explain_zh": "第10條：發生職安法第37條第2項之職業災害、火災、爆炸、有害氣體洩漏、其他認有製程風險之情形時，應檢討並修正評估報告後留存備查；勞動檢查機構得請說明並邀請專家學者建議。",
   "explain_en": "Article 10: after reportable accidents, fires, explosions, gas leaks or other process risks; the agency may request explanations and expert advice.",
-  "status": "archived",
+  "status": "draft",
   "batch": 4,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0701",
@@ -4503,10 +4503,10 @@
   "answer": "b",
   "explain_zh": "第11條：本辦法自中華民國一百零四年一月一日施行；修正條文自發布日施行（最近修正 109 年 7 月 17 日）。",
   "explain_en": "Article 11: effective 1 January ROC 104 (2015); amendments effective on promulgation, most recently 17 July 2020.",
-  "status": "archived",
+  "status": "draft",
   "batch": 4,
   "reviewer": "",
-  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
+  "review_note": ""
  },
  {
   "id": "Q0702",
