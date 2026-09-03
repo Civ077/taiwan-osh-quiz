@@ -22,7 +22,7 @@
 |---|---|
 | 前端 | https://civ077.github.io/taiwan-osh-quiz/ （GitHub Pages，來源 `docs/`） |
 | 題庫 API | 已部署 GAS v1：https://script.google.com/macros/s/AKfycbw8GLA29GyEC4hLyXCZoaRBrG3mgJl389Tye47b8XARo-2fKs3rY6Jbfcm6Uxe0ewDM/exec （`?ping=1` 測試、`?status=all` 含 draft）；程式在 `gas/Code.gs`，更新步驟見 `gas/部署清單_照著做.md` |
-| 對戰 / 記名排行 | 待 Firebase 專案建立 |
+| Firebase | 專案 `taiwan-osh-quiz`（Spark 免費）：Realtime Database（asia-southeast1）＋匿名登入已啟用；設定在 `docs/firebase-config.js`，規則在 `firebase/database.rules.json`（`firebase deploy --only database`）。對戰與記名排行榜前端待接 |
 
 ## 資料夾
 
