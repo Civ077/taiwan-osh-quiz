@@ -56,7 +56,9 @@ def blank_tail(sheet, first_row, last_row, ncols):
     """把 first_row..last_row 以空字串覆寫（雲端 GAS 仍是 v3、沒有 clear_from 時用來清掉多餘舊列）"""
     if last_row < first_row:
         return {"ok": True, "skipped": "nothing to blank"}
-    tsv = NL.join(TAB.join([""] * ncols) for _ in range(last_row - first_row + 1))
+    lines = [TAB.join([""] * ncols) for _ in range(last_row - first_row + 1)]
+    lines[-1] = TAB.join([""] * (ncols - 1) + ["（以上為空白列，可整段刪除）"])   # range 模式會丟掉尾端全空列，最後一列放標記
+    tsv = NL.join(lines)
     return post({"token": token(), "sheet": sheet, "mode": "range", "startCell": "A%d" % first_row, "tsv": tsv})
 
 
@@ -83,7 +85,7 @@ def main(a):
         head = read("tsv/Laws.tsv")[0]
         rows = [head] + [TAB.join(r) for r in order]
         print("Laws A1 起：", post({"token": token(), "sheet": "Laws", "mode": "range", "startCell": "A1", "tsv": NL.join(rows)}))
-        print("清空多餘列：", blank_tail("Laws", len(rows) + 1, 200, len(head.split(TAB))))
+        print("清空多餘列：", blank_tail("Laws", len(rows) + 1, 300, len(head.split(TAB))))
     elif cmd == "reset-all":
         # 雲端全部重灌（需 GAS v5）：Questions/Laws/Changelog 清掉舊列後用本地 tsv 重寫；Articles 另用 articles 指令
         print("Questions 清空：", post({"token": token(), "sheet": "Questions", "mode": "clear_from", "from": 2}))

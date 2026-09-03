@@ -110,7 +110,7 @@ Q = [
   "應就專案所在地之環境敏感程度及民意支持度審定，並得指定舉辦公聽會，審定後由地方主管機關公告於其網站上"],"a",
  "第12條第1項：中央主管機關應就溫室氣體減量措施類型，審定具備專案範疇、適用條件、專案邊界、基線情境及專案情境等內容之溫室氣體減量方法；必要時並得於審定時指定減量措施或減量成果之確證或查證方式。第12條第2項：前項審定之減量方法，中央主管機關應公開於指定資訊平台。第19條並定新訂或修訂減量方法之申請及公眾意見蒐集程序。",
  "What content is approved in a reduction methodology, and what follows approval?",
- ["Scope, applicability, project boundary, baseline and project scenarios, optionally specifying validation or verification; then published on the platform",
+ ["Scope, applicability, project boundary, baseline and project scenarios, may specify validation or verification; then published on the platform",
   "The enterprise's financial and technical capacity and past record, optionally naming a verifier; then notified privately without publication",
   "The investment amount, expected return and payback period, optionally requiring an accountant's certification; then published in the gazette",
   "The environmental sensitivity and public support of the site, optionally requiring a hearing; then announced on the local authority website"],
