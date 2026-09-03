@@ -5691,10 +5691,10 @@
   "answer": "b",
   "explain_zh": "第3條：快速停止機構指衝剪機械檢出危險或異常時，能自動停止滑塊、刀具或撞錘動作之機構；緊急停止裝置則指以人為操作使滑塊等緊急停止之裝置；可動式接觸預防裝置為手推刨床覆蓋隨加工材進給自動開閉之裝置。",
   "explain_en": "Article 3: a quick-stop mechanism automatically stops the slide, blade or ram on detecting danger; an emergency stop device stops it by human operation; a movable contact-prevention device is a planer cover that opens/closes with the workpiece feed.",
-  "status": "draft",
+  "status": "archived",
   "batch": 2,
   "reviewer": "",
-  "review_note": ""
+  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
  },
  {
   "id": "Q0341",
@@ -5718,10 +5718,10 @@
   "answer": "a",
   "explain_zh": "第5條第2款：安全模之上死點上模與下模之間、上模與脫料板之間、導柱與軸襯之間，其間隙應在八毫米以下；安全護圍應使手指不致通過或自外側觸及危險界限。",
   "explain_en": "Article 5(2): gaps between upper and lower die at top dead center, between upper die and stripper plate, and between guide posts and bushings shall be 8 mm or less; safety enclosures must keep fingers from reaching the danger zone.",
-  "status": "draft",
+  "status": "archived",
   "batch": 2,
   "reviewer": "",
-  "review_note": ""
+  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
  },
  {
   "id": "Q0342",
@@ -5745,10 +5745,10 @@
   "answer": "a",
   "explain_zh": "第6條四類：連鎖防護式、雙手操作式（安全一行程式、雙手起動式）、感應式、拉開式或掃除式安全裝置；並應具有安全機能不易減損及變更之構造。",
   "explain_en": "Article 6 lists four types: interlocking guard, two-hand control (safety single-stroke and two-hand start), presence-sensing, and pull-back or sweep-away devices, all with tamper-resistant construction.",
-  "status": "draft",
+  "status": "archived",
   "batch": 2,
   "reviewer": "",
-  "review_note": ""
+  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
  },
  {
   "id": "Q0343",
@@ -5772,10 +5772,10 @@
   "answer": "a",
   "explain_zh": "第6條第2款：安全一行程式在手指離開操作部後至該手達到危險界限前，能使滑塊等停止動作；雙手起動式以雙手作動操作部，於滑塊閉合動作中手離開操作部時使手無法達到危險界限。",
   "explain_en": "Article 6(2): safety single-stroke stops the slide after a hand leaves the control before it can reach the danger zone; two-hand start ensures a released hand cannot reach the danger zone while the slide closes.",
-  "status": "draft",
+  "status": "archived",
   "batch": 2,
   "reviewer": "",
-  "review_note": ""
+  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
  },
  {
   "id": "Q0344",
@@ -5799,10 +5799,10 @@
   "answer": "b",
   "explain_zh": "第8條：安全一行程雙手操作式 D=1.6(Tl+Ts)，Tl為手離開操作部至快速停止機構開始動作之時間、Ts為快速停止機構動作至滑塊停止之時間（毫秒），D單位毫米；雙手起動式 D=1.6Tm；光電式 D=1.6(Tl+Ts)+C。",
   "explain_en": "Article 8: safety single-stroke D = 1.6(Tl + Ts) with Tl = time from hand release to quick-stop actuation and Ts = actuation to slide stop (ms), D in mm; two-hand start D = 1.6Tm; photoelectric D = 1.6(Tl + Ts) + C.",
-  "status": "draft",
+  "status": "archived",
   "batch": 2,
   "reviewer": "",
-  "review_note": ""
+  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
  },
  {
   "id": "Q0345",
@@ -5826,10 +5826,10 @@
   "answer": "b",
   "explain_zh": "第8條表：連續遮光幅30毫米以下 C=0；超過30至35毫米 C=200；超過35至45毫米 C=300；超過45至50毫米 C=400。",
   "explain_en": "Article 8 table: ≤30 mm: C = 0; >30–35 mm: 200; >35–45 mm: 300; >45–50 mm: 400.",
-  "status": "draft",
+  "status": "archived",
   "batch": 2,
   "reviewer": "",
-  "review_note": ""
+  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
  },
  {
   "id": "Q0346",
@@ -5853,10 +5853,10 @@
   "answer": "b",
   "explain_zh": "第10條第4款：左右手之動作時間差非在零點五秒以內，滑塊等無法動作；第6款：一按鈕外側與其他按鈕外側至少距離三百毫米以上（設有護蓋、擋板者得酌減）；按鈕不得凸出按鈕盒表面。",
   "explain_en": "Article 10(4): left and right hand actuation within 0.5 s; (6): at least 300 mm between outer edges of buttons (reducible with guards or barriers); buttons must not protrude from the box surface.",
-  "status": "draft",
+  "status": "archived",
   "batch": 2,
   "reviewer": "",
-  "review_note": ""
+  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
  },
  {
   "id": "Q0347",
@@ -5880,10 +5880,10 @@
   "answer": "c",
   "explain_zh": "第12條第3款：投光器及受光器之光軸數須二個以上，連續遮光幅在五十毫米以下；具啟動控制功能之光電式安全裝置，其連續遮光幅為三十毫米以下。",
   "explain_en": "Article 12(3): at least two beams, with continuous shielding width of 50 mm or less; for devices with start-control function, 30 mm or less.",
-  "status": "draft",
+  "status": "archived",
   "batch": 2,
   "reviewer": "",
-  "review_note": ""
+  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
  },
  {
   "id": "Q0348",
@@ -5907,10 +5907,10 @@
   "answer": "a",
   "explain_zh": "第12條之3：台盤水平面須距離地面七百五十毫米以上（設安全圍柵者除外）；台盤深度須在一千毫米以下；衝程在六百毫米以下；曲軸衝床過定點停止監視裝置停止點設定十五度以內；三十秒內未完成滑塊作動須重新執行起動準備。",
   "explain_en": "Article 12-3: bolster at least 750 mm above floor (unless fenced); depth 1,000 mm or less; stroke 600 mm or less; overrun monitor stop within 15°; restart preparation if the slide does not act within 30 s.",
-  "status": "draft",
+  "status": "archived",
   "batch": 2,
   "reviewer": "",
-  "review_note": ""
+  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
  },
  {
   "id": "Q0349",
@@ -5934,10 +5934,10 @@
   "answer": "b",
   "explain_zh": "第12條之4：檢知身體之一部或加工物遮斷光線，或滑塊到達設定位置仍須繼續動作者，具有能將滑塊移動速度降為每秒十毫米以下（低閉合速度）之構造。",
   "explain_en": "Article 12-4: when the beam is interrupted or the slide reaches the set position and must continue, the slide speed shall be reducible to 10 mm/s or less (low closing speed).",
-  "status": "draft",
+  "status": "archived",
   "batch": 2,
   "reviewer": "",
-  "review_note": ""
+  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
  },
  {
   "id": "Q0350",
@@ -5961,10 +5961,10 @@
   "answer": "c",
   "explain_zh": "第13條：牽引帶牽引量須能調節且為盤床深度二分之一以上；牽引帶材料為合成纖維、直徑四毫米以上、已安裝調節配件者切斷荷重一百五十公斤以上；肘節傳送帶為皮革等材質、連接部能耐五十公斤靜荷重。",
   "explain_en": "Article 13: adjustable pull-in of at least half the bolster depth; synthetic-fiber cord at least 4 mm with breaking load of 150 kg or more when fitted with adjusters; leather wristbands whose joints withstand 50 kg static load.",
-  "status": "draft",
+  "status": "archived",
   "batch": 2,
   "reviewer": "",
-  "review_note": ""
+  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
  },
  {
   "id": "Q0351",
@@ -5988,10 +5988,10 @@
   "answer": "a",
   "explain_zh": "第14條之1：構造屬確動式離合器且雙手操作起動；行程長度四十毫米以上且在防護板寬度以下；每分鐘行程數一百二十以下，始得設置掃除式安全裝置；腳踏式快速停止機構者不得使用掃除式（併用其他安全裝置者除外）。",
   "explain_en": "Article 14-1: positive clutch with two-hand start, stroke length 40 mm or more but not over the guard-plate width, and 120 strokes per minute or less; not on foot-operated quick-stop presses unless combined with another safety device.",
-  "status": "draft",
+  "status": "archived",
   "batch": 2,
   "reviewer": "",
-  "review_note": ""
+  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
  },
  {
   "id": "Q0352",
@@ -6015,10 +6015,10 @@
   "answer": "b",
   "explain_zh": "第15條第9款：操作用電氣回路之電壓在一百六十伏特以下；承受作用力之金屬零配件表面硬度洛氏C硬度四十五以上五十以下；電氣零件故障或停電時滑塊不致意外動作。第25條衝壓機械操作用電氣回路亦為一百六十伏特以下。",
   "explain_en": "Article 15(9): operating circuits at 160 V or less; load-bearing metal parts hardened to Rockwell C 45–50; no unexpected slide motion on component failure or power loss. Article 25 applies 160 V to press operating circuits too.",
-  "status": "draft",
+  "status": "archived",
   "batch": 2,
   "reviewer": "",
-  "review_note": ""
+  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
  },
  {
   "id": "Q0353",
@@ -6042,10 +6042,10 @@
   "answer": "d",
   "explain_zh": "第18條：衝壓機械應具有一行程一停止機構。第19條：衝壓機械應具有快速停止機構（使用確動式離合器、不致使身體介入危險界限之構造者除外）。",
   "explain_en": "Article 18: presses shall have a single-stroke single-stop mechanism; Article 19: a quick-stop mechanism, except positive-clutch presses or designs that keep the body out of the danger zone.",
-  "status": "draft",
+  "status": "archived",
   "batch": 2,
   "reviewer": "",
-  "review_note": ""
+  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
  },
  {
   "id": "Q0354",
@@ -6069,10 +6069,10 @@
   "answer": "b",
   "explain_zh": "第21條：紅色之凸出型按鈕或其他簡易、明顯、迅速有效之人為操作裝置；設置於各操作區；台身兩側最大距離超過一千八百毫米者分別設置於側壁之正面及背面。",
   "explain_en": "Article 21: a red protruding button or equally simple, visible and effective manual device, at each operating station; presses wider than 1,800 mm need them on both front and rear of each side.",
-  "status": "draft",
+  "status": "archived",
   "batch": 2,
   "reviewer": "",
-  "review_note": ""
+  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
  },
  {
   "id": "Q0355",
@@ -6096,10 +6096,10 @@
   "answer": "a",
   "explain_zh": "第22條：寸動機構應具有限制滑塊移動速度在每秒十毫米以下，或限制每段滑塊移動行程不得超過六毫米且未離開操作部無法再起動之構造。",
   "explain_en": "Article 22: slide speed limited to 10 mm/s or less, or each inching stroke limited to 6 mm with no restart unless the control is released.",
-  "status": "draft",
+  "status": "archived",
   "batch": 2,
   "reviewer": "",
-  "review_note": ""
+  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
  },
  {
   "id": "Q0356",
@@ -6123,10 +6123,10 @@
   "answer": "d",
   "explain_zh": "第23條：摺床，及摺床以外台盤各邊長度未滿一千五百毫米或模高未滿七百毫米之機械衝床，使用安全擋塊有困難者，得使用安全插栓、安全鎖或同等安全功能之裝置；安全插栓配置於每一操作區、安全鎖能遮斷主電動機電源。",
   "explain_en": "Article 23: press brakes, and other mechanical presses with bolster sides under 1,500 mm or die height under 700 mm, may use safety plugs (at each station) or safety locks (cutting the main motor power) when blocks are impractical.",
-  "status": "draft",
+  "status": "archived",
   "batch": 2,
   "reviewer": "",
-  "review_note": ""
+  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
  },
  {
   "id": "Q0357",
@@ -6150,10 +6150,10 @@
   "answer": "c",
   "explain_zh": "第37條：曲軸偏心軸之停止角度應在十度以內（不致使身體介入危險界限之構造者除外）。第38條：每分鐘三百轉以下之曲軸衝床應具超限運轉監視裝置，設定停止點停止角度二十五度以內。",
   "explain_en": "Article 37: within 10° (except designs that keep the body out of the danger zone); Article 38: crank presses at 300 rpm or less need an overrun monitor with a set stop angle within 25°.",
-  "status": "draft",
+  "status": "archived",
   "batch": 2,
   "reviewer": "",
-  "review_note": ""
+  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
  },
  {
   "id": "Q0358",
@@ -6177,10 +6177,10 @@
   "answer": "a",
   "explain_zh": "第43條：確動式離合器每分鐘行程數一百五十以下且壓力能力一百五十噸以下、置有腳踏開關者，應具防止身體介入之構造或快速停止機構；第44條：每分鐘行程數超過一百五十或壓力能力超過一百五十噸者，不得置有快速停止機構。",
   "explain_en": "Article 43: positive-clutch presses at ≤150 spm and ≤150 t with foot controls need guarding or a quick-stop; Article 44: those over 150 spm or 150 t must not have a quick-stop mechanism.",
-  "status": "draft",
+  "status": "archived",
   "batch": 2,
   "reviewer": "",
-  "review_note": ""
+  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
  },
  {
   "id": "Q0359",
@@ -6204,10 +6204,10 @@
   "answer": "b",
   "explain_zh": "第50條第2項：覆蓋下方與加工材之進給側平台面間之間隙在八毫米以下；除固定刨削寬度者外應使用可動式接觸預防裝置。第54條：進給側平台與刃部前端之間隙在三毫米以下。",
   "explain_en": "Article 50(2): 8 mm or less, using a movable guard except for fixed-width planing; Article 54: the infeed table to cutter-edge gap shall be 3 mm or less.",
-  "status": "draft",
+  "status": "archived",
   "batch": 2,
   "reviewer": "",
-  "review_note": ""
+  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
  },
  {
   "id": "Q0360",
@@ -6231,10 +6231,10 @@
   "answer": "b",
   "explain_zh": "第51條：手推刨床應設置制動裝置，但遮斷動力時可使其於十秒內停止刀軸旋轉者，或使用單相線繞轉子型串激電動機之攜帶用手推刨床，不在此限。第62條圓盤鋸亦同（十秒）。",
   "explain_en": "Article 51: a brake is required unless the shaft stops within 10 s, or for portable planers with single-phase series-wound motors; Article 62 applies the same 10 s rule to circular saws.",
-  "status": "draft",
+  "status": "archived",
   "batch": 2,
   "reviewer": "",
-  "review_note": ""
+  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
  },
  {
   "id": "Q0361",
@@ -6258,10 +6258,10 @@
   "answer": "a",
   "explain_zh": "第58條：手推刨床之刀軸，應採用圓胴。第56條：刀刃應符合CNS 2904 SKH2規格之鋼料。",
   "explain_en": "Article 58: the cutter shaft shall be a round cylinder; Article 56: blades of CNS 2904 SKH2 high-speed steel.",
-  "status": "draft",
+  "status": "archived",
   "batch": 2,
   "reviewer": "",
-  "review_note": ""
+  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
  },
  {
   "id": "Q0362",
@@ -6285,10 +6285,10 @@
   "answer": "b",
   "explain_zh": "第60條：圓盤鋸應設置反撥預防裝置（橫鋸用或反撥不致引起危害者除外）及鋸齒接觸預防裝置（製材用圓盤鋸及設有自動輸送裝置者除外）。",
   "explain_en": "Article 60: a kickback-prevention device (except cross-cut saws or where kickback is harmless) and a blade-contact prevention device (except sawmill saws and those with automatic feed).",
-  "status": "draft",
+  "status": "archived",
   "batch": 2,
   "reviewer": "",
-  "review_note": ""
+  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
  },
  {
   "id": "Q0363",
@@ -6312,10 +6312,10 @@
   "answer": "c",
   "explain_zh": "第61條第2款：撐縫片與其面對之圓鋸片鋸齒前端之間隙在十二毫米以下；撐縫片與鋸齒接觸預防裝置應與圓鋸片位於同一平面。第67條：攜帶式圓盤鋸平板外側端與鋸齒距離應在十二毫米以上。",
   "explain_en": "Article 61(2): 12 mm or less, with the riving knife and guard in the same plane as the blade; Article 67: portable saw base plates extend at least 12 mm beyond the teeth.",
-  "status": "draft",
+  "status": "archived",
   "batch": 2,
   "reviewer": "",
-  "review_note": ""
+  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
  },
  {
   "id": "Q0364",
@@ -6339,10 +6339,10 @@
   "answer": "c",
   "explain_zh": "第68條：撐縫片厚度為圓鋸片厚度之一點一倍以上；安裝螺栓二個以上並具防鬆脫性能；圓鋸片直徑超過六百一十毫米者應使用懸垂式（兩端固定）撐縫片。第69條：圓鋸片直徑超過四百五十毫米者使用反撥防止爪、輥以外型式之反撥預防裝置。",
   "explain_en": "Article 68: at least 1.1× blade thickness, two or more anti-loosening bolts, and blades over 610 mm need a suspended (both-end-fixed) riving knife; Article 69: blades over 450 mm need kickback devices other than anti-kickback fingers or rollers.",
-  "status": "draft",
+  "status": "archived",
   "batch": 2,
   "reviewer": "",
-  "review_note": ""
+  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
  },
  {
   "id": "Q0365",
@@ -6366,10 +6366,10 @@
   "answer": "c",
   "explain_zh": "第79條：頂蓬強度足以承受最大荷重之二倍之等分布靜荷重（其值逾四公噸者為四公噸）；上框各開口寬度或長度不得超過十六公分；座式操作者駕駛座上面至頂蓬下端九十五公分以上；立式操作者一點八公尺以上。",
   "explain_en": "Article 79: twice the maximum load (capped at 4 tonnes); openings not over 16 cm; at least 95 cm from seat to guard for seated operation and 1.8 m from floor for standing operation.",
-  "status": "draft",
+  "status": "archived",
   "batch": 2,
   "reviewer": "",
-  "review_note": ""
+  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
  },
  {
   "id": "Q0366",
@@ -6393,10 +6393,10 @@
   "answer": "c",
   "explain_zh": "第76條：堆高機應於其左右各設一個方向指示器。但最高時速未達二十公里之堆高機，其操控方向盤之中心至堆高機最外側未達六十五公分，且機內無駕駛座者，得免設方向指示器。第77、78條並應設警報裝置及前後照燈。",
   "explain_en": "Article 76: exempt when top speed is under 20 km/h, steering center to outer edge under 65 cm and no onboard seat; Articles 77–78 require alarms and head/rear lights.",
-  "status": "draft",
+  "status": "archived",
   "batch": 2,
   "reviewer": "",
-  "review_note": ""
+  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
  },
  {
   "id": "Q0367",
@@ -6420,10 +6420,10 @@
   "answer": "d",
   "explain_zh": "第82條：貨叉材料為鋼材且無顯著損傷變形腐蝕；在基準承重中心加以最大荷重時，貨叉所生應力值在該貨叉鋼材降伏強度值之三分之一以下。第83條：裝卸裝置鏈條安全係數應在五以上。",
   "explain_en": "Article 82: steel forks free of damage; stress under maximum load at the standard load center no more than one third of yield strength; Article 83: lift chains with a safety factor of 5 or more.",
-  "status": "draft",
+  "status": "archived",
   "batch": 2,
   "reviewer": "",
-  "review_note": ""
+  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
  },
  {
   "id": "Q0368",
@@ -6447,10 +6447,10 @@
   "answer": "d",
   "explain_zh": "第83條：堆高機裝卸裝置使用之鏈條，其安全係數應在五以上；安全係數為鏈條之斷裂荷重值除以加諸於鏈條荷重之最大值所得之值。",
   "explain_en": "Article 83: at least 5, defined as breaking load divided by the maximum load applied to the chain.",
-  "status": "draft",
+  "status": "archived",
   "batch": 2,
   "reviewer": "",
-  "review_note": ""
+  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
  },
  {
   "id": "Q0369",
@@ -6474,10 +6474,10 @@
   "answer": "d",
   "explain_zh": "第84條：駕駛座採升降方式者應設扶手及防墜設備；座式操作者駕駛座應使用緩衝材料；配衡型及側舉型堆高機之駕駛座應配置防止車輛傾倒時駕駛者被壓傷之安全帶、護欄或其他防護設施。",
   "explain_en": "Article 84: elevating seats need handholds and fall protection; seated forklifts need cushioned seats; counterbalance and side-loaders need seat belts, guard rails or other tip-over crush protection.",
-  "status": "draft",
+  "status": "archived",
   "batch": 2,
   "reviewer": "",
-  "review_note": ""
+  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
  },
  {
   "id": "Q0370",
@@ -6501,10 +6501,10 @@
   "answer": "a",
   "explain_zh": "第86條：直徑一百毫米以上之研磨輪，每批製品應以最高使用周速度乘以一點五倍之速度實施旋轉試驗；試驗用研磨輪取製品數百分之十以上（未滿五個時為五個）；異常率百分之五以下者除異常品外視為合格。",
   "explain_en": "Article 86: at 1.5× the maximum operating peripheral speed; sample at least 10% of the batch (minimum 5); a batch passes if the defect rate is 5% or less (excluding defective wheels).",
-  "status": "draft",
+  "status": "archived",
   "batch": 2,
   "reviewer": "",
-  "review_note": ""
+  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
  },
  {
   "id": "Q0371",
@@ -6528,10 +6528,10 @@
   "answer": "b",
   "explain_zh": "第87條：盤形研磨輪應就每種同一規格製品實施衝擊試驗（彈性研磨輪除外），分別就二個以上研磨輪向相對之二處施以九十八焦耳之衝擊；衝擊值最低數值每平方毫米零點零二九七焦耳以上者視為合格。",
   "explain_en": "Article 87: 98 J at two opposite points on two or more wheels of each specification (elastic wheels exempt); pass if the minimum impact value is at least 0.0297 J/mm².",
-  "status": "draft",
+  "status": "archived",
   "batch": 2,
   "reviewer": "",
-  "review_note": ""
+  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
  },
  {
   "id": "Q0372",
@@ -6555,10 +6555,10 @@
   "answer": "c",
   "explain_zh": "第104條：桌上用及床式研磨機之護罩應以舌板或其他方法使研磨必要部分之研磨輪周邊與護罩間之間隙可調整在十毫米以下；舌板為板狀、壓延鋼板、厚度三毫米以上十六毫米以下。第107條：工作物支架與研磨輪間隙應可調整在三毫米以下。",
   "explain_en": "Article 104: gap adjustable to 10 mm or less with a rolled-steel tongue 3–16 mm thick; Article 107: the work rest gap adjustable to 3 mm or less.",
-  "status": "draft",
+  "status": "archived",
   "batch": 2,
   "reviewer": "",
-  "review_note": ""
+  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
  },
  {
   "id": "Q0373",
@@ -6582,10 +6582,10 @@
   "answer": "c",
   "explain_zh": "第108條：攜帶用空氣式研磨機應設置調速機。但研磨機之公稱尺寸未滿六十五毫米者，不在此限。第109條：直徑未滿五十毫米之研磨輪及其護罩不適用本章規定。",
   "explain_en": "Article 108: a speed governor, except grinders of nominal size under 65 mm; Article 109: wheels under 50 mm and their guards are outside this chapter.",
-  "status": "draft",
+  "status": "archived",
   "batch": 2,
   "reviewer": "",
-  "review_note": ""
+  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
  },
  {
   "id": "Q0374",
@@ -6609,10 +6609,10 @@
   "answer": "b",
   "explain_zh": "第111條之1：交流電焊機用自動電擊防止裝置之構造及性能，應符合國家標準CNS 4782。第110條：氣體類防爆電氣設備應符合CNS 3376系列或IEC 60079系列。",
   "explain_en": "Article 111-1: CNS 4782; Article 110: gas-atmosphere explosion-proof electrical equipment per CNS 3376 series or IEC 60079 series.",
-  "status": "draft",
+  "status": "archived",
   "batch": 2,
   "reviewer": "",
-  "review_note": ""
+  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
  },
  {
   "id": "Q0375",
@@ -6636,10 +6636,10 @@
   "answer": "d",
   "explain_zh": "第117條：堆高機應標示製造者名稱、製造年份、製造號碼、最大荷重、容許荷重（依構造材質及貨物重心位置決定之足以承受之最大荷重）。",
   "explain_en": "Article 117: manufacturer, year, serial number, maximum load, and rated load (the maximum load the truck can bear based on structure, material and load center).",
-  "status": "draft",
+  "status": "archived",
   "batch": 2,
   "reviewer": "",
-  "review_note": ""
+  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
  },
  {
   "id": "Q0376",
@@ -6663,9 +6663,9 @@
   "answer": "c",
   "explain_zh": "第119條：研磨輪應標示製造者名稱、結合劑之種類、最高使用周速度（得加註旋轉速率）、製造號碼或製造批號；直徑未滿七十五毫米者得在最小包裝單位上標示。",
   "explain_en": "Article 119: manufacturer, bond type, maximum operating peripheral speed (optionally rpm), and serial or batch number; wheels under 75 mm may be marked on the smallest package.",
-  "status": "draft",
+  "status": "archived",
   "batch": 2,
   "reviewer": "",
-  "review_note": ""
+  "review_note": "不在使用者指定之職安法規範圍，暫不使用"
  }
 ]

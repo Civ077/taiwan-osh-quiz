@@ -109,7 +109,7 @@ async function loadBank() {
   if (url) {
     try {
       const ctrl = new AbortController(); const tm = setTimeout(() => ctrl.abort(), 8000);
-      const r = await fetch(url + (url.includes('?') ? '&' : '?') + 'status=' + (CFG.useDraft ? 'all' : 'active'), { signal: ctrl.signal });
+      const r = await fetch(url + (url.includes('?') ? '&' : '?') + 'status=' + (CFG.useDraft ? 'draft' : 'active'), { signal: ctrl.signal });
       clearTimeout(tm);
       if (r.ok) { j = await r.json(); src = 'cloud'; }
     } catch (e) { console.warn('雲端題庫讀取失敗，改用本機：', e); }
@@ -119,7 +119,7 @@ async function loadBank() {
   if (CFG.lobbyWaitSec) CFG.lobbyWaitMs = CFG.lobbyWaitSec * 1000;
   const secParam = Number(new URLSearchParams(location.search).get('sec'));   // 測試用：?sec=4 縮短每題秒數
   if (secParam > 0) CFG.secondsPerQuestion = secParam;
-  BANK = j.questions.filter(q => CFG.useDraft ? true : q.status === 'active');
+  BANK = j.questions.filter(q => CFG.useDraft ? q.status !== 'archived' : q.status === 'active');
   BANK_BY_ID = {}; BANK.forEach(q => BANK_BY_ID[q.id] = q);
   renderBankInfo(String(j.generated || '').slice(0, 10), src);
 }

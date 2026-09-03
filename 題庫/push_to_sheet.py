@@ -46,10 +46,10 @@ def read(name):
 
 def laws_in_sheet_order():
     laws = [r.split(TAB) for r in read("tsv/Laws.tsv")][1:]
-    order = ([l for l in laws if l[0].startswith("OSH") and l[0] != "OSH-36"]
+    order = ([l for l in laws if l[0].startswith("OSH") and l[0] < "OSH-36"]
              + [l for l in laws if l[0].startswith("ENV")]
-             + [l for l in laws if l[0] == "OSH-36"])
-    assert len(order) == 61, len(order)
+             + [l for l in laws if l[0] >= "OSH-36" and l[0].startswith("OSH")])
+    assert len(order) == 75, len(order)
     return order
 
 
@@ -81,6 +81,12 @@ def main(a):
         print("內容欄 A–U：", post({"token": token(), "sheet": "Questions", "mode": "range", "startCell": "A2", "tsv": content}))
         fill = NL.join(r[0] + TAB + r[21] + TAB + r[22] for r in rows)   # id, status, batch
         print("補新題 status/batch：", post({"token": token(), "sheet": "Questions", "mode": "fill_status", "tsv": fill}))
+    elif cmd == "status":
+        # 用本地 status 欄覆寫 Questions!V2 起（會蓋掉 Sheet 上的審題狀態，僅在全部尚未審題時使用）
+        rows = [r.split(TAB) for r in read("tsv/Questions.tsv")]
+        if rows and rows[0][0] == "id":
+            rows = rows[1:]
+        print(post({"token": token(), "sheet": "Questions", "mode": "range", "startCell": "V2", "tsv": NL.join(r[21] + TAB + r[22] + TAB + r[23] + TAB + r[24] for r in rows)}))
     elif cmd == "raw":
         print(post({"token": token(), "sheet": a[1], "mode": "range", "startCell": a[2], "tsv": a[3].replace("<TAB>", TAB)}))
     else:
