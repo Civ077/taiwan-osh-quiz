@@ -1,48 +1,54 @@
-/* 台灣職安環保知識王 — 前端 v0.3
-   單人闖關 / 每日挑戰 / 連線對戰（隨機配對、房間碼、電腦）＋ 全站排行榜（Firebase）
+/* 台灣職安環保知識王 — 前端 v0.4
+   單人闖關 / 每日挑戰 / 連線對戰（2–5 人房間、隨機配對、電腦）＋ 全站排行榜（Firebase）
+   出題範圍：首頁「職業安全衛生／環保」切換，兩邊題庫、每日挑戰、對戰配對、排行榜完全獨立
    題庫：GAS API（CFG.bankUrl）→ 失敗退回 data/questions.json
-   計分：答對 500 + 500×(剩餘秒/15)，連對 3 題起每題 +50；答錯/逾時 0。 */
+   計分：答對 500 + 500×(剩餘秒/15)，連對 3 題起每題 +50；答錯/逾時 0。
+   對戰：房主同步題目與每題起算時間；該題全員作答完畢（或時間到）即跳下一題，不必等倒數跑完。 */
 (() => {
 'use strict';
 
 const CFG = { questionsPerGame: 20, secondsPerQuestion: 15, baseScore: 500, speedBonusMax: 500,
               streakStart: 3, streakBonus: 50, dailyQuestions: 10, useDraft: true,
-              pvpGapMs: 2500, pvpCountdownMs: 4000, lobbyWaitMs: 10000,
+              pvpGapMs: 2500, pvpCountdownMs: 4000, lobbyWaitMs: 10000, maxPlayers: 5,
               // 題庫 API（GAS 網頁應用程式 /exec 網址；留空＝只用 repo 內的 data/questions.json）
               bankUrl: 'https://script.google.com/macros/s/AKfycbw8GLA29GyEC4hLyXCZoaRBrG3mgJl389Tye47b8XARo-2fKs3rY6Jbfcm6Uxe0ewDM/exec' };
 const CFG_MAP = { questions_per_game: 'questionsPerGame', seconds_per_question: 'secondsPerQuestion', base_score: 'baseScore',
                   speed_bonus_max: 'speedBonusMax', streak_start: 'streakStart', streak_bonus: 'streakBonus', daily_questions: 'dailyQuestions',
-                  lobby_wait_seconds: 'lobbyWaitSec' };
+                  lobby_wait_seconds: 'lobbyWaitSec', max_players: 'maxPlayers' };
 
 const I18N = {
   zh: { title:'台灣職安環保知識王', lead:'職業安全衛生 × 環保法規　限時搶答', solo:'單人闖關', soloDesc:'20 題・每題 15 秒・越快分越高',
-        daily:'每日挑戰', dailyDesc:'每天 10 題，全站同題', pvp:'連線對戰', pvpDesc:'隨機配對或房間碼，同題同步搶答', nick:'暱稱',
+        daily:'每日挑戰', dailyDesc:'每天 10 題，全站同題', pvp:'連線對戰', pvpDesc:'2–5 人房間或隨機配對，同題同步搶答', nick:'暱稱',
         prev:'上一題', backCur:'回到目前題目', viewing:'回看第 {n} 題（你的作答已標示，倒數暫停中）', noAns:'未作答', resultTitle:'本局結果',
         pts:'分', again:'再來一局', home:'回首頁', review:'答題回顧', timeout:'時間到', ans:'正確答案', correctN:'答對', bestStreak:'最長連對', avgTime:'平均秒數',
         board:'排行榜', noBoard:'還沒有紀錄，先來一局！', diff:['','入門','進階','困難'], bank:'題庫', ver:'版本', draftNote:'（含待審 draft 題）',
         nickDefault:'玩家', dailyDone:'今天的每日挑戰已完成，明天再來！', bonus:'連對加成',
-        match:'隨機配對', matchDesc:'10 秒內沒人就可改打電腦或開房間', host:'建立房間', hostDesc:'拿到四碼房號，傳給朋友', join:'輸入房號加入', joinBtn:'加入',
+        match:'隨機配對', matchDesc:'10 秒內沒人就可改打電腦或開房間', host:'建立房間', hostDesc:'拿到四碼房號，最多 5 人一起玩', join:'輸入房號加入', joinBtn:'加入',
         bot:'跟電腦對戰', botDesc:'離線也能玩，電腦依難度隨機作答', roomCode:'房號', waitBot:'改打電腦', cancel:'取消',
-        waitMatch:'配對中…', waitNoOne:'目前沒有其他玩家，可以改打電腦或建立房間邀請朋友', waitRoom:'等待朋友加入…把房號傳給對方', joining:'加入中…',
-        found:'配對成功！對手：{n}', starting:'{s} 秒後開始', roomNotFound:'找不到這個房號或房間已開始', needOnline:'連線對戰需要網路與雲端登入，目前不可用；可改打電腦',
-        bot1:'電腦', you:'你', opp:'對手', win:'你贏了！', lose:'你輸了', draw:'平手', gapMe:'你 +{a}', gapOpp:'對手 +{b}', oppLeft:'對手已離線，剩下題目由電腦代打',
-        online:'雲端連線中', offline:'離線（排行榜僅本機）', globalNote:'全站前 10 名', localNote:'本機紀錄', vsBot:'（對電腦，不列入全站排行）',
+        waitMatch:'配對中…', waitNoOne:'目前沒有其他玩家，可以改打電腦或建立房間邀請朋友', waitRoom:'等待朋友加入…把房號傳給對方（最多 5 人），人數夠了按「開始對戰」', joining:'加入中…',
+        found:'配對成功！對手：{n}', starting:'{s} 秒後開始', roomNotFound:'找不到這個房號、房間已開始或已滿', needOnline:'連線對戰需要網路與雲端登入，目前不可用；可改打電腦',
+        waitHost:'已加入房間，等待房主開始…', startBtn:'開始對戰', players:'玩家', playersN:'{n} 人', hostTag:'房主', youTag:'你',
+        bot1:'電腦', you:'你', opp:'對手', win:'你贏了！', lose:'你輸了', draw:'平手', gapMe:'你 +{a}', gapOpp:'{n} +{b}', oppLeft:'{n} 已離線，剩下題目由電腦代打',
+        allAnswered:'全員作答完畢，準備下一題', rank:'第 {r} 名', hostLeft:'房主離線，改以計時方式繼續',
         nickHint:'請先輸入暱稱（1–12 字）才能開始遊戲，暱稱會顯示在排行榜與對戰中', nickRequired:'⚠ 請先輸入暱稱再開始',
-        groupOsh:'職業安全衛生', groupEnv:'環保', segNoteOsh:'目前出題範圍：職業安全衛生法規（單人、每日、對戰、排行榜各自獨立）', segNoteEnv:'目前出題範圍：環保法規（單人、每日、對戰、排行榜各自獨立）' },
+        groupOsh:'職業安全衛生', groupEnv:'環保', segNoteOsh:'目前出題範圍：職業安全衛生法規（單人、每日、對戰、排行榜各自獨立）', segNoteEnv:'目前出題範圍：環保法規（單人、每日、對戰、排行榜各自獨立）',
+        online:'雲端連線中', offline:'離線（排行榜僅本機）', globalNote:'全站前 10 名', localNote:'本機紀錄', vsBot:'（對電腦，不列入全站排行）' },
   en: { title:'Taiwan OSH & Env Quiz', lead:'Occupational Safety × Environmental Law · Speed quiz', solo:'Solo Run', soloDesc:'20 questions · 15 s each · faster = more points',
-        daily:'Daily Challenge', dailyDesc:'10 questions a day, same for everyone', pvp:'Online Battle', pvpDesc:'Random match or room code, same questions in sync', nick:'Nickname',
+        daily:'Daily Challenge', dailyDesc:'10 questions a day, same for everyone', pvp:'Online Battle', pvpDesc:'Rooms of 2–5 or random match, same questions in sync', nick:'Nickname',
         prev:'Previous', backCur:'Back to current', viewing:'Viewing Q{n} (your answer marked; timer paused)', noAns:'No answer', resultTitle:'Results',
         pts:'pts', again:'Play again', home:'Home', review:'Review', timeout:'Time up', ans:'Answer', correctN:'Correct', bestStreak:'Best streak', avgTime:'Avg seconds',
         board:'Leaderboard', noBoard:'No records yet. Play a round!', diff:['','Easy','Medium','Hard'], bank:'Bank', ver:'version', draftNote:'(incl. draft items)',
         nickDefault:'Player', dailyDone:'Today\'s challenge is done. Come back tomorrow!', bonus:'Streak bonus',
-        match:'Random match', matchDesc:'No one in 10 s? Play the bot or open a room', host:'Create room', hostDesc:'Get a 4-letter code to share', join:'Join with code', joinBtn:'Join',
+        match:'Random match', matchDesc:'No one in 10 s? Play the bot or open a room', host:'Create room', hostDesc:'Get a 4-letter code, up to 5 players', join:'Join with code', joinBtn:'Join',
         bot:'Play vs bot', botDesc:'Works offline; bot answers by difficulty', roomCode:'Room', waitBot:'Play bot instead', cancel:'Cancel',
-        waitMatch:'Matching…', waitNoOne:'No other players right now. Play the bot or create a room for a friend', waitRoom:'Waiting for a friend… share the room code', joining:'Joining…',
-        found:'Matched! Opponent: {n}', starting:'Starting in {s} s', roomNotFound:'Room not found or already started', needOnline:'Online battle needs network + cloud sign-in; try the bot instead',
-        bot1:'Bot', you:'You', opp:'Opp', win:'You win!', lose:'You lose', draw:'Draw', gapMe:'You +{a}', gapOpp:'Opp +{b}', oppLeft:'Opponent left; the bot answers the rest',
-        online:'Online', offline:'Offline (local leaderboard only)', globalNote:'Global top 10', localNote:'Local records', vsBot:'(vs bot, not ranked globally)',
+        waitMatch:'Matching…', waitNoOne:'No other players right now. Play the bot or create a room for a friend', waitRoom:'Waiting for friends… share the room code (up to 5 players), then press Start', joining:'Joining…',
+        found:'Matched! Opponent: {n}', starting:'Starting in {s} s', roomNotFound:'Room not found, already started or full', needOnline:'Online battle needs network + cloud sign-in; try the bot instead',
+        waitHost:'Joined. Waiting for the host to start…', startBtn:'Start battle', players:'Players', playersN:'{n} players', hostTag:'host', youTag:'you',
+        bot1:'Bot', you:'You', opp:'Opp', win:'You win!', lose:'You lose', draw:'Draw', gapMe:'You +{a}', gapOpp:'{n} +{b}', oppLeft:'{n} left; the bot answers for them',
+        allAnswered:'Everyone answered — next question', rank:'Rank {r}', hostLeft:'Host offline; continuing on the timer',
         nickHint:'Enter a nickname (1–12 chars) to play; it appears on leaderboards and in battles', nickRequired:'⚠ Please enter a nickname first',
-        groupOsh:'Occupational Safety', groupEnv:'Environment', segNoteOsh:'Current scope: occupational safety & health laws (solo, daily, battle and leaderboard are separate)', segNoteEnv:'Current scope: environmental laws (solo, daily, battle and leaderboard are separate)' }
+        groupOsh:'Occupational Safety', groupEnv:'Environment', segNoteOsh:'Current scope: occupational safety & health laws (solo, daily, battle and leaderboard are separate)', segNoteEnv:'Current scope: environmental laws (solo, daily, battle and leaderboard are separate)',
+        online:'Online', offline:'Offline (local leaderboard only)', globalNote:'Global top 10', localNote:'Local records', vsBot:'(vs bot, not ranked globally)' }
 };
 
 let lang = localStorage.getItem('lang') || 'zh';
@@ -99,6 +105,7 @@ function applyLang() {
   $('langBtn').textContent = lang === 'zh' ? 'EN' : '中';
   $('nick').placeholder = t('nick');
   renderGroup(); renderBoard(); renderBankInfo(); renderNet();
+  const h = $('nickHint'); if (h && !nickVal()) h.textContent = t('nickHint');
   if (game && $('play').classList.contains('active')) renderQuestion(true);
   if ($('result').classList.contains('active')) renderResult();
 }
@@ -131,6 +138,7 @@ async function loadBank() {
   if (!j) { const r = await fetch('data/questions.json', { cache: 'no-cache' }); j = await r.json(); }
   if (j.config) Object.keys(CFG_MAP).forEach(k => { const v = Number(j.config[k]); if (k in j.config && !isNaN(v) && v > 0) CFG[CFG_MAP[k]] = v; });
   if (CFG.lobbyWaitSec) CFG.lobbyWaitMs = CFG.lobbyWaitSec * 1000;
+  CFG.maxPlayers = Math.min(5, Math.max(2, CFG.maxPlayers | 0));
   const secParam = Number(new URLSearchParams(location.search).get('sec'));   // 測試用：?sec=4 縮短每題秒數
   if (secParam > 0) CFG.secondsPerQuestion = secParam;
   BANK_ALL = j.questions.filter(q => CFG.useDraft ? q.status !== 'archived' : q.status === 'active');
@@ -165,7 +173,7 @@ function pickIds(mode) {
 const Q_FIELDS = ['id','law','article','category','difficulty','q_zh','a_zh','b_zh','c_zh','d_zh','q_en','a_en','b_en','c_en','d_en','answer','explain_zh','explain_en'];
 const slimQ = q => { const o = {}; Q_FIELDS.forEach(k => { if (q[k] != null) o[k] = q[k]; }); return o; };
 function newGame(mode, ids, pvp) {
-  // ids 可以是題目 id，也可以是題目物件（連線對戰由房主把整份題目存進房間，雙方保證同題）
+  // ids 可以是題目 id，也可以是題目物件（連線對戰由房主把整份題目存進房間，所有人保證同題）
   const qs = ids.map(x => typeof x === 'string' ? BANK_BY_ID[x] : x).filter(Boolean);
   game = { mode, nick: nickVal(), qs, i: 0, view: null, score: 0, streak: 0, bestStreak: 0, log: [], timer: null, tLeft: 0, tStart: 0, paused: 0, locked: false, pvp: pvp || null };
   $('vs').classList.toggle('hidden', !pvp);
@@ -267,8 +275,11 @@ function next() {
   else finish();
 }
 
-/* ---------- 連線對戰 ---------- */
-let pv = null; // 配對/房間狀態（進入 play 前）
+/* ---------- 連線對戰（2–5 人） ----------
+   房間資料：{ host, code, group, max, state:'waiting'|'playing', players:{uid:{nick,online}}, qs, sec, cur, curAt, answers:{uid:{k:{c,ms}}} }
+   房主負責推進：第 k 題所有在線玩家都作答、或時間到 → 寫 cur=k+1、curAt=現在+間隔；其他人跟著 cur 走。
+   電腦對戰在本機模擬同一套房間物件（LR），邏輯共用。 */
+let pv = null;   // 配對/房間狀態（進入 play 前）
 function pvpMenu() {
   pvpCleanup();
   $('pvpMenu').classList.remove('hidden'); $('pvpWait').classList.add('hidden');
@@ -281,22 +292,30 @@ function pvpWaitUI(msg, opts = {}) {
   $('waitMsg').textContent = msg;
   $('roomCodeBox').classList.toggle('hidden', !opts.code); if (opts.code) $('roomCode').textContent = opts.code;
   $('btnWaitBot').classList.toggle('hidden', !opts.bot);
+  $('btnStart').classList.toggle('hidden', !opts.start); $('btnStart').disabled = !opts.startOk;
+  const pl = $('roomPlayers'); pl.innerHTML = '';
+  if (opts.players) {
+    const list = Object.entries(opts.players);
+    pl.innerHTML = `<div class="pl-head">${t('players')} ${fmt(t('playersN'), { n: list.length })} / ${opts.max || CFG.maxPlayers}</div>` +
+      list.map(([u, p]) => `<span class="pl${u === FB.uid ? ' me' : ''}${p.online === false ? ' off' : ''}">${escapeHtml(p.nick || '?')}${u === opts.host ? ` <i>${t('hostTag')}</i>` : ''}${u === FB.uid ? ` <i>${t('youTag')}</i>` : ''}</span>`).join('');
+  }
 }
 function pvpCleanup() {
   if (!pv) return;
   try { pv.refs.forEach(r => r.off()); } catch (e) {}
   if (pv.lobbyRef) pv.lobbyRef.remove().catch(() => {});
   if (pv.roomRef && pv.role === 'host' && !pv.started) pv.roomRef.remove().catch(() => {});
+  if (pv.roomRef && pv.role === 'guest' && !pv.started && FB.uid) pv.roomRef.child('players/' + FB.uid).remove().catch(() => {});
   clearTimeout(pv.timer); clearInterval(pv.timer2);
   pv = null;
 }
 function roomCodeGen() { const A = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'; let s = ''; for (let i = 0; i < 4; i++) s += A[Math.floor(Math.random() * A.length)]; return s; }
 function roomPayload(code, guestUid, guestNick) {
   const p = {}; p[FB.uid] = { nick: nickVal(), online: true }; if (guestUid) p[guestUid] = { nick: guestNick || '?', online: true };
-  return { host: FB.uid, code, group: GROUP, state: guestUid ? 'ready' : 'waiting', players: p, createdAt: firebase.database.ServerValue.TIMESTAMP };
+  return { host: FB.uid, code, group: GROUP, max: CFG.maxPlayers, state: guestUid ? 'ready' : 'waiting', players: p, createdAt: firebase.database.ServerValue.TIMESTAMP };
 }
 
-/* 隨機配對：進大廳；由「最早進入的等待者」負責配對最早的另一位 */
+/* 隨機配對：進大廳；由「最早進入的等待者」負責配對最早的另一位（同出題範圍），配到就直接開打 */
 function pvpMatch() {
   pvpCleanup();
   pv = { role: null, refs: [], started: false };
@@ -319,17 +338,18 @@ function pvpMatch() {
     roomRef.set(roomPayload(code, oppUid, opp.nick)).then(() => {
       FB.db.ref('lobby/' + oppUid + '/room').set(code);
       pv.lobbyRef.remove();
+      pv.autoStart = true;
       pvpEnterRoom(code, 'host');
     }).catch(e => console.warn('create room failed', e));
   });
 }
-/* 建立房間（房間碼） */
+/* 建立房間（房間碼）：等人進來，房主按「開始對戰」 */
 function pvpHost() {
   pvpCleanup();
   pv = { role: 'host', refs: [], started: false };
   const code = roomCodeGen();
   pv.roomRef = FB.db.ref('rooms/' + code);
-  pv.roomRef.set(roomPayload(code)).then(() => { pvpWaitUI(t('waitRoom'), { code }); pvpEnterRoom(code, 'host'); });
+  pv.roomRef.set(roomPayload(code)).then(() => { pvpWaitUI(t('waitRoom'), { code, start: true }); pvpEnterRoom(code, 'host'); });
 }
 /* 以房號加入 */
 function pvpJoin(code) {
@@ -340,12 +360,12 @@ function pvpJoin(code) {
   const roomRef = FB.db.ref('rooms/' + code);
   roomRef.once('value').then(s => {
     const r = s.val();
-    if (!r || r.state !== 'waiting' || Object.keys(r.players || {}).length >= 2) { pvpWaitUI(t('roomNotFound')); setTimeout(pvpMenu, 1800); return; }
+    if (!r || r.state !== 'waiting' || Object.keys(r.players || {}).length >= (r.max || CFG.maxPlayers)) { pvpWaitUI(t('roomNotFound')); setTimeout(pvpMenu, 1800); return; }
     if (r.group && r.group !== GROUP) setGroup(r.group);   // 用房號加入時，跟著房主的出題範圍
     return roomRef.child('players/' + FB.uid).set({ nick: nickVal(), online: true }).then(() => pvpEnterRoom(code, 'guest'));
   }).catch(e => { console.warn(e); pvpWaitUI(t('roomNotFound')); setTimeout(pvpMenu, 1800); });
 }
-/* 進房：監聽房間狀態；房主在兩人到齊時抽題並排定開始時間 */
+/* 進房：監聽房間；房主在按下開始（或配對成功）時抽題並排定第 1 題起算時間 */
 function pvpEnterRoom(code, role) {
   if (!pv) pv = { refs: [], started: false };
   pv.role = role; pv.code = code;
@@ -356,149 +376,196 @@ function pvpEnterRoom(code, role) {
   pv.roomRef.on('value', snap => {
     const r = snap.val(); if (!pv || !r) return;
     const players = r.players || {};
-    const oppUid = Object.keys(players).find(u => u !== FB.uid);
-    if (role === 'host' && r.state !== 'playing' && oppUid && !pv.scheduling) {
-      pv.scheduling = true;
-      pv.roomRef.update({ state: 'playing', qs: pickIds('pvp').map(id => slimQ(BANK_BY_ID[id])), sec: CFG.secondsPerQuestion, startAt: now() + CFG.pvpCountdownMs });
+    const n = Object.keys(players).length;
+    if (r.state !== 'playing') {
+      if (role === 'host') {
+        if (pv.autoStart && n >= 2 && !pv.scheduling) return pvpStartRoom();
+        pvpWaitUI(n >= 2 ? fmt(t('found'), { n: Object.entries(players).filter(([u]) => u !== FB.uid).map(([, p]) => p.nick).join('、') }) : t('waitRoom'),
+                  { code, start: true, startOk: n >= 2, players, host: r.host, max: r.max });
+      } else pvpWaitUI(t('waitHost'), { players, host: r.host, max: r.max });
       return;
     }
-    if (oppUid && r.state !== 'playing') pvpWaitUI(fmt(t('found'), { n: players[oppUid].nick || '?' }), { code: role === 'host' ? code : null });
-    if (r.state === 'playing' && r.qs && r.startAt && !pv.started) {
+    if (r.qs && r.curAt && !pv.started) {
       pv.started = true;
-      if (r.sec) CFG.secondsPerQuestion = r.sec;          // 以房主的每題秒數為準，雙方時程一致
-      const oppNick = oppUid ? (players[oppUid].nick || '?') : '?';
-      const opp = { uid: oppUid, nick: oppNick, bot: false, botAnswers: null };
-      pvpStartCountdown(r, opp);
+      if (r.sec) CFG.secondsPerQuestion = r.sec;          // 以房主的每題秒數為準，所有人時程一致
+      pvpStartCountdown(r);
     }
   });
 }
-function pvpStartCountdown(r, opp) {
+function pvpStartRoom() {
+  if (!pv || pv.role !== 'host' || pv.scheduling) return;
+  pv.scheduling = true;
+  const at = now() + CFG.pvpCountdownMs;
+  pv.roomRef.update({ state: 'playing', qs: pickIds('pvp').map(id => slimQ(BANK_BY_ID[id])), sec: CFG.secondsPerQuestion, gap: CFG.pvpGapMs, cur: 0, curAt: at, startAt: at })
+    .catch(e => { console.warn(e); pv.scheduling = false; });
+}
+function pvpStartCountdown(r) {
   const upd = () => {
-    const s = Math.max(0, Math.ceil((r.startAt - now()) / 1000));
-    pvpWaitUI(fmt(t('found'), { n: opp.nick }) + '　' + fmt(t('starting'), { s }));
-    if (now() >= r.startAt - 200) { clearInterval(pv.timer2); beginPvp(r.qs, r.startAt, opp, pv.roomRef); }
+    const s = Math.max(0, Math.ceil((r.curAt - now()) / 1000));
+    pvpWaitUI(fmt(t('found'), { n: Object.entries(r.players || {}).filter(([u]) => u !== FB.uid).map(([, p]) => p.nick).join('、') }) + '　' + fmt(t('starting'), { s }), { players: r.players, host: r.host, max: r.max });
+    if (now() >= r.curAt - 200) { clearInterval(pv.timer2); beginPvp(r, pv.roomRef, pv.role); }
   };
   upd(); pv.timer2 = setInterval(upd, 250);
 }
-/* 電腦對戰：本機模擬，不需雲端 */
+/* 電腦對戰：本機模擬一個房間，不需雲端 */
 function pvpBot() {
   pvpCleanup();
   const ids = pickIds('pvp');
   const rnd = mulberry32(hashStr('bot-' + Date.now()));
-  const botAnswers = {};
+  const bot = {};
   ids.forEach((id, k) => {
     const q = BANK_BY_ID[id]; if (!q) return;
     const pOk = [0, 0.8, 0.62, 0.45][q.difficulty] || 0.6;
     const ok = rnd() < pOk;
     const wrong = 'abcd'.replace(q.answer, '');
-    botAnswers[k] = { c: ok ? q.answer : wrong[Math.floor(rnd() * 3)], ms: Math.round((0.15 + rnd() * 0.55) * CFG.secondsPerQuestion * 1000) };
+    bot[k] = { c: ok ? q.answer : wrong[Math.floor(rnd() * 3)], ms: Math.round((0.15 + rnd() * 0.55) * CFG.secondsPerQuestion * 1000) };
   });
-  beginPvp(ids, now() + 1500, { uid: 'bot', nick: t('bot1'), bot: true, botAnswers }, null);
+  const me = FB.uid || 'me';
+  const players = {}; players[me] = { nick: nickVal(), online: true }; players.bot = { nick: t('bot1'), online: true, bot: true };
+  const LR = { host: me, code: 'BOT', group: GROUP, max: 2, state: 'playing', players, qs: ids.map(id => slimQ(BANK_BY_ID[id])), sec: CFG.secondsPerQuestion, gap: CFG.pvpGapMs, cur: 0, curAt: now() + 1500, answers: {}, botPlan: bot };
+  beginPvp(LR, null, 'host');
 }
-function beginPvp(ids, startAt, opp, roomRef) {
-  const p = { startAt, opp, roomRef, role: pv ? pv.role : null, k: -1, answers: {}, oppAnswers: opp.botAnswers || {}, oppScore: 0, oppStreak: 0, oppLog: [], gapShown: -1, oppLeft: false, refs: [] };
+/* 開打：p = 對戰狀態；roomRef 為 null 表示本機（電腦）房間 */
+function beginPvp(r, roomRef, role) {
+  const me = FB.uid || 'me';
+  const p = { roomRef, role, me, room: r, local: !roomRef, k: -1, gapShown: -1, players: {}, order: [], refs: [], hostGone: false, lastAdvance: 0 };
+  Object.entries(r.players || {}).forEach(([u, pl]) => { p.players[u] = { uid: u, nick: pl.nick || '?', online: pl.online !== false, bot: !!pl.bot, score: 0, streak: 0, log: [] }; });
+  p.order = Object.keys(p.players);
   if (roomRef) {
-    const aRef = roomRef.child('answers/' + opp.uid); p.refs.push(aRef);
-    aRef.on('value', s => { p.oppAnswers = s.val() || {}; recomputeOpp(); renderVs(); });
-    const oRef = roomRef.child('players/' + opp.uid + '/online'); p.refs.push(oRef);
-    oRef.on('value', s => { if (s.val() === false && !p.oppLeft) { p.oppLeft = true; botTakeover(); } });
+    p.refs.push(roomRef);
+    roomRef.on('value', s => { const v = s.val(); if (!v || !game || game.pvp !== p) return; p.room = v; onRoomUpdate(p); });
   }
-  newGame('pvp', ids, p);
+  newGame('pvp', r.qs, p);
 }
-function botTakeover() {
-  const p = game.pvp; if (!p) return;
-  const rnd = mulberry32(hashStr('takeover-' + p.startAt));
-  game.qs.forEach((q, k) => { if (p.oppAnswers[k] == null && k >= p.k) { const ok = rnd() < 0.6; const wrong = 'abcd'.replace(q.answer, ''); p.oppAnswers[k] = { c: ok ? q.answer : wrong[Math.floor(rnd() * 3)], ms: Math.round((0.2 + rnd() * 0.55) * CFG.secondsPerQuestion * 1000), bot: true }; } });
-  $('gap').textContent = t('oppLeft'); $('gap').classList.remove('hidden'); setTimeout(() => { if (game && game.pvp === p) $('gap').classList.add('hidden'); }, 2500);
-  recomputeOpp(); renderVs();
-}
-function recomputeOpp() {
-  const p = game && game.pvp; if (!p) return;
-  let score = 0, streak = 0; p.oppLog = [];
-  game.qs.forEach((q, k) => {
-    const a = p.oppAnswers[k];
-    const visible = k < p.k || (k === p.k && a && a.ms <= elapsedInQ());   // 只算「時間上已發生」的作答
-    if (!a || !visible) { p.oppLog[k] = null; return; }
-    const ok = a.c === q.answer;
-    if (ok) streak++; else streak = 0;
-    const s = scoreFor(ok, a.ms / 1000, streak);
-    score += s.gained + s.bonus; p.oppLog[k] = { ok, gained: s.gained + s.bonus, chosen: a.c };
+/* 房間資料變動：同步玩家在線狀態、答案、目前題號 */
+function onRoomUpdate(p) {
+  const r = p.room;
+  Object.entries(r.players || {}).forEach(([u, pl]) => {
+    if (!p.players[u]) { p.players[u] = { uid: u, nick: pl.nick || '?', online: true, bot: false, score: 0, streak: 0, log: [] }; p.order.push(u); }
+    const was = p.players[u].online; p.players[u].online = pl.online !== false;
+    if (was && !p.players[u].online && u !== p.me) { flash(fmt(t('oppLeft'), { n: p.players[u].nick })); if (u === r.host) p.hostGone = true; }
   });
-  p.oppScore = score; p.oppStreak = streak;
+  if (typeof r.cur === 'number' && r.cur !== game.i && r.cur >= 0) { if (r.cur >= game.qs.length) return finish(); pvpGoto(r.cur, r.curAt); }
+  recomputeAll(); renderVs();
 }
-const qSlot = () => CFG.secondsPerQuestion * 1000 + CFG.pvpGapMs;
-function elapsedInQ() { const p = game.pvp; return now() - (p.startAt + p.k * qSlot()); }
+function flash(msg) { $('gap').textContent = msg; $('gap').classList.remove('hidden'); setTimeout(() => { if (game && $('gap').textContent === msg) $('gap').classList.add('hidden'); }, 2500); }
+/* 進入第 k 題（時間以房間 curAt 為準） */
+function pvpGoto(k, curAt) {
+  const p = game.pvp;
+  for (let j = 0; j < k; j++) if (!game.log[j]) { game.log[j] = { chosen: null, ok: false, used: CFG.secondsPerQuestion, gained: 0, bonus: 0 }; game.streak = 0; }
+  p.k = k; p.curAt = curAt; game.i = k; game.view = null; game.locked = false; p.gapShown = -1;
+  $('gap').classList.add('hidden');
+  renderQuestion(true);
+}
 function pvpTickStart() {
   clearInterval(game.timer);
+  const p = game.pvp; pvpGoto(p.room.cur || 0, p.room.curAt);
   game.timer = setInterval(pvpTick, 100);
   pvpTick();
 }
+function allAnswered(p, k) {
+  return p.order.every(u => { const pl = p.players[u]; if (!pl.online && !pl.bot) return true; return getAnswer(p, u, k) != null; });
+}
+function getAnswer(p, u, k) {
+  const r = p.room; if (p.players[u] && p.players[u].bot) { const a = r.botPlan && r.botPlan[k]; return a || null; }
+  return r.answers && r.answers[u] && r.answers[u][k] ? r.answers[u][k] : null;
+}
 function pvpTick() {
   if (!game || !game.pvp) return;
-  const p = game.pvp;
-  const el = now() - p.startAt;
-  if (el < 0) { updateTimer(CFG.secondsPerQuestion); if (p.k === -1 && !p.preRendered) { p.preRendered = true; game.i = 0; renderQuestion(true); document.querySelectorAll('.opt').forEach(b => b.disabled = true); } return; }
-  const k = Math.floor(el / qSlot());
-  if (k >= game.qs.length) { clearInterval(game.timer); return finish(); }
-  if (k !== p.k) {                       // 進入新題
-    p.k = k; game.i = k; game.view = null; game.locked = false;
-    for (let j = 0; j < k; j++) if (!game.log[j]) { game.log[j] = { chosen: null, ok: false, used: CFG.secondsPerQuestion, gained: 0, bonus: 0 }; game.streak = 0; }
-    $('gap').classList.add('hidden');
-    renderQuestion(true);
-  }
-  const inQ = el - k * qSlot();
+  const p = game.pvp, r = p.room, k = p.k;
+  const inQ = now() - p.curAt;
+  if (inQ < 0) { updateTimer(CFG.secondsPerQuestion); if (!p.preRendered) { p.preRendered = true; renderQuestion(true); document.querySelectorAll('.opt').forEach(b => b.disabled = true); } return; }
+  if (p.preRendered) { p.preRendered = false; renderQuestion(true); }
   const left = Math.max(0, CFG.secondsPerQuestion - inQ / 1000);
   if (game.view === null) updateTimer(left);
-  if (inQ >= CFG.secondsPerQuestion * 1000) {   // 本題時間到：鎖定、顯示雙方得分（不揭曉答案）
-    if (!game.log[k]) { game.locked = true; commit(null, false, CFG.secondsPerQuestion); document.querySelectorAll('.opt').forEach(b => b.disabled = true); }
-    if (p.gapShown !== k) { p.gapShown = k; recomputeOpp(); renderVs(); showGap(k); }
+  const timeUp = inQ >= CFG.secondsPerQuestion * 1000;
+  if (timeUp && !game.log[k]) { game.locked = true; commit(null, false, CFG.secondsPerQuestion); document.querySelectorAll('.opt').forEach(b => b.disabled = true); }
+  // 本題結束（時間到，或全員作答完畢）→ 顯示各家得分；房主（或本機房間）排定下一題
+  const done = timeUp || allAnswered(p, k);
+  if (done && p.gapShown !== k) {
+    p.gapShown = k; game.locked = true; document.querySelectorAll('.opt').forEach(b => b.disabled = true);
+    recomputeAll(true); renderVs(); showGap(k, !timeUp);
+    if (p.local || p.role === 'host') scheduleNext(p, k);
+    else p.fallbackAt = now() + (r.gap || CFG.pvpGapMs) + 4000;   // 房主沒推進時的保險：時間到 4 秒後自己往下走
   }
-  // 電腦作答到時間點才算
-  if (p.opp.bot || p.oppLeft) { recomputeOpp(); renderVs(); }
+  if (!p.local && p.role !== 'host' && p.fallbackAt && now() > p.fallbackAt && p.k === k) { p.fallbackAt = 0; if (!p.hostGone) flash(t('hostLeft')); const nk = k + 1; if (nk >= game.qs.length) return finish(); pvpGoto(nk, now() + 500); }
+  if (p.local) { recomputeAll(); renderVs(); }
 }
-function showGap(k) {
-  const me = game.log[k] ? game.log[k].gained + game.log[k].bonus : 0;
-  const o = game.pvp.oppLog[k]; const ob = o ? o.gained : 0;
-  $('gap').textContent = fmt(t('gapMe'), { a: me }) + '　·　' + fmt(t('gapOpp'), { b: ob });
+function scheduleNext(p, k) {
+  if (p.lastAdvance === k) return; p.lastAdvance = k;
+  const nk = k + 1, at = now() + (p.room.gap || CFG.pvpGapMs);
+  if (p.local) { setTimeout(() => { if (!game || game.pvp !== p) return; p.room.cur = nk; p.room.curAt = at; if (nk >= game.qs.length) return finish(); pvpGoto(nk, at); }, at - now()); return; }
+  p.roomRef.update({ cur: nk, curAt: at }).catch(e => console.warn('advance failed', e));
+}
+function showGap(k, early) {
+  const p = game.pvp; recomputeAll(true);
+  const parts = p.order.map(u => { const pl = p.players[u]; const g = pl.log[k] ? pl.log[k].gained : 0; return u === p.me ? fmt(t('gapMe'), { a: g }) : fmt(t('gapOpp'), { n: pl.nick, b: g }); });
+  $('gap').textContent = (early ? t('allAnswered') + '　·　' : '') + parts.join('　·　');
   $('gap').classList.remove('hidden');
 }
 function pvpAnswer(chosen) {
   const p = game.pvp;
-  const ms = Math.min(CFG.secondsPerQuestion * 1000, Math.max(0, elapsedInQ()));
+  const ms = Math.min(CFG.secondsPerQuestion * 1000, Math.max(0, now() - p.curAt));
   const q = game.qs[game.i];
   commit(chosen, chosen === q.answer, ms / 1000);
   document.querySelectorAll('.opt').forEach(b => { b.disabled = true; if (b.dataset.k === chosen) b.classList.add('picked'); });
-  p.answers[game.i] = { c: chosen, ms };
-  if (p.roomRef) p.roomRef.child('answers/' + FB.uid + '/' + game.i).set({ c: chosen || '', ms: Math.round(ms) }).catch(e => console.warn(e));
+  const a = { c: chosen || '', ms: Math.round(ms) };
+  if (!p.room.answers) p.room.answers = {}; if (!p.room.answers[p.me]) p.room.answers[p.me] = {}; p.room.answers[p.me][game.i] = a;
+  if (p.roomRef) p.roomRef.child('answers/' + p.me + '/' + game.i).set(a).catch(e => console.warn(e));
   renderVs();
 }
+/* 依房間答案重算每位玩家分數；final=true 時本題全部算入（不論時間點） */
+function recomputeAll(final) {
+  const p = game && game.pvp; if (!p) return;
+  const r = p.room;
+  p.order.forEach(u => {
+    const pl = p.players[u]; if (u === p.me) { pl.score = game.score; pl.streak = game.streak; pl.log = game.log.map(x => x ? { ok: x.ok, gained: x.gained + x.bonus, chosen: x.chosen } : null); return; }
+    let score = 0, streak = 0; pl.log = [];
+    game.qs.forEach((q, k) => {
+      const a = getAnswer(p, u, k);
+      const elapsed = k < p.k ? Infinity : (k === p.k ? now() - p.curAt : -1);
+      const visible = a && (k < p.k || (k === p.k && (final || a.ms <= elapsed)));   // 只算「時間上已發生」的作答
+      if (!visible) { pl.log[k] = null; return; }
+      const ok = a.c === q.answer;
+      if (ok) streak++; else streak = 0;
+      const s = scoreFor(ok, a.ms / 1000, streak);
+      score += s.gained + s.bonus; pl.log[k] = { ok, gained: s.gained + s.bonus, chosen: a.c };
+    });
+    pl.score = score; pl.streak = streak;
+  });
+}
+function rankOrder(p) { return p.order.slice().sort((a, b) => p.players[b].score - p.players[a].score || a.localeCompare(b)); }
 function renderVs() {
   const p = game && game.pvp; if (!p) return;
-  const oppDone = p.oppLog[game.i] != null;
-  $('vsMe').innerHTML = `<b>${escapeHtml(game.nick)}</b> ${game.score}`;
-  $('vsOpp').innerHTML = `${oppDone ? '✔ ' : ''}<b>${escapeHtml(p.opp.nick)}</b> ${p.oppScore}${p.oppLeft ? ' 🤖' : ''}`;
+  const k = game.i;
+  $('vs').innerHTML = rankOrder(p).map((u, i) => { const pl = p.players[u]; const done = k < p.k || getAnswer(p, u, k) != null; return `<span class="vsp${u === p.me ? ' me' : ''}${pl.online ? '' : ' off'}">${i + 1}. ${done ? '✔ ' : ''}<b>${escapeHtml(pl.nick)}</b> ${pl.score}${pl.online ? '' : ' 🤖'}</span>`; }).join('');
 }
 
 /* ---------- 結果與排行榜 ---------- */
 function finish() {
   clearInterval(game.timer);
+  if (game.finished) return; game.finished = true;
   const correct = game.log.filter(r => r && r.ok).length;
   const rec = { uid: FB.uid || 'local', nick: game.nick, score: game.score, correct, n: game.qs.length, date: today(), ts: Date.now() };
   let result = null;
   if (game.pvp) {
-    const p = game.pvp; p.k = game.qs.length; recomputeOpp();
-    result = game.score > p.oppScore ? 'win' : game.score < p.oppScore ? 'lose' : 'draw';
-    rec.opp = p.opp.nick; rec.oppScore = p.oppScore; rec.result = result;
+    const p = game.pvp; p.k = game.qs.length; recomputeAll(true);
+    const order = rankOrder(p); const top = p.players[order[0]].score; const myRank = order.indexOf(p.me) + 1;
+    const tiedTop = order.filter(u => p.players[u].score === top).length;
+    result = game.score === top ? (tiedTop > 1 ? 'draw' : 'win') : 'lose';
+    const best = order.find(u => u !== p.me);
+    rec.opp = best ? p.players[best].nick.slice(0, 12) : '?'; rec.oppScore = best ? p.players[best].score : 0; rec.result = result;
+    game.rank = myRank;
     if (p.refs) p.refs.forEach(r => r.off());
-    if (p.roomRef && p.opp && !p.opp.bot) {
-      p.roomRef.child('players/' + FB.uid + '/online').onDisconnect().cancel();
-      if (p.role === 'host') { const ref = p.roomRef; setTimeout(() => ref.remove().catch(() => {}), 20000); }   // 對局結束 20 秒後清掉房間
+    if (p.roomRef) {
+      p.roomRef.child('players/' + p.me + '/online').onDisconnect().cancel();
+      if (p.role === 'host') { const ref = p.roomRef; setTimeout(() => ref.remove().catch(() => {}), 30000); }   // 對局結束 30 秒後清掉房間
     }
   }
   const board = JSON.parse(localStorage.getItem('board') || '[]');
   board.push({ ...rec, mode: game.mode, group: GROUP }); board.sort((a, b) => b.score - a.score); localStorage.setItem('board', JSON.stringify(board.slice(0, 60)));
   if (game.mode === 'daily') localStorage.setItem('daily-' + GROUP + '-' + today(), String(game.score));
-  const isBot = game.pvp && game.pvp.opp.bot;
+  const isBot = game.pvp && game.pvp.local;
   if (FB.ok && !isBot) FB.db.ref('scores/' + scopeKey(game.mode)).push(rec).catch(e => console.warn('score push failed', e));
   game.result = result; game.isBot = !!isBot;
   pvpCleanup();
@@ -512,9 +579,9 @@ function renderResult() {
   $('rStats').innerHTML = `<div><b>${correct}/${game.qs.length}</b><span>${t('correctN')}</span></div><div><b>${game.bestStreak}</b><span>${t('bestStreak')}</span></div><div><b>${avg}s</b><span>${t('avgTime')}</span></div>`;
   const vr = $('vsResult');
   if (game.pvp) {
-    const p = game.pvp;
+    const p = game.pvp; const order = rankOrder(p);
     vr.className = 'vsresult ' + game.result;
-    vr.innerHTML = `<div class="vr-title">${t(game.result)}</div><div class="vr-row"><span>${escapeHtml(game.nick)}<b>${game.score}</b></span><span class="vsx">vs</span><span>${escapeHtml(p.opp.nick)}<b>${p.oppScore}</b></span></div>`;
+    vr.innerHTML = `<div class="vr-title">${t(game.result)}　<small>${fmt(t('rank'), { r: game.rank })}</small></div><div class="vr-list">${order.map((u, i) => `<div class="vr-row${u === p.me ? ' me' : ''}"><span>${i + 1}. ${escapeHtml(p.players[u].nick)}</span><b>${p.players[u].score}</b></div>`).join('')}</div>`;
     vr.classList.remove('hidden');
     $('rNote').textContent = game.isBot ? t('vsBot') : '';
   } else { vr.classList.add('hidden'); $('rNote').textContent = ''; }
@@ -522,8 +589,8 @@ function renderResult() {
   game.qs.forEach((q, i) => {
     const r = game.log[i] || { chosen: null, ok: false };
     const li = document.createElement('li'); li.className = r.ok ? 'ok' : 'ng';
-    const oppTxt = game.pvp && game.pvp.oppLog[i] ? `　·　${escapeHtml(game.pvp.opp.nick)}：${game.pvp.oppLog[i].ok ? '✔' : '✘'}` : '';
-    li.innerHTML = `<div class="rq">${escapeHtml(L(q, 'q'))}</div><div class="ra">${t('ans')}：${q.answer.toUpperCase()}. ${escapeHtml(L(q, q.answer))}${r.ok ? '' : r.chosen ? `　（${lang === 'zh' ? '你選' : 'you chose'} ${r.chosen.toUpperCase()}）` : `　（${t('timeout')}）`}${oppTxt}</div><div class="rx">${escapeHtml(L(q, 'explain'))}</div>`;
+    const oppTxt = game.pvp ? game.pvp.order.filter(u => u !== game.pvp.me).map(u => { const l = game.pvp.players[u].log[i]; return `${escapeHtml(game.pvp.players[u].nick)}：${l ? (l.ok ? '✔' : '✘') : '—'}`; }).join('　') : '';
+    li.innerHTML = `<div class="rq">${escapeHtml(L(q, 'q'))}</div><div class="ra">${t('ans')}：${q.answer.toUpperCase()}. ${escapeHtml(L(q, q.answer))}${r.ok ? '' : r.chosen ? `　（${lang === 'zh' ? '你選' : 'you chose'} ${r.chosen.toUpperCase()}）` : `　（${t('timeout')}）`}${oppTxt ? '　·　' + oppTxt : ''}</div><div class="rx">${escapeHtml(L(q, 'explain'))}</div>`;
     ol.appendChild(li);
   });
   renderBoard();
@@ -556,13 +623,13 @@ $('langBtn').addEventListener('click', () => { lang = lang === 'zh' ? 'en' : 'zh
 $('nick').value = localStorage.getItem('nick') || '';
 $('nick').addEventListener('change', syncNick);
 $('nick').addEventListener('input', () => { const h = $('nickHint'); if (h && nickVal()) { h.textContent = ''; h.classList.remove('warn'); } });
-syncNick();
 $('btnMatch').addEventListener('click', pvpMatch);
 $('btnHost').addEventListener('click', pvpHost);
 $('btnJoin').addEventListener('click', () => pvpJoin($('joinCode').value));
 $('joinCode').addEventListener('keydown', e => { if (e.key === 'Enter') pvpJoin($('joinCode').value); });
 $('btnBot').addEventListener('click', pvpBot);
 $('btnWaitBot').addEventListener('click', pvpBot);
+$('btnStart').addEventListener('click', pvpStartRoom);
 $('btnCancelWait').addEventListener('click', pvpMenu);
 $('pvpBack').addEventListener('click', () => { pvpCleanup(); show('home'); renderBoard(); });
 document.addEventListener('keydown', e => {
@@ -575,6 +642,7 @@ document.addEventListener('keydown', e => {
 window.addEventListener('beforeunload', () => pvpCleanup());
 window.__dbg = () => ({ game, pv, FB: { ok: FB.ok, uid: FB.uid, offset: FB.offset }, CFG });
 applyLang();
+syncNick();
 initFirebase();
 loadBank().catch(err => { $('bankInfo').textContent = '題庫載入失敗 / failed to load bank: ' + err; });
 })();

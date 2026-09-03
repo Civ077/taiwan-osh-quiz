@@ -118,3 +118,19 @@ button{font:inherit;cursor:pointer}
 .nickhint.warn{color:#b3261e;font-weight:700}
 @keyframes shake{0%,100%{transform:translateX(0)}25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
 #nick.shake{animation:shake .3s 2;border-color:#b3261e}
+
+/* 多人對戰：房間玩家列表、計分列、結果名次 */
+.players{margin:6px 0 10px;text-align:center}
+.players .pl-head{font-size:13px;color:var(--muted);margin-bottom:6px}
+.players .pl{display:inline-block;margin:3px;padding:4px 10px;border:1px solid var(--line);border-radius:999px;background:var(--card);font-size:14px}
+.players .pl.me{border-color:var(--navy);color:var(--navy);font-weight:700}
+.players .pl.off{opacity:.5;text-decoration:line-through}
+.players .pl i{font-style:normal;font-size:11px;color:var(--muted);margin-left:2px}
+.vs{flex-wrap:wrap;gap:6px 14px;justify-content:flex-start}
+.vs .vsp{white-space:nowrap}
+.vs .vsp.me{color:var(--navy);font-weight:700}
+.vs .vsp.off{opacity:.55}
+.vr-list{display:grid;gap:4px;max-width:320px;margin:6px auto 0}
+.vr-list .vr-row{justify-content:space-between;padding:4px 10px;border-radius:8px}
+.vr-list .vr-row.me{background:#eaf2fb;font-weight:700}
+.vr-list .vr-row b{display:inline;font-size:18px}

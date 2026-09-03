@@ -50,7 +50,7 @@
       <button class="card mode" data-mode="pvp" type="button">
         <span class="ic">⚔️</span>
         <span class="name" data-i18n="pvp">連線對戰</span>
-        <span class="desc" data-i18n="pvpDesc">隨機配對或房間碼，同題同步搶答</span>
+        <span class="desc" data-i18n="pvpDesc">2–5 人房間或隨機配對，同題同步搶答</span>
       </button>
     </div>
     <div class="board">
@@ -79,7 +79,7 @@
       <button id="btnHost" class="card" type="button">
         <span class="ic">🏠</span>
         <span class="name" data-i18n="host">建立房間</span>
-        <span class="desc" data-i18n="hostDesc">拿到四碼房號，傳給朋友</span>
+        <span class="desc" data-i18n="hostDesc">拿到四碼房號，最多 5 人一起玩</span>
       </button>
       <div class="card joinrow">
         <span class="ic">🔑</span>
@@ -96,7 +96,9 @@
       <div class="spinner"></div>
       <div id="waitMsg" class="waitmsg"></div>
       <div id="roomCodeBox" class="roomcode hidden"><span data-i18n="roomCode">房號</span> <b id="roomCode"></b></div>
+      <div id="roomPlayers" class="players"></div>
       <div class="actions">
+        <button id="btnStart" class="primary hidden" type="button" data-i18n="startBtn">開始對戰</button>
         <button id="btnWaitBot" class="primary hidden" type="button" data-i18n="waitBot">改打電腦</button>
         <button id="btnCancelWait" class="ghost" type="button" data-i18n="cancel">取消</button>
       </div>
@@ -115,7 +117,7 @@
       <span id="score" class="score">0</span>
       <span id="streak" class="streak"></span>
     </div>
-    <div id="vs" class="vs hidden"><span id="vsMe"></span><span class="vsx">vs</span><span id="vsOpp"></span></div>
+    <div id="vs" class="vs hidden"></div>
     <div class="timer"><div id="timerBar" class="bar"></div><span id="timerNum" class="num">15</span></div>
     <div class="meta"><span id="qLaw"></span><span id="qDiff"></span></div>
     <h2 id="qText" class="q"></h2>
