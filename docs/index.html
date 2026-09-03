@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#16324f">
+<title>台灣職安環保知識王</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <span class="shield">🛡</span>
+    <span class="t" data-i18n="title">台灣職安環保知識王</span>
+  </div>
+  <button id="langBtn" class="pill" type="button">EN</button>
+</header>
+
+<main id="app">
+
+  <!-- 首頁 -->
+  <section id="home" class="screen active">
+    <p class="lead" data-i18n="lead">職業安全衛生 × 環保法規　限時搶答</p>
+    <div class="menu">
+      <button class="card mode" data-mode="solo" type="button">
+        <span class="ic">🎯</span>
+        <span class="name" data-i18n="solo">單人闖關</span>
+        <span class="desc" data-i18n="soloDesc">20 題・每題 15 秒・越快分越高</span>
+      </button>
+      <button class="card mode" data-mode="daily" type="button">
+        <span class="ic">📅</span>
+        <span class="name" data-i18n="daily">每日挑戰</span>
+        <span class="desc" data-i18n="dailyDesc">每天 10 題，全站同題</span>
+      </button>
+      <button class="card mode disabled" data-mode="pvp" type="button" disabled>
+        <span class="ic">⚔️</span>
+        <span class="name" data-i18n="pvp">連線對戰</span>
+        <span class="desc" data-i18n="pvpDesc">即將推出（Firebase 建置中）</span>
+      </button>
+    </div>
+    <div class="row">
+      <label class="field">
+        <span data-i18n="nick">暱稱</span>
+        <input id="nick" maxlength="12" placeholder="輸入暱稱">
+      </label>
+    </div>
+    <div id="board" class="board"></div>
+    <p class="foot"><span id="bankInfo"></span></p>
+  </section>
+
+  <!-- 作答 -->
+  <section id="play" class="screen">
+    <div class="hud">
+      <span id="qNo" class="qno">1 / 20</span>
+      <span id="score" class="score">0</span>
+      <span id="streak" class="streak"></span>
+    </div>
+    <div class="timer"><div id="timerBar" class="bar"></div><span id="timerNum" class="num">15</span></div>
+    <div class="meta"><span id="qLaw"></span><span id="qDiff"></span></div>
+    <h2 id="qText" class="q"></h2>
+    <div id="opts" class="opts"></div>
+    <div id="feedback" class="feedback hidden">
+      <div id="fbHead" class="fb-head"></div>
+      <div id="fbExplain" class="fb-explain"></div>
+      <button id="nextBtn" class="primary" type="button" data-i18n="next">下一題</button>
+    </div>
+  </section>
+
+  <!-- 結果 -->
+  <section id="result" class="screen">
+    <h2 data-i18n="resultTitle">本局結果</h2>
+    <div class="total"><span id="rScore">0</span><small data-i18n="pts">分</small></div>
+    <div id="rStats" class="stats"></div>
+    <div class="actions">
+      <button id="againBtn" class="primary" type="button" data-i18n="again">再來一局</button>
+      <button id="homeBtn" class="ghost" type="button" data-i18n="home">回首頁</button>
+    </div>
+    <h3 data-i18n="review">答題回顧</h3>
+    <ol id="reviewList" class="review"></ol>
+  </section>
+
+</main>
+<script src="app.js"></script>
+</body>
+</html>
