@@ -26,7 +26,9 @@ const I18N = {
         waitMatch:'配對中…', waitNoOne:'目前沒有其他玩家，可以改打電腦或建立房間邀請朋友', waitRoom:'等待朋友加入…把房號傳給對方', joining:'加入中…',
         found:'配對成功！對手：{n}', starting:'{s} 秒後開始', roomNotFound:'找不到這個房號或房間已開始', needOnline:'連線對戰需要網路與雲端登入，目前不可用；可改打電腦',
         bot1:'電腦', you:'你', opp:'對手', win:'你贏了！', lose:'你輸了', draw:'平手', gapMe:'你 +{a}', gapOpp:'對手 +{b}', oppLeft:'對手已離線，剩下題目由電腦代打',
-        online:'雲端連線中', offline:'離線（排行榜僅本機）', globalNote:'全站前 10 名', localNote:'本機紀錄', vsBot:'（對電腦，不列入全站排行）' },
+        online:'雲端連線中', offline:'離線（排行榜僅本機）', globalNote:'全站前 10 名', localNote:'本機紀錄', vsBot:'（對電腦，不列入全站排行）',
+        nickHint:'請先輸入暱稱（1–12 字）才能開始遊戲，暱稱會顯示在排行榜與對戰中', nickRequired:'⚠ 請先輸入暱稱再開始',
+        groupOsh:'職業安全衛生', groupEnv:'環保', segNoteOsh:'目前出題範圍：職業安全衛生法規（單人、每日、對戰、排行榜各自獨立）', segNoteEnv:'目前出題範圍：環保法規（單人、每日、對戰、排行榜各自獨立）' },
   en: { title:'Taiwan OSH & Env Quiz', lead:'Occupational Safety × Environmental Law · Speed quiz', solo:'Solo Run', soloDesc:'20 questions · 15 s each · faster = more points',
         daily:'Daily Challenge', dailyDesc:'10 questions a day, same for everyone', pvp:'Online Battle', pvpDesc:'Random match or room code, same questions in sync', nick:'Nickname',
         prev:'Previous', backCur:'Back to current', viewing:'Viewing Q{n} (your answer marked; timer paused)', noAns:'No answer', resultTitle:'Results',
@@ -38,11 +40,15 @@ const I18N = {
         waitMatch:'Matching…', waitNoOne:'No other players right now. Play the bot or create a room for a friend', waitRoom:'Waiting for a friend… share the room code', joining:'Joining…',
         found:'Matched! Opponent: {n}', starting:'Starting in {s} s', roomNotFound:'Room not found or already started', needOnline:'Online battle needs network + cloud sign-in; try the bot instead',
         bot1:'Bot', you:'You', opp:'Opp', win:'You win!', lose:'You lose', draw:'Draw', gapMe:'You +{a}', gapOpp:'Opp +{b}', oppLeft:'Opponent left; the bot answers the rest',
-        online:'Online', offline:'Offline (local leaderboard only)', globalNote:'Global top 10', localNote:'Local records', vsBot:'(vs bot, not ranked globally)' }
+        online:'Online', offline:'Offline (local leaderboard only)', globalNote:'Global top 10', localNote:'Local records', vsBot:'(vs bot, not ranked globally)',
+        nickHint:'Enter a nickname (1–12 chars) to play; it appears on leaderboards and in battles', nickRequired:'⚠ Please enter a nickname first',
+        groupOsh:'Occupational Safety', groupEnv:'Environment', segNoteOsh:'Current scope: occupational safety & health laws (solo, daily, battle and leaderboard are separate)', segNoteEnv:'Current scope: environmental laws (solo, daily, battle and leaderboard are separate)' }
 };
 
 let lang = localStorage.getItem('lang') || 'zh';
-let BANK = [], BANK_BY_ID = {};
+let GROUP = (localStorage.getItem('group') === 'ENV') ? 'ENV' : 'OSH';   // 出題範圍：OSH 職安 / ENV 環保，兩邊完全獨立
+let BANK_ALL = [], BANK = [], BANK_BY_ID = {};
+const scopeKey = mode => mode + '_' + GROUP;                               // 排行榜、每日挑戰都依範圍分開
 let game = null;
 let boardMode = 'solo';
 const $ = id => document.getElementById(id);
@@ -66,9 +72,17 @@ function initFirebase() {
   } catch (e) { console.warn('Firebase 未啟用：', e.message); FB.ok = false; renderNet(); }
 }
 const now = () => Date.now() + FB.offset;
-function nickVal() { return ($('nick').value.trim() || t('nickDefault')).slice(0, 12); }
+function nickVal() { return $('nick').value.trim().slice(0, 12); }
+function requireNick() {            // 暱稱必填：沒填就不能開始任何模式
+  if (nickVal()) return true;
+  const f = $('nick'); f.focus(); f.classList.add('shake'); setTimeout(() => f.classList.remove('shake'), 600);
+  const h = $('nickHint'); if (h) { h.textContent = t('nickRequired'); h.classList.add('warn'); }
+  return false;
+}
 function syncNick() {
   const n = nickVal(); localStorage.setItem('nick', n);
+  const h = $('nickHint'); if (h) { h.textContent = n ? '' : t('nickHint'); h.classList.remove('warn'); }
+  if (!n) return;
   if (FB.ok && FB.nick !== n) { FB.nick = n; FB.db.ref('users/' + FB.uid).set({ nick: n, updatedAt: firebase.database.ServerValue.TIMESTAMP }).catch(() => {}); }
 }
 function renderNet() {
@@ -84,7 +98,7 @@ function applyLang() {
   document.querySelectorAll('[data-i18n]').forEach(el => { el.textContent = t(el.dataset.i18n); });
   $('langBtn').textContent = lang === 'zh' ? 'EN' : '中';
   $('nick').placeholder = t('nick');
-  renderBoard(); renderBankInfo(); renderNet();
+  renderGroup(); renderBoard(); renderBankInfo(); renderNet();
   if (game && $('play').classList.contains('active')) renderQuestion(true);
   if ($('result').classList.contains('active')) renderResult();
 }
@@ -119,20 +133,33 @@ async function loadBank() {
   if (CFG.lobbyWaitSec) CFG.lobbyWaitMs = CFG.lobbyWaitSec * 1000;
   const secParam = Number(new URLSearchParams(location.search).get('sec'));   // 測試用：?sec=4 縮短每題秒數
   if (secParam > 0) CFG.secondsPerQuestion = secParam;
-  BANK = j.questions.filter(q => CFG.useDraft ? q.status !== 'archived' : q.status === 'active');
-  BANK_BY_ID = {}; BANK.forEach(q => BANK_BY_ID[q.id] = q);
+  BANK_ALL = j.questions.filter(q => CFG.useDraft ? q.status !== 'archived' : q.status === 'active');
+  BANK_ALL.forEach(q => { if (!q.law_group) q.law_group = String(q.law_id || q.id || '').startsWith('ENV') ? 'ENV' : 'OSH'; });
+  applyGroup();
   renderBankInfo(String(j.generated || '').slice(0, 10), src);
+}
+function applyGroup() {
+  BANK = BANK_ALL.filter(q => q.law_group === GROUP);
+  BANK_BY_ID = {}; BANK.forEach(q => BANK_BY_ID[q.id] = q);
+}
+function setGroup(g) {
+  GROUP = g === 'ENV' ? 'ENV' : 'OSH'; localStorage.setItem('group', GROUP);
+  applyGroup(); renderGroup(); renderBankInfo(); renderBoard();
+}
+function renderGroup() {
+  document.querySelectorAll('.segbtn').forEach(b => { b.classList.toggle('active', b.dataset.group === GROUP); b.setAttribute('aria-selected', b.dataset.group === GROUP); });
+  const n = $('segNote'); if (n) n.textContent = t(GROUP === 'ENV' ? 'segNoteEnv' : 'segNoteOsh');
 }
 function renderBankInfo(gen, src) {
   const el = $('bankInfo'); if (!el) return;
   el.dataset.gen = gen || el.dataset.gen || ''; el.dataset.src = src || el.dataset.src || '';
   const srcLabel = el.dataset.src === 'cloud' ? (lang === 'zh' ? '雲端' : 'cloud') : (lang === 'zh' ? '本機' : 'local');
-  el.textContent = `${t('bank')} ${BANK.length} ${lang === 'zh' ? '題' : 'questions'} · ${srcLabel} · ${t('ver')} ${el.dataset.gen} ${CFG.useDraft ? t('draftNote') : ''}`;
+  el.textContent = `${t(GROUP === 'ENV' ? 'groupEnv' : 'groupOsh')} ${t('bank')} ${BANK.length} ${lang === 'zh' ? '題' : 'questions'}（${lang === 'zh' ? '全部' : 'all'} ${BANK_ALL.length}） · ${srcLabel} · ${t('ver')} ${el.dataset.gen} ${CFG.useDraft ? t('draftNote') : ''}`;
 }
 
 /* ---------- 開局 ---------- */
 function pickIds(mode) {
-  if (mode === 'daily') { const rnd = mulberry32(hashStr('osh-daily-' + today())); return shuffle(BANK, rnd).slice(0, CFG.dailyQuestions).map(q => q.id); }
+  if (mode === 'daily') { const rnd = mulberry32(hashStr('osh-daily-' + GROUP + '-' + today())); return shuffle(BANK, rnd).slice(0, CFG.dailyQuestions).map(q => q.id); }
   return shuffle(BANK).slice(0, CFG.questionsPerGame).map(q => q.id);
 }
 const Q_FIELDS = ['id','law','article','category','difficulty','q_zh','a_zh','b_zh','c_zh','d_zh','q_en','a_en','b_en','c_en','d_en','answer','explain_zh','explain_en'];
@@ -148,7 +175,8 @@ function newGame(mode, ids, pvp) {
 }
 function start(mode) {
   if (!BANK.length) return;
-  if (mode === 'daily' && localStorage.getItem('daily-' + today())) { alert(t('dailyDone')); return; }
+  if (!requireNick()) return;
+  if (mode === 'daily' && localStorage.getItem('daily-' + GROUP + '-' + today())) { alert(t('dailyDone')); return; }
   syncNick();
   if (mode === 'pvp') { show('pvp'); pvpMenu(); return; }
   newGame(mode, pickIds(mode));
@@ -265,7 +293,7 @@ function pvpCleanup() {
 function roomCodeGen() { const A = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'; let s = ''; for (let i = 0; i < 4; i++) s += A[Math.floor(Math.random() * A.length)]; return s; }
 function roomPayload(code, guestUid, guestNick) {
   const p = {}; p[FB.uid] = { nick: nickVal(), online: true }; if (guestUid) p[guestUid] = { nick: guestNick || '?', online: true };
-  return { host: FB.uid, code, state: guestUid ? 'ready' : 'waiting', players: p, createdAt: firebase.database.ServerValue.TIMESTAMP };
+  return { host: FB.uid, code, group: GROUP, state: guestUid ? 'ready' : 'waiting', players: p, createdAt: firebase.database.ServerValue.TIMESTAMP };
 }
 
 /* 隨機配對：進大廳；由「最早進入的等待者」負責配對最早的另一位 */
@@ -274,7 +302,7 @@ function pvpMatch() {
   pv = { role: null, refs: [], started: false };
   pv.lobbyRef = FB.db.ref('lobby/' + FB.uid);
   pv.lobbyRef.onDisconnect().remove();
-  pv.lobbyRef.set({ nick: nickVal(), ts: firebase.database.ServerValue.TIMESTAMP, room: null });
+  pv.lobbyRef.set({ nick: nickVal(), group: GROUP, ts: firebase.database.ServerValue.TIMESTAMP, room: null });
   pvpWaitUI(t('waitMatch'));
   pv.timer = setTimeout(() => { if (pv && !pv.roomRef) pvpWaitUI(t('waitNoOne'), { bot: true }); }, CFG.lobbyWaitMs);
   const lobby = FB.db.ref('lobby'); pv.refs.push(lobby);
@@ -283,7 +311,7 @@ function pvpMatch() {
     const all = snap.val() || {};
     const me = all[FB.uid]; if (!me) return;
     if (me.room) return pvpEnterRoom(me.room, 'guest');
-    const waiting = Object.entries(all).filter(([u, v]) => v && !v.room && v.ts && now() - v.ts < 90000).sort((a, b) => a[1].ts - b[1].ts);
+    const waiting = Object.entries(all).filter(([u, v]) => v && !v.room && v.ts && now() - v.ts < 90000 && (v.group || 'OSH') === GROUP).sort((a, b) => a[1].ts - b[1].ts);   // 只配對同範圍（職安／環保）的玩家
     if (waiting.length < 2 || waiting[0][0] !== FB.uid) return;      // 只有最早者負責配對
     const [oppUid, opp] = waiting[1];
     const code = roomCodeGen();
@@ -313,6 +341,7 @@ function pvpJoin(code) {
   roomRef.once('value').then(s => {
     const r = s.val();
     if (!r || r.state !== 'waiting' || Object.keys(r.players || {}).length >= 2) { pvpWaitUI(t('roomNotFound')); setTimeout(pvpMenu, 1800); return; }
+    if (r.group && r.group !== GROUP) setGroup(r.group);   // 用房號加入時，跟著房主的出題範圍
     return roomRef.child('players/' + FB.uid).set({ nick: nickVal(), online: true }).then(() => pvpEnterRoom(code, 'guest'));
   }).catch(e => { console.warn(e); pvpWaitUI(t('roomNotFound')); setTimeout(pvpMenu, 1800); });
 }
@@ -467,10 +496,10 @@ function finish() {
     }
   }
   const board = JSON.parse(localStorage.getItem('board') || '[]');
-  board.push({ ...rec, mode: game.mode }); board.sort((a, b) => b.score - a.score); localStorage.setItem('board', JSON.stringify(board.slice(0, 30)));
-  if (game.mode === 'daily') localStorage.setItem('daily-' + today(), String(game.score));
+  board.push({ ...rec, mode: game.mode, group: GROUP }); board.sort((a, b) => b.score - a.score); localStorage.setItem('board', JSON.stringify(board.slice(0, 60)));
+  if (game.mode === 'daily') localStorage.setItem('daily-' + GROUP + '-' + today(), String(game.score));
   const isBot = game.pvp && game.pvp.opp.bot;
-  if (FB.ok && !isBot) FB.db.ref('scores/' + game.mode).push(rec).catch(e => console.warn('score push failed', e));
+  if (FB.ok && !isBot) FB.db.ref('scores/' + scopeKey(game.mode)).push(rec).catch(e => console.warn('score push failed', e));
   game.result = result; game.isBot = !!isBot;
   pvpCleanup();
   show('result'); renderResult();
@@ -502,13 +531,13 @@ function renderResult() {
 function renderBoard() {
   const el = $('boardBody'); if (!el) return;
   document.querySelectorAll('.tab').forEach(b => b.classList.toggle('active', b.dataset.board === boardMode));
-  const local = JSON.parse(localStorage.getItem('board') || '[]').filter(r => r.mode === boardMode);
+  const local = JSON.parse(localStorage.getItem('board') || '[]').filter(r => r.mode === boardMode && (r.group || 'OSH') === GROUP);
   const draw = (rows, note) => {
     if (!rows.length) { el.innerHTML = `<p class="empty">${t('noBoard')}</p>`; return; }
     el.innerHTML = `<table>${rows.slice(0, 10).map((r, i) => `<tr><td>${i + 1}. ${escapeHtml(r.nick)}${r.uid && r.uid === FB.uid ? ' ★' : ''}</td><td>${r.result ? ({ win: '🏆', lose: '·', draw: '=' })[r.result] + ' ' : ''}${r.correct}/${r.n} · ${r.date}</td><td>${r.score}</td></tr>`).join('')}</table><p class="note">${note}</p>`;
   };
   if (FB.ok) {
-    FB.db.ref('scores/' + boardMode).orderByChild('score').limitToLast(10).once('value').then(s => {
+    FB.db.ref('scores/' + scopeKey(boardMode)).orderByChild('score').limitToLast(10).once('value').then(s => {
       const rows = []; s.forEach(c => { rows.push(c.val()); }); rows.sort((a, b) => b.score - a.score || a.ts - b.ts);
       draw(rows, t('globalNote'));
     }).catch(() => draw(local, t('localNote')));
@@ -517,6 +546,7 @@ function renderBoard() {
 
 /* ---------- 綁定 ---------- */
 document.querySelectorAll('.mode').forEach(b => b.addEventListener('click', () => start(b.dataset.mode)));
+document.querySelectorAll('.segbtn').forEach(b => b.addEventListener('click', () => setGroup(b.dataset.group)));
 document.querySelectorAll('.tab').forEach(b => b.addEventListener('click', () => { boardMode = b.dataset.board; renderBoard(); }));
 $('prevBtn').addEventListener('click', viewPrev);
 $('backBtn').addEventListener('click', backToCurrent);
@@ -525,6 +555,8 @@ $('homeBtn').addEventListener('click', () => { clearInterval(game && game.timer)
 $('langBtn').addEventListener('click', () => { lang = lang === 'zh' ? 'en' : 'zh'; localStorage.setItem('lang', lang); applyLang(); });
 $('nick').value = localStorage.getItem('nick') || '';
 $('nick').addEventListener('change', syncNick);
+$('nick').addEventListener('input', () => { const h = $('nickHint'); if (h && nickVal()) { h.textContent = ''; h.classList.remove('warn'); } });
+syncNick();
 $('btnMatch').addEventListener('click', pvpMatch);
 $('btnHost').addEventListener('click', pvpHost);
 $('btnJoin').addEventListener('click', () => pvpJoin($('joinCode').value));

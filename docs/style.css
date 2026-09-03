@@ -104,3 +104,17 @@ button{font:inherit;cursor:pointer}
 .vr-row b{display:block;font-size:22px}
 .rnote{text-align:center;color:var(--muted);font-size:13px;margin:4px 0 0}
 @media (min-width:720px){.card{padding:18px 20px}.q{font-size:22px}}
+
+/* 出題範圍切換：職業安全衛生 / 環保 */
+.seg{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:4px 0 6px}
+.segbtn{display:flex;align-items:center;justify-content:center;gap:8px;padding:12px 10px;border:2px solid var(--line);border-radius:var(--radius);background:var(--card);font-size:17px;font-weight:700;color:var(--muted);box-shadow:var(--shadow);cursor:pointer;transition:transform .15s,border-color .15s}
+.segbtn .ic{font-size:22px}
+.segbtn:hover{transform:translateY(-1px)}
+.segbtn.active{border-color:var(--navy);color:var(--navy);background:#eaf2fb}
+.segbtn[data-group="ENV"].active{border-color:#1f7a4d;color:#1f7a4d;background:#e8f6ee}
+.segnote{text-align:center;color:var(--muted);font-size:13px;margin:0 0 12px}
+
+.nickhint{text-align:center;color:var(--muted);font-size:13px;margin:-6px 0 10px;min-height:18px}
+.nickhint.warn{color:#b3261e;font-weight:700}
+@keyframes shake{0%,100%{transform:translateX(0)}25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
+#nick.shake{animation:shake .3s 2;border-color:#b3261e}

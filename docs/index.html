@@ -24,12 +24,18 @@
   <!-- 首頁 -->
   <section id="home" class="screen active">
     <p class="lead" data-i18n="lead">職業安全衛生 × 環保法規　限時搶答</p>
+    <div class="seg" id="groupSeg" role="tablist">
+      <button class="segbtn" data-group="OSH" type="button" role="tab"><span class="ic">🦺</span><span data-i18n="groupOsh">職業安全衛生</span></button>
+      <button class="segbtn" data-group="ENV" type="button" role="tab"><span class="ic">🌱</span><span data-i18n="groupEnv">環保</span></button>
+    </div>
+    <p class="segnote" id="segNote"></p>
     <div class="row">
       <label class="field">
         <span data-i18n="nick">暱稱</span>
-        <input id="nick" maxlength="12" placeholder="輸入暱稱">
+        <input id="nick" maxlength="12" placeholder="輸入暱稱" required autocomplete="nickname">
       </label>
     </div>
+    <p id="nickHint" class="nickhint"></p>
     <div class="menu">
       <button class="card mode" data-mode="solo" type="button">
         <span class="ic">🎯</span>

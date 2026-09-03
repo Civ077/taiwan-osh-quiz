@@ -16,7 +16,7 @@
     "scores": {
       "$mode": {
         ".read": "auth != null",
-        ".validate": "$mode === 'solo' || $mode === 'daily' || $mode === 'pvp'",
+        ".validate": "$mode.matches(/^(solo|daily|pvp)(_(OSH|ENV))?$/)",
         ".indexOn": ["score", "date", "ts"],
         "$scoreId": {
           ".write": "auth != null && !data.exists() && newData.child('uid').val() === auth.uid",
@@ -40,7 +40,8 @@
       ".read": "auth != null",
       "$uid": {
         ".write": "auth != null && auth.uid === $uid",
-        "room": { ".write": "auth != null" }
+        "room": { ".write": "auth != null" },
+        "group": { ".validate": "newData.isString() && (newData.val() === 'OSH' || newData.val() === 'ENV')" }
       }
     },
 

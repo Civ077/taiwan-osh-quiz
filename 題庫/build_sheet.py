@@ -5,7 +5,7 @@
    tsv/Questions_batchN.tsv（各批新增列，貼進 Google Sheet 用）
 用法：python build_sheet.py            # 全部批次
 """
-import json, sys, os, importlib, random, glob, re
+import re, json, sys, os, importlib, random, glob, re
 from collections import Counter
 from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment
@@ -189,12 +189,6 @@ OSH_LAWS = [
  ("危險性機械或設備代行檢查機構管理規則","Rules for Management of Designated Inspection Agencies for Dangerous Machinery and Equipment","N0070018",1),
  ("勞動檢查員遴用及專業訓練辦法","Regulations on Recruitment and Training of Labor Inspectors","N0070006",1),
  ("勞動檢查員執行職務迴避辦法","Regulations on Recusal of Labor Inspectors","N0070005",1),
- ("直轄市勞動檢查機構組織準則","Organizational Guidelines for Municipal Labor Inspection Agencies","N0000014",0),
- ("危險性機械及設備檢查費收費標準","Fee Standards for Inspection of Dangerous Machinery and Equipment","N0070020",0),
- ("產品安全資訊申報登錄及型式驗證規費收費標準","Fee Standards for Safety Information Registration and Type Certification","N0060067",0),
- ("管制性化學品許可申請收費標準","Fee Standards for Controlled Chemical Permit Applications","N0060072",0),
- ("辦理勞工體格與健康檢查醫療機構認可審查收費標準","Fee Standards for Accreditation Review of Health Examination Institutions","N0060074",0),
- ("職業安全衛生顧問服務機構審查收費標準","Fee Standards for Review of OSH Consulting Institutions","N0060084",0),
 ]
 ENV_LAWS = [
  ("空氣污染防制法","Air Pollution Control Act","O0020001",3,1),
@@ -318,15 +312,22 @@ def law_url(code):
     if code.startswith("isha:"): return "http://law.isha.org.tw/ISHA_LAW/Pages/LawList.aspx?Lawid=" + code[5:]
     return f"https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode={code}"
 
-def build_laws():
-    rows = [["law_id","group","tier","name_zh","name_en","law_version","source_url","weight","note"]]
+_ART_RE = re.compile(r'^第 [\d\-]+ 條', re.M)
+def article_count(zh):
+    p = os.path.join(os.path.dirname(HERE), "法規原文", zh + ".txt")
+    try: return len(_ART_RE.findall(open(p, encoding="utf-8").read()))
+    except Exception: return ""
+
+def build_laws(qcount=None):
+    qcount = qcount or {}
+    rows = [["law_id","group","tier","name_zh","name_en","law_version","source_url","weight","note","articles","questions"]]
     for i,(zh,en,pcode,w) in enumerate(OSH_LAWS, start=1):
         lid = f"OSH-{i:02d}"; code = PCODES.get(zh) or ""
         tier = 1 if (1<=i<=17 or 34<=i<=50) else (2 if (i<=25 or i>=51) else 3)
-        rows.append([lid,"OSH",tier,zh,en,LAW_VER.get(lid) or law_version_from_text(zh),law_url(code),(w if in_scope(lid) else 0),("" if in_scope(lid) else "不在指定範圍，暫不使用")])
+        rows.append([lid,"OSH",tier,zh,en,LAW_VER.get(lid) or law_version_from_text(zh),law_url(code),(w if in_scope(lid) else 0),("" if in_scope(lid) else "不在指定範圍，暫不使用"),article_count(zh),qcount.get(lid,0)])
     for i,(zh,en,pcode,w,tier) in enumerate(ENV_LAWS, start=1):
         lid = f"ENV-{i:02d}"; code = PCODES.get(zh) or ""
-        rows.append([lid,"ENV",tier,zh,en,law_version_from_text(zh),law_url(code),w,""])
+        rows.append([lid,"ENV",tier,zh,en,law_version_from_text(zh),law_url(code),w,"",article_count(zh),qcount.get(lid,0)])
     return rows
 
 # ---------- Questions ----------
@@ -411,9 +412,11 @@ def main():
     qrows, errs, per_batch = load_questions()
     if errs:
         print("驗證錯誤："); [print(" ", e) for e in errs]; sys.exit(1)
+    from collections import Counter
+    laws_rows = build_laws(Counter(r[2] for r in qrows[1:]))
     wb = Workbook()
     ws = wb.active; ws.title = "Laws"
-    for r in build_laws(): ws.append(r)
+    for r in laws_rows: ws.append(r)
     style_header(ws); autowidth(ws)
     ws = wb.create_sheet("Questions")
     for r in qrows: ws.append(r)
@@ -433,7 +436,7 @@ def main():
         json.dump([dict(zip(keys, r)) for r in rows], open(os.path.join(HERE,f"questions_batch{bno}.json"),"w",encoding="utf-8"), ensure_ascii=False, indent=1)
         open(os.path.join(HERE,"tsv",f"Questions_batch{bno}.tsv"),"w",encoding="utf-8",newline="").write(tsv(rows))
     open(os.path.join(HERE,"tsv","Questions.tsv"),"w",encoding="utf-8",newline="").write(tsv(qrows))   # 全部題目（含表頭），push_to_sheet.py sync 用
-    open(os.path.join(HERE,"tsv","Laws.tsv"),"w",encoding="utf-8",newline="").write(tsv(build_laws()))
+    open(os.path.join(HERE,"tsv","Laws.tsv"),"w",encoding="utf-8",newline="").write(tsv(laws_rows))
     open(os.path.join(HERE,"tsv","Changelog.tsv"),"w",encoding="utf-8",newline="").write(tsv(CHANGELOG))
     # 前端用精簡 JSON
     keep = ['id','law_id','law','article','law_version','category','difficulty','q_zh','a_zh','b_zh','c_zh','d_zh','q_en','a_en','b_en','c_en','d_en','answer','explain_zh','explain_en','status']

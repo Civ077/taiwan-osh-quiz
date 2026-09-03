@@ -15,8 +15,10 @@
  *   token 要和試算表選單「知識王 → 設定匯入密鑰」存入指令碼屬性 IMPORT_TOKEN 的值相同（不放 Config，避免隨 JSON 外洩）；
  *   append 會先檢查 Questions 的 id 不重複。
  *   用 題庫/push_to_sheet.py 呼叫，之後新批次不必再用剪貼簿貼。
+ * v5：body 加 create:true 時分頁不存在會自動建立（例如 Articles 完整法條）；
+ *     mode:'clear_from', from:N → 刪除第 N 列以後所有列（from=1 整張清空），用來縮短 Laws 或重灌 Articles。
  */
-const GAS_VERSION = 4;
+const GAS_VERSION = 5;   // v5：append/range 可自動建立分頁（create:true）；新增 clear_from 模式（刪除第 N 列以後）
 const SHEET_QUESTIONS = 'Questions';
 const SHEET_CONFIG = 'Config';
 const CACHE_SEC = 300;
@@ -45,8 +47,16 @@ function doPost(e) {
     const ss = SpreadsheetApp.getActiveSpreadsheet();
     const token = String(PropertiesService.getScriptProperties().getProperty('IMPORT_TOKEN') || '').trim();
     if (!token || String(req.token || '') !== token) return json_({ ok: false, error: 'bad token' });
-    const sh = ss.getSheetByName(String(req.sheet || ''));
+    let sh = ss.getSheetByName(String(req.sheet || ''));
+    if (!sh && req.create) sh = ss.insertSheet(String(req.sheet));
     if (!sh) return json_({ ok: false, error: 'no sheet ' + req.sheet });
+    if (req.mode === 'clear_from') {                 // clear_from：刪掉第 from 列（含）以後的所有列；from=1 表示整張清空
+      const from = Math.max(1, Number(req.from || 2)); const last = sh.getLastRow(); let deleted = 0;
+      if (from === 1) { sh.clearContents(); deleted = last; }
+      else if (last >= from) { deleted = last - from + 1; sh.deleteRows(from, deleted); }
+      clearCacheSilent_();
+      return json_({ ok: true, mode: 'clear_from', sheet: sh.getName(), from, deleted, lastRow: sh.getLastRow() });
+    }
     let rows = String(req.tsv || '').split(/\r?\n/).map(r => r.split('\t'));
     if (req.mode === 'range') {                     // range：保留中間的空白列（位置要對齊），只去掉尾端空白列
       while (rows.length && rows[rows.length - 1].join('').trim() === '') rows.pop();

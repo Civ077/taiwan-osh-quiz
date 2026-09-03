@@ -9,6 +9,9 @@
   python push_to_sheet.py sync                 # 整批同步：用本地 tsv/Questions.tsv 覆寫 Questions!A2 起的 A–U 欄（題目內容），
                                                #   不動 V–Y 欄（status/batch/reviewer/review_note）；新題的 status/batch 只在空白時補上
   python push_to_sheet.py raw Config A2 "key<TAB>value"   # 任意分頁、任意起始格，range 模式
+  python push_to_sheet.py articles             # 用 tsv/Articles.tsv 整張重灌 Articles 分頁（完整法條，需 GAS v5）
+  python push_to_sheet.py clear Laws 200       # 刪除 Laws 第 200 列以後（需 GAS v5）
+  python push_to_sheet.py reset-all            # 雲端 Questions/Laws/Changelog 全部清掉、用本地 tsv 重灌（需 GAS v5；審題狀態會被本地覆蓋）
 密鑰：環境變數 QUIZ_IMPORT_TOKEN，或 ../gas/.token 檔（已 gitignore），要和試算表選單「知識王 → 設定匯入密鑰」輸入的密碼相同。
 """
 import sys, os, json, urllib.request
@@ -71,8 +74,36 @@ def main(a):
         tsv = NL.join(l[5] + TAB + l[6] for l in order)
         print(post({"token": token(), "sheet": "Laws", "mode": "range", "startCell": "F2", "tsv": tsv}))
     elif cmd == "laws-all":
+        # 含標題列，從 A1 覆寫；之後把多出來的舊列刪掉（需 GAS v5）
         order = laws_in_sheet_order()
-        print(post({"token": token(), "sheet": "Laws", "mode": "range", "startCell": "A2", "tsv": NL.join(TAB.join(l) for l in order)}))
+        head = read("tsv/Laws.tsv")[0]
+        print(post({"token": token(), "sheet": "Laws", "mode": "range", "startCell": "A1", "tsv": head + NL + NL.join(TAB.join(l) for l in order)}))
+        print("刪除多餘列：", post({"token": token(), "sheet": "Laws", "mode": "clear_from", "from": len(order) + 2}))
+    elif cmd == "reset-all":
+        # 雲端全部重灌（需 GAS v5）：Questions/Laws/Changelog 清掉舊列後用本地 tsv 重寫；Articles 另用 articles 指令
+        print("Questions 清空：", post({"token": token(), "sheet": "Questions", "mode": "clear_from", "from": 2}))
+        rows = read("tsv/Questions.tsv")
+        step = 200
+        for i in range(1, len(rows), step):
+            r = post({"token": token(), "sheet": "Questions", "mode": "append", "tsv": NL.join(rows[i:i + step])})
+            print("Questions %d-%d" % (i, i + step - 1), r if not r.get("ok") else r.get("lastRow"))
+            if not r.get("ok"): sys.exit("中斷")
+        main(["laws-all"])
+        cl = read("tsv/Changelog.tsv")
+        print("Changelog 清空：", post({"token": token(), "sheet": "Changelog", "mode": "clear_from", "from": 2}))
+        print("Changelog：", post({"token": token(), "sheet": "Changelog", "mode": "append", "tsv": NL.join(cl[1:])}))
+    elif cmd == "clear":
+        print(post({"token": token(), "sheet": a[1], "mode": "clear_from", "from": int(a[2])}))
+    elif cmd == "articles":
+        # 完整法條：整張重灌 Articles 分頁（不存在會自動建立，需 GAS v5），每次 250 列
+        rows = read("tsv/Articles.tsv")
+        print("清空：", post({"token": token(), "sheet": "Articles", "mode": "clear_from", "from": 1, "create": True}))
+        step = 250
+        for i in range(0, len(rows), step):
+            chunk = rows[i:i + step]
+            r = post({"token": token(), "sheet": "Articles", "mode": "append", "tsv": NL.join(chunk)})
+            print("%d-%d" % (i + 1, i + len(chunk)), r if not r.get("ok") else r.get("lastRow"))
+            if not r.get("ok"): sys.exit("中斷")
     elif cmd == "sync":
         rows = [r.split(TAB) for r in read("tsv/Questions.tsv")]
         if rows and rows[0][0] == "id":
