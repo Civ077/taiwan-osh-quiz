@@ -15,6 +15,16 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 
 # 法規主檔：law_id → (中文名, 英文名, 版本日期, pcode)
+def law_version_from_text(zh):
+    """從 法規原文/<名稱>.txt 第一行讀修正日期 → 民國115年6月26日"""
+    f = os.path.join(os.path.dirname(HERE), "法規原文", zh + ".txt")
+    if not os.path.exists(f): return ""
+    m = re.search(r"修正日期：民國\s*(\d+)\s*年\s*(\d+)\s*月\s*(\d+)\s*日", open(f, encoding="utf-8").readline())
+    if m: return f"民國{int(m.group(1))}年{int(m.group(2))}月{int(m.group(3))}日"
+    m = re.search(r"修正日期：民國\s*(\d+)\s*年\s*(\d+)\s*月", open(f, encoding="utf-8").readline())
+    return f"民國{int(m.group(1))}年{int(m.group(2))}月" if m else ""
+
+
 LAWS = {
  "OSH-01": ("職業安全衛生法","Occupational Safety and Health Act","民國114年12月19日","N0060001"),
  "OSH-02": ("職業安全衛生法施行細則","Enforcement Rules of the OSH Act","民國115年6月26日","N0060002"),
@@ -52,8 +62,20 @@ LAWS = {
  "OSH-28": ("勞動部重大災害通報及檢查處理要點","MOL Directions for Major Accident Notification and Inspection","民國110年9月","isha:022"),
  "OSH-37": ("性別平等工作法","Act of Gender Equality in Employment","民國112年8月16日","N0030014"),
  "OSH-38": ("性別平等工作法施行細則","Enforcement Rules of the Act of Gender Equality in Employment","民國115年4月8日","N0030015"),
+ "OSH-39": ("鉛中毒預防規則","Lead Poisoning Prevention Rules","","N0060018"),
+ "OSH-40": ("四烷基鉛中毒預防規則","Tetraalkyl Lead Poisoning Prevention Rules","","N0060019"),
+ "OSH-41": ("高壓氣體勞工安全規則","Rules for Labor Safety in High-Pressure Gas","","N0060030"),
+ "OSH-42": ("起重升降機具安全規則","Safety Rules for Cranes, Hoists and Lifting Equipment","","N0060013"),
+ "OSH-43": ("危害性化學品評估及分級管理辦法","Regulations for Assessment and Tiered Management of Hazardous Chemicals","","N0060070"),
+ "OSH-44": ("鍋爐及壓力容器安全規則","Safety Rules for Boilers and Pressure Vessels","","N0060011"),
+ "OSH-45": ("粉塵危害預防標準","Standards for Prevention of Dust Hazards","","N0060021"),
+ "OSH-46": ("碼頭裝卸安全衛生設施標準","Safety and Health Facilities Standards for Wharf Loading and Unloading","","N0060006"),
+ "OSH-47": ("有機溶劑中毒預防規則","Organic Solvent Poisoning Prevention Rules","","N0060017"),
+ "OSH-48": ("勞動基準法","Labor Standards Act","","N0030001"),
+ "OSH-49": ("勞動基準法施行細則","Enforcement Rules of the Labor Standards Act","","N0030002"),
+ "OSH-50": ("特定化學物質危害預防標準","Standards for Prevention of Hazards from Specified Chemical Substances","","N0060015"),
 }
-LAW_VER = {k: v[2] for k, v in LAWS.items()}
+LAW_VER = {k: (v[2] or law_version_from_text(v[0])) for k, v in LAWS.items()}
 
 # 使用者指定納入遊戲之職安法規（2026-09-03）；其他職安法規之題目保留但 status=archived，Laws 權重 0
 SCOPE_OSH = {"OSH-01","OSH-02","OSH-09","OSH-11","OSH-10","OSH-07","OSH-36","OSH-20","OSH-17","OSH-15",
@@ -68,6 +90,7 @@ BATCHES = {
  3: ["batch3_a", "batch3_b", "batch3_c"],
  4: ["batch4_a", "batch4_b", "batch4_c", "batch4_d"],
  5: ["batch5_a", "batch5_b", "batch5_c", "batch5_d"],
+ 6: ["batch6_a", "batch6_b", "batch6_c", "batch6_d"],
 }
 
 # ---------- Laws 主檔（沿用批次 1 清單，另加 OSH-36 營造標準） ----------
@@ -164,15 +187,6 @@ def law_url(code):
     if code.startswith("isha:"): return "http://law.isha.org.tw/ISHA_LAW/Pages/LawList.aspx?Lawid=" + code[5:]
     return f"https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode={code}"
 
-def law_version_from_text(zh):
-    """從 法規原文/<名稱>.txt 第一行讀修正日期 → 民國115年6月26日"""
-    f = os.path.join(os.path.dirname(HERE), "法規原文", zh + ".txt")
-    if not os.path.exists(f): return ""
-    m = re.search(r"修正日期：民國\s*(\d+)\s*年\s*(\d+)\s*月\s*(\d+)\s*日", open(f, encoding="utf-8").readline())
-    if m: return f"民國{int(m.group(1))}年{int(m.group(2))}月{int(m.group(3))}日"
-    m = re.search(r"修正日期：民國\s*(\d+)\s*年\s*(\d+)\s*月", open(f, encoding="utf-8").readline())
-    return f"民國{int(m.group(1))}年{int(m.group(2))}月" if m else ""
-
 def build_laws():
     rows = [["law_id","group","tier","name_zh","name_en","law_version","source_url","weight","note"]]
     for i,(zh,en,pcode,w) in enumerate(OSH_LAWS, start=1):
@@ -235,6 +249,7 @@ CHANGELOG = [
  ["2026-09-03","OSH-07","民國115年6月30日","建立批次2：職業安全衛生設施規則（115/7/1 施行，部分條文 116/1/1）","batch=2 之 OSH-07","初版 draft，待審","Claude Code"],
  ["2026-09-03","OSH-36","民國115年6月30日","建立批次2：營造安全衛生設施標準（第11條之2 自 116/7/1 施行）；Laws 分頁新增 OSH-36","batch=2 之 OSH-36","初版 draft，待審","Claude Code"],
  ["2026-09-03","OSH-13","民國111年5月11日","建立批次2：機械設備器具安全標準；Laws 分頁 OSH-13 來源網址修正為 N0060034","batch=2 之 OSH-13","初版 draft，待審","Claude Code"],
+ ["2026-09-03","OSH-39,40,42,43,44,45,46,47,48,49,50","見各題 law_version","建立批次6：鉛、四烷基鉛、有機溶劑、特定化學物質、粉塵、化學品評估分級、鍋爐壓力容器、起重升降機具、碼頭裝卸、勞動基準法及施行細則（使用者 2026-09-03 增列之職安範圍）","batch=6","初版 draft，待審","Claude Code"],
  ["2026-09-03","OSH-03,04,35,22,20,21,16,17,23,25,29,31,30,19,27,26,33,28","見各題 law_version","建立批次5：勞動檢查法系（含施行細則、立即危險認定標準、違反案件處理要點、重大災害通報要點、優良單位選拔要點）、勞工職業災害保險及保護法、母性健康保護、妊娠及未滿十八歲禁止工作認定標準、女性夜間、精密、重體力、工業用機器人、顧問機構、文化獎勵、績效評核、健檢醫療機構認可、檢驗機構要點；Laws 分頁全部 61 部法規版本日期改由條文檔自動帶入","batch=5","初版 draft，待審","Claude Code"],
  ["2026-09-03","OSH-09,11,10,08,32","見各題 law_version","建立批次4：職業安全衛生管理辦法（115/6/29）、教育訓練規則（115/6/25）、勞工健康保護規則（115/6/26）、危險性工作場所審查及檢查辦法（109/7/17）、製程安全評估定期實施辦法（109/7/17）","batch=4","初版 draft，待審","Claude Code"],
  ["2026-09-03","OSH-34,15,14,18,12,24","見各題 law_version","建立批次3：缺氧症預防規則、高架作業、高溫作業、異常氣壓、危害性化學品標示及通識規則（115/8/26；附表一、四自 118/1/1 施行）、標示設置準則；Laws 分頁 source_url 全面改為法規資料庫查得之正確代碼","batch=3","初版 draft，待審","Claude Code"],
