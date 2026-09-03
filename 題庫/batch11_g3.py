@@ -50,18 +50,18 @@ Q = [
 
 ("OSH-49","第21條",2,"勞基細則-出勤紀錄",
  "本法第三十條第五項所定出勤紀錄之範圍及提出方式為何？",
- ["包括簽到簿、出勤卡、刷卡機、門禁卡、生物特徵辨識或電腦出勤紀錄等可覈實記載之工具；因勞檢需要或勞工申請時應以書面提出","僅限刷卡機或電腦出勤紀錄系統所為之紀錄；因勞動檢查需要時得以口頭說明代替書面提出資料","包括各類可覈實記載出勤時間之工具；惟僅於勞動檢查時提出即可，勞工個人申請者雇主得予拒絕","包括各類出勤紀錄工具及監視錄影畫面；並應每月主動以書面送交當地主管機關備查後留存"],"a",
+ ["包括簽到簿、出勤卡、刷卡機、門禁卡、生物特徵辨識等可覈實記載之工具；因勞檢需要或勞工申請時應以書面提出","僅限刷卡機或電腦出勤紀錄系統所為之紀錄；因勞動檢查需要時得以雇主口頭說明代替書面提出相關資料","包括各類可覈實記載出勤時間之工具；惟僅於勞動檢查時提出即可，勞工個人申請者雇主得予拒絕提供","包括各類出勤紀錄工具及監視錄影畫面；並應每月主動以書面送交當地主管機關備查後留存五年"],"a",
  "施行細則第21條：本法第30條第5項所定出勤紀錄，包括以簽到簿、出勤卡、刷卡機、門禁卡、生物特徵辨識系統、電腦出勤紀錄系統或其他可資覈實記載出勤時間工具所為之紀錄；前項出勤紀錄，雇主因勞動檢查之需要或勞工向其申請時，應以書面方式提出。本法第30條第6項並規定應逐日記載至分鐘為止。",
  "What counts as an attendance record, and how must it be produced?",
- ["Sign-in books, cards, card readers, access cards, biometric or computer systems; produced in writing for inspection or on a worker's request","Only card readers or computer attendance systems; an oral explanation may replace written production during inspection","Any tool that truthfully records time; but production is required only for inspection, and workers' requests may be refused","Any recording tool plus surveillance footage; and records must be filed monthly in writing with the local authority"],
+ ["Sign-in books, cards, card readers, access cards or biometric systems; produced in writing for inspection or on request","Only card readers or computer attendance systems; an oral explanation by the employer may replace written production","Any tool that truthfully records time; production is required only for inspection, and workers' requests may be refused","Any recording tool plus surveillance footage; records must be filed monthly in writing with the local authority"],
  "Rule 21: broad range of tools, produced in writing when required."),
 
 ("OSH-49","第22條",3,"勞基細則-延長工時",
  "本法第三十二條第二項但書所定每三個月之計算方式，及坑內以監視為主之工作範圍為何？",
- ["以每連續三個月為一週期依曆計算，並以勞雇雙方約定之起迄日期認定；監視工作包括排水機、壓風機或冷卻設備、安全警報裝置及生產或營建施工之紀錄與監視","以每曆年之三個月為一週期計算，並以雇主指定之起迄日期認定；監視工作僅包括排水機及安全警報裝置之監視工作二類","以每連續三個月為一週期依曆計算，並以主管機關公告之起迄日期認定；監視工作包括坑內一切不需體力操作之作業在內","以每三個月延長工時總額平均計算，並得跨週期流用；監視工作包括坑內搬運、通風設備操作及各項機具之保養維護工作"],"a",
+ ["以每連續三個月為一週期依曆計算，並以勞雇雙方約定之起迄日期認定；監視工作包括排水機、壓風機、安全警報裝置及施工紀錄之監視","以每曆年之三個月為一週期計算，並以雇主指定之起迄日期認定；監視工作僅包括排水機與安全警報裝置之監視二類","以每連續三個月為一週期依曆計算，並以主管機關公告之起迄日期認定；監視工作包括坑內一切不需體力操作之作業","以每三個月延長工時總額平均計算並得跨週期流用；監視工作包括坑內搬運、通風設備操作及機具保養維護工作"],"a",
  "施行細則第22條：本法第32條第2項但書所定每三個月，以每連續三個月為一週期，依曆計算，以勞雇雙方約定之起迄日期認定之。本法第32條第5項但書所定坑內監視為主之工作範圍包括排水機之監視、壓風機或冷卻設備之監視、安全警報裝置之監視及生產或營建施工之紀錄及監視工作四款。",
  "How is the three-month period under Article 32(2) counted, and what pit monitoring work qualifies?",
- ["Three consecutive months by the calendar with dates agreed by the parties; monitoring covers pumps, compressors or coolers, alarms, and production or construction records","Three months of each calendar year with dates set by the employer; monitoring covers only drainage pumps and safety alarm devices","Three consecutive months by the calendar with dates announced by the authority; monitoring covers all pit work needing no physical effort","An average of overtime over three months, transferable across cycles; monitoring covers haulage, ventilation and machine maintenance"],
+ ["Three consecutive months by the calendar, with dates agreed by the parties; monitoring covers pumps, compressors, alarms and construction records","Three months of each calendar year with dates set by the employer; monitoring covers only drainage pumps and safety alarm devices","Three consecutive months by the calendar with dates announced by the authority; monitoring covers all pit work needing no physical effort","An average of overtime over three months, transferable across cycles; monitoring covers haulage, ventilation and machine maintenance"],
  "Rule 22: consecutive three months by agreement, with four listed monitoring tasks."),
 
 ("OSH-49","第22條之1",3,"勞基細則-報備查",
@@ -117,7 +117,7 @@ Q = [
  ["應於年度終結後三十日內之發給工資期限前發給；得以紙本、電子資料傳輸或其他可隨時取得及列印之資料為之","應於年度終結後九十日內發給；且限以紙本方式當面交付勞工並由其簽名確認收訖後留存備查","應於每年一月底前發給；得以口頭告知或於事業場所公告方式為之，無須提供個別書面資料","應於勞工提出書面申請後十日內發給；得以電子郵件為之，惟應同時副知當地主管機關"],"a",
  "施行細則第24條之2：本法第38條第5項所定每年定期發給之書面通知，雇主應於第24條之1第2項第2款所定發給工資之期限前發給，即年度終結後三十日內或契約約定之工資給付日前；書面通知得以紙本、電子資料傳輸方式或其他勞工可隨時取得及得列印之資料為之。",
  "When and how must the annual written notice on annual leave be given?",
- ["Before the wage payment deadline within 30 days of year end; on paper or in retrievable, printable electronic form","Within 90 days of year end; only on paper handed to the worker and signed for as received","By the end of January each year; orally or by posting a notice, with no individual document needed","Within ten days of a written request; by email, with a copy sent to the local authority"],
+ ["Before the wage payment deadline within 30 days of year end; on paper or in retrievable, printable electronic form","Within 90 days of year end; only on paper handed to the worker and signed for as received","By the end of January each year; orally or by posting a workplace notice, with no individual document needed","Within ten days of a written request; by email, with a copy sent to the local authority"],
  "Rule 24-2: before the payment deadline, on paper or electronically."),
 
 ("OSH-49","第24條之3",1,"勞基細則-休假日",
@@ -309,7 +309,7 @@ Q = [
  ["應即查明，如有違反法令規定情事應即改正，並將結果通知申訴人","應於三十日內查明並改正，惟無須將處理結果通知申訴人本人","應先移送檢查機構調查，於檢查機構認定違法後始須辦理改正","應僅就書面申訴進行查明，口頭申訴得不予受理亦無須答覆"],"a",
  "施行細則第47條：雇主對前條之申訴事項，應即查明，如有違反法令規定情事應即改正，並將結果通知申訴人。本法第74條第2項規定雇主不得因勞工申訴而予以解僱、降調、減薪或其他不利之處分，違反者其行為無效並依第79條第3項處罰。",
  "How must an employer handle a worker's complaint under Article 74?",
- ["Investigate at once, correct any legal breach immediately, and notify the complainant of the result","Investigate and correct within thirty days, without needing to notify the complainant","Refer it to the inspection agency first and correct only after a breach is confirmed","Investigate only written complaints; oral complaints may be rejected without reply"],
+ ["Investigate at once, correct any legal breach immediately, and notify the complainant of the result","Investigate and correct within thirty days, without any need to notify the complainant of the result","Refer it to the inspection agency first and correct only after a breach is confirmed","Investigate only written complaints; oral complaints may be rejected without reply"],
  "Rule 47: immediate investigation, correction and notification."),
 
 ("OSH-49","第48條",1,"勞基細則-已刪除條文",
@@ -330,10 +330,10 @@ Q = [
 
 ("OSH-49","第50條",3,"勞基細則-公務員兼具勞工身分",
  "本法第八十四條所稱公務員兼具勞工身分者，及所稱其他所定勞動條件之範圍為何？",
- ["指依公務員人事法令任用派用聘用遴用而於本法第三條各業從事工作獲致薪資之人員；勞動條件指工作時間、休息、休假、安全衛生、福利、加班費等","指所有於公營事業機構服務並支領薪資之人員；勞動條件僅指工作時間與休假二者，其餘事項一律適用公務員法令規定","指經考試及格分發至各機關服務之公務人員；勞動條件指薪資、獎懲、退休及撫卹等有關人事管理之事項在內","指受政府機關臨時僱用之約僱及技工工友；勞動條件指職業災害補償與保險給付，不包括工作時間及休假事項"],"a",
+ ["指依公務員人事法令任用派用聘用遴用而於本法第三條各業獲致薪資之人員；勞動條件指工作時間、休息、休假、安全衛生、福利、加班費等","指所有於公營事業機構服務並支領薪資之人員；勞動條件僅指工作時間與休假二者，其餘一切事項均一律適用公務員法令之規定","指經考試及格分發至各機關服務之公務人員；勞動條件指薪資、獎懲、退休、撫卹及保險等有關人事管理事項在內","指受政府機關臨時僱用之約僱及技工工友；勞動條件指職業災害補償與保險給付，不包括工作時間及休假等事項在內"],"a",
  "施行細則第50條：本法第84條所稱公務員兼具勞工身分者，係指依各項公務員人事法令任用、派用、聘用、遴用而於本法第3條所定各業從事工作獲致薪資之人員；所稱其他所定勞動條件，係指工作時間、休息、休假、安全衛生、福利、加班費等而言。本法第84條規定任免、薪資、獎懲、退休、撫卹及保險適用公務員法令，其他勞動條件優於本法者從其規定。",
  "Who are public servants also holding worker status, and what are the other working conditions?",
- ["Persons appointed under public service personnel laws working for wages in Article 3 industries; conditions cover hours, rest, leave, safety, welfare and overtime pay","All persons serving in state-owned enterprises for a salary; conditions cover only working hours and leave, with all else under public service laws","Civil servants who passed the examinations and were assigned to agencies; conditions cover pay, discipline, retirement and survivor benefits","Contract staff and technicians hired temporarily by agencies; conditions cover accident compensation and insurance but not hours or leave"],
+ ["Persons appointed under public service laws working for wages in Article 3 industries; conditions cover hours, rest, leave, safety, welfare and overtime pay","All persons serving in state-owned enterprises for a salary; conditions cover only hours and leave, with everything else under public service laws","Civil servants assigned to agencies after passing examinations; conditions cover pay, discipline, retirement, survivor benefits and insurance","Contract staff and technicians hired temporarily by agencies; conditions cover accident compensation and insurance, not hours or leave"],
  "Rule 50 defines the persons covered and the listed working conditions."),
 
 ("OSH-49","第50條之1",3,"勞基細則-責任制",
@@ -341,7 +341,7 @@ Q = [
  ["責任制專業人員指以專門知識或技術完成一定任務並負責其成敗者；監督管理人員指對一般勞工受僱解僱或勞動條件具有決定權力之主管級人員","責任制專業人員指領有專門職業證照且薪資高於基本工資三倍者；監督管理人員指經雇主指派擔任任何職務之領班或組長級人員","責任制專業人員指自行決定出勤時間而不受出勤紀錄管理之人員；監督管理人員指負責督導現場作業安全衛生之管理人員","責任制專業人員指從事研究發展工作之技術人員；監督管理人員指受僱從事人事、會計或總務等內勤管理工作之人員"],"a",
  "施行細則第50條之1：本法第84條之1第1項第1款、第2款所稱監督、管理人員，係指受雇主僱用負責事業之經營及管理工作，並對一般勞工之受僱、解僱或勞動條件具有決定權力之主管級人員；責任制專業人員係指以專門知識或技術完成一定任務並負責其成敗之工作者；監視性工作指於一定場所以監視為主之工作；間歇性工作指工作本身以間歇性方式進行者。",
  "How are responsibility-system professionals and supervisory personnel defined?",
- ["Professionals who complete set tasks by specialist knowledge and answer for the outcome; supervisors with power over hiring, firing or conditions","Licensed professionals earning over three times the basic wage; supervisors being any foreman or team leader assigned by the employer","Staff who set their own hours and are exempt from attendance records; supervisors who oversee on-site safety and health","Technical staff engaged in research and development; supervisors doing personnel, accounting or general affairs work"],
+ ["Professionals who complete set tasks by specialist knowledge and answer for the outcome; supervisors with power over hiring, firing or conditions","Licensed professionals earning over three times the basic wage; supervisors being any foreman or team leader assigned by the employer to any post","Staff who set their own hours and are exempt from attendance records; supervisors who oversee on-site safety and health","Technical staff engaged in research and development; supervisors doing personnel, accounting or general affairs work"],
  "Rule 50-1 defines the four categories under Article 84-1."),
 
 ("OSH-49","第50條之2",2,"勞基細則-書面約定",
