@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """把建好的 TSV 直接寫進 Google Sheet（透過 GAS v2 的 doPost），不再用剪貼簿。
 用法（在 題庫/ 目錄）：
-  python push_to_sheet.py ping                 # 應回 {"ok":true,"version":2,...}
+  python push_to_sheet.py ping                 # 應回 {"ok":true,"version":3,...}
   python push_to_sheet.py questions 4          # 把 tsv/Questions_batch4.tsv 接在 Questions 最後（id 重複會跳過）
   python push_to_sheet.py changelog 4          # 把 Changelog 中「建立批次4」那列接在最後
   python push_to_sheet.py laws                 # 用 tsv/Laws.tsv 的 law_version+source_url 覆寫 Laws!F2:G62（依 Sheet 順序）

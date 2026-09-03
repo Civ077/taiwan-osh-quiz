@@ -12,10 +12,11 @@
  *
  * 匯入（v2）：POST <webapp>/exec，body 為 JSON：
  *   { token, sheet:'Questions'|'Laws'|'Changelog'|'Config', mode:'append'|'range', tsv:'...', startCell:'F2' }
- *   token 要和 Config 分頁的 import_token 相同；append 會先檢查 Questions 的 id 不重複。
+ *   token 要和試算表選單「知識王 → 設定匯入密鑰」存入指令碼屬性 IMPORT_TOKEN 的值相同（不放 Config，避免隨 JSON 外洩）；
+ *   append 會先檢查 Questions 的 id 不重複。
  *   用 題庫/push_to_sheet.py 呼叫，之後新批次不必再用剪貼簿貼。
  */
-const GAS_VERSION = 2;
+const GAS_VERSION = 3;
 const SHEET_QUESTIONS = 'Questions';
 const SHEET_CONFIG = 'Config';
 const CACHE_SEC = 300;
@@ -42,8 +43,7 @@ function doPost(e) {
   if (!lock.tryLock(20000)) return json_({ ok: false, error: 'busy' });
   try {
     const ss = SpreadsheetApp.getActiveSpreadsheet();
-    const cfg = readConfig_(ss);
-    const token = String(cfg.import_token || '').trim();
+    const token = String(PropertiesService.getScriptProperties().getProperty('IMPORT_TOKEN') || '').trim();
     if (!token || String(req.token || '') !== token) return json_({ ok: false, error: 'bad token' });
     const sh = ss.getSheetByName(String(req.sheet || ''));
     if (!sh) return json_({ ok: false, error: 'no sheet ' + req.sheet });
@@ -126,6 +126,7 @@ function readConfig_(ss) {
     const v = r[1];
     cfg[k] = (typeof v === 'number') ? v : (isNaN(Number(v)) || String(v).trim() === '' ? String(v) : Number(v));
   });
+  delete cfg.import_token;   // 密鑰不對外回傳（改用指令碼屬性，此行為保險）
   return cfg;
 }
 
@@ -138,7 +139,17 @@ function onOpen() {
   SpreadsheetApp.getUi().createMenu('知識王')
     .addItem('清除快取（改題後立即生效）', 'clearCache')
     .addItem('檢查題庫（答案/欄位）', 'checkBank')
+    .addItem('設定匯入密鑰（給 push_to_sheet.py 用）', 'setImportToken')
     .addToUi();
+}
+function setImportToken() {
+  const ui = SpreadsheetApp.getUi();
+  const r = ui.prompt('設定匯入密鑰', '輸入一串自訂密碼（建議 20 個以上英數字），同一串要存成 gas/.token。留空＝停用匯入。', ui.ButtonSet.OK_CANCEL);
+  if (r.getSelectedButton() !== ui.Button.OK) return;
+  const t = r.getResponseText().trim();
+  const props = PropertiesService.getScriptProperties();
+  if (t) props.setProperty('IMPORT_TOKEN', t); else props.deleteProperty('IMPORT_TOKEN');
+  SpreadsheetApp.getActiveSpreadsheet().toast(t ? '密鑰已儲存（' + t.length + ' 字）' : '匯入已停用', '知識王');
 }
 function clearCache() {
   const c = CacheService.getScriptCache();
