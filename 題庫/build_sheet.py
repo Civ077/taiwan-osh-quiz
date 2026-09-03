@@ -27,6 +27,11 @@ LAWS = {
  "OSH-18": ("異常氣壓危害預防標準","Standards for Prevention of Abnormal Pressure Hazards","民國103年6月25日","N0060026"),
  "OSH-12": ("危害性化學品標示及通識規則","Regulations on Labeling and Hazard Communication of Hazardous Chemicals","民國115年8月26日","N0060054"),
  "OSH-24": ("職業安全衛生標示設置準則","Guidelines for Installation of Occupational Safety and Health Signs","民國103年7月2日","N0060023"),
+ "OSH-09": ("職業安全衛生管理辦法","Regulations of Occupational Safety and Health Management","民國115年6月29日","N0060027"),
+ "OSH-11": ("職業安全衛生教育訓練規則","Occupational Safety and Health Education and Training Rules","民國115年6月25日","N0060010"),
+ "OSH-10": ("勞工健康保護規則","Labor Health Protection Rules","民國115年6月26日","N0060022"),
+ "OSH-08": ("危險性工作場所審查及檢查辦法","Regulations for Review and Inspection of Dangerous Workplaces","民國109年7月17日","N0070019"),
+ "OSH-32": ("製程安全評估定期實施辦法","Regulations for Periodic Process Safety Assessment","民國109年7月17日","N0060071"),
 }
 LAW_VER = {k: v[2] for k, v in LAWS.items()}
 LAW_NAME = {k: v[0] for k, v in LAWS.items()}
@@ -36,6 +41,7 @@ BATCHES = {
  1: ["batch1_a", "batch1_b", "batch1_c"],
  2: ["batch2_a", "batch2_b", "batch2_c", "batch2_d"],
  3: ["batch3_a", "batch3_b", "batch3_c"],
+ 4: ["batch4_a", "batch4_b", "batch4_c", "batch4_d"],
 }
 
 # ---------- Laws 主檔（沿用批次 1 清單，另加 OSH-36 營造標準） ----------
@@ -175,6 +181,7 @@ CHANGELOG = [
  ["2026-09-03","OSH-07","民國115年6月30日","建立批次2：職業安全衛生設施規則（115/7/1 施行，部分條文 116/1/1）","batch=2 之 OSH-07","初版 draft，待審","Claude Code"],
  ["2026-09-03","OSH-36","民國115年6月30日","建立批次2：營造安全衛生設施標準（第11條之2 自 116/7/1 施行）；Laws 分頁新增 OSH-36","batch=2 之 OSH-36","初版 draft，待審","Claude Code"],
  ["2026-09-03","OSH-13","民國111年5月11日","建立批次2：機械設備器具安全標準；Laws 分頁 OSH-13 來源網址修正為 N0060034","batch=2 之 OSH-13","初版 draft，待審","Claude Code"],
+ ["2026-09-03","OSH-09,11,10,08,32","見各題 law_version","建立批次4：職業安全衛生管理辦法（115/6/29）、教育訓練規則（115/6/25）、勞工健康保護規則（115/6/26）、危險性工作場所審查及檢查辦法（109/7/17）、製程安全評估定期實施辦法（109/7/17）","batch=4","初版 draft，待審","Claude Code"],
  ["2026-09-03","OSH-34,15,14,18,12,24","見各題 law_version","建立批次3：缺氧症預防規則、高架作業、高溫作業、異常氣壓、危害性化學品標示及通識規則（115/8/26；附表一、四自 118/1/1 施行）、標示設置準則；Laws 分頁 source_url 全面改為法規資料庫查得之正確代碼","batch=3","初版 draft，待審","Claude Code"],
 ]
 

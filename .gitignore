@@ -4,3 +4,8 @@ __pycache__/
 _fbtmp/
 firebase-debug.log
 .firebase/
+gas/.token
+法規原文/附件/**/*.pdf
+法規原文/附件/**/*.odt
+法規原文/附件/**/*.doc
+法規原文/附件/**/*.docx

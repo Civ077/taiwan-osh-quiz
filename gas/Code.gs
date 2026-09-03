@@ -9,8 +9,13 @@
  *
  * 快取：同一參數 5 分鐘內回同一份（CacheService），改完 Sheet 最多 5 分鐘生效；
  *       要立即生效可在試算表選單「知識王 → 清除快取」。
+ *
+ * 匯入（v2）：POST <webapp>/exec，body 為 JSON：
+ *   { token, sheet:'Questions'|'Laws'|'Changelog'|'Config', mode:'append'|'range', tsv:'...', startCell:'F2' }
+ *   token 要和 Config 分頁的 import_token 相同；append 會先檢查 Questions 的 id 不重複。
+ *   用 題庫/push_to_sheet.py 呼叫，之後新批次不必再用剪貼簿貼。
  */
-const GAS_VERSION = 1;
+const GAS_VERSION = 2;
 const SHEET_QUESTIONS = 'Questions';
 const SHEET_CONFIG = 'Config';
 const CACHE_SEC = 300;
@@ -27,6 +32,50 @@ function doGet(e) {
     if (body.length < 95000) cache.put(key, body, CACHE_SEC);   // CacheService 單筆上限 100KB
   }
   return ContentService.createTextOutput(body).setMimeType(ContentService.MimeType.JSON);
+}
+
+function doPost(e) {
+  let req;
+  try { req = JSON.parse((e && e.postData && e.postData.contents) || '{}'); }
+  catch (err) { return json_({ ok: false, error: 'bad json' }); }
+  const lock = LockService.getScriptLock();
+  if (!lock.tryLock(20000)) return json_({ ok: false, error: 'busy' });
+  try {
+    const ss = SpreadsheetApp.getActiveSpreadsheet();
+    const cfg = readConfig_(ss);
+    const token = String(cfg.import_token || '').trim();
+    if (!token || String(req.token || '') !== token) return json_({ ok: false, error: 'bad token' });
+    const sh = ss.getSheetByName(String(req.sheet || ''));
+    if (!sh) return json_({ ok: false, error: 'no sheet ' + req.sheet });
+    const rows = String(req.tsv || '').split(/?
+/).filter(r => r.trim() !== '').map(r => r.split('	'));
+    if (!rows.length) return json_({ ok: false, error: 'empty' });
+    const width = Math.max.apply(null, rows.map(r => r.length));
+    rows.forEach(r => { while (r.length < width) r.push(''); });
+    if (req.mode === 'range') {
+      const a1 = String(req.startCell || 'A2');
+      sh.getRange(a1).offset(0, 0, rows.length, width).setValues(rows);
+      clearCacheSilent_();
+      return json_({ ok: true, mode: 'range', sheet: sh.getName(), startCell: a1, rows: rows.length, cols: width });
+    }
+    // append：Questions 依 id 去重；其他分頁直接接在最後一列之後
+    const last = sh.getLastRow();
+    let skipped = 0, toWrite = rows;
+    if (sh.getName() === SHEET_QUESTIONS && last >= 2) {
+      const ids = {}; sh.getRange(2, 1, last - 1, 1).getValues().forEach(r => { const v = String(r[0]).trim(); if (v) ids[v] = 1; });
+      toWrite = rows.filter(r => { const dup = ids[String(r[0]).trim()]; if (dup) skipped++; return !dup; });
+    }
+    if (toWrite.length) sh.getRange(last + 1, 1, toWrite.length, width).setValues(toWrite);
+    clearCacheSilent_();
+    return json_({ ok: true, mode: 'append', sheet: sh.getName(), firstRow: last + 1, written: toWrite.length, skipped, lastRow: sh.getLastRow() });
+  } catch (err) {
+    return json_({ ok: false, error: String(err) });
+  } finally { lock.releaseLock(); }
+}
+
+function clearCacheSilent_() {
+  const c = CacheService.getScriptCache();
+  ['active', 'all', 'draft', 'reviewed'].forEach(s => c.remove('bank:' + s + ':' + GAS_VERSION));
 }
 
 function buildBank_(status) {

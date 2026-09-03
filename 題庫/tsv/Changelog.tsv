@@ -4,4 +4,5 @@ date	law_id	law_version	change	affected_questions	action	done_by
 2026-09-03	OSH-07	民國115年6月30日	建立批次2：職業安全衛生設施規則（115/7/1 施行，部分條文 116/1/1）	batch=2 之 OSH-07	初版 draft，待審	Claude Code
 2026-09-03	OSH-36	民國115年6月30日	建立批次2：營造安全衛生設施標準（第11條之2 自 116/7/1 施行）；Laws 分頁新增 OSH-36	batch=2 之 OSH-36	初版 draft，待審	Claude Code
 2026-09-03	OSH-13	民國111年5月11日	建立批次2：機械設備器具安全標準；Laws 分頁 OSH-13 來源網址修正為 N0060034	batch=2 之 OSH-13	初版 draft，待審	Claude Code
+2026-09-03	OSH-09,11,10,08,32	見各題 law_version	建立批次4：職業安全衛生管理辦法（115/6/29）、教育訓練規則（115/6/25）、勞工健康保護規則（115/6/26）、危險性工作場所審查及檢查辦法（109/7/17）、製程安全評估定期實施辦法（109/7/17）	batch=4	初版 draft，待審	Claude Code
 2026-09-03	OSH-34,15,14,18,12,24	見各題 law_version	建立批次3：缺氧症預防規則、高架作業、高溫作業、異常氣壓、危害性化學品標示及通識規則（115/8/26；附表一、四自 118/1/1 施行）、標示設置準則；Laws 分頁 source_url 全面改為法規資料庫查得之正確代碼	batch=3	初版 draft，待審	Claude Code
