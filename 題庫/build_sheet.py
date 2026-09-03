@@ -126,7 +126,7 @@ def build_laws():
         rows.append([lid,"OSH",tier,zh,en,LAW_VER.get(lid,""),url,w,""])
     for i,(zh,en,pcode,w,tier) in enumerate(ENV_LAWS, start=1):
         lid = f"ENV-{i:02d}"; pcode = PCODES.get(zh) or ""
-        url = f"https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode={pcode}" if pcode else ""
+        url = f"https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode={pcode}" if pcode else "（法規資料庫無此法規代碼：行政方案或尚未立法）"
         rows.append([lid,"ENV",tier,zh,en,"",url,w,""])
     return rows
 
@@ -229,6 +229,7 @@ def main():
     for bno, rows in per_batch.items():
         json.dump([dict(zip(keys, r)) for r in rows], open(os.path.join(HERE,f"questions_batch{bno}.json"),"w",encoding="utf-8"), ensure_ascii=False, indent=1)
         open(os.path.join(HERE,"tsv",f"Questions_batch{bno}.tsv"),"w",encoding="utf-8",newline="").write(tsv(rows))
+    open(os.path.join(HERE,"tsv","Questions.tsv"),"w",encoding="utf-8",newline="").write(tsv(qrows))   # 全部題目（含表頭），push_to_sheet.py sync 用
     open(os.path.join(HERE,"tsv","Laws.tsv"),"w",encoding="utf-8",newline="").write(tsv(build_laws()))
     open(os.path.join(HERE,"tsv","Changelog.tsv"),"w",encoding="utf-8",newline="").write(tsv(CHANGELOG))
     # 前端用精簡 JSON

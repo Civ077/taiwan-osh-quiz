@@ -46,7 +46,7 @@ ENV-08	ENV	1	放流水標準	Effluent Standards		https://law.moj.gov.tw/LawClass
 ENV-09	ENV	1	水污染防治措施及檢測申報管理辦法	Regulations on Water Pollution Control Measures and Monitoring Reporting		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0040054	1	
 ENV-10	ENV	1	廢棄物清理法	Waste Disposal Act		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0050001	3	
 ENV-11	ENV	1	事業廢棄物貯存清除處理方法及設施標準	Standards for Storage, Clearance and Disposal of Industrial Waste		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0050005	2	
-ENV-12	ENV	1	營建剩餘土石方處理方案	Construction Surplus Soil and Rock Disposal Program			2	
+ENV-12	ENV	1	營建剩餘土石方處理方案	Construction Surplus Soil and Rock Disposal Program		（法規資料庫無此法規代碼：行政方案或尚未立法）	2	
 ENV-13	ENV	1	環境影響評估法	Environmental Impact Assessment Act		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0090001	2	
 ENV-14	ENV	2	海洋污染防治法	Marine Pollution Control Act		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0040026	2	
 ENV-15	ENV	2	海岸管理法	Coastal Zone Management Act		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0070222	1	
@@ -58,5 +58,5 @@ ENV-20	ENV	2	毒性及關注化學物質管理法	Toxic and Concerned Chemical S
 ENV-21	ENV	3	環境基本法	Basic Environment Act		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0100001	1	
 ENV-22	ENV	3	氣候變遷因應法	Climate Change Response Act		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0020098	1	
 ENV-23	ENV	3	環境教育法	Environmental Education Act		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0120001	1	
-ENV-24	ENV	3	資源循環利用法	Resource Recycling Act			1	
+ENV-24	ENV	3	資源循環利用法	Resource Recycling Act		（法規資料庫無此法規代碼：行政方案或尚未立法）	1	
 ENV-25	ENV	3	公害糾紛處理法	Public Nuisance Dispute Mediation Act		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0080001	1	

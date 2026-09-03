@@ -16,7 +16,7 @@
  *   append 會先檢查 Questions 的 id 不重複。
  *   用 題庫/push_to_sheet.py 呼叫，之後新批次不必再用剪貼簿貼。
  */
-const GAS_VERSION = 3;
+const GAS_VERSION = 4;
 const SHEET_QUESTIONS = 'Questions';
 const SHEET_CONFIG = 'Config';
 const CACHE_SEC = 300;
@@ -47,7 +47,12 @@ function doPost(e) {
     if (!token || String(req.token || '') !== token) return json_({ ok: false, error: 'bad token' });
     const sh = ss.getSheetByName(String(req.sheet || ''));
     if (!sh) return json_({ ok: false, error: 'no sheet ' + req.sheet });
-    const rows = String(req.tsv || '').split(/\r?\n/).filter(r => r.trim() !== '').map(r => r.split('\t'));
+    let rows = String(req.tsv || '').split(/\r?\n/).map(r => r.split('\t'));
+    if (req.mode === 'range') {                     // range：保留中間的空白列（位置要對齊），只去掉尾端空白列
+      while (rows.length && rows[rows.length - 1].join('').trim() === '') rows.pop();
+    } else {
+      rows = rows.filter(r => r.join('').trim() !== '');
+    }
     if (!rows.length) return json_({ ok: false, error: 'empty' });
     const width = Math.max.apply(null, rows.map(r => r.length));
     rows.forEach(r => { while (r.length < width) r.push(''); });
