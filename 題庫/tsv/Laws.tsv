@@ -1,0 +1,61 @@
+law_id	group	tier	name_zh	name_en	law_version	source_url	weight	note
+OSH-01	OSH	1	職業安全衛生法	Occupational Safety and Health Act	民國114年12月19日	https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060001	3	
+OSH-02	OSH	1	職業安全衛生法施行細則	Enforcement Rules of the OSH Act	民國115年6月26日	https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060002	3	
+OSH-03	OSH	1	勞動檢查法	Labor Inspection Act		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0080001	2	
+OSH-04	OSH	1	勞動檢查法施行細則	Enforcement Rules of the Labor Inspection Act		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0080002	1	
+OSH-05	OSH	1	職業災害勞工保護法	Act for Protecting Workers of Occupational Accidents		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060041	1	
+OSH-06	OSH	1	職業災害勞工保護法施行細則	Enforcement Rules of the Act for Protecting Workers of Occupational Accidents		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060042	1	
+OSH-07	OSH	1	職業安全衛生設施規則	Occupational Safety and Health Facilities Rules		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060009	3	
+OSH-08	OSH	1	危險性工作場所審查及檢查辦法	Regulations for Review and Inspection of Dangerous Workplaces		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0080006	2	
+OSH-09	OSH	1	職業安全衛生管理辦法	Regulations of Occupational Safety and Health Management		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060003	3	
+OSH-10	OSH	1	勞工健康保護規則	Labor Health Protection Rules		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060022	3	
+OSH-11	OSH	1	職業安全衛生教育訓練規則	Occupational Safety and Health Education and Training Rules		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060008	3	
+OSH-12	OSH	1	危害性化學品標示及通識規則	Regulations on Labeling and Hazard Communication of Hazardous Chemicals		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060052	2	
+OSH-13	OSH	1	機械設備器具安全標準	Safety Standards for Machinery, Equipment and Tools		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060012	2	
+OSH-14	OSH	1	高溫作業勞工作息時間標準	Standards for Work and Rest Time of Laborers in High-Temperature Work		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060019	2	
+OSH-15	OSH	1	高架作業勞工保護措施標準	Standards for Protective Measures for Laborers in Work at Height		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060020	2	
+OSH-16	OSH	1	精密作業勞工視機能保護設施標準	Standards for Visual Protection Facilities for Precision Work		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060021	1	
+OSH-17	OSH	1	重體力勞動作業勞工保護措施標準	Standards for Protective Measures for Heavy Physical Labor		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060023	1	
+OSH-18	OSH	2	異常氣壓危害預防標準	Standards for Prevention of Abnormal Pressure Hazards		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060004	2	
+OSH-19	OSH	2	辦理勞工體格與健康檢查醫療機構認可及管理辦法	Regulations for Accreditation and Management of Medical Institutions for Labor Health Examinations		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060035	1	
+OSH-20	OSH	2	妊娠與分娩後女性及未滿十八歲勞工禁止從事危險性或有害性工作認定標準	Standards for Identifying Dangerous or Harmful Work Prohibited for Pregnant/Postpartum Women and Laborers under 18		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060051	2	
+OSH-21	OSH	2	事業單位僱用女性勞工夜間工作場所必要之安全衛生設施標準	Standards for Safety and Health Facilities for Female Laborers Working at Night		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060030	1	
+OSH-22	OSH	2	女性勞工母性健康保護實施辦法	Regulations for Implementing Maternal Health Protection of Female Laborers		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060053	2	
+OSH-23	OSH	2	工業用機器人危害預防標準	Standards for Prevention of Industrial Robot Hazards		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060007	1	
+OSH-24	OSH	2	職業安全衛生標示設置準則	Guidelines for Installation of Occupational Safety and Health Signs		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060013	2	
+OSH-25	OSH	2	勞動檢查法第二十八條所定勞工有立即發生危險之虞認定標準	Standards for Identifying Imminent Danger under Article 28 of the Labor Inspection Act		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0080009	2	
+OSH-26	OSH	3	推行職業安全衛生優良單位及人員選拔作業要點	Directions for Selection of Outstanding OSH Units and Personnel		https://law.isha.org.tw/ISHA_LAW/	0	
+OSH-27	OSH	3	違反職業安全衛生法及勞動檢查法案件處理要點	Directions for Handling Violations of the OSH Act and Labor Inspection Act		https://law.isha.org.tw/ISHA_LAW/	1	
+OSH-28	OSH	3	勞動部重大災害通報及檢查處理要點	MOL Directions for Major Accident Notification and Inspection		https://law.isha.org.tw/ISHA_LAW/	1	
+OSH-29	OSH	3	職業安全衛生顧問服務機構與其顧問服務人員之認可及管理規則	Rules for Accreditation and Management of OSH Consulting Institutions		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060054	0	
+OSH-30	OSH	3	政府機關推動職業安全衛生業務績效評核及獎勵作業要點	Directions for Performance Evaluation of Government OSH Promotion		https://law.isha.org.tw/ISHA_LAW/	0	
+OSH-31	OSH	3	促進職業安全衛生文化獎勵及補助辦法	Regulations for Rewards and Subsidies to Promote OSH Culture		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060055	0	
+OSH-32	OSH	3	製程安全評估定期實施辦法	Regulations for Periodic Process Safety Assessment		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060050	1	
+OSH-33	OSH	3	勞工體格與健康檢查特定檢查項目檢驗機構指定及管理作業要點	Directions for Designation of Laboratories for Specific Health Examination Items		https://law.isha.org.tw/ISHA_LAW/	0	
+OSH-34	OSH	1	缺氧症預防規則	Rules for Prevention of Hypoxia		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060010	3	
+OSH-35	OSH	1	勞工職業災害保險及保護法	Labor Occupational Accident Insurance and Protection Act		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0060072	2	
+ENV-01	ENV	1	空氣污染防制法	Air Pollution Control Act		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0020001	3	
+ENV-02	ENV	1	空氣污染防制法施行細則	Enforcement Rules of the Air Pollution Control Act		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0020002	1	
+ENV-03	ENV	1	營建工程空氣污染防制設施管理辦法	Regulations on Air Pollution Control Facilities for Construction Projects		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0020021	3	
+ENV-04	ENV	1	固定污染源逸散性粒狀污染物空氣污染防制設施管理辦法	Regulations on Control Facilities for Fugitive Particulate Pollutants from Stationary Sources		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0020033	2	
+ENV-05	ENV	1	噪音管制法	Noise Control Act		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0030001	2	
+ENV-06	ENV	1	噪音管制標準	Noise Control Standards		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0030004	2	
+ENV-07	ENV	1	水污染防治法	Water Pollution Control Act		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0040001	2	
+ENV-08	ENV	1	放流水標準	Effluent Standards		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0040004	1	
+ENV-09	ENV	1	水污染防治措施及檢測申報管理辦法	Regulations on Water Pollution Control Measures and Monitoring Reporting		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0040030	1	
+ENV-10	ENV	1	廢棄物清理法	Waste Disposal Act		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0050001	3	
+ENV-11	ENV	1	事業廢棄物貯存清除處理方法及設施標準	Standards for Storage, Clearance and Disposal of Industrial Waste		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0050023	2	
+ENV-12	ENV	1	營建剩餘土石方處理方案	Construction Surplus Soil and Rock Disposal Program			2	
+ENV-13	ENV	1	環境影響評估法	Environmental Impact Assessment Act		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0090001	2	
+ENV-14	ENV	2	海洋污染防治法	Marine Pollution Control Act		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0040026	2	
+ENV-15	ENV	2	海岸管理法	Coastal Zone Management Act		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0070212	1	
+ENV-16	ENV	2	海洋保育法	Marine Conservation Act			1	
+ENV-17	ENV	2	野生動物保育法	Wildlife Conservation Act		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=M0120001	2	
+ENV-18	ENV	2	濕地保育法	Wetland Conservation Act		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0130001	1	
+ENV-19	ENV	2	土壤及地下水污染整治法	Soil and Groundwater Pollution Remediation Act		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0110001	1	
+ENV-20	ENV	2	毒性及關注化學物質管理法	Toxic and Concerned Chemical Substances Control Act		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0060001	1	
+ENV-21	ENV	3	環境基本法	Basic Environment Act		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0100001	1	
+ENV-22	ENV	3	氣候變遷因應法	Climate Change Response Act		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0020098	1	
+ENV-23	ENV	3	環境教育法	Environmental Education Act		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0120001	1	
+ENV-24	ENV	3	資源循環利用法	Resource Recycling Act		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0050049	1	
+ENV-25	ENV	3	公害糾紛處理法	Public Nuisance Dispute Mediation Act		https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0100002	1	
