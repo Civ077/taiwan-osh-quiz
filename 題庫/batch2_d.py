@@ -4,10 +4,10 @@ L = "OSH-13"
 Q = [
 (L,"第3條",2,"機械標準-衝剪",
  "機械設備器具安全標準所稱「快速停止機構」，係指衝剪機械之何種機構？",
- ["檢出危險或異常時，能自動停止滑塊等動作之機構","以人為操作使滑塊緊急停止之裝置","手推刨床之覆蓋自動開閉裝置","防止滑塊意外下降之安全擋塊"],"a",
+ ["檢出危險或異常時，能自動停止滑塊等動作之機構","由操作人員以人為操作使滑塊等緊急停止之裝置","覆蓋隨加工材進給而自動開閉之接觸預防裝置","防止滑塊意外下降而設於模具之間之安全擋塊"],"a",
  "第3條：快速停止機構指衝剪機械檢出危險或異常時，能自動停止滑塊、刀具或撞錘動作之機構；緊急停止裝置則指以人為操作使滑塊等緊急停止之裝置；可動式接觸預防裝置為手推刨床覆蓋隨加工材進給自動開閉之裝置。",
  "Under the Machinery, Equipment and Tools Safety Standards, a 'quick-stop mechanism' of a press/shear is:",
- ["A mechanism that automatically stops the slide when danger or abnormality is detected","A device stopping the slide by manual operation in an emergency","A planer cover that opens and closes automatically","A safety block preventing accidental slide descent"],
+ ["A mechanism that automatically stops the slide when danger or abnormality is detected","A device by which the operator manually brings the slide and ram to an emergency stop","A planer cover that opens and closes automatically as the workpiece is fed through it","A safety block fitted between the dies to stop the slide from descending accidentally"],
  "Article 3: a quick-stop mechanism automatically stops the slide, blade or ram on detecting danger; an emergency stop device stops it by human operation; a movable contact-prevention device is a planer cover that opens/closes with the workpiece feed."),
 
 (L,"第5條",3,"機械標準-衝剪",
@@ -28,10 +28,10 @@ Q = [
 
 (L,"第6條",3,"機械標準-衝剪",
  "「安全一行程式」與「雙手起動式」雙手操作式安全裝置之差異為何？",
- ["安全一行程式於脫手後至手達到危險界限前能使滑塊停止；雙手起動式則於手離開時使手無法達到危險界限","兩者完全相同","安全一行程式只能單手操作","雙手起動式不需按鈕"],"a",
+ ["安全一行程式於脫手後至手達到危險界限前能使滑塊停止；雙手起動式則於手離開時使手無法達到危險界限","安全一行程式於手離開時使手無法達到危險界限；雙手起動式則於脫手後至手達到危險界限前使滑塊停止","安全一行程式僅需單手按壓操作部即可起動；雙手起動式則須以雙手同時按壓並全程按住至行程結束","安全一行程式以感應光線檢出手部位置；雙手起動式則以拉開帶牽引雙手於滑塊下降時離開危險界限"],"a",
  "第6條第2款：安全一行程式在手指離開操作部後至該手達到危險界限前，能使滑塊等停止動作；雙手起動式以雙手作動操作部，於滑塊閉合動作中手離開操作部時使手無法達到危險界限。",
  "What distinguishes a 'safety single-stroke' from a 'two-hand start' two-hand control device?",
- ["Safety single-stroke stops the slide before a released hand reaches the danger zone; two-hand start ensures the hand cannot reach it during closing","They are identical","Safety single-stroke is one-handed","Two-hand start needs no buttons"],
+ ["Safety single-stroke stops the slide before a released hand reaches the danger zone; two-hand start ensures the hand cannot reach it during closing","Safety single-stroke ensures a released hand cannot reach the danger zone; two-hand start stops the slide before that hand reaches the zone","Safety single-stroke is started by pressing one button with a single hand; two-hand start needs both buttons held down for the whole closing stroke","Safety single-stroke detects the hand position with a light beam; two-hand start pulls both hands from the danger zone with cords as the slide closes"],
  "Article 6(2): safety single-stroke stops the slide after a hand leaves the control before it can reach the danger zone; two-hand start ensures a released hand cannot reach the danger zone while the slide closes."),
 
 (L,"第8條",3,"機械標準-衝剪",
@@ -108,18 +108,18 @@ Q = [
 
 (L,"第18條",2,"機械標準-衝剪",
  "衝壓機械應具有何種機構？",
- ["一行程一停止機構","連續運轉機構","自動加速機構","無停止機構"],"a",
+ ["一行程一停止機構","連續行程運轉機構","自動加速起動機構","二行程一停止機構"],"a",
  "第18條：衝壓機械應具有一行程一停止機構。第19條：衝壓機械應具有快速停止機構（使用確動式離合器、不致使身體介入危險界限之構造者除外）。",
  "A press machine shall be equipped with:",
- ["A single-stroke single-stop mechanism","A continuous-run mechanism","An auto-acceleration mechanism","No stop mechanism"],
+ ["A single-stroke single-stop mechanism","A continuous-stroke running mechanism","An automatic accelerating start mechanism","A two-stroke single-stop mechanism"],
  "Article 18: presses shall have a single-stroke single-stop mechanism; Article 19: a quick-stop mechanism, except positive-clutch presses or designs that keep the body out of the danger zone."),
 
 (L,"第21條",2,"機械標準-衝剪",
  "衝壓機械緊急停止裝置之操作部，應為何種型式？",
- ["紅色之凸出型按鈕","綠色之凹入型按鈕","黑色旋鈕","黃色拉桿"],"a",
+ ["紅色之凸出型按鈕","綠色之凹入型按鈕","黑色之旋轉型旋鈕","黃色之彈簧型拉桿"],"a",
  "第21條：紅色之凸出型按鈕或其他簡易、明顯、迅速有效之人為操作裝置；設置於各操作區；台身兩側最大距離超過一千八百毫米者分別設置於側壁之正面及背面。",
  "The actuator of a press emergency stop device shall be:",
- ["A red mushroom-head (protruding) push button","A green recessed button","A black knob","A yellow lever"],
+ ["A red mushroom-head (protruding) push button","A green flush-mounted (recessed) push button","A black rotary-selector (turning) knob switch","A yellow spring-loaded (pulling) lever handle"],
  "Article 21: a red protruding button or equally simple, visible and effective manual device, at each operating station; presses wider than 1,800 mm need them on both front and rear of each side."),
 
 (L,"第22條",3,"機械標準-衝剪",
@@ -132,10 +132,10 @@ Q = [
 
 (L,"第23條",3,"機械標準-衝剪",
  "衝壓機械應具有防止滑塊意外下降之安全擋塊；下列何種衝壓機械得以安全插栓、安全鎖替代？",
- ["摺床","台盤各邊長度一千五百毫米以上之機械衝床","液壓衝床","所有衝壓機械"],"a",
+ ["摺床，及台盤各邊未滿一千五百毫米或模高未滿七百毫米之機械衝床","台盤各邊長度在一千五百毫米以上且模高超過七百毫米之機械衝床","液壓衝床，及衝程長度超過六百毫米之各型機械衝床與剪斷機","所有衝壓機械，但應由雇主將每次使用情形記載於檢點紀錄表"],"a",
  "第23條：摺床，及摺床以外台盤各邊長度未滿一千五百毫米或模高未滿七百毫米之機械衝床，使用安全擋塊有困難者，得使用安全插栓、安全鎖或同等安全功能之裝置；安全插栓配置於每一操作區、安全鎖能遮斷主電動機電源。",
  "Presses need safety blocks against accidental slide descent; which press may use safety plugs or safety locks instead?",
- ["Press brakes (and mechanical presses with bolster under 1,500 mm or die height under 700 mm)","Mechanical presses with bolsters 1,500 mm or larger","Hydraulic presses","All presses"],
+ ["Press brakes (and mechanical presses with bolster under 1,500 mm or die height under 700 mm)","Mechanical presses with every bolster side 1,500 mm or more and die height over 700 mm","Hydraulic presses (and mechanical presses whose stroke exceeds 600 mm, at any tonnage)","All presses, provided the employer records each use of the plug in a maintenance log"],
  "Article 23: press brakes, and other mechanical presses with bolster sides under 1,500 mm or die height under 700 mm, may use safety plugs (at each station) or safety locks (cutting the main motor power) when blocks are impractical."),
 
 (L,"第37條",3,"機械標準-衝剪",
@@ -148,10 +148,10 @@ Q = [
 
 (L,"第43條",3,"機械標準-衝剪",
  "使用確動式離合器之機械衝床，每分鐘行程數超過一百五十或壓力能力超過一百五十噸者，其快速停止機構應如何？",
- ["不得置有快速停止機構","必須置有快速停止機構","得任意選擇","應置兩套"],"a",
+ ["不得置有快速停止機構","必須置有快速停止機構","得由雇主自行選擇設置","應置有兩套快速停止機構"],"a",
  "第43條：確動式離合器每分鐘行程數一百五十以下且壓力能力一百五十噸以下、置有腳踏開關者，應具防止身體介入之構造或快速停止機構；第44條：每分鐘行程數超過一百五十或壓力能力超過一百五十噸者，不得置有快速停止機構。",
  "Positive-clutch mechanical presses exceeding 150 strokes per minute or 150 tonnes capacity:",
- ["Must NOT have a quick-stop mechanism","Must have a quick-stop mechanism","May choose freely","Need two of them"],
+ ["Must NOT have a quick-stop mechanism","Must have a quick-stop mechanism","May be chosen freely by the employer","Must have two quick-stop mechanisms"],
  "Article 43: positive-clutch presses at ≤150 spm and ≤150 t with foot controls need guarding or a quick-stop; Article 44: those over 150 spm or 150 t must not have a quick-stop mechanism."),
 
 (L,"第50條",3,"機械標準-手推刨床",
@@ -172,18 +172,18 @@ Q = [
 
 (L,"第58條",2,"機械標準-手推刨床",
  "手推刨床之刀軸應採用何種型式？",
- ["圓胴","方形","三角形","任意型式"],"a",
+ ["圓胴（圓筒形）刀軸","方形（四面）刀軸","三角形（三面）刀軸","六角形（六面）刀軸"],"a",
  "第58條：手推刨床之刀軸，應採用圓胴。第56條：刀刃應符合CNS 2904 SKH2規格之鋼料。",
  "The cutter shaft of a hand-fed planer shall be of what type?",
- ["Cylindrical (round) cutter block","Square","Triangular","Any type"],
+ ["Cylindrical (round) cutter block","Square (four-sided) cutter block","Triangular (three-sided) cutter block","Hexagonal (six-sided) cutter block"],
  "Article 58: the cutter shaft shall be a round cylinder; Article 56: blades of CNS 2904 SKH2 high-speed steel."),
 
 (L,"第60條",2,"機械標準-圓盤鋸",
  "木材加工用圓盤鋸應設置之安全裝置為何？",
- ["反撥預防裝置及鋸齒接觸預防裝置","僅需護罩","雙手操作裝置","光電式安全裝置"],"a",
+ ["反撥預防裝置及鋸齒接觸預防裝置","僅需鋸齒接觸預防裝置而免設反撥預防裝置","雙手操作裝置及各操作區之緊急停止裝置","光電式安全裝置及自動輸送裝置"],"a",
  "第60條：圓盤鋸應設置反撥預防裝置（橫鋸用或反撥不致引起危害者除外）及鋸齒接觸預防裝置（製材用圓盤鋸及設有自動輸送裝置者除外）。",
  "Woodworking circular saws shall be fitted with:",
- ["A kickback-prevention device (riving knife) and a blade-contact prevention device (guard)","A cover only","Two-hand controls","A photoelectric safety device"],
+ ["A kickback-prevention device (riving knife) and a blade-contact prevention device (guard)","A blade-contact prevention device (guard) only, with no kickback-prevention device fitted","A two-hand control device plus an emergency stop device at each operating station of the saw","A photoelectric safety device (light curtain) together with an automatic feeding device"],
  "Article 60: a kickback-prevention device (except cross-cut saws or where kickback is harmless) and a blade-contact prevention device (except sawmill saws and those with automatic feed)."),
 
 (L,"第61條",3,"機械標準-圓盤鋸",
@@ -236,18 +236,18 @@ Q = [
 
 (L,"第84條",2,"機械標準-堆高機",
  "配衡型堆高機及側舉型堆高機之駕駛座，應配置何種防護設施？",
- ["防止車輛傾倒時駕駛者被壓傷之安全帶、護欄或其他防護設施","冷氣","音響","GPS"],"a",
+ ["防止車輛傾倒時駕駛者被壓傷之安全帶、護欄或其他防護設施","防止貨物掉落時駕駛者被砸傷之車頂冷氣機及遮陽棚","防止長時間駕駛疲勞之車內立體音響及座椅按摩裝置","防止車輛失竊時遭人任意駛離之全球衛星定位追蹤系統"],"a",
  "第84條：駕駛座採升降方式者應設扶手及防墜設備；座式操作者駕駛座應使用緩衝材料；配衡型及側舉型堆高機之駕駛座應配置防止車輛傾倒時駕駛者被壓傷之安全帶、護欄或其他防護設施。",
  "Seats of counterbalance and side-loading forklifts shall be fitted with:",
- ["Seat belts, guard rails or other protection against the driver being crushed in a tip-over","Air conditioning","A sound system","GPS"],
+ ["Seat belts, guard rails or other protection against the driver being crushed in a tip-over","Air conditioning and a roof canopy protecting the driver from cargo falling from the forks","A car stereo and a massaging seat protecting the driver against fatigue on long shifts","A satellite tracking system protecting the truck from being driven away by thieves"],
  "Article 84: elevating seats need handholds and fall protection; seated forklifts need cushioned seats; counterbalance and side-loaders need seat belts, guard rails or other tip-over crush protection."),
 
 (L,"第86條",3,"機械標準-研磨輪",
  "直徑在一百毫米以上之研磨輪，每批製品應以最高使用周速度值乘以多少倍之速度實施旋轉試驗？",
- ["一點二倍","一點五倍","二倍","三倍"],"b",
+ ["一點二倍","一點五倍","二點零倍","三點零倍"],"b",
  "第86條：直徑一百毫米以上之研磨輪，每批製品應以最高使用周速度乘以一點五倍之速度實施旋轉試驗；試驗用研磨輪取製品數百分之十以上（未滿五個時為五個）；異常率百分之五以下者除異常品外視為合格。",
  "Grinding wheels of 100 mm diameter or larger shall be spin-tested per batch at the maximum operating peripheral speed multiplied by:",
- ["1.2","1.5","2","3"],
+ ["1.2","1.5","2.0","3.0"],
  "Article 86: at 1.5× the maximum operating peripheral speed; sample at least 10% of the batch (minimum 5); a batch passes if the defect rate is 5% or less (excluding defective wheels)."),
 
 (L,"第87條",3,"機械標準-研磨輪",
@@ -292,9 +292,9 @@ Q = [
 
 (L,"第119條",2,"機械標準-標示",
  "研磨輪應標示之事項包括下列何者？",
- ["製造者名稱、結合劑之種類、最高使用周速度、製造號碼或製造批號","售價","經銷商電話","使用者姓名"],"a",
+ ["製造者名稱、結合劑之種類、最高使用周速度、製造號碼或製造批號","銷售價格、經銷商名稱、保固期限、進口報關號碼或運送批號","使用者姓名、作業場所名稱、檢查日期、監督人員簽章或工號","研磨機廠牌、電動機功率、最低使用周速度、購入日期或保養週期"],"a",
  "第119條：研磨輪應標示製造者名稱、結合劑之種類、最高使用周速度（得加註旋轉速率）、製造號碼或製造批號；直徑未滿七十五毫米者得在最小包裝單位上標示。",
  "Grinding wheels shall be marked with:",
- ["Manufacturer, bond type, maximum operating peripheral speed, and serial or batch number","Price","Dealer phone number","User's name"],
+ ["Manufacturer, bond type, maximum operating peripheral speed, and serial or batch number","Retail price, dealer name, warranty period, and import declaration or shipment number","User's name, workplace name, inspection date, and the supervisor's signature or staff number","Grinder brand, motor rating, minimum operating peripheral speed, and date of purchase"],
  "Article 119: manufacturer, bond type, maximum operating peripheral speed (optionally rpm), and serial or batch number; wheels under 75 mm may be marked on the smallest package."),
 ]

@@ -5,10 +5,10 @@ Q = [
 # ---------- 林場安全衛生設施規則（103/7/1） ----------
 (FR,"第3條",3,"林場-監督",
  "林場機械集材裝置或運材索道之組合解體變更維修或集運材作業，原動機額定輸出達多少以上或柱木間斜距離合計多少以上時，雇主應選任技術熟練人員監督？",
- ["七點五千瓦或十馬力以上；三百五十公尺以上","三千瓦；一百公尺","十五千瓦；五百公尺","一千瓦；五十公尺"],"a",
+ ["七點五千瓦或十馬力以上；三百五十公尺以上","三千瓦或四馬力以上；一百公尺以上","十五千瓦或二十馬力以上；五百公尺以上","一千瓦或一點五馬力以上；五十公尺以上"],"a",
  "第2條：適用於林業及伐木業。第3條：原動機額定輸出在七點五千瓦或十馬力以上、柱木間斜距離合計三百五十公尺以上者應分別選任技術熟練人員監督。第4條：強風濃霧大雨大雪雷電昏暗等惡劣氣候應停止造林伐木造材集運材木馬運材作業並退避。第5條：危險作業應建立信號標準公告實施並做成手冊隨身攜帶，信號手應指定專人不得兼任其他職務。第7條：深入山區儘量避免單獨工作，應攜帶急救用具乾糧蛇藥指南針火柴小刀手斧手電筒。",
  "Skilled supervisors must be appointed for mechanical yarding or logging cableway work when engine output reaches, or total slope distance between spar trees reaches:",
- ["7.5 kW or 10 hp; 350 m","3 kW; 100 m","15 kW; 500 m","1 kW; 50 m"],
+ ["7.5 kW or 10 hp; 350 m","3 kW or 4 hp; 100 m","15 kW or 20 hp; 500 m","1 kW or 1.5 hp; 50 m"],
  "Articles 2–7."),
 
 (FR,"第9條",3,"林場-伐木",
@@ -21,26 +21,26 @@ Q = [
 
 (FR,"第20條",3,"林場-鋼索安全係數",
  "機械集材裝置或運材索道之主索安全係數應在多少以上（新設者）？曳索作業索支持索？吊材索？",
- ["二點四以上（新設二點七）；四以上；六以上","二以上（新設三）；三以上；五以上","三以上（新設四）；五以上；八以上","一點五以上；二以上；三以上"],"a",
+ ["二點四以上（新設二點七）；四以上；六以上","二以上（新設三）；三以上；五以上","三以上（新設四）；五以上；八以上","一點五以上（新設二）；二以上；三以上"],"a",
  "第20條：主索安全係數二點四以上，新設者二點七以上；曳索作業索（吊材索除外）安裝索及支持索四以上；吊材索六以上；主索載運人員應另有防墜安全裝置。第21條：一撚間素線截斷百分之十以上、直徑減少百分之七以上、顯著變形腐蝕、已扭結之鋼索不得使用。第19條：應設有效煞車、主索支持索作業索應在堅固固定物上繞捲二捲以上並以鋼索夾固定、柱木頂部支持索二條以上與支柱角度三十度以上。第22條：作業索最大使用時仍應保留繞捲捲胴二捲以上。第23條：吊材索應有標示或警報防止過捲。",
  "Minimum safety factors for skyline (new installations), haulback/working/guy lines and load lines on logging cableways are:",
- ["2.4 (2.7 new); 4; 6","2 (3 new); 3; 5","3 (4 new); 5; 8","1.5; 2; 3"],
+ ["2.4 (2.7 new); 4; 6","2.0 (3.0 new); 3; 5","3.0 (4.0 new); 5; 8","1.5 (2.0 new); 2; 3"],
  "Articles 19–23."),
 
 (FR,"第26條",3,"林場-集材機",
  "集材機之捲胴底徑應為所使用鋼索直徑之幾倍以上？運材索道之運轉速度不得超過每秒幾公尺？",
- ["二十倍；二點五公尺","十倍；五公尺","五倍；十公尺","三十倍；一公尺"],"a",
+ ["二十倍；二點五公尺","十倍；五點零公尺","五倍；十點零公尺","三十倍；一點零公尺"],"a",
  "第26條：集材機置放位置穩固、捲胴底徑為鋼索直徑二十倍以上、有完備警報裝置、充分捲索容量及變速裝置；集材搬器應備二只以上走行滑輪直徑為主索直徑六倍以上（四只以上者五倍）；導索滑車十五倍、三角滑車七倍、緊張滑車十二倍、吊材滑車十八倍以上；集材徑間距離較搬器走行區間增加百分之二十以上且不得在主索兩端各百分之十區間走行。第27條：運材索道應有二種以上獨立煞車系統每天以逐增負荷試驗、曳索承索滾輪每天檢查、鳥居盤台錨錠經常檢查、運轉速度不得超過每秒二點五公尺。第28條：操作人員運轉中不得離開。第29條：禁止勞工乘坐搬器吊荷物重錘等懸掛物。",
  "A yarder drum's root diameter must be at least how many times the rope diameter, and logging cableway speed may not exceed:",
- ["20 times; 2.5 m/s","10 times; 5 m/s","5 times; 10 m/s","30 times; 1 m/s"],
+ ["20 times; 2.5 m/s","10 times; 5.0 m/s","5 times; 10.0 m/s","30 times; 1.0 m/s"],
  "Articles 26–29."),
 
 (FR,"第31條",2,"林場-確認時機",
  "雇主對架線等作業，應於哪些時機確認支柱固定錨鋼索煞車信號裝置等狀況？",
- ["組裝或變更時、試運轉時、每日作業開始前、強風大雨大雪等惡劣氣候及中級以上地震後","僅每月一次","僅每年一次","僅發生事故後"],"a",
+ ["組裝或變更時、試運轉時、每日作業開始前、強風大雨大雪等惡劣氣候及中級以上地震後","組裝或變更時、試運轉時、每月作業開始前、強風大雨大雪等惡劣氣候及輕微地震後","每年定期檢查時、機具更換時、每季作業開始前、發生職業災害或經勞動檢查機構通知後","驗收啟用時、鋼索更換時、每週作業開始前、颱風警報解除及中級以上地震發生後"],"a",
  "第31條：組裝或變更時確認支柱及固定錨、集材機運材機制動機安裝狀況；試運轉時確認各鋼索安裝狀況、搬器與鋼索連結、信號聯絡裝置；每日作業開始前確認煞車機能、作業索吊材索、搬器及與曳索連結、信號裝置；強風大雨大雪等惡劣氣候及中級以上地震後確認支柱固定錨、機器、鋼索、信號裝置。第33條：木馬運材每日作業前確認木馬道及制動鋼索，棧橋使用超過一個月或颱風豪雨後派人確認橋腳橋樑。第34條：森林道路應能承受荷重、危險區設防護、避車道距離不超過三百公尺。",
  "Cableway installations must be checked at which times?",
- ["On assembly or modification, at trial runs, before each day's work, and after severe weather or moderate-or-stronger earthquakes","Monthly only","Yearly only","After accidents only"],
+ ["On assembly or modification, at trial runs, before each day's work, and after severe weather or moderate-or-stronger earthquakes","On assembly or modification, at trial runs, before each month's work, and after severe weather or minor earthquakes","At annual periodic checks, when machinery is replaced, before each quarter's work, and after an accident or a notice from the inspection agency","At commissioning, when ropes are replaced, before each week's work, and after a typhoon warning is lifted or a moderate-or-stronger earthquake"],
  "Articles 31–34."),
 
 (FR,"第39條",3,"林場-貯木池與搬運",
@@ -48,7 +48,7 @@ Q = [
  ["一點三公尺；六十公分；三分之一","一公尺；三十公分；二分之一","二公尺；一百公分；四分之一","零點五公尺；五十公分；五分之一"],"a",
  "第36條：貯木池卸材盤台應用堅實卵石或木板鋪墊並有擋木樑材。第38條：浮道應具強度、表面無突出物、首尾相接間距不得超過六十公分。第39條：水深一點三公尺以上應有警告標示並置救生設備、人工貯木池定期換水、水道不得建於高壓電力線附近。第41條：木材穩定排列並防翻落。第42條：貯木場嚴禁煙火。第44條：軌道動力車裝載易燃液體超過二百公升應與搭乘車廂隔離一車廂以上。第45條：木材裝運不得將三分之一以上長度伸置車外。第48條：鋼索夾鞍部壓著長端、間隔為鋼索直徑六倍以上、末端夾與繞回端距離三倍以上。",
  "Log ponds deeper than what need warning signs and lifesaving gear, floating walkway gaps may not exceed, and logs on trucks may not overhang by more than:",
- ["1.3 m; 60 cm; one-third of their length","1 m; 30 cm; one-half","2 m; 100 cm; one-quarter","0.5 m; 50 cm; one-fifth"],
+ ["1.3 m; 60 cm; one-third of their length","1 m; 30 cm; one-half of their length","2 m; 100 cm; one-quarter of their length","0.5 m; 50 cm; one-fifth of their length"],
  "Articles 36–48."),
 
 (FR,"第54條",2,"林場-衛生",
@@ -95,10 +95,10 @@ Q = [
 # ---------- 船舶清艙解體職業安全規則（110/9/10） ----------
 (SH,"第4條",2,"船舶清艙-定義",
  "船舶清艙解體職業安全規則所稱「油輪清艙作業」包括？",
- ["油輪之清洗、油氣之清除、油泥之清除及下卸、油渣之清除及下卸","僅洗艙","僅拆船","僅油料轉運"],"a",
+ ["油輪之清洗、油氣之清除、油泥之清除及下卸、油渣之清除及下卸","油輪之清洗、油氣之清除、船體之解體及拆卸、廢鋼之搬運及下卸","貨艙之通風、惰性氣體之注入、壓艙水之排放及處理","油料之轉運、油泥之焚化、船體之除鏽及塗裝、廢油之銷售"],"a",
  "第2條：油輪指貨艙主要用於運送原油及散裝液體油類貨物之船舶。第3條：化學液體船指裝載危險性或毒性液體物質貨物之船舶。第4條：清艙作業為油輪之清洗、油氣之清除、油泥之清除及下卸、油渣之清除及下卸。第5條：清艙作業就業場所應設鍋爐洗艙水加熱器洗艙機八具儲油槽含油污水槽油泥收集池油水分離器防爆型幫浦鼓風機可燃性氣體測定器四具氧氣測定器二具自給式呼吸器四具硫化氫測定器二具攔油索等設備。第58條：天然氣化學液體船或冷凍船之清艙準用。",
  "'Tanker cleaning operations' under the Ship Tank Cleaning and Breaking Rules include:",
- ["Washing the tanker, removing oil vapor, removing and discharging sludge, and removing and discharging oil residue","Washing only","Ship breaking only","Oil transfer only"],
+ ["Washing the tanker, removing oil vapor, removing and discharging sludge, and removing and discharging oil residue","Washing the tanker, removing oil vapor, dismantling and demolishing the hull, and moving and discharging scrap steel","Ventilating cargo tanks, injecting inert gas, and discharging and treating ballast water","Transferring oil, incinerating sludge, derusting and painting the hull, and selling waste oil"],
  "Articles 2–5 and 58."),
 
 (SH,"第7條",3,"船舶清艙-上下船設備",
@@ -122,7 +122,7 @@ Q = [
  ["三萬五千公噸；三具；三十五公噸；六十度","一萬公噸；二具；二十公噸；四十度","五萬公噸；五具；五十公噸；八十度","二萬公噸；四具；一百公噸；一百度"],"a",
  "第26條：洗艙中應防止油氣進入艙內；輕排水三萬五千公噸以上者應避免使用高壓洗艙機化學除油劑循環沖洗水及加熱沖洗水，使用未加熱清潔海水時同一艙不得同時使用三具以上洗艙機（注有惰性氣體且氧氣低於百分之八者除外）；未注惰性氣體者洗艙機海水流量每小時不得超過三十五公噸溫度不得超過攝氏六十度；洗艙水隨時排乾；作業前沖洗各艙艙壁管路；污油水抽至污油艙，鼓風機通風前確認清洗淨盡。第27條：應告知洗艙機正確使用、放入艙內用專用索、油氣未完全排除前不得放入。",
  "For tankers of at least what lightweight displacement, unheated seawater washing may not use three or more machines in one tank, and without inert gas the flow and temperature limits are:",
- ["35,000 t; 3 machines; 35 t/h; 60°C","10,000 t; 2; 20 t/h; 40°C","50,000 t; 5; 50 t/h; 80°C","20,000 t; 4; 100 t/h; 100°C"],
+ ["35,000 t; 3 machines; 35 t/h; 60°C","10,000 t; 2 machines; 20 t/h; 40°C","50,000 t; 5 machines; 50 t/h; 80°C","20,000 t; 4 machines; 100 t/h; 100°C"],
  "Articles 26–27."),
 
 (SH,"第28條",2,"船舶清艙-進艙條件",
@@ -143,17 +143,17 @@ Q = [
 
 (SH,"第33條",2,"船舶解體-切割順序",
  "船舶解體切割工作應依何順序？上層甲板切割時下層甲板如何？",
- ["由上而下、由外而內，不得上下或內外同時動工；禁止人員進入","由下而上；照常作業","任意；照常作業","由內而外；限制一人"],"a",
+ ["由上而下、由外而內，不得上下或內外同時動工；禁止人員進入","由下而上、由內而外，不得上下或內外同時動工；得照常作業","由上而下、由外而內，得上下及內外同時動工；限制一人進入","由外而內、由下而上，不得左右同時動工；應派監視人員進入"],"a",
  "第32條：危險物硫磺穀物未全部清除與二氧化碳滅火系統未拆除前不得切割。第33條：切割由上而下由外而內不得上下或內外同時動工，上層甲板切割時下層甲板禁止人員進入。第34條：切割物隨時搬離並清除尖銳碎片標示圍柵。第35、36條：氧乙炔切割依設施規則第八章第六節，鋼瓶依設施規則及高壓氣體規則。第38條：解體前清除油料油布木料爆炸性物質石綿。第39條：油輪解體油管拆除用不發火花工具、切割油艙設可燃性氣體警報器且含量不超過爆炸下限百分之四、開設相對窗戶通風。第41條：冷凍船解體應拆除夾層木板防熱體，進艙前測定缺氧毒性可燃性氣體，不得用明火照明。第44條：強風大雨雷電不得作業。",
  "Ship-breaking cutting must proceed in what order, and while the upper deck is cut, the lower deck:",
- ["Top-down and outside-in, never simultaneously above and below or inside and outside; is closed to personnel","Bottom-up; works normally","Any order; works normally","Inside-out; one person only"],
+ ["Top-down and outside-in, never simultaneously above and below or inside and outside; is closed to personnel","Bottom-up and inside-out, never simultaneously above and below or inside and outside; works normally","Top-down and outside-in, allowing simultaneous work above and below or inside and outside; admits one person","Outside-in and bottom-up, never simultaneously left and right; is entered only by a designated watchkeeper"],
  "Articles 32–44."),
 
 (SH,"第48條",3,"船舶清艙-安全作業主任",
  "清艙安全作業主任應具何資格？解體安全作業主任？船上解體安全作業主任應督導每幾小時測定油艙機艙可燃性氣體一次？",
- ["高中以上畢業且曾任油輪二副以上三年或從事油輪解體三年以上；國中以上畢業且從事船舶解體三年以上；每兩小時","大學畢業；大學畢業；每日","不限；不限；每週","船長；技師；每四小時"],"a",
+ ["高中以上畢業且曾任油輪二副以上三年或從事油輪解體三年以上；國中以上畢業且從事船舶解體三年以上；每兩小時","高中以上畢業且曾任油輪三副以上一年或從事油輪解體一年以上；國中以上畢業且從事船舶解體一年以上；每四小時","大學以上畢業且曾任油輪船長五年或從事油輪清艙五年以上；高中以上畢業且從事船舶解體五年以上；每日一次","領有一等船副執業證書並曾任輪機長三年以上；領有技師證書且從事機械維修三年以上；每週一次"],"a",
  "第46條：應指派實際負責人為安全負責人綜理安全業務並報勞檢機構備查。第47條：依船數選任清艙或解體安全作業主任，解體應於船上及岸上分別設置。第48條：清艙安全作業主任高中以上畢業且曾任油輪二副以上三年以上或從事油輪解體三年以上，任務含督導設備、規劃安全作業計畫標準、決定作業順序週期、督導自動檢查、督導測定可燃性毒性氣體缺氧、作業前檢查、指揮作業、災害時措施。第49條：解體安全作業主任國中以上畢業從事解體三年以上，可燃性氣體超過爆炸下限百分之四應立即停工；船上主任同一時間只能負責一艘船不得他離、每日開工前檢查扶梯艙蓋開口防護氣體設備吊具氣體含量救災器材防護具、督導油輪油艙機器艙每兩小時測定可燃性氣體一次、限制穿釘鞋者登船。第50條：選任安全作業管理員。第51條：洗艙勞工每班三至四人。",
  "Tank cleaning safety supervisors must have, ship-breaking safety supervisors must have, and onboard breaking supervisors must have flammable gas measured every:",
- ["High school graduation plus 3 years as tanker second officer or above or 3 years in tanker breaking; junior high plus 3 years in ship breaking; 2 hours","University degrees; daily","No requirement; weekly","Captain; engineer; 4 hours"],
+ ["High school graduation plus 3 years as tanker second officer or above or 3 years in tanker breaking; junior high plus 3 years in ship breaking; 2 hours","High school graduation plus 1 year as tanker third officer or above or 1 year in tanker breaking; junior high plus 1 year in ship breaking; 4 hours","A university degree plus 5 years as a tanker captain or 5 years in tanker cleaning; high school plus 5 years in ship breaking; once daily","A first-class mate's licence plus 3 years as chief engineer; an engineer certificate plus 3 years of machinery maintenance; once weekly"],
  "Articles 46–51."),
 ]

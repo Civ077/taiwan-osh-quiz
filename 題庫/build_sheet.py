@@ -5,7 +5,9 @@
    tsv/Questions_batchN.tsv（各批新增列，貼進 Google Sheet 用）
 用法：python build_sheet.py            # 全部批次
 """
-import re, json, sys, os, importlib, random, glob, re
+import re
+import json, sys, os, importlib, random, glob, re
+from pathlib import Path as _Path
 from collections import Counter
 from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment
@@ -94,7 +96,10 @@ BATCHES = {
  5: ["batch5_a", "batch5_b", "batch5_c", "batch5_d"],
  6: ["batch6_a", "batch6_b", "batch6_c", "batch6_d", "batch6_e"],
  7: ["batch7_a", "batch7_b", "batch7_c", "batch7_d", "batch7_e", "batch7_f", "batch7_g"],
- 8: ["batch8_a", "batch8_b"],
+ 8: ["batch8_a", "batch8_b", "batch8_c", "batch8_d"],
+ 9: sorted(_p.stem for _p in _Path(__file__).parent.glob("batch9_*.py")),
+ 10: sorted(_p.stem for _p in _Path(__file__).parent.glob("batch10_*.py")),
+ 11: sorted(_p.stem for _p in _Path(__file__).parent.glob("batch11_*.py")),
 }
 
 # ---------- Laws 主檔（沿用批次 1 清單，另加 OSH-36 營造標準） ----------
@@ -349,7 +354,7 @@ def load_questions():
                 if diff not in (1,2,3): errs.append(f"#{n} 難度非1-3")
                 if lid not in LAWS: errs.append(f"#{n} law_id 未知：{lid}")
                 if len(set(oz))<4 or len(set(oe))<4: errs.append(f"#{n} 選項重複：{qz[:20]}")
-                key = qz.strip()
+                key = (lid, qz.strip())   # 同題幹可跨法規出現（如固定式/移動式起重機同條文）
                 if key in seen: errs.append(f"#{n} 題目重複：{qz[:30]}")
                 seen.add(key)
                 qid = f"Q{n:04d}"
@@ -382,6 +387,9 @@ CHANGELOG = [
  ["2026-09-03","OSH-36","民國115年6月30日","建立批次2：營造安全衛生設施標準（第11條之2 自 116/7/1 施行）；Laws 分頁新增 OSH-36","batch=2 之 OSH-36","初版 draft，待審","Claude Code"],
  ["2026-09-03","OSH-13","民國111年5月11日","建立批次2：機械設備器具安全標準；Laws 分頁 OSH-13 來源網址修正為 N0060034","batch=2 之 OSH-13","初版 draft，待審","Claude Code"],
  ["2026-09-03","ENV-26..97","見各題 law_version","建立批次8：環保子法（空污專責人員、固定污染源排放標準、空品標準、室內空品、噪音細則、環境音量標準、水污細則、廢水專責人員、廢清細則、有害事業廢棄物認定、清除處理機構、環評細則、毒化物子法、土污標準、氣候法子法、環教子法…）","batch=8","初版 draft，待審","Claude Code"],
+ ["2026-09-03","ENV-29..97, OSH-05/06","見各題 law_version","建立批次9：環保子法逐條出題（空污許可證/空污費/VOC/鍋爐/噪音/水體/飲用水/清除處理/回收再利用/環評認定/毒化物/環境用藥/土水監測/減量交易/碳足跡/環教人員/環檢機構等）＋職災勞工保護法","batch=9","初版 draft，待審","Claude Code"],
+ ["2026-09-03","ENV-01..25","見各題 law_version","建立批次10：環保母法逐條出題（空污法/噪音法/水污法/廢清法/環評法/海污法/海岸法/海洋保育法/野保法/濕地法/土污法/毒化法/環境基本法/氣候法/環教法/資源循環推動法/公害糾紛法等）","batch=10","初版 draft，待審","Claude Code"],
+ ["2026-09-03","OSH-01..90","見各題 law_version","建立批次11：職安法規逐條補題（每一條文至少一題）","batch=11","初版 draft，待審","Claude Code"],
  ["2026-09-03","OSH-51..96, ENV-26..97","見各題 law_version","建立批次7：依全國法規資料庫「職業安全衛生目／勞動檢查目／環境部各目」總表補齊：新增 46 部職安法規、72 部環保子法（原文已抓齊）；批次7 起建立題目（霸凌準則、工程安全設計、容許暴露、環測、危險性機械設備檢查、化學品三辦法、機械產品申報登錄／型式驗證、健康服務機構、職業病鑑定、職災補助…）","batch=7","初版 draft，待審","Claude Code"],
  ["2026-09-03","OSH-39,40,42,43,44,45,46,47,48,49,50","見各題 law_version","建立批次6：鉛、四烷基鉛、有機溶劑、特定化學物質、粉塵、化學品評估分級、鍋爐壓力容器、起重升降機具、碼頭裝卸、勞動基準法及施行細則（使用者 2026-09-03 增列之職安範圍）","batch=6","初版 draft，待審","Claude Code"],
  ["2026-09-03","OSH-03,04,35,22,20,21,16,17,23,25,29,31,30,19,27,26,33,28","見各題 law_version","建立批次5：勞動檢查法系（含施行細則、立即危險認定標準、違反案件處理要點、重大災害通報要點、優良單位選拔要點）、勞工職業災害保險及保護法、母性健康保護、妊娠及未滿十八歲禁止工作認定標準、女性夜間、精密、重體力、工業用機器人、顧問機構、文化獎勵、績效評核、健檢醫療機構認可、檢驗機構要點；Laws 分頁全部 61 部法規版本日期改由條文檔自動帶入","batch=5","初版 draft，待審","Claude Code"],

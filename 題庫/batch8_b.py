@@ -5,34 +5,34 @@ Q = [
 # ---------- 室內空氣品質管理法（100/11/23） ----------
 (IA,"第3條",2,"室內空品-污染物",
  "室內空氣品質管理法所稱室內空氣污染物包括哪些？",
- ["二氧化碳、一氧化碳、甲醛、總揮發性有機化合物、細菌、真菌、PM10、PM2.5、臭氧及其他指定公告物質","僅二氧化碳","僅甲醛及 PM2.5","僅細菌真菌"],"a",
+ ["二氧化碳、一氧化碳、甲醛、總揮發性有機化合物、細菌、真菌、PM10、PM2.5、臭氧及其他指定公告物質","二氧化碳、二氧化硫、鉛、總揮發性有機化合物、病毒、塵蟎、PM10、PM2.5、氡氣及其他指定公告物質","一氧化碳、甲醛、氨氣、多環芳香烴化合物、石綿纖維、花粉、PM1、PM10、二氧化氮及其他公告物質","二氧化碳、一氧化碳、甲醛、總揮發性有機化合物、細菌、真菌、噪音、溫度、濕度及照度等物理因子"],"a",
  "第3條：室內指供公眾使用建築物之密閉或半密閉空間及大眾運輸工具搭乘空間；室內空氣污染物指室內空氣中常態逸散經長期暴露足以妨害健康之物質，包括二氧化碳、一氧化碳、甲醛、總揮發性有機化合物、細菌、真菌、PM10、PM2.5、臭氧及其他指定公告物質；室內空氣品質指污染物濃度及空氣中之溼度及溫度。第4條：建築主管機關管通風設施裝修建材、經濟主管機關管建材逸散及空氣清淨機國家標準、衛生主管機關管傳染病原醫療空調菸害、交通主管機關管大眾運輸空調通風。",
  "Indoor air pollutants under the Indoor Air Quality Management Act include:",
- ["CO₂, CO, formaldehyde, TVOC, bacteria, fungi, PM10, PM2.5, ozone and other designated substances","CO₂ only","Formaldehyde and PM2.5 only","Bacteria and fungi only"],
+ ["CO₂, CO, formaldehyde, TVOC, bacteria, fungi, PM10, PM2.5, ozone and other designated substances","CO₂, SO₂, lead, TVOC, viruses, dust mites, PM10, PM2.5, radon and other designated substances","CO, formaldehyde, ammonia, PAHs, asbestos fibers, pollen, PM1, PM10, NO₂ and other designated substances","CO₂, CO, formaldehyde, TVOC, bacteria, fungi, noise, temperature, humidity and illuminance as physical factors"],
  "Articles 3–4."),
 
 (IA,"第6條",2,"室內空品-公告場所",
  "下列何者屬室內空氣品質管理法得經公告之公私場所？",
- ["高中以下學校、大專圖書館博物館、醫療及社福機構、政府及企業辦公場所、大眾運輸車站、金融郵局電信營業場所、運動場所、電影院歌劇院、旅館商場餐飲店等","僅住宅","僅工廠","僅農場"],"a",
+ ["高中以下學校、大專圖書館博物館、醫療及社福機構、政府及企業辦公場所、大眾運輸車站、金融郵局電信營業場所、運動場所、電影院歌劇院、旅館商場餐飲店等","獨棟住宅及集合住宅、私人別墅、農舍、員工宿舍寢室、露營區、自用小客車、私人書房及書庫、私人健身房、屋頂加蓋空間、地下室儲藏室等","石化工廠廠房、鋼鐵冶煉車間、紡織染整廠、水泥拌合場、露天採石場、廢棄物焚化爐、污水處理廠、鍋爐房、倉儲區及油品儲槽區等","農場畜舍、溫室栽培區、養殖魚塭、堆肥場、農產品集貨場、屠宰場、飼料加工廠、農機具存放棚、田間臨時工作站及灌溉抽水站等"],"a",
  "第6條：經中央主管機關依公眾聚集量進出量污染物危害風險及特殊需求綜合考量逐批公告者：高中以下學校及兒少活動場所、大專圖書館博物館美術館補習班等、醫療護理醫事及社福機構、政府機關及公民營企業辦公場所、鐵路航空捷運客運搭乘空間及車站、金融機構郵局電信營業場所、體育運動健身場所、教室圖書室實驗室表演廳禮堂展覽室會議廳、歌劇院電影院視聽歌唱資訊休閒場所、旅館商場市場餐飲店、其他公共場所及大眾運輸工具。第7條：公告場所應符合室內空氣品質標準（不可歸責事由除外）。",
  "Which premises may be designated under the Indoor Air Quality Management Act?",
- ["Schools, libraries and museums, medical and welfare institutions, government and corporate offices, transit stations, banks and post offices, gyms, cinemas and theaters, hotels, malls and restaurants, etc.","Residences only","Factories only","Farms only"],
+ ["Schools, libraries and museums, medical and welfare institutions, government and corporate offices, transit stations, banks and post offices, gyms, cinemas and theaters, hotels, malls and restaurants, etc.","Detached and multi-unit residences, private villas, farmhouses, staff dormitories, campsites, private cars, home studies and book rooms, home gyms, rooftop extensions, basement storerooms, etc.","Petrochemical plant buildings, steel smelting shops, textile dyeing mills, cement batching yards, open quarries, waste incinerators, sewage treatment plants, boiler rooms, warehouses and tank farms, etc.","Farm animal sheds, greenhouse cultivation areas, aquaculture ponds, composting yards, produce collection stations, slaughterhouses, feed mills, machinery sheds, field work stations and irrigation pump houses"],
  "Articles 6–7."),
 
 (IA,"第8條",2,"室內空品-管理義務",
  "公告場所所有人管理人或使用人應辦理何事項？",
- ["訂定室內空氣品質維護管理計畫、置專責人員（經訓練取得合格證書）、委託檢驗測定機構定期檢測並公布及記錄、指定場所設自動監測設施即時公布","僅張貼禁菸標示","僅裝設空調","僅每年清潔一次"],"a",
+ ["訂定室內空氣品質維護管理計畫、置專責人員（經訓練取得合格證書）、委託檢驗測定機構定期檢測並公布及記錄、指定場所設自動監測設施即時公布","訂定室內空氣品質維護管理計畫、置專責人員（僅需具高中學歷）、自行以簡易儀器每年檢測一次並留存紀錄、指定場所設自動監測設施每年公布","訂定室內裝修施工計畫、置職業安全衛生管理員（經勞動部認可）、委託建築師定期檢查通風設施並公布、指定場所設消防偵煙設施即時公布","張貼禁菸標示及空氣品質告示牌、指定清潔人員（無須受訓）、每年委託空調廠商清洗風管一次並記錄、於場所入口設置溫濕度計"],"a",
  "第8條：應訂定室內空氣品質維護管理計畫據以執行，室內使用變更影響空品時應立即檢討修正。第9條：應置室內空氣品質維護管理專責人員，經訓練取得合格證書。第10條：應委託檢驗測定機構定期實施檢驗測定並定期公布結果作成紀錄；經指定之公告場所應設自動監測設施連續監測並即時公布於場所內或入口明顯處。第11條：檢驗測定機構應取得許可證。第12條：主管機關得派員現場檢查檢測查核紀錄，不得規避妨礙拒絕。",
  "Owners, managers or users of designated premises must:",
- ["Adopt an IAQ maintenance plan, appoint a certified dedicated person, commission periodic testing with published records, and install real-time monitors where designated","Post no-smoking signs only","Install air conditioning only","Clean once a year only"],
+ ["Adopt an IAQ maintenance plan, appoint a certified dedicated person, commission periodic testing with published records, and install real-time monitors where designated","Adopt an IAQ maintenance plan, appoint a dedicated person needing only a high school diploma, self-test annually with simple instruments, and publish monitor data yearly where designated","Adopt an interior renovation plan, appoint an occupational safety manager certified by the labor ministry, have architects inspect ventilation, and install smoke detectors where designated","Post no-smoking and air quality signs, designate untrained cleaning staff, have an HVAC contractor clean the ducts once a year with records, and put a thermo-hygrometer at the entrance"],
  "Articles 8–12."),
 
 (IA,"第15條",3,"室內空品-罰則",
  "公告場所不符合室內空氣品質標準經限期改善屆期未改善者，處新臺幣多少罰鍰？紀錄虛偽記載者？改善期間應如何標示？",
- ["五萬元以上二十五萬元以下；十萬元以上五十萬元以下；於場所入口明顯處標示室內空氣品質不合格","一萬元以上五萬元以下；五萬元；不需標示","十萬元以上五十萬元以下；一百萬元；張貼公告","五千元；一萬元；口頭告知"],"a",
+ ["五萬元以上二十五萬元以下；十萬元以上五十萬元以下；於場所入口明顯處標示室內空氣品質不合格","一萬元以上五萬元以下；五萬元以上二十五萬元以下；於場所入口明顯處標示室內空氣品質不合格","十萬元以上五十萬元以下；一百萬元以上五百萬元以下；於主管機關網站公告該場所名稱及地址","五千元以上二萬五千元以下；一萬元以上五萬元以下；由現場稽查人員口頭告知場所負責人即可"],"a",
  "第13條：紀錄虛偽記載處十萬元以上五十萬元以下罰鍰。第14條：規避妨礙拒絕檢查者處十萬元以上五十萬元以下並得按次處罰。第15條：不符標準經限期改善屆期未改善處五萬元以上二十五萬元以下並再命限期改善，仍未改善按次處罰，情節重大得限制禁止使用或命停業；改善期間應於入口明顯處標示室內空氣品質不合格，未標示且繼續使用處五千元以上二萬五千元以下。第17條：未訂計畫或未置專責人員屆期未改善處一萬元以上五萬元以下。第18條：未定期檢測公布等屆期未改善處五千元以上二萬五千元以下。第20條：改善期間以九十日為限，得申請延長最長不超過六個月。第21條：情節重大指一年內二次處罰仍違反或嚴重惡化未採緊急應變致嚴重危害公眾健康之虞。",
  "Designated premises failing IAQ standards after a correction deadline are fined, false records are fined, and during correction the premises must:",
- ["NT$50,000–250,000; NT$100,000–500,000; post an 'IAQ non-compliant' notice at the entrance","NT$10,000–50,000; NT$50,000; no notice","NT$100,000–500,000; NT$1 million; post an announcement","NT$5,000; NT$10,000; verbal notice"],
+ ["NT$50,000–250,000; NT$100,000–500,000; post an 'IAQ non-compliant' notice at the entrance","NT$10,000–50,000; NT$50,000–250,000; post an 'IAQ non-compliant' notice at the entrance","NT$100,000–500,000; NT$1,000,000–5,000,000; publish the premises' name and address on the authority's website","NT$5,000–25,000; NT$10,000–50,000; a verbal notice from the on-site inspector to the person in charge"],
  "Articles 13–21."),
 
 # ---------- 室內空氣品質標準（101/11/23） ----------
@@ -55,10 +55,10 @@ Q = [
 # ---------- 噪音管制法施行細則（99/3/11） ----------
 (NR,"第3條",3,"噪音細則-監測點",
  "直轄市第二類及第三類噪音管制區內應各指定幾個以上環境及交通噪音監測點？環境噪音監測點於寬度八公尺以上道路應距道路邊緣幾公尺以上？每一監測點每季應進行幾次以上二十四小時連續測定？",
- ["四個以上；三十公尺；二次","一個；十公尺；一次","二個；五十公尺；四次","八個；一百公尺；一次"],"a",
+ ["四個以上；三十公尺；二次","一個以上；十公尺；一次","二個以上；五十公尺；四次","八個以上；一百公尺；一次"],"a",
  "第2條：管制標準以最高容許音量為準，單位分貝；機動車輛指道路上不依軌道或電力架設以原動機行駛之車輛。第3條：直轄市第一類及第四類管制區各指定二以上（縣市各一以上）、第二類及第三類各四以上（縣市各二以上）環境及交通噪音監測點；環境噪音監測點於寬度八公尺以上道路距道路邊緣三十公尺以上、六公尺以上未滿八公尺者十五公尺以上，高度離地一點二至一點五公尺；交通噪音監測點距建物牆面一公尺以上；每一監測點每季二次以上二十四小時連續測定；數量位置報中央主管機關備查。",
  "Municipal Class 2 and 3 noise control zones need at least how many environmental and traffic noise monitoring points each, environmental points must be at least how far from roads 8 m or wider, and each point is measured continuously for 24 hours how often?",
- ["4 or more; 30 m; twice per quarter","1; 10 m; once","2; 50 m; four times","8; 100 m; once"],
+ ["4 or more; 30 m; twice per quarter","1 or more; 10 m; once per quarter","2 or more; 50 m; four times per quarter","8 or more; 100 m; once per year"],
  "Articles 2–3."),
 
 (NR,"第7條",3,"噪音細則-改善計畫",
@@ -71,10 +71,10 @@ Q = [
 
 (NR,"第12條",3,"噪音細則-室內航空噪音",
  "室內航空噪音日夜音量之測定，噪音計應設定為何種加權？動特性？測定地點？",
- ["A 加權；慢特性（SLOW）；建築物外牆面內緣向內一公尺處門窗密閉具代表性地點，高度一點二至一點五公尺","C 加權；快特性；屋頂","Z 加權；脈衝；室外","A 加權；快特性；窗外"],"a",
+ ["A 加權；慢特性（SLOW）；建築物外牆面內緣向內一公尺處門窗密閉具代表性地點，高度一點二至一點五公尺","C 加權；快特性（FAST）；建築物屋頂平台中央開闊且無遮蔽之地點，高度離屋頂面三公尺至五公尺","Z 加權；脈衝特性（IMPULSE）；建築物外牆面向外一公尺處之室外空曠地點，高度離地面二公尺","A 加權；快特性（FAST）；建築物窗外一點五公尺處門窗開啟之地點，高度一點五至二公尺"],"a",
  "第12條：依美國聯邦飛航規則第一百五十號規定，噪音計設定 A 加權，連續蒐集二十四小時航空噪音日夜音量，使用 IEC Class 1 噪音計頻帶 20Hz 至 20kHz，動特性慢特性，測定地點為建築物外牆面內緣向內一公尺處門窗密閉具代表性之地點，高度離地面或樓板一點二至一點五公尺。第13條：進入公私場所檢查或鑑定噪音之人員應經訓練合格領有證書。",
  "Indoor aircraft day-night noise level measurements use which weighting, time response, and location?",
- ["A-weighting; slow response; 1 m inside the exterior wall at a representative closed-window spot, 1.2–1.5 m high","C-weighting; fast; rooftop","Z-weighting; impulse; outdoors","A-weighting; fast; outside the window"],
+ ["A-weighting; slow response; 1 m inside the exterior wall at a representative closed-window spot, 1.2–1.5 m high","C-weighting; fast response; the open unobstructed center of the building's rooftop platform, 3–5 m above the roof","Z-weighting; impulse response; 1 m outside the exterior wall in an open outdoor spot, 2 m above the ground","A-weighting; fast response; 1.5 m outside the window with the windows open, 1.5–2 m above the floor"],
  "Articles 12–13."),
 
 (NR,"第14條",3,"噪音細則-按日連續處罰",
@@ -88,18 +88,18 @@ Q = [
 # ---------- 環境音量標準（99/1/21） ----------
 (NS,"第2條",3,"環境音量-時段",
  "環境音量標準所定第一、二類管制區之日間晚間夜間時段各為何？第三、四類管制區？",
- ["日間上午六時至晚上八時、晚間八時至十時、夜間十時至翌日六時；日間七時至晚上八時、晚間八時至十一時、夜間十一時至翌日七時","均為六時至十八時、十八時至二十二時、二十二時至六時","均為八時至十七時、十七時至二十時、二十時至八時","均為七時至十九時、十九時至二十三時、二十三時至七時"],"a",
+ ["日間上午六時至晚上八時、晚間八時至十時、夜間十時至翌日六時；日間七時至晚上八時、晚間八時至十一時、夜間十一時至翌日七時","日間上午六時至晚上八時、晚間八時至十一時、夜間十一時至翌日六時；日間七時至晚上八時、晚間八時至十時、夜間十時至翌日七時","日間上午六時至下午六時、晚間六時至十時、夜間十時至翌日六時；日間六時至下午六時、晚間六時至十時、夜間十時至翌日六時","日間上午八時至下午五時、晚間五時至八時、夜間八時至翌日八時；日間七時至晚上七時、晚間七時至十一時、夜間十一時至翌日七時"],"a",
  "第2條：管制區指噪音管制區劃定作業準則之第一類至第四類；道路邊地區指距寬度八公尺以上道路邊緣三十公尺以內或未滿八公尺道路邊緣十五公尺以內；日間第一二類管制區為上午六時至晚上八時、第三四類為上午七時至晚上八時；晚間第一二類晚上八時至十時、第三四類晚上八時至十一時；夜間第一二類晚上十時至翌日六時、第三四類晚上十一時至翌日七時；音量單位 dB(A)；均能音量 Leq 為特定時段環境音量之能量平均值；航空噪音日夜音量 DNL 夜間（晚上十時至翌日七時）加權十分貝。",
  "Under the Environmental Noise Standards, day/evening/night periods for Class 1–2 zones are, and for Class 3–4 zones:",
- ["6 a.m.–8 p.m., 8–10 p.m., 10 p.m.–6 a.m.; 7 a.m.–8 p.m., 8–11 p.m., 11 p.m.–7 a.m.","6–18, 18–22, 22–6 for all","8–17, 17–20, 20–8 for all","7–19, 19–23, 23–7 for all"],
+ ["6 a.m.–8 p.m., 8–10 p.m., 10 p.m.–6 a.m.; 7 a.m.–8 p.m., 8–11 p.m., 11 p.m.–7 a.m.","6 a.m.–8 p.m., 8–11 p.m., 11 p.m.–6 a.m.; 7 a.m.–8 p.m., 8–10 p.m., 10 p.m.–7 a.m.","6 a.m.–6 p.m., 6–10 p.m., 10 p.m.–6 a.m.; 6 a.m.–6 p.m., 6–10 p.m., 10 p.m.–6 a.m.","8 a.m.–5 p.m., 5–8 p.m., 8 p.m.–8 a.m.; 7 a.m.–7 p.m., 7–11 p.m., 11 p.m.–7 a.m."],
  "Article 2."),
 
 (NS,"第3條",3,"環境音量-測定",
  "道路交通環境音量測定應使用何種噪音計？測定高度？動特性？氣象條件？",
- ["CNS 7129 一型或 IEC 61672-1 Class 1；離地一點二至一點五公尺；快特性；無雨路乾且風速每秒五公尺以下","任何噪音計；一公尺；慢特性；不限","Class 2；三公尺；脈衝；風速十公尺以下","手機 App；地面；快特性；雨天亦可"],"a",
+ ["CNS 7129 一型或 IEC 61672-1 Class 1；離地一點二至一點五公尺；快特性；無雨路乾且風速每秒五公尺以下","CNS 7129 二型或 IEC 61672-1 Class 2；離地三公尺至五公尺；慢特性；無雨路乾且風速每秒十公尺以下","CNS 7129 一型或 IEC 61672-1 Class 1；離地零點五至一公尺；脈衝特性；雨天亦可測定且風速不予限制","符合國家標準之簡易噪音計或手機應用程式；置於地面量測；快特性；無風無雨且氣溫二十五度以下"],"a",
  "第3條：使用 CNS 7129 一型或 IEC 61672-1 Class 1 噪音計；道路測定高度離地面樓板一點二至一點五公尺，航空固定式監測至少三公尺；道路測定地點於陳情人居住地點室外距建築物一至二公尺或室內開窗距窗一點五公尺，道路邊地區距道路邊緣一公尺（有建築物者距牆面一公尺以上）；航空測點周圍三點五公尺無遮蔽反射物且單一事件最大音量與背景至少相差十分貝；動特性道路快特性航空慢特性；道路二十四小時連續測定，航空固定站全年、非固定站連續十日以上；氣象道路無雨路乾風速每秒五公尺以下、航空風速每秒十公尺以下；紀錄應含日期時間地點座標人員儀器校正結果氣象適用標準；附近有明顯噪音源應停止另尋地點。",
  "Road traffic environmental noise is measured with which meter, at what height, with what time response, and under what weather?",
- ["CNS 7129 Type 1 or IEC 61672-1 Class 1; 1.2–1.5 m above ground; fast response; no rain, dry road and wind at most 5 m/s","Any meter; 1 m; slow; any","Class 2; 3 m; impulse; wind under 10 m/s","Phone app; ground level; fast; rain allowed"],
+ ["CNS 7129 Type 1 or IEC 61672-1 Class 1; 1.2–1.5 m above ground; fast response; no rain, dry road and wind at most 5 m/s","CNS 7129 Type 2 or IEC 61672-1 Class 2; 3–5 m above ground; slow response; no rain, dry road and wind at most 10 m/s","CNS 7129 Type 1 or IEC 61672-1 Class 1; 0.5–1 m above ground; impulse response; rain permitted and no wind speed limit","Any simple meter meeting national standards or a phone app; placed on the ground; fast response; no wind or rain and below 25°C"],
  "Article 3."),
 
 (NS,"第4條",3,"環境音量-道路標準",
@@ -113,10 +113,10 @@ Q = [
 # ---------- 水污染防治法施行細則（107/12/21） ----------
 (WR,"第8條",3,"水污細則-繞流排放",
  "水污染防治法第18條之1所定「繞流排放」包括下列何種情形？",
- ["由未經核准登記之放流口排放、未經核准之收集處理流程排放且污染物濃度達放流水標準五倍以上或 pH 小於二或大於十一、自共同排放管線採樣口排放、貯留許可者排放水質異常、其他意圖逃避稽查之繞開情形","僅暴雨溢流","僅冷卻水排放","僅雨水排放"],"a",
+ ["由未經核准登記之放流口排放、未經核准之收集處理流程排放且污染物濃度達放流水標準五倍以上或 pH 小於二或大於十一、自共同排放管線採樣口排放、貯留許可者排放水質異常、其他意圖逃避稽查之繞開情形","由經核准登記之放流口排放、經核准之收集處理流程排放且污染物濃度達放流水標準二倍以上或 pH 小於四或大於九、自專用排放管線出水口排放、貯留許可者排放水質正常、其他經主管機關同意之排放情形","因暴雨致雨水下水道溢流排放、因停電致處理設施暫停而由緊急貯留池排放、廠區屋頂雨水逕流排入雨水下水道、消防演練用水排放、其他非人為故意之天然因素排放情形","未接觸冷卻水由核准放流口排放、經核准之土壤處理場灌溉排放、回收再利用之製程用水循環使用、經審查同意之整治用水回注、其他已依法申報登記之排放情形"],"a",
  "第8條：以專管渠道閥門或泵浦使廢污水由未經核准登記之放流口排放或未依核准排放口排入下水道（僅排放未接觸冷卻水者除外）；未經核准登記之收集處理單元流程而由核准放流口排放且污染物濃度為放流水標準限值五倍以上（pH 大腸桿菌群水溫除外）或 pH 小於二或大於十一；自共同排放管線採樣口排放；取得貯留許可者排放水質有前述情形；其他經認定意圖逃避稽查之繞開情形。第13條之1：輸送或貯存設備指收集貯存處理排放之單元桶槽泵浦閥門管線溝渠及輸送貯存原料產品油品藥劑廢棄物之設備，疏漏包含溢流滲漏洩漏。",
  "'Bypass discharge' under Article 18-1 of the Water Pollution Control Act includes:",
- ["Discharge through unapproved outlets, discharge bypassing approved treatment with pollutants at 5× effluent limits or pH below 2 or above 11, discharge from sampling ports on shared pipelines, abnormal discharge under storage permits, and other evasion of inspection","Storm overflow only","Cooling water only","Rainwater only"],
+ ["Discharge through unapproved outlets, discharge bypassing approved treatment with pollutants at 5× effluent limits or pH below 2 or above 11, discharge from sampling ports on shared pipelines, abnormal discharge under storage permits, and other evasion of inspection","Discharge through approved outlets, discharge through approved treatment with pollutants at 2× effluent limits or pH below 4 or above 9, discharge from outlets on dedicated pipelines, normal discharge under storage permits, and other discharges approved by the authority","Storm overflow from rainwater sewers, discharge from emergency storage ponds when a power failure halts treatment, rooftop rainwater runoff into storm drains, fire drill water discharge, and other discharges from natural causes","Discharge of non-contact cooling water through approved outlets, irrigation discharge at approved soil treatment sites, reuse of recycled process water, approved remediation water reinjection, and other lawfully registered discharges"],
  "Articles 8 and 13-1."),
 
 (WR,"第9條",3,"水污細則-處理設施功能",
@@ -137,9 +137,9 @@ Q = [
 
 (WR,"第15條",3,"水污細則-刑事告發",
  "事業故意將含有害健康物質之廢污水排放於土壤或地面水體超出管制標準，或故意注入地下水體者，主管機關應如何？所稱「注入地下水體」指？",
- ["有犯罪嫌疑者應向檢察官告發；利用鑿井注入管線或加壓設施將廢污水灌注至地下水體","僅罰鍰；自然滲漏","僅警告；下雨滲入","不處理；澆灌農地"],"a",
+ ["有犯罪嫌疑者應向檢察官告發；利用鑿井注入管線或加壓設施將廢污水灌注至地下水體","有犯罪嫌疑者應逕行處以罰鍰；利用鑿井注入管線或加壓設施將廢污水灌注至地下水體","情節輕微者應予以書面警告；廢污水因設施破損自然滲漏而流入地下含水層之情形","得不予處理逕行結案；降雨後地表積水挾帶污染物滲入地下水體或用於澆灌農地"],"a",
  "第15條：事業故意將含有害健康物質廢污水排放於土壤或地面水體超出管制標準或故意注入地下水體而有犯罪嫌疑者應向檢察官告發；故意指明知並有意使其發生或預見發生不違背本意。第16條：注入地下水體指利用鑿井注入管線或加壓設施將廢污水灌注至地下水體；經審查同意之土壤地下水整治產生之水注入者不屬之。第17條：排放於土壤指以管線溝渠桶裝槽車等排入逸散流布於土壤（農業再利用、沼液沼渣肥分、土壤處理許可、不透水布隔離、非常態短時間疏漏除外）。第18條：排放於地面水體指大量排放嚴重影響水質、處理設施功能不足、故障未通報、未遵行停工繼續排放。第22條：一年內指自違反之日起往前回溯至第三百六十五日。第23條：檢舉獎金為實收罰鍰百分之二十。",
  "When an enterprise intentionally discharges wastewater containing health-harmful substances above limits to soil or surface water, or injects it into groundwater, the authority must, and 'injection into groundwater' means:",
- ["Report suspected offenses to the prosecutor; pumping wastewater underground via wells, injection pipes or pressure equipment","Fine only; natural seepage","Warn only; rain infiltration","No action; farmland irrigation"],
+ ["Report suspected offenses to the prosecutor; pumping wastewater underground via wells, injection pipes or pressure equipment","Impose an administrative fine directly; pumping wastewater underground via wells, injection pipes or pressure equipment","Issue a written warning for minor cases; wastewater seeping naturally into the aquifer through damaged facilities","Close the case without action; rainwater carrying pollutants soaking into groundwater or used to irrigate farmland"],
  "Articles 15–23."),
 ]
