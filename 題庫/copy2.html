@@ -1,4 +1,0 @@
-<!doctype html><meta charset="utf-8"><title>copy2</title><body style="font:16px sans-serif;padding:20px"><div id="s">loading…</div><div id="btns"></div>
-<script>fetch('_pieces.json').then(r=>r.json()).then(d=>{document.getElementById('s').textContent='ready: '+Object.keys(d).map(k=>k+'='+d[k].length).join(', ');
-for(const k of Object.keys(d)){const b=document.createElement('button');b.id='copy_'+k;b.textContent='COPY '+k;b.style.cssText='display:block;margin:10px 0;padding:14px 30px;font-size:20px';
-b.onclick=async()=>{try{await navigator.clipboard.writeText(d[k]);document.getElementById('s').textContent='copied '+k+' ('+d[k].length+' chars)';}catch(e){document.getElementById('s').textContent='ERR '+e;}};document.getElementById('btns').appendChild(b);}});</script>
