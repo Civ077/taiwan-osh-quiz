@@ -4,6 +4,7 @@
   python push_to_sheet.py ping                 # 應回 {"ok":true,"version":3,...}
   python push_to_sheet.py questions 4          # 把 tsv/Questions_batch4.tsv 接在 Questions 最後（id 重複會跳過）
   python push_to_sheet.py changelog 4          # 把 Changelog 中「建立批次4」那列接在最後
+  python push_to_sheet.py laws-all             # 用 tsv/Laws.tsv 覆寫 Laws!A2:I62 全部欄位（依 Sheet 順序）
   python push_to_sheet.py laws                 # 用 tsv/Laws.tsv 的 law_version+source_url 覆寫 Laws!F2:G62（依 Sheet 順序）
   python push_to_sheet.py sync                 # 整批同步：用本地 tsv/Questions.tsv 覆寫 Questions!A2 起的 A–U 欄（題目內容），
                                                #   不動 V–Y 欄（status/batch/reviewer/review_note）；新題的 status/batch 只在空白時補上
@@ -69,6 +70,9 @@ def main(a):
         order = laws_in_sheet_order()
         tsv = NL.join(l[5] + TAB + l[6] for l in order)
         print(post({"token": token(), "sheet": "Laws", "mode": "range", "startCell": "F2", "tsv": tsv}))
+    elif cmd == "laws-all":
+        order = laws_in_sheet_order()
+        print(post({"token": token(), "sheet": "Laws", "mode": "range", "startCell": "A2", "tsv": NL.join(TAB.join(l) for l in order)}))
     elif cmd == "sync":
         rows = [r.split(TAB) for r in read("tsv/Questions.tsv")]
         if rows and rows[0][0] == "id":

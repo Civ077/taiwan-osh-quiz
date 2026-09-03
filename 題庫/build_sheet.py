@@ -75,7 +75,7 @@ OSH_LAWS = [
  ("違反職業安全衛生法及勞動檢查法案件處理要點","Directions for Handling Violations of the OSH Act and Labor Inspection Act","",1),
  ("勞動部重大災害通報及檢查處理要點","MOL Directions for Major Accident Notification and Inspection","",1),
  ("職業安全衛生顧問服務機構與其顧問服務人員之認可及管理規則","Rules for Accreditation and Management of OSH Consulting Institutions","N0060054",0),
- ("政府機關推動職業安全衛生業務績效評核及獎勵作業要點","Directions for Performance Evaluation of Government OSH Promotion","",0),
+ ("政府機關推動職業安全衛生業務績效評核及獎勵辦法","Regulations for Performance Evaluation and Rewards of Government OSH Promotion","N0060061",0),
  ("促進職業安全衛生文化獎勵及補助辦法","Regulations for Rewards and Subsidies to Promote OSH Culture","N0060055",0),
  ("製程安全評估定期實施辦法","Regulations for Periodic Process Safety Assessment","N0060050",1),
  ("勞工體格與健康檢查特定檢查項目檢驗機構指定及管理作業要點","Directions for Designation of Laboratories for Specific Health Examination Items","",0),
@@ -107,7 +107,7 @@ ENV_LAWS = [
  ("環境基本法","Basic Environment Act","O0100001",1,3),
  ("氣候變遷因應法","Climate Change Response Act","O0020098",1,3),
  ("環境教育法","Environmental Education Act","O0120001",1,3),
- ("資源循環利用法","Resource Recycling Act","O0050049",1,3),
+ ("資源循環推動法","Resource Circulation Promotion Act","O0050049",1,3),
  ("公害糾紛處理法","Public Nuisance Dispute Mediation Act","O0100002",1,3),
 ]
 
@@ -117,17 +117,31 @@ try:
 except Exception:
     pass
 
+def law_url(code):
+    if not code: return "（尚無法規資料庫代碼）"
+    if code.startswith("mol:"): return "https://laws.mol.gov.tw/FLAW/FLAWDAT01.aspx?id=" + code[4:]
+    if code.startswith("moi:"): return "https://glrs.moi.gov.tw/LawContent.aspx?id=" + code[4:]
+    if code.startswith("isha:"): return "http://law.isha.org.tw/ISHA_LAW/Pages/LawList.aspx?Lawid=" + code[5:]
+    return f"https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode={code}"
+
+def law_version_from_text(zh):
+    """從 法規原文/<名稱>.txt 第一行讀修正日期 → 民國115年6月26日"""
+    f = os.path.join(os.path.dirname(HERE), "法規原文", zh + ".txt")
+    if not os.path.exists(f): return ""
+    m = re.search(r"修正日期：民國\s*(\d+)\s*年\s*(\d+)\s*月\s*(\d+)\s*日", open(f, encoding="utf-8").readline())
+    if m: return f"民國{int(m.group(1))}年{int(m.group(2))}月{int(m.group(3))}日"
+    m = re.search(r"修正日期：民國\s*(\d+)\s*年\s*(\d+)\s*月", open(f, encoding="utf-8").readline())
+    return f"民國{int(m.group(1))}年{int(m.group(2))}月" if m else ""
+
 def build_laws():
     rows = [["law_id","group","tier","name_zh","name_en","law_version","source_url","weight","note"]]
     for i,(zh,en,pcode,w) in enumerate(OSH_LAWS, start=1):
-        lid = f"OSH-{i:02d}"; pcode = PCODES.get(zh) or ""
-        url = f"https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode={pcode}" if pcode else "https://law.isha.org.tw/ISHA_LAW/"
+        lid = f"OSH-{i:02d}"; code = PCODES.get(zh) or ""
         tier = 1 if (1<=i<=17 or i in (34,35,36)) else (2 if i<=25 else 3)
-        rows.append([lid,"OSH",tier,zh,en,LAW_VER.get(lid,""),url,w,""])
+        rows.append([lid,"OSH",tier,zh,en,LAW_VER.get(lid) or law_version_from_text(zh),law_url(code),w,""])
     for i,(zh,en,pcode,w,tier) in enumerate(ENV_LAWS, start=1):
-        lid = f"ENV-{i:02d}"; pcode = PCODES.get(zh) or ""
-        url = f"https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode={pcode}" if pcode else "（法規資料庫無此法規代碼：行政方案或尚未立法）"
-        rows.append([lid,"ENV",tier,zh,en,"",url,w,""])
+        lid = f"ENV-{i:02d}"; code = PCODES.get(zh) or ""
+        rows.append([lid,"ENV",tier,zh,en,law_version_from_text(zh),law_url(code),w,""])
     return rows
 
 # ---------- Questions ----------
