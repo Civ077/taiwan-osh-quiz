@@ -90,7 +90,7 @@ BATCHES = {
  3: ["batch3_a", "batch3_b", "batch3_c"],
  4: ["batch4_a", "batch4_b", "batch4_c", "batch4_d"],
  5: ["batch5_a", "batch5_b", "batch5_c", "batch5_d"],
- 6: ["batch6_a", "batch6_b", "batch6_c", "batch6_d"],
+ 6: ["batch6_a", "batch6_b", "batch6_c", "batch6_d", "batch6_e"],
 }
 
 # ---------- Laws 主檔（沿用批次 1 清單，另加 OSH-36 營造標準） ----------
