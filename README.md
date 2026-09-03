@@ -21,7 +21,7 @@
 | 項目 | 狀態 |
 |---|---|
 | 前端 | https://civ077.github.io/taiwan-osh-quiz/ （GitHub Pages，來源 `docs/`） |
-| 題庫 API | `gas/Code.gs`，部署步驟見 `gas/部署清單_照著做.md`；部署後把 `/exec` 網址填進 `docs/app.js` 的 `CFG.bankUrl` |
+| 題庫 API | 已部署 GAS v1：https://script.google.com/macros/s/AKfycbw8GLA29GyEC4hLyXCZoaRBrG3mgJl389Tye47b8XARo-2fKs3rY6Jbfcm6Uxe0ewDM/exec （`?ping=1` 測試、`?status=all` 含 draft）；程式在 `gas/Code.gs`，更新步驟見 `gas/部署清單_照著做.md` |
 | 對戰 / 記名排行 | 待 Firebase 專案建立 |
 
 ## 資料夾
