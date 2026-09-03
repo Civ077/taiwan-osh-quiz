@@ -5,7 +5,12 @@
 'use strict';
 
 const CFG = { questionsPerGame: 20, secondsPerQuestion: 15, baseScore: 500, speedBonusMax: 500,
-              streakStart: 3, streakBonus: 50, dailyQuestions: 10, useDraft: true };
+              streakStart: 3, streakBonus: 50, dailyQuestions: 10, useDraft: true,
+              // 題庫 API（GAS 網頁應用程式 /exec 網址；留空＝只用 repo 內的 data/questions.json）
+              bankUrl: '' };
+// Config 分頁 key → CFG 欄位
+const CFG_MAP = { questions_per_game: 'questionsPerGame', seconds_per_question: 'secondsPerQuestion', base_score: 'baseScore',
+                  speed_bonus_max: 'speedBonusMax', streak_start: 'streakStart', streak_bonus: 'streakBonus', daily_questions: 'dailyQuestions' };
 
 const I18N = {
   zh: { title:'台灣職安環保知識王', lead:'職業安全衛生 × 環保法規　限時搶答', solo:'單人闖關', soloDesc:'20 題・每題 15 秒・越快分越高',
@@ -49,16 +54,28 @@ const today = () => new Date().toLocaleDateString('sv-SE'); // YYYY-MM-DD 本地
 function show(id) { document.querySelectorAll('.screen').forEach(s => s.classList.remove('active')); $(id).classList.add('active'); window.scrollTo(0, 0); }
 
 /* ---------- 題庫 ---------- */
+/* 優先讀雲端（GAS），失敗或未設定就退回 repo 內的 JSON */
 async function loadBank() {
-  const r = await fetch('data/questions.json', { cache: 'no-cache' });
-  const j = await r.json();
+  let j = null, src = 'local';
+  const url = new URLSearchParams(location.search).get('bank') || CFG.bankUrl;
+  if (url) {
+    try {
+      const ctrl = new AbortController(); const tm = setTimeout(() => ctrl.abort(), 8000);
+      const r = await fetch(url + (url.includes('?') ? '&' : '?') + 'status=' + (CFG.useDraft ? 'all' : 'active'), { signal: ctrl.signal });
+      clearTimeout(tm);
+      if (r.ok) { j = await r.json(); src = 'cloud'; }
+    } catch (e) { console.warn('雲端題庫讀取失敗，改用本機：', e); }
+  }
+  if (!j) { const r = await fetch('data/questions.json', { cache: 'no-cache' }); j = await r.json(); }
+  if (j.config) Object.keys(CFG_MAP).forEach(k => { const v = Number(j.config[k]); if (k in j.config && !isNaN(v) && v > 0) CFG[CFG_MAP[k]] = v; });
   BANK = j.questions.filter(q => CFG.useDraft ? true : q.status === 'active');
-  renderBankInfo(j.generated);
+  renderBankInfo(String(j.generated || '').slice(0, 10), src);
 }
-function renderBankInfo(gen) {
+function renderBankInfo(gen, src) {
   const el = $('bankInfo'); if (!el) return;
-  el.dataset.gen = gen || el.dataset.gen || '';
-  el.textContent = `${t('bank')} ${BANK.length} ${lang === 'zh' ? '題' : 'questions'} · ${t('ver')} ${el.dataset.gen} ${CFG.useDraft ? t('draftNote') : ''}`;
+  el.dataset.gen = gen || el.dataset.gen || ''; el.dataset.src = src || el.dataset.src || '';
+  const srcLabel = el.dataset.src === 'cloud' ? (lang === 'zh' ? '雲端' : 'cloud') : (lang === 'zh' ? '本機' : 'local');
+  el.textContent = `${t('bank')} ${BANK.length} ${lang === 'zh' ? '題' : 'questions'} · ${srcLabel} · ${t('ver')} ${el.dataset.gen} ${CFG.useDraft ? t('draftNote') : ''}`;
 }
 
 /* ---------- 開局 ---------- */

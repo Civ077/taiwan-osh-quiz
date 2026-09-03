@@ -16,6 +16,14 @@
 | 雲端 | 題庫 Sheet：https://docs.google.com/spreadsheets/d/1FuC3O7A6pC0b42tiT2F7PxBUysW3IwutPxJquaa8shg/edit ；Drive 資料夾「台灣職安環保知識王」 |
 | 程式碼 | https://github.com/Civ077/taiwan-osh-quiz （public，main） |
 
+## 上線狀態
+
+| 項目 | 狀態 |
+|---|---|
+| 前端 | https://civ077.github.io/taiwan-osh-quiz/ （GitHub Pages，來源 `docs/`） |
+| 題庫 API | `gas/Code.gs`，部署步驟見 `gas/部署清單_照著做.md`；部署後把 `/exec` 網址填進 `docs/app.js` 的 `CFG.bankUrl` |
+| 對戰 / 記名排行 | 待 Firebase 專案建立 |
+
 ## 資料夾
 
 ```
