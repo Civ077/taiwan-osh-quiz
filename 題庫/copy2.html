@@ -1,7 +1,0 @@
-<!doctype html><meta charset="utf-8"><title>copy2</title><body style="font:20px sans-serif;padding:20px;height:100vh;margin:0"><div id="s">loading…</div><textarea id="ta" style="position:fixed;left:-9999px;top:0"></textarea>
-<script>const k=new URLSearchParams(location.search).get('k');let d=null;
-fetch('_pieces.json?'+Date.now()).then(r=>r.json()).then(j=>{d=j;document.getElementById('s').textContent='ready k='+k+' len='+(d[k]||'').length+' — click anywhere to copy';});
-function doCopy(){const st=document.getElementById('s');if(!d||!d[k]){st.textContent='no data for '+k;return;}const ta=document.getElementById('ta');ta.value=d[k];ta.focus();ta.select();let ok=false,err='';try{ok=document.execCommand('copy');}catch(e){err=String(e);}
-st.textContent=(ok?'copied(exec) ':'exec failed ')+k+' ('+d[k].length+' chars) '+err+' focus='+document.hasFocus();
-if(!ok&&navigator.clipboard){navigator.clipboard.writeText(d[k]).then(()=>st.textContent='copied(async) '+k+' ('+d[k].length+' chars)').catch(e=>st.textContent+=' async ERR '+e);}}
-document.addEventListener('click',doCopy);document.addEventListener('keydown',doCopy);</script>

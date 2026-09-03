@@ -9,3 +9,5 @@ gas/.token
 法規原文/附件/**/*.odt
 法規原文/附件/**/*.doc
 法規原文/附件/**/*.docx
+題庫/copy2.html
+題庫/_pieces.json
