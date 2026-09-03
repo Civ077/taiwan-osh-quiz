@@ -31,6 +31,12 @@ button{font:inherit;cursor:pointer}
 .board .empty{color:var(--muted);font-size:14px;margin:0}
 .foot{color:var(--muted);font-size:12px;text-align:center;margin-top:16px}
 
+.nav{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;min-height:34px}
+.navbtn{background:transparent;border:1px solid var(--line);border-radius:999px;padding:5px 14px;color:var(--navy);font-weight:600;font-size:14px}
+.navbtn:disabled{opacity:.35;cursor:default}
+.navbtn.accent{border-color:var(--blue);background:var(--sky)}
+.opt.picked{border-color:var(--blue);background:var(--sky)}
+.viewnote{margin:12px 0 0;color:var(--muted);font-size:14px;text-align:center}
 .hud{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:8px}
 .qno{color:var(--muted);font-weight:600}
 .score{font-size:26px;font-weight:800;color:var(--navy)}

@@ -10,13 +10,13 @@ const CFG = { questionsPerGame: 20, secondsPerQuestion: 15, baseScore: 500, spee
 const I18N = {
   zh: { title:'台灣職安環保知識王', lead:'職業安全衛生 × 環保法規　限時搶答', solo:'單人闖關', soloDesc:'20 題・每題 15 秒・越快分越高',
         daily:'每日挑戰', dailyDesc:'每天 10 題，全站同題', pvp:'連線對戰', pvpDesc:'即將推出（Firebase 建置中）', nick:'暱稱',
-        next:'下一題', finish:'看結果', resultTitle:'本局結果', pts:'分', again:'再來一局', home:'回首頁', review:'答題回顧',
+        prev:'上一題', backCur:'回到目前題目', viewing:'回看第 {n} 題（你的作答已標示，倒數暫停中）', noAns:'未作答', resultTitle:'本局結果', pts:'分', again:'再來一局', home:'回首頁', review:'答題回顧',
         correct:'答對！', wrong:'答錯', timeout:'時間到', ans:'正確答案', correctN:'答對', bestStreak:'最長連對', avgTime:'平均秒數',
         board:'本機排行榜', noBoard:'還沒有紀錄，先來一局！', diff:['','入門','進階','困難'], bank:'題庫', ver:'版本', draftNote:'（含待審 draft 題）',
         nickDefault:'玩家', dailyDone:'今天的每日挑戰已完成，明天再來！', bonus:'連對加成', timeLeft:'剩餘' },
   en: { title:'Taiwan OSH & Env Quiz', lead:'Occupational Safety × Environmental Law · Speed quiz', solo:'Solo Run', soloDesc:'20 questions · 15 s each · faster = more points',
         daily:'Daily Challenge', dailyDesc:'10 questions a day, same for everyone', pvp:'Online Battle', pvpDesc:'Coming soon (Firebase in progress)', nick:'Nickname',
-        next:'Next', finish:'Results', resultTitle:'Results', pts:'pts', again:'Play again', home:'Home', review:'Review',
+        prev:'Previous', backCur:'Back to current', viewing:'Viewing Q{n} (your answer marked; timer paused)', noAns:'No answer', resultTitle:'Results', pts:'pts', again:'Play again', home:'Home', review:'Review',
         correct:'Correct!', wrong:'Wrong', timeout:'Time up', ans:'Answer', correctN:'Correct', bestStreak:'Best streak', avgTime:'Avg seconds',
         board:'Local leaderboard', noBoard:'No records yet. Play a round!', diff:['','Easy','Medium','Hard'], bank:'Bank', ver:'version', draftNote:'(incl. draft items)',
         nickDefault:'Player', dailyDone:'Today\'s challenge is done. Come back tomorrow!', bonus:'Streak bonus', timeLeft:'left' }
@@ -74,42 +74,63 @@ function start(mode) {
   if (mode === 'daily' && localStorage.getItem('daily-' + today())) { alert(t('dailyDone')); return; }
   const nick = ($('nick').value.trim() || t('nickDefault')).slice(0, 12);
   localStorage.setItem('nick', nick);
-  game = { mode, nick, qs: pick(mode), i: 0, score: 0, streak: 0, bestStreak: 0, log: [], timer: null, tLeft: 0, tStart: 0 };
+  game = { mode, nick, qs: pick(mode), i: 0, view: null, score: 0, streak: 0, bestStreak: 0, log: [], timer: null, tLeft: 0, tStart: 0, paused: 0, locked: false };
   show('play');
   renderQuestion();
 }
 
 /* ---------- 作答 ---------- */
+/* view === null：顯示目前題目（計時中）；view === n：回看第 n 題（唯讀、倒數暫停、不透露正解） */
 function renderQuestion(rerenderOnly) {
-  const q = game.qs[game.i];
-  $('qNo').textContent = `${game.i + 1} / ${game.qs.length}`;
+  const viewing = game.view !== null;
+  const idx = viewing ? game.view : game.i;
+  const q = game.qs[idx];
+  $('qNo').textContent = `${idx + 1} / ${game.qs.length}`;
   $('score').textContent = game.score;
   $('streak').textContent = game.streak >= 2 ? `🔥 ${game.streak}` : '';
   $('qLaw').textContent = `${q.law}${q.article}`;
   $('qDiff').textContent = t('diff')[q.difficulty] || '';
   $('qText').textContent = L(q, 'q');
+  $('prevBtn').disabled = idx === 0;
+  $('backBtn').classList.toggle('hidden', !viewing);
   const opts = $('opts'); opts.innerHTML = '';
-  const answered = game.log[game.i];
+  const rec = game.log[idx];
   ['a', 'b', 'c', 'd'].forEach(k => {
     const b = document.createElement('button'); b.type = 'button'; b.className = 'opt'; b.dataset.k = k;
     b.innerHTML = `<span class="k">${k.toUpperCase()}</span><span>${escapeHtml(L(q, k))}</span>`;
-    if (answered) { b.disabled = true; if (k === q.answer) b.classList.add('correct'); else if (k === answered.chosen) b.classList.add('wrong'); }
+    if (viewing) { b.disabled = true; if (rec && k === rec.chosen) b.classList.add('picked'); }
     else b.onclick = () => answer(k);
     opts.appendChild(b);
   });
-  if (answered) { showFeedback(answered); return; }
-  $('feedback').classList.add('hidden');
-  if (!rerenderOnly) startTimer();
+  const note = $('viewNote');
+  note.classList.toggle('hidden', !viewing);
+  if (viewing) note.textContent = t('viewing').replace('{n}', idx + 1) + (rec && !rec.chosen ? `　(${t('noAns')})` : '');
+  if (!viewing && !rerenderOnly) startTimer();
 }
 function startTimer() {
   clearInterval(game.timer);
-  game.tLeft = CFG.secondsPerQuestion; game.tStart = performance.now();
+  game.tLeft = CFG.secondsPerQuestion; game.tStart = performance.now(); game.paused = 0; game.locked = false;
   updateTimer();
-  game.timer = setInterval(() => {
-    game.tLeft = Math.max(0, CFG.secondsPerQuestion - (performance.now() - game.tStart) / 1000);
-    updateTimer();
-    if (game.tLeft <= 0) answer(null);
-  }, 100);
+  game.timer = setInterval(tick, 100);
+}
+function tick() {
+  if (game.view !== null) return; // 回看時暫停
+  game.tLeft = Math.max(0, CFG.secondsPerQuestion - (performance.now() - game.tStart - game.paused) / 1000);
+  updateTimer();
+  if (game.tLeft <= 0) answer(null);
+}
+function viewPrev() {
+  const cur = game.view === null ? game.i : game.view;
+  if (cur === 0 || game.locked) return;
+  if (game.view === null) game.pauseAt = performance.now();
+  game.view = cur - 1;
+  renderQuestion(true);
+}
+function backToCurrent() {
+  if (game.view === null) return;
+  game.paused += performance.now() - game.pauseAt;
+  game.view = null;
+  renderQuestion(true);
 }
 function updateTimer() {
   const pct = game.tLeft / CFG.secondsPerQuestion * 100;
@@ -118,9 +139,11 @@ function updateTimer() {
   $('timerNum').textContent = Math.ceil(game.tLeft);
 }
 function answer(chosen) {
+  if (game.locked || game.view !== null) return;
+  game.locked = true;
   clearInterval(game.timer);
   const q = game.qs[game.i];
-  const used = Math.min(CFG.secondsPerQuestion, (performance.now() - game.tStart) / 1000);
+  const used = Math.min(CFG.secondsPerQuestion, (performance.now() - game.tStart - game.paused) / 1000);
   const remain = Math.max(0, CFG.secondsPerQuestion - used);
   const ok = chosen === q.answer;
   let gained = 0, bonus = 0;
@@ -132,20 +155,11 @@ function answer(chosen) {
   game.score += gained + bonus;
   const rec = { chosen, ok, used: Math.round(used * 10) / 10, gained, bonus };
   game.log[game.i] = rec;
-  document.querySelectorAll('.opt').forEach(b => { b.disabled = true; if (b.dataset.k === q.answer) b.classList.add('correct'); else if (b.dataset.k === chosen) b.classList.add('wrong'); });
+  // 不揭曉正解：只標示所選項目，0.3 秒後自動進下一題（正解與解析留到結算頁回顧）
+  document.querySelectorAll('.opt').forEach(b => { b.disabled = true; if (b.dataset.k === chosen) b.classList.add('picked'); });
   $('score').textContent = game.score;
   $('streak').textContent = game.streak >= 2 ? `🔥 ${game.streak}` : '';
-  showFeedback(rec);
-}
-function showFeedback(rec) {
-  const q = game.qs[game.i];
-  const head = $('fbHead');
-  head.className = 'fb-head ' + (rec.ok ? 'ok' : 'ng');
-  head.textContent = rec.ok ? `${t('correct')} +${rec.gained}${rec.bonus ? ` (${t('bonus')} +${rec.bonus})` : ''}`
-                            : `${rec.chosen ? t('wrong') : t('timeout')}　${t('ans')}：${q.answer.toUpperCase()}`;
-  $('fbExplain').textContent = L(q, 'explain');
-  $('nextBtn').textContent = game.i + 1 < game.qs.length ? t('next') : t('finish');
-  $('feedback').classList.remove('hidden');
+  setTimeout(next, chosen ? 300 : 600);
 }
 function next() {
   if (game.i + 1 < game.qs.length) { game.i++; renderQuestion(); }
@@ -186,16 +200,18 @@ function escapeHtml(s) { return String(s).replace(/[&<>"']/g, c => ({ '&': '&amp
 
 /* ---------- 綁定 ---------- */
 document.querySelectorAll('.mode').forEach(b => b.addEventListener('click', () => start(b.dataset.mode)));
-$('nextBtn').addEventListener('click', next);
+$('prevBtn').addEventListener('click', viewPrev);
+$('backBtn').addEventListener('click', backToCurrent);
 $('againBtn').addEventListener('click', () => start(game.mode));
-$('homeBtn').addEventListener('click', () => { game = null; show('home'); renderBoard(); });
+$('homeBtn').addEventListener('click', () => { clearInterval(game && game.timer); game = null; show('home'); renderBoard(); });
 $('langBtn').addEventListener('click', () => { lang = lang === 'zh' ? 'en' : 'zh'; localStorage.setItem('lang', lang); applyLang(); });
 $('nick').value = localStorage.getItem('nick') || '';
 document.addEventListener('keydown', e => {
-  if (!$('play').classList.contains('active')) return;
+  if (!game || !$('play').classList.contains('active')) return;
   const k = e.key.toLowerCase();
-  if ('abcd'.includes(k) && !game.log[game.i]) answer(k);
-  else if ((e.key === 'Enter' || e.key === ' ') && game.log[game.i]) { e.preventDefault(); next(); }
+  if ('abcd'.includes(k) && k.length === 1) answer(k);
+  else if (e.key === 'ArrowLeft') viewPrev();
+  else if (e.key === 'ArrowRight' || e.key === 'Escape') backToCurrent();
 });
 applyLang();
 loadBank().catch(err => { $('bankInfo').textContent = '題庫載入失敗 / failed to load bank: ' + err; });
