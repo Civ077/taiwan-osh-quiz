@@ -29,9 +29,9 @@
 ```
 法規對戰/
 ├─ README.md
-├─ 法規原文/          從 law.moj.gov.tw 抓下的現行條文（HTML + 解析後 txt）＋ parse_law.py
+├─ 法規原文/          從 law.moj.gov.tw 抓下的現行條文（HTML + 解析後 txt）＋ fetch_law.py / parse_law.py / find_pcode.py（查法規代碼）/ pcodes.json
 └─ 題庫/
-   ├─ batch1_*.py / batch2_*.py                 各批題目原始碼（Python 資料）
+   ├─ batch1_*.py / batch2_*.py / batch3_*.py    各批題目原始碼（Python 資料）
    ├─ build_sheet.py                            驗證 → 洗牌選項 → 產出 xlsx + json
    ├─ OSH_ENV_QuizBank.xlsx                     上傳 Drive 的來源檔
    ├─ questions_all.json / questions_batchN.json
@@ -54,7 +54,7 @@ status(draft/reviewed/active), batch, reviewer, review_note`
 |---|---|---|---|
 | 1 | 職業安全衛生法（114/12/19）＋施行細則（115/6/26） | 129 | draft，待審 |
 | 2 | 職業安全衛生設施規則（115/6/30）136 題、營造安全衛生設施標準（115/6/30）74 題、機械設備器具安全標準（111/5/11）37 題 | 247 | draft，待審 |
-| 3 | 缺氧、高架、高溫、異常氣壓、化學品標示、標示準則 | ~150 | 未開始 |
+| 3 | 缺氧症預防規則（103/6/26）30 題、高架作業（103/6/25）9 題、高溫作業（103/7/1）17 題、異常氣壓（103/6/25）62 題、危害性化學品標示及通識規則（115/8/26；附表一、四自 118/1/1 施行）29 題、標示設置準則（103/7/2）11 題 | 158 | draft，待審 |
 | 4 | 管理辦法、教育訓練、健康保護、危工場所、製程安全 | ~150 | 未開始 |
 | 5 | 勞檢法系、災保法、母性保護、機器人、行政要點 | ~130 | 未開始 |
 | 6 | 環保第一層（營建空污、噪音、水污、廢清、環評） | ~250 | 未開始 |

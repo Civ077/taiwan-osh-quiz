@@ -21,6 +21,12 @@ LAWS = {
  "OSH-07": ("職業安全衛生設施規則","Occupational Safety and Health Facilities Rules","民國115年6月30日","N0060009"),
  "OSH-13": ("機械設備器具安全標準","Safety Standards for Machinery, Equipment and Tools","民國111年5月11日","N0060034"),
  "OSH-36": ("營造安全衛生設施標準","Construction Safety and Health Facilities Standards","民國115年6月30日","N0060014"),
+ "OSH-34": ("缺氧症預防規則","Rules for Prevention of Hypoxia","民國103年6月26日","N0060020"),
+ "OSH-15": ("高架作業勞工保護措施標準","Standards for Protective Measures for Laborers in Work at Height","民國103年6月25日","N0060029"),
+ "OSH-14": ("高溫作業勞工作息時間標準","Standards for Work and Rest Time of Laborers in High-Temperature Work","民國103年7月1日","N0060007"),
+ "OSH-18": ("異常氣壓危害預防標準","Standards for Prevention of Abnormal Pressure Hazards","民國103年6月25日","N0060026"),
+ "OSH-12": ("危害性化學品標示及通識規則","Regulations on Labeling and Hazard Communication of Hazardous Chemicals","民國115年8月26日","N0060054"),
+ "OSH-24": ("職業安全衛生標示設置準則","Guidelines for Installation of Occupational Safety and Health Signs","民國103年7月2日","N0060023"),
 }
 LAW_VER = {k: v[2] for k, v in LAWS.items()}
 LAW_NAME = {k: v[0] for k, v in LAWS.items()}
@@ -29,6 +35,7 @@ LAW_NAME = {k: v[0] for k, v in LAWS.items()}
 BATCHES = {
  1: ["batch1_a", "batch1_b", "batch1_c"],
  2: ["batch2_a", "batch2_b", "batch2_c", "batch2_d"],
+ 3: ["batch3_a", "batch3_b", "batch3_c"],
 }
 
 # ---------- Laws 主檔（沿用批次 1 清單，另加 OSH-36 營造標準） ----------
@@ -98,15 +105,21 @@ ENV_LAWS = [
  ("公害糾紛處理法","Public Nuisance Dispute Mediation Act","O0100002",1,3),
 ]
 
+PCODES = {}
+try:
+    PCODES = json.load(open(os.path.join(os.path.dirname(HERE), "法規原文", "pcodes.json"), encoding="utf-8"))   # 名稱→全國法規資料庫 pcode（find_pcode.py 查得）
+except Exception:
+    pass
+
 def build_laws():
     rows = [["law_id","group","tier","name_zh","name_en","law_version","source_url","weight","note"]]
     for i,(zh,en,pcode,w) in enumerate(OSH_LAWS, start=1):
-        lid = f"OSH-{i:02d}"
+        lid = f"OSH-{i:02d}"; pcode = PCODES.get(zh) or ""
         url = f"https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode={pcode}" if pcode else "https://law.isha.org.tw/ISHA_LAW/"
         tier = 1 if (1<=i<=17 or i in (34,35,36)) else (2 if i<=25 else 3)
         rows.append([lid,"OSH",tier,zh,en,LAW_VER.get(lid,""),url,w,""])
     for i,(zh,en,pcode,w,tier) in enumerate(ENV_LAWS, start=1):
-        lid = f"ENV-{i:02d}"
+        lid = f"ENV-{i:02d}"; pcode = PCODES.get(zh) or ""
         url = f"https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode={pcode}" if pcode else ""
         rows.append([lid,"ENV",tier,zh,en,"",url,w,""])
     return rows
@@ -162,6 +175,7 @@ CHANGELOG = [
  ["2026-09-03","OSH-07","民國115年6月30日","建立批次2：職業安全衛生設施規則（115/7/1 施行，部分條文 116/1/1）","batch=2 之 OSH-07","初版 draft，待審","Claude Code"],
  ["2026-09-03","OSH-36","民國115年6月30日","建立批次2：營造安全衛生設施標準（第11條之2 自 116/7/1 施行）；Laws 分頁新增 OSH-36","batch=2 之 OSH-36","初版 draft，待審","Claude Code"],
  ["2026-09-03","OSH-13","民國111年5月11日","建立批次2：機械設備器具安全標準；Laws 分頁 OSH-13 來源網址修正為 N0060034","batch=2 之 OSH-13","初版 draft，待審","Claude Code"],
+ ["2026-09-03","OSH-34,15,14,18,12,24","見各題 law_version","建立批次3：缺氧症預防規則、高架作業、高溫作業、異常氣壓、危害性化學品標示及通識規則（115/8/26；附表一、四自 118/1/1 施行）、標示設置準則；Laws 分頁 source_url 全面改為法規資料庫查得之正確代碼","batch=3","初版 draft，待審","Claude Code"],
 ]
 
 def style_header(ws):
