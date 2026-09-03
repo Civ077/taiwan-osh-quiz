@@ -237,6 +237,8 @@ function updateTimer(left) {
   $('timerNum').textContent = Math.ceil(left);
 }
 function viewPrev() {
+  return;   // 作答中禁止回看上一題（防作弊）；答題回顧只在結果頁
+  // eslint-disable-next-line no-unreachable
   const cur = game.view === null ? game.i : game.view;
   if (cur === 0 || (game.locked && !game.pvp)) return;
   if (game.view === null && !game.pvp) game.pauseAt = performance.now();

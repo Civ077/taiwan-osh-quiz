@@ -108,8 +108,9 @@
 
   <!-- 作答 -->
   <section id="play" class="screen">
-    <div class="nav">
-      <button id="prevBtn" class="navbtn" type="button">‹ <span data-i18n="prev">上一題</span></button>
+    <!-- 作答中不能回看上一題（防作弊）；答題回顧在結果頁 -->
+    <div class="nav hidden">
+      <button id="prevBtn" class="navbtn" type="button" disabled>‹ <span data-i18n="prev">上一題</span></button>
       <button id="backBtn" class="navbtn accent hidden" type="button"><span data-i18n="backCur">回到目前題目</span> ›</button>
     </div>
     <div class="hud">
