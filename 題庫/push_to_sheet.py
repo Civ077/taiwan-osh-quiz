@@ -102,15 +102,22 @@ def main(a):
     elif cmd == "clear":
         print(post({"token": token(), "sheet": a[1], "mode": "clear_from", "from": int(a[2])}))
     elif cmd == "articles":
-        # 完整法條：整張重灌 Articles 分頁（不存在會自動建立，需 GAS v5），每次 250 列
+        # 用 tsv/Articles.tsv 整張重灌 Articles（需 GAS v5）；`articles 251` 表示不清空、從第 251 筆續灌；每塊失敗自動重試 3 次
+        import time
         rows = read("tsv/Articles.tsv")
-        print("清空：", post({"token": token(), "sheet": "Articles", "mode": "clear_from", "from": 1, "create": True}))
+        start = int(a[1]) - 1 if len(a) > 1 else 0
+        if start == 0:
+            print("清空：", post({"token": token(), "sheet": "Articles", "mode": "clear_from", "from": 1, "create": True}))
         step = 250
-        for i in range(0, len(rows), step):
+        for i in range(start, len(rows), step):
             chunk = rows[i:i + step]
-            r = post({"token": token(), "sheet": "Articles", "mode": "append", "tsv": NL.join(chunk)})
-            print("%d-%d" % (i + 1, i + len(chunk)), r if not r.get("ok") else r.get("lastRow"))
-            if not r.get("ok"): sys.exit("中斷")
+            for attempt in range(3):
+                r = post({"token": token(), "sheet": "Articles", "mode": "append", "tsv": NL.join(chunk)})
+                if r.get("ok"):
+                    break
+                time.sleep(5)
+            print("%d-%d" % (i + 1, i + len(chunk)), r.get("lastRow") if r.get("ok") else r)
+            if not r.get("ok"): sys.exit("中斷於 %d，可用 `articles %d` 續灌" % (i + 1, i + 1))
     elif cmd == "sync":
         rows = [r.split(TAB) for r in read("tsv/Questions.tsv")]
         if rows and rows[0][0] == "id":
