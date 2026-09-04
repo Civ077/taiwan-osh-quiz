@@ -26,7 +26,10 @@ def laws():
 
 def articles(zh):
     p = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '法規原文', zh + '.txt')
-    return ART.findall(open(p, encoding='utf-8').read()) if os.path.exists(p) else []
+    if not os.path.exists(p): return []
+    txt = open(p, encoding='utf-8').read()
+    dele = set(re.findall(r'^第 ([\d\-]+) 條[^\n]*\n\s*（刪除）', txt, re.M))
+    return [a for a in ART.findall(txt) if a not in dele]        # 「（刪除）」條不計入應出題條文
 
 if __name__ == '__main__':
     cov = covered(); L = laws()

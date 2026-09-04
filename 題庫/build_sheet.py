@@ -506,7 +506,20 @@ Q_HEADER = ["id","law_group","law_id","law","article","law_version","category","
             "q_zh","a_zh","b_zh","c_zh","d_zh","q_en","a_en","b_en","c_en","d_en",
             "answer","explain_zh","explain_en","status","batch","reviewer","review_note"]
 
+_DELETED = {}
+def deleted_articles(lid):
+    """該法規原文中標示「（刪除）」的條號集合（如 {'21','61'}）"""
+    if lid in _DELETED: return _DELETED[lid]
+    zh = LAWS[lid][0]; p = os.path.join(HERE, "..", "法規原文", zh + ".txt"); out = set()
+    if os.path.exists(p):
+        txt = open(p, encoding="utf-8").read()
+        for m in re.finditer(r'^第 ([\d\-]+) 條[^\n]*\n\s*（刪除）', txt, re.M): out.add(m.group(1))
+    _DELETED[lid] = out; return out
+def article_keys(art):
+    return [n + ('-' + (s1 or s2) if (s1 or s2) else '') for n, s1, s2 in re.findall(r'第\s*(\d+)(?:-(\d+))?\s*條(?:之\s*(\d+))?', str(art))]
+
 DROPPED = {}
+DROPPED_DELETED = 0
 def load_questions():
     rows = [Q_HEADER]; errs = []; seen = set(); n = 0
     per_batch = {}
@@ -518,6 +531,9 @@ def load_questions():
                 lid,art,diff,cat,qz,oz,ans,ez,qe,oe,ee = t
                 if not in_scope(lid):
                     n -= 1; DROPPED[lid] = DROPPED.get(lid, 0) + 1; continue
+                ks = article_keys(art)
+                if ks and all(k in deleted_articles(lid) for k in ks):      # 已刪除條文的題目不納入（無實質內容）
+                    n -= 1; globals()["DROPPED_DELETED"] += 1; continue
                 if len(oz)!=4 or len(oe)!=4: errs.append(f"#{n} 選項數不是4：{qz[:20]}")
                 if ans not in "abcd": errs.append(f"#{n} 答案非a-d：{ans}")
                 if diff not in (1,2,3): errs.append(f"#{n} 難度非1-3")
@@ -656,6 +672,7 @@ def main():
     if os.path.isdir(os.path.dirname(docs)):
         json.dump({'generated':'2026-09-03','count':len(js),'questions':[{k:r[k] for k in keep} for r in js]}, open(docs,"w",encoding="utf-8"), ensure_ascii=False, separators=(',',':'))
     n = len(qrows)-1
+    print(f"已略過已刪除條文題目：{DROPPED_DELETED} 題")
     print(f"OK：{n} 題（{', '.join(f'批次{b}={len(r)}' for b,r in sorted(per_batch.items()))}）")
     print("依法規：", dict(Counter(r[2] for r in qrows[1:])))
     print("依難度：", dict(sorted(Counter(r[7] for r in qrows[1:]).items())))
