@@ -1,0 +1,4 @@
+C:\Users\user\Desktop\法規對戰\題庫\verify_answers.py:28: DeprecationWarning: 'maxsplit' is passed as positional argument
+  parts = re.split(DOTS, s, 1)
+題目 7745，可比對 7649；A 級（法規找不到此數值）22、B 級（不在所引條文）214
+→ C:\Users\user\Desktop\法規對戰\題庫\_spec\答案查核.tsv
