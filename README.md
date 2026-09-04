@@ -65,7 +65,7 @@ status(draft/reviewed/active), batch, reviewer, review_note`
 - 抽題：依 `Laws_*` 的 weight 先抽法規再抽題（`pickWeighted`），同一局盡量不重複法規。
 - 法規更新：`python check_updates.py` 比對全國法規資料庫各目清單的修正日期，輸出 `_spec/法規更新檢查.tsv`；有 UPDATED 者用 `fetch_law.py` 重抓 → `coverage.py` 補題 → build → `sync-split`。
 - 題目品質：`check_options.py all`（選項長度）、`coverage.py`（每條至少一題，刪除條不計）；建表自動略過「（刪除）」條文的題目；範圍外題目檔在 `題庫/_archive/`。
-- 網頁：題庫依範圍分開載入並存 IndexedDB（GAS v7 `group`/`fields` 參數），解析背景載入；`sw.js` 提供離線 app shell。
+- 網頁：題庫依範圍分開載入並存 IndexedDB（GAS v7 `group`/`fields` 參數），解析背景載入；`sw.js` 提供 app shell 快取（僅加快開啟，遊戲一律需要連線）。
 
 
 ## 計分與排行榜（2026-09-04 起）

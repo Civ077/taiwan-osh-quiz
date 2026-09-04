@@ -26,7 +26,7 @@ const I18N = {
         board:'排行榜', noBoard:'還沒有紀錄，先來一局！', diff:['','入門','進階','困難'], bank:'題庫', ver:'版本', draftNote:'（含待審 draft 題）',
         nickDefault:'玩家', dailyDone:'今天的每日挑戰已完成，明天再來！', bonus:'連對加成',
         match:'隨機配對', matchDesc:'10 秒內沒人就可改打電腦或開房間', host:'建立房間', hostDesc:'拿到四碼房號，最多 5 人一起玩', join:'輸入房號加入', joinBtn:'加入',
-        bot:'跟電腦對戰', botDesc:'離線也能玩，電腦依難度隨機作答', roomCode:'房號', waitBot:'改打電腦', cancel:'取消',
+        bot:'跟電腦對戰', botDesc:'電腦依難度隨機作答，不列入全站排行', roomCode:'房號', waitBot:'改打電腦', cancel:'取消',
         waitMatch:'配對中…', waitNoOne:'目前沒有其他玩家，可以改打電腦或建立房間邀請朋友', waitRoom:'等待朋友加入…把房號傳給對方（最多 5 人），人數夠了按「開始對戰」', joining:'加入中…',
         found:'配對成功！對手：{n}', starting:'{s} 秒後開始', roomNotFound:'找不到這個房號、房間已開始或已滿', needOnline:'連線對戰需要網路與雲端登入，目前不可用；可改打電腦',
         waitHost:'已加入房間，等待房主開始…', startBtn:'開始對戰', players:'玩家', playersN:'{n} 人', hostTag:'房主', youTag:'你',
@@ -34,7 +34,8 @@ const I18N = {
         allAnswered:'全員作答完畢，準備下一題', rank:'第 {r} 名', hostLeft:'房主離線，改以計時方式繼續', pushFailed:'⚠ 這局成績沒有上傳到全站排行榜（連線或驗證未通過）',
         nickHint:'請先輸入暱稱（1–12 字）才能開始遊戲，暱稱會顯示在排行榜與對戰中', nickRequired:'⚠ 請先輸入暱稱再開始',
         groupOsh:'職業安全衛生', groupEnv:'環保', segNoteOsh:'目前出題範圍：職業安全衛生法規（單人、每日、對戰、排行榜各自獨立）', segNoteEnv:'目前出題範圍：環保法規（單人、每日、對戰、排行榜各自獨立）',
-        online:'雲端連線中', offline:'離線（排行榜僅本機）', globalNote:'全站前 10 名', localNote:'本機紀錄', vsBot:'（對電腦，不列入全站排行）',
+        online:'雲端連線中', offline:'離線（無法遊戲）', globalNote:'全站前 10 名', localNote:'本機紀錄',
+        needNet:'⚠ 需要連上網路才能遊戲，目前為離線狀態', netLost:'⚠ 連線中斷，本局已結束且不列入紀錄', boardNeedNet:'離線中，連上網路後才會顯示排行榜', vsBot:'（對電腦，不列入全站排行）',
         waitingFor:'尚未作答：{n}', allIn:'全員已作答', weekly:'歷屆每週冠軍', weekLead:'本週目前領先', weekN:'第 {w} 週（{a}～{b}）', noWeekly:'尚無週冠軍紀錄',
         weekBoard:'本週排行榜（每週一重置）', noWeekBoard:'本週還沒有紀錄，先來一局！', ofMax:'滿分 {m}' },
   en: { title:'Taiwan OSH & Env Quiz', lead:'Occupational Safety × Environmental Law · Speed quiz', solo:'Solo Run', soloDesc:'20 questions · 20 s each · faster = more points',
@@ -44,7 +45,7 @@ const I18N = {
         board:'Leaderboard', noBoard:'No records yet. Play a round!', diff:['','Easy','Medium','Hard'], bank:'Bank', ver:'version', draftNote:'(incl. draft items)',
         nickDefault:'Player', dailyDone:'Today\'s challenge is done. Come back tomorrow!', bonus:'Streak bonus',
         match:'Random match', matchDesc:'No one in 10 s? Play the bot or open a room', host:'Create room', hostDesc:'Get a 4-letter code, up to 5 players', join:'Join with code', joinBtn:'Join',
-        bot:'Play vs bot', botDesc:'Works offline; bot answers by difficulty', roomCode:'Room', waitBot:'Play bot instead', cancel:'Cancel',
+        bot:'Play vs bot', botDesc:'Bot answers by difficulty; not ranked globally', roomCode:'Room', waitBot:'Play bot instead', cancel:'Cancel',
         waitMatch:'Matching…', waitNoOne:'No other players right now. Play the bot or create a room for a friend', waitRoom:'Waiting for friends… share the room code (up to 5 players), then press Start', joining:'Joining…',
         found:'Matched! Opponent: {n}', starting:'Starting in {s} s', roomNotFound:'Room not found, already started or full', needOnline:'Online battle needs network + cloud sign-in; try the bot instead',
         waitHost:'Joined. Waiting for the host to start…', startBtn:'Start battle', players:'Players', playersN:'{n} players', hostTag:'host', youTag:'you',
@@ -52,7 +53,8 @@ const I18N = {
         allAnswered:'Everyone answered — next question', rank:'Rank {r}', hostLeft:'Host offline; continuing on the timer', pushFailed:'⚠ This score was not uploaded to the global leaderboard (connection or validation failed).',
         nickHint:'Enter a nickname (1–12 chars) to play; it appears on leaderboards and in battles', nickRequired:'⚠ Please enter a nickname first',
         groupOsh:'Occupational Safety', groupEnv:'Environment', segNoteOsh:'Current scope: occupational safety & health laws (solo, daily, battle and leaderboard are separate)', segNoteEnv:'Current scope: environmental laws (solo, daily, battle and leaderboard are separate)',
-        online:'Online', offline:'Offline (local leaderboard only)', globalNote:'Global top 10', localNote:'Local records', vsBot:'(vs bot, not ranked globally)',
+        online:'Online', offline:'Offline (cannot play)', globalNote:'Global top 10', localNote:'Local records',
+        needNet:'⚠ You need to be online to play; you are currently offline.', netLost:'⚠ Connection lost — this round ended and is not recorded.', boardNeedNet:'Offline — the leaderboard appears once you are back online', vsBot:'(vs bot, not ranked globally)',
         waitingFor:'Waiting for: {n}', allIn:'Everyone answered', weekly:'Past weekly champions', weekLead:'Leading this week', weekN:'Week {w} ({a}–{b})', noWeekly:'No weekly champions yet',
         weekBoard:'This week (resets every Monday)', noWeekBoard:'No records this week yet — play a round!', ofMax:'max {m}' }
 };
@@ -85,10 +87,15 @@ function initFirebase() {
       else firebase.auth().signInAnonymously().catch(e => { console.warn('anon auth failed', e); FB.ok = false; renderNet(); });
     });
     FB.db.ref('.info/serverTimeOffset').on('value', s => { FB.offset = s.val() || 0; });
-    FB.db.ref('.info/connected').on('value', s => { FB.conn = !!s.val(); renderNet(); });
+    FB.db.ref('.info/connected').on('value', s => {
+      const was = FB.conn; FB.conn = !!s.val(); renderNet();
+      if (FB.conn && was !== true) renderBoard();   // 登入會早於 RTDB 通道接上，接上後要把排行榜重畫一次
+    });
   } catch (e) { console.warn('Firebase 未啟用：', e.message); FB.ok = false; renderNet(); }
 }
 const now = () => Date.now() + FB.offset;
+/* 遊戲一律需要連線：成績要能上傳、對戰要同步，離線就當斷線 */
+const isOnline = () => FB.ok && FB.conn !== false && navigator.onLine !== false;
 function nickVal() { return $('nick').value.trim().slice(0, 12); }
 function requireNick() {            // 暱稱必填：沒填就不能開始任何模式（欄位預設留空，每次都要自己輸入）
   if (nickVal()) return true;
@@ -99,15 +106,33 @@ function requireNick() {            // 暱稱必填：沒填就不能開始任�
 }
 function syncNick() {
   const n = nickVal(); localStorage.setItem('nick', n);
-  const h = $('nickHint'); if (h) { h.textContent = n ? '' : t('nickHint'); h.classList.remove('warn'); }
+  const h = $('nickHint'); if (h) { h.textContent = t('nickHint'); h.classList.remove('warn'); }
   if (!n) return;
   if (FB.ok && FB.nick !== n) { FB.nick = n; FB.db.ref('users/' + FB.uid).set({ nick: n, updatedAt: firebase.database.ServerValue.TIMESTAMP }).catch(() => {}); }
 }
+let offlineTimer = 0;
 function renderNet() {
   const el = $('netInfo'); if (!el) return;
-  const on = FB.ok && FB.conn !== false;
+  const on = isOnline();
   el.textContent = on ? '☁ ' + t('online') : '○ ' + t('offline');
   $('who').textContent = on ? nickVal() : '';
+  const playing = () => game && !game.result && $('play').classList.contains('active');
+  if (on) {
+    clearTimeout(offlineTimer); offlineTimer = 0;
+    const e = $('bankTop');
+    if (e && (e.textContent === t('needNet') || e.textContent === t('netLost'))) bankTop('');   // 只清掉連線相關訊息，別蓋掉題庫載入中
+  } else if (playing() && !offlineTimer) {
+    offlineTimer = setTimeout(() => { offlineTimer = 0; if (!isOnline() && playing()) abortOffline(); }, 5000);   // 瞬斷不砍局，持續 5 秒才算斷線
+  }
+}
+/* 遊戲進行中斷線：直接結束本局，不寫任何紀錄 */
+function abortOffline() {
+  if (!game) return;
+  clearInterval(game.timer);
+  game = null;
+  pvpCleanup();
+  show('home'); renderBoard();
+  bankTop(t('netLost'), true);
 }
 
 /* ---------- i18n ---------- */
@@ -115,9 +140,9 @@ function applyLang() {
   document.documentElement.lang = lang === 'zh' ? 'zh-Hant' : 'en';
   document.querySelectorAll('[data-i18n]').forEach(el => { el.textContent = t(el.dataset.i18n); });
   $('langBtn').textContent = lang === 'zh' ? 'EN' : '中';
-  $('nick').placeholder = t('nick');
+  $('nick').placeholder = '';                 // 輸入框保持空白，提醒文字放在下方
   renderGroup(); renderBoard(); renderBankInfo(); renderNet();
-  const h = $('nickHint'); if (h && !nickVal()) h.textContent = t('nickHint');
+  const h = $('nickHint'); if (h) h.textContent = t('nickHint');
   if (game && $('play').classList.contains('active')) renderQuestion(true);
   if ($('result').classList.contains('active')) renderResult();
 }
@@ -299,6 +324,7 @@ function newGame(mode, ids, pvp) {
 }
 function start(mode) {
   if (!BANK.length) { const el = $('bankTop'); if (el) { el.textContent = lang === 'zh' ? '題庫還在載入，請稍候…' : 'Still loading the question bank…'; el.classList.add('warn', 'shake'); setTimeout(() => el.classList.remove('shake'), 600); } return; }
+  if (!isOnline()) { bankTop(t('needNet'), true); const e = $('bankTop'); if (e) { e.classList.add('shake'); setTimeout(() => e.classList.remove('shake'), 600); } return; }
   if (!requireNick()) return;
   if (mode === 'daily' && localStorage.getItem('daily-' + GROUP + '-' + today())) { alert(t('dailyDone')); return; }
   syncNick();
@@ -700,6 +726,7 @@ function finish() {
       if (p.role === 'host') { const ref = p.roomRef; setTimeout(() => ref.remove().catch(() => {}), 30000); }   // 對局結束 30 秒後清掉房間
     }
   }
+  if (!isOnline()) { bankTop(t('netLost'), true); game = null; pvpCleanup(); show('home'); renderBoard(); return; }   // 離線不留任何紀錄
   const board = JSON.parse(localStorage.getItem('board') || '[]');
   board.push({ ...rec, mode: game.mode, group: GROUP }); board.sort((a, b) => b.score - a.score); localStorage.setItem('board', JSON.stringify(board.slice(0, 60)));
   if (game.mode === 'daily') localStorage.setItem('daily-' + GROUP + '-' + today(), String(game.score));
@@ -745,12 +772,11 @@ function renderBoard() {
   document.querySelectorAll('.tab').forEach(b => b.classList.toggle('active', b.dataset.board === boardMode));
   const wk0 = weekKey(now());                                   // 本週起點（週一 00:00，UTC+8）
   const thisWeek = r => r && r.ts && weekKey(r.ts) === wk0;
-  const local = JSON.parse(localStorage.getItem('board') || '[]').filter(r => r.mode === boardMode && (r.group || 'OSH') === GROUP && thisWeek(r));
   const draw = (rows, note) => {
     if (!rows.length) { el.innerHTML = `<p class="empty">${t('noWeekBoard')}</p>`; return; }
     el.innerHTML = `<table>${rows.slice(0, 10).map((r, i) => `<tr><td>${i + 1}. ${escapeHtml(r.nick)}${r.uid && r.uid === FB.uid ? ' ★' : ''}</td><td>${r.result ? ({ win: '🏆', lose: '·', draw: '=' })[r.result] + ' ' : ''}${r.correct}/${r.n} · ${r.date}</td><td>${r.score}</td></tr>`).join('')}</table><p class="note">${note}</p>`;
   };
-  if (!FB.ok) { if (boardQuery && boardHandler) { boardQuery.off('value', boardHandler); boardQuery = null; boardHandler = null; } draw(local, t('localNote')); renderWeekly(null); return; }
+  if (!isOnline()) { if (boardQuery && boardHandler) { boardQuery.off('value', boardHandler); boardQuery = null; boardHandler = null; } el.innerHTML = `<p class="empty">${t('boardNeedNet')}</p>`; renderWeekly(null); return; }
   const scope = scopeKey(boardMode);
   if (boardQuery && boardHandler && boardScope === scope && boardCache) {   // 同一個榜單就不重綁，直接用最近一次的資料重畫
     const wk = boardCache.filter(thisWeek).sort((a, b) => b.score - a.score || a.ts - b.ts);
@@ -770,7 +796,7 @@ function renderBoard() {
     draw(week, t('globalNote'));
     renderWeekly(all);
   };
-  boardQuery.on('value', boardHandler, () => { draw(local, t('localNote')); renderWeekly(null); });
+  boardQuery.on('value', boardHandler, () => { el.innerHTML = `<p class="empty">${t('boardNeedNet')}</p>`; renderWeekly(null); });
 }
 /* 每週冠軍另存一份到 champions/<榜單>/<週起點>，排行榜之後清空也不會失去歷屆紀錄 */
 function recordChampion(rec) {
@@ -813,7 +839,7 @@ $('homeBtn').addEventListener('click', () => { clearInterval(game && game.timer)
 $('langBtn').addEventListener('click', () => { lang = lang === 'zh' ? 'en' : 'zh'; localStorage.setItem('lang', lang); applyLang(); });
 $('nick').value = '';                      // 暱稱欄預設留空，不帶入上次輸入
 $('nick').addEventListener('change', syncNick);
-$('nick').addEventListener('input', () => { const h = $('nickHint'); if (h && nickVal()) { h.textContent = ''; h.classList.remove('warn'); } });
+$('nick').addEventListener('input', () => { const h = $('nickHint'); if (h && nickVal()) { h.textContent = t('nickHint'); h.classList.remove('warn'); } });
 $('btnMatch').addEventListener('click', pvpMatch);
 $('btnHost').addEventListener('click', pvpHost);
 $('btnJoin').addEventListener('click', () => pvpJoin($('joinCode').value));
@@ -835,6 +861,8 @@ window.__dbg = () => ({ game, pv, FB: { ok: FB.ok, uid: FB.uid, offset: FB.offse
 applyLang();
 syncNick();
 initFirebase();
+window.addEventListener('online', renderNet);
+window.addEventListener('offline', renderNet);
 loadBank().catch(err => { $('bankInfo').textContent = '題庫載入失敗 / failed to load bank: ' + err; });
 if ('serviceWorker' in navigator && location.protocol === 'https:') navigator.serviceWorker.register('sw.js').catch(e => console.warn('sw', e));
 })();
