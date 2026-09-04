@@ -59,6 +59,28 @@ def read(name):
     return [l for l in open(p, encoding="utf-8").read().split(NL) if l.strip()]
 
 
+
+import re as _re
+_COERCE = _re.compile(r"""^(
+    [=+\-@].*                                   # 會被當成公式
+  | \d{1,3}(,\d{3})+(\.\d+)?                   # 1,000
+  | \d+(\.\d+)?%?                              # 33.0 / 20%
+  | \d{1,4}[-/.]\d{1,2}([-/.]\d{1,2})?          # 2026-09-04 / 7/1
+  | \d{1,4}\s*年\s*\d{1,2}\s*月(\s*\d{1,2}\s*日)?   # 115年7月1日
+  | \d{1,2}\s*[:：]\s*\d{1,2}(\s*[:：]\s*\d{1,2})?   # 07:00
+)$""", _re.X)
+
+
+def guard(v):
+    """Google Sheets 會把「115年7月1日」「20%」「1,000」自動轉成日期或數字，存進去就走樣。
+    在前面加一個半形單引號，Sheets 會存成純文字，讀回來時單引號不會出現。"""
+    v = "" if v is None else str(v)
+    return "'" + v if _COERCE.match(v.strip()) else v
+
+
+def guard_row(cells):
+    return [guard(c) for c in cells]
+
 def laws_in_sheet_order():
     # Laws 分頁順序 = 本地 tsv/Laws.tsv 順序（依法規體系排序，由 build_sheet.FAMILIES 決定）
     return [r.split(TAB) for r in read("tsv/Laws.tsv")][1:]
@@ -157,7 +179,7 @@ def main(a):
             sheet = "Questions_" + g
             rows = read("tsv/Questions_%s.tsv" % g)
             head, body = rows[0], rows[1:]
-            content = [head.split(TAB)[:21]] + [r.split(TAB)[:21] for r in body]      # A–U
+            content = [head.split(TAB)[:21]] + [guard_row(r.split(TAB)[:21]) for r in body]      # A–U（加防轉型保護）
             print(sheet, "建立/確認：", post({"token": token(), "sheet": sheet, "mode": "range", "startCell": "A1", "tsv": TAB.join(content[0]), "create": True}))
             step = 500
             for i in range(1, len(content), step):
