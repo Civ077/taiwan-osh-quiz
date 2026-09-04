@@ -43,7 +43,7 @@ def main():
         per_law[lid] = len(arts)
         for no, annex, lines in arts:
             text = " ／ ".join(lines).replace("\t", " ")
-            rows.append([lid, grp, zh, "第" + no + "條", "Y" if annex else "", text])
+            rows.append([lid, grp, zh, ("第%s條之%s" % tuple(no.split("-"))) if "-" in no else "第%s條" % no, "Y" if annex else "", text])
     os.makedirs(os.path.join(HERE, "tsv"), exist_ok=True)
     with open(os.path.join(HERE, "tsv", "Articles.tsv"), "w", encoding="utf-8", newline="") as f:
         f.write("\n".join("\t".join(str(c) for c in r) for r in rows))

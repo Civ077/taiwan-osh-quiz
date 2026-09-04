@@ -128,7 +128,10 @@ def main(files):
             if not arts.strip():
                 continue
             stats['checked'] += 1
-            correct = oz[0]                      # 原始檔中正確選項固定在第一個
+            ai = 'abcd'.find(str(ans).strip().lower())
+            if ai < 0 or ai >= len(oz):
+                continue
+            correct = oz[ai]                     # 依 answer 欄位取正確選項（批次 1–3 的答案不一定是第一個）
             want = nums(correct)
             if not want:
                 continue

@@ -18,6 +18,7 @@ def check(mod):
             reasons = []
             if c > mx * 1.25 or c - mx >= 12: reasons.append('正確最長 %d vs %d' % (c, mx))
             if mn < c * 0.45: reasons.append('有錯誤選項太短 %d vs %d' % (mn, c))
+            if c * 1.25 < mn or mn - c >= 12: reasons.append('正確最短 %d vs %d' % (c, mn))   # 反向洩題：正確選項明顯最短
             if reasons:
                 bad += 1
                 print('%s #%d [%s] %s | %s | %s' % (mod, i + 1, tag, art, qz[:22], '；'.join(reasons)))

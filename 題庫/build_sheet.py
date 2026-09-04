@@ -478,10 +478,14 @@ def law_url(code):
     if code.startswith("isha:"): return "http://law.isha.org.tw/ISHA_LAW/Pages/LawList.aspx?Lawid=" + code[5:]
     return f"https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode={code}"
 
+DELETED_RE = re.compile('^第 ([0-9-]+) 條[^\n]*\n\\s*（刪除）', re.M)   # 標示「（刪除）」的條號
 _ART_RE = re.compile(r'^第 [\d\-]+ 條', re.M)
-def article_count(zh):
+def article_count(zh, lid=None):
     p = os.path.join(os.path.dirname(HERE), "法規原文", zh + ".txt")
-    try: return len(_ART_RE.findall(open(p, encoding="utf-8").read()))
+    try:
+        txt = open(p, encoding="utf-8").read()
+        dele = set(DELETED_RE.findall(txt))
+        return len([a for a in _ART_RE.findall(txt) if a.replace("第 ", "").replace(" 條", "") not in dele])   # 不計已刪除條，與 coverage.py 一致
     except Exception: return ""
 
 def build_laws(qcount=None):
@@ -522,6 +526,7 @@ def article_keys(art):
 
 DROPPED = {}
 DROPPED_DELETED = 0
+MIXED_DELETED = []
 def load_questions():
     rows = [Q_HEADER]; errs = []; seen = set(); n = 0
     per_batch = {}
@@ -533,9 +538,12 @@ def load_questions():
                 lid,art,diff,cat,qz,oz,ans,ez,qe,oe,ee = t
                 if not in_scope(lid):
                     n -= 1; DROPPED[lid] = DROPPED.get(lid, 0) + 1; continue
+                if lid not in LAWS: errs.append(f"#{n} law_id 未知：{lid}"); continue
                 ks = article_keys(art)
                 if ks and all(k in deleted_articles(lid) for k in ks):      # 已刪除條文的題目不納入（無實質內容）
                     n -= 1; globals()["DROPPED_DELETED"] += 1; continue
+                if ks and any(k in deleted_articles(lid) for k in ks):      # 部分條文已刪除：留著但列出來人工看
+                    MIXED_DELETED.append(f"{lid} {art}")
                 if len(oz)!=4 or len(oe)!=4: errs.append(f"#{n} 選項數不是4：{qz[:20]}")
                 if ans not in "abcd": errs.append(f"#{n} 答案非a-d：{ans}")
                 if diff not in (1,2,3): errs.append(f"#{n} 難度非1-3")
@@ -545,7 +553,7 @@ def load_questions():
                 if key in seen: errs.append(f"#{n} 題目重複：{qz[:30]}")
                 seen.add(key)
                 qid = f"Q{n:04d}"
-                order = [0,1,2,3]; random.Random(f"{qid}-osh-quiz").shuffle(order)
+                order = [0,1,2,3]; random.Random(f"{lid}|{qz.strip()}-osh-quiz").shuffle(order)   # 以內容為種子：改一題不會連動改到其他題的答案
                 oz2 = [oz[i] for i in order]; oe2 = [oe[i] for i in order]
                 ans2 = "abcd"[order.index("abcd".index(ans))]
                 row = [qid,lid[:3],lid,LAW_NAME[lid],art,LAW_VER[lid],cat,diff,qz,*oz2,qe,*oe2,ans2,ez,ee,("active" if in_scope(lid) else "archived"),bno,"",("" if in_scope(lid) else "不在使用者指定之職安法規範圍，暫不使用")]
@@ -670,14 +678,17 @@ def main():
         open(os.path.join(HERE,"tsv",f"Laws_{g}.tsv"),"w",encoding="utf-8",newline="").write(tsv(split[g][0]))
         open(os.path.join(HERE,"tsv",f"Questions_{g}.tsv"),"w",encoding="utf-8",newline="").write(tsv(split[g][1]))
     open(os.path.join(HERE,"tsv","Changelog.tsv"),"w",encoding="utf-8",newline="").write(tsv(CHANGELOG))
+    open(os.path.join(HERE,"tsv","Config.tsv"),"w",encoding="utf-8",newline="").write(tsv(CONFIG))
     # 前端用精簡 JSON
     keep = ['id','law_id','law','article','law_version','category','difficulty','q_zh','a_zh','b_zh','c_zh','d_zh','q_en','a_en','b_en','c_en','d_en','answer','explain_zh','explain_en','status']
     js = [q for q in js if q.get('status') != 'archived']
     docs = os.path.join(os.path.dirname(HERE), "docs", "data", "questions.json")
     if os.path.isdir(os.path.dirname(docs)):
-        json.dump({'generated':'2026-09-03','count':len(js),'questions':[{k:r[k] for k in keep} for r in js]}, open(docs,"w",encoding="utf-8"), ensure_ascii=False, separators=(',',':'))
+        json.dump({'generated': __import__('datetime').date.today().isoformat(),'count':len(js),'questions':[{k:r[k] for k in keep} for r in js]}, open(docs,"w",encoding="utf-8"), ensure_ascii=False, separators=(',',':'))
     n = len(qrows)-1
     print(f"已略過已刪除條文題目：{DROPPED_DELETED} 題")
+    if DROPPED: print("不在範圍略過：", dict(DROPPED), "共", sum(DROPPED.values()), "題")     # P2
+    if MIXED_DELETED: print("引用條文含已刪除條（請人工確認）：", len(MIXED_DELETED), MIXED_DELETED[:8])
     print(f"OK：{n} 題（{', '.join(f'批次{b}={len(r)}' for b,r in sorted(per_batch.items()))}）")
     print("依法規：", dict(Counter(r[2] for r in qrows[1:])))
     print("依難度：", dict(sorted(Counter(r[7] for r in qrows[1:]).items())))

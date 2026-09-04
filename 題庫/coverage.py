@@ -35,7 +35,9 @@ if __name__ == '__main__':
     cov = covered(); L = laws()
     ids = sys.argv[1:] or sorted(L)
     for lid in ids:
-        zh = L[lid]; arts = articles(zh)
+        zh = L.get(lid)
+        if not zh: print(f'{lid}：不在範圍或不存在'); continue
+        arts = articles(zh)
         miss = [a for a in arts if a not in cov[lid]]
         if sys.argv[1:]:
             print(f"{lid} {zh}：共 {len(arts)} 條，未出題 {len(miss)} 條")
