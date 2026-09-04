@@ -1,8 +1,8 @@
 /* 台灣職安環保知識王 — service worker（離線 app shell）
    快取首頁／app.js／style.css／firebase-config.js／Firebase SDK；題庫本身存在 IndexedDB，不經此快取。
    策略：app shell 以「網路優先、失敗用快取」，確保有網路時永遠拿到最新版；離線時仍可開啟並跟電腦對戰。 */
-const VERSION = 'osh-quiz-v0.9.0';
-const SHELL = ['./', './index.html', './app.js?v=20260904m', './style.css?v=20260904m', './firebase-config.js',
+const VERSION = 'osh-quiz-v0.9.1';
+const SHELL = ['./', './index.html', './app.js?v=20260904n', './style.css?v=20260904n', './firebase-config.js',
   'https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js',
   'https://www.gstatic.com/firebasejs/10.14.1/firebase-auth-compat.js',
   'https://www.gstatic.com/firebasejs/10.14.1/firebase-database-compat.js'];
@@ -16,7 +16,7 @@ self.addEventListener('activate', e => {
 self.addEventListener('fetch', e => {
   const url = new URL(e.request.url);
   if (e.request.method !== 'GET') return;
-  if (url.hostname.includes('script.google.com') || url.hostname.includes('firebaseio.com') || url.hostname.includes('googleapis.com')) return;   // API／即時資料庫不快取
+  if (url.hostname.includes('script.google.com') || url.hostname.includes('firebaseio.com') || url.hostname.includes('firebasedatabase.app') || url.hostname.includes('googleapis.com')) return;   // API／即時資料庫不快取
   e.respondWith(
     fetch(e.request).then(r => {
       if (r && r.ok && (url.origin === location.origin || url.hostname === 'www.gstatic.com')) {

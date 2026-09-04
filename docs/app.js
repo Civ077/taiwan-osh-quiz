@@ -658,7 +658,7 @@ function finish() {
   if (game.finished) return; game.finished = true;
   if (CFG._secSaved) { CFG.secondsPerQuestion = CFG._secSaved; CFG._secSaved = 0; }   // 還原對戰房間覆寫的每題秒數
   const correct = game.log.filter(r => r && r.ok).length;
-  const rec = { uid: FB.uid || 'local', nick: game.nick, score: game.score, correct, n: game.qs.length, date: today(), ts: Date.now() };
+  const rec = { uid: FB.uid || 'local', nick: game.nick, score: game.score, correct, n: game.qs.length, date: today(), ts: now() };
   let result = null;
   if (game.pvp) {
     const p = game.pvp; p.k = game.qs.length; recomputeAll(true);
