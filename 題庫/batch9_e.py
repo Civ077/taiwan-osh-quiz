@@ -19,7 +19,7 @@ Q = [
   "As 20, Cd 18, Cr 150, Cu 200 mg/kg; the Cd value for edible crop farmland is 3.0"],
  "Article 4 table; Article 3 defines mg/kg as total metal per kg of dry soil."),
 
-(SM,"第3條",2,"土壤監測-單位定義",
+(SM,"第2條、第3條",2,"土壤監測-單位定義",
  "本標準所稱毫克／公斤之意義為何？監測值非因外來污染而達標準者如何處理？",
  ["指重金屬全量分析每公斤土壤（乾基）所含污染物毫克數；經具體科學性數據研判非外來污染者，得經中央主管機關同意後不適用",
   "指重金屬溶出試驗每公升溶出液所含污染物毫克數；經具體科學性數據研判非外來污染者，得報請當地環保局核備後免予適用",
@@ -33,7 +33,7 @@ Q = [
   "Total metal per tonne of dry soil in grams; the municipal authority then exempts site investigation"],
  "Articles 2 and 3."),
 
-(SM,"第5條",1,"土壤監測-法源",
+(SM,"第1條、第5條",1,"土壤監測-法源",
  "土壤污染監測標準之訂定依據為何？何者得提出具體科學性數據供中央主管機關作為修正參考？",
  ["依土壤及地下水污染整治法第六條第二項訂定；事業及其所屬公會或環境保護相關團體得提出具體科學性數據供中央主管機關參考",
   "依水污染防治法第三十三條第二項訂定；僅中央目的事業主管機關及直轄市政府得提出科學性數據供中央主管機關修正參考",
@@ -98,7 +98,7 @@ Q = [
   "區域背景水質調查者依水利主管機關公告之井網辦理；污染調查及查證者依事業提報之自主管理計畫按季執行"],"a",
  "第5條：監測項目及頻率依監測目的評估，區域背景水質調查者依歷年水質調查結果檢討及調整；污染調查及查證者視場址污染特性、污染改善進度及調查結果檢討及調整。第2條另定背景因素例外規定。",
  "How are groundwater monitoring items and frequencies determined?",
- ["Background surveys follow past survey results; investigation and verification follow site traits and progress",
+ ["Background surveys follow past survey results; investigation and verification follow site traits, progress and findings",
   "Background surveys are quarterly and investigation work monthly, adjustable only with central approval",
   "Background survey frequency is assigned case by case; investigation frequency scales with the site area",
   "Background surveys follow the water agency well network; investigation follows the filed self-management plan"],
@@ -727,7 +727,7 @@ Q = [
  "Article 10(2)-(3)."),
 
 # ---------- 環境教育人員認證及管理辦法（112/8/11） ----------
-(EE,"第2條",1,"環教人員-分類",
+(EE,"第2條、第3條",1,"環教人員-分類",
  "環境教育人員分為哪二類？環境教育教學人員之專業領域包括哪些？",
  ["分行政人員與教學人員二類；教學人員之專業領域包括學校及社會環境教育、氣候變遷、災害防救、自然保育、公害防治等",
   "分規劃人員與稽查人員二類；教學人員之專業領域包括環境影響評估、環境檢驗、廢棄物清理、水土保持、能源管理等",
@@ -735,9 +735,9 @@ Q = [
   "分專任人員與兼任人員二類；教學人員之專業領域包括國家公園解說、博物館展演、社區營造、生態旅遊、環保志工等"],"a",
  "第2條：環境教育人員分為環境教育行政人員（從事規劃、推廣等行政事項）及環境教育教學人員（從事環境解說、示範及展演等教學事項）。第3條：教學人員專業領域為學校及社會環境教育、氣候變遷、災害防救、自然保育、公害防治、環境及資源管理、文化保存、社區參與及其他公告領域。",
  "Into which two categories are environmental education personnel divided, and what fields do teachers cover?",
- ["Administrative and teaching personnel; fields include school and social education, climate change, disaster response, conservation",
-  "Planning and inspection personnel; fields include impact assessment, testing, waste disposal, soil conservation, energy management",
-  "Junior and senior personnel; fields include education law, environmental ethics, general environment, teaching methods, design",
+ ["Administrative and teaching personnel; fields cover school and social education, climate change, disaster relief, conservation, pollution control",
+  "Planning and inspection personnel; fields include impact assessment, environmental testing, waste disposal, soil conservation, energy management",
+  "Junior and senior personnel; fields include education law, environmental ethics, general environment, teaching methods, course design",
   "Full time and part time personnel; fields include park interpretation, museum display, community building, ecotourism, volunteers"],
  "Articles 2 and 3."),
 
@@ -854,7 +854,7 @@ Q = [
   "The employment insurance standard at twice the minimum wage; disability must fall in grades one to fifteen of the schedule"],
  "Articles 6 and 7."),
 
-(OP,"第8條",2,"職災保護-津貼年限",
+(OP,"第8條、第9條",2,"職災保護-津貼年限",
  "已加保與未加保之職業災害勞工，請領生活津貼、失能生活津貼及看護補助之年限各為何？",
  ["已加保者請領生活津貼、失能生活津貼及看護補助等合計以五年為限；未加保者請領上開各款補助合計以三年為限",
   "已加保者請領生活津貼、失能生活津貼及看護補助等合計以三年為限；未加保者請領上開各款補助合計以五年為限",
@@ -868,7 +868,7 @@ Q = [
   "Insured workers may claim these subsidies for a combined total of two years; uninsured workers for one year"],
  "Articles 8(3) and 9(2)."),
 
-(OP,"第14條",3,"職災保護-鑑定委員會",
+(OP,"第14條、第16條",3,"職災保護-鑑定委員會",
  "職業疾病鑑定委員會之組成人數及第一次書面審查之決議門檻為何？",
  ["置委員十三人至十七人，其中職業疾病專門醫師八人至十二人；第一次書面審查以各委員意見相同者四分之三以上決定",
   "置委員九人至十五人，其中職業疾病專門醫師五人至九人；第一次書面審查以各委員意見相同者三分之二以上決定之",
@@ -924,7 +924,7 @@ Q = [
   "The worker first takes personal leave; the contract is then suspended and back pay is granted only if it is recognized"],
  "Articles 11, 29 and 33."),
 
-(OP,"第33條",2,"職災保護-罰則",
+(OP,"第33條、第34條",2,"職災保護-罰則",
  "雇主違反安置工作等規定，以及未依法為勞工加保而發生職業災害之罰鍰各為何？",
  ["違反第二十七條等規定者通知限期改善並處新臺幣五萬元以上三十萬元以下罰鍰；未依法加保者處應負擔保險費四倍至十倍",
   "違反第二十七條等規定者通知限期改善並處新臺幣三萬元以上十五萬元以下罰鍰；未依法加保者處應負擔保險費二倍至六倍",

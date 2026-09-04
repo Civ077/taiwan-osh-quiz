@@ -274,7 +274,7 @@ Q = [
  ["3 months","2 months","6 months","2 weeks"],
  "Article 14: every three months; Article 15: vehicle lifts at least every three months."),
 
-(GL,"第15-1條",2,"管理辦法-定期檢查",
+(GL,"第15-1條、第15-2條",2,"管理辦法-定期檢查",
  "雇主對高空工作車，應每年實施整體檢查一次外，每多久定期檢查制動裝置、作業裝置及安全裝置一次？",
  ["每月","每週","每三個月","每半年"],"a",
  "第15條之1：高空工作車每年就原動機、動力傳動、走行、操作、制動、作業、油壓、電氣、安全裝置等檢查一次；第15條之2：每月檢查制動裝置離合器操作裝置、作業裝置油壓裝置、安全裝置；第50條之1：每日作業前檢點。",
@@ -346,7 +346,7 @@ Q = [
  ["Year","Month","2 years","3 years"],
  "Article 27: annually, covering corrosion, exhaust devices, ventilation, openings, temperature controls, internal electrics and fuel shut-off devices."),
 
-(GL,"第30條",2,"管理辦法-定期檢查",
+(GL,"第30條、第31條",2,"管理辦法-定期檢查",
  "雇主對高壓電氣設備及低壓電氣設備，應每多久定期檢查一次？",
  ["每年","每月","每季","每二年"],"a",
  "第30條、第31條：高壓及低壓電氣設備應每年檢查受電盤及分電盤動作試驗、用電設備絕緣情形接地電阻及安全設備、自備屋外配電線路。第31條之1：防爆電氣設備應每月檢查。",
@@ -386,7 +386,7 @@ Q = [
  ["100 m³ or 1 tonne","10 m³ or 0.5 tonne","500 m³ or 5 tonnes","1,000 m³ or 10 tonnes"],
  "Article 37: tanks of 100 m³ or 1 tonne or more, settlement measured once a year."),
 
-(GL,"第38條",2,"管理辦法-定期檢查",
+(GL,"第38條、第39條",2,"管理辦法-定期檢查",
  "雇主對特定化學設備或其附屬設備，及化學設備及其附屬設備，應每多久定期檢查一次？",
  ["每二年","每年","每月","每三年"],"a",
  "第38條：特定化學設備或附屬設備每二年檢查內部物質、損傷變形腐蝕、蓋凸緣閥旋塞、安全閥緊急遮斷裝置警報裝置、冷卻攪拌壓縮計測控制性能、備用動力源、配管熔接接頭等。第39條：化學設備及附屬設備亦每二年。第49條：特定化學設備開始使用改造修理時應重點檢查。",
@@ -490,7 +490,7 @@ Q = [
  ["Outside the robot's operating range","Inside the robot's operating range","Outside the control room only","On top of the robot's arm"],
  "Article 60: outside the movement range; items include brakes, emergency stop, guarding interlocks, wiring, power/hydraulic/pneumatic supply, motion and abnormal noise or vibration; collaborative robots also have safety functions confirmed."),
 
-(GL,"第61條",2,"管理辦法-作業檢點",
+(GL,"第61條、第62條",2,"管理辦法-作業檢點",
  "雇主對高壓氣體製造設備及消費設備，應於何時檢點有無異常？",
  ["使用開始前及使用終了後，並一日一次以上就動作狀況檢點","每週一次，並於每月月底就動作狀況實施總檢點","每月一次，由設備管理人員就外觀及洩漏情形檢點","每年一次，於歲修停爐期間就動作狀況實施檢點"],"a",
  "第61條、第62條：高壓氣體製造設備及消費設備應於使用開始前及使用終了後檢點有無異常，且一日一次以上就動作狀況實施檢點。",

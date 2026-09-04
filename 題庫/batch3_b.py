@@ -373,7 +373,7 @@ Q = [
  ["A posted notice board, or hanging usage tags or painting the prescribed identification colors and marks","A warning line at the entrance to the work area, or a daily verbal briefing given by the site supervisor","A posted notice board, or one small sticker attached at each end of the pipeline in place of the labels","Filing the safety data sheet with the labor inspection agency, which then exempts the piping from labeling"],
  "Article 9: notice boards may replace labels for grouped containers, pipelines, chemical equipment (reactors, columns), cooling/mixing/compression equipment and conveyors; piping may use tags or prescribed color codes."),
 
-(HC,"第11條",2,"化學品標示-供應者",
+(HC,"第11條、第13條",2,"化學品標示-供應者",
  "製造者、輸入者或供應者提供危害性化學品與事業單位前，應辦理何事？",
  ["於容器上予以標示，並提供安全資料表","於容器上予以標示，並附送商品保證書","開立統一發票並檢附運送清單即可","以口頭說明危害性，並由買方簽收確認"],"a",
  "第11條：提供危害性化學品與事業單位或自營作業者前，應於容器上予以標示，準用第5至9條規定。第13條：並應提供安全資料表，混合物應依混合後之危害性製作。",

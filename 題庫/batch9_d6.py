@@ -5,7 +5,7 @@ Q = [
 (PM,"第1條",1,"毒化許可-法源",
  "毒性及關注化學物質許可登記核可管理辦法之訂定依據為何？",
  ["毒性及關注化學物質管理法第八條第五項、第十三條第五項及第二十五條第三項","毒性及關注化學物質管理法第九條第二項、第十七條第二項及第二十六條第二項","毒性及關注化學物質管理法第三十九條第三項、第四十條第三項及第四十一條","毒性及關注化學物質管理法第十一條、第二十四條及第二十七條第二項規定"],"a",
- "第1條：本辦法依毒性及關注化學物質管理法（以下簡稱本法）第八條第五項、第十三條第五項及第二十五條第三項規定訂定之。本法第八條規範毒性化學物質之許可證，第十三條規範登記文件，第二十五條則規範關注化學物質之核可文件。",
+ "第1條：本辦法依毒性及關注化學物質管理法（以下簡稱本法）第八條第五項、第十三條第五項及第二十五條第三項規定訂定之。本法第八條第五項係第四類毒性化學物質核可之授權；第十三條第五項係第一類至第三類毒性化學物質許可證、登記與核可之授權；第二十五條第三項則係關注化學物質運作核可之授權。",
  "Under which provisions are these Permit Regulations enacted?",
  ["Articles 8(5), 13(5) and 25(3) of the Toxic and Concerned Chemical Substances Control Act","Articles 9(2), 17(2) and 26(2) of the Toxic and Concerned Chemical Substances Control Act","Articles 39(3), 40(3) and 41 of the Toxic and Concerned Chemical Substances Control Act","Articles 11, 24 and 27(2) of the Toxic and Concerned Chemical Substances Control Act"],
  "Article 1."),

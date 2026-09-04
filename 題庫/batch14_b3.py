@@ -317,10 +317,10 @@ Q = [
 
 ("ENV-223","第13條",1,"土污-施行日期",
  "辦理土壤及地下水污染場址整治目標公聽會作業準則之施行日期為何？",
- ["自發布日施行，未另訂特定之施行日期","自中華民國一百零五年一月二十二日施行","自中華民國一百年十一月十五日起施行","自發布後六個月施行，並溯及既往適用"],"a",
- "第13條：本準則自發布日施行；本準則修正日期為民國105年1月22日，惟施行日仍以發布日認定，與土壤底泥及地下水污染物檢驗測定品質管制準則另定施行日者不同。",
+ ["自發布日施行，未另訂特定之施行日期","自中華民國一百零六年一月一日起施行","自中華民國一百年十一月十五日起施行","自發布後六個月施行，並溯及既往適用"],"a",
+ "第13條：本準則自發布日施行，未另定特定施行日期，修正條文即自發布日起生效；與土壤底泥及地下水污染物檢驗測定品質管制準則第8條另定自一百年十一月十五日施行者不同。",
  "When do these public hearing regulations take effect?",
- ["On the date of promulgation, with no separate effective date set","On January 22 of the Republic of China year 105 (2016)","On November 15 of the Republic of China year 100 (2011)","Six months after promulgation, applying retroactively"],
+ ["On the date of promulgation, with no separate effective date set","On January 1 of the Republic of China year 106 (2017) instead","On November 15 of the Republic of China year 100 (2011)","Six months after promulgation, applying retroactively"],
  "Article 13."),
 
 ]

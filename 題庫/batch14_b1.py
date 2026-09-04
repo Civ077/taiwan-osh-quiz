@@ -398,10 +398,10 @@ Q = [
 
 ("ENV-219","第8條",1,"環境用藥-施行日期",
  "環境用藥標示準則之施行日期規定為何？",
- ["自發布日施行，未另訂特定之施行日期","自中華民國九十五年七月二十四日施行","自發布後六個月施行，並溯及既往適用","自中華民國一百年十一月十五日起施行"],"a",
- "第8條：本準則自發布日施行；本準則修正日期為民國95年7月24日，惟施行日仍以發布日認定。",
+ ["自發布日施行，未另訂特定之施行日期","自中華民國九十七年一月一日起施行","自發布後六個月施行，並溯及既往適用","自中華民國一百年十一月十五日起施行"],"a",
+ "第8條：本準則自發布日施行，未另定特定施行日期；本準則修正發布日期為民國95年7月24日，修正條文即自該發布日起生效。",
  "When do the labelling regulations take effect?",
- ["On the date of promulgation, with no separate effective date set","On July 24 of the Republic of China year 95 (2006) specifically","Six months after promulgation, applying retroactively","On November 15 of the Republic of China year 100 (2011)"],
+ ["On the date of promulgation, with no separate effective date set","On January 1 of the Republic of China year 97 (2008) instead","Six months after promulgation, applying retroactively","On November 15 of the Republic of China year 100 (2011)"],
  "Article 8."),
 
 

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# 第 9 批（D3）：開發行為環境影響評估作業準則（ENV-65）逐條題（第1～30條；第29條已刪除）
+# 第 9 批（D3）：開發行為環境影響評估作業準則（ENV-65）逐條題（第1～61條；第29條已刪除）
 GL = "ENV-65"
 Q = [
 (GL,"第1條",1,"評估準則-法源",
@@ -146,7 +146,7 @@ Q = [
   "內容應依主管機關指定之範本逐項填寫；立論應以顧問機構之專業判斷為準；結論應載明開發單位之承諾事項清單"],"a",
  "第12條：說明書、評估書初稿、評估書內容之編排與陳述應符合下列原則：內容應有焦點，著重於與開發行為有關之結構性與關鍵性環境影響項目；立論應有依據，其單項或綜合之環境影響分析必須有客觀、科學之依據；結論應具體清楚，條理清晰、文字淺顯易懂、內容具體。",
  "What principles govern the arrangement and presentation of EIA documents?",
- ["Focused content on structural and key impact items; conclusions grounded in objective scientific evidence; specific, clear, well-organised and plain-language conclusions",
+ ["Focused content on structural and key impact items; reasoning grounded in objective scientific evidence; specific, clear, well-organised and plain-language conclusions",
   "Exhaustive content covering every environmental item; reasoning may rest on the developer's internal assessment; conclusions kept flexible for later changes and adjustments",
   "Chart-based content with minimal narrative text; reasoning may follow industry custom and rules of thumb; conclusions emphasising economic benefits",
   "Content filled in per the authority's template; reasoning based on the consultancy's professional judgement; conclusions listing the developer's commitments"],
@@ -288,7 +288,7 @@ Q = [
   "應依當地居民陳情之件數及媒體報導之次數等因素，決定是否設置緩衝地帶，如無人陳情者得免設置緩衝地帶亦免訂定任何植樹計畫",
   "應依主管機關指定之固定寬度設置緩衝地帶，其寬度一律不得少於五十公尺，且緩衝地帶內不得種植任何喬木以免影響污染物擴散"],"a",
  "第24條：開發行為可能造成噪音、振動、空氣污染、異味、化學災害、電磁波或游離輻射影響者，應依當地氣象條件、污染之質量、污染控制措施之效率、災害風險與人口聚集社區、村落之距離及其他相關因素，於周界內規劃足敷需要之緩衝地帶並訂定密集植樹計畫，以減輕影響及維持景觀。第52條並就火力發電或汽電共生工程之緩衝地帶另有規定。",
- "How must buffer zones be planned for developments causing noise, pollution or radiation effects?",
+ "How must buffer zones be planned for developments that may cause noise, vibration, air pollution, odour, chemical hazards, electromagnetic waves or ionising radiation effects?",
  ["Plan an adequate buffer zone within the boundary and a dense tree planting plan, based on local weather, pollutant quality and quantity, control efficiency, disaster risk and distance to settlements",
   "Buy suitable land outside the boundary as a buffer zone based on the developer's own finances and land acquisition costs, with the local government handling the greening and later maintenance",
   "Decide whether a buffer is needed from the number of public complaints and media reports; where nobody complains, no buffer zone or tree planting plan is needed at all",
@@ -363,7 +363,7 @@ Q = [
  "開發單位對於基礎開挖與處理、抽沙、填土、高填方或地下深開挖及營運期間之何種現象，應予預測研判？",
  ["可能造成之各種地面沈陷或地下水位變化等現象，並納入環境保護對策","可能造成之各種房價變動或土地徵收爭議等現象，並納入社會經濟分析","可能造成之各種工期延誤或成本增加等現象，並納入財務可行性之評估","可能造成之各種勞工職災或工安事故等現象，並納入勞動安全衛生計畫"],"a",
  "第31條：開發單位對於開發行為因基礎開挖與處理、抽沙、填土、高填方或地下深開挖包含隧道、涵管以及營運期間可能造成之各種地面沈陷或地下水位變化等現象，應予預測研判其可能影響，並納入環境保護對策。第32條並要求預測評估改變地形地貌對下游及鄰近地區排水系統之影響。",
- "What phenomena must be predicted for excavation, sand extraction, filling and deep underground works?",
+ "What phenomena must be predicted for foundation excavation and treatment, sand extraction, filling, high embankment fill or deep underground excavation, and during operation?",
  ["Ground subsidence and groundwater level changes, to be incorporated into environmental protection measures","House price movements and land expropriation disputes, to be incorporated into socio-economic analysis","Schedule delays and cost increases, to be incorporated into the financial feasibility assessment","Occupational injuries and safety incidents, to be incorporated into the labour safety and health plan"],
  "Articles 31 and 32."),
 
@@ -593,7 +593,7 @@ Q = [
   "應由目的事業主管機關代為估算各類廢棄物產生量並規劃處理系統；開發單位僅需提供樓地板面積及床位數等基本資料，且免調查當地合格清除處理機構家數",
   "應於營運滿一年後依實際產生量補行申報即可，規劃階段免予估算；不能自行處理者得暫存於院內指定區域，俟累積達一定數量後再委託合格機構一次清運處理"],"a",
  "第49條：文教建設、醫療建設之開發，凡設有實驗室、解剖室、手術室與感染性事業廢棄物處理設施者，對所產生之廢液、感染性事業廢棄物、污泥及其它廢棄物等，應分別估算產生量，規劃設置分類、貯存、收集運輸及處理系統。不能自行處理者，應檢附合格清除、處理機構之證明文件或調查當地合格清除、處理機構之家數，且註明最終處理（置）地點之容量負荷。",
- "What applies to cultural, educational or medical developments with laboratories or infectious waste facilities?",
+ "What applies to cultural, educational or medical developments with laboratories, dissection rooms, operating theatres or infectious industrial waste treatment facilities?",
  ["Estimate the volumes of waste liquids, infectious industrial waste, sludge and other wastes separately and plan sorting, storage, collection, transport and treatment systems; if unable to treat them, attach licensed operator certificates or survey local operator numbers",
   "Simply add up all waste liquids and infectious wastes as a single total with no sorting, storage, collection or transport system planned; if unable to treat them, the local health authority designates a qualified operator to do so and bears the full cost of the treatment work",
   "Have the industry authority estimate the waste volumes and plan the systems; the developer supplies only floor area and bed numbers and need not survey the number of licensed local operators",
@@ -671,7 +671,7 @@ Q = [
   "開幕期間之促銷活動對同業競爭者造成之市場占有率變化、價格競爭、人才流動等商業影響",
   "營運期間之員工排班對勞動條件造成之工時延長、加班費計算、輪班間隔等勞動權益影響"],"a",
  "第55條：工商綜合區、購物專用區、大型購物中心，或展覽會、博覽會、展示會場，或地下街工程之開發，對於假日或慶典節日所引進之大量人口對周遭地區所造成之交通、停車、廢棄物、噪音、環境衛生等影響，應納入其環境保護對策及緊急應變措施。",
- "What must be included in protection measures for shopping centres and underground malls?",
+ "What must be included in protection measures for commercial complexes, shopping districts, large shopping centres, exhibition venues or underground mall works?",
  ["Traffic, parking, waste, noise and environmental sanitation effects on surrounding areas from the large crowds drawn on holidays and festivals",
   "Falling turnover, vacant shopfronts and declining rents in the surrounding district caused by sparse custom during weekday off-peak hours",
   "Market share shifts, price competition and staff turnover among competitors caused by promotional activities during the opening period",
@@ -685,7 +685,7 @@ Q = [
   "應加強建築物外觀及照明設計，並依地方民意反映強度、民意代表意見、媒體報導頻率等因素決定是否設置緩衝綠帶；對野生動植物有影響之虞者得以繳納生態補償金替代",
   "應加強空氣污染防制設備效能，並依主管機關指定之統一標準於周界內設置固定寬度緩衝綠帶；對野生動植物有影響之虞者應將其全數捕捉遷移至鄰近保護區內予以安置"],"a",
  "第56條：墳墓、靈（納）骨堂（塔）、屠宰場（含人工屠宰場、電動屠宰場）、動物收容所、殯儀館、煤氣廠或經中央主管機關公告對環境有不良影響之虞之開發行為，應加強植栽綠化及視覺景觀之設計，並依可能產生污染之程度、範圍，開發行為基地與人口聚集社區、村落之距離，視覺景觀之影響及其他相關因素，於周界內規劃設置適當緩衝綠帶。對野生植物、動物生態有影響之虞者，其植栽綠化應以原生植種及保護野生動物棲地為主，並評估可能受影響之生物通道及棲息地屏障，規劃配置綠帶。",
- "What applies to cemeteries, slaughterhouses, animal shelters, funeral parlours and gasworks?",
+ "What applies to cemeteries, columbaria, slaughterhouses, animal shelters, funeral parlours and gasworks?",
  ["Strengthen planting and visual design and plan a suitable buffer green belt inside the boundary based on pollution degree and extent, distance to settlements and visual effects; where wildlife may be affected, use native species",
   "Strengthen wall height and access control design and buy suitable buffer land outside the boundary based on land cost, construction difficulty and operating revenue; where wildlife may be affected, fence them off entirely",
   "Strengthen building appearance and lighting design and decide on a buffer belt based on the strength of local opinion, councillors' views and media coverage; where wildlife may be affected, pay ecological compensation",

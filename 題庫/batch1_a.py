@@ -141,10 +141,10 @@ Q = [
 
 (L,"第9條",2,"機械設備",
  "依本法第9條，下列何種產品不得使用安全標示或驗證合格標章？",
- ["已完成資訊申報網站登錄且標示完整之產品","已取得型式驗證合格並張貼合格標章之產品","資訊申報網站登錄逾期或型式驗證逾期之產品","依法免驗證且已完成網站登錄之進口產品"],"c",
+ ["已完成資訊申報網站登錄且標示完整之產品","已取得型式驗證合格並張貼合格標章之產品","資訊申報網站登錄逾期或型式驗證逾期之產品","產銷資料保存完整且登錄仍在有效期間之產品"],"c",
  "第9條第1項：對於未完成資訊申報網站登錄、未取得型式驗證合格、登錄逾期或型式驗證逾期之產品，不得使用安全標示、驗證合格標章或易生混淆之類似標示。",
  "Under Article 9, which product may NOT bear a safety label or certification mark?",
- ["A product that has completed website registration and is fully labeled","A product that has passed type certification and bears a conformity mark","A product whose website registration or type certification has expired","An imported product legally exempt from certification and duly registered"],
+ ["A product that has completed website registration and is fully labeled","A product that has passed type certification and bears a conformity mark","A product whose website registration or type certification has expired","A product with complete sales records and registration still in force"],
  "Article 9(1): safety labels, conformity marks or confusingly similar marks shall not be used on products that have not completed registration, have not passed type certification, or whose registration or certification has expired."),
 
 (L,"第10條",1,"化學品管理",

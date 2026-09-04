@@ -18,7 +18,7 @@ Q = [
   "登錄人指化學物質之實際使用人而不包括製造人及輸入人；代理人應為登錄人之受僱員工且任職滿三年以上者；並應檢具勞保投保證明文件，代理人另檢具其在職證明及主管簽章之授權書影本"],"a",
  "第2條第1項：本辦法所稱登錄人，指依本法第三十條規定應向中央主管機關申請登錄化學物質資料之自然人、法人、設有代表人或管理人之非法人團體、行政機關或其他依法律規定得為權利義務之主體者。第2項：登錄人得委任代理人辦理；代理人應為具有中華民國國籍之自然人或依法設立或登記之法人、機構或團體。第3項：登錄人應檢具身分證明文件、公司登記、商業登記、工廠登記或其他設立相關證明文件，代理人並應檢具經公證或認證之委任書。",
  "Who is a registrant and what qualifications and documents apply to agents?",
- ["A registrant is a natural person, juristic person, unincorporated body, government agency or other rights-bearing entity required to register; agents must be ROC nationals or lawfully established entities; identity and establishment documents are required, and agents must file a notarised power of attorney",
+ ["A registrant is a natural person, juristic person, unincorporated body, government agency or other rights-bearing entity required to register; agents must be ROC nationals or lawfully established entities; identity and establishment documents are required, and agents must file a notarised or authenticated power of attorney",
   "A registrant is only a lawfully registered company or factory, excluding natural persons and government agencies; agents must be foreign nationals or entities lawfully established abroad; financial statements and tax certificates are required, and agents must file a recommendation letter from their foreign parent company",
   "A registrant is only a specific business designated by the central authority; agents must be licensed engineers or accredited consultancies; factory registration and EIA documents are required, and agents must file copies of engineer and practice licences",
   "A registrant is the actual user of the chemical, excluding manufacturers and importers; agents must be employees of at least three years' standing; labour insurance certificates are required, and agents must file employment proof and a signed authorisation"],
@@ -399,10 +399,10 @@ Q = [
 
 (RG,"第32條",1,"化學登錄-施行日期",
  "新化學物質及既有化學物質資料登錄辦法之施行日期規定為何？",
- ["自發布日施行","自六個月後施行","自一百零九年一月十六日施行","自次年一月一日施行"],"a",
+ ["自發布日施行","自六個月後施行","自公告後一年施行","自次年一月一日施行"],"a",
  "第32條：本辦法自發布日施行。本辦法共分五章，第一章總則、第二章新化學物質登錄、第三章既有化學物質登錄、第四章資訊公開與工商機密保護、第五章附則，並訂有附表一至附表十等多項附表。",
  "When do these Registration Regulations take effect?",
- ["On the date of promulgation","Six months after promulgation","From 16 January 2020","On 1 January of the following year"],
+ ["On the date of promulgation","Six months after promulgation","One year after announcement","On 1 January of the following year"],
  "Article 32."),
 # ---END---
 ]

@@ -74,14 +74,14 @@ Q = [
   "Enterprises may apply to relax the criteria values by ten percent"],
  "Article 5 (non-degradation rule)."),
 
-(SW,"第3條",2,"水體分類-附表與檢驗",
+(SW,"第3條、第6條",2,"水體分類-附表與檢驗",
  "陸域地面水體分類之性質、附表一與附表二之內容，以及水質檢驗方法由何機關訂定？",
  ["水體分類係規範適用性質及環境基準，非為限制水體用途；保護生活環境基準列於附表一，保護人體健康基準列於附表二；檢驗方法由中央主管機關訂定公告",
   "水體分類係為限制水體之實際用途而設；保護人體健康基準列於附表一，保護生活環境基準列於附表二；檢驗方法由直轄市、縣（市）主管機關訂定公告",
   "水體分類僅供學術參考而無拘束力；保護生活環境及人體健康基準均合併列於附表一；檢驗方法由目的事業主管機關會商中央主管機關後公告",
   "水體分類係規範水體之所有權歸屬；保護農業用水基準列於附表一，保護水產基準列於附表二；檢驗方法由各該水體之管理機關自行訂定公告"],"a",
  "第3條：陸域地面水體分類係依水體特質規範其適用性質及其相關環境基準，非為限制水體之用途；保護生活環境相關基準如附表一、保護人體健康相關環境基準如附表二。第6條：本標準所列水質之檢驗方法，由中央主管機關訂定公告之。第1條：本標準依水污染防治法第6條第1項訂定。",
- "Articles 3 and 6 provide that classification defines applicable properties (not restrictions on use), with living-environment criteria in Table 1 and human-health criteria in Table 2, and testing methods set by the central competent authority.",
+ "What do Articles 3 and 6 provide on the nature of classification, the content of Tables 1 and 2, and who sets the testing methods?",
  ["Classification defines applicable properties, not restrictions on use; Table 1 living environment, Table 2 human health; methods set by the central competent authority",
   "Classification restricts actual use of the water body; Table 1 human health, Table 2 living environment; methods set by the municipal or county competent authorities",
   "Classification is academic reference only; both criteria are merged in Table 1; methods announced by the industry competent authority after consultation",
@@ -597,7 +597,7 @@ Q = [
  "Article 27, paragraphs 2-3."),
 
 # ---------- 廢棄物清理專業技術人員管理辦法（111/11/29） ----------
-(WT,"第2條",1,"廢清技術人員-資格常駐",
+(WT,"第2條、第3條",1,"廢清技術人員-資格常駐",
  "設施機構設置之廢棄物清理專業技術人員應具備何種資格？其執行業務之常駐規定為何？",
  ["應由經中央主管機關或其委任、委託、委辦其他機關（構）訓練合格並取得合格證書者擔任；並應於勞動基準法所定工作時間內常駐於設施機構",
   "應由具有環境工程相關科系學歷並經技師公會登記有案者擔任；並應於每週至少三個工作日到場巡查設施機構之操作與運作情形",
@@ -667,7 +667,7 @@ Q = [
   "Where not registered for three consecutive years; training completed in the six months before starting; the facility files proof within 60 days of starting"],
  "Article 7, paragraphs 1-2."),
 
-(WT,"第8條",2,"廢清技術人員-在職訓練與廢止",
+(WT,"第7條、第8條",2,"廢清技術人員-在職訓練與廢止",
  "未依規定完成到職訓練並報請備查者之效果，以及在職訓練之規定為何？",
  ["主管機關應廢止其專業技術人員之設置，設施機構應辦理專業技術人員之變更或異動；專業技術人員應參加在職訓練，設施機構不得以任何方式妨礙或禁止",
   "主管機關應處以罰鍰並令限期補行訓練，設施機構得繼續使用該人員執行業務；專業技術人員參加在職訓練應自行負擔費用並利用休假期間為之",

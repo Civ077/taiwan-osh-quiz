@@ -315,7 +315,7 @@ Q = [
   "The capacity utilization of the entrusted party's disposal facility is below fifty percent and it sits idle"],
  "Article 2, subparagraph 7 lists mismatched clearance vehicles and missing proper-clearance documents among the notifiable situations."),
 
-("ENV-59", "第6條", 2, "相當注意義務-認定機關",
+("ENV-59", "第6條、第8條", 2, "相當注意義務-認定機關",
  "涉及跨直轄市、縣（市）之未妥善清理廢棄物事件，由何機關辦理相當注意義務認定？事業未提出說明時如何處理？",
  ["由結果地之直轄市、縣（市）主管機關辦理；認定顯有困難時得以估算認定其分布範圍及數量",
   "由事業所在地之直轄市、縣（市）主管機關辦理；認定顯有困難時應報請中央主管機關逕行認定",
@@ -782,7 +782,7 @@ Q = [
   "At least six part-time testing personnel per laboratory, including one laboratory supervisor and QA/QC staff; at least four where a government agency applies"],
  "Article 5, paragraph 1 requires six full-time personnel, or two where a government agency applies."),
 
-("ENV-97", "第6條", 3, "檢測機構-人員資格",
+("ENV-97", "第6條、第7條", 3, "檢測機構-人員資格",
  "檢驗室主管及品保品管人員所需之檢測經驗年資規定為何？",
  ["主管須檢測經驗五年以上，學士減二年、碩士減三年、博士減四年；品保品管人員須三年以上",
   "主管須檢測經驗三年以上，學士減一年、碩士減二年、博士減三年；品保品管人員須五年以上",

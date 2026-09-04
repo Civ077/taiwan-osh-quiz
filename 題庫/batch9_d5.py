@@ -307,7 +307,7 @@ Q = [
   "應以書面掛號郵寄方式申報；但經中央主管機關同意以網路傳輸申報者，不在此限",
   "應由運作人親自送達主管機關收件；不得以網路傳輸或書面郵寄等方式辦理申報",
   "應以網路傳輸及書面二種方式同時申報；缺一者視為未完成申報而應限期補正"],"a",
- "第8條：運作人依中央主管機關公告格式製作之毒性及關注化學物質運作紀錄表、毒性化學物質釋放量紀錄表，應以網路傳輸方式申報。但經直轄市、縣（市）主管機關同意以書面申報者，不在此限。此與第2條運送管理辦法運送表單之申報方式規定相同，均以網路傳輸為原則、書面申報為例外。",
+ "第8條：運作人依中央主管機關公告格式製作之毒性及關注化學物質運作紀錄表、毒性化學物質釋放量紀錄表，應以網路傳輸方式申報。但經直轄市、縣（市）主管機關同意以書面申報者，不在此限。此與運送管理辦法第2條第3項運送表單之申報方式規定相同，均以網路傳輸為原則、書面申報為例外。",
  "How must operation record and release record forms be filed?",
  ["By online transmission; unless the special municipality or county authority agrees to a paper filing","By registered post in paper form; unless the central authority agrees to online transmission","By the operator delivering them in person; online transmission and postal filing are not allowed","By online transmission and on paper simultaneously; missing either means the filing is incomplete"],
  "Article 8."),

@@ -152,7 +152,7 @@ Q = [
   "年度溫室氣體盤查報告書、碳費繳納證明、自主減量計畫核定函、優惠費率適用證明及廠區配置圖說等文件"],"a",
  "第16條：申請核發自願減量專案減量額度，應上傳監測報告書（含專案活動描述、監測情形說明、減量計算、法規外加性分析）、查驗機構出具之查證總結報告、專案邊界涵蓋參與再生能源電能躉購費率之再生能源發電設備者應檢附溫室氣體減量無重複計算之相關證明，及其他指定文件。第17條並定監測報告書應符合之四項規定。",
  "Which documents must accompany an application for issuance of credits?",
- ["The monitoring report, a verification report from a verifier, proof of no double counting where feed in tariff generators are inside the boundary",
+ ["The monitoring report, a verifier's verification report, proof of no double counting for feed in tariff generators, and other designated documents",
   "The project plan, a validation report from a verifier, the additionality analysis, the impact analysis and replies to public comments",
   "A credit usage plan, the buyer's letter of intent, a price valuation report, the account approval letter and proof of fee payment",
   "The annual emissions inventory report, proof of carbon fee payment, the self reduction plan approval, rate proof and site layout drawings"],

@@ -182,7 +182,7 @@ Q = [
   "密閉測試、槽間監測、噪音振動監測、地表沉陷監測或其他經環評委員會核准之方式；監測人員須為專責人員擔任"],"a",
  "第9條第1項：地下儲槽系統應依密閉測試、土壤氣體監測、地下水監測、槽間監測或其他中央主管機關核准之監測方式之一進行監測並記錄，監測範圍應包含儲槽區、輸送區。第9條第3項：監測人員應由經中央主管機關或委託之機構訓練合格並領有證書之人員為之。第9條第2項：地方主管機關得視地震、地質、迷失電流等因素增加監測頻率並報中央備查；第4項委託監測應於五日前通知。",
  "Which monitoring methods may an underground tank system use, and who may perform them?",
- ["Tightness testing, soil gas, groundwater, interstitial monitoring or another approved method; personnel must be trained and certified",
+ ["Tightness testing, soil gas, groundwater, interstitial monitoring or another centrally approved method; personnel must be trained and certified",
   "Visual patrol, pressure testing, fuel quality testing, book inventory or another locally approved method; any assigned staff may do it",
   "Tightness testing, soil gas, groundwater, air quality monitoring or another industry approved method; personnel must be licensed engineers",
   "Tightness testing, interstitial, noise and vibration, subsidence monitoring or an EIA approved method; only dedicated personnel may do it"],
