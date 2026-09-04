@@ -62,9 +62,19 @@ TOKEN_AR = re.compile(r'\d[\d,]*(?:\.\d+)?')
 ART_REF = re.compile(r'第\s*[\d零○〇一二三四五六七八九十百千兩]+\s*(?:條|項|款|目|章|節|類|級|期|附表|附件)')
 
 
+# 法規原文混用異體字：全形數字０-９、希臘 Ο 與西里爾 О 代替○。不正規化的話
+# 「０‧０五mg/m3」會被讀成 5 而不是 0.05，真的錯答案就可能混過檢查。
+_CN10 = '○一二三四五六七八九'   # ○一二三四五六七八九
+_FW = {ord(c): _CN10[i] for i, c in enumerate('０１２３４５６７８９')}   # 全形數字轉中文數字，才能與中文數字混寫的小數一起解析
+_DOT_BETWEEN_DIGITS = re.compile('(?<=[0-9])' + DOTS + '(?=[0-9])')
+def normalize(t):
+    t = str(t).translate(_FW).replace('Ο', '○').replace('О', '○')
+    return _DOT_BETWEEN_DIGITS.sub('.', t)   # 半形數字之間的．‧˙ 一律當小數點
+
+
 def nums(text, drop_refs=True):
     """取出文字中的數值集合（阿拉伯 + 中文數字），預設先移除「第X條/項/款…」等條號引用。"""
-    t = PCT.sub('', text)
+    t = PCT.sub('', normalize(text))
     if drop_refs:
         t = ART_REF.sub(' ', t)
     out = set()
