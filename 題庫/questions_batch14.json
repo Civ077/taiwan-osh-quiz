@@ -21,7 +21,7 @@
   "answer": "a",
   "explain_zh": "第1條：本準則依空氣污染防制法第八條第五項規定訂定。空污法第八條規範總量管制區內固定污染源排放量之認可與交易，第十二條則為分期分區公告實施總量管制之依據，兩者搭配適用。",
   "explain_en": "Article 1: adopted under Article 8(5) of the Air Pollution Control Act.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -48,7 +48,7 @@
   "answer": "d",
   "explain_zh": "第2條第1項：應自中央主管機關依本法第十二條公告實施總量管制之日起一年內，向地方主管機關申請認可全廠（場）及個別污染源之污染物年排放量。逾期未申請者，依第5條第2項地方主管機關得逕行認可。",
   "explain_en": "Article 2(1): one year from the total quantity control announcement, to the local competent authority.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -75,7 +75,7 @@
   "answer": "d",
   "explain_zh": "第2條第2項：既存固定污染源指公告實施總量管制之日前已設立、已申請設置許可證或已通過環評審查且於通過三年內實施開發行為者。第3項：適用粒狀污染物、硫氧化物、氮氧化物及揮發性有機物四類。",
   "explain_en": "Article 2(2)-(3): pre-announcement sources; four pollutants including particulates, SOx, NOx and VOCs.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -102,7 +102,7 @@
   "answer": "b",
   "explain_zh": "第3條第1項第1、2款：硫氧化物、氮氧化物及揮發性有機物依空氣污染防制費收費辦法計算，粒狀污染物依排放量申報管理辦法計算，均取申請日前七年內完整操作年度之最大年排放量。第3款：使用天然氣等低污染性氣體燃料而無須依收費辦法申報者，得依申報辦法申報之排放量認定。",
   "explain_en": "Article 3(1): fee regulations for SOx/NOx/VOCs, reporting regulations for particulates; maximum annual emission within seven years.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -129,7 +129,7 @@
   "answer": "a",
   "explain_zh": "第3條第2項：資料有疑義、操作時間未達七個完整操作年度，或申請日前七年內實際最大產能未達操作許可證核定百分之八十者，得申請由地方主管機關審查認定。第3項另定已通過環評且於通過三年內開發者，得依環境影響說明書、評估書所載內容及審查結論之排放量認可。",
   "explain_en": "Article 3(2): seven complete operating years, or capacity below 80 percent of the permit.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -156,7 +156,7 @@
   "answer": "b",
   "explain_zh": "第4條：申請應檢具申請表及排放量相關佐證資料，但依第3條第1項規定申請者得免附佐證資料；地方主管機關審查時必要得進行現場勘查。",
   "explain_en": "Article 4: application form and supporting data; Article 3(1) applicants are exempt from supporting data.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -183,7 +183,7 @@
   "answer": "a",
   "explain_zh": "第5條第1項：地方主管機關應於四十五日內完成審查、核發污染物排放量認可文件並通知領取；不符規定者通知限期補正，補正日數不計入審查期間，補正總日數不得超過九十日。",
   "explain_en": "Article 5(1): 45 days for review; supplementation capped at 90 days and excluded from the period.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -210,7 +210,7 @@
   "answer": "a",
   "explain_zh": "第5條第2項：未依規定申請認可或未於期限內補正者，地方主管機關得逕行認可其污染物排放量。第7條就虛偽記載亦有相同之逕行認可效果。",
   "explain_en": "Article 5(2): the local authority may recognize the emissions on its own initiative.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -237,7 +237,7 @@
   "answer": "c",
   "explain_zh": "第6條：認可文件應記載全廠（場）及個別固定污染源之污染物種類、據以認可之年度及其污染物排放量，並得記載其他經地方主管機關記載之事項。",
   "explain_en": "Article 6: pollutant types, reference year and emissions, plant-wide and per source.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -264,7 +264,7 @@
   "answer": "b",
   "explain_zh": "第7條：申請文件或資料有虛偽記載者，地方主管機關應撤銷原認可文件，並得逕行認可污染物排放量，與第5條第2項之逕行認可規定相呼應。",
   "explain_en": "Article 7: revocation of the recognition document plus direct determination of emissions.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -291,7 +291,7 @@
   "answer": "a",
   "explain_zh": "第8條：非屬第2條第1項之既存固定污染源，得準用本準則規定向地方主管機關申請認可其污染物排放量，使未強制適用者亦有取得認可之途徑。",
   "explain_en": "Article 8: such sources may apply to the local authority by analogy.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -318,7 +318,7 @@
   "answer": "a",
   "explain_zh": "第9條：本準則自發布日施行，無另定緩衝期間；申請期限則另依第2條自公告實施總量管制之日起一年內計算。",
   "explain_en": "Article 9: effective upon promulgation.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -345,7 +345,7 @@
   "answer": "c",
   "explain_zh": "第1條：本準則依空氣污染防制法第六條第四項規定訂定。空污法第六條規範三級防制區內既存固定污染源應削減污染物排放量之義務，本準則則具體訂定其適用門檻與改善期限。",
   "explain_en": "Article 1: adopted under Article 6(4) of the Air Pollution Control Act.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -372,7 +372,7 @@
   "answer": "d",
   "explain_zh": "第2條第1項：位於三級防制區內、具備附表所列條件說明之製程，且操作許可證記載任一既存固定污染源氮氧化物年許可排放量達四十公噸以上者，應依本準則削減氮氧化物排放量。",
   "explain_en": "Article 2(1): listed process plus permitted annual NOx of 40 tonnes or more for any single existing source.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -399,7 +399,7 @@
   "answer": "a",
   "explain_zh": "第2條第2項：既存固定污染源係指自本準則發布日前，固定污染源已建造完成、建造中、已完成工程招標程序，或未經招標程序而已訂立工程施作契約者。",
   "explain_en": "Article 2(2): built, under construction, tendered, or under a signed construction contract before promulgation.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -426,7 +426,7 @@
   "answer": "b",
   "explain_zh": "第3條第1項第1款：製程符合附表所列應符合條件者，應檢具最近一年檢測報告或其他足以證明符合附表所列排放管道濃度或削減率之證明文件，併同固定污染源操作許可證展延申請所需檢附資料一併辦理。",
   "explain_en": "Article 3(1)(1): a test report from the past year proving the stack concentration or reduction rate.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -453,7 +453,7 @@
   "answer": "a",
   "explain_zh": "第3條第1項第2款：需增加空氣污染防制設施者，應檢具設施種類、構造、效能、流程、設計圖說、設置經費及進度之空氣污染防制計畫，向審核機關申請核定工程改善所需期限，改善期限不得逾一百十四年六月三十日。第2項：專責處理一般廢棄物之廢棄物焚化處理程序，經報請審核機關核准者不受此限制。",
   "explain_en": "Article 3(1)(2): control plan to the reviewing agency; deadline no later than 30 June of Year 114.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -480,7 +480,7 @@
   "answer": "a",
   "explain_zh": "第4條：本準則自發布日施行。發布日並同時作為第2條第2項既存固定污染源之認定時點。",
   "explain_en": "Article 4: effective upon promulgation.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -507,7 +507,7 @@
   "answer": "b",
   "explain_zh": "第1條：本準則依噪音管制法第十二條第四項規定訂定，就進口及大型客車之噪音驗證核可程序為具體規範。",
   "explain_en": "Article 1: adopted under Article 12(4) of the Noise Control Act.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -534,7 +534,7 @@
   "answer": "b",
   "explain_zh": "第2條第1、2款：加速噪音指機動車輛於一定路程、一定檔位行駛狀態下測出之最大音量；原地噪音指機動車輛於原地在一定引擎轉速下測出之最大音量。第4條並要求測定報告應包括兩者之測定結果。",
   "explain_en": "Article 2(1)-(2): both are maximum measured levels, one while driving, one at rest.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -561,7 +561,7 @@
   "answer": "c",
   "explain_zh": "第2條第3、4款：測定報告指中央主管機關指定之檢驗測定機構檢測符合機動車輛噪音管制標準之測定報告；合格證明指依審驗辦法檢具車型審驗測定車噪音測定報告等文件，送經中央主管機關核發之車型噪音審驗合格證明。",
   "explain_en": "Article 2(3)-(4): designated testing organization; certificate issued by the central competent authority.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -588,7 +588,7 @@
   "answer": "a",
   "explain_zh": "第3條：本準則適用於取得總重量逾三千五百公斤客車及進口機動車輛之合格證明或測定報告者，即以大型客車與進口車輛為規範對象。",
   "explain_en": "Article 3: passenger vehicles over 3,500 kg and imported motor vehicles.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -615,7 +615,7 @@
   "answer": "d",
   "explain_zh": "第4條：測定報告應包括加速噪音及原地噪音之測定結果，兩者定義見第2條第1、2款。",
   "explain_en": "Article 4: acceleration noise and stationary noise.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -642,7 +642,7 @@
   "answer": "c",
   "explain_zh": "第5條第1項：應向中央主管機關檢具申請表、合格證明或測定報告、海關核發之完（免）稅證明書、在國內完成車身打造之柴油客車另附車身打造完稅證明、底盤出廠完稅證明及車身打造廠名冊等文件。第2項：已依電子檔案資料申報傳輸者得免附。第3項：進口商使用所屬公會之合格證明申請時，應由該公會提出申請。",
   "explain_en": "Article 5: filed with the central authority; the association applies when its own certificate is used.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -669,7 +669,7 @@
   "answer": "b",
   "explain_zh": "第6條第1、2項：合格證明所載製造或出口地區、國家與完（免）稅證明書不符者，應檢具原製造廠出具之轉運證明文件；檢具英文以外之外文文件者，應檢具經駐外館處驗證或國內公證人認證之中文譯本。",
   "explain_en": "Article 6(1)-(2): manufacturer's transshipment certificate; authenticated Chinese translation.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -696,7 +696,7 @@
   "answer": "b",
   "explain_zh": "第6條第3、4項：審查資料不符者駁回其申請，符合規定者應於五日內核可；審查時中央主管機關於必要時得進行實車查核。",
   "explain_en": "Article 6(3)-(4): rejection for mismatch; approval within five days; inspection when necessary.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -723,7 +723,7 @@
   "answer": "b",
   "explain_zh": "第7條：公務特殊用途車輛，申請人應檢具目的事業主管機關出具之證明文件，報請中央主管機關核准後，逕行辦理驗證核可。",
   "explain_en": "Article 7: industry authority certificate plus central authority approval.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -750,7 +750,7 @@
   "answer": "b",
   "explain_zh": "第8條：申請人未依審驗辦法規定辦理品質管制測定與申報或完成新車抽驗者，中央主管機關得暫停受理其驗證核可之申請；第9條則另定合格證明遭廢止時之停止發照措施。",
   "explain_en": "Article 8: the central authority may suspend acceptance of applications.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -777,7 +777,7 @@
   "answer": "c",
   "explain_zh": "第9條：依審驗辦法規定廢止合格證明者，中央主管機關應通知公路監理機關，對已驗證核可尚未發給牌照者停止發照。",
   "explain_en": "Article 9: notify the highway supervision authority to halt plate issuance.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -804,7 +804,7 @@
   "answer": "d",
   "explain_zh": "第10條：中央主管機關得委託其他機關（構）辦理驗證核可及代收驗證核可費用之相關事項。",
   "explain_en": "Article 10: the central authority may commission other agencies.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -831,7 +831,7 @@
   "answer": "d",
   "explain_zh": "第11條：本準則自發布日施行，無另定緩衝期間。",
   "explain_en": "Article 11: effective upon promulgation.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -858,7 +858,7 @@
   "answer": "c",
   "explain_zh": "第1條：本準則依飲用水管理條例第十三條第二項規定訂定，規範供水單位申請公告飲用水水質處理藥劑之程序與審查。",
   "explain_en": "Article 1: adopted under Article 13(2) of the Drinking Water Management Act.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -885,7 +885,7 @@
   "answer": "c",
   "explain_zh": "第2條：申請公告飲用水水質處理藥劑之供水單位，應具備自來水事業、社區自設公共給水設備之管理單位或簡易自來水之管理單位資格之一。",
   "explain_en": "Article 2: water supply enterprise, community facility manager, or simplified tap water manager.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -912,7 +912,7 @@
   "answer": "c",
   "explain_zh": "第3條：申請者應填具申請審核表，並檢具申請單位及負責人身分證明、美國、加拿大、日本、紐西蘭、澳洲或歐盟等任一國家准許使用之證明文件、中文物質安全資料表（MSDS）等，各一式十五份。",
   "explain_en": "Article 3: fifteen copies; approval from the US, Canada, Japan, New Zealand, Australia or the EU.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -939,7 +939,7 @@
   "answer": "a",
   "explain_zh": "第3條第4、5款：申請藥劑之基本資料應含中文及英文名稱、化學名稱及化學式、藥劑成分含量、檢驗分析方法；使用說明應含使用目的、方法與時機、建議最高使用劑量、保存期限及保存方式。第7款另要求檢具製造說明。",
   "explain_en": "Article 3(4)-(5): names, chemical formula, contents, analytical methods; purpose, maximum dose, shelf life and storage.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -966,7 +966,7 @@
   "answer": "a",
   "explain_zh": "第4條第1項：應由取得中央主管機關核發許可證具有飲用水檢測類之環境檢驗測定機構或經濟部標準檢驗局，依中央主管機關公告之檢驗方法（NIEA）或中華民國國家標準（CNS）辦理；無相關方法者得引用美國、加拿大、日本、紐西蘭、澳洲或歐盟公告之方法。第2項：國內機構未能出具報告時，得以上開國家已認可之檢驗測定機構報告代之。",
   "explain_en": "Article 4: a licensed drinking-water testing organization or the Bureau of Standards, using NIEA or CNS methods.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -993,7 +993,7 @@
   "answer": "b",
   "explain_zh": "第5條：不純物檢測項目應包括砷、鎘、鉛、汞、鉻、氯仿，及使用作為飲用水水質處理藥劑之國家所規範之品質管制項目；其檢驗依第4條所定機構與方法辦理。",
   "explain_en": "Article 5: arsenic, cadmium, lead, mercury, chromium, chloroform and the using country's control items.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -1020,7 +1020,7 @@
   "answer": "a",
   "explain_zh": "第6條：中央主管機關得邀集相關機關、學者及專家等，審核飲用水水質處理藥劑之申請事宜；審查期間及結果則分別依第7條、第8條辦理。",
   "explain_en": "Article 6: the central authority may convene agencies, scholars and experts.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -1047,7 +1047,7 @@
   "answer": "c",
   "explain_zh": "第7條第1項：文件或資料欠缺者通知限期補正，屆期未補正或補正後仍不合規定者予以退件；文件齊備者應於五十工作日內完成審查，補正日數不算入審查期間。第2項：內容複雜特殊者，通知申請單位後得延長審查期間一次，延長期間以五十工作日為限。",
   "explain_en": "Article 7: fifty working days, extendable once by fifty working days.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -1074,7 +1074,7 @@
   "answer": "a",
   "explain_zh": "第8條：經審查藥劑之成分、不純物、原料及相關製造資料後，認其可作為飲用水水質處理藥劑使用者，由中央主管機關公告之；審查認不宜作為飲用水水質處理藥劑使用者，駁回其申請。",
   "explain_en": "Article 8: announcement by the central authority if suitable, otherwise rejection.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -1101,7 +1101,7 @@
   "answer": "c",
   "explain_zh": "第9條：本準則自發布日施行，無另定緩衝期間。",
   "explain_en": "Article 9: effective upon promulgation.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -1128,7 +1128,7 @@
   "answer": "c",
   "explain_zh": "第1條：本準則依飲用水管理條例第六條第一項規定訂定，規範水源水質不合格時提出改善計畫並經審核後始得繼續作為飲用水水源之程序。",
   "explain_en": "Article 1: adopted under Article 6(1) of the Drinking Water Management Act.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -1155,7 +1155,7 @@
   "answer": "c",
   "explain_zh": "第2條：提出改善計畫者應具備自來水事業、社區自設公共給水設備之管理單位或簡易自來水之管理單位資格之一，與飲用水水質處理藥劑申請公告作業準則第2條之資格規定相同。",
   "explain_en": "Article 2: water supply enterprise, community facility manager, or simplified tap water manager.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -1182,7 +1182,7 @@
   "answer": "d",
   "explain_zh": "第3條第1項：提出改善計畫者應檢具基本資料表、水源水質現況及檢驗報告等資料一式十份，報該目的事業主管機關轉中央主管機關審核，並副知轄區直轄市、縣（市）主管機關。",
   "explain_en": "Article 3(1): ten copies via the industry competent authority to the central authority.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -1209,7 +1209,7 @@
   "answer": "c",
   "explain_zh": "第3條第1項各款：應檢具基本資料表、水源水質現況及檢驗報告、改善工作內容、計畫期程、計畫經費、改善後水質預測、水質監測計畫、改善期間應變措施、預定進度表及需其他機關配合事項。第2項：目的事業主管機關在自來水為中央水利主管機關，在簡易自來水及社區自設公共給水為直轄市、縣（市）政府。",
   "explain_en": "Article 3: ten listed items; central water authority for tap water, local government for the rest.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -1236,7 +1236,7 @@
   "answer": "c",
   "explain_zh": "第4條：中央主管機關得邀集專家、學者、相關機關（構）等審核改善計畫；審核期限依第5條、審核結果依第6條辦理。",
   "explain_en": "Article 4: experts, scholars and relevant agencies may be convened.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -1263,7 +1263,7 @@
   "answer": "a",
   "explain_zh": "第5條：文件或資料有欠缺或不合規定者通知限期補正，屆期未補正者予以退件，但期限屆至前有正當理由報經中央主管機關核准展延者不在此限；文件齊備者應於六十日內完成審核，各項補正日數不計入審核期間內。",
   "explain_en": "Article 5: 60 days for review; correction deadline with possible extension for good cause.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -1290,7 +1290,7 @@
   "answer": "d",
   "explain_zh": "第6條第1項：經審查改善工作內容、期程、水質監測計畫、改善後水質預測、應變措施、預定進度及其他資料後，認其水質可改善者始得繼續作為飲用水之水源；審查未能改善者駁回其申請。",
   "explain_en": "Article 6(1): continued use as a drinking water source if improvable, otherwise rejection.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -1317,7 +1317,7 @@
   "answer": "c",
   "explain_zh": "第6條第2項：經審查核可者應依改善計畫執行，並每三個月填報計畫執行進度表，送中央主管機關備查，並副知轄區直轄市、縣（市）主管機關。",
   "explain_en": "Article 6(2): quarterly progress reports to the central authority, copying the local authority.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -1344,7 +1344,7 @@
   "answer": "d",
   "explain_zh": "第7條：本準則自發布日施行，無另定緩衝期間。",
   "explain_en": "Article 7: effective upon promulgation.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -1371,7 +1371,7 @@
   "answer": "d",
   "explain_zh": "第1條：本準則依氣候變遷因應法第十八條第三項規定訂定。氣候法第十八條課予各級政府進行氣候變遷風險評估並據以研擬調適方案之義務，本準則規範其作業程序。",
   "explain_en": "Article 1: adopted under Article 18(3) of the Climate Change Response Act.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -1398,7 +1398,7 @@
   "answer": "d",
   "explain_zh": "第2條第1、2款：氣候變遷風險評估指對氣候變遷風險進行量化或質化之科學評估，並考量危害度、暴露度及脆弱度等風險要素之關聯影響；衝擊指極端天氣、氣候事件及氣候變遷趨勢對於自然、人類系統之影響，即氣候危害及暴露對象交互作用後所衍生之後果。",
   "explain_en": "Article 2(1)-(2): scientific assessment of hazard, exposure and vulnerability; impact on natural and human systems.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -1425,7 +1425,7 @@
   "answer": "a",
   "explain_zh": "第2條第3至5款：危害度指自然或人為導致之氣候危害事件嚴重度或變化趨勢，可能加劇暴露對象之不利影響；暴露度指實際或可能受衝擊之暴露對象存在之規模或程度；脆弱度指暴露對象易受負面影響之程度，包括敏感程度、易致受損程度及缺乏應對、調適之能力。",
   "explain_en": "Article 2(3)-(5): hazard severity, scale of exposed objects, and degree of susceptibility.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -1452,7 +1452,7 @@
   "answer": "a",
   "explain_zh": "第2條第6至8款：調適應用情境指為有助各級政府執行氣候變遷風險評估，設定一致之氣候情境，就各易受氣候變遷衝擊領域進行衝擊模擬、風險評估及調適規劃；調適差距指評估暴露對象於現況與未來氣候變遷風險評估結果之落差；高風險地區指高暴露度、高脆弱度及易受氣候危害影響之地理空間範圍。",
   "explain_en": "Article 2(6)-(8): consistent climate scenario, gap between current and future results, and high exposure and vulnerability areas.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -1479,7 +1479,7 @@
   "answer": "b",
   "explain_zh": "第2條第9、10款：調適選項指可應用於降低調適差距且具氣候調適之策略、措施及行動；調適障礙指阻礙調適行動規劃、實施或降低其成效之因素，可能涉及物理、生態、技術、經濟、社會、文化、制度、治理或資訊等面向。第11條第3款要求彙整執行過程之調適障礙並提出解決方案。",
   "explain_en": "Article 2(9)-(10): options reduce the adaptation gap; barriers obstruct planning, implementation or effectiveness.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -1506,7 +1506,7 @@
   "answer": "a",
   "explain_zh": "第3條：各級政府規劃、執行調適方案時，應依本準則規定使用氣候變遷科學報告進行氣候變遷風險評估；第7條第1款及第11條第4款並要求使用當期科學報告並參採最新國內外研究。",
   "explain_en": "Article 3: the climate change science report must be used.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -1533,7 +1533,7 @@
   "answer": "b",
   "explain_zh": "第4條：各級政府辦理氣候變遷風險評估，應包括界定範疇、檢視資源及氣候衝擊現況、評估未來氣候變遷風險三事項，其具體作法分別規定於第5條至第7條。",
   "explain_en": "Article 4: scope definition, review of resources and current impacts, and future risk assessment.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -1560,7 +1560,7 @@
   "answer": "a",
   "explain_zh": "第5條：界定範疇應辦理確認易受氣候變遷影響對象、對應之業務範疇及權責機關；評估該對象之氣候危害類型、可能受影響之時間、空間尺度及範圍；並邀集有關機關、學者、專家、民間團體共同界定評估範疇。",
   "explain_en": "Article 5: identify objects and agencies, assess hazard types and scales, and convene stakeholders.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -1587,7 +1587,7 @@
   "answer": "d",
   "explain_zh": "第6條第1款：應盤點權責機關及易受氣候變遷影響對象之可掌握資源，包括權責機關之知識、技術、人力、財務等能力建構情形，及可投入有關氣候變遷風險評估及調適計畫等調適管理機制之資源。",
   "explain_en": "Article 6(1): inventory capacity building and resources for adaptation management.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -1614,7 +1614,7 @@
   "answer": "a",
   "explain_zh": "第6條第2、3款：評估氣候衝擊現況之評估項目包括危害度、暴露度及脆弱度，評估結果應含易受氣候變遷影響對象之影響程度或其空間分布情形；並應規劃權責機關及易受影響對象屬性之質化、量化或綜合之衝擊評估方法。",
   "explain_en": "Article 6(2)-(3): hazard, exposure and vulnerability, plus qualitative or quantitative methods.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -1641,7 +1641,7 @@
   "answer": "a",
   "explain_zh": "第7條第1、2款：應使用當期氣候變遷科學報告，並參採最新國內外科學研究機構及政府單位之氣候變遷科學資訊與知識相關報告及建議，以調適應用情境評估未來衝擊或風險；並依第6條第2款評估結果及第3款評估方法進行未來風險評估，辨識調適差距或指認高風險地區。",
   "explain_en": "Article 7(1)-(2): current science report, adaptation scenarios, identification of gaps and high risk areas.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -1668,7 +1668,7 @@
   "answer": "b",
   "explain_zh": "第7條第3款：應邀集有關機關、學者、專家、民間團體，共同檢視調適差距或指認高風險地區之合理性；此與第5條第3款共同界定評估範疇之外部參與要求相呼應。",
   "explain_en": "Article 7(3): joint review by agencies, scholars, experts and civil groups.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -1695,7 +1695,7 @@
   "answer": "b",
   "explain_zh": "第8條：各級政府進行風險評估後，於研擬、推動調適方案及策略時，應辦理調適選項規劃及綜整決策、推動或執行調適選項、檢討或修正調適選項；其原則分別規定於第9條至第11條。",
   "explain_en": "Article 8: planning and integration, implementation, and review or revision of adaptation options.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -1722,7 +1722,7 @@
   "answer": "c",
   "explain_zh": "第9條第1項：調適選項規劃及綜整決策之原則為以降低調適差距為目標擬訂調適選項及推動期程、評估調適選項之有效性、可行性及可能之負面影響、評估優先執行之調適選項。第2、3項另定得評估附加效益及參考有關機關、學者、專家及民間團體意見。",
   "explain_en": "Article 9: reduce the adaptation gap, assess effectiveness and feasibility, and prioritize options.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -1749,7 +1749,7 @@
   "answer": "d",
   "explain_zh": "第10條：推動或執行調適選項之原則包括調適選項推動期程之符合程度、建立量化評估指標作為評估調適選項或計畫執行成效之依據；無法建立指標者，得透過訪談相關團體、諮詢專家等方式協助檢視調適執行成效。",
   "explain_en": "Article 10: schedule conformity, quantitative indicators, and interviews or expert consultation as a fallback.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -1776,7 +1776,7 @@
   "answer": "c",
   "explain_zh": "第11條：檢討或修正調適選項之原則包括降低調適差距之執行情形、評估跨領域調適策略政策或計畫之潛在正負面影響、彙整執行過程之調適障礙並提出未來解決方案，以及使用當期氣候變遷科學報告並參採最新國內外研究，滾動進行氣候變遷風險評估作為修正依據。",
   "explain_en": "Article 11: gap-closing progress, cross-sector effects, barriers and solutions, and rolling reassessment.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -1803,7 +1803,7 @@
   "answer": "c",
   "explain_zh": "第12條：本準則自發布日施行，無另定緩衝期間。",
   "explain_en": "Article 12: effective upon promulgation.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -1830,7 +1830,7 @@
   "answer": "c",
   "explain_zh": "第1條：本準則依環境用藥管理法第十五條第二項規定訂定，規範環境用藥原體轉讓之受讓人資格、申請方式與期限。",
   "explain_en": "Article 1: adopted under Article 15(2) of the Environmental Agents Control Act.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -1857,7 +1857,7 @@
   "answer": "b",
   "explain_zh": "第2條：原體轉讓之受讓人以環境用藥販賣業，或領有與該原體相同有效成分之環境用藥製造許可證之環境用藥製造業者為限，以確保受讓人具備合法使用該原體之資格。",
   "explain_en": "Article 2: an environmental agent vendor or a manufacturer licensed for the same active ingredient.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -1884,7 +1884,7 @@
   "answer": "a",
   "explain_zh": "第3條：原體之轉讓以許可申請及個案申請兩種方式向中央主管機關申請；許可申請係併同環境用藥許可證申請或展延辦理，個案申請則於每次轉讓或受讓原體前申請核准。",
   "explain_en": "Article 3: licence-based application and case-by-case application, both to the central authority.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -1911,7 +1911,7 @@
   "answer": "c",
   "explain_zh": "第3條第1款：未領有原體製造或輸入許可證之環境用藥製造業者，於申請環境用藥許可證或展延時，檢具經原體製造或輸入許可證持有者加蓋公司及負責人印章之該許可證影本，併同辦理。第2款：個案申請係製造業或販賣業者於每次轉讓或受讓原體前申請核准。",
   "explain_en": "Article 3(1)-(2): licence copy with seals filed with the agent licence application; case applications precede each transfer.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -1938,7 +1938,7 @@
   "answer": "d",
   "explain_zh": "第4條：個案申請應檢具環境用藥製造業受讓人之環境用藥製造許可證字號、品名、有效成分及含量、原體需求量，以及原體持有者所持有原體之許可證字號、品名、有效成分及含量、原體轉讓數量及原體製造日期。",
   "explain_en": "Article 4: licence numbers, product names, active ingredients, quantities and manufacturing date.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -1965,7 +1965,7 @@
   "answer": "c",
   "explain_zh": "第5條：依第4條規定申請核准轉讓之原體，應於核准日起三個月內完成轉讓，逾期即不得再依該次核准辦理轉讓。",
   "explain_en": "Article 5: within three months of approval.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -1992,7 +1992,7 @@
   "answer": "d",
   "explain_zh": "第6條：未依第4條規定檢具申請資料者，應通知限期補正；補正期限以一個月為限，屆期未補正者逕予退件。此與環境用藥專供輸出申請作業準則第4條第2項之補正規定相同。",
   "explain_en": "Article 6: one-month correction period, otherwise return of the application.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -2019,7 +2019,7 @@
   "answer": "a",
   "explain_zh": "第7條：本準則自發布日施行，無另定緩衝期間。",
   "explain_en": "Article 7: effective upon promulgation.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -2046,7 +2046,7 @@
   "answer": "a",
   "explain_zh": "第1條：本準則依環境用藥管理法第十六條第一項規定訂定，規範製造、加工專供輸出環境用藥之申請資格與應檢文件。",
   "explain_en": "Article 1: adopted under Article 16(1) of the Environmental Agents Control Act.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -2073,7 +2073,7 @@
   "answer": "a",
   "explain_zh": "第2條：申請製造、加工專供輸出環境用藥，以持有與該專供輸出藥劑相同劑型之環境用藥製造許可證之環境用藥製造業者為限。第4條並要求檢具製造許可證影本。",
   "explain_en": "Article 2: a manufacturer licensed for the same dosage form.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -2100,7 +2100,7 @@
   "answer": "c",
   "explain_zh": "第3條：申請製造、加工專供輸出之環境用藥，不得含有本法公告禁用之成分；即使產品專供輸出而不於國內販售，仍受禁用成分之限制。",
   "explain_en": "Article 3: no ingredients banned under the Act.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -2127,7 +2127,7 @@
   "answer": "a",
   "explain_zh": "第4條第1項：應檢具環境用藥製造許可證影本、登載主要產品之工廠登記文件影本、國外買方訂購文件正本（含外國廠商名稱及地址、藥劑外文品名、有效成分、數量、劑型、內容量），以及專供輸出環境用藥之外文品名、各成分及含量、劑型、內容量、數量。",
   "explain_en": "Article 4(1): manufacturing licence copy, factory registration copy, original buyer order, and product particulars.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -2154,7 +2154,7 @@
   "answer": "c",
   "explain_zh": "第4條第2項：未依前項規定檢具申請文件或資料者，應通知限期補正；補正期限以一個月為限，屆期未補正者逕予退件，與環境用藥原體轉讓申請作業準則第6條之規定一致。",
   "explain_en": "Article 4(2): one-month correction period, otherwise return of the application.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -2181,7 +2181,7 @@
   "answer": "a",
   "explain_zh": "第5條：經核准製造、加工專供輸出環境用藥者，應按月記錄製造、加工、輸出量；其記錄及紀錄保存準用本法第二十四條之規定。",
   "explain_en": "Article 5: monthly records, retained under Article 24 of the Act by analogy.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -2208,7 +2208,7 @@
   "answer": "d",
   "explain_zh": "第6條：本準則自發布日施行，無另定緩衝期間。",
   "explain_en": "Article 6: effective upon promulgation.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -2235,7 +2235,7 @@
   "answer": "a",
   "explain_zh": "第1條：本準則依環境用藥管理法第二十三條第一項規定訂定。母法第二十三條規範專供試驗研究、教育示範、專案防治或登記用環境用藥之申請核准；本準則第6條並定自發布日施行。",
   "explain_en": "Article 1: enacted under Article 23, paragraph 1 of the parent Act.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -2262,7 +2262,7 @@
   "answer": "b",
   "explain_zh": "第2條：申請專供試驗研究、教育示範、專案防治或登記用之環境用藥，不得含有依本法第七條公告禁用之成分；僅專供實驗室內試驗研究者例外不受限制。第3條並限定得申請之資格條件。",
   "explain_en": "Article 2: banned ingredients are prohibited except for use solely inside a laboratory.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -2289,7 +2289,7 @@
   "answer": "d",
   "explain_zh": "第2條但書：僅專供實驗室內試驗研究者，不受禁用成分限制；教育示範、專案防治及登記用均無此例外。",
   "explain_en": "Article 2 proviso: only laboratory research is exempt.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -2316,7 +2316,7 @@
   "answer": "c",
   "explain_zh": "第3條第1款：試驗研究或教育示範之申請者，限公、私立學術或研究機構或行政機關；第2款專案防治限行政機關；第3款登記用限製造業或從事輸入之販賣業。",
   "explain_en": "Article 3, subparagraph 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -2343,7 +2343,7 @@
   "answer": "a",
   "explain_zh": "第3條：專案防治之申請者限行政機關（第2款）；申請登記用者限環境用藥製造業或從事輸入行為之環境用藥販賣業（第3款）。第4條另規定製造時之委託對象。",
   "explain_en": "Article 3, subparagraphs 2 and 3.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -2370,7 +2370,7 @@
   "answer": "a",
   "explain_zh": "第4條：製造專供試驗研究、教育示範、專案防治所使用之環境用藥，應委託持有相同劑型環境用藥製造許可證之環境用藥製造業者為之，不得自行製造或委託無同劑型許可證者。",
   "explain_en": "Article 4: entrustment to a same-dosage-form permit holder is required.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -2397,7 +2397,7 @@
   "answer": "d",
   "explain_zh": "第5條第1項：申請書表及應檢具資料內容應依中央主管機關所定網路傳輸方式為之；但經中央主管機關同意以書面申請者，不在此限。",
   "explain_en": "Article 5, paragraph 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -2424,7 +2424,7 @@
   "answer": "d",
   "explain_zh": "第5條第2項：申請書表及資料內容有欠缺或不符規定者，經通知限期補正，屆期未補正者逕予退件；其補正期限以一個月為限。與環境用藥許可證準則之九十日補正期限不同。",
   "explain_en": "Article 5, paragraph 2: one month, then return of the case.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -2451,7 +2451,7 @@
   "answer": "a",
   "explain_zh": "第6條：本準則自發布日施行。與毒性及關注化學物質事故調查處理報告作業準則定有特定施行日期者不同。",
   "explain_en": "Article 6: effective upon promulgation.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -2478,7 +2478,7 @@
   "answer": "b",
   "explain_zh": "第1條：本準則依環境用藥管理法第十條第一項規定訂定。母法第十條規範環境用藥許可證之申請；同法第十一條第一項則為販賣業及病媒防治業許可執照準則之依據。",
   "explain_en": "Article 1: enacted under Article 10, paragraph 1 of the Act.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -2505,7 +2505,7 @@
   "answer": "d",
   "explain_zh": "第2條：製造、加工或輸入環境用藥者，應檢具申請書及附件一之證明文件、資料，向中央主管機關申請環境用藥許可證。第3條另定應以網路申辦為原則。",
   "explain_en": "Article 2: central competent authority, with Appendix 1 documents.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -2532,7 +2532,7 @@
   "answer": "d",
   "explain_zh": "第3條：申請許可證應以網路申辦方式為之；但經中央主管機關同意以書面申請者，不在此限。第18條規定展延或變更許可證之申請方式亦依第3條辦理。",
   "explain_en": "Article 3: online filing is the rule.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -2559,7 +2559,7 @@
   "answer": "b",
   "explain_zh": "第4條第1款：第二條、第十六條及第十七條應檢具之證明文件以外文作成者須附中文譯本，但證明文件為英文者免附。第2款另規定資料應依申請書格式以中文填寫。",
   "explain_en": "Article 4, subparagraph 1: English documents need no translation.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -2586,7 +2586,7 @@
   "answer": "d",
   "explain_zh": "第4條第2款：資料應依申請書之格式及內容以中文填寫，並附原廠相關資料；此與第1款證明文件須附中文譯本之規定並列適用。",
   "explain_en": "Article 4, subparagraph 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -2613,7 +2613,7 @@
   "answer": "c",
   "explain_zh": "第5條第1項第1款：檢具之證明文件、資料有欠缺或不合規定者，經通知補正，屆期未補正或補正次數逾三次者，駁回其申請並退件；每次補正期間以九十日為限。",
   "explain_en": "Article 5, paragraph 1, subparagraph 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -2640,7 +2640,7 @@
   "answer": "a",
   "explain_zh": "第5條第1項第2款及第2項：未繳納審查費者逕予駁回其申請並退件；審查符合規定者，應於完成審查後十四日內通知申請者。第18條規定展延、變更之審查程序亦依第5條辦理。",
   "explain_en": "Article 5, paragraph 1, subparagraph 2, and paragraph 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -2667,7 +2667,7 @@
   "answer": "d",
   "explain_zh": "第5條第1項前段：中央主管機關受理許可證申請之審查，其審查範圍不得及於申請內容以外之事項，並不得以任何形式之處分增加法規未明定之義務。第11條授權更正顯然錯誤。",
   "explain_en": "Article 5, paragraph 1, opening text.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -2694,7 +2694,7 @@
   "answer": "d",
   "explain_zh": "第6條第1款：須在專業安全防護措施下使用者，為特殊環境衛生用藥；其餘尚有須以噴藥機械施用、殺菌劑有效成分濃度大於附件二等情形。",
   "explain_en": "Article 6, subparagraph 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -2721,7 +2721,7 @@
   "answer": "a",
   "explain_zh": "第6條第3款、第4款：環境衛生用殺菌劑有效成分濃度大於附件二者屬特殊環境衛生用藥；其劑型種類未列於附件二而濃度在百分之五以上者亦同。",
   "explain_en": "Article 6, subparagraph 4: 5 percent or more.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -2748,7 +2748,7 @@
   "answer": "d",
   "explain_zh": "第6條第2款：須以噴霧機、煙霧機、冷霧機、消毒機、超低容量機（ULV）或其他噴藥機械等機具施用者，為特殊環境衛生用藥；第7條並得對特殊性質藥劑加以限制。",
   "explain_en": "Article 6, subparagraph 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -2775,7 +2775,7 @@
   "answer": "a",
   "explain_zh": "第7條第1項：具有特殊性質之環境用藥，得限制其環境用藥種類、品類、品名、內容量、劑型、成分及含量、性能、適用範圍或使用方法。第2項另定殺鼠劑應添加苦味劑。",
   "explain_en": "Article 7, paragraph 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -2802,7 +2802,7 @@
   "answer": "d",
   "explain_zh": "第7條第2項：一般環境用藥殺鼠劑應添加苦味劑，但有特殊性質者不在此限。此規定旨在避免誤食中毒，與第14條毒性分類不予核發之例外規定相呼應。",
   "explain_en": "Article 7, paragraph 2: bittering agent, with a special-properties proviso.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -2829,7 +2829,7 @@
   "answer": "d",
   "explain_zh": "第8條：有效成分於國內首次申請登記為環境用藥者，應提供任一已開發國家主管機關出具之許可或登記證明文件；但國內自行開發之藥劑不在此限。",
   "explain_en": "Article 8, with an exemption for domestically developed agents.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -2856,7 +2856,7 @@
   "answer": "b",
   "explain_zh": "第9條第1項：申請輸入許可證應檢具經我國駐外單位驗證之出產國主管機關許可製造及上市販賣證明文件，以及經銷授權書。第10條另定大陸地區文書之公證驗證程序。",
   "explain_en": "Article 9, paragraph 1, subparagraphs 1 and 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -2883,7 +2883,7 @@
   "answer": "a",
   "explain_zh": "第9條第2項：出產國主管機關如出具僅供輸出之製造證明文件者，應另提供任一已開發國家主管機關出具之該產品登記或許可證明文件；出產國無登記許可制度者，得以不列管證明代之。",
   "explain_en": "Article 9, paragraph 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -2910,7 +2910,7 @@
   "answer": "c",
   "explain_zh": "第9條第3項：出產國無登記許可制度且主管機關不出具證明文件者，應提具產品管理相關機關（構）之製造、販賣證明文件，或已於出產國及他國銷售使用之商品化證明文件；該文件毋須經我國駐外單位驗證。",
   "explain_en": "Article 9, paragraph 3: consular authentication is not required.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -2937,7 +2937,7 @@
   "answer": "b",
   "explain_zh": "第10條：大陸地區製作之許可製造及上市販賣證明、經銷授權書、正式登記證影本、毒理測試報告、藥效檢測報告等文書，應先於大陸地區公證處辦理公證，並經行政院大陸委員會設立或指定之機構或委託之民間團體驗證。",
   "explain_en": "Article 10.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -2964,7 +2964,7 @@
   "answer": "d",
   "explain_zh": "第10條第3款至第5款：大陸地區主管機關核發之正式登記證影本、毒理測試報告、藥效（效力）檢測報告，均須先公證再經驗證；另包括許可製造販賣證明、經銷授權書及不列管證明。",
   "explain_en": "Article 10, subparagraphs 3 to 5.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -2991,7 +2991,7 @@
   "answer": "a",
   "explain_zh": "第11條第1項：許可證應登記許可證字號、廠商名稱地址負責人、製造廠名稱地址、種類及品類、品名、產品有效期限、性能、劑型及內容量、成分及含量、發證日期及有效期間等；營業場所面積及土地分區非登記事項。",
   "explain_en": "Article 11, paragraph 1 lists the registered items.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -3018,7 +3018,7 @@
   "answer": "b",
   "explain_zh": "第11條第1項第6款及第10款：許可證應登記產品有效期限，以及許可證發證日期及有效期間。第15條並定許可證有效期間為五年。",
   "explain_en": "Article 11, paragraph 1, subparagraphs 6 and 10.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -3045,7 +3045,7 @@
   "answer": "a",
   "explain_zh": "第11條第2項：中央主管機關發現核發之許可證有誤寫或其他類此顯然錯誤者，得隨時更正之，並通知限期換領許可證。販賣業準則第4條第3項對許可執照亦有相同機制。",
   "explain_en": "Article 11, paragraph 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -3072,7 +3072,7 @@
   "answer": "a",
   "explain_zh": "第12條第1款：以次氯酸及其鹽類、亞氯酸鈉為單一有效成分，其濃度在百分之六以下者，免申請許可證；另有漂白粉及特定原體之免申請規定。",
   "explain_en": "Article 12, subparagraph 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -3099,7 +3099,7 @@
   "answer": "a",
   "explain_zh": "第12條第2款、第3款：漂白粉有效氯濃度在百分之四十以下者免申請許可證；次氯酸及其鹽類、亞氯酸鈉、二氧化氯、硼砂（酸）原體亦免申請。",
   "explain_en": "Article 12, subparagraphs 2 and 3.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -3126,7 +3126,7 @@
   "answer": "b",
   "explain_zh": "第13條：作為環境防蟲、防鼠或誘引用途而不具殺蟲作用之天然物質產品，申請人檢具附件三之文件、資料供中央主管機關審核通過後，免申請許可證；但天然除蟲菊精類仍應依第2條申請。",
   "explain_en": "Article 13, with a proviso for natural pyrethrins.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -3153,7 +3153,7 @@
   "answer": "c",
   "explain_zh": "第14條第1款：環境用藥之毒性屬世界衛生組織殺蟲劑口服或皮膚毒性分類（附件四）為高毒、極毒者不予核發許可證，但殺鼠劑及污染防治用藥不在此限。",
   "explain_en": "Article 14, subparagraph 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -3180,7 +3180,7 @@
   "answer": "c",
   "explain_zh": "第14條第2款：申請者已持有相同成分種類之許可證，且其來源為同一製造廠者，不予核發；此外尚有毒性過高、成分效能重複、品名重複及有危害健康之虞等不予核發事由。",
   "explain_en": "Article 14, subparagraph 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -3207,7 +3207,7 @@
   "answer": "b",
   "explain_zh": "第14條第3款：環境用藥含二種以上效能相同之有效成分者不予核發；但殺菌劑，或經證明有增加不同效能者，不在此限。第4款另定品名重複或以有效成分中文名稱為品名者不予核發。",
   "explain_en": "Article 14, subparagraph 3.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -3234,7 +3234,7 @@
   "answer": "b",
   "explain_zh": "第1條：本準則依環境用藥管理法第二十七條第二項規定訂定，據以規範環境用藥標示之項目與變更程序；第8條並定自發布日施行。",
   "explain_en": "Article 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -3261,7 +3261,7 @@
   "answer": "b",
   "explain_zh": "第2條第1項前段：環境用藥之標示文字應以中文為之，必要時得輔以外文；其標示項目共十四款，自環境用藥字樣至產品有效期限。",
   "explain_en": "Article 2, paragraph 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -3288,7 +3288,7 @@
   "answer": "b",
   "explain_zh": "第2條第1項：應標示項目包括環境用藥字樣、警示圖案或警語、許可證字號、品名、有效成分及含量、性能、劑型及內容量、適用範圍及使用方法、使用及儲藏注意事項、中毒症狀急救及解毒方法、廢容器回收清理方式、廠商名稱地址電話、製造日期及批號、產品有效期限。",
   "explain_en": "Article 2, paragraph 1, subparagraphs 10 and 11.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -3315,7 +3315,7 @@
   "answer": "a",
   "explain_zh": "第2條第2項：所稱廠商指製造廠商或輸入廠商；輸入之環境用藥應加註原製造廠國別、名稱及地址。第2條第1項第12款並要求標示廠商名稱、地址及電話號碼。",
   "explain_en": "Article 2, paragraph 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -3342,7 +3342,7 @@
   "answer": "c",
   "explain_zh": "第3條：環境用藥字樣包括一般環境衛生用藥、特殊環境衛生用藥或環境衛生用藥原體；污染防治用藥；一般環境用藥微生物製劑、特殊環境用藥微生物製劑或環境用藥微生物製劑原體。",
   "explain_en": "Article 3, subparagraph 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -3369,7 +3369,7 @@
   "answer": "b",
   "explain_zh": "第4條：第2條第1項第2款所稱警示圖案或警語，依環境衛生用藥、環境用藥微生物製劑原體之毒性及產品特性分類，標示警示圖案或顏色（如附件）；污染防治用藥標示警示圖案或警語，參照聯合國化學品標示規定。",
   "explain_en": "Article 4.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -3396,7 +3396,7 @@
   "answer": "c",
   "explain_zh": "第5條第1項：品名、性能、廠商名稱及地址三項標示變更，自核准變更後其製造或輸入應即使用變更後之標示內容，不得使用庫存之原標示。",
   "explain_en": "Article 5, paragraph 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -3423,7 +3423,7 @@
   "answer": "a",
   "explain_zh": "第5條第2項：第1項規定以外之變更標示，有庫存原標示者，於核准變更後六個月內仍得使用；品名、性能、廠商名稱地址之變更則無此緩衝期。",
   "explain_en": "Article 5, paragraph 2: six months.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -3450,7 +3450,7 @@
   "answer": "c",
   "explain_zh": "第6條：第2條規定項目以外之文字或圖案，不得有與核准標示內容不符、誇大虛偽不實、有致消費者誤信之虞、違背公共秩序或善良風俗等情形。",
   "explain_en": "Article 6, subparagraphs 1 to 3.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -3477,7 +3477,7 @@
   "answer": "d",
   "explain_zh": "第7條第1項：申請變更警示圖案或警語、適用範圍及使用方法、使用及儲藏注意事項、中毒症狀急救及解毒方法者，應檢具標示及佐證資料；輸入之環境用藥應另檢具出產國商品化之標示。",
   "explain_en": "Article 7, paragraph 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -3504,7 +3504,7 @@
   "answer": "b",
   "explain_zh": "第7條第2項、第3項：廢容器回收清理方式之標示變更，依廢容器回收清除處理規定辦理；前二項以外之其他標示變更，應於變更環境用藥許可證時併同為之。",
   "explain_en": "Article 7, paragraphs 2 and 3.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -3531,7 +3531,7 @@
   "answer": "b",
   "explain_zh": "第8條：本準則自發布日施行；本準則修正日期為民國95年7月24日，惟施行日仍以發布日認定。",
   "explain_en": "Article 8.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -3558,7 +3558,7 @@
   "answer": "a",
   "explain_zh": "第15條第1項：許可證之有效期間為五年，每次展延不得超過五年。期滿仍須繼續製造、加工或輸入者，應於期滿前三個月至六個月之期間內申請展延。",
   "explain_en": "Article 15, paragraph 1: five years, renewals capped at five years.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -3585,7 +3585,7 @@
   "answer": "b",
   "explain_zh": "第15條第1項後段：期滿仍須繼續製造、加工或輸入者，應於期滿前三個月至六個月之期間內，向中央主管機關申請展延；第16條並定應檢具申請書及附件五之文件、資料。",
   "explain_en": "Article 15, paragraph 1: three to six months before expiry.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -3612,7 +3612,7 @@
   "answer": "b",
   "explain_zh": "第15條第2項、第3項：依規定期間申請展延，因中央主管機關審查致無法於期滿前完成准駁者，得依原許可內容使用；未依第1項期間申請展延而尚未作成准駁決定者，原許可證自期限屆滿日起失其效力。",
   "explain_en": "Article 15, paragraphs 2 and 3.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -3639,7 +3639,7 @@
   "answer": "a",
   "explain_zh": "第16條：展延許可證者，應檢具申請書及附件五之證明文件、資料，向中央主管機關申請。新申請案依第2條檢具附件一；變更、補發、換發依第17條檢具附件六。",
   "explain_en": "Article 16: Appendix 5 documents to the central authority.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -3666,7 +3666,7 @@
   "answer": "a",
   "explain_zh": "第17條第1項：變更、補發、換發許可證者，應檢具申請書及附件六之證明文件、資料，向中央主管機關申請；第18條並定其申請方式及審查程序準用第3條、第5條。",
   "explain_en": "Article 17, paragraph 1: Appendix 6 documents.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -3693,7 +3693,7 @@
   "answer": "d",
   "explain_zh": "第17條第2項：許可證變更廠商名稱、地址、國內製造廠名稱、地址者，應自最後取得目的事業主管機關核發相關證明文件之日起九十日內為之。",
   "explain_en": "Article 17, paragraph 2: 90 days.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -3720,7 +3720,7 @@
   "answer": "b",
   "explain_zh": "第18條：展延或變更許可證之申請方式依第3條（網路申辦為原則）辦理；其審查程序依第5條（補正次數、九十日補正期間、十四日通知）辦理。",
   "explain_en": "Article 18.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -3747,7 +3747,7 @@
   "answer": "c",
   "explain_zh": "第19條第1項：物理化學性質檢測應由經中央主管機關依本法第三十六條核給許可證之環境檢驗測定機構、經指定之檢驗測定機關或公私立學術研究機構、符合OECD優良實驗室操作規範並提具證明之機構為之。",
   "explain_en": "Article 19, paragraph 1, three categories.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -3774,7 +3774,7 @@
   "answer": "b",
   "explain_zh": "第19條第2項、第3項：有效成分含量分析檢測依第1項第1款、第2款規定辦理；藥效（效力）檢測依第1項第2款規定辦理，但於國外進行檢測者不在此限。",
   "explain_en": "Article 19, paragraphs 2 and 3.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -3801,7 +3801,7 @@
   "answer": "a",
   "explain_zh": "第20條：環境用藥之毒性檢測機構必須為專業毒理檢測機構，其規範應符合我國、美國、歐盟、日本或經濟合作與發展組織（OECD）之實驗室優良操作規範或檢測規範。",
   "explain_en": "Article 20.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -3828,7 +3828,7 @@
   "answer": "d",
   "explain_zh": "第21條第2項：第1項第2款一般及特殊環境衛生用藥，添加協力劑含量總和未達百分之一者，不視為有效成分。第1項並依產品類別分別適用附件七至附件十一之毒性檢測項目。",
   "explain_en": "Article 21, paragraph 2: under one percent.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -3855,7 +3855,7 @@
   "answer": "c",
   "explain_zh": "第22條第1項：檢測方法依序為中華民國國家標準檢驗方法、中央主管機關公告之標準檢測方法。第2項：國內尚未公告者，得引用OECD及其認可組織或美、日等國家認可之檢測規範，或由申請者提供檢測方法。",
   "explain_en": "Article 22, paragraph 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -3882,7 +3882,7 @@
   "answer": "d",
   "explain_zh": "第23條第2款：申請登記之防治性能須檢具藥效（效力）檢測報告；但防治蜈蚣、馬陸、蜘蛛、恙蟲者，可由試驗者依文獻資料推薦藥劑之使用方式及使用量，並由申請者檢具該文獻資料。",
   "explain_en": "Article 23, subparagraph 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -3909,7 +3909,7 @@
   "answer": "a",
   "explain_zh": "第23條第4款：蚊香劑、電蚊香劑、液體電蚊香劑標示使用時間逾八小時者，須檢附藥效之時效試驗證明報告。第3款另定特殊環境衛生用藥須檢具所有防治性能稀釋倍數之藥效報告。",
   "explain_en": "Article 23, subparagraph 4: over eight hours needs a duration test report.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -3936,7 +3936,7 @@
   "answer": "d",
   "explain_zh": "第24條：本法第九條第一項環境用藥之性能，依藥效檢測結果審查基準（附件十三）核定。第23條第1款並定藥效檢測所用測試生物種類及條件如附件十二。",
   "explain_en": "Article 24: Appendix 13.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -3963,7 +3963,7 @@
   "answer": "b",
   "explain_zh": "第25條第1項：申請或變更一般、特殊環境用藥或環境用藥微生物製劑原體，產品有效期限超過二年者，應檢具相同製造日期及批號產品，生產時及生產後二年以上之藥效（效力）檢測報告及有效成分分析檢測報告；有效期限最長為五年。第2項：環境衛生用藥原體之產品有效期限為五年。",
   "explain_en": "Article 25, paragraph 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -3990,7 +3990,7 @@
   "answer": "b",
   "explain_zh": "第26條第1項：申請文件或資料內容不實，或依本法第二十四條第一項有記錄義務而明知為不實事項登載於環境用藥紀錄表者，中央主管機關得撤銷、廢止許可證。第2項另定專供輸出之原體輸入許可證挪作他用者得廢止。",
   "explain_en": "Article 26, paragraph 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -4017,7 +4017,7 @@
   "answer": "d",
   "explain_zh": "第27條：本準則自發布日施行。與土壤底泥及地下水污染物檢驗測定品質管制準則定有特定施行日期者不同。",
   "explain_en": "Article 27: effective upon promulgation.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -4044,7 +4044,7 @@
   "answer": "a",
   "explain_zh": "第1條：本準則依環境用藥管理法第十七條第二項、第十八條第二項規定訂定，分別為委託製造與分裝、調配之授權基礎；第9條並定自發布日施行。",
   "explain_en": "Article 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -4071,7 +4071,7 @@
   "answer": "c",
   "explain_zh": "第2條：環境用藥委託或接受委託製造，以持有相同劑型製造許可證者為限，且不得逾越委託者及接受委託者其環境用藥製造許可證之有效期間。第3條並定應檢具之申請文件。",
   "explain_en": "Article 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -4098,7 +4098,7 @@
   "answer": "b",
   "explain_zh": "第3條：委託製造環境用藥，應由委託者檢具申請表、經公證之委託合約書（應載明委託製造之期間）、委託者製造許可證正本及接受委託者製造許可證影本、加註接受委託製造工廠名稱地址之標示，向中央主管機關申請。",
   "explain_en": "Article 3.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -4125,7 +4125,7 @@
   "answer": "d",
   "explain_zh": "第4條：申請分裝環境用藥，其分裝工廠以具有同一劑型設備之環境用藥工廠始得為之；其分裝內容量應符合該環境用藥許可證已登記之內容量。",
   "explain_en": "Article 4.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -4152,7 +4152,7 @@
   "answer": "d",
   "explain_zh": "第5條第1項：申請分裝應檢具申請表、所申請分裝之環境用藥許可證正本、分裝工廠所持有與該許可證相同劑型之製造許可證影本，以及加註分裝工廠名稱、地址及分裝日期之產品標示。",
   "explain_en": "Article 5, paragraph 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -4179,7 +4179,7 @@
   "answer": "b",
   "explain_zh": "第5條第2項：委託他人分裝者，除依第1項規定檢具文件外，並應檢具經公證之委託合約書，合約書應載明委託分裝之期間；與第3條委託製造之合約要求一致。",
   "explain_en": "Article 5, paragraph 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -4206,7 +4206,7 @@
   "answer": "d",
   "explain_zh": "第6條：環境用藥之調配以同一劑型為限，且以持有相同劑型之環境用藥製造許可證者始得為之。第7條並定應逐批向中央主管機關提出申請。",
   "explain_en": "Article 6.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -4233,7 +4233,7 @@
   "answer": "a",
   "explain_zh": "第7條第1項：環境用藥之調配，應由環境用藥製造業檢具申請表、相同劑型之製造許可證影本，以及調配數量與調配後之化學性及物理性資料、有效成分分析、毒性、藥效檢測報告及產品標示，逐批向中央主管機關提出申請。",
   "explain_en": "Article 7, paragraph 1: batch by batch.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -4260,7 +4260,7 @@
   "answer": "d",
   "explain_zh": "第7條第2項：第1項第3款有效成分分析檢測、毒性檢測、藥效（效力）檢測、產品標示，準用環境用藥許可證申請核發作業準則第十條至第十五條之規定。",
   "explain_en": "Article 7, paragraph 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -4287,7 +4287,7 @@
   "answer": "a",
   "explain_zh": "第8條：檢具之證明文件、資料有欠缺或不合規定者，經通知補正，屆期未補正者予以退件，補正期間以三十日為限；未繳納審查費者，逕予退件。與許可證準則第5條之九十日補正期間不同。",
   "explain_en": "Article 8: thirty days.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -4314,7 +4314,7 @@
   "answer": "b",
   "explain_zh": "第9條：本準則自發布日施行；本準則修正日期為民國95年7月21日，但施行日仍以發布日為準。",
   "explain_en": "Article 9.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -4341,7 +4341,7 @@
   "answer": "c",
   "explain_zh": "第1條：本準則依環境用藥管理法第十一條第一項規定訂定；同法第十條第一項則為環境用藥許可證申請核發作業準則之授權依據。",
   "explain_en": "Article 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -4368,7 +4368,7 @@
   "answer": "d",
   "explain_zh": "第2條：申請許可執照應檢附申請表及所定文件影本、資料，併同專業技術人員設置申請，向營業場所所在地主管機關提出申請；第3條並定應進行現勘。",
   "explain_en": "Article 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -4395,7 +4395,7 @@
   "answer": "b",
   "explain_zh": "第2條第3款：應檢附貯存場所位置圖、土地分區使用證明書或土地登記簿謄本及貯存場所建物使用執照（無貯存場所免附）；另包括公司或營利事業登記證、負責人身分證明、營業場所位置圖及安全防護設施或施藥器材說明書。",
   "explain_en": "Article 2, subparagraph 3.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -4422,7 +4422,7 @@
   "answer": "c",
   "explain_zh": "第3條：地方主管機關審查第2條申請時，應進行現勘環境用藥營業場所及貯存場所；貯存場所於不同轄區者，應通知環境用藥貯存場所所在地主管機關會勘。",
   "explain_en": "Article 3.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -4449,7 +4449,7 @@
   "answer": "d",
   "explain_zh": "第4條第1項：許可執照應登記許可執照字號、公司行號名稱地址負責人、營業場所地址、貯存場所地址（無貯存場所免登記）、許可執照發證日期及其他經主管機關指定事項；字號規定如附表。",
   "explain_en": "Article 4, paragraph 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -4476,7 +4476,7 @@
   "answer": "d",
   "explain_zh": "第5條：第4條第1項第2款至第4款登記事項有變更者，應檢附申請表及第2條第1款至第4款規定之相關證明文件或資料，向主管機關辦理變更登記。",
   "explain_en": "Article 5.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -4503,7 +4503,7 @@
   "answer": "d",
   "explain_zh": "第6條：許可執照遺失或毀損者，應檢具申請表及第2條第1款、第2款規定之證照文件（公司或營利事業登記證、負責人身分證明），向主管機關申請補（換）發；補（換）發之許可執照應註明補（換）發日期。",
   "explain_en": "Article 6.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -4530,7 +4530,7 @@
   "answer": "b",
   "explain_zh": "第7條第4款、第5款：領得許可執照逾二年仍未營業，或停業二年以上者，主管機關得廢止其許可執照；另有歇業、實際營業場所與登記不符經限期未改善、遷離未辦變更且營業狀況不明達半年以上等事由。",
   "explain_en": "Article 7, subparagraphs 4 and 5.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -4557,7 +4557,7 @@
   "answer": "b",
   "explain_zh": "第7條第3款：營業場所遷離未辦理變更登記，且營業狀況不明達半年以上者，得廢止許可執照；第2款則為實際營業場所與登記內容不符，經通知限期改善屆期未改善者。",
   "explain_en": "Article 7, subparagraph 3: six months or more.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -4584,7 +4584,7 @@
   "answer": "a",
   "explain_zh": "第8條第1項：停業時應自停業日起十五日內，檢附原許可執照向主管機關辦理備查；原許可執照於註明停業日期後發還。第10條規定歇業亦為十五日內申報廢止許可執照。",
   "explain_en": "Article 8, paragraph 1: 15 days.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -4611,7 +4611,7 @@
   "answer": "d",
   "explain_zh": "第8條第2項：依規定辦理停業備查者，自報備停業之日起，免除本法第二十二條、第二十四條規定之義務；停業六個月以上者，並免除本法第十九條規定之義務。",
   "explain_en": "Article 8, paragraph 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -4638,7 +4638,7 @@
   "answer": "d",
   "explain_zh": "第9條：復業時應檢附原許可執照併同專業人員設置申請（未變更者免附），向主管機關申請；主管機關應於原許可執照上註明復業日期後發還。",
   "explain_en": "Article 9.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -4665,7 +4665,7 @@
   "answer": "a",
   "explain_zh": "第10條：歇業時應於歇業日起十五日內，向主管機關申報廢止許可執照。若未申報，第7條第1款亦定歇業為主管機關得廢止許可執照之事由。",
   "explain_en": "Article 10: 15 days, revocation of the licence.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -4692,7 +4692,7 @@
   "answer": "b",
   "explain_zh": "第11條第1項第3款：應檢具之文件及資料齊備者，應於四十五日內完成審查；但內容複雜特殊者，得於通知申請者後延長之，延長期間不得逾四十五日。",
   "explain_en": "Article 11, paragraph 1, subparagraph 3.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -4719,7 +4719,7 @@
   "answer": "a",
   "explain_zh": "第11條第1項第4款及第2項：補正期間以六十日為限，補正日數不算入審查期間內；地方主管機關審查符合規定者，應於完成審查後十四日內通知申請者。未繳費者逕予駁回退件，補正不完全者亦駁回退件。",
   "explain_en": "Article 11, paragraph 1, subparagraph 4, and paragraph 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -4746,7 +4746,7 @@
   "answer": "a",
   "explain_zh": "第12條：本準則自發布日施行。本準則最近修正日期為民國113年3月11日，但施行日仍依發布日認定。",
   "explain_en": "Article 12.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -4773,7 +4773,7 @@
   "answer": "a",
   "explain_zh": "第1條：本準則依毒性及關注化學物質管理法第四十一條第五項規定訂定。本法第四十一條第一項並為中央主管機關指定公告具危害性關注化學物質之依據。",
   "explain_en": "Article 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -4800,7 +4800,7 @@
   "answer": "b",
   "explain_zh": "第2條第1項：運作人應於事故發生後三日內依第3條提報初步事故調查處理速報，並於事故發生後十四日內依第4條提報總結事故調查處理結報。",
   "explain_en": "Article 2, paragraph 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -4827,7 +4827,7 @@
   "answer": "c",
   "explain_zh": "第2條第1項：速報及結報應報請事故發生所在地之直轄市、縣（市）主管機關備查，並副知中央主管機關。第2項並定自110年7月1日起應於中央主管機關指定網站填報。",
   "explain_en": "Article 2, paragraph 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -4854,7 +4854,7 @@
   "answer": "b",
   "explain_zh": "第2條第2項：前項速報及結報，應自中華民國一百十年七月一日起於中央主管機關指定之網站填報；在此之前得以書面方式提報。",
   "explain_en": "Article 2, paragraph 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -4881,7 +4881,7 @@
   "answer": "c",
   "explain_zh": "第3條第1款：速報之事故發生基本資料包括廠商名稱、地點、發生時間、傷亡人數、事故場所及類型、毒性及具危害性關注化學物質名稱；結報則另增列氣象一項。",
   "explain_en": "Article 3, subparagraph 1 (weather appears only in the final report).",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -4908,7 +4908,7 @@
   "answer": "d",
   "explain_zh": "第3條第2款至第6款：速報應載明應變單位、分工及裝（設）備，事故發生、應變及善後復原過程（含現場照片），環境污染及清理狀況，檢討及改善，建議事項；廠周界現場平面圖為結報才要求。",
   "explain_en": "Article 3, subparagraphs 2 to 6.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -4935,7 +4935,7 @@
   "answer": "d",
   "explain_zh": "第4條第1款第5目及第3款：結報之基本資料除速報各項外，另增列氣象；事故發生、應變及善後復原過程應含現場照片及廠周界現場平面圖。",
   "explain_en": "Article 4, subparagraphs 1 and 3.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -4962,7 +4962,7 @@
   "answer": "b",
   "explain_zh": "第4條前段：運作人應於事故發生後詳加勘查、蒐集事證，予以分析研判、究明發生事故原因，據以製作結報；速報則僅要求儘速蒐集事故相關基本資料。",
   "explain_en": "Article 4, opening text.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -4989,7 +4989,7 @@
   "answer": "d",
   "explain_zh": "第5條：運作人提報之書面調查處理報告所列資料不符合第3條、第4條規定者，主管機關應通知運作人限期補正；屆期不補正或未完成補正者，依第6條移由本法第五十八條第一款處理。",
   "explain_en": "Article 5.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -5016,7 +5016,7 @@
   "answer": "a",
   "explain_zh": "第6條：運作人未依第2條第1項規定期限提出速報或結報，或速報結報經主管機關通知限期補正而屆期不補正、未完成補正者，依本法第五十八條第一款規定辦理。",
   "explain_en": "Article 6.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -5043,7 +5043,7 @@
   "answer": "b",
   "explain_zh": "第7條：本準則自中華民國一百零九年一月十六日施行。與第2條第2項所定自110年7月1日起網路填報之時點不同，兩者不可混淆。",
   "explain_en": "Article 7.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -5070,7 +5070,7 @@
   "answer": "a",
   "explain_zh": "第1條：本準則依土壤及地下水污染整治法第十條第三項規定訂定；同法第二十四條第六項則為辦理整治目標公聽會作業準則之授權依據。",
   "explain_en": "Article 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -5097,7 +5097,7 @@
   "answer": "a",
   "explain_zh": "第2條第1款：檢量線又稱校正曲線或標準曲線，指以一系列已知濃度待測物標準品與其相對應之儀器訊號值（內標準品校正時為濃度比值與訊號比值）間之關係，製備成曲線或計算其校正因子或感應因子。",
   "explain_en": "Article 2, subparagraph 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -5124,7 +5124,7 @@
   "answer": "b",
   "explain_zh": "第2條第2款第1目、第2目：現場空白樣品攜至採樣地點後在現場開封並模擬採樣過程但不實際採樣，可判知樣品於採樣過程是否遭受污染；運送空白樣品在現場不開封，可判知運送過程是否遭受污染。",
   "explain_en": "Article 2, subparagraph 2, items 1 and 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -5151,7 +5151,7 @@
   "answer": "d",
   "explain_zh": "第2條第2款第3目：設備空白樣品指在現場使用過之採樣設備經清洗後，以不含待測物之試劑水、溶劑或吸收液淋洗，收集最後一次之淋洗液；由其分析結果可判知採樣設備是否遭受污染。",
   "explain_en": "Article 2, subparagraph 2, item 3.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -5178,7 +5178,7 @@
   "answer": "c",
   "explain_zh": "第2條第3款至第5款：重複樣品分析可確定分析結果之精密度；添加樣品分析可了解樣品有無基質干擾或檢測方法是否適當；查核樣品分析可確定分析程序之可信度或分析結果之準確性。",
   "explain_en": "Article 2, subparagraphs 3 to 5.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -5205,7 +5205,7 @@
   "answer": "d",
   "explain_zh": "第3條：品質管制係為監控檢測過程，在規範下執行；土壤、底泥及地下水檢測的品管規定，依據中央主管機關公告之檢測方法規定執行。第7條亦要求環境檢驗室依公告方法檢測。",
   "explain_en": "Article 3.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -5232,7 +5232,7 @@
   "answer": "d",
   "explain_zh": "第4條：執行土壤、底泥及地下水樣品之採集應採取適當之品管樣品，並依據中央主管機關公告之相關採樣方法規定為之；採樣過程必須要有適當之樣品監控程序，並保留相關紀錄，以利後續之樣品追蹤與管理。",
   "explain_en": "Article 4.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -5259,7 +5259,7 @@
   "answer": "c",
   "explain_zh": "第5條：無機樣品之管制程序應包括檢量線製備、檢量線查核、空白樣品分析、重複樣品分析、查核樣品分析及添加樣品分析；有機樣品之管制程序則規定於第6條。",
   "explain_en": "Article 5.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -5286,7 +5286,7 @@
   "answer": "a",
   "explain_zh": "第6條：有機樣品之管制程序應包括空白樣品、查核樣品、添加樣品及重複樣品分析；檢測揮發性有機物樣品時，依中央主管機關公告之相關檢測方法規定執行運送空白樣品及現場空白樣品分析；戴奧辛檢測品質管制亦依公告檢測方法規定。",
   "explain_en": "Article 6.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -5313,7 +5313,7 @@
   "answer": "b",
   "explain_zh": "第7條：環境檢驗室執行本準則各檢測類別之樣品檢測，應依據中央主管機關公告之相關檢測方法規定為之，與第3條品管規定之依據一致。",
   "explain_en": "Article 7.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -5340,7 +5340,7 @@
   "answer": "d",
   "explain_zh": "第8條：本準則自中華民國一百年十一月十五日施行；本準則修正日期為100年9月8日，施行日另行明定而非發布日。",
   "explain_en": "Article 8.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -5367,7 +5367,7 @@
   "answer": "d",
   "explain_zh": "第1條：本準則依土壤及地下水污染整治法第二十四條第六項規定訂定；本法第二十二條第一項、第二項則規定整治目標之提出主體，並決定由何級主管機關召開公聽會。",
   "explain_en": "Article 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -5394,7 +5394,7 @@
   "answer": "a",
   "explain_zh": "第2條第1項：整治計畫提出者依本法第二十二條第一項提出整治目標者，由直轄市、縣（市）主管機關召開公聽會；依第二十二條第二項提出者，由中央主管機關召開公聽會。",
   "explain_en": "Article 2, paragraph 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -5421,7 +5421,7 @@
   "answer": "d",
   "explain_zh": "第2條第2項：主管機關應依實際情況需要，於場址所在地或附近選擇適當地點舉行公聽會，並於公聽會舉行十日前至公聽會當日，以書面或公告方式載明事由及整治場址位置、時間及地點、其他事項，公布於主管機關網站、村（里）辦公室或其他適當地點。",
   "explain_en": "Article 2, paragraph 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -5448,7 +5448,7 @@
   "answer": "c",
   "explain_zh": "第2條第3項、第4項：主管機關應邀請專家、學者、相關機關、團體出席公聽會，並邀請整治計畫提出者列席，且優先開放鄰近居民參與；鄰近居民指居住在整治場址周界一公里範圍內者，必要時得擴大範圍。第5項並允許民眾於會議結束前以網際網路表達意見。",
   "explain_en": "Article 2, paragraphs 3 and 4.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -5475,7 +5475,7 @@
   "answer": "d",
   "explain_zh": "第3條：公聽會之主持人，應由主管機關首長或其指定之人員擔任。第4條並賦予主持人於人數超過場地容量時請與會者推派代表之權限。",
   "explain_en": "Article 3.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -5502,7 +5502,7 @@
   "answer": "b",
   "explain_zh": "第4條：參加人數逾第2條第2項適當地點之可容納人數，主持人為力求各方意見得以均衡表達，得請鄰近居民或各團體推派代表進入會場。第7條另定主管機關得商請警察機關協助維持秩序。",
   "explain_en": "Article 4.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -5529,7 +5529,7 @@
   "answer": "c",
   "explain_zh": "第5條第1項：公聽會議程為主持人說明會議進行方式、整治計畫提出者說明、參加人員陳述意見、散會；第2項並定主持人得依實際需要變更議程。",
   "explain_en": "Article 5.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -5556,7 +5556,7 @@
   "answer": "d",
   "explain_zh": "第6條：參加公聽會人員應遵守會場及議事秩序，不得干擾會議之進行；主持人亦得要求干擾會議進行之人員離場。第7條並定主管機關得商請警察機關協助維持秩序。",
   "explain_en": "Article 6.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -5583,7 +5583,7 @@
   "answer": "c",
   "explain_zh": "第7條：主管機關得商請警察機關協助維持秩序；此與第6條主持人得要求干擾者離場之權限併行適用。",
   "explain_en": "Article 7.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -5610,7 +5610,7 @@
   "answer": "a",
   "explain_zh": "第8條：參加公聽會人員認為主持人於公聽會程序進行中所為之處理不當者，得即時提出異議；主持人認為異議有理由者應即撤銷原處理，認為無理由者應將異議列入紀錄。",
   "explain_en": "Article 8.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -5637,7 +5637,7 @@
   "answer": "d",
   "explain_zh": "第9條第1項、第2項：公聽會因不可抗力因素致會議中斷或無法如期舉行者，應擇期再行舉辦；因不可抗力以外之事由者，應擇期再行舉辦一次，因相同或相似事由再度中斷者，改依公布程序辦理。",
   "explain_en": "Article 9, paragraphs 1 and 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -5664,7 +5664,7 @@
   "answer": "c",
   "explain_zh": "第9條第2項後段、第3項、第4項：主管機關應自再行中斷之日或第二次原因消滅之日起七日內，將第2條第2項應載明事項及中斷事由公布，公布期間至少七日；地方主管機關並應自中斷之日或原因消滅之日起七日內敘明理由報中央主管機關備查；參加人員得於公布期間內以書面陳述意見，期間經過後視為公聽會已舉行完畢。",
   "explain_en": "Article 9, paragraphs 2 to 4.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -5691,7 +5691,7 @@
   "answer": "a",
   "explain_zh": "第10條：主管機關應請參加公聽會之人員簽名，並作成會議紀錄；會議紀錄得輔以錄音、錄影。第11條並定紀錄應載明陳述內容及主持人之處理方式。",
   "explain_en": "Article 10.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -5718,7 +5718,7 @@
   "answer": "b",
   "explain_zh": "第11條：公聽會紀錄應載明參加人員陳述內容及主持人之處理方式；參加人員應儘可能填寫發言單並署名，未填寫發言單者，主管機關對其陳述內容得擇其要旨記錄之。",
   "explain_en": "Article 11.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -5745,7 +5745,7 @@
   "answer": "b",
   "explain_zh": "第12條第1項前段：主管機關應於舉行公聽會後十日內，將會議紀錄以書面或公告方式通知參加人員，並公布於主管機關網站，公布期間至少十日；第3項並定該期間必要時得由主管機關延長。",
   "explain_en": "Article 12, paragraph 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -5772,7 +5772,7 @@
   "answer": "d",
   "explain_zh": "第12條第1項後段：參加人員對會議紀錄有異議者，得於公布期間經過後十日內提出；經主管機關認其異議有理由者，應於提出異議期間經過後十日內更正或補充。第2項並定地方主管機關應將會議紀錄報中央主管機關備查。",
   "explain_en": "Article 12, paragraph 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""
@@ -5799,7 +5799,7 @@
   "answer": "c",
   "explain_zh": "第13條：本準則自發布日施行；本準則修正日期為民國105年1月22日，惟施行日仍以發布日認定，與土壤底泥及地下水污染物檢驗測定品質管制準則另定施行日者不同。",
   "explain_en": "Article 13.",
-  "status": "draft",
+  "status": "active",
   "batch": 14,
   "reviewer": "",
   "review_note": ""

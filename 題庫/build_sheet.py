@@ -548,7 +548,7 @@ def load_questions():
                 order = [0,1,2,3]; random.Random(f"{qid}-osh-quiz").shuffle(order)
                 oz2 = [oz[i] for i in order]; oe2 = [oe[i] for i in order]
                 ans2 = "abcd"[order.index("abcd".index(ans))]
-                row = [qid,lid[:3],lid,LAW_NAME[lid],art,LAW_VER[lid],cat,diff,qz,*oz2,qe,*oe2,ans2,ez,ee,("draft" if in_scope(lid) else "archived"),bno,"",("" if in_scope(lid) else "不在使用者指定之職安法規範圍，暫不使用")]
+                row = [qid,lid[:3],lid,LAW_NAME[lid],art,LAW_VER[lid],cat,diff,qz,*oz2,qe,*oe2,ans2,ez,ee,("active" if in_scope(lid) else "archived"),bno,"",("" if in_scope(lid) else "不在使用者指定之職安法規範圍，暫不使用")]
                 rows.append(row); per_batch.setdefault(bno, []).append(row)
     return rows, errs, per_batch
 
@@ -556,16 +556,18 @@ CONFIG = [
  ["key","value","說明 / Description"],
  ["questions_per_game",20,"每局題數 / questions per game"],
  ["seconds_per_question",20,"每題秒數 / seconds per question"],
- ["base_score",500,"答對基本分 / base score for a correct answer"],
- ["speed_bonus_max",500,"速度加分上限：base + max×(剩餘秒/總秒) / speed bonus = max × (remaining/total)"],
+ ["base_score",200,"答對基本分 / base score for a correct answer"],
+ ["speed_bonus_max",300,"速度加分上限：base + max×(剩餘秒/總秒) / speed bonus = max × (remaining/total)"],
  ["wrong_score",0,"答錯或逾時得分 / score for wrong or timeout"],
+ ["per_question_max",500,"單題最高分（20 題滿分 10000）/ max score per question"],
+ ["streak_mult",1.2,"連對時速度分乘數（單題仍不超過 per_question_max）/ streak speed multiplier"],
  ["streak_start",3,"連對從第幾題起加成 / streak bonus starts at N consecutive correct"],
  ["streak_bonus",50,"連對每題加成 / bonus per question once streak active"],
  ["daily_questions",10,"每日挑戰題數 / daily challenge question count"],
  ["lobby_wait_seconds",10,"隨機配對等待秒數，逾時轉房間碼或 bot / matchmaking wait before fallback"],
  ["languages","zh,en","支援語言 / supported languages"],
  ["active_status","active","前端只抓此 status 的題目 / only questions with this status are exported"],
- ["site_mode","draft","網站出題模式：draft＝含待審題全部出題；active＝只出 status=active 的題（審完後改這裡即可，不必改程式）/ site question mode"],
+ ["site_mode","active","網站出題模式：draft＝含待審題全部出題；active＝只出 status=active 的題（審完後改這裡即可，不必改程式）/ site question mode"],
 ]
 CHANGELOG = [
  ["date","law_id","law_version","change","affected_questions","action","done_by"],

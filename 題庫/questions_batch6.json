@@ -21,7 +21,7 @@
   "answer": "a",
   "explain_zh": "第2條列十八款鉛作業：鉛之冶煉精煉、含鉛百分之三以上銅鋅冶煉、鉛蓄電池製造修理解體、鉛合金及鉛製品製造、電線電纜鉛被覆、鉛快削鋼注鉛、鉛化合物製造、鉛襯墊上光、橡膠塗料釉藥農藥玻璃等含鉛製造、通風不充分場所鉛合金軟焊、含鉛釉藥施釉烘燒、含鉛繪料繪畫烘燒、熔融鉛淬火退火砂浴、含鉛設備塗料之軋碎熔接切斷剝除、含鉛設備內部作業、轉印紙上粉、鉛字檢字排版、前述之清掃作業。",
   "explain_en": "Article 2 lists 18 categories from smelting and battery work to lead paint removal, glazing, quenching in molten lead, typesetting and cleaning of such workplaces.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -48,7 +48,7 @@
   "answer": "b",
   "explain_zh": "第3條：鉛合金指鉛佔該合金重量百分之十以上；鉛混存物指鉛合金鉛化合物鉛混合物；作業時間短暫指每日作業時間一小時以內；臨時性作業指不超過三個月且一年內不再重覆；通風不充分之場所指室內對外開口面積未達底面積二十分之一以上或全面積百分之三以上者。",
   "explain_en": "Article 3: 10% lead; openings under 1/20 of floor area or 3% of total area.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -75,7 +75,7 @@
   "answer": "b",
   "explain_zh": "第7條：鉛蓄電池作業之熔融鑄造加工組配熔接熔斷極板切斷之室內場所設局部排氣裝置；非濕式之研磨製粉混合篩選捏合設密閉設備或局部排氣裝置；非濕式倒入取出粉狀鉛設局部排氣裝置及承受溢流設備；解體軋碎場所應與其他作業場所隔離；自動鑄造機防飛散；工作台設承受容器；人工搬運容器裝把手車輪；地面易於真空除塵或水洗；設儲存浮渣容器。第20條：此類氣罩應採包圍型。",
   "explain_en": "Article 7: enclosure or LEV for dry powder operations, LEV for melting/casting/welding, overflow catchers, isolation of crushing areas, splash guards, and easily cleaned floors; Article 20: enclosing hoods.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -102,7 +102,7 @@
   "answer": "a",
   "explain_zh": "第24條：與其他作業場所有效隔離而勞工不必經常出入之室內作業場所；作業時間短暫或臨時性作業；熔融鑄造等作業場所牆壁面積一半以上為開放且鄰近四公尺無障礙物者；熔融作業場所設利用溫熱上升氣流之排氣煙囟且以石灰覆蓋熔融鉛表面者；前三款勞工有遭鉛污染之虞時應提供防護具。",
   "explain_en": "Article 24: the four exemptions, with PPE required for the first three when contamination is possible.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -129,7 +129,7 @@
   "answer": "c",
   "explain_zh": "第27條：鉛作業之密閉設備及局部排氣裝置應設有效污染防制過濾式集塵設備或同等性能以上之集塵設備；熔爐或坩堝等總容量未滿五十公升者得免設集塵裝置。第49條：坩堝爐容量總計不滿五十公升且攝氏四百五十度以下熔融鑄造者僅適用部分條文。",
   "explain_en": "Article 27: filter-type dust collectors required except for furnaces under 50 liters; Article 49: small furnaces below 450°C follow only limited provisions.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -156,7 +156,7 @@
   "answer": "a",
   "explain_zh": "第31條：密閉設備局部排氣裝置整體換氣裝置應由專業人員妥為設計並維持性能；設置局部排氣裝置應指派或委託經中央主管機關訓練合格之專業人員設計並製作設計報告書；設置完成後實施原始性能測試並製作報告書，文件紀錄保存十年；化學排氣櫃型式不受限制；改裝時亦同（性能無顯著影響者除外）。第31條之1：資格訓練準用特定化學物質危害預防標準第38條及第38條之1。",
   "explain_en": "Article 31: certified designers with design and initial performance test reports kept 10 years (fume hoods exempt); Article 31-1 refers to the specified chemical standards for qualifications.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -183,7 +183,7 @@
   "answer": "c",
   "explain_zh": "第32條：從事第2條第2項第10款（通風不充分場所鉛合金軟焊）作業設置整體換氣裝置之換氣量，應為每一從事鉛作業勞工平均每分鐘一．六七立方公尺以上。第30條：局部排氣裝置應於作業時間內有效運轉並降低鉛塵濃度至容許暴露標準以下。",
   "explain_en": "Article 32: 1.67 m³/min per lead worker; Article 30: LEV must run during work and keep lead dust below the PEL.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -210,7 +210,7 @@
   "answer": "a",
   "explain_zh": "第34條：休息室出入口應設沖洗用水管或充分濕潤之墊蓆清除足部鉛塵，入口設毛刷或真空除塵機；地面易於真空除塵或水洗；進入休息室前應清除工作衣上鉛塵並揭示。第35條：處理粉狀鉛者應設淋浴設備；第36條：每日以水沖洗或真空除塵清潔作業場所休息室餐廳一次以上；第37條：備置指甲刷肥皂等盥洗設備；第39條：設專用洗衣設備。",
   "explain_en": "Article 34; Articles 35–39: showers for powder handling, daily washing, nail brushes and soap, and dedicated laundry facilities.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -237,7 +237,7 @@
   "answer": "c",
   "explain_zh": "第40條：雇主應指派現場作業主管擔任鉛作業主管，執行採取必要措施預防勞工遭受鉛污染、決定作業方法並指揮勞工作業、保存每月檢點局部排氣裝置及其他預防健康危害裝置一次以上之紀錄、監督勞工確實使用防護具。第44條：應公告鉛作業場所禁止飲食或吸菸。",
   "explain_en": "Article 40: the four duties; Article 44: no eating or smoking in lead workplaces.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -264,7 +264,7 @@
   "answer": "c",
   "explain_zh": "第45條：對冶煉精煉鉛化合物製造及其清掃、砂浴攪砂換砂、非濕式剝除含鉛塗料、含鉛設備內部作業（並應置備防護衣著）、乾燥作業、集塵裝置濾布更換、鉛之軋碎熔接熔斷噴布、船舶儲槽等通風不充分場所鉛作業，應置備適當呼吸防護具並訂定計畫使勞工遵守；呼吸防護具及防護衣著應設專用保管設備與其他衣物隔離並禁止攜出。第46條：輸氣管面罩連續作業每次不得超過一小時；第47條：面罩入氣口置於新鮮空氣位置。",
   "explain_en": "Article 45: respirators (and protective clothing for equipment interiors) with a compliance plan and dedicated storage; Article 46: air-line masks limited to one hour per session.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -291,7 +291,7 @@
   "answer": "a",
   "explain_zh": "第48條：應使用不致漏洩之密閉容器適當儲存粉狀鉛及鉛混存物；漏洩時應即以真空除塵或以水清除；塊狀鉛應適當儲存避免鉛塵污染。第41條：粉狀鉛倒入漏斗有溢漏時應令勞工立即停止作業（臨時性作業且已戴用有效呼吸防護具者除外）。",
   "explain_en": "Article 48: sealed containers, vacuum or wet cleaning; Article 41: stop work immediately on powder spills unless temporary work with effective respirators.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -318,7 +318,7 @@
   "answer": "c",
   "explain_zh": "第3條：四烷基鉛指四甲基鉛、四乙基鉛、一甲基三乙基鉛、二甲基二乙基鉛、三甲基一乙基鉛及含有上列物質之抗震劑；加鉛汽油指添加四烷基鉛之汽油；換氣裝置指藉動力輸入外氣置換儲槽地下室船艙坑井等內部空氣之設備。第2條：適用於混入汽油或導入儲槽、裝置修護拆卸、被污染儲槽處理、殘渣廢液處理、容器處理、研究試驗、污染清除等七類作業。",
   "explain_en": "Article 3 definitions; Article 2 lists seven operation types from blending into gasoline to cleaning contaminated sites.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -345,7 +345,7 @@
   "answer": "b",
   "explain_zh": "第5條：裝置構造應防止污染或吸入蒸氣；作業場所建築物牆壁至少三面開放且充分通風；抽吸四烷基鉛應完全吸盡並以汽油清洗栓密；供給不滲透性防護圍裙長統手套長靴及有機氣體用防毒面罩；作業場所與其他場所隔離；地面不滲透性易清除；設休息室盥洗淋浴設備；每日確認裝置狀況一次以上。",
   "explain_en": "Article 5: three open walls, leak-proof equipment, impermeable PPE with organic-vapor respirators, isolation, impermeable floors, washing and shower facilities, daily equipment checks.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -372,7 +372,7 @@
   "answer": "c",
   "explain_zh": "第7條：自儲槽抽出四烷基鉛後防止倒流；以汽油或煤油洗淨排出；使用適當氧化劑如百分之五過錳酸鉀溶液充分氧化並排出；開放人孔排放閥等開口；以水或水蒸氣清洗（水蒸氣時應接地）；作業前及作業期間以換氣裝置充分換氣；設緊急避難設施；指派監視人員一人以上；供給不滲透性防護衣著長統手套長靴防護帽及輸氣管面罩。第8條：加鉛汽油儲槽作業類似，換氣須將汽油濃度降至容許暴露標準以下。",
   "explain_en": "Article 7: drain and prevent backflow, wash with gasoline/kerosene, oxidize with 5% KMnO4, open all openings, rinse with water or steam (grounded), ventilate, emergency escape equipment, one watcher, impermeable PPE with air-line masks.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -399,7 +399,7 @@
   "answer": "b",
   "explain_zh": "第13條：雇主使勞工從事清洗作業或供給勞工清洗手足、身體之清洗劑時，不得使用加鉛汽油。第17條：作業完畢應供給肥皂洗淨雙手及被污染部分。第25條：作業場所應置備肥皂、洗眼液吸附劑急救藥品、氧化劑活性白土等防止擴散材料、整補材料。",
   "explain_en": "Article 13; Article 17: soap after work; Article 25: soap, eyewash, absorbents, oxidizers and repair materials on site.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -426,7 +426,7 @@
   "answer": "b",
   "explain_zh": "第16條：四烷基鉛作業主管（研究試驗作業免設）應決定作業方法並指揮、預防勞工污染或吸入、每日確認儲槽作業及污染清除作業之換氣裝置運轉狀況、監督防護具使用、有中毒之虞時採取必要措施、發現身體或衣服被污染時立即以肥皂或適當清洗劑洗除。第21條：每週確認通風設備運轉作業情形空氣流通效果及使用情形一次以上。",
   "explain_en": "Article 16: daily ventilation checks, PPE supervision and immediate washing of contamination; Article 21: weekly confirmation of ventilation and work conditions.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -453,7 +453,7 @@
   "answer": "c",
   "explain_zh": "第20條：設備或換氣裝置故障致降低失去效能、四烷基鉛漏洩或溢流、作業場所被污染時，雇主或工作場所負責人應即令停止作業並使勞工退避至安全場所；勞工在不危及其他工作者安全之情形下亦得自行停止作業及退避並立即向直屬主管報告；未確認完全清除前不得使相關勞工進入，但在職業安全衛生管理人員或作業主管指導下之搶救及必要作業者除外。",
   "explain_en": "Article 20: stop-and-evacuate duty, workers' right to retreat, no re-entry until cleared except supervised rescue.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -480,7 +480,7 @@
   "answer": "b",
   "explain_zh": "第23條：戴用輸氣管面罩之連續作業時間每次不得超過一小時。第22條：面罩空氣入口置於新鮮空氣位置。第24條：每天作業前確認防護具狀況，防毒面罩吸收罐保持有效，作業完畢確認並清除污染；應於作業場所外設置存放防護具工作衣之金屬材質保管設備並與其他衣物隔離。",
   "explain_en": "Article 23: one hour; Article 24: daily PPE checks, effective cartridges, and separate metal storage outside the work area.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -507,7 +507,7 @@
   "answer": "b",
   "explain_zh": "第26條：應使用具有栓蓋之牢固容器並使桶蓋向上，儲藏場所應有防止無關人員進入之設施及標示、將蒸氣排除於室外、防止不慎漏洩之措施。第27條：曾儲裝四烷基鉛之空容器應予密閉或放置於室外一定場所並標示。第19條：禁止無關勞工進入作業及儲存場所。",
   "explain_en": "Articles 26–27; Article 19: unauthorized entry prohibited with posted notices.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -534,7 +534,7 @@
   "answer": "d",
   "explain_zh": "第3條：作業時間短暫指同一特定粉塵發生源之特定粉塵作業每日不超過一小時；作業期間短暫指作業期間不超過一個月且確知自終了日起六個月內不再實施；臨時性作業指不超過三個月且一年內不再重覆；特定粉塵發生源指附表一乙欄所列處所；礦物等指地殼中土石岩石礦物及性質相同之人工固體物質。",
   "explain_en": "Article 3 definitions; temporary work is under 3 months and not repeated within a year.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -561,7 +561,7 @@
   "answer": "c",
   "explain_zh": "第6條：應依附表一乙欄每一特定粉塵發生源分別設置該欄所列設備（密閉設備、局部排氣裝置、維持濕潤狀態、濕式衝擊式鑿岩機等）之任一種或具同等以上性能之設備。第7條：局部排氣裝置應設附表二所列型式以外之氣罩。第9條：磨床鼓式砂磨機等回轉機械應以全部包圍、覆蓋擴散方向或包圍回轉體部分之方式設氣罩。",
   "explain_en": "Article 6; Article 7: hood types per Annex 2; Article 9: hoods for grinders and drum sanders.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -588,7 +588,7 @@
   "answer": "d",
   "explain_zh": "第10條：非特定粉塵作業之室內作業場所應設整體換氣裝置或同等以上性能設備，但臨時性作業、作業時間短暫或作業期間短暫且供給適當呼吸防護具者不在此限。第11條：坑內作業場所（平水坑除外）應設具動力輸入外氣之換氣裝置。第11條之1：密閉設備局部排氣整體換氣應由專業人員設計並維持性能。",
   "explain_en": "Article 10; Article 11: powered fresh-air ventilation in mines; Article 11-1: professional design.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -615,7 +615,7 @@
   "answer": "c",
   "explain_zh": "第13條：使用前直徑小於三十公分之研磨輪、搗碎或粉碎最大能力每小時小於二十公斤之機器、篩選面積小於七百平方公分之篩選機、內容積小於十八公升之混合機從事特定粉塵作業，雇主於室內設整體換氣裝置（坑內設換氣裝置）並使勞工使用適當呼吸防護具者，得不適用第6條。第12條：臨時性作業或作業時間期間短暫且供給呼吸防護具者亦不適用第6條。",
   "explain_en": "Article 13 thresholds; Article 12 exempts temporary and short work with respirators.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -642,7 +642,7 @@
   "answer": "b",
   "explain_zh": "第14條：依構造作業性質設置第6條設施顯有困難者，得填具免適用設施許可申請書、比例在百分之一以上之作業場所略圖、工作計畫書向勞動檢查機構申請免除；作業不適於原許可時應書面報告，檢查機構得取銷許可。",
   "explain_en": "Article 14: application to the inspection agency with form, sketch (scale ≥ 1%) and work plan; permits may be revoked if conditions change.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -669,7 +669,7 @@
   "answer": "c",
   "explain_zh": "第15條：氣罩宜設於每一粉塵發生源，外裝型儘量接近發生源；導管長度儘量縮短肘管數儘量減少並於適當位置開設清潔口及測定孔；排氣機置於空氣清淨裝置後；排氣口設於室外（移動式或設過濾除塵靜電除塵者除外）。第16條：粉塵作業時間內不得停止運轉且不得阻礙。",
   "explain_en": "Article 15; Article 16: must run throughout dust work without obstruction.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -696,7 +696,7 @@
   "answer": "b",
   "explain_zh": "第22條：室內粉塵作業場所至少每日清掃一次以上；至少每月定期使用真空吸塵器或以水沖洗等不致發生粉塵飛揚之方法清除地面設備，顯有困難且已供給呼吸防護具者除外。第21條：公告禁止飲食吸菸。第20條：應指定粉塵作業主管監督。第19條：隨時確認通風設備運轉作業情形空氣流通及粉塵狀況並通告注意事項。",
   "explain_en": "Article 22; Articles 19–21: continuous checks, a dust work supervisor, and no eating or smoking.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -723,7 +723,7 @@
   "answer": "a",
   "explain_zh": "第23條：從事附表一丙欄所列作業應提供並令勞工使用適當呼吸防護具，但粉塵發生源設有效之密閉設備、局部排氣裝置或維持濕潤狀態者不在此限。第24條：輸氣管面罩連續作業每次不得超過一小時。第17、18條：濕式鑿岩機應有效給水，濕潤設備於作業時保持濕潤。",
   "explain_en": "Article 23; Article 24: air-line masks one hour per session; Articles 17–18: wet drills and wetting equipment must be kept working.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -750,7 +750,7 @@
   "answer": "a",
   "explain_zh": "第2條：暴露評估指以定性半定量或定量方法評量或估算勞工暴露於化學品之健康危害情形；分級管理指依化學品健康危害及暴露評估結果評定風險等級並分級採取對應之控制或管理措施。第4條：製造處置使用符合 CNS 15030 具健康危害之化學品應評估危害及暴露程度、劃分風險等級並採取分級管理措施。",
   "explain_en": "Article 2; Article 4 requires assessment, risk rating and tiered controls for CNS 15030 health-hazardous chemicals.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -777,7 +777,7 @@
   "answer": "c",
   "explain_zh": "第3條：優先適用特定化學物質危害預防標準、有機溶劑中毒預防規則、四烷基鉛中毒預防規則、鉛中毒預防規則及粉塵危害預防標準之設置危害控制設備或措施規定；依該等法規仍未能降低暴露風險者，雇主應依本辦法設置控制設備或採取更有效之控制管理措施。第5條：有害事業廢棄物、菸草、食品藥物化粧品、製成品、民生消費商品、滅火器、製程中間產物、僅貯存無暴露之虞者不適用。",
   "explain_en": "Article 3: the five substance-specific regulations take precedence, with the Regulations adding controls where exposure remains high; Article 5 lists exclusions.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -804,7 +804,7 @@
   "answer": "a",
   "explain_zh": "第6條：第4條之評估及分級管理至少每三年執行一次；因化學品種類操作程序或製程條件變更而有增加暴露風險之虞者，應於變更前或變更後三個月內重新評估與分級。第7條：應參照中央主管機關公告之技術指引或同等科學基礎之方法。第11條：紀錄保存三年。",
   "explain_en": "Article 6; Article 7: per the central technical guidance; Article 11: records kept 3 years.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -831,7 +831,7 @@
   "answer": "d",
   "explain_zh": "第8條：中央主管機關定有容許暴露標準之化學品，事業單位從事特別危害健康作業勞工一百人以上或總勞工人數五百人以上者，雇主應依有科學根據之採樣分析方法或運用定量推估模式實施暴露評估；游離輻射作業不適用。第9條：應依作業環境監測實施辦法之監測及期程實施，必要時輔以半定量定量模式。",
   "explain_en": "Article 8; Article 9 ties it to the environmental monitoring schedule.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -858,7 +858,7 @@
   "answer": "d",
   "explain_zh": "第8條第2項：暴露濃度低於容許暴露標準二分之一者至少每三年評估一次；低於標準但高於或等於二分之一者至少每年一次；高於或等於標準者至少每三個月一次；製程變更有增加風險之虞者於變更前或後三個月內重新評估。",
   "explain_en": "Article 8(2): the three tiers of frequency, plus re-assessment within three months of risk-increasing changes.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -885,7 +885,7 @@
   "answer": "d",
   "explain_zh": "第10條：第一級（低於二分之一）持續維持原有控制並於製程變更時採變更管理；第二級（二分之一以上未達標準）就製程設備作業程序方法實施檢點並採必要改善；第三級（高於或等於標準）應即採取有效控制措施並於完成改善後重新評估確保暴露濃度低於容許暴露標準。",
   "explain_en": "Article 10: Level 1 maintain controls with management of change; Level 2 inspect and improve; Level 3 immediate controls and re-assessment.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -912,7 +912,7 @@
   "answer": "a",
   "explain_zh": "第2條：蒸汽鍋爐指以火焰燃燒氣體其他高溫氣體或電熱加熱於水或熱媒使發生超過大氣壓之壓力蒸汽供給他用之裝置及其附屬過熱器與節煤器；熱水鍋爐指加熱於有壓力之水或熱媒供給他用之裝置。第6條：最高使用壓力指構造上最高容許使用之壓力或水頭壓力。",
   "explain_en": "Article 2 defines steam and hot-water boilers; Article 6 defines maximum allowable working pressure.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -939,7 +939,7 @@
   "answer": "b",
   "explain_zh": "第3條小型鍋爐：最高使用壓力每平方公分一公斤（0.1 MPa）以下且傳熱面積一平方公尺以下之蒸汽鍋爐；壓力一公斤以下且胴體內徑三百毫米以下長度六百毫米以下者；傳熱面積三點五平方公尺以下且裝有內徑二十五毫米以上開放大氣蒸汽管者；傳熱面積三點五平方公尺以下且蒸汽部裝內徑二十五毫米以上U字形豎立管水頭壓力五公尺以下者；水頭壓力十公尺以下且傳熱面積八平方公尺以下之熱水鍋爐；壓力十公斤以下且傳熱面積十平方公尺以下之貫流鍋爐。",
   "explain_en": "Article 3 lists six small-boiler categories including 1 kg/cm² with 1 m², small drum dimensions, open-vent boilers up to 3.5 m², hot-water boilers up to 10 m head and 8 m², and once-through boilers up to 10 kg/cm² and 10 m².",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -966,7 +966,7 @@
   "answer": "d",
   "explain_zh": "第4條：第一種壓力容器指接受外來蒸汽或熱媒加熱固體液體、因化學核子反應產生蒸氣、加熱分離液體成分產生蒸氣且壓力超過大氣壓之容器，或保存溫度超過大氣壓沸點之液體之容器；第二種壓力容器指內存氣體壓力每平方公分二公斤（0.2 MPa）以上且內容積零點零四立方公尺以上或胴體內徑二百毫米以上長度一千毫米以上之容器；屬高壓氣體設備者依高壓氣體法規。",
   "explain_en": "Article 4: Class 1 vessels are heated/reaction vessels above atmospheric pressure; Class 2 are gas vessels at 2 kg/cm²+ with the stated size thresholds.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -993,7 +993,7 @@
   "answer": "a",
   "explain_zh": "第5條：小型壓力容器指第一種壓力容器合於最高使用壓力一公斤（0.1 MPa）以下且內容積零點二立方公尺以下；壓力一公斤以下且胴體內徑五百毫米以下長度一千毫米以下；或以 kg/cm² 表示之最高使用壓力與以 m³ 表示之內容積乘積在零點二以下（MPa 者零點零二以下）。第32條：小型壓力容器構造應合於 CNS 14967。",
   "explain_en": "Article 5 gives three criteria; Article 32 requires CNS 14967 construction.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -1020,7 +1020,7 @@
   "answer": "c",
   "explain_zh": "第8條：鍋爐應安裝於專用建築物內或建築物內以障壁分隔之鍋爐房，但移動式鍋爐、屋外式鍋爐或傳熱面積三平方公尺以下之鍋爐不在此限。第10條：鍋爐房應設二個以上出入口（無礙緊急避難者除外）。第9條：基礎構架應穩固防止沉陷扭曲。",
   "explain_en": "Article 8; Article 10: at least two exits for boiler rooms.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -1047,7 +1047,7 @@
   "answer": "d",
   "explain_zh": "第11條：鍋爐最頂端至鍋爐房頂部天花板樑配管或其他上方構造物間應維持一點二公尺以上淨距（安全閥附屬品檢查調整操作無礙者除外）；豎型鍋爐或本體外側未加被覆之鍋爐由外壁至牆壁配管或側方構造物間應維持四十五公分以上，胴體內徑五百毫米以下且長度一千毫米以下者得為三十公分以上。",
   "explain_en": "Article 11: 1.2 m overhead; 45 cm at the sides (30 cm for small drums up to 500 mm × 1,000 mm).",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -1074,7 +1074,7 @@
   "answer": "d",
   "explain_zh": "第12條：未裝設厚度十公分以上非金屬不燃性材料被覆者，其外側十五公分內不得堆置可燃性物料（以不燃材料被覆者除外）。第13條：固體燃料應距鍋爐外側一點二公尺以上，液體或氣體燃料二公尺以上，設有適當防火障壁者得縮減。",
   "explain_en": "Article 12: 15 cm unless insulated with 10 cm non-combustible covering; Article 13: 1.2 m for solid fuel, 2 m for liquid or gas fuel, reducible with fire barriers.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -1101,7 +1101,7 @@
   "answer": "c",
   "explain_zh": "第14條：應僱用專任操作人員，於鍋爐運轉中不得使其從事與鍋爐操作無關之工作；操作人員應經相當等級以上之鍋爐操作人員訓練合格或鍋爐操作技能檢定合格。第21條：沖放鍋爐水時不得使其從事其他作業，不得單獨一人同時沖放二座以上鍋爐。",
   "explain_en": "Article 14; Article 21: no other tasks during blowdown, and one person may not blow down two boilers at once.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -1128,7 +1128,7 @@
   "answer": "a",
   "explain_zh": "第15條：合計五百平方公尺以上指派甲級（均為貫流式者得乙級以上）；五十以上未滿五百指派乙級以上（均為貫流式者得丙級以上）；未滿五十指派丙級以上。傳熱面積合計得減列：貫流鍋爐乘十分之一、廢熱鍋爐乘二分之一、具安全停止自動控制之鍋爐乘五分之一。",
   "explain_en": "Article 15: 500 m²+ → Class A (Class B if all once-through); 50–499 m² → Class B (Class C if all once-through); under 50 m² → Class C; reduced counting for once-through, waste-heat and auto-safety boilers.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -1155,7 +1155,7 @@
   "answer": "b",
   "explain_zh": "第16條：監視壓力水位燃燒狀態等運轉動態；避免急劇負荷變動；防止壓力上升超過最高使用壓力；保持壓力表安全閥等安全裝置機能正常；每日檢點水位測定裝置機能一次以上；確保水質適時化驗並適當沖放防止濃縮；保持給水裝置正常；檢點調整低水位燃燒遮斷裝置火焰檢出裝置等自動控制裝置；異狀時採取必要措施；業務執行紀錄及簽認表單保存三年。",
   "explain_en": "Article 16: nine duties, supervised by the boiler work supervisor where appointed; records kept three years.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -1182,7 +1182,7 @@
   "answer": "d",
   "explain_zh": "第17條：安全閥應調整於最高使用壓力以下吹洩；設二具以上者至少一具調整於最高使用壓力以下，其他可調整於超過最高使用壓力至一點零三倍以下；具釋壓裝置之貫流鍋爐得調整於一點一六倍以下；檢查後固定設定壓力不得變動；過熱器安全閥應在本體安全閥吹洩前吹洩；壓力表應防振動凍結及溫度超過攝氏八十度並標示最高使用壓力；水位計標示常用水位。",
   "explain_en": "Article 17: at least one valve at or below MAWP, others up to 1.03×, once-through with relief up to 1.16×; settings fixed after inspection; superheater valves lift first.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -1209,7 +1209,7 @@
   "answer": "b",
   "explain_zh": "第18條：禁止無關人員擅自進入；入口明顯處設禁止進入標示；非有必要禁止攜入無關危險物及易燃物；置備水位計玻璃管填料修繕工具等必備品；將鍋爐檢查合格證及操作人員資格證件影本揭示於明顯處（移動式鍋爐由操作人員隨身攜帶）；燃燒室煙道砌磚裂縫或與爐磚間隙縫應儘速修補。第19條：點火前確認節氣閘門開放並充分換氣。",
   "explain_en": "Article 18; Article 19: open the damper and purge the furnace and flue before ignition.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -1236,7 +1236,7 @@
   "answer": "a",
   "explain_zh": "第23條：將鍋爐燃燒室煙道適當冷卻；實施內部通風換氣；移動電線應為可撓性雙重絕緣電纜或同等以上者且移動電燈裝適當護罩；與其他使用中鍋爐或壓力容器有管連通者應確實隔斷或阻斷；置監視人員隨時連絡，有災害之虞立即採取防止通報應變搶救措施。第31條：壓力容器內部作業亦同。",
   "explain_en": "Article 23; Article 31 applies the same to pressure vessels.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -1263,7 +1263,7 @@
   "answer": "a",
   "explain_zh": "第25條：小型鍋爐之安全閥應調整於每平方公分一公斤（0.1 MPa）以下之壓力吹洩，但小型貫流鍋爐應調整於最高使用壓力以下吹洩。第24條：小型鍋爐構造應合於 CNS 10897。第33條：小型壓力容器（第5條第1、2款）安全閥一公斤以下，第3款者最高使用壓力以下。",
   "explain_en": "Article 25; Article 24: CNS 10897 construction; Article 33: similar settings for small pressure vessels.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -1290,7 +1290,7 @@
   "answer": "a",
   "explain_zh": "第26條：應僱用專任操作人員，運轉中不得從事無關工作，應經第一種壓力容器操作人員訓練合格或壓力容器操作技能檢定合格。第27條：同一作業場所設二座以上第一種壓力容器者應指派具資格及相當專業知識經驗者擔任作業主管，紀錄保存三年。第29條：初次使用變更操作方法或內容物時應事前告知作業方法並由作業主管或專人指揮監督。",
   "explain_en": "Articles 26–27; Article 29: briefing and supervision at first use or change of method or contents.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -1317,7 +1317,7 @@
   "answer": "b",
   "explain_zh": "第34條：鍋爐或壓力容器發生破裂爆炸等事故致構造損傷、爐筒壓潰、胴體膨出等時，應迅即向檢查機構報告；檢查機構接獲報告後應即派員調查並將結果報請中央主管機關備查。第36條之1：自營作業者準用雇主義務。",
   "explain_en": "Article 34; Article 36-1 extends duties to self-employed persons.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -1344,7 +1344,7 @@
   "answer": "d",
   "explain_zh": "第3條：有機溶劑分第一種第二種第三種（附表一）；有機溶劑混存物指有機溶劑與其他物質混合時所含有機溶劑佔其重量百分之五以上者；第一種混存物含第一種有機溶劑百分之五以上；第二種混存物含第二種或第一二種之和百分之五以上而非第一種混存物；第三種混存物為其餘者。通風不充分之室內作業場所指對外開口面積未達底面積二十分之一或全面積百分之三。",
   "explain_en": "Article 3: 5% by weight; mixtures are classed 1–3 by their solvent content; poorly ventilated rooms have openings under 1/20 of floor area or 3% of total area.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -1371,7 +1371,7 @@
   "answer": "d",
   "explain_zh": "第3條第7款：儲槽等指儲槽、貨櫃、船艙、凹窪、坑、隧道、暗溝或人孔、涵箱、導管、水管之內部及其他指定者。作業時間短暫指每日一小時以內；臨時性作業指不超過三個月且一年內不再重覆。",
   "explain_en": "Article 3(7): ten enclosed workplace types plus others designated.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -1398,7 +1398,7 @@
   "answer": "b",
   "explain_zh": "第6條：室內或儲槽等作業場所從事第一種有機溶劑作業應設密閉設備或局部排氣裝置；第二種有機溶劑作業應設密閉設備局部排氣裝置或整體換氣裝置；儲槽等或通風不充分室內從事第三種有機溶劑作業應設密閉局排或整體換氣；控制設備應依健康危害分類散布狀況使用量評估風險等級選擇。第7條：噴布方式使用第二種（室內）或第三種（儲槽等或通風不充分室內）者應設密閉設備或局部排氣裝置。",
   "explain_en": "Article 6: Class 1 → enclosure or LEV; Class 2 → enclosure, LEV or general ventilation; Class 3 in tanks or poorly ventilated rooms → any of the three; Article 7: spraying requires enclosure or LEV.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -1425,7 +1425,7 @@
   "answer": "a",
   "explain_zh": "第11條第1款：儲槽等或通風不充分室內之臨時性作業、室內作業時間短暫、反應槽隔離無須常駐、內壁地板頂板作業擴散面廣泛者，設置整體換氣裝置時得免除密閉設備或局部排氣裝置；第2款：儲槽等或通風不充分室內作業勞工已使用輸氣管面罩且作業時間短暫者得免除全部控制設備；第3款：紅外線乾燥爐設排氣煙囪、以水覆蓋或逆流凝縮機者；第4款：大型物件外表設吹吸型換氣裝置者。第8條：室內臨時性作業免設密閉局排。",
   "explain_en": "Article 11(1): general ventilation substitutes for enclosure/LEV in listed cases; 11(2): air-line masks for short tank work; 11(3)–(4): thermal stacks, water covers, condensers or push-pull for large objects.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -1452,7 +1452,7 @@
   "answer": "b",
   "explain_zh": "第15條：整體換氣裝置應依有機溶劑或混存物之種類及一小時作業時間內之消費量計算每分鐘所需換氣量（附表四）；同時使用種類相異者分別計算後合計；消費量依作業類別為蒸發量或消費量乘有機溶劑重量百分比。第14條：局部排氣及吹吸型換氣應於作業時間內有效運轉降低濃度至容許暴露標準以下。第16條：作業時不得停止運轉。",
   "explain_en": "Article 15: per solvent class and hourly consumption, summed for mixed solvents; Article 14: LEV must keep concentrations below the PEL.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -1479,7 +1479,7 @@
   "answer": "b",
   "explain_zh": "第17條：密閉局排吹吸型整體換氣裝置應由專業人員設計並維持性能；設置局部排氣裝置應指派或委託經中央主管機關訓練合格之專業人員設計並依附表五製作設計報告書；設置完成後實施原始性能測試並依附表六製作報告書，文件紀錄保存十年；改裝時亦同；化學排氣櫃型式不受限制。第18條：專業人員資格依特定化學物質危害預防標準第38條之1。",
   "explain_en": "Article 17; Article 18 refers to the specified chemical standards for designer qualifications.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -1506,7 +1506,7 @@
   "answer": "a",
   "explain_zh": "第22條：派遣作業主管監督；事前告知方法順序；確實排出有機溶劑並防止配管流入；閥旋塞加鎖或設盲板；開放人孔等開口；以水水蒸氣或化學藥品清洗內壁並排出；送入或吸出三倍於儲槽容積之空氣或以水灌滿儲槽後全部排出；以測定方法確認濃度未超過容許濃度；置備救難設施；被污染時即離開並清洗。",
   "explain_en": "Article 22: the ten-step procedure including isolation with locked valves or blinds, cleaning, three volumes of air or water fill, concentration measurement and rescue equipment.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -1533,7 +1533,7 @@
   "answer": "b",
   "explain_zh": "第24條：從事儲槽內部作業或依第11條第2款未設控制設備之儲槽等或通風不充分室內短暫作業，應供給輸氣管面罩並使確實佩戴，面罩應具不使勞工吸入蒸氣之性能。第25條：以整體換氣代替密閉局排之作業、儲槽等設整體換氣之作業、臨時性作業未設設備、開啟未清除之密閉設備、吹吸型換氣受擾亂者應佩戴輸氣管面罩或適當有機氣體用防毒面罩；輸氣管面罩連續作業每次不得超過一小時並給予休息。第26條：防護具數量應與作業勞工人數相同以上。",
   "explain_en": "Article 24; Article 25 lists cases requiring air-line or organic-vapor respirators; Article 26: enough respirators for all workers.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -1560,7 +1560,7 @@
   "answer": "d",
   "explain_zh": "第27條：室內儲藏應使用備有栓蓋之堅固容器以免溢出漏洩滲洩或擴散，儲藏場所應防止與作業無關人員進入並將蒸氣排除於室外。第28條：曾儲存有機溶劑之容器有發散蒸氣之虞者應予密閉或堆積於室外一定場所。第23條：禁止在作業場所吸菸飲食並揭示。",
   "explain_en": "Articles 27–28; Article 23: no smoking or eating in solvent work areas.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -1587,7 +1587,7 @@
   "answer": "c",
   "explain_zh": "第3條：裝卸作業指在港區之船上或陸上從事貨物之裝卸搬運及處理等作業；艙口指船舶甲板上為裝卸或供人員進出之開口；裝卸機具包括起重機堆高機吸穀機抓斗跨載機拖車貨櫃裝卸機門式移載機等；貨方指託運人受貨人或其代理人；船方指船舶所有人運送人船長或其代理人；碼頭經營者指取得碼頭設施經營權之公民營事業機構。",
   "explain_en": "Article 3 definitions of operations, hatches, handling equipment, cargo owner, ship's side and wharf operator.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -1614,7 +1614,7 @@
   "answer": "c",
   "explain_zh": "第8條：接近開口邊緣斷裂處穿越轉角便橋船渠走道等危險部分應設高度七十五公分以上之穩固欄柵或適當強度之繩柵並設警告標示。第9條：沿碼頭或岸邊通道應保持一條自碼頭至船上暢通無阻之通道，寬度一公尺以上。第10條：便橋寬度不小於五十五公分、自岸邊或船舷延長一點五公尺以上、兩旁圍七十五公分以上欄柵。",
   "explain_en": "Article 8: 75 cm barriers with warning signs; Article 9: 1 m clear passage; Article 10: gangplanks at least 55 cm wide extending 1.5 m with 75 cm rails.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -1641,7 +1641,7 @@
   "answer": "b",
   "explain_zh": "第18條：舷梯應穩妥固定寬度五十五公分以上材料堅韌構造牢固並加設安全護網；梯二側設欄柵直達兩端，上下欄桿桿距七十五公分以下並加設扶繩扶索；一側緊靠船舷有穩固措施者得僅外側設欄柵；岸上至船舷高度一點五公尺以下者得設寬五十五公分以上圍七十五公分欄柵之便梯。第20條：繩梯腳踏板間距二十五至三十五公分。第22條：艙口梯踏條間距不大於三十三公分梯寬不小於二十五公分。",
   "explain_en": "Article 18; Article 20: rope ladder rungs 25–35 cm apart; Article 22: hatch ladders with rungs no more than 33 cm apart and at least 25 cm wide.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -1668,7 +1668,7 @@
   "answer": "c",
   "explain_zh": "第24條：船方不得使工作者使用航政機關准許以外之設備進出艙口；艙口自貨艙甲板至艙底深逾一點五公尺且周圍未設圍柵圍板或防護設備者，未供貨物進出之作業期間應圍以七十五公分以上欄柵、設護蓋、安全網或其他防墜設備。第21條：甲板至艙底深逾一點五公尺應設安全通道。",
   "explain_en": "Article 24; Article 21: safe access required where the hold is deeper than 1.5 m.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -1695,7 +1695,7 @@
   "answer": "b",
   "explain_zh": "第40條：應檢視所吊物件重量及吊掛點之標示並對照船方貨方提供之艙單過磅單登載物重不得超載；不得吊載勞工或使勞工隨貨物起卸，但起重升降機具安全規則另有規定者從其規定。第36條：自貨艙捲升捲卸前應檢點艙口樑及有開啟合葉之艙口蓋板固定狀態。第41條：艙口正下方以外之貨物應先移至正下方。",
   "explain_en": "Article 40; Article 36: check hatch beam and cover fixings before hoisting from the hold; Article 41: move cargo under the hatch first.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -1722,7 +1722,7 @@
   "answer": "a",
   "explain_zh": "第43條：艙口上層裝卸作業有物體飛落之虞時不得使勞工同時在同一艙口之下層貨艙或甲板作業，但設有防護網或防護帆布等足以防止物體飛落者不在此限。第44條：禁止勞工進入吊舉物下方及有危害之虞區域。第45條：不得使勞工進入艙口蓋板開閉艙口樑安裝拆卸下方及起重機伸臂吊桿起伏有傾倒之虞區域。",
   "explain_en": "Article 43; Articles 44–45 bar entry under suspended loads, hatch cover/beam operations and boom luffing zones.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -1749,7 +1749,7 @@
   "answer": "a",
   "explain_zh": "第49條：貨艙甲板或陸上待裝卸貨物有引起急性中毒之虞物質（氯氰酸四烷基鉛等）、腐蝕性物質、火藥類物質、危險物者，船方貨方應告知雇主及碼頭經營者；船方及碼頭經營者應協調貨方指派現場人員負責異常聯繫及應變；雇主應擬具裝卸安全作業方法及標準作業程序、危險有害物飛散漏洩之處置及應變方法，依物質種類性質數量妥為規劃。第48條：作業前船方應填具船舶裝卸設施及作業環境詢問書。",
   "explain_en": "Article 49; Article 48: the ship completes a facilities and environment questionnaire before work.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -1776,7 +1776,7 @@
   "answer": "c",
   "explain_zh": "第54條：待裝卸貨物每單件重量在四十公斤以上者應以機械手推車或其他方法代替人力運搬，不得強迫勞工背負。第53條：以起重機具或吊索由艙口裝卸貨物應指派人員指揮，同一艙口二組以上作業者各指派指揮。",
   "explain_en": "Article 54; Article 53: designated signallers for hatch lifting, one per crew when two crews share a hatch.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -1803,7 +1803,7 @@
   "answer": "b",
   "explain_zh": "第56條：應置備測定儀器確認氧氣濃度在百分之十八以上，有未滿之虞時設置通風換氣設施並確認連續有效運轉；不得使用內燃機之機械以避免廢氣危害，但艙口蓋板全開並已充分通風換氣且無危害之虞者不在此限。第55條：裝卸車輛進貨艙前應經船方確認空間配置行車動線及作業流程無危險。",
   "explain_en": "Article 56; Article 55: ship confirms layout and traffic routes before vehicles enter the hold.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -1830,7 +1830,7 @@
   "answer": "b",
   "explain_zh": "第57條：散裝貨物卸載作業，開挖面傾斜度達六十度以上未滿九十度者開挖深度不得超過五公尺；傾斜度達九十度者不得超過二公尺。第58條：起重吊掛前檢點吊鏈鋼索纜繩等吊具；第59條：不得以打結縮短鋼索鏈條長度，避免與尖銳邊緣接觸或使用襯墊。",
   "explain_en": "Article 57; Articles 58–59: inspect lifting gear beforehand and never shorten ropes or chains by knotting.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -1857,7 +1857,7 @@
   "answer": "b",
   "explain_zh": "第64條：總噸位五百公噸以上之船舶使用起重裝置從事貨物裝載卸載或搬移作業時應指派船舶裝卸作業主管，辦理決定作業方法直接指揮、通行設備裝卸機具防護具器具之檢點整備及督導、與周邊作業者連絡調整、其他必要事項；應自具有從事船舶裝卸作業三年以上經驗者選任。第62條：強風大雨雷電等惡劣天候致有危險之虞時不得使勞工作業，得由港口管理機關統一規定。",
   "explain_en": "Article 64; Article 62: no work in strong wind, heavy rain or lightning, per port authority rules.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -1884,7 +1884,7 @@
   "answer": "d",
   "explain_zh": "第66條：應依作業危害性質使勞工戴用安全帽、使用安全帶、穿著反光背心或選用其他必要個人防護具或防護衣物。第65條：應於各作業艙碼頭舷側加掛護網或採取其他安全措施防止作業人員落水。第67條：處理毒性有害易飛散粉塵飛揚物質時應佩戴適當防護具及防護衣物。",
   "explain_en": "Articles 65–67.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -1911,7 +1911,7 @@
   "answer": "b",
   "explain_zh": "第2條：固定式起重機、移動式起重機、人字臂起重桿、升降機（乘載人員或貨物順沿軌道鉛直升降）、營建用提升機（土木建築工程僅搬運貨物之升降機，導軌角度未滿八十度之吊斗捲揚機除外）、吊籠（懸吊式施工架升降裝置支撐裝置工作台構成專供人員升降施工）、簡易提升機（僅搬運貨物、搬器底面積一平方公尺以下或頂高一點二公尺以下）。",
   "explain_en": "Article 2 defines the seven types of lifting equipment covered.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -1938,7 +1938,7 @@
   "answer": "a",
   "explain_zh": "第3條：中型固定式起重機指吊升荷重零點五公噸以上未滿三公噸（斯達卡式未滿一公噸）；中型移動式起重機及人字臂起重桿零點五公噸以上未滿三公噸；中型升降機積載荷重零點二五公噸以上未滿一公噸；中型營建用提升機導軌高度十公尺以上未滿二十公尺。第4條：吊升荷重未滿零點五公噸之起重機、積載荷重未滿零點二五公噸之升降機、導軌高度未滿十公尺之營建用提升機依設施規則辦理。",
   "explain_en": "Article 3; Article 4: smaller equipment falls under the OSH Facilities Rules instead.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -1965,7 +1965,7 @@
   "answer": "c",
   "explain_zh": "第5條：吊升荷重指依構造材質所能吊升之最大荷重（伸臂起重機依最大傾斜角最短長度計算）。第6條：額定荷重在未具伸臂之固定式起重機指自吊升荷重扣除吊鉤抓斗等吊具重量所得之荷重；具伸臂者依傾斜角長度吊運車位置決定最大荷重後扣除吊具重量。第7條：積載荷重指升降機提升機吊籠搬器上乘載人員或荷物上升之最大荷重。",
   "explain_en": "Article 6; Article 5 defines lifting capacity; Article 7 defines rated load for lifts and gondolas.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -1992,7 +1992,7 @@
   "answer": "c",
   "explain_zh": "第11條：中型固定式起重機設置完成時應實施荷重試驗（額定荷重一點二五倍實施吊升直行旋轉橫行）及安定性試驗（逸走防止裝置停止作用且最不利條件下額定荷重一點二七倍），架空式橋型式無翻覆之虞者免安定性試驗；紀錄保存三年。第10條：超過額定荷重使用須事先荷重試驗指定監督人員並報經檢查機構放寬至荷重試驗值（額定荷重超過二百公噸者為額定荷重加五十公噸）。第24條：中型移動式起重機亦同。第84條：中型營建用提升機荷重試驗為積載荷重一點二倍。",
   "explain_en": "Article 11; Article 24 applies the same to medium mobile cranes; Article 84: 1.2× for construction hoists.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -2019,7 +2019,7 @@
   "answer": "d",
   "explain_zh": "第12條：走行固定式起重機最高部（集電裝置除外）與建築物水平支撐樑橫樑配管等上方物間隔零點四公尺以上；桁架人行道與上方物間隔一點八公尺以上；起重機與建築物間人行道寬度零點六公尺以上（支柱接觸部分零點四公尺以上）；駕駛室端邊與人行道端邊間隔零點三公尺以下。",
   "explain_en": "Article 12: 0.4 m and 1.8 m clearances, 0.6 m walkways (0.4 m at columns), and gaps to cab walkways of 0.3 m or less.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -2046,7 +2046,7 @@
   "answer": "a",
   "explain_zh": "第19、35條：使用以吊物為限，但貨櫃裝卸船舶維修高煙囪施工等無其他安全替代方法或臨時性小規模短時間特殊作業經採防墜措施者得吊升勞工：以搭乘設備乘載並防翻轉脫落、設安全母索並佩戴安全帽及CNS 14253-1全身背負式安全帶、不得超過限載員額、搭乘設備自重加搭乘者積載物不得超過作業半徑對應額定荷重百分之五十、下降採動力下降；移動式起重機垂直高度超過二十公尺禁用直結式搭乘設備（有無線電通訊及監視或防撞警報者除外）。",
   "explain_en": "Articles 19 and 35: platform with fall protection, helmets and full-body harnesses, capacity limits, 50% of rated load, powered descent; Article 35 bars direct-attached platforms above 20 m without radio and monitoring.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -2073,7 +2073,7 @@
   "answer": "d",
   "explain_zh": "第20、36條：搭乘設備應有足夠強度，周圍設高度九十公分以上扶手並設中欄杆及腳趾板；懸吊用鋼索或鋼線安全係數十以上，吊鏈吊帶及其支點五以上；依構造材質計算最大荷重並標示自重及最大荷重。第38條：搭乘設備及懸掛裝置應委託認可專業機構簽認（效期最長二年）、載人前以預期最大荷重試吊至最大高度保持五分鐘、外伸撐座全部伸出、載人期間不得走行、指派指揮人員。",
   "explain_en": "Articles 20 and 36; Article 38: certified design (2-year validity), 5-minute trial lift at maximum height, outriggers fully extended, no travel, designated signaller.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -2100,7 +2100,7 @@
   "answer": "b",
   "explain_zh": "第22條：屋外走行起重機應設固定基礎與軌夾等防止逸走裝置，原動機馬力應能在風速每秒十六公尺時安全駛至防止逸走裝置處，瞬間風速有超過每秒三十公尺之虞時應採取使防止逸走裝置作用之措施；檢修調整應指定監督人員；吊有荷重時不得擅離操作位置；組配拆卸爬升應選派適當人員並禁止無關人員；塔式起重機爬升應擬妥安全作業方法；惡劣氣候禁止工作；不得以伸臂搖撼拖拉。",
   "explain_en": "Article 22: 16 m/s and 30 m/s, plus supervision, no leaving the controls with a load, safe erection procedures for tower cranes, and no work in severe weather.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -2127,7 +2127,7 @@
   "answer": "c",
   "explain_zh": "第29條：為防止翻倒被夾感電，應事前調查地形地質狀況作業空間運搬物重量與起重機種類型式性能，決定作業方法吊掛方法運搬路徑、對軟弱地盤採鋪設鐵板墊料使用外伸撐座等補強、配置操作者吊掛者指揮者職務及指揮體系；作業開始前告知勞工、確認起重機符合需求、查核執行情形；事前以檢點表確認現場危害因素，檢點表派車文件留存備查。第30條：地盤軟弱埋設脆弱地下物路肩崩塌有翻倒之虞者不得作業（鋪設足夠強度鐵板墊料者除外）。",
   "explain_en": "Article 29; Article 30 bars work on soft ground or near weak buried objects unless adequate mats are laid.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -2154,7 +2154,7 @@
   "answer": "a",
   "explain_zh": "第32條：具外伸撐座或擴寬式履帶起重機應將外伸撐座或履帶伸至最大極限位置；作業場所狹窄或有障礙物致無法伸至最大時，過負荷預防裝置有因應外伸寬度自動降低設定額定荷重機能、有可輸入外伸寬度演算要素之機能、或明細表使用說明書載有未全伸對應之較低額定荷重表者之一，且能確認吊掛荷重較作業半徑對應額定荷重為輕者不在此限。第31條：外伸撐座應置於鐵板墊料中央範圍。",
   "explain_en": "Article 32; Article 31: outrigger pads centered on mats.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -2181,7 +2181,7 @@
   "answer": "d",
   "explain_zh": "第40條：檢修調整應指定監督人員；吊有荷重不得擅離操作位置或駕駛室；組配拆卸選用適當人員禁止無關人員；惡劣氣候禁止工作；不得搖撼伸臂拖拉物件；行駛時應將吊桿長度縮至最短、傾斜角降為最小及固定吊鉤，積載型卡車起重機得採吊桿定位警示裝置。第39條：防止人員進入吊舉物下方及上部旋轉體碰撞範圍。",
   "explain_en": "Article 40; Article 39: keep people out from under loads and the slewing zone.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -2208,7 +2208,7 @@
   "answer": "b",
   "explain_zh": "第44條：吊鉤抓斗等吊具或捲揚用槽輪上方與吊桿前端槽輪下方間距零點二五公尺以上，直動式過捲預防裝置零點零五公尺以上。第43條：吊升及起伏裝置應設過捲預防裝置（絞車動力者除外）。第50條：牽索人字臂起重桿拉條六條以上、單索三條以上。第54條：捲揚及起伏用鋼索於最低位置時應留二捲以上於捲胴。第51條：主柱超過二十公尺應設攀登梯。",
   "explain_en": "Article 44; Article 50: guy derricks need 6+ guys, stiff-leg 3+; Article 54: at least two turns of rope on drums at lowest position; Article 51: climbing ladders on masts over 20 m.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -2235,7 +2235,7 @@
   "answer": "c",
   "explain_zh": "第62條：吊掛作業勞工應僱用曾受吊掛作業訓練合格者，已受三公噸以上起重機具操作人員訓練合格或具操作技能檢定技術士資格者除外；操作及吊掛作業應分別指派具法定資格之勞工，但地面按鍵方式操作之固定式起重機或積載型卡車起重機得由操作者一人兼任；吊掛作業指用鋼索吊鏈鉤環等使荷物懸掛於吊具引導吊升移動卸放堆置等一連串作業。第64條：應規定運轉指揮信號並指派專人指揮（操作者單獨作業除外）。",
   "explain_en": "Article 62; Article 64: set signals and appoint a signaller unless the operator works alone.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -2262,7 +2262,7 @@
   "answer": "b",
   "explain_zh": "第63條：確認額定荷重、估算或查明荷物重量並選用適當吊掛用具、估測重心、確認鋼索吊鏈強度規格安全率並檢點汰換、穩妥固定後通知操作者起吊、荷物離地後不得以手碰觸並於剛離地時暫停確認傾斜鬆脫、確認吊運路線清空無關人員、確認指揮手勢、確認放置場所及堆疊方法、引導下降確認安定後卸離吊具。",
   "explain_en": "Article 63 lists eleven rigging duties from load verification to safe landing.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -2289,7 +2289,7 @@
   "answer": "b",
   "explain_zh": "第65條：吊掛用鋼索安全係數六以上（斷裂荷重除以最大荷重）。第66條：吊鏈安全係數符合伸長率條件者四以上，其他五以上。第67條：吊鉤四以上，馬鞍環五以上。",
   "explain_en": "Articles 65–67; Article 66: chains 4 (with elongation criteria) or 5.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -2316,7 +2316,7 @@
   "answer": "a",
   "explain_zh": "第68條：鋼索一撚間有百分之十以上素線截斷、直徑減少達公稱直徑百分之七以上、有顯著變形或腐蝕、已扭結者不得使用。第69條：吊鏈延伸長度超過製造時百分之五、斷面直徑減少超過百分之十、有龜裂者不得使用。第70條：變形龜裂之吊鉤馬鞍環鉤環鏈環不得使用。第71條：纖維索已斷一股子索或顯著損傷腐蝕者不得使用。第72條：兩端未設吊鉤鉤環編結環首等者不得使用。",
   "explain_en": "Article 68; Article 69: chains stretched over 5% or thinned over 10% or cracked; Articles 70–72 cover hooks, fiber ropes and end fittings.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -2343,7 +2343,7 @@
   "answer": "c",
   "explain_zh": "第77條：應維持終點極限開關緊急停止裝置等安全裝置效能；不得使勞工擅自使用鎖匙或工具自外面開啟出入門扉（維修人員搶救維護保養檢查者除外）；鎖匙上應懸掛標示牌以文字載明警語告知開啟者有墜落之危險。第78條：專供載貨用之升降機不得搭載人員。第74條：不得超過積載荷重。",
   "explain_en": "Article 77; Article 78: goods-only lifts must not carry people.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -2370,7 +2370,7 @@
   "answer": "a",
   "explain_zh": "第82條：室外升降機於瞬間風速達每秒三十公尺以上或四級以上地震後，再使用前應確認終點極限開關緊急停止裝置制動裝置控制裝置鋼索吊鏈導軌導索結頭等無異狀。第80、90條：瞬間風速有超過每秒三十公尺之虞時應增設拉索防止倒塌。第92條：營建用提升機同樣情形應確認制動裝置離合器鋼索通過部分。",
   "explain_en": "Article 82 and 92; Articles 80 and 90: add guy lines when gusts over 30 m/s are expected.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -2397,7 +2397,7 @@
   "answer": "b",
   "explain_zh": "第87條：營建用提升機不得乘載人員，但實施檢修或調整等作業經採取足以防範人員墜落或物體飛落措施者不在此限。第96條：簡易提升機亦同。第88條：禁止進入搬器升降危及之場所、鋼索內角側及槽輪飛落危及之場所。第89條：豎坑基底打掃時應於搬器下方橫置角材原木並以制動裝置防止落下。第86條：應於捲揚鋼索加註標識或設警報裝置防過捲。",
   "explain_en": "Articles 87 and 96; Articles 88–89: restricted zones and blocking the car during pit cleaning.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -2424,7 +2424,7 @@
   "answer": "c",
   "explain_zh": "第102條：應使勞工佩戴安全帽及符合CNS 14253-1同等以上之全身背負式安全帶。第100條：工作台上不得設置或放置腳墊梯子等供勞工使用。第99條：可搬式吊籠懸吊應考量自重積載荷重風力妥為固定於足夠支撐強度處並確認結構圖面。第101條：運轉中操作人員不得擅離。第103條：禁止無關人員進入下方危險區域。第105條：夜間應提供必要照度。",
   "explain_en": "Articles 100–105.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -2451,7 +2451,7 @@
   "answer": "b",
   "explain_zh": "第2條：甲類物質（附表一第一款）、乙類物質（第二款）、丙類物質分丙類第一種第二種第三種、丁類物質（第四款）；屬製成品者不適用。第3條：特定管理物質包括二氯聯苯胺類、次乙亞胺、氯乙烯、四羰化鎳、環氧乙烷、石綿、鉻酸、砷、鎳、重鉻酸、1,3-丁二烯、甲醛（重量比超過百分之一）、鈹（百分之一，合金百分之三）、三氯甲苯（百分之零點五）、苯（體積比百分之一）、煤焦油（百分之五）。",
   "explain_en": "Article 2; Article 3 defines 'specified management substances' with their concentration thresholds.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -2478,7 +2478,7 @@
   "answer": "b",
   "explain_zh": "第7條：不得使勞工製造處置或使用甲類物質，但供試驗或研究者不在此限，應依管制性化學品之指定及運作許可管理辦法向中央主管機關申請許可。第8條：試驗研究甲類物質時製造設備應為密閉設備（氣櫃內者除外）、地板牆壁不浸透性易水洗、勞工具必要知識、堅固容器並標示、保管於一定場所、供給不浸透性防護具、禁止無關人員進入。",
   "explain_en": "Article 7; Article 8 sets conditions for research use.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -2505,7 +2505,7 @@
   "answer": "b",
   "explain_zh": "第10條：製造場所隔離且地板牆壁不浸透性、製造設備密閉且不直接接觸、反應槽接合部墊圈密接、冷凝器充分注入冷卻水、篩選機真空過濾機密閉可觀察並加鎖、處置應由作業人員於隔離室遙控操作（充分濕潤成泥狀或溶解於溶劑者除外）、計量投入取出裝袋困難時採不直接接觸方法並設包圍型氣罩局部排氣裝置及除塵裝置、訂定操作程序、試料採取用專用容器、穿戴工作衣不浸透性手套圍巾。第9條：指定為管制性化學品之乙類物質另需申請許可。",
   "explain_en": "Article 10 lists ten requirements including isolation, enclosed equipment, remote handling, enclosing hoods with dust collection, and written operating procedures.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -2532,7 +2532,7 @@
   "answer": "d",
   "explain_zh": "第16條：散布丙類物質之室內作業場所應於各發生源設密閉設備或局部排氣裝置，設置顯有困難或臨時性作業者除外，但仍應設整體換氣裝置或將物質充分濕潤成泥狀或溶解於溶劑中；丙類第一種物質製造場所處置時、燻蒸作業處置氰化氫溴甲烷時、苯等供為溶劑時不包括。第16條之1：控制設備應依健康危害分類散布狀況使用量評估風險等級選擇。第15條：製造丙類第一種第二種物質之設備應採密閉型於隔離室遙控操作。",
   "explain_en": "Article 16; Article 16-1: risk-based selection of controls; Article 15: enclosed remote-controlled manufacture of Class C-1 and C-2 substances.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -2559,7 +2559,7 @@
   "answer": "c",
   "explain_zh": "第17條：氣罩置於每一發生源（外裝型接受型儘量接近）；縮短導管減少彎曲並設清潔口測定孔；設除塵或廢氣處理裝置者排氣機置於該裝置之後（無爆炸之虞且不腐蝕者除外）；排氣口置於室外；作業時間內有效運轉降低濃度；依第38條第2項設置者應設監測靜壓流速等裝置。",
   "explain_en": "Article 17: hood placement, short ducts with ports, fan after treatment, outdoor outlets, continuous operation and monitoring devices.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -2586,7 +2586,7 @@
   "answer": "a",
   "explain_zh": "第18條：排水系統坑或槽桶等有因含鹽酸硝酸硫酸等酸性廢液與含氰化物硫化物或多硫化物等廢液接觸或混合致生成氰化氫或硫化氫之虞時，不得使此等廢液接觸或混合。第19條：受污染之破布紙屑應收存於不浸透性容器並加栓蓋。",
   "explain_en": "Article 18; Article 19: contaminated rags and paper in sealed impermeable containers.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -2613,7 +2613,7 @@
   "answer": "b",
   "explain_zh": "第22條：應有二處以上直接通達地面之避難梯斜坡道，僅能設置一處避難梯者另一部分得以滑梯避難用梯避難橋救助袋或避難用升降梯等代替；避難梯或斜坡道之一應置於室外（設有前述代替者除外）。第23條：處置使用丙類第一種或丁類物質合計一百公升以上時應置備漏洩警報器具及除卻危害之藥劑器具。",
   "explain_en": "Article 22; Article 23: leak alarms and neutralizing agents when 100 L+ of Class C-1 or D substances are handled.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -2640,7 +2640,7 @@
   "answer": "d",
   "explain_zh": "第27條：製造處置使用丙類第一種或丁類物質合計一百公升以上（氣體以容積一立方公尺換算為二公升）之特定化學管理設備應設溫度壓力流量發生異常之自動警報裝置，顯有困難時應置監視人於運轉中監視。第26條：管理設備應設溫度計流量計壓力計。第28條：應設遮斷原料供輸或卸放製品、供輸惰性氣體冷卻水等因應異常反應之裝置，閥旋塞應確實動作圓潤安全。第29條：應置備用動力源，不常用之閥開關應加鎖鉛封。",
   "explain_en": "Articles 26–29: instruments, alarms, shut-off/inert-gas/cooling devices, backup power and locked valves.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -2667,7 +2667,7 @@
   "answer": "d",
   "explain_zh": "第30條：派遣特定化學物質作業主管監督、事前告知方法順序、確實排出該物質、配管閥旋塞設計為雙重開關或設盲板並加鎖標示「不得開啟」、開放開口部、換氣裝置充分換氣、以測定方法確認濃度未超過容許濃度、拆卸盲板時確認滯留、設置緊急避難設備、供給不浸透性防護衣手套長鞋呼吸防護具；未確認前應告知勞工「不得將頭部伸入設備內」。",
   "explain_en": "Article 30: supervisor, isolation with double valves or blinds locked and tagged, ventilation, measurement, escape equipment and impermeable PPE.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -2694,7 +2694,7 @@
   "answer": "d",
   "explain_zh": "第31條：應立即使勞工自作業場所避難，未確認不危害前應於顯明處揭示「禁止進入」，但在使用防護具及特定化學物質作業主管指導下搶救人命及處理現場之必要作業者不在此限。第32條：禁止無關人員進入乙丙類物質作業場所及處置丙類第一種丁類物質合計一百公升以上之場所。第34條：設置特定化學設備之場所應設搶救組織並每年實施急救避難訓練，紀錄保存三年。第49條：勞工吸入或遭污染應迅即接受醫師診治。",
   "explain_en": "Article 31; Article 34: rescue organization with annual training (records 3 years); Article 49: immediate medical care for exposed workers.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -2721,7 +2721,7 @@
   "answer": "b",
   "explain_zh": "第36條：製造處置使用特定化學物質身體或衣著有被污染之虞時應設洗眼洗澡漱口更衣及洗濯設備；丙類第一種物質丁類物質鉻酸及其鹽類或重鉻酸及其鹽類之作業場所應另設緊急洗眼及沖淋設備。第35條：乙丙類物質作業場所以外應設休息室，粉狀者入口設清潔用水或濕潤墊席及衣服用刷、地面易吸塵水洗並每日清掃。第40條：禁止吸菸飲食。",
   "explain_en": "Article 36; Article 35: rest rooms outside the work area with dust-removal provisions; Article 40: no smoking or eating.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -2748,7 +2748,7 @@
   "answer": "c",
   "explain_zh": "第37條：應指定現場主管擔任特定化學物質作業主管實際監督，執行預防從事作業之勞工遭受污染或吸入該物質、決定作業方法並指揮勞工作業、保存每月檢點局部排氣裝置及其他預防健康危害裝置一次以上之紀錄、監督勞工確實使用防護具。第39條：使用特定化學設備應就閥旋塞操作冷卻加熱攪拌壓縮裝置操作計測控制監視安全閥調整接合部檢點試料採取中斷再運轉緊急措施等訂定操作程序。",
   "explain_en": "Article 37; Article 39: written operating procedures for specified chemical equipment.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -2775,7 +2775,7 @@
   "answer": "b",
   "explain_zh": "第38條：密閉設備局部排氣裝置整體換氣裝置應由專業人員設計並維持性能；設置局部排氣裝置應指派或委託經中央主管機關訓練合格之專業人員設計並依附表二製作設計報告書；完成後實施原始性能測試並依附表三製作報告書，文件紀錄保存十年；改裝時亦同。第38條之1：設計專業人員應具附表四資格並依附表五課程訓練合格，在職教育訓練每三年不得低於十二小時。",
   "explain_en": "Articles 38 and 38-1.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -2802,7 +2802,7 @@
   "answer": "d",
   "explain_zh": "第41條：對製造處置或使用特定管理物質之作業，應就勞工姓名、從事作業概況及作業期間、勞工顯著遭受特定管理物質污染時之經過概況及雇主採取之緊急措施記錄，並自該作業勞工從事作業之日起保存三十年。",
   "explain_en": "Article 41: 30 years from the date the worker began the work.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -2829,7 +2829,7 @@
   "answer": "a",
   "explain_zh": "第43條：不得使勞工使用石綿等從事吹噴作業，但建築物隔熱防火需要之樑柱等鋼架石綿吹噴作業，將吹噴用石綿等投入取出或混合之場所於隔離之作業室實施、並使勞工使用輸氣管面罩或空氣呼吸器及防護衣者不在此限。第44條：石綿之截斷鑽孔研磨、含石綿物之破碎解體、粉狀石綿投入取出及混合作業應加以濕潤並設有蓋容器收容切屑。",
   "explain_en": "Article 43; Article 44: wet methods and covered containers for cutting, drilling, demolition and mixing of asbestos.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -2856,7 +2856,7 @@
   "answer": "c",
   "explain_zh": "第46條：燻蒸作業場所濃度測定應可於場所外操作；投藥於場所外實施（佩戴輸氣防護具者除外）；檢點漏洩並糊縫；禁止進入並揭示；開啟門扉艙蓋應確認風向；倉庫貨櫃帳幕穀倉駁船輪船燻蒸各有規定；進入前測定氰化氫或溴甲烷濃度，超過氰化氫十 ppm（11 mg/m³）或溴甲烷十五 ppm（60 mg/m³）應禁止進入。",
   "explain_en": "Article 46: remote measurement, external dosing, sealing checks, ventilation on opening, and the 10/15 ppm entry limits.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -2883,7 +2883,7 @@
   "answer": "b",
   "explain_zh": "第50條：應置備與同一工作時間作業勞工人數相同數量以上之適當必要防護具並保持性能及清潔：防止吸入之呼吸用防護具、防止皮膚障害或吸收之不浸透性防護衣防護手套防護鞋及塗敷劑、防止視機能影響之防護眼鏡。第47條：不得使勞工從事以苯等為溶劑之作業（密閉設備或包圍型局部排氣且不直接接觸者除外）。",
   "explain_en": "Article 50; Article 47 bans benzene as a solvent except in enclosed or enclosing-hood systems.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -2910,7 +2910,7 @@
   "answer": "c",
   "explain_zh": "第2條：工資指因工作獲得之報酬含獎金津貼及經常性給與；平均工資指計算事由發生當日前六個月內工資總額除以該期間總日數，未滿六個月者以工作期間計；按日時件計算者若少於工資總額除以實際工作日數之百分之六十，以百分之六十計。細則第2條：職災醫療中、產假減半、留職停薪、普通傷病假等期間不計入。",
   "explain_en": "Article 2; Enforcement Rules Article 2 excludes periods such as occupational injury treatment, half-pay maternity leave and unpaid leave.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -2937,7 +2937,7 @@
   "answer": "a",
   "explain_zh": "第9條：臨時性短期性季節性及特定性工作得為定期契約，有繼續性工作應為不定期契約；派遣事業單位與派遣勞工之契約應為不定期契約；定期契約屆滿後勞工繼續工作雇主不即反對，或另訂新約但前後期間超過九十日且間斷未超過三十日者視為不定期契約（特定性季節性除外）。細則第6條：臨時性六個月以內、短期性可預期六個月內完成、季節性九個月以內、特定性超過一年應報備。",
   "explain_en": "Article 9; Enforcement Rules Article 6 defines temporary (≤6 months), short-term, seasonal (≤9 months) and specific work.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -2964,7 +2964,7 @@
   "answer": "d",
   "explain_zh": "第9條之1：須雇主有應受保護之正當營業利益、勞工能接觸營業秘密、期間區域範圍對象未逾合理範疇、雇主有合理補償（不包括工作期間之給付），違反者無效；期間最長不得逾二年。細則第7條之3：每月補償金額不低於離職時一個月平均工資百分之五十並足以維持生活；細則第7條之1：應以書面為之各執一份。",
   "explain_en": "Article 9-1 and Enforcement Rules Articles 7-1 to 7-3.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -2991,7 +2991,7 @@
   "answer": "d",
   "explain_zh": "第11條：歇業或轉讓時；虧損或業務緊縮時；不可抗力暫停工作一個月以上時；業務性質變更有減少勞工之必要又無適當工作可供安置時；勞工對於所擔任之工作確不能勝任時。第13條：勞工在產假停止工作期間或職災醫療期間雇主不得終止契約（天災事變不可抗力經核定者除外）。",
   "explain_en": "Article 11; Article 13 bars termination during maternity leave or occupational injury treatment.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -3018,7 +3018,7 @@
   "answer": "d",
   "explain_zh": "第12條：訂約時虛偽意思表示、對雇主家屬代理人或同事實施暴行重大侮辱、受有期徒刑宣告確定未緩刑或易科罰金、違反契約或工作規則情節重大、故意損耗機器原料或洩漏營業秘密致損害、無正當理由繼續曠工三日或一個月內曠工達六日者，雇主得不經預告終止；除徒刑宣告外應自知悉之日起三十日內為之。第18條：依第12條終止者不得請求預告工資及資遣費。",
   "explain_en": "Article 12; Article 18: no severance in such cases.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -3045,7 +3045,7 @@
   "answer": "b",
   "explain_zh": "第14條：雇主訂約時虛偽意思表示、雇主家屬代理人實施暴行重大侮辱、工作對健康有危害之虞經通知改善無效、雇主或其他勞工患法定傳染病有傳染之虞、雇主不依契約給付報酬或按件計酬不供給充分工作、雇主違反契約或勞工法令致有損害之虞；第1、6款應自知悉起三十日內（第6款得自知悉損害結果起）；準用第17條發給資遣費。",
   "explain_en": "Article 14: six grounds, 30-day window for some, with severance under Article 17.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -3072,7 +3072,7 @@
   "answer": "b",
   "explain_zh": "第16條：三個月以上一年未滿十日前，一年以上三年未滿二十日前，三年以上三十日前預告；勞工接到預告後為另謀工作得請假外出每週不超過二日工作時間且工資照給；未依期間預告者應給付預告期間工資。第15條：不定期契約勞工終止時準用預告期間；特定性定期契約逾三年者屆滿三年後勞工得終止但應三十日前預告。",
   "explain_en": "Article 16, with paid job-search leave up to two working days per week and pay in lieu of notice.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -3099,7 +3099,7 @@
   "answer": "b",
   "explain_zh": "第17條：在同一雇主之事業單位繼續工作每滿一年發給相當於一個月平均工資之資遣費，剩餘月數或未滿一年者以比例計給，未滿一個月以一個月計；應於終止勞動契約三十日內發給。第78條：未依標準或期限給付者處三十萬元以上一百五十萬元以下罰鍰並限期給付。第20條：改組轉讓時除留用者外應預告終止並發資遣費，留用者年資由新雇主承認。",
   "explain_en": "Article 17; Article 78: NT$300,000–1.5 million fine for non-compliance.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -3126,7 +3126,7 @@
   "answer": "b",
   "explain_zh": "第21條：工資由勞雇雙方議定但不得低於基本工資；基本工資由中央主管機關設基本工資審議委員會擬訂後報請行政院核定。細則第11條：基本工資指正常工作時間內所得報酬不包括延長工時及休息日休假日例假工作加給。第22條：工資以法定通用貨幣全額直接給付。第23條：每月至少定期發給二次並提供各項目計算方式明細，工資清冊保存五年。",
   "explain_en": "Article 21; Enforcement Rules Article 11; Articles 22–23 on payment in currency, twice-monthly payment with itemized statements, and 5-year payroll records.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -3153,7 +3153,7 @@
   "answer": "b",
   "explain_zh": "第24條：延長工作時間在二小時以內按平日每小時工資額加給三分之一以上；再延長二小時以內加給三分之二以上；依第32條第4項天災事變延長者加倍發給；休息日工作二小時以內另再加給一又三分之一以上，二小時後再繼續工作另再加給一又三分之二以上。",
   "explain_en": "Article 24: +1/3, +2/3, double pay for emergency overtime, and rest-day rates of +1 1/3 and +1 2/3.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -3180,7 +3180,7 @@
   "answer": "b",
   "explain_zh": "第28條：積欠工資未滿六個月部分、未依本法給付之退休金、未依本法或勞退條例給付之資遣費，與第一順位抵押權質權留置權擔保之債權受償順序相同並按比例受清償，未獲清償部分有最優先受清償之權；雇主應按投保薪資總額及費率繳納積欠工資墊償基金，墊償六個月內積欠工資及合計以六個月平均工資為限之退休金資遣費；費率由中央主管機關於萬分之十五範圍內擬訂報行政院核定。",
   "explain_en": "Article 28: wages under 6 months, pensions and severance rank with first secured creditors; the Arrear Wage Payment Fund covers them with a rate up to 15/10,000.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -3207,7 +3207,7 @@
   "answer": "c",
   "explain_zh": "第30條：正常工作時間每日不得超過八小時每週不得超過四十小時；經工會或勞資會議同意得將二週內二日之正常工時分配於其他工作日（每日不超過二小時每週不超過四十八小時）或八週內分配（每日不超過八小時每週不超過四十八小時），僅適用指定行業；雇主應置備出勤紀錄逐日記載至分鐘並保存五年，勞工申請副本不得拒絕；得允許勞工於一小時範圍內彈性調整起迄時間。第30條之1：四週變形工時。",
   "explain_en": "Article 30: 8/40 with two-week and eight-week flexible schedules for designated industries (max 48 h/week), minute-level attendance records kept 5 years.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -3234,7 +3234,7 @@
   "answer": "a",
   "explain_zh": "第32條：經工會（無工會經勞資會議）同意得延長工時；連同正常工時一日不得超過十二小時；延長工時一個月不得超過四十六小時，經工會或勞資會議同意得為每月五十四小時、每三個月一百三十八小時，僱用三十人以上者應報當地主管機關備查；天災事變突發事件得延長但應於二十四小時內通知工會或報備查並事後補給休息；坑內工作不得延長（監視為主或天災者除外）。第32條之1：加班得依勞工意願換補休，未補休者依原標準發給工資。",
   "explain_en": "Article 32; Article 32-1 allows compensatory leave at the worker's choice.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -3261,7 +3261,7 @@
   "answer": "b",
   "explain_zh": "第34條：輪班制工作班次每週更換一次（勞工同意者除外）；更換班次時至少應有連續十一小時之休息，因工作特性或特殊原因經中央目的事業主管機關商請中央主管機關公告者得變更為不少於連續八小時，並應經工會或勞資會議同意，三十人以上應報備查。第35條：繼續工作四小時至少應有三十分鐘休息。",
   "explain_en": "Article 34; Article 35: 30 minutes' rest after four hours of continuous work.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -3288,7 +3288,7 @@
   "answer": "b",
   "explain_zh": "第36條：每七日中應有二日休息，一日為例假一日為休息日；變形工時者例假及休息日另有規定；休息日工作時數計入延長工時總數（天災事變除外）；指定行業經同意得於每七日週期內調整例假，三十人以上應報備查。細則第22條之3：例假以每七日為一週期依曆計算，除調整者外不得使勞工連續工作逾六日。第37條：紀念日節日勞動節應休假。",
   "explain_en": "Article 36; Enforcement Rules Article 22-3.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -3315,7 +3315,7 @@
   "answer": "b",
   "explain_zh": "第38條：六個月以上一年未滿三日；一年以上二年未滿七日；二年以上三年未滿十日；三年以上五年未滿每年十四日；五年以上十年未滿每年十五日；十年以上每一年加給一日加至三十日為止；期日由勞工排定，雇主得基於急迫需求協商調整；年度終結或契約終止未休日數應發給工資（得協商遞延一年）；應記載於工資清冊並每年書面通知；勞工主張權利時雇主負舉證責任。",
   "explain_en": "Article 38: the leave schedule, worker-scheduled dates, pay for unused days, written annual notice, and employer burden of proof.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -3342,7 +3342,7 @@
   "answer": "c",
   "explain_zh": "第39條：例假休息日休假及特別休假工資由雇主照給；經徵得勞工同意於休假日工作者工資應加倍發給，季節性趕工經同意照常工作者亦同。第40條：天災事變突發事件得停止假期但工資加倍並事後補假，二十四小時內報請核備。第41條：公用事業經主管機關認有必要得停止特別休假，工資加倍。",
   "explain_en": "Article 39; Article 40: suspended holidays in emergencies require double pay and make-up leave.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -3369,7 +3369,7 @@
   "answer": "a",
   "explain_zh": "第44條：十五歲以上未滿十六歲之受僱從事工作者為童工；童工及十六歲以上未滿十八歲之人不得從事危險性或有害性之工作（細則第25條：依職業安全衛生法令）。第45條：不得僱用未滿十五歲之人（國中畢業或經認定許可者除外）。第46條：未滿十八歲受僱應置備法定代理人同意書及年齡證明。第47條：童工每日不超過八小時每週不超過四十小時例假日不得工作。第48條：童工不得於午後八時至翌晨六時工作。",
   "explain_en": "Articles 44–48: no work under 15 (with exceptions), guardian consent and age proof for minors, 8/40 hour limits and no night work (8 p.m.–6 a.m.) for child workers.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -3396,7 +3396,7 @@
   "answer": "d",
   "explain_zh": "第49條：不得使女工於午後十時至翌晨六時工作，但經工會或勞資會議同意且提供必要之安全衛生設施（標準由中央主管機關定）、無大眾運輸工具時提供交通工具或安排宿舍者不在此限；女工因健康或正當理由不能夜間工作者不得強制；天災事變突發事件不適用限制；但書及天災例外於妊娠或哺乳期間之女工不適用。",
   "explain_en": "Article 49; the facilities standard is the Standards for Safety and Health Facilities for Female Night Workers.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -3423,7 +3423,7 @@
   "answer": "a",
   "explain_zh": "第50條：分娩前後產假八星期，妊娠三個月以上流產者四星期；受僱工作六個月以上者停止工作期間工資照給，未滿六個月者減半發給。第51條：妊娠期間有較輕易之工作得申請改調雇主不得拒絕並不得減少工資。第52條：子女未滿一歲須親自哺乳者每日另給哺乳時間二次每次三十分鐘視為工作時間。",
   "explain_en": "Article 50; Article 51: lighter duties on request during pregnancy; Article 52: two 30-minute nursing breaks daily counted as work time.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -3450,7 +3450,7 @@
   "answer": "a",
   "explain_zh": "第53條：工作十五年以上年滿五十五歲者、工作二十五年以上者、工作十年以上年滿六十歲者得自請退休。第54條：非年滿六十五歲或身心障礙不堪勝任工作者雇主不得強制退休；年齡得協商延後，危險或堅強體力等特殊工作得報請調整但不得少於五十五歲。",
   "explain_en": "Article 53; Article 54: mandatory retirement only at 65 or for disability, adjustable but not below 55 for hazardous jobs.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -3477,7 +3477,7 @@
   "answer": "d",
   "explain_zh": "第55條：每滿一年給與二個基數，超過十五年之年資每滿一年一個基數，最高四十五個基數，未滿半年以半年計滿半年以一年計；因執行職務致身心障礙強制退休者加給百分之二十；基數指核准退休時一個月平均工資；應於退休之日起三十日內給付，無法一次發給得報經核定分期。第56條：雇主應按月提撥薪資總額百分之二至十五之退休準備金專戶存儲，勞工代表不得少於三分之二之監督委員會監督。第58條：請領權五年不行使消滅。",
   "explain_en": "Article 55; Article 56: monthly reserve contributions of 2–15% of payroll; Article 58: 5-year claim period.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -3504,7 +3504,7 @@
   "answer": "d",
   "explain_zh": "第59條：受傷或罹患職業病補償必需醫療費用；醫療中不能工作者按原領工資補償，醫療屆滿二年未痊癒經審定喪失原有工作能力且不合失能給付標準者得一次給付四十個月平均工資免除工資補償；治療終止遺存障害者按平均工資及失能程度一次給予失能補償；死亡者給與五個月平均工資喪葬費及四十個月平均工資死亡補償，遺屬順位為配偶及子女、父母、祖父母、孫子女、兄弟姐妹；同一事故已由雇主支付費用補償者得抵充。細則第33條：喪葬費三日內、死亡補償十五日內給付。第61條：受領補償權二年不行使消滅。",
   "explain_en": "Article 59; Enforcement Rules Article 33: funeral expenses within 3 days, death compensation within 15 days; Article 61: 2-year limitation.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -3531,7 +3531,7 @@
   "answer": "d",
   "explain_zh": "第62條：承攬人或中間承攬人就各該承攬部分所使用之勞工均應與最後承攬人連帶負本章所定雇主應負職災補償責任，補償後得向最後承攬人求償。第63條：原事業單位應督促承攬人勞動條件符合法令；違背職安法對承攬人應負責任之規定致承攬人勞工職災者應負連帶補償責任。第63條之1：要派單位與派遣事業單位連帶負職災補償責任。",
   "explain_en": "Article 62; Article 63: principal jointly liable if it breached OSH contractor duties; Article 63-1: user and dispatch enterprises jointly liable.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -3558,7 +3558,7 @@
   "answer": "b",
   "explain_zh": "第70條：僱用勞工三十人以上者應就工作時間休息休假、工資標準計算發放、延長工時、津貼獎金、紀律、考勤請假獎懲升遷、受僱解僱資遣離職退休、災害傷病補償撫卹、福利、安全衛生規定、勞雇溝通等事項訂立工作規則報請主管機關核備後公開揭示。第71條：違反法令強制禁止規定或團體協約者無效。細則第37條：僱用滿三十人時應即訂立並於三十日內報請當地主管機關核備；細則第38條：核備後應公告並印發各勞工。",
   "explain_en": "Article 70 (twelve subjects); Article 71: rules contrary to mandatory law are void; Enforcement Rules Articles 37–38.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -3585,7 +3585,7 @@
   "answer": "d",
   "explain_zh": "第74條：勞工得向雇主主管機關或檢查機構申訴；雇主不得因申訴予以解僱降調減薪損害權益或其他不利處分，為之者無效；主管機關或檢查機構應為必要調查並於六十日內書面通知處理情形；應對申訴人身分嚴守秘密，違反者追究責任並負損害賠償。細則第46條：申訴得以口頭或書面為之。第79條：違反第74條第2項處二萬元以上三十萬元以下罰鍰。",
   "explain_en": "Article 74; Article 79: NT$20,000–300,000 fine for retaliation.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -3612,7 +3612,7 @@
   "answer": "b",
   "explain_zh": "第75條：違反第5條（強制勞動）處五年以下有期徒刑拘役或科或併科七十五萬元以下罰金。第76條：違反第6條（介入契約抽取不法利益）處三年以下有期徒刑拘役或科或併科四十五萬元以下罰金。第77條：違反童工女工保護等規定處六個月以下有期徒刑或三十萬元以下罰金。第81條：法人代表人代理人受僱人因執行業務違反者對法人亦科罰金罰鍰。",
   "explain_en": "Articles 75–77 and 81.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -3639,7 +3639,7 @@
   "answer": "d",
   "explain_zh": "第79條：違反第21條第1項、第22至25條、第30條第1至3項第6項第7項、第32條、第34至41條、第49條第1項或第59條等處二萬元以上一百萬元以下罰鍰；違反第30條第5項（出勤紀錄）或第49條第5項處九萬元以上四十五萬元以下；違反第7、9條第1項、第16、19條、第28條第2項、第46、56條第1項、第65至68、70條或第74條第2項處二萬元以上三十萬元以下；得依規模人數情節加重至最高額二分之一。第80條之1：受罰者公布名稱負責人姓名處分日期條文金額並限期改善。",
   "explain_en": "Article 79 tiers, increasable by half; Article 80-1: public naming of penalized employers.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -3666,7 +3666,7 @@
   "answer": "b",
   "explain_zh": "第84條之1：經核定公告之監督管理人員或責任制專業人員、監視性或間歇性工作、其他性質特殊之工作，得由勞雇雙方另行約定工作時間例假休假女性夜間工作並報請當地主管機關核備，不受第30、32、36、37、49條限制；約定應以書面為之並參考本法基準且不得損及勞工之健康及福祉。細則第50條之1：定義監督管理人員責任制專業人員監視性間歇性工作；第50條之2：核備內容應包括職稱工作項目權責工時例假休假女性夜間工作。",
   "explain_en": "Article 84-1; Enforcement Rules Articles 50-1 and 50-2.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -3693,7 +3693,7 @@
   "answer": "a",
   "explain_zh": "細則第10條：其他任何名義之經常性給與指下列以外之給與：紅利；年終獎金競賽獎金研究發明獎金特殊功績獎金久任獎金節約燃料物料獎金等非經常性獎金；春節端午中秋節金；醫療補助費勞工及子女教育補助費；勞工直接受自顧客之服務費；婚喪喜慶賀禮慰問金奠儀；職業災害補償費；勞保及商業保險費；差旅費差旅津貼交際費；工作服作業用品及代金；其他指定者。",
   "explain_en": "Enforcement Rules Article 10 lists the eleven non-wage categories.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -3720,7 +3720,7 @@
   "answer": "c",
   "explain_zh": "細則第20條之1：延長工作時間指每日工作時間超過八小時或每週總時數超過四十小時之部分（依第30條第2、3項或第30條之1變更者為超過變更後工時之部分），及勞工於第36條所定休息日工作之時間。細則第17條：正常工時跨越二曆日者合併計算；第18條：出差不易計算者以平時工時計；第19條：不同場所工時合併並加計交通時間。",
   "explain_en": "Article 20-1; Articles 17–19 on cross-day, off-site and multi-site hours.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -3747,7 +3747,7 @@
   "answer": "a",
   "explain_zh": "細則第24條：特別休假得於協商之下列期間行使：以受僱當日起算每一週年（六個月以上一年未滿者為取得權利後六個月）、每年一月一日至十二月三十一日、學年度會計年度或約定年度；雇主應於勞工符合特休條件之日起三十日內告知排定。細則第24條之1：未休日數乘一日工資計發，於年度終結後三十日內或工資給付日發給；遞延者次年度優先扣除。第24條之2：每年書面通知得以紙本或電子方式。",
   "explain_en": "Enforcement Rules Articles 24 to 24-2.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -3774,7 +3774,7 @@
   "answer": "a",
   "explain_zh": "細則第31條：原領工資指勞工遭遇職業災害前一日正常工作時間所得之工資，計月者以遭遇職災前最近一個月正常工作時間所得工資除以三十為一日工資；罹患職業病者低於平均工資時以平均工資為準。細則第30條：工資補償應於發給工資之日給與。細則第32條：第59條第2款但書之四十個月補償應於決定後十五日內給與。細則第34條之1：已投保勞保經核定者補償以平均工資與平均投保薪資之差額計算。",
   "explain_en": "Enforcement Rules Article 31 (average wage applies if higher for occupational disease); Articles 30, 32 and 34-1 on timing and offsets.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -3801,7 +3801,7 @@
   "answer": "a",
   "explain_zh": "細則第45條：事業單位對檢查結果有異議時應於通知送達後十日內向檢查機構以書面提出。細則第41條：中央主管機關應每年定期發布次年度勞工檢查方針，檢查機構於發布之日起五十日內擬定檢查計畫報請核定。第73條：檢查員應出示檢查證，事業單位拒絕時得會同主管機關或警察強制檢查；抽取樣品應事先通知並掣給收據。第80條：拒絕規避阻撓檢查處三萬元以上十五萬元以下罰鍰。",
   "explain_en": "Enforcement Rules Articles 41 and 45; Act Articles 73 and 80 on inspection powers and obstruction fines.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -3828,7 +3828,7 @@
   "answer": "b",
   "explain_zh": "第2條：壓縮氣體在常用溫度下表壓力達每平方公分十公斤以上或攝氏三十五度時可達十公斤以上者（不含壓縮乙炔）；壓縮乙炔氣達二公斤以上或攝氏十五度時可達二公斤以上者；液化氣體達二公斤以上或達二公斤時之溫度在攝氏三十五度以下者；攝氏三十五度時壓力超過零公斤之液化氰化氫、液化溴甲烷、液化環氧乙烷等。第3條：特定高壓氣體指壓縮氫氣、壓縮天然氣、液氧、液氨、液氯、液化石油氣。",
   "explain_en": "Article 2; compressed acetylene counts from 2 kg/cm²; Article 3 defines specified HP gases (hydrogen, natural gas, liquid oxygen, ammonia, chlorine, LPG).",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -3855,7 +3855,7 @@
   "answer": "a",
   "explain_zh": "第4條：可燃性氣體指丙烯腈丙烯醛乙炔乙醛氨一氧化碳乙烷乙烯氯乙烯環氧乙烷氰化氫氫二硫化碳丁二烯丁烷丙烷丙烯溴甲烷苯甲烷硫化氫等及其他爆炸下限在百分之十以下或爆炸上限與下限之差在百分之二十以上之氣體。第6條：毒性氣體指丙烯腈丙烯醛二氧化硫氨一氧化碳氯氯甲烷環氧乙烷氰化氫氟溴甲烷苯光氣硫化氫等及其他容許濃度在百萬分之二百以下之氣體。第5條：原料氣體指可燃性氣體及氧氣。",
   "explain_en": "Articles 4–6.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -3882,7 +3882,7 @@
   "answer": "d",
   "explain_zh": "第7條：容器指純供灌裝高壓氣體之移動式壓力容器。第8條：灌氣容器指灌裝有高壓氣體之容器而該氣體質量在灌裝時質量之二分之一以上者；第9條：殘氣容器指未滿灌裝時質量二分之一者。第10條：超低溫容器可灌裝攝氏零下五十度以下之液化氣體並以絕熱材料被覆；第12條：儲槽指固定於地盤之高壓氣體儲存設備。",
   "explain_en": "Articles 7–12: definitions of containers, filled and residual cylinders, ultra-low-temperature containers and storage tanks.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -3909,7 +3909,7 @@
   "answer": "a",
   "explain_zh": "第27條：甲類製造事業單位指使用壓縮液化或其他方法處理之氣體容積（換算為攝氏零度零公斤時）一日在三十立方公尺以上或一日冷凍能力在二十公噸以上之設備從事高壓氣體製造（含灌裝於容器）者；乙類指前款以外之製造者但冷凍能力以三公噸以上者為限。第26條：冷凍機器指一日冷凍能力三公噸以上者。",
   "explain_en": "Article 27; Class B covers other manufacturers with refrigeration capacity of 3 tonnes or more.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -3936,7 +3936,7 @@
   "answer": "a",
   "explain_zh": "第28條：壓縮氫氣容積三百立方公尺以上、壓縮天然氣三百立方公尺以上、液氧質量三千公斤以上、液氨三千公斤以上、液氯一千公斤以上，或使用導管自其他事業單位導入特定高壓氣體者。第29條：特定液化石油氣消費事業單位指儲存能力三千公斤以上或導管導入者。",
   "explain_en": "Article 28; Article 29: LPG consuming enterprises from 3,000 kg or pipeline supply.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -3963,7 +3963,7 @@
   "answer": "b",
   "explain_zh": "第33條：可燃性氣體製造設備外面至處理煙火設備應保持八公尺以上距離或設置防止漏洩氣體流竄之措施。第34條：可燃性氣體高壓氣體設備與其他可燃性氣體高壓氣體設備保持五公尺以上，與氧氣製造設備之高壓氣體設備保持十公尺以上。第35條：儲存能力三百立方公尺或三千公斤以上之可燃性氣體儲槽與其他可燃性氣體或氧氣儲槽間保持一公尺或最大直徑和四分之一以上較大者（設水噴霧者除外）。",
   "explain_en": "Articles 33–35: 8 m from fire sources, 5 m between flammable gas units, 10 m from oxygen units, and 1 m or a quarter of combined diameters between large tanks.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -3990,7 +3990,7 @@
   "answer": "a",
   "explain_zh": "第36條：可燃性氣體儲槽應塗以紅色或在槽壁明顯部分以紅字書明該氣體名稱；地下儲槽埋設覆土式等得採標示牌或其他易識別方式。第31條：事業場所應有明確境界線並設警戒標示。第63條：毒性氣體製造設施應設易辨識措施並於泵閥接頭等有漏洩之虞處標示毒性危害。",
   "explain_en": "Article 36; Article 63: toxic gas facilities need identification and hazard labels at pumps, valves and joints.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -4017,7 +4017,7 @@
   "answer": "b",
   "explain_zh": "第37條：儲存能力一千公噸以上之液化可燃性氣體儲槽、一千公噸以上之液化氧氣儲槽、五公噸以上之液化毒性氣體儲槽、以毒性氣體為冷媒承液器內容積一萬公升以上者，四周應設防止液化氣體漏洩流竄之防液堤或同等設施。第37條之1：防液堤內側及堤外十公尺內除規定設備外不得設其他設備。第37條之2：液化毒性氣體儲槽防液堤外距離依儲存能力公式計算（可燃性毒性氣體 6–10 公尺，其他毒性氣體 4–8 公尺）。",
   "explain_en": "Article 37; Article 37-1: restricted equipment inside and within 10 m of the dike; Article 37-2: formula-based distances for toxic gas tanks.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -4044,7 +4044,7 @@
   "answer": "d",
   "explain_zh": "第41條：高壓氣體設備應以常用壓力一點五倍以上之壓力實施耐壓試驗並以常用壓力以上壓力實施氣密試驗合格（容器、經重新檢查或構造檢查之特定設備除外）。第43條：應具有以常用壓力二倍以上壓力加壓時不致引起降伏變形之厚度。第42條：冷媒設備以最高使用壓力以上氣密試驗及一點五倍耐壓試驗。第80條：導管亦同。",
   "explain_en": "Articles 41–43; Article 42 for refrigerant systems; Article 80 for pipelines.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -4071,7 +4071,7 @@
   "answer": "c",
   "explain_zh": "第46條：塔（最高位正切線至最低位正切線長度五公尺以上）、儲槽（儲存能力三百立方公尺或三公噸以上）、豎式圓胴型冷凝器（胴部長度五公尺以上）、承液器（內容積五千公升以上）及支撐各該設備之支持構築物與基礎應能承受地震影響之耐震構造。第45條：儲存能力一百立方公尺或一公噸以上儲槽之支柱應置於同一基礎。",
   "explain_en": "Article 46; Article 45: tank supports on a common foundation.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -4098,7 +4098,7 @@
   "answer": "b",
   "explain_zh": "第48條：高壓氣體設備儲存設備冷媒設備應設壓力表及超壓時可迅速恢復至最高使用壓力以下之安全裝置。第49條：安全閥或破裂板應置釋放管；可燃性氣體儲槽者置於距地面五公尺或距槽頂二公尺較高者以上且四周無著火源之安全位置；毒性氣體設備者置於該氣體之除毒設備內；其他者高過鄰近建築物工作物且四周無著火源。",
   "explain_en": "Articles 48–49.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -4125,7 +4125,7 @@
   "answer": "d",
   "explain_zh": "第53條：內容積五千公升以上之可燃性氣體毒性氣體或氧氣液化氣體儲槽之配管（輸出或接受用，含連接部分），應於距儲槽外側五公尺以上安全處所設可操作之緊急遮斷裝置，僅用於接受者得以逆止閥代替；醫療用液氧儲槽得另裝旁通閥但應經常關閉並鉛封上鎖。第52條：儲槽配管除緊急遮斷裝置外應設二具以上之閥，其一置於儲槽近接處並經常關閉。",
   "explain_en": "Article 53; Article 52: two or more valves on tank piping, one near the tank normally closed.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -4152,7 +4152,7 @@
   "answer": "c",
   "explain_zh": "第54條：可燃性氣體（氨及溴甲烷以外）之高壓氣體設備或冷媒設備使用之電氣設備應具有適應其設置場所及該氣體種類之防爆性能構造。第55條：自動控制裝置撒水裝置消防設備冷卻水泵緊急照明等應設不因停電失卻安全功能之緊急電源。第66條：可燃性氣體製造設備應採取除卻靜電措施。第60條：有漏洩積滯之虞之場所應設氣體漏洩檢知警報設備。",
   "explain_en": "Article 54; Article 55: emergency power for safety systems; Article 60: gas leak detectors and alarms; Article 66: static elimination.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -4179,7 +4179,7 @@
   "answer": "b",
   "explain_zh": "第58條：放置壓縮機或灌裝壓縮乙炔氣於容器之場所與灌氣容器放置場間應分設厚度十二公分以上鋼筋混凝土造或同等強度之防護牆。第59條：壓縮機與使用每平方公分一百公斤以上壓力灌注壓縮氣體於容器之場所或灌氣容器放置場間亦同。第56條：灌裝壓縮乙炔氣場所及灌氣容器放置場應設撒水裝置。第57條：地上液化石油氣儲槽及支柱應為耐熱性構造或設冷卻撒水設備。",
   "explain_en": "Articles 58–59; Article 56: sprinklers at acetylene filling and cylinder storage; Article 57: heat-resistant LPG tanks or cooling sprays.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -4206,7 +4206,7 @@
   "answer": "c",
   "explain_zh": "第64條：毒性氣體之氣體設備之配管管接頭及閥之接合應採用熔接接合，不適於熔接者得以安全上具必要強度之凸緣接合代替。第65條：毒性氣體配管應依氣體種類性狀壓力及鄰近狀況在必要處所採用二重管構造。第61條：毒性氣體製造設備應設防止漏洩氣體擴散之裝置、吸收設備及吸收劑、防毒面罩保管於安全場所。第164、165條：液氨液氯消費設備亦同。",
   "explain_en": "Articles 64–65; Article 61: dispersion prevention, absorbers and stored respirators; Articles 164–165 for ammonia and chlorine consumers.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -4233,7 +4233,7 @@
   "answer": "d",
   "explain_zh": "第70條：安全閥或釋放閥之停止閥應經常全開；空氣液化分離裝置液氧中乙炔超過一毫克、甲烷碳超過二百毫克、其他碳氫化合物碳超過一百毫克或合計超過二百毫克時應停止運轉排放液氧；不得壓縮之氣體：乙炔乙烯氫以外之可燃性氣體含氧容量百分之四以上、乙炔乙烯或氫含氧百分之二以上、氧氣中乙炔乙烯氫合計百分之二以上、氧氣中其他可燃性氣體百分之四以上；製造壓力超過二十五公斤之壓縮乙炔應添加稀釋劑。第101條：導管供應之原料氣體亦不得製造此類混合氣。",
   "explain_en": "Article 70: also requires relief-valve block valves open, liquid oxygen hydrocarbon limits, and diluent for acetylene over 25 kg/cm².",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -4260,7 +4260,7 @@
   "answer": "d",
   "explain_zh": "第71條：液化氣體灌注儲槽不得超過常用溫度下槽內容積百分之九十（液化毒性氣體儲槽應有自動探測及超過百分之九十之警報）；乙炔以外壓縮氣體及液氨液化二氧化碳液氯灌注無縫容器前應實施音響檢查；固定於車輛五千公升以上容器灌裝時應設輪擋；乙炔灌裝壓力二十五公斤以下且靜置後攝氏十五度時十五點五公斤以下；環氧乙烷灌注前以氮氣或二氧化碳置換；應使用合格容器或儲槽。",
   "explain_en": "Article 71; Article 92–93 apply the 90% rule to mobile equipment and LPG.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -4287,7 +4287,7 @@
   "answer": "c",
   "explain_zh": "第72條：乙炔應灌注於浸潤有丙酮或二甲基甲醯胺之多孔性物質容器；氰化氫應在純度百分之九十八以上中添加穩定劑，灌裝後靜置二十四小時以上確認無漏洩並張貼製造年月日貼籤；環氧乙烷儲槽應經常以氮或二氧化碳置換並維持攝氏五度以下；環氧乙烷灌氣容器應灌注氮或二氧化碳使攝氏四十五度時內壓達四公斤以上。第74條：工業用液化石油氣應貼「未添加臭劑」紅字貼籤，其他應添加漏洩千分之一即可察覺之臭劑。",
   "explain_en": "Article 72; Article 74: odorant requirements for LPG.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -4314,7 +4314,7 @@
   "answer": "b",
   "explain_zh": "第75條：事前訂定作業計畫並指定作業負責人監督；可燃性毒性氣體或氧氣設備應先以不易反應之氣體或液體置換，勞工進入者再以空氣置換；開放部分前後之閥旋塞應關閉並設盲板阻隔；關閉之閥旋塞或盲板應懸掛「禁止操作」標示牌並加鎖；終了後非經確認可安全正常動作前不得使用。第187條：消費設備修理清掃亦應先置換。",
   "explain_en": "Article 75: work plan, supervisor, inert then air purge, isolation, lock-and-tag and verification; Article 187 for consumer equipment.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -4341,7 +4341,7 @@
   "answer": "c",
   "explain_zh": "第79條：容器放置場應明確標示並設警戒標示；可燃性或氧氣容器放置場應以不燃性難燃性材料構築輕質屋頂；可燃性氣體場所應使漏洩不滯留；二氧化硫氨氯氯甲烷環氧乙烷氰化氫光氣硫化氫應設除毒設備；設滅火設備；灌氣與殘氣容器分別放置；不得放置無關物品；四周二公尺內不得有煙火或危險性物質（設九公分以上鋼筋混凝土防護牆者除外）；溫度保持攝氏四十度以下；五公升以上容器應防翻倒掉落；可燃性氣體放置場不得攜帶火源機具。",
   "explain_en": "Article 79: marked areas, non-combustible roofs, separation of filled and residual cylinders, detoxification equipment for toxic gases, no ignition sources.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -4368,7 +4368,7 @@
   "answer": "a",
   "explain_zh": "第80條：導管不得設於地塌山崩不均勻沈陷場所或建築物內部及基礎下面；設於地盤上應距地面安裝並設標示；埋設地盤下深度應距地面六十公分以上並設標示；設於水中應置於不受船舶波浪影響之深度；耐壓試驗一點五倍氣密試驗常用壓力以上；厚度耐二倍壓力；防蝕及吸收應力；防止超溫超壓；輸送氧氣或天然甲烷導管與壓縮機間應設除水設備。",
   "explain_en": "Article 80: siting restrictions, 60 cm burial, marking, 1.5× pressure test, corrosion and stress protection, water removal for oxygen and methane lines.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -4395,7 +4395,7 @@
   "answer": "a",
   "explain_zh": "第81條：經認定對公共具有危險之液化石油氣儲槽應埋設於地盤內。第82條：儲槽應設於厚度三十公分以上混凝土造或同等強度之頂蓋牆壁底板構築之儲槽室內並填足乾砂、埋設水中或強制換氣之一（施防鏽固定且頂部耐荷重者得直接埋設）；頂部至少距地面六十公分；併設二個以上儲槽面間距一公尺以上；外應設警戒標示。第83條：一部埋於地盤者該部分應施防鏽。",
   "explain_en": "Articles 81–83.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -4422,7 +4422,7 @@
   "answer": "d",
   "explain_zh": "第85條：承受灌裝之車輛應距離設置在地面上之儲槽外面三公尺以上，儲槽與車輛間設防護柵者除外。第86條：應拆卸容器與裝卸設備之連接部分後始得移動車輛；應添加漏洩千分之一即可察覺臭味之臭劑。第25條：加氣站指直接將液化石油氣灌裝於固定在使用該氣體為燃料之車輛容器之固定式製造設備。",
   "explain_en": "Articles 85–86; Article 25 defines filling stations.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -4449,7 +4449,7 @@
   "answer": "a",
   "explain_zh": "第93條：不得灌注於內容積一千公升以下之容器；應使用經檢查合格之容器或儲槽；事前確認承注容器或儲槽已設液面計或過裝防止裝置；不超過槽內容積百分之九十；防止原動機火花；事前確認配管連接部無漏洩且灌注後微量排放剩餘氣體後始得拆卸；除卻靜電；五千公升以上車載容器設輪擋。第92條：移動式製造設備灌裝之一般規定。",
   "explain_en": "Article 93; Article 92 general rules for mobile manufacturing equipment.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -4476,7 +4476,7 @@
   "answer": "c",
   "explain_zh": "第97條：灌注高壓氣體於容器應距處置煙火場所、多數人聚集場所或堆置危險性物質場所五公尺以上；灌注氧氣前應除卻附著於閥及容器之石油類或油脂類，容器與閥間不得使用可燃性墊圈；加熱容器閥配管應用熱濕布或攝氏四十度以下溫水；灌裝之氰化氫移注於其他容器應於灌裝之日起六十日內（純度百分之九十八以上未著色者除外）。",
   "explain_en": "Article 97; also 40°C warm-water heating limits and 60-day transfer limit for hydrogen cyanide.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -4503,7 +4503,7 @@
   "answer": "b",
   "explain_zh": "第109條：內容積二十公升以上之灌氣容器應放置於室外並於四周二公尺內設可遮斷火源之措施（室外困難且漏洩不滯留者除外）；容器及鋼裙應防濕氣生鏽；溫度保持攝氏四十度以下；超過五公升之容器應防翻倒損傷閥；容器與停止閥間設調整器，調整器高壓側應經每平方公分二十六公斤耐壓試驗及十六公斤氣密試驗合格；容器與調整器間配管以二十六公斤、調整器與停止閥間以八公斤（未滿零點三公尺者二公斤）耐壓試驗；軟管與硬管或調整器連接應以管帶鎖緊。第107條：壓縮天然氣灌氣容器應標示使用期間不超過有效期限六月。",
   "explain_en": "Article 109; Article 107: CNG cylinders marked with use not exceeding six months past the validity period.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -4530,7 +4530,7 @@
   "answer": "d",
   "explain_zh": "第113條：儲存可燃性或毒性氣體之儲槽應設於通風良好場所；四周二公尺以內不得有煙火或危險物質；液化氣體儲存不得超過常用溫度下槽內容積百分之九十；修理準用第75條；一百立方公尺或一公噸以上儲槽應注意沈陷；操作閥應防止過巨之力。第118條：儲存容積三百立方公尺或三千公斤以上之事業單位應設專用高壓氣體儲存場。第117條：容積零點一五立方公尺以下之儲槽或容器不受限制。",
   "explain_en": "Article 113; Article 118: dedicated storage yards from 300 m³ or 3,000 kg; Article 117: exemption below 0.15 m³.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -4557,7 +4557,7 @@
   "answer": "b",
   "explain_zh": "第116條：儲存可燃性或毒性氣體之容器應放置於通風良好場所；儲存氰化氫之容器應每日檢點一次以上；氰化氫之儲存自灌裝之日起不得超過六十日（純度百分之九十八以上且未著色者除外）；不得固定或積載於船舶車輛鐵路車輛（滅火用二氧化碳氮氣、消防救護車救急用等除外）；準用第79條第6至11款。第182條：氰化氫之消費應使用灌裝後不超過六十日者。",
   "explain_en": "Article 116; Article 182 applies the 60-day rule to consumption.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -4584,7 +4584,7 @@
   "answer": "b",
   "explain_zh": "第125條：固定於車輛運輸之灌氣容器應保持攝氏四十度以下，內存液化氣體者應設溫度計。第126條：液化氣體容器應設防波板（ISO Tank 及無縫容器除外）。第127條：超過車輛最高點者應設高度檢知桿。第128條：後方卸出式容器原閥及緊急遮斷閥與後保險桿後面水平距離四十公分以上；第129條：其他容器後面與後保險桿三十公分以上；第130條：突出零件收容於車輛左側以外之工作箱且距後保險桿二十公分以上。第132條：液化可燃性毒性氣體或液氧容器不得使用玻璃液面計。第134條：運輸開始或終止時應檢點漏氣。",
   "explain_en": "Articles 125–134: temperature, baffles, height indicators, bumper clearances (40/30/20 cm), no glass gauges, leak checks at start and end of transport.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -4611,7 +4611,7 @@
   "answer": "d",
   "explain_zh": "第124條：集合容器應設可使容器相互間及集合容器與車輛間緊結之措施；每一容器應設供氣體輸出輸入用之容器原閥；灌裝管上應設安全閥壓力表及緊急洩壓閥。第133條：容器之閥或旋塞應採取自外面易識別開閉方向及狀態之措施。",
   "explain_en": "Article 124; Article 133: valve open/close status visible from outside.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -4638,7 +4638,7 @@
   "answer": "d",
   "explain_zh": "第169條：儲存相關設備四周五公尺以內應嚴禁煙火且不得置放危險性物質。第176條：特定液化石油氣消費設備儲存相關設備外面至處理煙火設備應保持八公尺以上或設防止流竄措施。第184條：可燃性氣體或氧氣消費設備五公尺以內嚴禁煙火。第181條：可燃性或毒性氣體之消費應在通風良好場所並保持容器攝氏四十度以下。第170、185條：液氧或氧氣使用之閥器具應除卻石油類油脂類。",
   "explain_en": "Articles 169, 176, 181, 184; oxygen equipment must be free of oil and grease.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -4665,7 +4665,7 @@
   "answer": "a",
   "explain_zh": "第191條之1：串接總容量不得超過一千公斤並訂定容器串接供應使用管理計畫；容器及氣化器設於室外；防止液封；撓管連結容器處加裝防止噴洩裝置；配管設逆止閥；撓管配管符合 CNS 或 ISO；設漏洩及地震偵測自動緊急遮斷裝置；標示緊急聯絡人及電話；依消防法設消防設備（自 112 年 9 月 14 日施行）。",
   "explain_en": "Article 191-1: management plan, outdoor siting, anti-liquid-lock, excess-flow devices, check valves, CNS/ISO hoses, automatic shut-off, emergency contacts, fire equipment.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -4692,7 +4692,7 @@
   "answer": "a",
   "explain_zh": "第210條：可燃性氣體等不得併同容器廢棄。第211條：可燃性氣體廢棄不得近接煙火處置場所或危險性物質場所，排放於大氣中應於通風良好場所緩緩排放。第212條：毒性氣體排放應依環保規定。第213條：連續廢棄應檢測滯留濃度。第214條：氧氣廢棄之閥器具應除卻油脂。第215條：廢棄後嚴閉其閥並防翻倒。第217條：加熱應用熱濕布或四十度以下溫水。",
   "explain_en": "Articles 210–217.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -4719,7 +4719,7 @@
   "answer": "b",
   "explain_zh": "第218條：安全衛生管理體制及各層級職責、製造設備之安全運轉及操作、安全巡視檢點檢查、製造設施新設增設變更之管理與設備管線維護保養檢修汰換、緊急狀態應變措施及演練、承攬人再承攬人之管理協調、其他防災必要事項。第239條：應對管理監督指揮及操作人員施予安全知識教育訓練。第240條：定期安全維護保養檢點並補修汰換，於安全主任作業主管督導下實施，紀錄留存三年。",
   "explain_en": "Article 218; Article 239: training; Article 240: periodic maintenance under supervisors with records kept 3 years.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -4746,7 +4746,7 @@
   "answer": "b",
   "explain_zh": "第219條：應就製造事業單位實際負責人指派為高壓氣體製造安全負責人綜理製造安全業務並向勞動檢查機構報備（非可燃性毒性冷媒之單元型自動控制冷凍設備、氟氯冷114製造設備、經核准之試驗研究設備除外）。第220條：液化石油氣及冷凍用以外之甲類製造事業單位應選任高壓氣體製造安全主任輔助之，並依教育訓練規則受訓。第221條：應依製造種類選任高壓氣體製造安全作業主管並受訓。",
   "explain_en": "Article 219; Articles 220–221: safety chiefs and safety work supervisors with statutory training.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -4773,7 +4773,7 @@
   "answer": "c",
   "explain_zh": "第224條：維持製造設備符合法令規定基準、維持作業方法符合基準、監督實施自動檢查、實施巡視與檢點、對安全作業標準設備管理基準承攬管理基準及災害防止措施提供建議、發生災害或有虞時採取必要措施，並監督指揮勞工作業。第229、233條：液化石油氣及冷凍用高壓氣體之作業主管職責相同。第238條：平時應選任製造安全管理人員之代理人。",
   "explain_en": "Article 224 (mirrored in Articles 229 and 233); Article 238: deputies must be pre-designated.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -4800,7 +4800,7 @@
   "answer": "d",
   "explain_zh": "第225條：一日製造高壓氣體容積一百萬立方公尺以上（純供灌裝之儲槽事業單位二百萬立方公尺以上）者應就大專校院理工科系畢業並擔任製造安全主任五年以上或擔任製造安全作業主管及安全主任合計七年以上者選任高壓氣體製造安全規劃人員並報備（製造安全負責人具同等資格者除外）；空氣或非保安用不活性氣體四分之三容積及保安用不活性氣體全部不列入。第226條：規劃人員輔導規劃安全工作守則、安全教育計畫、基本對策、作業標準建議、防災訓練、災害原因調查、資料蒐集。第227、230條：液化石油氣處理能力一百萬立方公尺以上者亦同。",
   "explain_en": "Article 225 (2,000,000 m³ for filling-only tank operations); Article 226 duties; Articles 227 and 230 for LPG.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -4827,7 +4827,7 @@
   "answer": "d",
   "explain_zh": "第234條：供應氨氯甲烷或氰化氫、乙炔丁二烯丁烯丙烯或甲烷、氯、氫、氧、丁烷之事業場所應依供應場所分類分別選任高壓氣體供應安全作業主管。第235條：液化石油氣供應事業單位亦同。第236條：特定高壓氣體消費事業單位應選任高壓氣體消費作業主管；第237條：特定液化石油氣消費事業單位亦同；均應依教育訓練規則接受高壓氣體供應及消費作業主管教育訓練。",
   "explain_en": "Articles 234–237.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""
@@ -4854,7 +4854,7 @@
   "answer": "c",
   "explain_zh": "第241條不適用：高壓鍋爐及導管內之高壓蒸氣、鐵路車輛冷氣設備、船舶設備、礦場設施、航空器、電力設備內、原子能設施、內燃機起動輪胎充氣打鉚鑽岩土木工程用壓縮裝置、冷凍能力未滿三公噸之冷凍設備、液化溴甲烷製造設備外之溴甲烷、高壓蒸氣鍋內（氫乙炔氯乙烯除外）、飲料啤酒用高壓氣體（液化氣體質量百分之十五以下且三十五度時六公斤以下）、質量五百公克以下且三十五度時八公斤以下經指定之液化氣體。",
   "explain_en": "Article 241 lists thirteen exclusions.",
-  "status": "draft",
+  "status": "active",
   "batch": 6,
   "reviewer": "",
   "review_note": ""

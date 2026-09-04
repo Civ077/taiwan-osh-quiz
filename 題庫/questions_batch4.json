@@ -21,7 +21,7 @@
   "answer": "a",
   "explain_zh": "第1條：本辦法依職業安全衛生法第二十三條第五項規定訂定之。第1條之1：雇主應依事業規模性質設置安全衛生組織及人員，建立管理制度，透過規劃、實施、評估及改善實現管理目標。",
   "explain_en": "Article 1: under Article 23(5); Article 1-1 requires employers to set up an OSH organization and management system with plan-do-check-act functions.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -48,7 +48,7 @@
   "answer": "b",
   "explain_zh": "第2條：第一類事業具顯著風險、第二類事業具中度風險、第三類事業具低度風險；各類事業例示如附表一。",
   "explain_en": "Article 2: Category 1 = significant risk, Category 2 = moderate risk, Category 3 = low risk, with examples in Annex 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -75,7 +75,7 @@
   "answer": "c",
   "explain_zh": "第2條之1：第一類事業勞工人數一百人以上應設直接隸屬雇主之專責一級管理單位；第二類事業三百人以上應設直接隸屬雇主之一級管理單位。",
   "explain_en": "Article 2-1: Category 1 with 100+ workers needs a dedicated first-level unit; Category 2 with 300+ needs a first-level unit directly under the employer.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -102,7 +102,7 @@
   "answer": "d",
   "explain_zh": "第2條之1第1項第2款：第二類事業勞工人數在三百人以上者，應設直接隸屬雇主之一級管理單位。",
   "explain_en": "Article 2-1(1)(2): Category 2 enterprises with 300 or more workers.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -129,7 +129,7 @@
   "answer": "d",
   "explain_zh": "第3條第2項：第一類事業勞工人數一百人以上者，所置管理人員應為專職；第二類事業三百人以上者，所置管理人員應至少一人為專職。專職人員應常駐廠場，不得兼任其他法令所定專責人員或從事無關工作。",
   "explain_en": "Article 3(2): Category 1 with 100+ workers: all management personnel full-time; Category 2 with 300+: at least one full-time. Full-time staff must be stationed on site and not hold other statutory posts.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -156,7 +156,7 @@
   "answer": "b",
   "explain_zh": "第3條之1第2項：營造業對於橋樑、道路、隧道或輸配電等距離較長之工程，應於每十公里內增置營造業丙種職業安全衛生業務主管一人。",
   "explain_en": "Article 3-1(2): one additional Class C construction OSH business supervisor per 10 km.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -183,7 +183,7 @@
   "answer": "a",
   "explain_zh": "第3條之1第1項：第一類事業對於所屬從事製造之一級單位，勞工人數一百人以上未滿三百人者應另置甲種職業安全衛生業務主管一人；三百人以上者應再至少增置專職職業安全衛生管理員一人。",
   "explain_en": "Article 3-1(1): a Class A OSH business supervisor for 100–299 workers; 300+ also requires at least one additional full-time OSH administrator.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -210,7 +210,7 @@
   "answer": "a",
   "explain_zh": "第3條之2：勞工人數之計算，包含原事業單位及其承攬人、再承攬人之勞工及其他受工作場所負責人指揮或監督從事勞動之人員，於同一期間、同一工作場所作業時之總人數；設有總機構者包含各地區事業單位作業勞工人數。",
   "explain_en": "Article 3-2: includes the enterprise's own, contractors', subcontractors' workers and others under the workplace manager's direction, working in the same period at the same workplace.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -237,7 +237,7 @@
   "answer": "c",
   "explain_zh": "第4條：勞工人數未滿三十人者，雇主或其代理人經業務主管教育訓練合格得擔任業務主管；第二類及第三類事業且勞工五人以下者，得由丁種業務主管訓練合格之雇主或代理人擔任。",
   "explain_en": "Article 4: fewer than 30 workers; for Category 2/3 enterprises with 5 or fewer workers, a Class D-trained employer or representative may serve.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -264,7 +264,7 @@
   "answer": "b",
   "explain_zh": "第4條但書：屬第二類及第三類事業之事業單位，且勞工人數在五人以下者，得由經丁種職業安全衛生業務主管教育訓練合格之雇主或其代理人擔任。",
   "explain_en": "Article 4 proviso: Category 2/3 enterprises with 5 or fewer workers.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -291,7 +291,7 @@
   "answer": "d",
   "explain_zh": "第5條之1：管理單位擬訂規劃推動督導並指導部門實施；委員會對政策提出建議並審議協調考核建議；管理師／管理員擬訂規劃推動查核並指導實施；工作場所負責人綜理工作場所安全衛生管理事項；各級主管依職責指揮監督所屬執行。",
   "explain_en": "Article 5-1: management unit drafts/plans/promotes/supervises; committee advises on policy and deliberates/coordinates/evaluates; specialists and administrators draft/plan/promote/audit; the workplace manager oversees; line managers direct and supervise.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -318,7 +318,7 @@
   "answer": "c",
   "explain_zh": "第5條之1第3款：置有管理師、管理員者，業務主管主管及督導安全衛生管理事項；未置有者，業務主管擬訂、規劃、推動及查核安全衛生管理事項。",
   "explain_en": "Article 5-1(3): with specialists/administrators the supervisor directs and oversees; without them the supervisor drafts, plans, promotes and audits.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -345,7 +345,7 @@
   "answer": "a",
   "explain_zh": "第6條第2項：設有總機構者，第一類事業五百人以上應設直接隸屬雇主之專責一級管理單位；第二類事業五百人以上應設直接隸屬雇主之一級管理單位；第三類事業三千人以上應設管理單位；所置管理人員應為專職（第二、三類之業務主管除外）。",
   "explain_en": "Article 6(2): Category 1 with 500+ → dedicated first-level unit; Category 2 with 500+ → first-level unit; Category 3 with 3,000+ → management unit; personnel full-time except Category 2/3 business supervisors.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -372,7 +372,7 @@
   "answer": "c",
   "explain_zh": "第6條之1：第一類事業單位或其總機構已實施第12條之2管理系統相關管理制度，管理績效經中央主管機關審查通過者，得不受第2條之1、第3條及第6條有關一級管理單位應為專責及業務主管應為專職之限制。",
   "explain_en": "Article 6-1: exempt from the dedicated-unit and full-time-supervisor requirements of Articles 2-1, 3 and 6.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -399,7 +399,7 @@
   "answer": "a",
   "explain_zh": "第7條第2項第3款：職業安全衛生管理員資格：具管理師資格；領有職業安全衛生管理乙級技術士證照；曾任勞動檢查員具二年以上檢查經驗；普通考試職業安全衛生類科錄取（大專相關科系畢業之目自103年7月1日不再適用）。其他選項為管理師資格。",
   "explain_en": "Article 7(2)(3): administrator qualifications include a Class B OSH management technician certificate, 2+ years as a labor inspector, or passing the junior civil service exam; the other options are specialist-level qualifications.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -426,7 +426,7 @@
   "answer": "d",
   "explain_zh": "第7條第2項第1款：職業安全管理師資格：高考職業安全衛生類科錄取或工業安全技師；職業安全管理甲級技術士；曾任勞動檢查員具職業安全檢查經驗三年以上。管理員則為二年以上。",
   "explain_en": "Article 7(2)(1): 3+ years for specialists; 2+ years for administrators.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -453,7 +453,7 @@
   "answer": "c",
   "explain_zh": "第7條第1項：業務主管應自事業之相關主管或辦理職業安全衛生事務者選任；但營造業之事業單位，應由曾受營造業職業安全衛生業務主管教育訓練者選任之。",
   "explain_en": "Article 7(1): construction enterprises must select someone trained as a construction-industry OSH business supervisor.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -480,7 +480,7 @@
   "answer": "d",
   "explain_zh": "第8條：雇主應即指定適當代理人，代理期間不得超過三個月；勞工人數三十人以上之事業單位，其職業安全衛生人員離職時應即報當地勞動檢查機構備查。",
   "explain_en": "Article 8: not more than three months; enterprises with 30+ workers must report the departure of OSH personnel to the labor inspection agency.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -507,7 +507,7 @@
   "answer": "c",
   "explain_zh": "第8條第2項：勞工人數在三十人以上之事業單位，其職業安全衛生人員離職時，應即報當地勞動檢查機構備查。第86條：三十人以上設管理單位或置管理人員時亦應登錄報備。",
   "explain_en": "Article 8(2): 30 or more; Article 86 also requires such enterprises to register their management unit and personnel.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -534,7 +534,7 @@
   "answer": "a",
   "explain_zh": "第11條：委員會置委員七人以上，除雇主為當然委員外由雇主指定勞工代表、各部門主管、職業安全衛生人員、勞工健康服務人員、其他專業人員組成；委員任期二年，雇主為主任委員綜理會務，並指定一人為秘書。",
   "explain_en": "Article 11: at least 7 members including the employer as ex-officio chair; 2-year terms; the chair appoints a secretary.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -561,7 +561,7 @@
   "answer": "d",
   "explain_zh": "第11條第4項：勞工代表應佔委員人數三分之一以上；設有工會者由工會推派，無工會而有勞資會議者由勞方代表推選，均無者由勞工共同推選。",
   "explain_en": "Article 11(4): at least one third, nominated by the union, or elected by labor representatives of the labor-management meeting, or elected by workers.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -588,7 +588,7 @@
   "answer": "c",
   "explain_zh": "第12條：委員會應每三個月至少開會一次，審議政策建議、管理計畫、教育訓練計畫、環境監測、健康管理、提案、自動檢查、災害調查報告、承攬管理等；審議協調考核建議事項應作成紀錄保存三年；由主任委員擔任主席，必要時得召開臨時會議。",
   "explain_en": "Article 12: at least quarterly; records kept 3 years; the chair presides and may call extraordinary meetings.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -615,7 +615,7 @@
   "answer": "c",
   "explain_zh": "第12條之1第2項：雇主應依規模性質及風險評估結果訂定職業安全衛生管理計畫；勞工人數未滿三十人之事業單位得以執行紀錄或文件代替；一百人以上者應另訂定職業安全衛生管理規章。",
   "explain_en": "Article 12-1(2): fewer than 30; enterprises with 100+ workers must also formulate OSH management rules.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -642,7 +642,7 @@
   "answer": "a",
   "explain_zh": "第12條之1第3項：勞工人數在一百人以上之事業單位，應另訂定職業安全衛生管理規章。",
   "explain_en": "Article 12-1(3): 100 or more workers.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -669,7 +669,7 @@
   "answer": "b",
   "explain_zh": "第12條之1第4項：管理計畫應包括機械設備器具管理、危害性化學品分類標示通識管理、有害作業環境採樣策略及監測、危險性工作場所製程或施工安全評估、採購承攬變更管理、安全衛生作業標準、定期檢查重點檢查作業檢點現場巡視、教育訓練、個人防護具管理、健康檢查管理促進、資訊蒐集分享、緊急應變、災害虛驚事故調查統計、稽核績效評估等。執行紀錄保存三年。",
   "explain_en": "Article 12-1(4): 15 items including equipment management, chemical hazard communication, environmental monitoring, process/construction safety assessment, procurement/contractor/change management, SOPs, inspections, training, PPE, health, information, emergency response, incident investigation and audits; records kept 3 years.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -696,7 +696,7 @@
   "answer": "c",
   "explain_zh": "第12條之1第1項：雇主使勞工從事工作前，應就工作場所內之建築物、機械、設備、器具、原料、材料等或作業活動及其他可能引起之危害因素實施風險評估，並依評估結果採取必要之預防設備及措施。",
   "explain_en": "Article 12-1(1): a risk assessment of workplace hazards, with preventive equipment and measures based on the results.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -723,7 +723,7 @@
   "answer": "c",
   "explain_zh": "第12條之2：第一類事業二百人以上；第二類事業五百人以上；從事石油裂解之石化工業工作場所；製造處置使用危害性化學品達規定量之工作場所；其他指定者。執行紀錄保存三年。",
   "explain_en": "Article 12-2: Category 1 with 200+; Category 2 with 500+; petroleum cracking petrochemical workplaces; workplaces handling hazardous chemicals above threshold quantities; others designated. Records kept 3 years.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -750,7 +750,7 @@
   "answer": "b",
   "explain_zh": "第12條之2第1項第2款：第二類事業勞工人數在五百人以上者。",
   "explain_en": "Article 12-2(1)(2): 500 or more.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -777,7 +777,7 @@
   "answer": "a",
   "explain_zh": "第12條之3：應建立變更管理程序，於引進或修改製程、作業程序、材料及設備前辨識可能危害及評估風險，依結果採取預防設備及措施；檢討更新相關安全衛生文件，使勞工充分知悉及接受教育訓練；紀錄保存三年。",
   "explain_en": "Article 12-3: management-of-change procedure with hazard identification, risk assessment, precautions, document updates, worker awareness and training; records 3 years.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -804,7 +804,7 @@
   "answer": "d",
   "explain_zh": "第12條之4：應建立採購管理程序，採購租賃契約應有職業安全衛生具體規範並於驗收使用前確認；將營繕工程交付規劃設計時應依工程特性實施風險評估及訂定施工管理規範，納入施工及監造履約要件；紀錄保存三年。",
   "explain_en": "Article 12-4: procurement procedures with concrete OSH specifications; for construction works, risk assessment and construction management rules built into contract requirements; records 3 years.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -831,7 +831,7 @@
   "answer": "b",
   "explain_zh": "第12條之5：應訂定承攬管理計畫（承攬人管理能力、災害事故通報、危險作業管制、教育訓練、進場管制、緊急應變、績效評估）；交付二個以上施工者時應指定其一實施整體施工風險評估及統合管理；紀錄保存三年。",
   "explain_en": "Article 12-5: contractor management plan covering capability, incident reporting, hazardous-work control, training, site access, emergency response and performance; designate one contractor for overall risk assessment and coordination; records 3 years.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -858,7 +858,7 @@
   "answer": "b",
   "explain_zh": "第12條之6：應評估潛在風險訂定緊急狀況預防準備及應變計畫，定期辦理教育訓練與演練並檢討修正；計畫包括應變組織及職責、通報程序、各項緊急狀況處理程序、避難疏散措施、必要應變設備、與外部救援單位之聯繫機制；紀錄保存三年。",
   "explain_en": "Article 12-6: the six elements listed, with periodic training and drills and plan revision; records 3 years.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -885,7 +885,7 @@
   "answer": "a",
   "explain_zh": "第13條：電氣機車等應每三年就整體定期檢查一次，每年就電動機控制裝置制動器等檢查一次，每月就車體裝置項目檢查一次。",
   "explain_en": "Article 13: overall every 3 years, specified items yearly, and body-mounted items monthly.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -912,7 +912,7 @@
   "answer": "d",
   "explain_zh": "第14條：一般車輛應每三個月就各項安全性能定期檢查一次。第15條：車輛頂高機每三個月檢查一次以上。",
   "explain_en": "Article 14: every three months; Article 15: vehicle lifts at least every three months.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -939,7 +939,7 @@
   "answer": "a",
   "explain_zh": "第15條之1：高空工作車每年就原動機、動力傳動、走行、操作、制動、作業、油壓、電氣、安全裝置等檢查一次；第15條之2：每月檢查制動裝置離合器操作裝置、作業裝置油壓裝置、安全裝置；第50條之1：每日作業前檢點。",
   "explain_en": "Article 15-1: annual items; Article 15-2: monthly brakes/clutch/controls, work and hydraulic devices, safety devices; Article 50-1: daily pre-use check.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -966,7 +966,7 @@
   "answer": "a",
   "explain_zh": "第16條：車輛系營建機械每年整體檢查一次；每月檢查制動器離合器操作裝置及作業裝置、鋼索及鏈有無損傷、吊斗及鏟斗有無損傷、倒車或旋轉警示燈及蜂鳴器有無異常。",
   "explain_en": "Article 16: monthly checks of brakes, clutch, controls and work devices, ropes and chains, buckets, and reversing/slewing warning lights and buzzers.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -993,7 +993,7 @@
   "answer": "d",
   "explain_zh": "第17條：堆高機每年就整體定期檢查一次；每月檢查制動裝置、離合器及方向裝置，積載裝置及油壓裝置，貨叉、鍊條、頂蓬及桅桿。",
   "explain_en": "Article 17: monthly brakes/clutch/steering, load and hydraulic systems, forks, chains, overhead guard and mast.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -1020,7 +1020,7 @@
   "answer": "a",
   "explain_zh": "第19條：固定式起重機每年整體檢查、每月檢查過捲預防裝置警報裝置制動器離合器安全裝置、鋼索吊鏈、吊鉤抓斗、配線集電裝置配電盤開關控制裝置、纜索固定式起重機之鋼纜絞車；於輻射區及高溫區停用超過一個月者得免每月檢查，再度使用時仍應為之。",
   "explain_en": "Article 19: monthly inspection may be omitted after over a month out of service in radiation or high-temperature areas, but must be done before reuse.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -1047,7 +1047,7 @@
   "answer": "a",
   "explain_zh": "第20條：移動式起重機每年檢查伸臂外伸撐座動力傳導裝置結構、迴轉裝置（含螺栓螺帽）有無異常並依原製造廠規定量測位移及螺栓扭力值、過捲預防警報制動離合器安全裝置、鋼索吊鏈吊具、配線集電配電盤開關等；每月檢查安全裝置鋼索吊具配線等。",
   "explain_en": "Article 20: annual check of boom, outriggers, drivetrain, slewing ring (bolts/nuts) with displacement and bolt torque measured per manufacturer, safety devices, ropes/chains/hooks and electrics; monthly checks of safety devices, ropes and electrics.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -1074,7 +1074,7 @@
   "answer": "b",
   "explain_zh": "第22條：升降機每年整體檢查一次；每月檢查終點極限開關、緊急停止裝置、制動器、控制裝置及其他安全裝置，鋼索或吊鏈，導軌狀況，室外升降機之導索結頭。",
   "explain_en": "Article 22: monthly items are limit switches/emergency stop/brakes/controls and other safety devices, ropes or chains, guide rails, and rope terminations for outdoor lifts.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -1101,7 +1101,7 @@
   "answer": "d",
   "explain_zh": "第24條：吊籠應每月檢查過捲預防裝置制動器控制裝置及其他安全裝置、吊臂伸臂及工作台、升降裝置配線配電盤。第56條：每日作業前檢點，惡劣氣候後應實施第3至5款檢點。",
   "explain_en": "Article 24: monthly; Article 56: daily pre-use checks, with extra checks after severe weather.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -1128,7 +1128,7 @@
   "answer": "c",
   "explain_zh": "第26條：動力衝剪機械每年檢查離合器及制動裝置，曲柄軸飛輪滑塊連結螺栓及連桿，一行程一停止機構及緊急制動器，電磁閥減壓閥及壓力表，配線及開關。第59條：每日作業前檢點。",
   "explain_en": "Article 26: the listed items annually; Article 59: daily pre-use check.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -1155,7 +1155,7 @@
   "answer": "d",
   "explain_zh": "第27條：乾燥設備、以氣體燃料或液體燃料為熱源之加熱設備及其附屬設備應每年檢查內外面損傷腐蝕、排出氣體蒸氣粉塵設備、換氣設備、開口部、溫度測定調整裝置、內部電氣器具配線、燃料供應系統控制閥電磁遮斷閥等安全遮斷裝置。",
   "explain_en": "Article 27: annually, covering corrosion, exhaust devices, ventilation, openings, temperature controls, internal electrics and fuel shut-off devices.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -1182,7 +1182,7 @@
   "answer": "c",
   "explain_zh": "第30條、第31條：高壓及低壓電氣設備應每年檢查受電盤及分電盤動作試驗、用電設備絕緣情形接地電阻及安全設備、自備屋外配電線路。第31條之1：防爆電氣設備應每月檢查。",
   "explain_en": "Articles 30–31: annually (switchboard tests, insulation, grounding resistance, outdoor lines); Article 31-1: explosion-proof electrical equipment monthly.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -1209,7 +1209,7 @@
   "answer": "d",
   "explain_zh": "第31條之1：防爆電氣設備應每月檢查本體有無損傷變形、配管配線有無損傷變形及異常、其他保持防爆性能之必要事項。",
   "explain_en": "Article 31-1: monthly.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -1236,7 +1236,7 @@
   "answer": "c",
   "explain_zh": "第32條：鍋爐應每月檢查本體損傷、燃燒裝置（油加熱器燃料輸送噴燃器過濾器爐壁加煤機煙道）、自動控制裝置（起動停止火焰檢出燃料切斷水位壓力調節）、附屬裝置（給水蒸汽管停止閥空氣預熱器水處理）。第34條：小型鍋爐每年檢查。",
   "explain_en": "Article 32: monthly; Article 34: small boilers annually.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -1263,7 +1263,7 @@
   "answer": "a",
   "explain_zh": "第33條：高壓氣體特定設備、高壓氣體容器及第一種壓力容器每月檢查本體損傷變形、蓋板螺栓損耗、管凸緣閥旋塞損傷洩漏、壓力表溫度計安全裝置、平台支架腐蝕；有保溫部分或高游離輻射污染場所得免。第35條：第二種壓力容器每年；第36條：小型壓力容器每年。",
   "explain_en": "Article 33: monthly; Article 35: Class 2 pressure vessels yearly; Article 36: small pressure vessels yearly.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -1290,7 +1290,7 @@
   "answer": "a",
   "explain_zh": "第37條：高壓氣體儲存能力在一百立方公尺或一公噸以上之儲槽應注意有無沈陷現象，並應每年定期測定其沈陷狀況一次。",
   "explain_en": "Article 37: tanks of 100 m³ or 1 tonne or more, settlement measured once a year.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -1317,7 +1317,7 @@
   "answer": "b",
   "explain_zh": "第38條：特定化學設備或附屬設備每二年檢查內部物質、損傷變形腐蝕、蓋凸緣閥旋塞、安全閥緊急遮斷裝置警報裝置、冷卻攪拌壓縮計測控制性能、備用動力源、配管熔接接頭等。第39條：化學設備及附屬設備亦每二年。第49條：特定化學設備開始使用改造修理時應重點檢查。",
   "explain_en": "Articles 38–39: every two years; Article 49: focused inspection of specified chemical equipment at first use, modification or repair.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -1344,7 +1344,7 @@
   "answer": "d",
   "explain_zh": "第40條：局部排氣裝置、空氣清淨裝置及吹吸型換氣裝置每年檢查氣罩導管排氣機之磨損腐蝕、塵埃聚積、注油潤滑、導管接觸部分、皮帶鬆弛、吸排氣能力、採樣設施等。第41條：局部排氣裝置內之空氣清淨裝置每年。第47條：開始使用拆卸改裝修理時重點檢查。",
   "explain_en": "Article 40: annually; Article 41: air cleaners in LEV annually; Article 47: focused inspection at first use, dismantling, modification or repair.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -1371,7 +1371,7 @@
   "answer": "c",
   "explain_zh": "第42條：再壓室或減壓艙每個月檢查輸氣設備及排氣設備運作、通話設備及警報裝置運作、電路有無漏電、電器機械器具及配線有無損傷。",
   "explain_en": "Article 42: monthly.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -1398,7 +1398,7 @@
   "answer": "c",
   "explain_zh": "第43條：施工架及施工構臺每週檢查架材損傷安裝、固定部分鬆弛、固定材料腐蝕、扶手護欄拆卸脫落、基腳下沈滑動、補強材、壁連座間距等；強風大雨等惡劣氣候、四級以上地震襲擊後及每次停工之復工前亦應檢查。",
   "explain_en": "Article 43: weekly, plus after severe weather, intensity-4+ earthquakes and before resuming work after suspension.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -1425,7 +1425,7 @@
   "answer": "b",
   "explain_zh": "第44條：模板支撐架每週檢查架材損傷安裝、支柱固定接觸搭接鬆弛、固定材料腐蝕、基腳沉陷滑動、斜撐水平繫條補強材；強風大雨等惡劣氣候、四級以上地震後、每次停工之復工前及混凝土澆置作業前亦應檢查。",
   "explain_en": "Article 44: additionally after severe weather, intensity-4+ earthquakes, before resuming work and before concrete pouring.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -1452,7 +1452,7 @@
   "answer": "b",
   "explain_zh": "第44條之1：雇主對機械設備應依規定實施定期檢查；但發現有腐蝕、劣化、損傷或堪用性之虞，應實施安全評估，並縮短其檢查期限。",
   "explain_en": "Article 44-1: conduct a safety assessment and shorten the inspection period.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -1479,7 +1479,7 @@
   "answer": "b",
   "explain_zh": "第45條：第二種壓力容器及減壓艙於初次使用前重點檢查胴體端板厚度是否符合製造廠資料、安全閥吹洩量、尺寸附屬品與明細表符合、耐壓試驗無膨出伸長洩漏等。",
   "explain_en": "Article 45: before first use, checking shell/head thickness against manufacturer data, relief valve capacity, dimensions and accessories, and pressure test results.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -1506,7 +1506,7 @@
   "answer": "a",
   "explain_zh": "第46條：捲揚裝置於開始使用、拆卸、改裝或修理時重點檢查安裝部位強度、結合元件結合良好及強度。第51條：每日作業前檢點制動安全控制裝置及鋼索通過部分。",
   "explain_en": "Article 46: at first use, dismantling, modification or repair (mounting strength and fasteners); Article 51: daily pre-use checks.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -1533,7 +1533,7 @@
   "answer": "b",
   "explain_zh": "第48條：輸氣設備初次使用或予分解後加以改造、修理或停用一個月以上擬再度使用時，應實施重點檢查；發生故障出水等異常時應迅即使勞工撤離並檢點。",
   "explain_en": "Article 48: at first use, after modification or repair, or after one month or more out of service.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -1560,7 +1560,7 @@
   "answer": "d",
   "explain_zh": "第50條：車輛機械應每日作業前檢點制動器連結裝置各種儀器、蓄電池配線控制裝置有無異常。",
   "explain_en": "Article 50: daily before operation.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -1587,7 +1587,7 @@
   "answer": "d",
   "explain_zh": "第52條：固定式起重機每日作業前檢點過捲預防裝置制動器離合器控制裝置、軌道導軌、鋼索運行；置於瞬間風速可能超過每秒三十公尺或四級以上地震後應檢點各部安全狀況。第54條人字臂起重桿亦同（室外者）。",
   "explain_en": "Article 52: after possible gusts over 30 m/s or intensity-4+ earthquakes; Article 54 applies the same to outdoor derricks.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -1614,7 +1614,7 @@
   "answer": "d",
   "explain_zh": "第58條：對起重機械使用之吊掛用鋼索、吊鏈、纖維索、吊鉤、吊索、鏈環等用具，應於每日作業前實施檢點。",
   "explain_en": "Article 58: daily before operation.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -1641,7 +1641,7 @@
   "answer": "c",
   "explain_zh": "第60條：工業用機器人每日作業前檢點制動裝置、緊急停止裝置、接觸防止設施及連鎖裝置、相連機器連鎖、外部電線配管、電壓油壓空氣壓、動作、異常聲音振動；檢點時應儘可能在可動範圍外為之；協同作業機器人並應確認安全功能。",
   "explain_en": "Article 60: outside the movement range; items include brakes, emergency stop, guarding interlocks, wiring, power/hydraulic/pneumatic supply, motion and abnormal noise or vibration; collaborative robots also have safety functions confirmed.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -1668,7 +1668,7 @@
   "answer": "d",
   "explain_zh": "第61條、第62條：高壓氣體製造設備及消費設備應於使用開始前及使用終了後檢點有無異常，且一日一次以上就動作狀況實施檢點。",
   "explain_en": "Articles 61–62: before and after use, and at least once daily for operating status.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -1695,7 +1695,7 @@
   "answer": "a",
   "explain_zh": "第63條：營建工程施工架設備、施工構臺、支撐架設備、露天開挖擋土支撐設備、隧道或坑道開挖支撐設備、沉箱圍堰及壓氣施工設備、打樁設備等，應於每日作業前及使用終了後檢點有無異常或變形。",
   "explain_en": "Article 63: daily before operation and after the end of use.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -1722,7 +1722,7 @@
   "answer": "a",
   "explain_zh": "第64條：鍋爐之操作、第一種壓力容器之操作、高壓氣體特定設備之操作、高壓氣體容器之操作作業。第65條：高壓氣體灌裝、儲存、運輸、廢棄作業。",
   "explain_en": "Article 64: boiler, Class 1 pressure vessel, HP gas specific equipment and gas container operation; Article 65: HP gas filling, storage, transport and disposal.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -1749,7 +1749,7 @@
   "answer": "a",
   "explain_zh": "第69條：有機溶劑作業、鉛作業、四烷基鉛作業、特定化學物質作業、粉塵作業。第68條：缺氧危險或局限空間作業；第70條：潛水高壓室內沈箱等異常氣壓作業；第72條：危害性化學品製造處置使用作業。",
   "explain_en": "Article 69: the five listed; Article 68: oxygen-deficiency and confined spaces; Article 70: abnormal pressure work; Article 72: hazardous chemical operations.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -1776,7 +1776,7 @@
   "answer": "a",
   "explain_zh": "第78條：雇主依第50條至第56條及第58條至第77條實施之檢點，其檢點對象、內容應依實際需要訂定，以檢點手冊或檢點表等為之。",
   "explain_en": "Article 78: per actual needs, in the form of check manuals or checklists.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -1803,7 +1803,7 @@
   "answer": "a",
   "explain_zh": "第79條：雇主依第13條至第63條規定實施之自動檢查，應訂定自動檢查計畫。",
   "explain_en": "Article 79: a self-inspection plan covering inspections under Articles 13–63.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -1830,7 +1830,7 @@
   "answer": "c",
   "explain_zh": "第80條：定期檢查、重點檢查應記錄檢查年月日、檢查方法、檢查部分、檢查結果、實施檢查者之姓名、依檢查結果應採取改善措施之內容，並保存三年。第89條之2：紀錄應以紙本保存，但電子紀錄能隨時調閱者不在此限。",
   "explain_en": "Article 80: the six items, kept 3 years; Article 89-2: paper records unless electronic records can be retrieved at any time.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -1857,7 +1857,7 @@
   "answer": "a",
   "explain_zh": "第81條：實施檢查檢點發現對勞工有危害之虞者應即報告上級主管；雇主實施自動檢查發現有異常時，應立即檢修及採取必要措施。",
   "explain_en": "Article 81: report immediately; the employer must promptly repair and take necessary measures on any abnormality.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -1884,7 +1884,7 @@
   "answer": "c",
   "explain_zh": "第83條：自動檢查除依其他法令另有規定者外，應指定具專業知能或操作資格之適當人員為之。第82條：其他法令另有規定者依該規定。",
   "explain_en": "Article 83: qualified persons with professional competence or operating qualifications, unless other laws provide otherwise.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -1911,7 +1911,7 @@
   "answer": "c",
   "explain_zh": "第84條：承攬人使用之機械設備器具由原事業單位提供者，應由原事業單位實施定期檢查及重點檢查；必要時得由承攬人會同實施；承攬人具有能力時得以書面約定由承攬人為之。第85條：承租承借機械設備者應實施自動檢查，定期重點檢查得書面約定由出租出借人為之。",
   "explain_en": "Article 84: the principal enterprise, jointly if necessary, or by written agreement the contractor; Article 85: rented or borrowed equipment must be self-inspected, with periodic/focused inspection assignable in writing to the lessor.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -1938,7 +1938,7 @@
   "answer": "d",
   "explain_zh": "第86條：勞工人數三十人以上之事業單位設管理單位或置管理人員時，應依中央主管機關公告之內容及方式登錄，報請勞動檢查機構備查；變更時亦同。第87條：設委員會時應製作委員會名冊登錄報備。",
   "explain_en": "Article 86: register and report for record to the labor inspection agency, including changes; Article 87: the committee roster must also be registered.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -1965,7 +1965,7 @@
   "answer": "a",
   "explain_zh": "第90條末項：本辦法中華民國一百十五年六月二十九日修正發布之條文，自一百十五年七月一日施行。",
   "explain_en": "Article 90: effective 1 July ROC 115 (2026).",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -1992,7 +1992,7 @@
   "answer": "b",
   "explain_zh": "第1條：本規則依職業安全衛生法第三十二條第三項規定訂定之。",
   "explain_en": "Article 1: under Article 32(3) of the OSH Act.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -2019,7 +2019,7 @@
   "answer": "c",
   "explain_zh": "第3條：擔任業務主管應事前受訓，雇主或代理人擔任者亦同；具管理師、管理員資格者，經管理師管理員訓練合格領有結業證書者，或受訓期滿經測驗合格領有業務主管結業證書者，得免受訓。",
   "explain_en": "Article 3: those qualified as specialists or administrators, or holding the corresponding training certificates, are exempt.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -2046,7 +2046,7 @@
   "answer": "d",
   "explain_zh": "第5條：雇主對擔任職業安全管理師、職業衛生管理師、職業安全衛生管理員之勞工，應於事前使其接受職業安全衛生管理人員之安全衛生教育訓練；課程時數依附表三。",
   "explain_en": "Article 5: before taking up the post, per Annex 3 curricula.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -2073,7 +2073,7 @@
   "answer": "d",
   "explain_zh": "第6條：甲級化學性因子、甲級物理性因子、乙級化學性因子、乙級物理性因子作業環境監測人員，應事前受訓；課程時數依附表四。",
   "explain_en": "Article 6: Class A/B chemical-factor and Class A/B physical-factor monitoring personnel, trained beforehand per Annex 4.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -2100,7 +2100,7 @@
   "answer": "b",
   "explain_zh": "第9條：高壓氣體製造安全主任、高壓氣體製造安全作業主管、高壓氣體供應及消費作業主管，應事前受訓，課程時數依附表七。",
   "explain_en": "Article 9: the three HP gas supervisor types, trained beforehand per Annex 7.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -2127,7 +2127,7 @@
   "answer": "a",
   "explain_zh": "第10條：擋土支撐、露天開挖、模板支撐、隧道等挖掘、隧道等襯砌、施工架組配、鋼構組配、屋頂作業主管及其他指定人員，應事前受訓，課程時數依附表八。",
   "explain_en": "Article 10: the eight construction supervisor types plus others designated, per Annex 8.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -2154,7 +2154,7 @@
   "answer": "b",
   "explain_zh": "第11條：有機溶劑、鉛、四烷基鉛、缺氧、特定化學物質、粉塵、高壓室內、潛水作業主管及其他指定人員，應事前受訓，課程時數依附表九。",
   "explain_en": "Article 11: the eight harmful-operation supervisor types, per Annex 9.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -2181,7 +2181,7 @@
   "answer": "b",
   "explain_zh": "第12條：吊升荷重三公噸以上之固定式起重機或一公噸以上之斯達卡式起重機、三公噸以上之移動式起重機、三公噸以上之人字臂起重桿、導軌或升降路高度二十公尺以上之營建用提升機、吊籠操作人員，須經訓練或技能檢定取得資格；自營作業者亦應受訓。",
   "explain_en": "Article 12: overhead cranes 3 t+ (stacker cranes 1 t+), mobile cranes 3 t+, derricks 3 t+, construction hoists with rail height 20 m+, gondolas; qualification by training or skills test.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -2208,7 +2208,7 @@
   "answer": "a",
   "explain_zh": "第12條第1項第4款：導軌或升降路之高度在二十公尺以上之營建用提升機操作人員。",
   "explain_en": "Article 12(1)(4): 20 m or more.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -2235,7 +2235,7 @@
   "answer": "a",
   "explain_zh": "第13條：鍋爐操作人員、第一種壓力容器操作人員、高壓氣體特定設備操作人員、高壓氣體容器操作人員，須經訓練或技能檢定取得資格；自營作業者亦應受訓；課程時數依附表十一。",
   "explain_en": "Article 13: the four dangerous-equipment operator types; the others are special-operation personnel under Article 14.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -2262,7 +2262,7 @@
   "answer": "c",
   "explain_zh": "第14條：小型鍋爐操作、荷重一公噸以上堆高機操作、零點五公噸以上未滿三公噸之固定式移動式起重機及人字臂起重桿操作、高空工作車操作、起重機具吊掛作業、乙炔熔接裝置作業、火藥爆破、胸高直徑七十公分以上伐木、機械集材運材、高壓室內作業、潛水作業、油輪清艙作業人員等。",
   "explain_en": "Article 14: forklifts of 1 t+, plus small boilers, cranes 0.5–under 3 t, aerial work platforms, rigging, acetylene welding, blasting, felling trees over 70 cm, cable logging, hyperbaric, diving and tanker cleaning.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -2289,7 +2289,7 @@
   "answer": "a",
   "explain_zh": "第14條第1項第4款：吊升荷重零點五公噸以上未滿三公噸之移動式起重機操作人員屬特殊作業安全衛生教育訓練對象；三公噸以上者則屬第12條危險性機械操作人員。",
   "explain_en": "Article 14(1)(4): special-operation training; 3 t and above falls under Article 12.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -2316,7 +2316,7 @@
   "answer": "a",
   "explain_zh": "第14條第1項第10款：胸高直徑七十公分以上之伐木作業人員。第9款火藥爆破人員依爆破專業人員訓練辦法結業者得採認。",
   "explain_en": "Article 14(1)(10): 70 cm or more; blasting personnel trained under the explosives regulations may be recognized.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -2343,7 +2343,7 @@
   "answer": "d",
   "explain_zh": "第16條：雇主對工作場所急救人員應使其接受急救人員之安全衛生教育訓練，但醫護人員及緊急醫療救護法所定之救護技術員不在此限；課程時數依附表十三。",
   "explain_en": "Article 16: medical personnel and certified emergency medical technicians are exempt.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -2370,7 +2370,7 @@
   "answer": "b",
   "explain_zh": "第17條：新僱勞工或在職勞工變更工作前應接受適於各該工作必要之一般安全衛生教育訓練，但工作環境性質與變更前相當者不在此限；無一定雇主之勞工及受指揮監督從事勞動之人員亦應接受；網路教學課程至多採認二小時；經營造作業安全訓練合格者進入營繕工程場所得免。",
   "explain_en": "Article 17: general OSH training before starting or changing work, waived for equivalent work; also applies to workers without a fixed employer; approved online courses count for at most 2 hours.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -2397,7 +2397,7 @@
   "answer": "a",
   "explain_zh": "第17條第4項：中央主管機關指定之網路教學課程取得認證時數後得採認為一般安全衛生教育訓練時數，但認可之網路教學課程至多採認二小時。",
   "explain_en": "Article 17(4): at most two hours.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -2424,7 +2424,7 @@
   "answer": "b",
   "explain_zh": "第18條：業務主管、管理人員、健康服務護理及相關人員、環測人員、施工及製程安全評估人員、各類作業主管、危險機械設備操作人員、特殊作業人員、急救人員、工作場所負責人及各級主管、委員會成員、營造車輛系營建機械吊掛缺氧局限空間氧乙炔危害性化學品作業人員、一般勞工等，均應依工作性質接受在職教育訓練。",
   "explain_en": "Article 18: a broad list including supervisors, management personnel, health service staff, monitoring and assessment personnel, work supervisors, operators, special-operation and first-aid personnel, workplace managers, committee members, specified operation workers and general workers.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -2451,7 +2451,7 @@
   "answer": "b",
   "explain_zh": "第19條：業務主管每二年至少六小時；管理人員每二年至少十二小時；健康服務護理及相關人員每三年至少十二小時；環測人員、安全評估人員、各類作業主管每三年至少六小時；危險機械設備操作、特殊作業、急救、工作場所負責人及主管、委員會成員、特定作業人員及一般勞工每三年至少三小時。",
   "explain_en": "Article 19: supervisors 6 h/2 yr; management personnel 12 h/2 yr; health service staff 12 h/3 yr; monitoring/assessment personnel and work supervisors 6 h/3 yr; operators, special-operation, first-aid, managers, committee members and general workers 3 h/3 yr.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -2478,7 +2478,7 @@
   "answer": "c",
   "explain_zh": "第19條第1項第5款：第七款至第十三款之勞工（危險機械設備操作人員、特殊作業人員、急救人員、工作場所負責人及各級主管、委員會成員、特定作業人員、一般勞工）每三年至少三小時。",
   "explain_en": "Article 19(1)(5): at least 3 hours every 3 years.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -2505,7 +2505,7 @@
   "answer": "d",
   "explain_zh": "第19條第1項第4款：第四款至第六款之勞工（環測人員、施工及製程安全評估人員、高壓氣體營造有害作業主管）每三年至少六小時。",
   "explain_en": "Article 19(1)(4): at least 6 hours every 3 years.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -2532,7 +2532,7 @@
   "answer": "d",
   "explain_zh": "第20條：訓練單位包括勞工衛生主管機關、勞檢機構、目的事業主管機關、非營利法人、雇主團體、勞工團體、評鑑合格醫院或設有醫護科系之大專、急救訓練單位、設安全衛生相關科系之大專、事業單位等；事業單位以辦理其勞工或相關承攬事業間之訓練為限；非營利法人雇主勞工團體對外招訓應經中央主管機關認可。",
   "explain_en": "Article 20: enterprises may only train their own and related contractors' workers; non-profit legal persons, employer and labor groups need central approval for public enrollment.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -2559,7 +2559,7 @@
   "answer": "c",
   "explain_zh": "第20條之3：認可訓練單位符合人才發展品質管理系統評核、近三年辦理達十班次、近五年未受撤銷廢止停訓者，得申請評鑑；結果分優等、甲等、乙等及丙等並公開。第21條：辦理管理人員、三公噸以上起重機、鍋爐第一種壓力容器、堆高機等訓練須甲等以上。",
   "explain_en": "Article 20-3: excellent (優等), A (甲等), B (乙等), C (丙等), published; Article 21 requires grade A or above for certain courses such as management personnel, cranes 3 t+, boilers and forklifts.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -2586,7 +2586,7 @@
   "answer": "b",
   "explain_zh": "第25條：應於十五日前檢附教育訓練計畫報備書、課程表、講師概況、學員名冊、專責輔導員名單報請地方主管機關備查；學科術科每日上課不得逾八小時，術科實習應於日間，夜間上課以三小時為原則不得超過午後十時。",
   "explain_en": "Article 25: 15 days before, with plan, timetable, instructor profile, roster and counselor list; max 8 hours per day, practical sessions in daytime, evening classes about 3 hours and not past 10 p.m.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -2613,7 +2613,7 @@
   "answer": "d",
   "explain_zh": "第28條：應實施結訓測驗，合格者於結訓後十五日內發給結業證書；測驗文字及語文應為中文；公告職類之測驗應於認可之測驗試場辦理。第27條：技能檢定職類者於結訓後十五日內發給訓練期滿證明。",
   "explain_en": "Article 28: within 15 days; tests in Chinese; Article 27: certificates of course completion for skills-test categories also within 15 days.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -2640,7 +2640,7 @@
   "answer": "b",
   "explain_zh": "第29條：應於教育訓練結束後十日內做成電子檔，至少保存十年。第31條：第17、18條之訓練資料保存三年。",
   "explain_en": "Article 29: within 10 days, kept at least 10 years; Article 31: general and in-service training records kept 3 years.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -2667,7 +2667,7 @@
   "answer": "c",
   "explain_zh": "第31條：辦理第17條及第18條之教育訓練，應將訓練教材、課程表相關訓練計畫、受訓人員名冊、簽到紀錄、課程內容等資料保存三年；並應於結業證書背面記錄或發給在職教育訓練紀錄。",
   "explain_en": "Article 31: three years; in-service training is recorded on the back of the certificate or on a training record form.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -2694,7 +2694,7 @@
   "answer": "d",
   "explain_zh": "第33條：訓練單位應指派專責輔導員（具管理員資格；急救訓練得由醫護人員或救護技術員擔任）、查核參訓資格簽到上課情形等；學員缺課達總時數五分之一以上應通知退訓，請假超過三小時或曠課者應補足全部課程；專責輔導員每二年至少接受六小時講習。",
   "explain_en": "Article 33: one fifth; leave over 3 hours or absence requires making up the full course; counselors must hold administrator qualification and attend 6 hours of briefing every 2 years.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -2721,7 +2721,7 @@
   "answer": "d",
   "explain_zh": "第37條：符合勞動法令及著作權法；使用中文敘述輔以圖說實例或職災案例，引用外文者加註中文；使用公制單位；編排橫式由左至右；載明編輯委員。第36條：教材應設編輯及審查會並報中央主管機關備查。",
   "explain_en": "Article 37: comply with labor and copyright law, Chinese with illustrations and case studies, metric units, horizontal left-to-right, editorial committee listed.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -2748,7 +2748,7 @@
   "answer": "a",
   "explain_zh": "第39條：訓練場所設備不良、招訓廣告虛偽不實、未於核備場所實施、訓練計畫未報備、資料不實、未辦結訓測驗、未依規定發證、未登錄指定文件、拒絕查核、未經認可對外招訓、未具甲等辦理指定訓練等，處以罰鍰並令限期改正。第38條為警告事由；第40條屆期未改或情節重大者撤銷廢止認可或停訓。",
   "explain_en": "Article 39: poor facilities, false advertising, training outside approved venues, unfiled plans, false records, no final test, improper certificates, no registration, refusing audits, unapproved public enrollment, etc.; Article 40: revocation or suspension for serious or uncorrected cases.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -2775,7 +2775,7 @@
   "answer": "a",
   "explain_zh": "第42條之4：對新加入者應使其接受至少一小時之安全衛生教育訓練，課程為危害辨識及預防、安全衛生防護裝備使用、緊急事故應變處理；每年並應依相同時數及課程辦理在職訓練；講師應具職業安全衛生管理人員資格或三年以上相關工作經驗。",
   "explain_en": "Article 42-4: at least one hour on hazard identification, protective equipment and emergency response, repeated yearly as in-service training; instructors need OSH management qualification or 3 years' experience.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -2802,7 +2802,7 @@
   "answer": "a",
   "explain_zh": "第42條：第5條、第12條第1項第1款及第2款規定之課程及時數，於二年內已受相同種類之教育訓練課程及時數相同且有證明者，得抵充之。",
   "explain_en": "Article 42: identical courses completed within two years, with proof, may be credited.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -2829,7 +2829,7 @@
   "answer": "b",
   "explain_zh": "第2條第3款：臨時性作業指正常作業以外之作業，其作業期間不超過三個月，且一年內不再重複者。",
   "explain_en": "Article 2(3): not exceeding three months and not repeated within one year.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -2856,7 +2856,7 @@
   "answer": "c",
   "explain_zh": "第2條第4款：長期夜間工作指前一年度於午後十時至翌晨六時工作三小時以上之工作日數達當月工作日數二分之一且累計達六個月以上，或該期間工作時數累計達七百小時以上。第18條：應於當年度實施長期夜間工作健康檢查。",
   "explain_en": "Article 2(4): six months cumulative, or 700 hours cumulative; Article 18 requires a night-work health check that year.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -2883,7 +2883,7 @@
   "answer": "b",
   "explain_zh": "第2條第5款：勞工健康服務人員指從事勞工健康服務之醫師、護理人員、心理師、物理治療師、職能治療師或公共衛生師。",
   "explain_en": "Article 2(5): the six professions listed.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -2910,7 +2910,7 @@
   "answer": "a",
   "explain_zh": "第3條：勞工人數三百人以上或從事特別危害健康作業勞工五十人以上者，應依附表二、三之人力配置及臨場服務頻率，僱用或特約醫師及僱用護理人員辦理勞工健康服務；經評估有需求者得僱用相關人員。",
   "explain_en": "Article 3: 300+ workers or 50+ in specially hazardous operations, per Annexes 2 and 3 for staffing and on-site frequency.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -2937,7 +2937,7 @@
   "answer": "d",
   "explain_zh": "第4條：勞工人數五十人以上未達三百人者，應依附表四所定特約醫護人員臨場服務頻率辦理；經評估得特約相關人員，但護理人員之總服務頻率應達二分之一以上。",
   "explain_en": "Article 4: contracted physicians and nurses at Annex 4 frequencies; nurses must provide at least half the total service frequency.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -2964,7 +2964,7 @@
   "answer": "d",
   "explain_zh": "第6條：僱用之勞工健康服務人員不得兼任其他法令所定專責（任）人員或從事其他與勞工健康服務無關之工作；請假超過三十日得委託專業機構指派人員代理；僱用人員應報請備查，變更亦同。",
   "explain_en": "Article 6: no concurrent statutory posts or unrelated work; leave over 30 days may be covered by an accredited institution; appointments must be reported.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -2991,7 +2991,7 @@
   "answer": "a",
   "explain_zh": "第7條：從事勞工健康服務之醫師須為職業醫學科專科醫師或其他專科醫師經附表五課程訓練合格；護理人員及勞工健康服務相關人員須具資格且實務經驗二年以上並經附表六課程訓練合格。",
   "explain_en": "Article 7: physicians must be occupational medicine specialists or other specialists with Annex 5 training; nurses and related personnel need 2+ years' experience and Annex 6 training.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -3018,7 +3018,7 @@
   "answer": "a",
   "explain_zh": "第8條：每三年合計至少十二小時，且職業安全衛生法規與職場健康風險評估管理實務每類至少二小時；職醫每三年至少二小時法規課程；數位學習採計不超過六小時。",
   "explain_en": "Article 8: 12 hours per 3 years with at least 2 hours per course category; occupational medicine specialists need 2 hours of legal courses; e-learning up to 6 hours.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -3045,7 +3045,7 @@
   "answer": "c",
   "explain_zh": "第9條：檢查結果分析評估健康管理資料保存、協助選配工作、異常者追蹤管理健康指導、未滿十八歲母性健康職業傷病高風險勞工評估及個案管理、職業衛生調查分析及紀錄保存、疾病預防健康促進諮詢急救、定期向雇主報告及建議等。",
   "explain_en": "Article 9: exam result analysis and management, job placement, follow-up of abnormalities, case management of minors, maternal-health, injured and high-risk workers, health surveys, health promotion and first aid, reporting to the employer.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -3072,7 +3072,7 @@
   "answer": "b",
   "explain_zh": "第11條：辨識與評估工作場所環境作業及組織內部影響勞工身心健康之危害因子並建議改善；提出作業環境安全衛生設施改善規劃建議；調查勞工健康與作業關連性並採取預防及促進措施；提供復工勞工之職能評估、職務再設計或調整之諮詢建議。",
   "explain_en": "Article 11: hazard identification and assessment with improvement recommendations, facility improvement advice, health–work correlation studies, and return-to-work functional assessment and job redesign advice.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -3099,7 +3099,7 @@
   "answer": "a",
   "explain_zh": "第12條：依第3條僱用人員辦理者，應依作業環境特性訂定勞工健康服務計畫據以執行，每年評估成效及檢討；依第4條特約辦理者得以執行紀錄或文件代替。",
   "explain_en": "Article 12: a labor health service plan with annual evaluation; those using contracted personnel under Article 4 may substitute records.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -3126,7 +3126,7 @@
   "answer": "d",
   "explain_zh": "第13條：得訂定勞工健康管理方案，內容包括工作環境危害性質、勞工作業型態及分布、高風險群健康檢查評估、安排醫師面談及健康指導、書面或遠端通訊評估建議諮詢，每年評估檢討；應僱用護理人員或委託專業機構並依附表七實施臨場服務。",
   "explain_en": "Article 13: a labor health management program covering hazards, work patterns, high-risk group evaluation, physician interviews and remote consultation, reviewed yearly, with nurses or an accredited institution per Annex 7.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -3153,7 +3153,7 @@
   "answer": "c",
   "explain_zh": "第14條：執行第9條至第13條事項應依附表八填寫紀錄表並依建議採取措施；紀錄表及採行措施之文件應保存三年。",
   "explain_en": "Article 14: three years, using the Annex 8 record form.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -3180,7 +3180,7 @@
   "answer": "c",
   "explain_zh": "第15條：每一輪班次至少置急救人員一人，勞工超過五十人者每增加五十人再置一人；第一類事業每班僅一人作業或第二三類每班未達五人且有緊急連線通報監視措施者不在此限；急救人員未能執行職務時應即指定代理人。",
   "explain_en": "Article 15: at least one per shift, plus one per additional 50 workers; exemptions for single-worker shifts in Category 1 or shifts under 5 workers in Category 2/3 with emergency communication or monitoring.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -3207,7 +3207,7 @@
   "answer": "a",
   "explain_zh": "第15條第2項：急救人員應為醫護人員、經教育訓練規則所定急救人員訓練合格者或緊急醫療救護法所定救護技術員，且不得有失聰、兩眼裸視或矯正視力後均在零點六以下、失能及健康不良等足以妨礙急救情形。",
   "explain_en": "Article 15(2): trained first-aiders; excluded if hearing loss, corrected vision 0.6 or below in both eyes, disability or poor health would impede first aid.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -3234,7 +3234,7 @@
   "answer": "a",
   "explain_zh": "第15條第3項：急救藥品與器材應置於適當固定處所及保持清潔，至少每六個月定期檢查；被污染或失效之物品應隨時更換補充。",
   "explain_en": "Article 15(3): at least every six months, replacing contaminated or expired items at any time.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -3261,7 +3261,7 @@
   "answer": "d",
   "explain_zh": "第16條：僱用時應依附表九實施一般體格檢查，並按作業類別依附表十實施特殊體格檢查；非繼續性之臨時性或短期性工作在六個月以內、其他法規已有規定、經指定公告者得免一般體格檢查；距前次檢查未超過定期期限經提出證明者得免。",
   "explain_en": "Article 16: general exam per Annex 9 and special exam per Annex 10 by job type; waived for temporary work of six months or less, where other laws provide, or with proof of a recent exam within the periodic interval.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -3288,7 +3288,7 @@
   "answer": "d",
   "explain_zh": "第17條：年滿六十歲者每年檢查一次；四十歲以上未滿六十歲者每二年一次；未滿四十歲者每三年一次；項目依附表九，先天性辨色力異常者得免再檢查辨色力。",
   "explain_en": "Article 17: yearly at 60+, every two years at 40–59, every three years under 40.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -3315,7 +3315,7 @@
   "answer": "d",
   "explain_zh": "第19條：應每年或於變更其作業時依附表十實施特殊健康檢查；並將勞工作業內容、最近一次作業環境監測紀錄及危害暴露情形等作業經歷資料交予醫師；游離輻射作業依游離輻射防護法。",
   "explain_en": "Article 19: annually or when the job changes, with job content, latest monitoring records and exposure history provided to the physician.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -3342,7 +3342,7 @@
   "answer": "b",
   "explain_zh": "第20條：附表九及附表十一之檢查紀錄至少保存七年；附表十之特殊檢查紀錄至少保存十年。第21條：游離輻射、粉塵、苯、石綿等特定作業之特殊檢查紀錄至少保存三十年。",
   "explain_en": "Article 20: 7 years for general and night-work exams; 10 years for special exams; Article 21: 30 years for certain agents.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -3369,7 +3369,7 @@
   "answer": "c",
   "explain_zh": "第21條：游離輻射、粉塵、三氯乙烯及四氯乙烯、聯苯胺類、鈹、氯乙烯、苯、鉻酸及重鉻酸鹽、砷、鎳、1,3-丁二烯、甲醛、銦、石綿、鎘、苯乙烯等作業之特殊檢查紀錄至少保存三十年。",
   "explain_en": "Article 21: ionizing radiation, dust, tri/tetrachloroethylene, benzidine compounds, beryllium, vinyl chloride, benzene, chromates, arsenic, nickel, 1,3-butadiene, formaldehyde, indium, asbestos, cadmium, styrene.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -3396,7 +3396,7 @@
   "answer": "d",
   "explain_zh": "第22條：第一級全部正常或經職醫判定無異常；第二級異常但與工作無關；第三級異常而無法確定與工作相關性須進一步評估；第四級異常且與工作有關。第二級以上應註明不適宜作業，第三、四級並註明臨床診斷。",
   "explain_en": "Article 22: Level 1 normal; Level 2 abnormal but unrelated to work; Level 3 abnormal with undetermined work relation; Level 4 abnormal and work-related.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -3423,7 +3423,7 @@
   "answer": "a",
   "explain_zh": "第22條第3項：第二級管理者應提供個人健康指導；第三級管理者應請職醫實施健康追蹤檢查，必要時會同職業安全衛生人員實施疑似工作相關疾病現場評估，依結果重新分級並通報；第四級經評估現場仍有暴露者應採取危害控制及管理措施。",
   "explain_en": "Article 22(3): Level 2 gets individual guidance; Level 3 gets follow-up exams and possible site evaluation with re-grading and reporting; Level 4 with ongoing exposure requires hazard control.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -3450,7 +3450,7 @@
   "answer": "c",
   "explain_zh": "第24條：應參採醫師建議告知勞工並適當配置；異常者由醫護人員提供健康指導，不能適應原工作者變更作業場所、更換工作或縮短工作時間並採健康管理措施；將檢查結果發給勞工；彙整歷年紀錄；資料由僱用之醫護人員保存管理並遵守個資法。",
   "explain_en": "Article 24: inform and place workers per medical advice, give guidance for abnormalities, reassign or shorten hours if unfit, give results to workers, compile records, and protect personal data.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -3477,7 +3477,7 @@
   "answer": "c",
   "explain_zh": "第25條：從事職安法第19條之高溫度、異常氣壓、高架、精密或重體力勞動作業時，應參採從事勞工健康服務醫師綜合評估體格或健康檢查結果之建議，適當配置勞工之工作及休息時間；免僱用或特約醫師者得由辦理體格健康檢查之醫師為之。",
   "explain_en": "Article 25: the physician's assessment of exam results; where no physician is employed or contracted, the examining physician may advise.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -3504,7 +3504,7 @@
   "answer": "b",
   "explain_zh": "第26條：離職勞工要求提供其健康檢查有關資料時，雇主不得拒絕；但超過保存期限者不在此限。",
   "explain_en": "Article 26: must not refuse, except for records past their retention period.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -3531,7 +3531,7 @@
   "answer": "c",
   "explain_zh": "第27條：雇主實施勞工特殊健康檢查，應將辦理期程、作業類別與辦理體格及健康檢查之醫療機構等內容，登錄於中央主管機關公告之系統。",
   "explain_en": "Article 27: register in the central authority's designated system.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -3558,7 +3558,7 @@
   "answer": "c",
   "explain_zh": "第28條：得由醫療機構說明癌症篩檢規定，對符合條件之勞工經勞工同意一併進行癌症篩檢；檢查結果不列入健康檢查紀錄表；相關事項依中央衛生福利主管機關規定。",
   "explain_en": "Article 28: with worker consent, results kept out of the health exam record, per health ministry rules.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -3585,7 +3585,7 @@
   "answer": "d",
   "explain_zh": "第1條：本辦法依勞動檢查法第二十六條第二項規定訂定之。",
   "explain_en": "Article 1: under Article 26(2) of the Labor Inspection Act.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -3612,7 +3612,7 @@
   "answer": "c",
   "explain_zh": "第2條：甲類為石油裂解製造石化基本原料之工作場所，及製造處置使用危險物有害物達勞檢法施行細則附表一、二數量之工作場所。",
   "explain_en": "Article 2: Class A covers petroleum cracking and workplaces handling dangerous or harmful substances above the threshold quantities.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -3639,7 +3639,7 @@
   "answer": "d",
   "explain_zh": "第2條第2款：乙類包括使用異氰酸甲酯、氯化氫、氨、甲醛、過氧化氫或吡啶從事農藥原體合成之工作場所；製造爆竹煙火類物品之工廠；以化學物質製造爆炸性物品之火藥類製造工作場所。",
   "explain_en": "Article 2(2): Class B also includes fireworks factories and explosives manufacturing workplaces.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -3666,7 +3666,7 @@
   "answer": "d",
   "explain_zh": "第2條第3款：丙類指蒸汽鍋爐傳熱面積五百平方公尺以上，或高壓氣體類壓力容器一日冷凍能力一百五十公噸以上，或處理能力一千立方公尺以上之氧氣有毒性及可燃性高壓氣體、五千立方公尺以上之其他高壓氣體者。",
   "explain_en": "Article 2(3): 500 m² heating surface, 150 tonnes/day refrigeration, or processing capacity of 1,000 m³ (oxygen, toxic, flammable gases) or 5,000 m³ (other gases).",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -3693,7 +3693,7 @@
   "answer": "d",
   "explain_zh": "第2條第3款：一千立方公尺以上之氧氣、有毒性及可燃性高壓氣體；五千立方公尺以上之前款以外之高壓氣體。",
   "explain_en": "Article 2(3): 1,000 m³ for oxygen/toxic/flammable gases; 5,000 m³ for others.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -3720,7 +3720,7 @@
   "answer": "c",
   "explain_zh": "第2條第4款：丁類營造工程包括建築物高度八十公尺以上、單跨橋墩跨距七十五公尺以上或多跨五十公尺以上之橋梁、壓氣施工、長度一千公尺以上或需開挖十五公尺以上豎坑之隧道、開挖深度十八公尺以上且面積五百平方公尺以上、模板支撐高度七公尺以上且面積三百三十平方公尺以上之工程。",
   "explain_en": "Article 2(4): buildings 80 m+, bridges with spans 75 m+ (single) or 50 m+ (multi), compressed-air work, tunnels 1,000 m+ or shafts 15 m+, excavations 18 m+ deep and 500 m²+, formwork 7 m+ high and 330 m²+.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -3747,7 +3747,7 @@
   "answer": "a",
   "explain_zh": "第2條第4款第5目：開挖深度達十八公尺以上，且開挖面積達五百平方公尺以上之工程。",
   "explain_en": "Article 2(4)(5): 18 m deep and 500 m² in area.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -3774,7 +3774,7 @@
   "answer": "c",
   "explain_zh": "第2條第4款第6目：工程中模板支撐高度七公尺以上，且面積達三百三十平方公尺以上者。",
   "explain_en": "Article 2(4)(6): 7 m high and 330 m² in area.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -3801,7 +3801,7 @@
   "answer": "b",
   "explain_zh": "第2條第4款第4目：長度一千公尺以上或需開挖十五公尺以上豎坑之隧道工程。第3目：採用壓氣施工作業之工程。",
   "explain_en": "Article 2(4)(4): 1,000 m long or 15 m shafts; compressed-air construction is also Class D.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -3828,7 +3828,7 @@
   "answer": "a",
   "explain_zh": "第3條：審查指勞動檢查機構對工作場所有關資料之書面審查；檢查指勞動檢查機構對工作場所有關資料及設施之現場檢查；製程修改指既有安全防護措施未能控制新潛在危害之製程化學品技術設備操作程序或規模之變更。",
   "explain_en": "Article 3: review = document review; inspection = on-site inspection of documents and facilities; 'process modification' = changes existing safeguards cannot control.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -3855,7 +3855,7 @@
   "answer": "d",
   "explain_zh": "第4條：甲類、丁類工作場所應於使勞工作業三十日前向當地勞動檢查機構申請審查；乙類、丙類應於四十五日前申請審查及檢查。",
   "explain_en": "Article 4: 30 days for Class A and D (review); 45 days for Class B and C (review and inspection).",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -3882,7 +3882,7 @@
   "answer": "b",
   "explain_zh": "第5條：應填具申請書並檢附安全衛生管理基本資料（附件一）及製程安全評估定期實施辦法第4條附表一至十四各三份；申請應登錄於中央主管機關指定之資訊網站。",
   "explain_en": "Article 5: application form, basic OSH management data (Attachment 1), and PSM Annexes 1–14, three copies, registered on the designated website.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -3909,7 +3909,7 @@
   "answer": "b",
   "explain_zh": "第6條：工作場所負責人、製程安全評估人員（受訓或具能力經認可）、依管理辦法設置之職業安全衛生人員、工作場所作業主管、熟悉該場所作業之勞工；未置評估人員者得以完成訓練之工業安全技師及化工／職業衛生／機械／電機技師之一任之；評估過程及結果應記錄。",
   "explain_en": "Article 6: the five listed; without an accredited assessor, trained industrial safety engineers together with chemical/hygiene/mechanical/electrical engineers may serve; records required.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -3936,7 +3936,7 @@
   "answer": "b",
   "explain_zh": "第6條第2項：得以在國內完成製程安全評估人員訓練之工業安全技師及化學工程、職業衛生、機械工程、電機工程技師之一任之；兼具兩種資格者得為同一人。丁類則為工業安全技師及建築師土木結構大地水利技師之一。",
   "explain_en": "Article 6(2): chemical, hygiene, mechanical or electrical engineers (one person may hold both); Class D uses architects or civil/structural/geotechnical/hydraulic engineers.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -3963,7 +3963,7 @@
   "answer": "b",
   "explain_zh": "第7條：檢查機構依檢附資料實施審查並得就職業安全衛生設施及管理實施檢查；審查結果應於受理申請後三十日內書面通知，但可歸責於事業單位者不在此限。第11條、第15條：乙類丙類為四十五日內。第19條：丁類三十日內。",
   "explain_en": "Article 7: 30 days (unless attributable to the enterprise); Articles 11 and 15: 45 days for Class B and C; Article 19: 30 days for Class D.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -3990,7 +3990,7 @@
   "answer": "c",
   "explain_zh": "第8條：應於製程修改時或至少每五年重新評估第5條檢附之資料，為必要之更新及記錄，並報請檢查機構備查；重新評估準用第6條。第12條、第16條：乙類丙類亦於製程修改或至少每五年重新評估。",
   "explain_en": "Article 8: on process modification or at least every 5 years, updated, recorded and filed; Articles 12 and 16 apply the same to Class B and C.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -4017,7 +4017,7 @@
   "answer": "b",
   "explain_zh": "第9條：乙類應檢附安全衛生管理基本資料、製程安全評估報告書、製程修改安全計畫、緊急應變計畫、稽核管理計畫各三份。施工安全評估報告書為丁類（第17條）所需。",
   "explain_en": "Article 9: basic OSH data, process safety assessment report, process modification safety plan, emergency response plan and audit management plan; the construction safety report belongs to Class D.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -4044,7 +4044,7 @@
   "answer": "c",
   "explain_zh": "第11條：審查後應對火災爆炸危害預防設施（附件七）及有害物洩漏及中毒危害預防設施（附件八）實施檢查；結果於受理後四十五日內書面通知。",
   "explain_en": "Article 11: fire and explosion prevention (Attachment 7) and leakage/poisoning prevention (Attachment 8); notice within 45 days.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -4071,7 +4071,7 @@
   "answer": "b",
   "explain_zh": "第15條：一般高壓氣體製造設施、液化石油氣製造設施、冷凍用高壓氣體製造設施、加氣站製造設施、鍋爐設施（附件九至十三）；結果於四十五日內書面通知。第13條：丙類申請檢附第9條各款資料。",
   "explain_en": "Article 15: the five facility types in Attachments 9–13; notice within 45 days.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -4098,7 +4098,7 @@
   "answer": "a",
   "explain_zh": "第17條：應填具申請書並檢附施工安全評估人員及所僱專任工程人員、相關執業技師或開業建築師之簽章文件，及施工計畫書（附件十四）、施工安全評估報告書（附件十五）各三份；簽章以涉及專業技術部分為限；特殊狀況得報經同意分段申請審查。",
   "explain_en": "Article 17: signed documents, construction plan (Attachment 14) and construction safety assessment report (Attachment 15), three copies; phased review allowed for complex projects.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -4125,7 +4125,7 @@
   "answer": "d",
   "explain_zh": "第18條：工作場所負責人、施工安全評估人員、專任工程人員、職業安全衛生人員、工作場所作業主管（含承攬人之人員）；未置評估人員者得以完成訓練之工業安全技師及建築師、土木、結構、大地、水利技師之一任之；評估過程及結果應記錄。",
   "explain_en": "Article 18: full-time engineer and operation supervisors including contractors'; alternative assessors are trained industrial safety engineers with an architect or civil/structural/geotechnical/hydraulic engineer.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -4152,7 +4152,7 @@
   "answer": "d",
   "explain_zh": "第20條：變更主要分項工程施工方法時，應就變更部分重新評估後，就評估之危害採取必要預防措施，更新施工計畫書及施工安全評估報告書並記錄；重新評估準用第18條；施工方法變更情形如附件十六例示。",
   "explain_en": "Article 20: re-evaluate the changed part per Article 18, take preventive measures, update documents and record; Attachment 16 gives examples.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -4179,7 +4179,7 @@
   "answer": "c",
   "explain_zh": "第22條：檢查機構實施審查檢查時，製程安全評估小組、施工安全評估小組成員應列席說明。第21條：得邀請專家學者協助。第23條：應摘要記錄過程及決議。第23條之1：爆竹煙火工廠應檢附製造許可文件影本。",
   "explain_en": "Article 22: assessment team members; Article 21: experts may be invited; Article 23: proceedings summarized; Article 23-1: fireworks factories attach their manufacturing permit.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -4206,7 +4206,7 @@
   "answer": "b",
   "explain_zh": "附表二：各類事業未滿三十人者均置丙種職業安全衛生業務主管；三十人以上未滿一百人置乙種業務主管（第一類營造業另加管理員一人）；一百人以上置甲種業務主管。",
   "explain_en": "Annex 2: under 30 workers → Class C supervisor for all categories; 30–99 → Class B (construction Category 1 also adds an administrator); 100+ → Class A.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -4233,7 +4233,7 @@
   "answer": "b",
   "explain_zh": "附表二：營造業之事業單位三十人以上未滿一百人者，應置乙種職業安全衛生業務主管及職業安全衛生管理員各一人；營造業以外之第一類事業同規模僅置乙種業務主管。",
   "explain_en": "Annex 2: construction enterprises of 30–99 workers need a Class B supervisor plus an administrator; non-construction Category 1 of the same size needs only the Class B supervisor.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -4260,7 +4260,7 @@
   "answer": "d",
   "explain_zh": "附表二：營造業三百人以上未滿五百人者，置甲種業務主管一人、職業安全（衛生）管理師一人及職業安全衛生管理員二人；五百人以上者甲種業務主管一人、管理師及管理員各二人以上。",
   "explain_en": "Annex 2: 300–499 workers → Class A supervisor + 1 specialist + 2 administrators; 500+ → Class A supervisor + at least 2 specialists and 2 administrators.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -4287,7 +4287,7 @@
   "answer": "d",
   "explain_zh": "附表二：營造業以外之第一類事業，一百人以上未滿三百人置甲種業務主管及管理員各一人；三百人以上未滿五百人置甲種業務主管一人、管理師及管理員各一人；五百人以上未滿一千人置甲種業務主管一人、管理師一人及管理員二人；一千人以上置甲種業務主管一人、管理師及管理員各二人以上。",
   "explain_en": "Annex 2 (non-construction Category 1): 100–299 → A + 1 admin; 300–499 → A + 1 specialist + 1 admin; 500–999 → A + 1 specialist + 2 admins; 1,000+ → A + at least 2 specialists and 2 admins.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -4314,7 +4314,7 @@
   "answer": "a",
   "explain_zh": "附表二：第二類事業一百人以上未滿三百人置甲種業務主管；三百人以上未滿五百人置甲種業務主管及管理員各一人；五百人以上置甲種業務主管、管理師及管理員各一人以上。",
   "explain_en": "Annex 2 (Category 2): 100–299 → Class A supervisor; 300–499 → A + 1 administrator; 500+ → A + at least 1 specialist and 1 administrator.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -4341,7 +4341,7 @@
   "answer": "a",
   "explain_zh": "附表二：第三類事業未滿三十人丙種、三十至九十九人乙種、一百至四百九十九人甲種業務主管；五百人以上置甲種業務主管及管理員各一人以上。",
   "explain_en": "Annex 2 (Category 3): under 30 → C; 30–99 → B; 100–499 → A; 500+ → A plus at least one administrator.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -4368,7 +4368,7 @@
   "answer": "c",
   "explain_zh": "附表二附註1：置職業安全（衛生）管理師二人以上者，其中至少一人應為職業衛生管理師；但於103年7月3日前已置有職業安全衛生人員者不在此限。附註2：本表為至少人數，仍應依規模及危害風險增置。",
   "explain_en": "Annex 2 note 1: at least one hygiene specialist (grandfathered before 3 July 2014); note 2: the table is a minimum.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -4395,7 +4395,7 @@
   "answer": "b",
   "explain_zh": "附表一：甲種業務主管四十二小時；乙種三十五小時；丙種二十一小時；丁種六小時。",
   "explain_en": "Annex 1: Class A 42 h; Class B 35 h; Class C 21 h; Class D 6 h.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -4422,7 +4422,7 @@
   "answer": "b",
   "explain_zh": "附表一：乙種業務主管三十五小時，丙種二十一小時，丁種六小時。",
   "explain_en": "Annex 1: Class B 35 h, Class C 21 h, Class D 6 h.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -4449,7 +4449,7 @@
   "answer": "a",
   "explain_zh": "附表一肆：丁種職業安全衛生業務主管安全衛生教育訓練課程及時數為六小時（第二、三類事業五人以下之雇主或代理人適用）。",
   "explain_en": "Annex 1 Part 4: 6 hours, for employers or representatives of Category 2/3 enterprises with 5 or fewer workers.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -4476,7 +4476,7 @@
   "answer": "a",
   "explain_zh": "附表八：擋土支撐、露天開挖、模板支撐、隧道等挖掘、隧道等襯砌、施工架組配、鋼構組配、屋頂作業主管之教育訓練均為十八小時。",
   "explain_en": "Annex 8: all eight construction work supervisor courses are 18 hours.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -4503,7 +4503,7 @@
   "answer": "b",
   "explain_zh": "附表九：有機溶劑、鉛、四烷基鉛、缺氧、特定化學物質、粉塵、高壓室內作業主管均為十八小時；潛水作業主管為三十六小時。",
   "explain_en": "Annex 9: 18 hours for the seven harmful-operation supervisors; 36 hours for diving supervisors.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -4530,7 +4530,7 @@
   "answer": "d",
   "explain_zh": "附表十：三公噸以上固定式起重機（含一公噸以上斯達卡式）、移動式起重機、人字臂起重桿操作人員均為三十八小時；營建用提升機操作人員二十一小時；吊籠操作人員二十六小時。",
   "explain_en": "Annex 10: 38 hours for the three crane types; construction hoists 21 hours; gondolas 26 hours.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -4557,7 +4557,7 @@
   "answer": "d",
   "explain_zh": "附表十：吊籠操作人員二十六小時；導軌或升降路高度二十公尺以上之營建用提升機操作人員二十一小時。",
   "explain_en": "Annex 10: gondolas 26 hours; construction hoists 21 hours.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -4584,7 +4584,7 @@
   "answer": "c",
   "explain_zh": "附表七壹：高壓氣體製造安全主任安全衛生教育訓練課程、時數為二十二小時。",
   "explain_en": "Annex 7 Part 1: 22 hours.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -4611,7 +4611,7 @@
   "answer": "c",
   "explain_zh": "附表一第2項：勞工噪音暴露工作日八小時日時量平均音壓級在八十五分貝以上之噪音作業。附表一另包括高溫作業、游離輻射、異常氣壓、鉛、四烷基鉛、粉塵、特定有機溶劑、特定化學物質、黃磷、聯吡啶或巴拉刈製造、1-溴丙烷等作業。",
   "explain_en": "Annex 1 item 2: 85 dB(A) TWA; the annex also lists heat, ionizing radiation, abnormal pressure, lead, tetraalkyl lead, dust, specified organic solvents and chemicals, yellow phosphorus, paraquat manufacturing and 1-bromopropane.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -4638,7 +4638,7 @@
   "answer": "d",
   "explain_zh": "附表一第8項：有機溶劑中毒預防規則所稱之1,1,2,2-四氯乙烷、四氯化碳、二硫化碳、三氯乙烯、四氯乙烯、二甲基甲醯胺、正己烷、苯乙烯、甲苯、二甲苯作業。",
   "explain_en": "Annex 1 item 8: 1,1,2,2-tetrachloroethane, carbon tetrachloride, carbon disulfide, trichloroethylene, tetrachloroethylene, dimethylformamide, n-hexane, styrene, toluene and xylene.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -4665,7 +4665,7 @@
   "answer": "c",
   "explain_zh": "附表一第9項：製造處置使用聯苯胺、氯乙烯、苯、石綿、鉻酸、砷、鎘、錳、汞、鎳、甲醛、1,3-丁二烯、銦等特定化學物質或其重量比（苯為體積比）超過百分之一之混合物之作業；第12項1-溴丙烷則為超過百分之五。",
   "explain_en": "Annex 1 item 9: over 1% (benzene by volume); item 12: 1-bromopropane over 5%.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -4692,7 +4692,7 @@
   "answer": "b",
   "explain_zh": "附表二：第一類事業300–999人每月1次、1000–1999人每月3次、2000–2999人每月6次…6000人以上專任職醫一人或每月18次；第二類300–999人每2個月1次；第三類300–999人每3個月1次；每次臨場服務至少3小時。",
   "explain_en": "Annex 2: Category 1 300–999 → monthly; 1,000–1,999 → 3/month; 2,000–2,999 → 6/month; 6,000+ → a full-time physician or 18/month; Category 2 300–999 → every 2 months; Category 3 → every 3 months; each visit at least 3 hours.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -4719,7 +4719,7 @@
   "answer": "c",
   "explain_zh": "附表二：特別危害健康作業50–99人，職業醫學科專科醫師每4個月1次；100人以上每月1次。",
   "explain_en": "Annex 2: 50–99 specially hazardous workers → every 4 months; 100+ → monthly.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -4746,7 +4746,7 @@
   "answer": "d",
   "explain_zh": "附表三：300–999人置護理人員1人（特別危害作業勞工300人以上則2人）；1000–2999人2人；3000–5999人3人（特別危害300人以上4人）；6000人以上4人，每增加6000人至少增1人；護理人員3人以上得置護理主管1人。",
   "explain_en": "Annex 3: 300–999 → 1 (2 if 300+ specially hazardous workers); 1,000–2,999 → 2; 3,000–5,999 → 3 (4 if 300+ hazardous); 6,000+ → 4, plus 1 per additional 6,000; 3+ nurses may have a nursing supervisor.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""
@@ -4773,7 +4773,7 @@
   "answer": "c",
   "explain_zh": "附表三備註：勞工人數超過6000人者，每增加6000人應增加護理人員至少1人；設置護理人員數達3人以上者，得置護理主管1人。",
   "explain_en": "Annex 3 notes: 3+ nurses → optional nursing supervisor; one additional nurse per additional 6,000 workers.",
-  "status": "draft",
+  "status": "active",
   "batch": 4,
   "reviewer": "",
   "review_note": ""

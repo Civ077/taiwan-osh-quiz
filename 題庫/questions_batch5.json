@@ -21,7 +21,7 @@
   "answer": "a",
   "explain_zh": "第3條：勞動檢查機構指中央或直轄市主管機關或有關機關為辦理勞動檢查業務所設置之專責檢查機構；代行檢查機構指由中央主管機關指定為辦理危險性機械或設備檢查之行政機關、學術機構或非營利法人；勞動檢查員與代行檢查員分別領有勞動檢查證與代行檢查證。",
   "explain_en": "Article 3: labor inspection agencies are dedicated bodies of the central or municipal authorities; delegated inspection agencies are designated agencies, academic institutions or non-profits for dangerous machinery/equipment inspection.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -48,7 +48,7 @@
   "answer": "b",
   "explain_zh": "第4條：依本法規定應執行檢查之事項、勞動基準法令規定之事項、職業安全衛生法令規定之事項、其他依勞動法令應辦理之事項。細則第3條：勞動法令指勞工保險、勞工福利、就業服務及其他相關法令。",
   "explain_en": "Article 4: matters under this Act, the Labor Standards Act, OSH laws and other labor laws; Enforcement Rules Article 3 defines other labor laws as labor insurance, welfare, employment services etc.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -75,7 +75,7 @@
   "answer": "c",
   "explain_zh": "第6條：中央主管機關應參酌勞動條件、安全衛生條件、職業災害嚴重率及傷害頻率，於年度開始前六個月公告勞動檢查方針（優先受檢事業單位選擇原則、監督檢查重點、檢查及處理原則等）；勞動檢查機構應於公告後三個月內擬定勞動監督檢查計畫報請核備。",
   "explain_en": "Article 6: policy announced 6 months before the year starts (priority targets, focus, handling principles); agencies draft supervision and inspection plans within 3 months.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -102,7 +102,7 @@
   "answer": "b",
   "explain_zh": "第7條第3項：中央主管機關應每年定期公布勞動檢查年報。細則第7條第2項：應於每年第三季公布前一年之勞動檢查年報。",
   "explain_en": "Article 7(3): published annually; Enforcement Rules Article 7(2): in the third quarter for the previous year.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -129,7 +129,7 @@
   "answer": "d",
   "explain_zh": "第11條：不得為變更隱匿或捏造事實之陳報；不得洩漏受檢事業單位之生產技術設備及經營財務等秘密，離職後亦同；處理秘密申訴案件不得洩漏申訴來源；不得與受檢事業單位發生不當財務關係。任何人得根據事實舉發違法失職。第12條：有利害關係者應自行迴避。",
   "explain_en": "Article 11: no false reports, no disclosure of enterprise secrets (also after leaving), no revealing complaint sources, no improper financial relations; Article 12: recusal for conflicts of interest.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -156,7 +156,7 @@
   "answer": "b",
   "explain_zh": "第13條：勞動檢查員執行職務除第26條之審查或檢查、危險性機械或設備檢查、職業災害檢查及其他經勞動檢查機構或主管機關核准者外，不得事先通知事業單位。",
   "explain_en": "Article 13: the exceptions are Article 26 reviews/inspections, dangerous machinery or equipment inspections, accident inspections and other approved cases.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -183,7 +183,7 @@
   "answer": "c",
   "explain_zh": "第14條：勞動檢查員得隨時進入事業單位，雇主、代理人、勞工及有關人員不得無故拒絕、規避或妨礙，非警察協助不足以排除時得要求警察協助。第35條：違反第14條第1項或第15條第2項者處三萬元以上十五萬元以下罰鍰，並得按次處罰。",
   "explain_en": "Article 14 grants entry at any time, with police assistance if needed; Article 35: NT$30,000–150,000 per instance for violating Article 14(1) or 15(2).",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -210,7 +210,7 @@
   "answer": "a",
   "explain_zh": "第15條：詢問有關人員（必要時製作談話紀錄或錄音）、通知提出必要報告紀錄工資清冊文件、檢查應備置之文件資料物品（得影印拍照錄影測量）、封存或掣給收據後抽取物料樣品器材工具以憑檢驗；事業單位不得拒絕；事業單位得申請檢視或複製錄影照片，勞檢機構不得拒絕。",
   "explain_en": "Article 15: questioning, requiring documents, examining and copying/photographing/measuring, sealing or sampling against receipt; the enterprise may request to view or copy recordings and the agency must not refuse.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -237,7 +237,7 @@
   "answer": "b",
   "explain_zh": "第16條：勞動檢查員對違反勞動法律規定之犯罪嫌疑者，必要時得聲請檢察官簽發搜索票，就其相關物件、處所執行搜索、扣押。細則第16條：應依刑事訴訟法相關規定。",
   "explain_en": "Article 16: apply to a prosecutor for a search warrant; Enforcement Rules Article 16: per the Code of Criminal Procedure.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -264,7 +264,7 @@
   "answer": "a",
   "explain_zh": "第17條：危險性機械或設備之檢查除由勞動檢查機構派勞動檢查員實施外，必要時亦得指定代行檢查機構派代行檢查員實施。第19條：代行檢查業務為非營利性質，收費以收支平衡為原則。細則第17條：代行檢查指定期檢查及其他指定公告之檢查。",
   "explain_en": "Article 17: designated delegated inspection agencies; Article 19: non-profit, fees on a break-even basis; Enforcement Rules Article 17: periodic and other designated inspections.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -291,7 +291,7 @@
   "answer": "d",
   "explain_zh": "第22條：勞動檢查員進入事業單位進行檢查時應主動出示勞動檢查證並告知雇主及工會，事業單位對未持勞動檢查證者得拒絕檢查；檢查後應作成紀錄並告知違反事項及提供遵守法令意見。細則第19條：檢查前應告知檢查目的並請派員陪同。細則第20條：勞動檢查證每二年換發一次。",
   "explain_en": "Article 22: present the certificate and notify employer and union; enterprises may refuse inspectors without a certificate; Enforcement Rules Article 20: certificates reissued every two years.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -318,7 +318,7 @@
   "answer": "a",
   "explain_zh": "第25條：有違反勞動法令規定事項者，勞動檢查機構應於十日內以書面通知事業單位立即改正或限期改善，並副知地方主管機關；公營事業另副知目的事業主管機關；事業單位應於違規場所顯明易見處公告七日以上。第36條：未公告者處三萬元以上六萬元以下罰鍰。",
   "explain_en": "Article 25: written notice within 10 days, copied to the local authority; results posted conspicuously for at least 7 days; Article 36: failure to post → NT$30,000–60,000.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -345,7 +345,7 @@
   "answer": "c",
   "explain_zh": "第26條：石油裂解之石化工業、農藥製造、爆竹煙火工廠及火藥類製造、設置達規定壓力或容量之高壓氣體類壓力容器或蒸汽鍋爐、製造處置使用危險物有害物達規定數量、中央主管機關會商指定之營造工程、其他指定之工作場所。第34條：違反者處三年以下有期徒刑、拘役或科或併科十五萬元以下罰金。",
   "explain_en": "Article 26 lists seven categories; Article 34: violation → up to 3 years' imprisonment, detention and/or a fine up to NT$150,000.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -372,7 +372,7 @@
   "answer": "d",
   "explain_zh": "第27條：勞動檢查機構對事業單位工作場所發生重大職業災害時應立即指派勞動檢查員前往實施檢查，調查職業災害原因及責任；發現非立即停工不足以避免職業災害擴大者，應就發生災害場所以書面通知事業單位部分或全部停工。",
   "explain_en": "Article 27: immediate dispatch and investigation, with written stop-work orders where necessary to prevent the accident from spreading.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -399,7 +399,7 @@
   "answer": "b",
   "explain_zh": "第28條：發現勞工有立即發生危險之虞，得就該場所以書面通知事業單位逕予先行停工；有立即發生危險之虞之情事由中央主管機關定之（勞動檢查法第二十八條所定勞工有立即發生危險之虞認定標準）。第30條：停工原因消滅後得申請復工。",
   "explain_en": "Article 28: immediate written stop-work order; the criteria for imminent danger are set by the central authority; Article 30: resumption may be applied for once the cause is removed.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -426,7 +426,7 @@
   "answer": "c",
   "explain_zh": "第29條：勞動檢查員對事業單位未依通知限期改善事項辦理而有發生職業災害之虞時應陳報所屬勞動檢查機構；勞動檢查機構於認有必要時得以書面通知事業單位部分或全部停工。細則第33條：全部停工日數超過七日者應陳報中央主管機關核定。",
   "explain_en": "Article 29: written stop-work order when necessary; Enforcement Rules Article 33: full stoppages over 7 days require central approval.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -453,7 +453,7 @@
   "answer": "d",
   "explain_zh": "第32條：受理勞工申訴之機構或人員、勞工得申訴之範圍、勞工申訴書格式、申訴程序，公告書由中央主管機關定之。第36條：未公告者處三萬元以上六萬元以下罰鍰。",
   "explain_en": "Article 32: the four items, using the format set by the central authority; Article 36: failure → NT$30,000–60,000.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -480,7 +480,7 @@
   "answer": "b",
   "explain_zh": "第33條：受理申訴後應儘速派員檢查並於十四日內將檢查結果通知申訴人；勞工向工會申訴者由工會查證後提出書面改善建議；事業單位不得對申訴人終止勞動契約或為其他不利處分；勞動檢查機構應保密不得洩漏申訴人身分。",
   "explain_en": "Article 33: results within 14 days; unions may propose improvements; no adverse treatment of complainants; complainant identity kept confidential.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -507,7 +507,7 @@
   "answer": "d",
   "explain_zh": "第34條：違反第26條使勞工在未經審查或檢查合格之工作場所作業者，或違反第27條至第29條停工通知者，處三年以下有期徒刑、拘役或科或併科十五萬元以下罰金；法人代表人代理人受僱人因執行業務犯者，對該法人或自然人亦科以罰金。",
   "explain_en": "Article 34: criminal penalty up to 3 years plus fine up to NT$150,000, also imposed on the legal person or natural person employer.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -534,7 +534,7 @@
   "answer": "d",
   "explain_zh": "細則第6條：職業災害嚴重率指每百萬工時之失能傷害總損失日數；傷害頻率指每百萬工時之失能傷害次數。",
   "explain_en": "Enforcement Rules Article 6: severity rate = disabling-injury lost days per million hours; frequency rate = disabling injuries per million hours.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -561,7 +561,7 @@
   "answer": "d",
   "explain_zh": "細則第8條：專業訓練指新進人員之職前訓練、現職人員之在職訓練及進修。第9條：新進勞動檢查員未經職前訓練合格前不得指派其單獨執行檢查職務，但特殊情況經敘明理由陳報中央主管機關核准者不在此限。",
   "explain_en": "Article 8 defines professional training; Article 9 bars solo assignments before pre-service training passes, except with central approval.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -588,7 +588,7 @@
   "answer": "b",
   "explain_zh": "細則第13條：封存以有違反職業安全衛生法令所禁止使用者、有違反勞動法令者、有職業災害原因鑑定所必須者、其他經勞動檢查機構核准者為限；原因消滅或經許可得啟封。第14條：應開列封存物件清單及貼封條，封條加蓋印信並載明機構名稱、物件名稱、封存日期、法令依據。",
   "explain_en": "Article 13: the four situations; unsealing when the cause ends or on approved application; Article 14: inventory list and stamped seal stating agency, item, date and legal basis.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -615,7 +615,7 @@
   "answer": "b",
   "explain_zh": "細則第15條：事業單位依本法第15條第3項申請檢視或複製時，應於受檢之次日起三十日內以書面提出；勞動檢查機構應於接獲申請書之次日起三十日內提供。",
   "explain_en": "Article 15: request within 30 days of the day after inspection; provided within 30 days of receipt.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -642,7 +642,7 @@
   "answer": "d",
   "explain_zh": "細則第21條：有異議者應於通知書送達之次日起十日內以書面敘明理由向勞動檢查機構提出；通知書所定改善期限在機構另為適當處分前，不因異議而停止計算。",
   "explain_en": "Article 21: written objection within 10 days; the improvement deadline keeps running unless the agency rules otherwise.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -669,7 +669,7 @@
   "answer": "c",
   "explain_zh": "細則第23條：以通知書全部內容公告者，公告於事業單位管制勞工出勤之場所、餐廳宿舍及各作業場所之公告場所、與工會或勞工代表協商同意之場所之一；以違反規定單項內容公告者，公告於違反規定之機具設備或場所。",
   "explain_en": "Article 23: one of the three listed places for full notices; single-item notices go on the offending machine, equipment or place.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -696,7 +696,7 @@
   "answer": "b",
   "explain_zh": "細則第27條之1：高壓氣體類壓力容器指供處理及儲存高壓氣體之盛裝容器，但不包括移動式製造設備、非屬有毒性或可燃性高壓氣體之單座固定式製造設備、減壓設備、空調設備及以氟氯烷為冷媒之冷凍機器；蒸汽鍋爐指以火焰燃燒氣體或高溫氣體加熱於水或熱媒使發生超過大氣壓之壓力蒸汽供他用之裝置及附屬過熱器節煤器。",
   "explain_en": "Enforcement Rules Article 27-1: the four exclusions; steam boilers are also defined there.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -723,7 +723,7 @@
   "answer": "b",
   "explain_zh": "細則第31條：發生死亡災害者；發生災害之罹災人數在三人以上者；氨、氯、氟化氫、光氣、硫化氫、二氧化硫等化學物質之洩漏發生一人以上罹災勞工需住院治療者；其他經中央主管機關指定公告之災害。",
   "explain_en": "Enforcement Rules Article 31: the four categories.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -750,7 +750,7 @@
   "answer": "b",
   "explain_zh": "細則第33條：停工日數由勞動檢查機構視情節決定；全部停工日數超過七日者應陳報中央主管機關核定。第34條：停工通知書應記載事業單位名稱地址、法令依據、停工理由、停工日期、停工範圍、申請復工之條件及程序、執行機構。",
   "explain_en": "Article 33: over 7 days; Article 34 lists the required contents of stop-work notices.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -777,7 +777,7 @@
   "answer": "b",
   "explain_zh": "細則第36條：勞動檢查機構於查證停工原因消滅後，應以書面通知其復工；復工通知書應記載申請復工之事業單位雇主名稱地址、復工日期、復工範圍。",
   "explain_en": "Article 36: written resumption notice after verification, stating enterprise, resumption date and scope.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -804,7 +804,7 @@
   "answer": "c",
   "explain_zh": "認定標準第2條：有立即發生危險之虞之類型為墜落、感電、倒塌崩塌、火災爆炸、中毒缺氧五類。第8條：中央主管機關得指定其他情事並公告。",
   "explain_en": "Article 2 of the Standards: five types; Article 8 allows the central authority to designate more.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -831,7 +831,7 @@
   "answer": "b",
   "explain_zh": "第3條：高差二公尺以上邊緣開口未設防墜設施；高差二公尺以上作業未用高空工作車或設工作臺且未張掛安全網配掛安全帶；易踏穿屋頂未設三十公分以上踏板安全網或安全帶；高差超過一點五公尺未設安全上下設備；超過二層樓或七點五公尺鋼構未張設安全網；移動式起重機吊掛平台載人未設圍欄安全母索等。",
   "explain_en": "Article 3: unprotected edges/openings at 2 m+, work at 2 m+ without platforms/nets/harness, fragile roofs without 30 cm walkboards, no safe access above 1.5 m, steel structures over 2 floors or 7.5 m without nets, crane-suspended platforms without guards.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -858,7 +858,7 @@
   "answer": "a",
   "explain_zh": "第3條第3款：於易踏穿材料構築之屋頂從事作業時，未於屋架上設置防止踏穿及寬度三十公分以上之踏板、裝設安全網或配掛安全帶。",
   "explain_en": "Article 3(3): walkboards at least 30 cm wide, safety nets or harnesses required.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -885,7 +885,7 @@
   "answer": "c",
   "explain_zh": "第4條第2款：使用對地電壓在一百五十伏特以上移動式或攜帶式電動機具，或於潮濕場所金屬板上鋼架上等導電性良好場所使用移動式或攜帶式電動機具，未設置高敏感度高速型漏電斷路器。第3款：狹小空間或鋼架場所之交流電焊機未裝自動電擊防止裝置。",
   "explain_en": "Article 4(2): 150 V or more, or any portable tool in wet or conductive locations without a high-sensitivity fast RCD; Article 4(3): AC welders in confined conductive spaces without automatic voltage reducers.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -912,7 +912,7 @@
   "answer": "b",
   "explain_zh": "第5條：施工架垂直方向五點五公尺、水平方向七點五公尺內未與穩定構造物妥實連接；露天開挖一點五公尺以上或有崩塌之虞未設擋土支撐等；隧道坑道有落磐之虞未設支撐岩栓噴凝土；模板支撐支柱基礎易積水地盤軟弱未強化。",
   "explain_en": "Article 5: 5.5 m vertical and 7.5 m horizontal; also unsupported excavations 1.5 m+, tunnels without support, and formwork on soft or waterlogged ground.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -939,7 +939,7 @@
   "answer": "d",
   "explain_zh": "第6條第2款：未於作業前測定濃度，或濃度達爆炸下限值之百分之三十以上時未即刻使勞工退避至安全場所並停止使用煙火及其他點火源之機具。第6款：局限空間作業場所使用純氧換氣亦屬之。",
   "explain_en": "Article 6(2): 30% of the lower explosive limit; Article 6(6): using pure oxygen for ventilation in confined spaces also qualifies.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -966,7 +966,7 @@
   "answer": "a",
   "explain_zh": "第7條第5款：氧氣濃度未滿百分之十八、硫化氫濃度超過十 ppm 或一氧化碳濃度超過三十五 ppm 時未確實配戴空氣呼吸器等呼吸防護具、安全帶及安全索；或未置備通風設備換氣、未置備測定儀器隨時測定保持氧氣十八％以上、硫化氫十 ppm 以下、一氧化碳三十五 ppm 以下。",
   "explain_en": "Article 7(5): O2 under 18%, H2S over 10 ppm or CO over 35 ppm without respirators, harness and lifeline, or without ventilation and continuous measurement.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -993,7 +993,7 @@
   "answer": "c",
   "explain_zh": "第7條第2至4款：特定化學管理設備未設溫度壓力流量計測裝置及異常自動警報裝置；未設遮斷原料供輸、卸放製品、冷卻用水或惰性氣體供輸裝置；未設洩漏時能立即警報之器具及除卻危害必要藥劑容器之設施。第1款：有機溶劑儲槽等作業未供給輸氣管面罩。",
   "explain_en": "Article 7(2)–(4): missing measuring devices and alarms, missing shut-off/discharge/cooling/inert-gas devices, or missing leak alarms and neutralizing agents.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -1020,7 +1020,7 @@
   "answer": "b",
   "explain_zh": "第2條：母性健康保護指對從事有母性健康危害之虞之工作所採取之措施，包括危害評估與控制、醫師面談指導、風險分級管理、工作適性安排等；保護期間指雇主於得知女性勞工妊娠之日起至分娩後一年之期間。第15條：分娩滿一年仍哺乳者得請求採取保護。",
   "explain_en": "Article 2: from knowledge of pregnancy to one year postpartum; Article 15: breastfeeding workers may request protection beyond one year.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -1047,7 +1047,7 @@
   "answer": "a",
   "explain_zh": "第3條：依健康保護規則第3或4條應配置醫護人員之事業單位，勞工於保護期間從事暴露於生殖毒性物質第一級、生殖細胞致突變性物質第一級或對哺乳功能有不良影響之化學品，或作業姿勢、人力提舉搬運推拉重物、輪班、夜班、單獨工作及工作負荷等易造成健康危害之工作，應實施母性健康保護。第4條：鉛作業事業使女性從事鉛散布場所工作亦應實施。",
   "explain_en": "Article 3: chemical exposures and ergonomic/organizational hazards; Article 4: lead-exposed workplaces regardless of size.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -1074,7 +1074,7 @@
   "answer": "c",
   "explain_zh": "第6條：應使職業安全衛生人員會同從事勞工健康服務醫護人員辨識與評估工作場所環境及作業之危害（物理性化學性生物性人因性工作流程及型態）、依評估結果區分風險等級並分級管理、協助改善與預防管理；依附表一填寫作業場所危害評估及採行措施並由醫護人員告知勞工。第7條：應使醫護人員與勞工面談並提供健康指導，異常者轉介專科醫師；勞工依附表二填寫健康情形並提供孕婦健康手冊。",
   "explain_en": "Article 6: OSH personnel jointly with health service staff, using Annex 1; Article 7: physician/nurse interviews with health guidance and specialist referral.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -1101,7 +1101,7 @@
   "answer": "a",
   "explain_zh": "第9條：第一級為暴露濃度低於容許暴露標準十分之一或經醫師評估無害；第二級為十分之一以上未達二分之一或經醫師評估可能影響；第三級為二分之一以上或經醫師評估有危害母體胎兒或嬰兒健康；輻射場所依游離輻射防護安全標準。",
   "explain_en": "Article 9: Level 1 below 1/10 PEL or judged harmless; Level 2 from 1/10 to under 1/2 or possibly harmful; Level 3 at 1/2 or above or judged harmful.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -1128,7 +1128,7 @@
   "answer": "c",
   "explain_zh": "第10條：血中鉛濃度低於五 μg/dl 為第一級；五 μg/dl 以上未達十 μg/dl 為第二級；十 μg/dl 以上為第三級；經醫師評估須調整者不在此限。",
   "explain_en": "Article 10: Level 1 below 5 μg/dl; Level 2 from 5 to under 10; Level 3 at 10 or above, subject to physician adjustment.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -1155,7 +1155,7 @@
   "answer": "c",
   "explain_zh": "第11條：第二級管理者應使醫師提供個人面談指導並採取危害預防措施；第三級應即採取工作環境改善及有效控制措施，完成改善後重新評估，並由醫師註明不適宜作業；第一級或第二級經醫師評估可繼續原工作者應說明危害資訊經當事人書面同意後始得為之；第三級應依醫師適性評估建議變更工作條件、調整工時、調換工作。",
   "explain_en": "Article 11: Level 2 gets physician counseling and precautions; Level 3 requires immediate control measures, re-evaluation and job adjustments; Levels 1–2 may continue only with informed written consent.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -1182,7 +1182,7 @@
   "answer": "b",
   "explain_zh": "第14條：危害評估、控制方法、面談指導、適性評估及相關採行措施之執行情形均應記錄，文件及紀錄至少保存三年；個資之蒐集處理利用應遵守個人資料保護法。第13條：應尊重勞工意願並依勞基法、性別平等工作法及游離輻射防護法辦理，勞工有配合義務。",
   "explain_en": "Article 14: three years with personal data protection; Article 13: respect worker wishes, comply with labor, gender equality and radiation laws.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -1209,7 +1209,7 @@
   "answer": "c",
   "explain_zh": "附表一列十五類：坑內工作；爆炸性易燃性物質；鉛汞鉻砷黃磷氯氣氰化氫苯胺散布場所；有害輻射；有害粉塵；運轉中機器危險部分之掃除上油檢查修理；超過二百二十伏特電力線銜接；已熔礦物礦渣處理；鍋爐燒火操作；鑿岩機等顯著振動；一定重量以上重物處理；起重機人字臂起重桿運轉；動力捲揚機運搬機索道運轉；橡膠合成樹脂滾輾；其他指定（爆竹煙火、大型帶鋸圓盤鋸、動力衝剪鍛造、異常氣壓、高壓氣體製造、致癌物質等）。",
   "explain_en": "Annex 1 lists fifteen categories including mines, explosives, heavy metals, radiation, dust, running machinery, high voltage, molten metal, boilers, vibration tools, heavy loads, cranes, hoists, rubber rolling and designated work such as fireworks, large saws, presses, hyperbaric work and carcinogens.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -1236,7 +1236,7 @@
   "answer": "a",
   "explain_zh": "附表一第十一項：十五歲以上未滿十六歲者斷續性作業十二公斤、持續性作業八公斤；十六歲以上未滿十八歲者斷續性二十五公斤、持續性十五公斤以上之重物處理作業，不得使其從事。",
   "explain_en": "Annex 1 item 11: ages 15–15: 12 kg intermittent / 8 kg continuous; ages 16–17: 25 kg / 15 kg.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -1263,7 +1263,7 @@
   "answer": "d",
   "explain_zh": "附表二列十四類：礦坑；鉛及其化合物散布場所；異常氣壓；弓形蟲德國麻疹（已具免疫者除外）；二硫化碳三氯乙烯環氧乙烷丙烯醯胺次乙亞胺砷汞等；顯著振動；一定重量以上重物；有害輻射；已熔礦物礦渣；起重機人字臂起重桿運轉；動力捲揚機運搬機索道；橡膠合成樹脂滾輾；B型肝炎水痘C型肝炎HIV肺結核等感染風險；抗細胞分裂劑及細胞毒性藥物。",
   "explain_en": "Annex 2 lists fourteen categories from mining and lead to biological agents and cytotoxic drugs.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -1290,7 +1290,7 @@
   "answer": "c",
   "explain_zh": "附表二第七項：妊娠中女性勞工不得從事重量在斷續性作業十公斤、持續性作業六公斤以上之重物處理作業。附表三：分娩後未滿六個月者斷續性十五公斤持續性十公斤；分娩滿六個月未滿一年者斷續性三十公斤持續性二十公斤，但經醫師評估能負重者不在此限。",
   "explain_en": "Annex 2 item 7: 10 kg / 6 kg; Annex 3: under 6 months postpartum 15/10 kg, 6–12 months 30/20 kg unless a physician approves.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -1317,7 +1317,7 @@
   "answer": "d",
   "explain_zh": "附表三列五類：礦坑工作；鉛及其化合物散布場所之工作；鑿岩機及其他顯著振動之工作；一定重量以上之重物處理（分娩未滿六個月斷續十五持續十公斤、六個月至一年斷續三十持續二十公斤，經醫師評估能負重者除外）；其他經中央主管機關規定者。",
   "explain_en": "Annex 3: mining, lead, significant vibration, heavy loads (15/10 kg under 6 months; 30/20 kg from 6 to 12 months unless cleared by a physician).",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -1344,7 +1344,7 @@
   "answer": "d",
   "explain_zh": "第5條：本標準自103年7月3日施行；114年11月20日修正發布之第2條附表一工作別五自116年1月1日施行外，自發布日施行。第2條第2項：未滿十五歲者不得從事第29條第1項所定危險性或有害性工作。",
   "explain_en": "Article 5: item 5 of Annex 1 effective 1 January ROC 116; other amendments effective on promulgation.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -1371,7 +1371,7 @@
   "answer": "c",
   "explain_zh": "第3條：精密作業指使勞工從事列舉之凝視作業（線徑0.16毫米以下線圈繞線、精密零件切削量測、鐘錶珠寶鑲製、製圖印刷校對、紡織穿針、織物瑕疵檢驗、瓶裝浮游物檢查、放大鏡顯微鏡檢驗半導體積體電路光纖、顯示器調整檢視、組織培養微生物判片、印刷電路板插件焊接、硬碟拋光檢視、隱形眼鏡檢視、蒸鍍鏡片檢視等）且每日凝視作業時間合計在二小時以上者。",
   "explain_en": "Article 3: fifteen listed types of close visual work (fine winding, precision machining, watches and jewelry, proofreading, threading, fabric inspection, microscopy of semiconductors, display adjustment, PCB assembly, etc.) totaling 2+ hours daily.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -1398,7 +1398,7 @@
   "answer": "b",
   "explain_zh": "第4條：應依作業需要施予適當照明，除第3條第8款至第11款（放大鏡顯微鏡檢驗、顯示器檢視、組織培養判片、磁蕊穿線）得酌減外，作業台面局部照明不得低於一千米燭光。第5條：作業台面不得產生反射耀眼光線並採對比色；第6條：發光背景光度應均勻。",
   "explain_en": "Article 4: 1,000 lux, with reductions allowed for microscope and display work; Articles 5–6: no glare, contrasting colors, uniform backlighting.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -1425,7 +1425,7 @@
   "answer": "a",
   "explain_zh": "第7條：工作台面照明與其半徑一公尺以內接鄰地區照明之比率不得低於一比五分之一，與鄰近地區照明之比率不得低於一比二十分之一。第8條：輔助局部照明時眼睛與光源連線和眼睛與注視點連線之角度應在三十度以上，否則應設遮光裝置。",
   "explain_en": "Article 7: adjacent area at least one fifth, surrounding area at least one twentieth of the work-surface level; Article 8: auxiliary lights at 30° or more from the line of sight or shielded.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -1452,7 +1452,7 @@
   "answer": "d",
   "explain_zh": "第9條：連續作業二小時給予至少十五分鐘休息。第10條：應注意作業姿態使眼球與工作點之距離保持在明視距離約三十公分，使用放大鏡顯微鏡者除外。第11條：應採取指導勞工保護眼睛之必要措施。",
   "explain_en": "Article 9: 15 minutes per 2 hours; Article 10: about 30 cm viewing distance except with magnifiers or microscopes.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -1479,7 +1479,7 @@
   "answer": "c",
   "explain_zh": "第2條：重體力勞動作業包括人力搬運或揹負四十公斤以上物體、站立姿勢伐木、手工具或動力手工具鑽岩挖掘、坑內人力搬運、薄板壓延二十公斤以上人力搬運及剝離、四點五公斤以上鎚敲擊、站立以鏟裝盛五公斤以上物體投入出料、金屬棒攪拌熔融金屬、壓床氣鎚十公斤以上鍛造、雙人八十公斤以上或單人搯金屬熔液澆鑄、人力拌合混凝土、人工拉力四十公斤以上纜索拉線等。",
   "explain_en": "Article 2: 40 kg+ manual carrying, standing felling, rock drilling, underground carrying, 20 kg+ sheet rolling, 4.5 kg+ hammers, shoveling 5 kg+, stirring molten metal, forging 10 kg+, pouring 80 kg+ (two persons), hand-mixing concrete, cable pulling 40 kg+.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -1506,7 +1506,7 @@
   "answer": "a",
   "explain_zh": "第3條：應考慮勞工體能負荷減少工作時間給予充分休息，休息時間每小時不得少於二十分鐘。第4條：依勞工健康保護規則實施健康檢查及管理；第5條：充分供應飲用水及食鹽；第6條：致力改善作業方法減低頻率縮短距離減輕重量並儘量以機械代替人力。",
   "explain_en": "Article 3: at least 20 minutes per hour; Articles 4–6: health management, water and salt, and mechanization to reduce manual effort.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -1533,7 +1533,7 @@
   "answer": "c",
   "explain_zh": "第2條：工業用機器人指具操作機及記憶裝置並依訊息自動作伸縮屈伸移動旋轉等動作之機器；可動範圍指依記憶裝置訊息，操作機及機器人各部（含設於操作機前端之工具）在構造上可動之最大範圍；教導相關作業指動作程序位置速度之設定變更確認；檢查相關作業指檢查修理調整清掃上油；協同作業指工作者與機器人共同合作之作業。",
   "explain_en": "Article 2: maximum structural movement range including end-effector tools; also defines teaching work, inspection work and collaborative operation.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -1560,7 +1560,7 @@
   "answer": "a",
   "explain_zh": "第5條：從運轉變換為教導狀態時可自動降低操作機動作速度（固定順序型除外）及輸出；油壓氣壓電壓變動、停電、關連機器故障、控制裝置異常時可自動停止並設指示燈；停止後非經人為再啟動不能開始動作；因工作者碰觸產生衝擊力時能自動停止。第4條：應具緊急停止裝置。",
   "explain_en": "Article 5: automatic speed and output reduction in teach mode, auto-stop with indicator on power or control faults, no restart without manual reset, auto-stop on impact; Article 4: emergency stop device.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -1587,7 +1587,7 @@
   "answer": "c",
   "explain_zh": "第7條：控制面盤具電源油壓氣壓開關、起動停止、動作狀態變換、速度設定、操作機動作、緊急停止等機能者應明確標示；緊急停止裝置用開關應為易操作之構造、設在易操作位置並設置紅色標示；其四周不得設置可能發生錯誤操作之其他開關。第8條：固定式控制面盤緊急停止以外之開關設護圈或為埋頭型。",
   "explain_en": "Article 7: accessible, red-marked emergency stop with no error-prone switches around it; Article 8: other switches on fixed panels guarded or recessed.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -1614,7 +1614,7 @@
   "answer": "a",
   "explain_zh": "第9條：使用移動式控制面盤操作時除緊急停止外無法以其他裝置使機器人動作；在教導狀態下動作開關放手時可自動使機器人立即停止；移動電纜線應有必要之強度及耐磨性。",
   "explain_en": "Article 9: hold-to-run motion switches, exclusive control except emergency stop, and durable cables.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -1641,7 +1641,7 @@
   "answer": "c",
   "explain_zh": "第18條：確保安全作業空間；固定式控制面盤設於可動範圍之外且操作工作者可泛視機器人全部動作之位置；計測儀器設於顯明處並標示安全範圍；配線配管設於不受損傷處；緊急停止裝置用開關設於控制面盤以外之適當處所；顯明位置設緊急停止裝置及指示燈。",
   "explain_en": "Article 18: outside the range with full view; gauges visible with safe ranges marked; protected wiring; additional emergency stops away from the panel.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -1668,7 +1668,7 @@
   "answer": "a",
   "explain_zh": "第21條：出入口以外處所應使工作者不易進入；出入口應標示並告知運轉中禁止進入，並設置光電式安全裝置、安全墊或同等功能裝置，或設門扉或繩索鏈條且開啟脫開時緊急停止裝置立即動作。協同作業機器人符合 CNS 14490／ISO 10218 系列並經評估製作安全評估報告者得不受限制，設計變更時及至少每五年重新評估，資料保存五年。第22條：光電式安全裝置應能在檢知接近時立即使緊急停止動作。",
   "explain_en": "Article 21: marked entrances with presence-sensing devices or interlocked gates; collaborative robots meeting CNS 14490 / ISO 10218 with a safety assessment (reviewed at least every 5 years, records kept 5 years) may be exempt.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -1695,7 +1695,7 @@
   "answer": "d",
   "explain_zh": "第21條第2、3項：協同作業機器人符合 CNS 14490 系列、ISO 10218 系列或同等標準，並就製程簡介、安全管理計畫、安全驗證報告或符合聲明書、試運轉安全程序及報告、啟始起動安全程序、自動檢查計畫紀錄、緊急應變計畫實施評估製作安全評估報告者，得不受圍柵限制；應於設計變更時及至少每五年重新評估，資料保存五年；評估小組由工作場所負責人、機器人設計製造安裝專業人員、職業安全衛生人員、作業主管、熟悉作業之工作者組成。",
   "explain_en": "Article 21(2)–(4): re-assessment at least every 5 years and on design changes, records kept 5 years, by a team including the workplace manager, robot specialists, OSH personnel, supervisors and experienced workers.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -1722,7 +1722,7 @@
   "answer": "a",
   "explain_zh": "第23條：對運轉中之機器人應於可動範圍外可泛視機器人動作之位置設置監視人員並禁止工作者任意進入可動範圍；應禁止非協同作業之相關工作者進入協同作業空間。第25條：從事操作作業時應在各開關處標示「作業中」或在控制面盤蓋上鎖。",
   "explain_en": "Article 23: watcher with full view and entry ban; Article 25: 'work in progress' tags on switches or locked panel covers during operation work.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -1749,7 +1749,7 @@
   "answer": "d",
   "explain_zh": "第24條：機器人之操作方法及步驟（含起動及開關操作）、教導相關作業時操作機之速度、二人以上共同作業之聯絡信號、發生異常狀況時之應變措施、緊急停止後再起動前確認異常解除及安全之方法。第32條：起動前應確認可動範圍內無人、控制面盤工具置於規定位置、異常指示燈未顯示，並規定聯絡信號。",
   "explain_en": "Article 24: the five items; Article 32: pre-start checks that no one is in range, pendants and tools stowed, no fault indicators, with agreed signals.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -1776,7 +1776,7 @@
   "answer": "c",
   "explain_zh": "第26條：應採取設置監視人員（異常時立即使緊急停止動作並嚴禁他人進入）、將緊急停止開關交付範圍內作業者、使用具第9條第1、2款構造之移動式控制面盤三者之一或同等措施；操作者無法掌握機器人全部動作狀態者應採監視人員措施。第27條：教導作業前應確認電纜被覆、操作機動作、控制及緊急停止機能、配管漏洩。",
   "explain_en": "Article 26: one of the three protective measures (watcher, hand-held emergency stop, hold-to-run pendant); Article 27: pre-teaching checks of cables, motion, controls and leaks.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -1803,7 +1803,7 @@
   "answer": "a",
   "explain_zh": "第33條：自動運轉之機器人起動後應確認指示燈顯示在自動運轉中；因異常必須進入可動範圍搶修時，應於人員進入前以緊急停止裝置動作等方式停止運轉，除使工作者攜帶安全栓外，應在啟動開關處作禁止觸動之標示。第29條：氣壓系統分解前應排放汽缸殘壓。",
   "explain_en": "Article 33: stop via emergency stop, worker carries the safety plug (key), start switch tagged; Article 29: bleed residual pneumatic pressure before disassembly.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -1830,7 +1830,7 @@
   "answer": "b",
   "explain_zh": "第1條：為保障工作權之性別平等，貫徹憲法消除性別歧視、促進性別地位實質平等之精神制定本法；工作場所性騷擾事件除校園性騷擾依性別平等教育法外，依本法處理。第2條：雇主與受僱者之約定優於本法者從其約定；公務人員教育人員軍職人員亦適用（部分條文除外）；技術生及實習生亦適用。",
   "explain_en": "Article 1; Article 2: better agreements prevail, and the Act also covers civil servants, teachers, military personnel, apprentices and interns.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -1857,7 +1857,7 @@
   "answer": "a",
   "explain_zh": "第3條：薪資指受僱者因工作而獲得之報酬，包括薪資、薪金及按計時計日計月計件以現金或實物等方式給付之獎金、津貼及其他任何名義之經常性給與；復職指回復受僱者申請育嬰留職停薪時之原有工作；要派單位使用派遣勞工時視為第8、9、12、13、18、19、36條之雇主。",
   "explain_en": "Article 3: all regular remuneration; 'reinstatement' means returning to the original job; user enterprises count as employers for dispatched workers under specified articles.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -1884,7 +1884,7 @@
   "answer": "d",
   "explain_zh": "第5條：性別平等工作會置委員五人至十一人，任期二年，由勞工事務性別問題或法律專業人士擔任；勞工團體、性別團體推薦之委員各二人；女性委員應占全體二分之一以上；政府機關代表不得逾三分之一。",
   "explain_en": "Article 5: 5–11 members with 2-year terms; two each nominated by labor and gender groups; women at least half; government representatives at most one third.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -1911,7 +1911,7 @@
   "answer": "d",
   "explain_zh": "第7條：招募甄試進用分發配置考績陞遷不得因性別或性傾向有差別待遇，但工作性質僅適合特定性別者不在此限。細則第3條：僅適合特定性別指非由特定性別從事不能完成或難以完成之工作。第8、9條：教育訓練及福利措施亦同。",
   "explain_en": "Article 7; Enforcement Rules Article 3: 'suits only a specific sex' means work that cannot be done or is hard to do by others; Articles 8–9 extend this to training and welfare.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -1938,7 +1938,7 @@
   "answer": "a",
   "explain_zh": "第10條：薪資給付不得因性別或性傾向有差別待遇，工作或價值相同者應給付同等薪資，但基於年資、獎懲、績效或其他非因性別性傾向因素之正當理由者不在此限；雇主不得以降低其他受僱者薪資之方式規避。第38條之1：違反處三十萬元以上一百五十萬元以下罰鍰。",
   "explain_en": "Article 10; Article 38-1: violation → NT$300,000–1,500,000 fine.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -1965,7 +1965,7 @@
   "answer": "c",
   "explain_zh": "第11條：退休資遣離職解僱不得因性別或性傾向有差別待遇；工作規則勞動契約或團體協約不得規定或事先約定受僱者有結婚懷孕分娩或育兒情事時應行離職或留職停薪，亦不得以其為解僱理由；違反者規定或約定無效，勞動契約之終止不生效力。",
   "explain_en": "Article 11: such clauses are void and terminations are ineffective; no discrimination in retirement, severance, resignation or dismissal.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -1992,7 +1992,7 @@
   "answer": "a",
   "explain_zh": "第12條：性騷擾指執行職務時任何人以性要求或性意味性別歧視言行造成敵意性脅迫性冒犯性工作環境，或雇主以之作為勞務契約成立存續分發報酬考績陞遷等之交換條件；權勢性騷擾指對因僱用求職或執行職務關係受自己指揮監督之人利用權勢或機會為性騷擾；非工作時間遭同一人持續性性騷擾、遭最高負責人或僱用人性騷擾者亦適用本法。",
   "explain_en": "Article 12: defines hostile-environment and quid-pro-quo harassment, power-based harassment, and extends coverage to continuous off-duty harassment and harassment by the top responsible person.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -2019,7 +2019,7 @@
   "answer": "b",
   "explain_zh": "第13條第1項：僱用十人以上未達三十人者應訂定申訴管道並在工作場所公開揭示；三十人以上者應訂定性騷擾防治措施、申訴及懲戒規範並公開揭示。細則第5條：僱用人數包括分支機構及附屬單位。第38條之1：未訂防治措施處二萬元以上三十萬元以下罰鍰；未訂申訴管道經限期未改善處一萬元以上十萬元以下。",
   "explain_en": "Article 13(1); Enforcement Rules Article 5 counts branches and affiliated units; Article 38-1 sets fines of NT$20,000–300,000 (no rules) and NT$10,000–100,000 (no channel after correction order).",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -2046,7 +2046,7 @@
   "answer": "b",
   "explain_zh": "第13條第2項：因申訴知悉者應採行避免再度發生之措施、提供或轉介諮詢醫療心理諮商社會福利資源及其他必要服務、對事件進行調查、對行為人為適當懲戒或處理；非因申訴知悉者應釐清事實、依被害人意願協助申訴、適度調整工作內容或場所、依意願提供或轉介服務。查證應客觀公正專業並避免重複詢問；接獲申訴應通知地方主管機關，認定屬性騷擾者並應通知處理結果。",
   "explain_en": "Article 13(2): the four measures (or fact-finding, assisted complaint, work adjustment and services when learned otherwise); investigations must be objective and reported to the local authority.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -2073,7 +2073,7 @@
   "answer": "b",
   "explain_zh": "第13條之1：被申訴人具權勢地位且情節重大，調查期間有先行停止或調整職務必要時雇主得暫時停止或調整其職務，未認定為性騷擾者停職期間薪資應補發；經雇主或地方主管機關調查認定為性騷擾且情節重大者，雇主得於知悉調查結果之日起三十日內不經預告終止勞動契約。",
   "explain_en": "Article 13-1: provisional suspension or reassignment, back pay if unconfirmed, and termination without notice within 30 days for confirmed serious cases.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -2100,7 +2100,7 @@
   "answer": "c",
   "explain_zh": "第14條：女性受僱者因生理日致工作有困難者每月得請生理假一日，全年請假日數未逾三日不併入病假計算，其餘日數併入病假計算；併入及不併入病假之生理假薪資均減半發給。",
   "explain_en": "Article 14: one day per month; up to three days a year outside sick leave, the rest counted as sick leave; all at half pay.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -2127,7 +2127,7 @@
   "answer": "d",
   "explain_zh": "第15條：分娩前後產假八星期；妊娠三個月以上流產者四星期；二個月以上未滿三個月流產者一星期；未滿二個月流產者五日；產假薪資依相關法令。細則第6條：產假期間依曆連續計算。",
   "explain_en": "Article 15: 8 weeks; 4 weeks after 3+ months; 1 week for 2–3 months; 5 days under 2 months; Enforcement Rules Article 6: counted by calendar days continuously.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -2154,7 +2154,7 @@
   "answer": "a",
   "explain_zh": "第15條：妊娠期間產檢假七日；陪產檢及陪產假七日；期間薪資照給；雇主給付後就各逾五日之部分得向中央主管機關申請補助（委任勞保局辦理）。細則第7條：陪產之請假應於配偶分娩當日及其前後合計十五日期間內為之。",
   "explain_en": "Article 15: 7 + 7 days at full pay, subsidy for days beyond five; Enforcement Rules Article 7: paternity leave within 15 days around the birth.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -2181,7 +2181,7 @@
   "answer": "d",
   "explain_zh": "第16條：任職滿六個月後於每一子女滿三歲前得申請育嬰留職停薪，期間至子女滿三歲止但不得逾二年；同時撫育二人以上者合併計算最長以最幼子女受撫育二年為限；期間得繼續參加原有社會保險，雇主負擔之保費免繳、受僱者負擔部分得遞延三年繳納；收養先行共同生活者亦得申請。細則第9條：繼續投保不包括勞工職業災害保險。",
   "explain_en": "Article 16: after 6 months, until age 3, up to 2 years (combined for multiple children); social insurance continues with employer premiums waived; Enforcement Rules Article 9 excludes occupational accident insurance.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -2208,7 +2208,7 @@
   "answer": "a",
   "explain_zh": "第17條：除歇業虧損或業務緊縮、依法變更組織解散或轉讓、不可抗力暫停工作一個月以上、業務性質變更有減少受僱者必要又無適當工作可安置，並經主管機關同意者外，雇主不得拒絕復職；未能復職者應於三十日前通知並依法定標準發給資遣費或退休金。",
   "explain_en": "Article 17: the four grounds plus authority consent; 30 days' notice and statutory severance or pension otherwise.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -2235,7 +2235,7 @@
   "answer": "c",
   "explain_zh": "第18條：子女未滿二歲須親自哺（集）乳者除規定休息時間外每日另給哺（集）乳時間六十分鐘；延長工作時間達一小時以上者給予三十分鐘；均視為工作時間。細則第11條：親自哺乳包括以容器貯存母乳備供育兒。",
   "explain_en": "Article 18: 60 + 30 minutes counted as working time; Enforcement Rules Article 11 includes expressing milk.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -2262,7 +2262,7 @@
   "answer": "b",
   "explain_zh": "第19條：受僱於僱用三十人以上雇主者為撫育未滿三歲子女得請求每天減少工作時間一小時（不得請求報酬）或調整工作時間；未滿三十人者經協商合意得辦理。細則第5條：依請求當月第一個工作日僱用總人數計算。",
   "explain_en": "Article 19: 30+ employees (smaller employers by agreement); the reduced hour is unpaid; headcount per the first working day of the month.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -2289,7 +2289,7 @@
   "answer": "b",
   "explain_zh": "第20條：家庭照顧假日數併入事假計算，全年以七日為限，薪資依事假規定。第21條：受僱者依第14至20條請求時雇主不得拒絕，亦不得視為缺勤影響全勤獎金考績或為其他不利處分；違反者依第38條處二萬元以上三十萬元以下罰鍰。",
   "explain_en": "Article 20: up to 7 days counted as personal leave; Article 21: requests cannot be refused or treated as absence; Article 38: NT$20,000–300,000 fine.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -2316,7 +2316,7 @@
   "answer": "b",
   "explain_zh": "第23條：僱用一百人以上之雇主應提供哺（集）乳室、托兒設施或適當之托兒措施；主管機關應給予經費補助。細則第14條：托兒措施包括與其他雇主聯合辦理或委託托兒服務機構辦理。",
   "explain_en": "Article 23: 100 or more, with government subsidies; Enforcement Rules Article 14 allows joint or outsourced childcare.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -2343,7 +2343,7 @@
   "answer": "d",
   "explain_zh": "第27條：因性騷擾受損害者由雇主及行為人連帶負損害賠償責任，但雇主證明已遵行防治規定且已盡力防止者不負責任（法院仍得斟酌經濟狀況令雇主賠償）；雇主賠償後對行為人有求償權；被害人到庭期間雇主應給公假；權勢性騷擾法院得酌定損害額一倍至三倍懲罰性賠償金，行為人為最高負責人或僱用人者三倍至五倍。第30條：賠償請求權知悉起二年、行為起十年消滅。",
   "explain_en": "Article 27: joint liability with an employer defense, recourse against the offender, official leave for court, punitive damages 1–3× or 3–5×; Article 30: 2-year/10-year limitation.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -2370,7 +2370,7 @@
   "answer": "c",
   "explain_zh": "第31條：受僱者或求職者於釋明差別待遇之事實後，雇主應就差別待遇之非性別、性傾向因素，或該受僱者或求職者所從事工作之特定性別因素負舉證責任。第35條：法院及主管機關認定差別待遇應審酌性別平等工作會之調查報告評議或處分。細則第2條：差別待遇指因性別或性傾向因素為直接或間接不利之對待。",
   "explain_en": "Article 31: burden shifts to the employer; Article 35: courts consider committee findings; Enforcement Rules Article 2 defines direct and indirect adverse treatment.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -2397,7 +2397,7 @@
   "answer": "a",
   "explain_zh": "第32條之1：應向雇主申訴，但被申訴人屬最高負責人或僱用人，或雇主未處理或不服被申訴人之雇主所為調查懲戒結果者得逕向地方主管機關申訴；非具權勢地位者自知悉逾二年、行為終了逾五年不受理；具權勢地位者三年、七年；未成年者得於成年起三年內；被申訴人為最高負責人者得於離職起一年內（行為終了逾十年不受理）；處分前得撤回，撤回後不得再提。",
   "explain_en": "Article 32-1: direct complaints in those situations; 2/5-year limits (3/7 for power-based), special rules for minors and top-responsible-person cases; withdrawal bars refiling.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -2424,7 +2424,7 @@
   "answer": "d",
   "explain_zh": "第32條之2：地方主管機關調查得請專業人士團體或警察協助，相關人員應配合不得規避妨礙拒絕（違者一萬元以上五萬元以下罰鍰得按次處罰）；認定成立或原懲戒不當者得令雇主限期採取必要處置；被申訴人為最高負責人或僱用人時申訴人得申請調整職務或工作型態至調查結果送達雇主之日起三十日內，雇主不得拒絕（違者一萬元以上五萬元以下罰鍰）。第38條之2：最高負責人或僱用人經認定性騷擾處一萬元以上一百萬元以下罰鍰。",
   "explain_en": "Article 32-2: cooperation duties, orders for necessary measures, and the right to job adjustment; Article 38-2: top responsible persons found to harass face NT$10,000–1,000,000 fines.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -2451,7 +2451,7 @@
   "answer": "d",
   "explain_zh": "第34條：受僱者或求職者發現雇主違反第7至11條、第13條第2項、第21條或第36條得向地方主管機關申訴，經性別平等工作會審議；對處分有異議得於十日內向中央主管機關性別平等工作會申請審議或逕行提起訴願，不服中央審定得逕行提起行政訴訟；最高負責人性騷擾案件除情節重大或媒體揭露外得不經審議逕為處分。第33條：違反第14至20條之申訴，地方主管機關應於七日內展開調查。",
   "explain_en": "Article 34: 10 days, then administrative litigation; Article 33: complaints about leave rights trigger investigation within 7 days.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -2478,7 +2478,7 @@
   "answer": "d",
   "explain_zh": "第36條：雇主不得因受僱者提出本法之申訴或協助他人申訴而予以解僱、調職或其他不利之處分。第38條：違反第21條、第27條第4項或第36條者處二萬元以上三十萬元以下罰鍰，公布姓名或名稱及負責人姓名並限期改善，屆期未改善按次處罰。第37條：主管機關應提供法律諮詢或扶助。",
   "explain_en": "Article 36; Article 38: NT$20,000–300,000, publication and correction order; Article 37: legal aid for complainants.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -2505,7 +2505,7 @@
   "answer": "c",
   "explain_zh": "第38條之1：違反第7至10條、第11條第1、2項處三十萬元以上一百五十萬元以下罰鍰；違反第13條第2項或地方主管機關限期必要處置之命令處二萬元以上一百萬元以下；違反第13條第1項第2款處二萬元以上三十萬元以下；第1款經限期未改善處一萬元以上十萬元以下；違反第32條之2第5項處一萬元以上五萬元以下；均應公布名稱負責人姓名處分期日違反條文及罰鍰金額並限期改善，屆期未改善按次處罰。",
   "explain_en": "Article 38-1: the graded fines, with public disclosure and correction orders.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -2532,7 +2532,7 @@
   "answer": "b",
   "explain_zh": "細則第4條之2：職務相當之人為實質執行代表人業務或實質控制人事財務業務經營，且現任或曾任董事監察人、持有百分之二十以上股份、經工會股東協力廠商或申訴人指認並有具體事證、代表人之配偶前配偶四親等內血親等、代表人經改選尚未登記、位居特殊重要職位者。共同作業指基於共同目的於同一期間從事工作者；持續性性騷擾指於工作時間及非工作時間均發生且時間具密接性者。",
   "explain_en": "Enforcement Rules Article 4-2: substantive control plus directorship, 20%+ shareholding, identification with evidence, close relatives, unregistered re-elected representatives, or key positions; also defines joint work and continuous harassment.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -2559,7 +2559,7 @@
   "answer": "d",
   "explain_zh": "細則第4條之3：本法第13條第2項所定知悉，不以被害人須向雇主提出性騷擾申訴為限；第13條第4項所稱地方主管機關指被害人勞務提供地之直轄市或縣（市）主管機關。細則第4條之1：實習生遭性騷擾時所屬學校應督促實習單位採取糾正補救措施並提供協助。",
   "explain_en": "Enforcement Rules Article 4-3; the competent local authority is that of the place where the victim provides labor; Article 4-1 covers interns.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -2586,7 +2586,7 @@
   "answer": "a",
   "explain_zh": "細則第5條：第13條第1項、第19條及第23條第1項所定僱用人數之計算包括分支機構及附屬單位之僱用人數；第19條之僱用人數依受僱者申請或請求當月第一個工作日雇主僱用之總人數計算。",
   "explain_en": "Enforcement Rules Article 5: includes branches and affiliates; for Article 19, counted on the first working day of the month of the request.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""
@@ -2613,7 +2613,7 @@
   "answer": "d",
   "explain_zh": "細則第8條：於育嬰留職停薪期間屆滿前分娩或流產，復職後仍在產假期間者雇主仍應給予產假，但得扣除自分娩或流產之日起至復職前之日數。細則第12條：子女指婚生子女、非婚生子女及養子女；第13條：雇主必要時得要求提出證明文件。",
   "explain_en": "Enforcement Rules Article 8; Article 12 defines children (including adopted); Article 13 allows requesting supporting documents.",
-  "status": "draft",
+  "status": "active",
   "batch": 5,
   "reviewer": "",
   "review_note": ""

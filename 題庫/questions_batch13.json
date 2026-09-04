@@ -21,7 +21,7 @@
   "answer": "d",
   "explain_zh": "第1條：本辦法依空氣污染防制法第三十四條第四項規定訂定之。第2條：專責人員分空氣污染防制專責人員及健康風險評估專責人員，應由經中央主管機關訓練合格並取得合格證書者擔任。空污法第二十條第二項為固定污染源空氣污染物排放標準之授權依據，第五條第三項則為空氣品質標準之授權依據。",
   "explain_en": "Article 1; Article 20(2) authorizes emission standards and Article 5(3) the ambient air quality standards.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -48,7 +48,7 @@
   "answer": "c",
   "explain_zh": "第3條：空氣污染防制專責人員分甲級及乙級；公私場所設置之專責單位至少應包括甲級專責人員二人、乙級專責人員一人。第7條：應設置專責單位者，代理人至少應設二名。第4條：同一處所內專責單位得與依法設置之廢（污）水處理專責單位合併設置。",
   "explain_en": "Article 3; see also Articles 4 and 7.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -75,7 +75,7 @@
   "answer": "b",
   "explain_zh": "第3條第二項：空氣污染防制專責單位或專責人員之設置等級，應依本法第三十四條第一項及第二項所定公告事項辦理。同條第一項規定空氣污染防制專責人員分甲級及乙級。第2條：專責人員應由經中央主管機關訓練合格並取得合格證書者擔任。",
   "explain_en": "Article 3, Paragraph 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -102,7 +102,7 @@
   "answer": "c",
   "explain_zh": "第4條：同一處所內，空氣污染防制專責單位得與其依法設置之廢（污）水處理專責單位合併設置；空污專責人員如具備廢（污）水處理專責人員資格且設置級別均符合規定，得互兼之。同條第二項並允許具健康風險評估專責人員或其他類環境保護專責及技術人員資格者，於同一處所內同時兼任。第5條：專責人員仍應常駐並專職，不得兼任環保法規以外其他法規所定專責（任）人員。",
   "explain_en": "Article 4; concurrent service is limited by Article 5.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -129,7 +129,7 @@
   "answer": "d",
   "explain_zh": "第6條：二以上公私場所共同設置空氣污染防制設備共同處理空氣污染物，經直轄市、縣（市）主管機關核准者，得共同設置專責單位或專責人員；原定級別不一致時，應以最高級別設置。第18條第二款規定專責人員不得同一時間設置於不同公私場所，但依法共同設置者不在此限。",
   "explain_en": "Article 6; see also Article 18, Subparagraph 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -156,7 +156,7 @@
   "answer": "c",
   "explain_zh": "第8條：應檢具專責人員合格證書、設置申請書及同意查詢勞健保資料同意書、代理人具參加同一類別及級別以上專責人員訓練資格之學（經）歷證明及其勞健保查詢同意書，向直轄市、縣（市）主管機關申請核定設置；除經該機關同意得以書面為之外，自中央主管機關指定之日起應採網路傳輸方式辦理。第7條：代理人更動應於十五日內重新申請核定設置。",
   "explain_en": "Article 8; online filing is required from the date designated by the central authority.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -183,7 +183,7 @@
   "answer": "d",
   "explain_zh": "第10條：專責人員非因離職、異動而因故未能執行業務時，應由設置之代理人代理；代理期間連續達十五日以上者，應於事實發生後十五日內以書面報請直轄市、縣（市）主管機關備查。代理期間不得超過三個月，報經核准者得延長至六個月；代理期滿前十五日內應完成同一類別及級別以上之合格專責人員核定設置。第9條之離職、異動代理期間則不得超過三個月且無延長規定。",
   "explain_en": "Article 10; compare Article 9.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -210,7 +210,7 @@
   "answer": "a",
   "explain_zh": "第11條：本辦法修正施行前已核定設置專責單位或專責人員者，應於修正施行日起六個月內完成代理人之設置。於該期間內尚未完成者，發生第10條第一項或第9條第一項情形時，應即指定具參加同一類別及級別以上專責人員訓練資格之人員代理；並於事實發生後十五日內書面報請備查，三十日內完成代理人之設置。",
   "explain_en": "Article 11.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -237,7 +237,7 @@
   "answer": "d",
   "explain_zh": "第12條：公私場所得以其委任之代操作營運機構派任具資格之人員，依本辦法規定向直轄市、縣（市）主管機關申請設置為該公私場所之專責人員或代理人；除派任外，公私場所仍應負本辦法所定管理之責。第19條並課予公私場所監督專責人員常駐、專職及執行業務之義務。",
   "explain_en": "Article 12; see also Article 19.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -264,7 +264,7 @@
   "answer": "a",
   "explain_zh": "第14條：健康風險評估專責人員或依規定設置之代理人，應執行評估公私場所排放有害空氣污染物之健康風險，以及執行空氣污染之健康風險管理及降低健康風險之相關工作。第13條則規定空氣污染防制專責人員之業務，包括擬定防制及改善計畫、監督防制與監測設施運作、緊急應變、許可證申請與申報、檢測作業及採樣設施監督等。",
   "explain_en": "Article 14; compare Article 13.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -291,7 +291,7 @@
   "answer": "a",
   "explain_zh": "第15條第一項、第二項：專責人員取得合格證書後連續三年以上未經依法設置為專責人員者，應於到職之翌日起六個月內依中央主管機關規定完成到職訓練；設置屆滿六個月後十五日內，公私場所應檢具完成到職訓練之證明文件報請直轄市、縣（市）主管機關備查。第20條第四款規定未備查者依本法第69條第1項第1款處罰。",
   "explain_en": "Article 15, Paragraphs 1 and 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -318,7 +318,7 @@
   "answer": "b",
   "explain_zh": "第15條第三項：專責人員未於規定期限內完成到職訓練，或公私場所未於規定期限內完成備查者，直轄市、縣（市）主管機關應廢止公私場所專責人員之設置核定，公私場所並應於十五日內重新申請專責人員核定設置。第22條：重新申請者，原申請設置書自應完成設置之期限屆滿翌日起失其效力。第20條第五款對逾期未重新申請者定有處罰。",
   "explain_en": "Article 15, Paragraph 3; see also Articles 20 and 22.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -345,7 +345,7 @@
   "answer": "c",
   "explain_zh": "第16條第一項：依本辦法規定設置之專責人員，因故未能常駐在廠（場）者，應備有請假紀錄或其他相關證明文件，以備查閱。第19條第二款：公私場所應備有請假紀錄簿（單）供填寫，且該紀錄或證明文件應至少保存三年。第20條第九款：未備置或未保存三年者，依本法第69條第1項第1款處罰。",
   "explain_en": "Article 16, Paragraph 1; see also Articles 19 and 20.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -372,7 +372,7 @@
   "answer": "b",
   "explain_zh": "第16條第二項：專責人員於勞動基準法所定休息、休假規定之日數外，半年內累積超過三十日未到職，或經主管機關查獲一年內三次以上未依第一項備有請假紀錄或證明文件者，不得再繼續設置為該公私場所之專責人員；公私場所應於該事實發生後三十日內重新申請核定設置。第20條第六款對逾期未申請者定有處罰。",
   "explain_en": "Article 16, Paragraph 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -399,7 +399,7 @@
   "answer": "a",
   "explain_zh": "第17條：公私場所不得以任何方式妨礙、禁止專責人員參加中央主管機關指定之在職訓練。第20條第七款：有第17條情形者，依本法第69條第1項第1款規定處罰。第19條並要求公私場所監督專責人員常駐、專職及執行第13條或第14條所定業務。",
   "explain_en": "Article 17; penalties under Article 20, Subparagraph 7.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -426,7 +426,7 @@
   "answer": "a",
   "explain_zh": "第19條：公私場所應令所設置之專責人員或代理人符合下列規定：依第5條監督其於勞動基準法所定工作時間內常駐並專職負責第13條或第14條所定業務；依第16條第一項備有請假紀錄簿（單）供填寫，該紀錄或證明文件至少保存三年；監督其執行第13條或第14條業務，且不得有第18條所定之行為。第20條第八款至第十款對違反者定有處罰。",
   "explain_en": "Article 19; penalties under Article 20.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -453,7 +453,7 @@
   "answer": "b",
   "explain_zh": "第20條第一款：公私場所未依本法第三十四條第一項及第二項規定設置專責單位或專責人員者，依本法第69條第1項第1款規定處罰。其餘選項均屬專責人員本身之違規（B為第21條第1款一年內二次未常駐，C、D分別為第18條第2款、第4款），依第21條規定對專責人員依本法第69條第2項處罰，處罰對象不同。",
   "explain_en": "Article 20, Subparagraph 1; the others fall under Articles 18 and 21.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -480,7 +480,7 @@
   "answer": "c",
   "explain_zh": "第20條第九款：公私場所未依第19條第二款規定備有請假紀錄簿（單），或該請假紀錄簿（單）未保存三年者，依本法第69條第1項第1款處罰。第20條並列有妨礙專責人員參加在職訓練、使專責人員兼任無關工作、未執行監督致專責人員違規等情形。其餘選項為第18條所定行為，依第21條對專責人員處罰。",
   "explain_en": "Article 20, Subparagraph 9; the others are Article 18 conduct penalised under Article 21.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -507,7 +507,7 @@
   "answer": "a",
   "explain_zh": "第21條：專責人員一年內二次以上未依第5條第一項規定常駐公私場所，且未依第16條第一項備有請假紀錄或其他證明文件，或違反第18條各款情形之一者，依本法第69條第2項規定處罰。所稱一年內，指本辦法修正施行後之違規行為，自違規之日起往前回溯至第三百六十五日止。第18條所列包括同時設置於不同場所、使他人虛偽設置、申報不實等。",
   "explain_en": "Article 21; conduct listed in Article 18.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -534,7 +534,7 @@
   "answer": "d",
   "explain_zh": "第22條：依本辦法規定重新申請空氣污染防制專責單位或專責人員核定設置者，其原申請設置書自應完成設置之期限屆滿之翌日起，失其效力。第15條第三項、第16條第二項及第20條第五款、第六款均定有應重新申請核定設置之期限，逾期並有處罰。",
   "explain_en": "Article 22.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -561,7 +561,7 @@
   "answer": "b",
   "explain_zh": "第23條：本辦法自發布日施行。相對而言，室內空氣品質管理法第24條規定自公布後一年施行，室內空氣品質標準第5條則明定自中華民國一百零一年十一月二十三日起施行，立法體例不同。",
   "explain_en": "Article 23.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -588,7 +588,7 @@
   "answer": "c",
   "explain_zh": "第1條：本標準依空氣污染防制法第二十條第二項規定訂定之。空污法第三十四條第四項為空氣污染防制專責單位或專責人員設置及管理辦法之授權依據，第五條第三項則為空氣品質標準之授權依據，三者不同。",
   "explain_en": "Article 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -615,7 +615,7 @@
   "answer": "c",
   "explain_zh": "第2條：本標準適用於新設立或變更、或既存之固定污染源（分別簡稱新污染源、既存污染源），其標準如附表；但特定業別、區域或設施另訂有排放標準者，應優先適用該標準。第4條並就既存污染源與新污染源之認定訂有以八十一年四月十一日、十二日為分界之原則。",
   "explain_en": "Article 2; see also Article 4.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -642,7 +642,7 @@
   "answer": "d",
   "explain_zh": "第3條：周界指公私場所所使用或管理之界線；K 為凱氏絕對溫度，K＝273＋℃；Nm³ 指凱氏溫度二百七十三度及一大氣壓下每立方公尺體積；mg 為毫克（○‧○○一公克）、μg 為微克（○‧○○一毫克）、ppm 為百萬分之一。第5條並規定周界測定應在周界外任何能判定污染物由該場所排放之地點為之。",
   "explain_en": "Article 3; see also Article 5.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -669,7 +669,7 @@
   "answer": "d",
   "explain_zh": "第3條第二十七款：Os 為排氣中含氧百分率之實測值，如超過二十％，則以二十％計算之。第二十一款：u0 為地面十公尺高度之平均風速，本標準以年平均風速三‧五公尺／秒為計算之參考基準。第二十八款另定影像判煙，指依中央主管機關規定方法以數位影像拍攝設備及辨識軟體判定排放口廢氣不透光率。第11條規定濃度校正公式 C＝[（21－On）／（21－Os）]×Cs。",
   "explain_en": "Article 3, Subparagraphs 21, 27 and 28; see also Article 11.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -696,7 +696,7 @@
   "answer": "d",
   "explain_zh": "第6條：周界測定之取樣時間，粒狀污染物為一小時；氣體污染物中硫氧化物取樣時間為一小時，其餘表列之氣體污染物採樣時間以三十分鐘為原則；但測定方法已明訂採樣時間者，依該測定方法為之。第5條規定周界測定地點，無法於周界外選點時得於廠界內三公尺處測定，並得於第一次被告發之次日起三十日內申請周界再認定。",
   "explain_en": "Article 6; see also Article 5.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -723,7 +723,7 @@
   "answer": "d",
   "explain_zh": "第8條：排放標準中列有排放管道排放標準之空氣污染物，新污染源之排放管道高度應依所定公式計算之。第7條則規定未列排放管道排放標準之氣體污染物，依低排放管道（h≦6m）及較高排放管道（h>6m）分別以 q＝a2‧b2 等公式計算。第9條並規定附表列有換算常數值者，應依第七條至第八條分別計算取較高者為其管道高度。",
   "explain_en": "Article 8; see also Articles 7 and 9.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -750,7 +750,7 @@
   "answer": "b",
   "explain_zh": "第9條：新污染源排放之污染物於附表中列有換算常數值者，應依第七條至第八條所定計算方法分別計算排放管道高度之較高者，為其排放管道高度；主管機關於處理對既存污染源之陳情案件時，得命該既存污染源改善其排放濃度或準用前項規定變更其排放管道高度。第10條並規定採多重污染防制措施者，經核准始得建築低於第九條高度之排放管道。",
   "explain_en": "Article 9; see also Article 10.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -777,7 +777,7 @@
   "answer": "a",
   "explain_zh": "第10條：公私場所對污染源採多重污染防制措施者，應檢具書面資料報請當地主管機關核准後，始得建築低於第九條所規定高度之排放管道；並應以實際排放管道高度依第九條或中央主管機關認可之計算公式計算之最高許可排放量為排放標準，且其最高許可排放量不得超過本標準之排放管道排放標準。",
   "explain_en": "Article 10; the rate may not exceed the stack emission standard.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -804,7 +804,7 @@
   "answer": "c",
   "explain_zh": "第12條：本標準相關之檢測方法及品質管制事項，依中央主管機關之規定。第13條並規定設置連續自動監測設施者，粒狀污染物不透光率六分鐘紀錄值高於標準值之累積時間不得超過四小時，氣狀污染物一小時紀錄值高於標準值之累積時間不得超過二小時。",
   "explain_en": "Article 12; see also Article 13.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -831,7 +831,7 @@
   "answer": "c",
   "explain_zh": "第14條：本標準自發布日施行。第2條規定本標準適用於新污染源及既存污染源，特定業別、區域或設施另訂有排放標準者優先適用；第4條以八十一年四月十一日、十二日區分既存污染源與新污染源。",
   "explain_en": "Article 14.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -858,7 +858,7 @@
   "answer": "a",
   "explain_zh": "第1條：本標準依空氣污染防制法第五條第三項規定訂定之。第2條並定義小時平均值、八小時平均值、日平均值、二十四小時值、年平均值及三個月移動平均值等用詞。空污法第二十條第二項則為固定污染源空氣污染物排放標準之授權依據。",
   "explain_en": "Article 1; see also Article 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -885,7 +885,7 @@
   "answer": "c",
   "explain_zh": "第3條就各項空氣污染物分別訂定空氣品質標準值，其平均值型態可由第4條之判定方法對應：懸浮微粒以日平均值及年平均值判定，細懸浮微粒以二十四小時值及年平均值判定，臭氧以小時平均值及八小時平均值判定，二氧化硫及二氧化氮以小時平均值及年平均值判定，一氧化碳以小時平均值及八小時平均值判定。第2條並定義各該平均值之計算方式。",
   "explain_en": "Articles 2 to 4.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -912,7 +912,7 @@
   "answer": "d",
   "explain_zh": "第5條：細懸浮微粒（PM2.5）濃度監測之標準方法，以中央主管機關公告之空氣中細懸浮微粒手動檢測方法為之；其他各項空氣污染物依中央主管機關公告之標準方法監測。中央主管機關得經評估，以自動監測數據經由與手動監測數據轉換計算後替代之。第4條並規定經中央主管機關認可之特殊事件，其當日監測數值不予採計。",
   "explain_en": "Article 5; see also Article 4.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -939,7 +939,7 @@
   "answer": "b",
   "explain_zh": "第6條：本標準自發布日施行。第4條規定空氣污染防制區及總量管制區符合空氣品質標準之判定方法，需以區內一般空氣品質監測站連續三年之統計值與標準值比較，經中央主管機關認可之特殊事件當日數值不予採計。",
   "explain_en": "Article 6.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -966,7 +966,7 @@
   "answer": "d",
   "explain_zh": "第1條：本標準依室內空氣品質管理法第七條第二項規定訂定之。該法第7條第一項要求公告場所室內空氣品質應符合室內空氣品質標準，第二項則授權中央主管機關會商中央目的事業主管機關依公告場所之類別及使用特性訂定標準。該法第10條第三項授權者為檢驗測定管理辦法，第9條第三項授權者為專責人員設置管理辦法。",
   "explain_en": "Article 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -993,7 +993,7 @@
   "answer": "a",
   "explain_zh": "第4條：公告場所應依其場所公告類別所列各項室內空氣污染物項目及濃度測值，經分別判定未超過第2條規定標準者，始認定符合本標準。第2條所列標準值包括二氧化碳八小時值一○○○ppm、一氧化碳八小時值九ppm、甲醛一小時值○‧○八ppm、TVOC 一小時值○‧五六ppm、細菌最高值一五○○CFU/m³、真菌最高值一○○○CFU/m³、PM10 二十四小時值七五μg/m³、PM2.5 二十四小時值三五μg/m³、臭氧八小時值○‧○六ppm。",
   "explain_en": "Article 4; the values are in Article 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -1020,7 +1020,7 @@
   "answer": "a",
   "explain_zh": "第5條：本標準自中華民國一百零一年十一月二十三日起施行。室內空氣品質管理法第24條規定該法自公布後一年施行，該法公布日為一百年十一月二十三日，故本標準之施行日與母法施行日一致。",
   "explain_en": "Article 5.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -1047,7 +1047,7 @@
   "answer": "c",
   "explain_zh": "第1條：本標準依噪音管制法第十五條第三項規定訂定之。噪音管制法第三十六條為噪音管制法施行細則之授權依據，第十一條第一項則授權訂定噪音管制標準，三者授權對象不同。第2條並定義管制區、道路、道路邊地區、航空噪音防制區及時段區分等用詞。",
   "explain_en": "Article 1; Article 36 authorizes the Enforcement Rules.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -1074,7 +1074,7 @@
   "answer": "c",
   "explain_zh": "第5條：非屬各級航空噪音防制區之區域，噴射飛機及螺旋槳飛機起降之航空站，全年航空噪音日夜音量標準為六十；供直昇機起降之航空站為五十二。第2條第九款定義全年航空噪音日夜音量之計算公式；第3條規定機場周圍固定式航空噪音監測站應蒐集全年之航空噪音日夜音量，非固定式者應蒐集連續十日以上。",
   "explain_en": "Article 5; see also Articles 2 and 3.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -1101,7 +1101,7 @@
   "answer": "b",
   "explain_zh": "第6條：本標準自發布日施行。第4條所定道路交通噪音環境音量標準，依管制區類別及緊鄰道路寬度分為四種情形，並區分日間、晚間、夜間三個時段訂定均能音量（Leq）標準值。",
   "explain_en": "Article 6.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -1128,7 +1128,7 @@
   "answer": "a",
   "explain_zh": "第1條：為改善室內空氣品質，以維護國民健康，特制定本法。第3條並定義室內指供公眾使用建築物之密閉或半密閉空間及大眾運輸工具之搭乘空間，室內空氣品質則指室內空氣污染物之濃度、空氣中之溼度及溫度。",
   "explain_en": "Article 1; see also Article 3.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -1155,7 +1155,7 @@
   "answer": "a",
   "explain_zh": "第2條：本法所稱主管機關，在中央為行政院環境保護署；在直轄市為直轄市政府；在縣（市）為縣（市）政府。第4條並規定建築、經濟、衛生、交通等各級目的事業主管機關之權責劃分，且應輔導其主管場所改善室內空氣品質。",
   "explain_en": "Article 2; see also Article 4.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -1182,7 +1182,7 @@
   "answer": "d",
   "explain_zh": "第4條第一項：中央主管機關應整合規劃及推動室內空氣品質管理相關工作，訂定、修正室內空氣品質管理法規與室內空氣品質標準及檢驗測定或監測方法。同條第二項則將建築物通風設施與裝修建材管理劃歸建築主管機關、國家標準劃歸經濟主管機關、傳染性病原與菸害防制劃歸衛生主管機關、大眾運輸工具空調通風劃歸交通主管機關。",
   "explain_en": "Article 4, Paragraph 1; Paragraph 2 divides duties among other authorities.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -1209,7 +1209,7 @@
   "answer": "b",
   "explain_zh": "第4條第二項：建築主管機關負責建築物通風設施、建築物裝修管理及裝修建材管理；經濟主管機關負責裝修材料與商品逸散空氣污染物之國家標準及空氣清淨機（器）國家標準；衛生主管機關負責傳染性病原之防護與管理、醫療機構之空調標準及菸害防制；交通主管機關負責大眾運輸工具之空調設備通風量及通風設施維護管理。同條第三項並規定各級目的事業主管機關應輔導其主管場所改善室內空氣品質。",
   "explain_en": "Article 4, Paragraph 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -1236,7 +1236,7 @@
   "answer": "c",
   "explain_zh": "第5條：主管機關及各級目的事業主管機關得委託專業機構，辦理有關室內空氣品質調查、檢驗、教育、宣導、輔導、訓練及研究有關事宜。裁罰、現場檢查與許可證核發等公權力事項則分別依第12條、第11條及罰則各條由主管機關行使，不在委託辦理之列。",
   "explain_en": "Article 5.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -1263,7 +1263,7 @@
   "answer": "a",
   "explain_zh": "第7條：公告場所之室內空氣品質應符合室內空氣品質標準，但因不可歸責於公告場所所有人、管理人或使用人之事由致未符合者，不在此限；該標準由中央主管機關會商中央目的事業主管機關依公告場所之類別及其使用特性定之。第15條並規定不符標準經命限期改善屆期未改善者，處五萬元以上二十五萬元以下罰鍰。",
   "explain_en": "Article 7; see also Article 15.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -1290,7 +1290,7 @@
   "answer": "b",
   "explain_zh": "第9條：公告場所所有人、管理人或使用人應置室內空氣品質維護管理專責人員，依第8條之室內空氣品質維護管理計畫執行管理維護；專責人員應符合中央主管機關規定之資格，並經訓練取得合格證書；其設置、資格、訓練、合格證書之取得、撤銷、廢止等事項之辦法由中央主管機關定之。第17條規定違反第8條、第9條第一項或第二項經命限期改善屆期未改善者，處一萬元以上五萬元以下罰鍰。",
   "explain_en": "Article 9; penalties under Article 17.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -1317,7 +1317,7 @@
   "answer": "c",
   "explain_zh": "第8條：公告場所所有人、管理人或使用人應訂定室內空氣品質維護管理計畫據以執行，室內使用變更致影響室內空氣品質時，該計畫內容應立即檢討修正。第9條第一項：應置室內空氣品質維護管理專責人員，依該計畫執行管理維護。違反者依第17條經命限期改善屆期未改善處一萬元以上五萬元以下罰鍰，並再命限期改善。",
   "explain_en": "Articles 8 and 9; penalties under Article 17.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -1344,7 +1344,7 @@
   "answer": "d",
   "explain_zh": "第10條第一項：公告場所所有人、管理人或使用人應委託檢驗測定機構定期實施室內空氣品質檢驗測定，並應定期公布檢驗測定結果及作成紀錄。第11條第一項規定檢驗測定機構應取得中央主管機關核發許可證後始得辦理。第18條對違反第10條第一項、第二項或相關管理規定者，經命限期改善屆期未改善處五千元以上二萬五千元以下罰鍰。",
   "explain_en": "Article 10, Paragraph 1; see also Articles 11 and 18.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -1371,7 +1371,7 @@
   "answer": "a",
   "explain_zh": "第10條第二項：經中央主管機關指定之公告場所應設置自動監測設施，以連續監測室內空氣品質，其自動監測最新結果應即時公布於該場所內或入口明顯處，並應作成紀錄。同條第三項授權中央主管機關就檢驗測定項目、頻率、採樣數與採樣分布方式、監測項目、監測設施規範、結果公布方式、紀錄保存年限及保存方式等訂定辦法。第13條並對紀錄虛偽記載者處十萬元以上五十萬元以下罰鍰。",
   "explain_en": "Article 10, Paragraphs 2 and 3; see also Article 13.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -1398,7 +1398,7 @@
   "answer": "d",
   "explain_zh": "第11條：檢驗測定機構應取得中央主管機關核發許可證後，始得辦理本法規定之檢驗測定；其應具備之條件、設施、人員資格、許可證申請審查與有效期限、核換發、撤銷、廢止、停業、復業、查核、評鑑程序等辦法由中央主管機關定之；本法各項室內空氣污染物檢驗測定方法及品質管制事項，由中央主管機關公告之。第16條並對違反者處五萬元以上二十五萬元以下罰鍰，出具不實文書者得廢止其許可證。",
   "explain_en": "Article 11; penalties under Article 16.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -1425,7 +1425,7 @@
   "answer": "b",
   "explain_zh": "第12條：主管機關得派員出示有關執行職務之證明文件或顯示足資辨別之標誌，執行公告場所之現場檢查、室內空氣品質檢驗測定或查核檢（監）測紀錄，並得命提供有關資料，公告場所所有人、管理人或使用人不得規避、妨礙或拒絕。第14條並規定規避、妨礙或拒絕者，處十萬元以上五十萬元以下罰鍰，並得按次處罰。",
   "explain_en": "Article 12; penalties under Article 14.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -1452,7 +1452,7 @@
   "answer": "a",
   "explain_zh": "第13條：公告場所所有人、管理人或使用人依本法第十條規定應作成之紀錄有虛偽記載者，處新臺幣十萬元以上五十萬元以下罰鍰。第14條對規避、妨礙或拒絕檢查者亦處十萬元以上五十萬元以下罰鍰並得按次處罰；第18條對違反第10條檢測申報管理規定者則處五千元以上二萬五千元以下罰鍰。",
   "explain_en": "Article 13.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -1479,7 +1479,7 @@
   "answer": "a",
   "explain_zh": "第14條：規避、妨礙或拒絕依第12條規定之檢查、檢驗測定、查核或命提供有關資料者，處公告場所所有人、管理人或使用人新臺幣十萬元以上五十萬元以下罰鍰，並得按次處罰。與第13條紀錄虛偽記載之罰鍰額度相同，惟第13條未定按次處罰。第19條並規定罰鍰額度應依違反室內空氣品質標準程度及特性裁處。",
   "explain_en": "Article 14; compare Article 13.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -1506,7 +1506,7 @@
   "answer": "d",
   "explain_zh": "第16條：檢驗測定機構違反第11條第一項或依第二項所定辦法中有關檢驗測定人員資格、查核、評鑑或檢驗測定業務執行之管理規定者，處新臺幣五萬元以上二十五萬元以下罰鍰，並命其限期改善，屆期未改善者按次處罰；檢驗測定機構出具不實之文書者，主管機關得廢止其許可證。第11條第一項規定機構應先取得中央主管機關核發之許可證。",
   "explain_en": "Article 16; see also Article 11.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -1533,7 +1533,7 @@
   "answer": "d",
   "explain_zh": "第17條：公告場所所有人、管理人或使用人違反第8條、第9條第一項或第二項規定者，經命其限期改善，屆期未改善者，處新臺幣一萬元以上五萬元以下罰鍰，並再命其限期改善；屆期仍未改善者，按次處罰。第8條為訂定並執行室內空氣品質維護管理計畫之義務，第9條為設置合格專責人員之義務。",
   "explain_en": "Article 17; duties under Articles 8 and 9.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -1560,7 +1560,7 @@
   "answer": "d",
   "explain_zh": "第18條：公告場所所有人、管理人或使用人違反第10條第一項、第二項或依第三項所定辦法中有關檢驗測定項目、頻率、採樣數與採樣分布方式、監測項目、頻率、監測設施規範、結果公布方式、紀錄保存年限、保存方式之管理規定者，經命限期改善屆期未改善，處新臺幣五千元以上二萬五千元以下罰鍰，並再命限期改善；屆期仍未改善者按次處罰。第13條對紀錄虛偽記載者則處十萬元以上五十萬元以下罰鍰。",
   "explain_en": "Article 18; compare Article 13.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -1587,7 +1587,7 @@
   "answer": "d",
   "explain_zh": "第19條：依本法處罰鍰者，其額度應依違反室內空氣品質標準程度及特性裁處；該裁罰準則由中央主管機關定之。相關子法即違反室內空氣品質管理法罰鍰額度裁罰準則。第20條並規定依本法命限期改善者，改善期間以九十日為限。",
   "explain_en": "Article 19; see also Article 20.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -1614,7 +1614,7 @@
   "answer": "c",
   "explain_zh": "第20條第一項：依本法命其限期改善者，改善期間以九十日為限；因天災或其他不可抗力事由致未能於改善期限內完成改善者，應於其事由消滅後十五日內，以書面敘明事由檢具相關資料向主管機關申請延長改善期限，主管機關應依實際狀況核定改善期限。第22條並規定未於限期改善期限屆至前檢具資料報請查驗者，視為未改善。",
   "explain_en": "Article 20, Paragraph 1; see also Article 22.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -1641,7 +1641,7 @@
   "answer": "a",
   "explain_zh": "第20條第二項：公告場所所有人、管理人或使用人未能於主管機關所定限期內改善者，得於接獲限期改善之日起三十日內提出具體改善計畫向主管機關申請延長改善期限，主管機關應依實際狀況核定，最長不得超過六個月；未切實依其所提之具體改善計畫執行，經查證屬實者，主管機關得立即終止其改善期限，並視為屆期未改善。",
   "explain_en": "Article 20, Paragraph 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -1668,7 +1668,7 @@
   "answer": "b",
   "explain_zh": "第21條：第15條第一項所稱情節重大，指公告場所不符合第7條第一項所定室內空氣品質標準之日起一年內經二次處罰仍繼續違反本法規定，或公告場所室內空氣品質嚴重惡化而所有人、管理人或使用人未立即採取緊急應變措施致有嚴重危害公眾健康之虞者。情節重大者依第15條第一項得限制或禁止使用公告場所，必要時並得命其停止營業。",
   "explain_en": "Article 21; consequences under Article 15.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -1695,7 +1695,7 @@
   "answer": "a",
   "explain_zh": "第22條：未於限期改善之期限屆至前，檢具資料、符合室內空氣品質標準或其他符合本法規定之證明文件，向主管機關報請查驗者，視為未改善。第15條、第17條、第18條均以屆期未改善作為處罰要件，並定有按次處罰之規定。第20條第二項亦規定未切實依具體改善計畫執行者，視為屆期未改善。",
   "explain_en": "Article 22; see also Articles 15, 17, 18 and 20.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -1722,7 +1722,7 @@
   "answer": "a",
   "explain_zh": "第23條：本法施行細則，由中央主管機關定之。第2條規定中央主管機關為行政院環境保護署。第7條第二項之室內空氣品質標準、第9條第三項之專責人員設置管理辦法、第10條第三項之檢驗測定管理辦法及第19條第二項之裁罰準則，亦均由中央主管機關訂定。",
   "explain_en": "Article 23; see also Article 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -1749,7 +1749,7 @@
   "answer": "d",
   "explain_zh": "第24條：本法自公布後一年施行。本法修正日期為民國一百年十一月二十三日，故自一百零一年十一月二十三日施行；室內空氣品質標準第5條亦明定自一百零一年十一月二十三日起施行，二者一致。",
   "explain_en": "Article 24.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -1776,7 +1776,7 @@
   "answer": "a",
   "explain_zh": "第1條：本細則依噪音管制法（以下簡稱本法）第三十六條規定訂定之。噪音管制法第十五條第三項為環境音量標準之授權依據，第十一條第一項為機動車輛、民用航空器噪音管制標準之授權依據，第九條第二項則為噪音管制標準之授權依據，授權對象均不相同。",
   "explain_en": "Article 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -1803,7 +1803,7 @@
   "answer": "c",
   "explain_zh": "第2條：本法第三條之管制標準，以最高之容許音量為準，音量之單位為分貝（dB）；本法所稱機動車輛，指在道路上不依軌道或電力架設，而以原動機行駛之車輛。環境音量標準第2條第六款亦規定音量單位為分貝（dB（A）），A 指噪音計上 A 權位置之測定值。",
   "explain_en": "Article 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -1830,7 +1830,7 @@
   "answer": "b",
   "explain_zh": "第4條：直轄市、縣（市）主管機關依本法第八條所為之公告，應報請中央主管機關核定。第3條並規定直轄市、縣（市）主管機關應依噪音管制區劃定作業準則於所轄四類管制區內指定環境及交通噪音監測點，其數量及位置應報請中央主管機關備查，變更時亦同。",
   "explain_en": "Article 4; compare Article 3.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -1857,7 +1857,7 @@
   "answer": "c",
   "explain_zh": "第5條：違反依本法第十一條第一項所定標準者，或違反本法第十九條第三項規定規避、妨礙或拒絕檢查或鑑定者，由違規行為所在地直轄市、縣（市）主管機關裁處。第13條並規定各級主管機關指派進入公私場所檢查或鑑定噪音狀況之人員，自一百年七月一日起應經中央主管機關或其委託機構訓練合格並領有證書。",
   "explain_en": "Article 5; see also Article 13.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -1884,7 +1884,7 @@
   "answer": "a",
   "explain_zh": "第6條第一項：本法第十四條所稱快速道路，指高速公路及快速公路交通管制規則規定之快速公路，及市區道路及附屬工程設計標準規定之快速道路。第二項則規定本法第十五條所稱其他交通所產生之噪音，範圍與快速道路不同。環境音量標準第2條第二款亦以本法第十四條第一項快速道路以外之道路界定其適用範圍。",
   "explain_en": "Article 6, Paragraph 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -1911,7 +1911,7 @@
   "answer": "b",
   "explain_zh": "第6條第二項：本法第十五條所稱其他交通所產生之噪音，指下列所產生之交通噪音：前項快速道路以外之公路法規定之省道、縣道；市區道路及附屬工程設計標準規定之主要道路、次要道路；其他經中央主管機關指定之交通系統或道路。第7條並規定本法第十四條第一項陸上運輸系統噪音改善計畫及第十五條第一項其他交通噪音改善計畫應包括之事項。",
   "explain_en": "Article 6, Paragraph 2; see also Article 7.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -1938,7 +1938,7 @@
   "answer": "c",
   "explain_zh": "第8條第一項：噪音改善計畫經直轄市、縣（市）主管機關核定無法於其營運或管理範圍內改善交通噪音者，營運或管理機關（構）應自核定之日起一百八十日內，依本法第十四條第一項或第十五條第一項訂定陸上運輸系統噪音補助計畫或其他交通噪音補助計畫，送交直轄市、縣（市）主管機關核定。第10條就航空噪音補助計畫亦定有相同之一百八十日期限。",
   "explain_en": "Article 8, Paragraph 1; compare Article 10.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -1965,7 +1965,7 @@
   "answer": "a",
   "explain_zh": "第8條第二項：補助計畫所補助地區之建築物應符合下列情形之一，並以補助一次為限：中華民國九十九年一月二十一日訂定發布之陸上運輸系統噪音管制標準及九十九年一月二十一日修正發布之環境音量標準施行日前之既有合法建築物；或前款情形以外且為陸上運輸系統及其他交通之新建計畫核定前之既有合法建築物。同條第三項並列明補助計畫應包括之事項。",
   "explain_en": "Article 8, Paragraph 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -1992,7 +1992,7 @@
   "answer": "c",
   "explain_zh": "第9條第二項：航空噪音改善計畫所採取之噪音防制措施，應包括減少噪音源及其音量、降低機場噪音、調整操作程序及管制試車時段、應有環保專職人員、協商有關機關擬訂航空站周圍土地之使用對策，及其他應採之防制措施。同條第一項並列明改善計畫應包括執行機關、噪音發生源狀況、改善前量測結果（含頻譜分析）、防制措施內容、功能評估、執行期程、可行性分析等事項。",
   "explain_en": "Article 9, Paragraphs 1 and 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -2019,7 +2019,7 @@
   "answer": "a",
   "explain_zh": "第10條：航空噪音改善計畫經核定無法於營運或管理範圍內改善者，營運或管理機關（構）應自核定之日起一百八十日內訂定航空噪音補助計畫送核定；補助計畫應包括補助學校、公共設施、住戶設置防音設施，所補助相關噪音防制設施內容說明並記載其位置、規模及功能等設計圖說，補助設施之改善功能評估，計畫執行期程及其他經主管機關指定之文件。核定程序依第7條第二項辦理。",
   "explain_en": "Article 10; approval follows Article 7, Paragraph 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -2046,7 +2046,7 @@
   "answer": "b",
   "explain_zh": "第11條第一項：本法第十五條第二項軍用塔台所轄軍民合用機場航空噪音改善計畫及第十七條專供軍用航空器起降航空站之航空噪音改善計畫，在不影響國防、飛航安全或涉及國家機密或其他法律、法規命令規定應秘密或限制、禁止公開之情形下，應包括執行機關、噪音發生源狀況、改善前量測結果、防制措施、功能評估、執行期程等事項。第二項所定措施包括減少噪音源及其音量、降低機場噪音、補助學校圖書館醫療機構公共設施住戶設置防音設施、訂定環保航線、管制試車或訓練飛行時段、建置環保陳情專線及應有環保專職人員等。",
   "explain_en": "Article 11, Paragraphs 1 and 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -2073,7 +2073,7 @@
   "answer": "c",
   "explain_zh": "第13條：本法第十九條第一項所定各級主管機關指派進入公、私場所檢查或鑑定噪音狀況之人員，自中華民國一百年七月一日起，應經中央主管機關或其委託之機構訓練合格並領有證書。第5條並規定違反本法第十九條第三項規避、妨礙或拒絕檢查或鑑定者，由違規行為所在地直轄市、縣（市）主管機關裁處。",
   "explain_en": "Article 13; see also Article 5.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -2100,7 +2100,7 @@
   "answer": "a",
   "explain_zh": "第15條：經直轄市、縣（市）主管機關命停工、停業或停止使用或經命改善而自報停工、停業或停止使用者，應於恢復使用或復工前，檢具改善完成報告書及相關文件，向該管直轄市、縣（市）主管機關申請復工；主管機關對於該申請經查驗合格後，始得准予恢復使用或復工。第16條並列明改善完成報告書應記載之事項。",
   "explain_en": "Article 15; see also Article 16.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -2127,7 +2127,7 @@
   "answer": "c",
   "explain_zh": "第16條：改善完成報告書應記載噪音發生源狀況說明及其構造、位置（含陳情戶位置或量測點），改善前噪音量測結果及其成因分析、影響程度，所採取相關噪音防制措施內容說明並記載噪音防制設施之位置、規模及功能等設計圖說，採取噪音防制措施之改善功效，完成安裝之噪音防制設施相片資料，及其他經主管機關指定之文件。第15條規定應檢具該報告書申請復工並經查驗合格。",
   "explain_en": "Article 16; filed under Article 15.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -2154,7 +2154,7 @@
   "answer": "b",
   "explain_zh": "第17條：本細則自發布日施行。環境音量標準第6條亦規定自發布日施行；相對而言，室內空氣品質管理法第24條規定自公布後一年施行，室內空氣品質標準第5條則明定特定施行日期。",
   "explain_en": "Article 17.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -2181,7 +2181,7 @@
   "answer": "a",
   "explain_zh": "第1條：本細則依水污染防治法（以下簡稱本法）第七十四條規定訂定之。水污法第二十一條第二項則為廢（污）水處理專責單位或人員設置及管理辦法之授權依據，兩者不同。第2條並規定本法第二條第八款所稱作業環境，指事業使用之範圍。",
   "explain_en": "Article 1; Article 21(2) authorizes the dedicated personnel regulations.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -2208,7 +2208,7 @@
   "answer": "d",
   "explain_zh": "第2條：本法第二條第八款所稱作業環境，指事業使用之範圍。第6條並定義建築物污水處理設施，指處理建築物內人類活動所產生之人體排泄物或其他生活污水之設施。第4條之2則定義家戶為本法第十一條第一項收費對象以外之污水排放者。",
   "explain_en": "Article 2; compare Articles 6 and 4-2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -2235,7 +2235,7 @@
   "answer": "c",
   "explain_zh": "第3條：中央主管機關主管事項包括全國性水污染防治政策、方案與計畫之訂定及督導，全國性法規之訂定審核釋示，本法第十一條第一項水污染防治費之徵收、審核、使用規劃及管理，全國性研究發展、人員訓練管理、監測檢驗、調查統計、宣導、國際合作，以及水污染物及水質水量之檢驗測定機構許可及管理等。第4條則規定直轄市、縣（市）主管機關之主管事項。",
   "explain_en": "Article 3; compare Article 4.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -2262,7 +2262,7 @@
   "answer": "b",
   "explain_zh": "第4條：直轄市、縣（市）主管機關主管事項包括轄內水污染防治計畫之規劃及執行，水污染防治法規之執行與轄內自治法規之制（訂）定、審核、釋示及執行，本法第十一條第一項水污染防治費之使用規劃、管理及執行，轄內研究發展、人員訓練管理、監測檢驗、調查統計及宣導等。徵收審核與檢驗測定機構許可屬第3條中央權責；家戶水污染防治費則屬第4條之1所定地方政府事項。",
   "explain_en": "Article 4; compare Articles 3 and 4-1.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -2289,7 +2289,7 @@
   "answer": "d",
   "explain_zh": "第4條之1：本法第十一條第二項、第七項、第九項及第四十四條第二項、第三項所定地方政府之主管事項，包括轄內家戶水污染防治費自治法規之制（訂）定、審核、釋示及執行，該費之徵收、審核、清查收費對象、使用規劃、管理、執行、催繳及處分，及其他有關轄內家戶水污染防治費事項。第4條之2並定義家戶為本法第十一條第一項收費對象以外之污水排放者。",
   "explain_en": "Article 4-1; see also Article 4-2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -2316,7 +2316,7 @@
   "answer": "a",
   "explain_zh": "第4條之2：本法第十一條第二項、第三項第二款第七目及第四十四條第二項所稱家戶，指本法第十一條第一項收費對象以外之污水排放者。第4條之1並規定地方政府就轄內家戶水污染防治費之自治法規制訂、徵收審核、清查收費對象、使用規劃管理及催繳處分等主管事項。",
   "explain_en": "Article 4-2; see also Article 4-1.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -2343,7 +2343,7 @@
   "answer": "b",
   "explain_zh": "第5條：本法第五條所稱利用水體以承受或傳運放流水者不得超過水體之涵容能力，指利用水體以承受或傳運放流水之所有污染源，其排放之總量造成該水體水質之變動，不得超過依本法第六條所訂之水體分類及水質標準。第19條並就本法第三十六條第一項所稱各該管制標準之範圍另有界定。",
   "explain_en": "Article 5; see also Articles 6 and 19.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -2370,7 +2370,7 @@
   "answer": "d",
   "explain_zh": "第6條：本法第七條第一項、第八條、第二十五條、第二十六條第一項、第六十二條、第六十九條第二項、第三項所稱建築物污水處理設施，指處理建築物內人類活動所產生之人體排泄物或其他生活污水之設施。第2條並定義作業環境指事業使用之範圍。",
   "explain_en": "Article 6; compare Article 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -2397,7 +2397,7 @@
   "answer": "a",
   "explain_zh": "第7條第一款：設計階段應查核廢（污）水水質水量調查、推估之確實性及合理性，廢（污）水處理設計是否需經小型實驗、是否已取得必需之可靠設計參數，廢（污）水及污泥處理系統設計之功能及計算是否具備足夠功能及設備，其他法定必要設施設計是否符合規定等。第二款則規範現場查核及業者執行功能測試階段應查核之事項。",
   "explain_en": "Article 7, Subparagraph 1; Subparagraph 2 covers on-site and performance testing.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -2424,7 +2424,7 @@
   "answer": "a",
   "explain_zh": "第10條第一項：應依水污染防治措施計畫核准文件、排放地面水體許可證、簡易排放許可文件、貯留許可文件、稀釋許可文件及土壤處理許可證等登記之操作參數範圍內執行；沉澱設施之進流端與出流端中心距離處所累積污泥高度應低於水深二分之一；放流水導電度不得低於前一處理設施處理後廢（污）水導電度之百分之八十。第二項並就高低導電度二股以上分別處理共同排放且設有各自採樣口者，得分別認定。",
   "explain_en": "Article 10.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -2451,7 +2451,7 @@
   "answer": "c",
   "explain_zh": "第10條之1：本法所稱稀釋，不包括燃煤發電廠採海水排煙脫硫去除硫氧化物之方法。第10條並就廢（污）水（前）處理設施應維持正常操作定有放流水導電度不得低於前一處理設施處理後廢（污）水導電度百分之八十等規定，即在防止以稀釋方式規避管制。",
   "explain_en": "Article 10-1; see also Article 10.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -2478,7 +2478,7 @@
   "answer": "b",
   "explain_zh": "第12條：各級主管機關依本法第二十六條第一項規定所為查證工作，於特定區域內得委任、委託或委辦機關（構）或法人、團體辦理。第11條規定為查證處理設施操作功能，應於檢查十四日前通知事業於檢查當日將生產提高至經常最大水污染產生量之狀態；第13條則規定進入軍事機關查證應會同當地憲兵或軍事機關環保人員。",
   "explain_en": "Article 12; see also Articles 11 and 13.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -2505,7 +2505,7 @@
   "answer": "a",
   "explain_zh": "第13條：各級主管機關依本法第二十六條第二項規定，派員攜帶證明文件，進入軍事機關進行查證工作時，應會同當地憲兵或軍事機關環保人員前往相關場所或設施；為前項檢查或鑑定時，受檢之軍事機關應提供必要之協助。第12條並規定查證工作於特定區域內得委任、委託或委辦辦理。",
   "explain_en": "Article 13; see also Article 12.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -2532,7 +2532,7 @@
   "answer": "b",
   "explain_zh": "第13條之1第一項：本法第二十八條第一項所稱輸送或貯存設備，指廢（污）水收集、貯存、處理或排放之單元、桶槽、泵浦、閥門、管線及溝渠，以及輸送或貯存原料、中間產物、產品、副產品、油品、藥劑、廢棄物之設備。第二項：所稱之疏漏，包含溢流、滲漏或洩漏。第13條之2並列舉本法第三十條第一項第二款所稱其他污染物之種類。",
   "explain_en": "Article 13-1; see also Article 13-2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -2559,7 +2559,7 @@
   "answer": "d",
   "explain_zh": "第13條之2：本法第三十條第一項第二款所稱其他污染物之種類如下：事業運作過程所需原物料及製程產出之中間產物、產品、副產品、下腳料、廢棄物；油品、藥（品）劑、農藥、化學肥料、調味劑、清潔劑；淤泥；廚餘、動物屍體、排泄物；其他經主管機關公告之物質。第13條之1並定義輸送或貯存設備及疏漏之範圍。",
   "explain_en": "Article 13-2; see also Article 13-1.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -2586,7 +2586,7 @@
   "answer": "c",
   "explain_zh": "第16條第一項：本法第三十六條第二項所稱注入地下水體，指利用鑿井、注入管線或加壓設施等設備，將事業廢（污）水灌注至地下水體者。第二項：事業或污水下水道系統經直轄市、縣（市）主管機關依土壤及地下水污染整治法規定審查同意，將土壤、地下水污染整治所產生之水注入地下水體之行為，非屬本法第三十二條第一項及第三十六條第二項所稱之注入地下水體。第17條則界定排放於土壤之定義及除外情形。",
   "explain_en": "Article 16; see also Article 17.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -2613,7 +2613,7 @@
   "answer": "a",
   "explain_zh": "第17條：本法第三十六條第一項所稱排放於土壤，指以管線、溝渠或桶裝、槽車等其他非管線方式，將事業廢（污）水排入、逸散、流布於土壤者；但不包含經農業主管機關依農業事業廢棄物再利用管理辦法核准之再利用運作管理、經核准之畜牧業沼液沼渣作為農地肥分使用計畫、經直轄市縣（市）主管機關核准之土壤處理許可、排放至設有不透水布等隔離設施之非直接接觸土壤，及因管線設備破損或故障導致非常態性短時間疏漏排放至土壤等情形。",
   "explain_en": "Article 17; see also Article 16.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -2640,7 +2640,7 @@
   "answer": "d",
   "explain_zh": "第18條：本法第三十六條第一項所稱排放於地面水體，指下列情形之一：大量排放污染物經主管機關認定嚴重影響附近水體水質；廢（污）水（前）處理設施未在最大產能或服務規模下使處理後廢水符合規定、未能處理可預見異常作業之水量負荷；事業廢（污）水處理設施發生故障未依本法第五十九條規定通報主管機關；事業未遵行主管機關命停止作為、停止貯存、停工、停業或歇業而繼續排放廢（污）水者。第8條所定繞流排放則屬本法第十八條之一之範疇。",
   "explain_en": "Article 18; compare Article 8.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -2667,7 +2667,7 @@
   "answer": "a",
   "explain_zh": "第19條：本法第三十六條第一項所稱本法所定各該管制標準，針對排放於地面水體管制標準，指事業之放流水標準、海洋放流管線放流水標準及特定業別適用之放流水標準；不包含針對自來水水質水量保護區、飲用水水源水質保護區、總量管制區等環境特殊或需特予保護區域之水體增訂或加嚴之放流水標準。第15條並規定故意排放有害健康物質超出各該管制標準而有犯罪嫌疑者應向檢察官告發。",
   "explain_en": "Article 19; see also Article 15.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -2694,7 +2694,7 @@
   "answer": "b",
   "explain_zh": "第20條：各級主管機關依本法所為限期改善、補正之通知書，應與裁處書分別作成。第21條並規定主管機關執行本法第六十三條規定之復工查驗及評鑑應依所定方式辦理，第22條則界定本法第七十三條第一項第三款所稱一年內之計算方式。",
   "explain_en": "Article 20; see also Articles 21 and 22.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -2721,7 +2721,7 @@
   "answer": "d",
   "explain_zh": "第21條：主管機關執行本法第六十三條規定之復工查驗及評鑑，應以事業復工時所申報之實際經常最大廢（污）水產生量測試其水污染防治措施或污泥處理設施；以事業實際經常最大廢（污）水產生量測試其水污染防治措施及污泥處理設施之功能；評估事業定期申報之水質水量資料與主管機關檢驗之水質水量資料及其日平均限值、週平均限值或月平均限值，並比較現有設施功能；及其他經主管機關認定之方式。",
   "explain_en": "Article 21.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -2748,7 +2748,7 @@
   "answer": "d",
   "explain_zh": "第22條：本法第七十三條第一項第三款所稱一年內，指自違反之日起，往前回溯至第三百六十五日止。廢（污）水處理專責單位或人員設置及管理辦法第25條第二項亦採相同計算方式，指自違規之日起往前回溯至第三百六十五日止。",
   "explain_en": "Article 22.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -2775,7 +2775,7 @@
   "answer": "c",
   "explain_zh": "第23條：本法第六十六條之三第一項所稱之依本法裁處之部分罰鍰，指經主管機關依本法裁處後實收罰鍰金額之百分之二十。第20條並規定限期改善、補正之通知書應與裁處書分別作成；第22條界定一年內之回溯計算方式。",
   "explain_en": "Article 23; see also Articles 20 and 22.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -2802,7 +2802,7 @@
   "answer": "c",
   "explain_zh": "第24條：本細則自發布日施行。第1條並規定本細則依水污染防治法第七十四條規定訂定之。廢（污）水處理專責單位或人員設置及管理辦法第28條亦規定自發布日施行。",
   "explain_en": "Article 24.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -2829,7 +2829,7 @@
   "answer": "d",
   "explain_zh": "第1條：本辦法依水污染防治法（以下簡稱本法）第二十一條第二項規定訂定之。水污法第七十四條則為水污染防治法施行細則之授權依據。第2條並規定廢（污）水處理專責人員分為甲級及乙級，應由經中央主管機關訓練合格並取得合格證書者擔任。",
   "explain_en": "Article 1; Article 74 authorizes the Enforcement Rules.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -2856,7 +2856,7 @@
   "answer": "d",
   "explain_zh": "第2條：本辦法所稱廢（污）水處理專責人員分為甲級及乙級；本法第二十一條第一項規定事業或污水下水道系統應設置之廢（污）水處理專責人員，應由經中央主管機關訓練合格並取得合格證書者擔任。第4條並規定應設置專責單位者，員額至少應有專責人員三人，包括二名以上甲級人員並由其中一名甲級人員擔任專責單位主管。",
   "explain_en": "Article 2; see also Article 4.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -2883,7 +2883,7 @@
   "answer": "a",
   "explain_zh": "第3條第一項：事業或污水下水道系統應依附表一所列許可核准廢（污）水產生量規模，或原廢（污）水未經處理前所含附表二物質超過放流水標準，或違規情事之條件，設置廢（污）水處理專責單位或專責人員。第二項：依下水道法設置之新開發社區專用下水道，其服務戶數在五百戶以下者，免設置廢（污）水處理專責人員。第14條並規定附表調整致需提升級別或增加員額者，應於一年內完成核定設置。",
   "explain_en": "Article 3; see also Article 14.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -2910,7 +2910,7 @@
   "answer": "a",
   "explain_zh": "第5條：事業或污水下水道系統依第3條第一項規定設置廢（污）水處理專責單位，在同一處所內，得與其依法設置之空氣污染防制專責單位合併設置；且廢（污）水處理專責人員如具備空氣污染防制專責人員之資格，且設置級別均符合法規規定，其人員得互兼之。第6條另規定具備其他類環境保護專責及技術人員資格者，於同一處所內得同時兼任。第17條第二款則禁止同一時間設置於不同事業。",
   "explain_en": "Article 5; see also Articles 6 and 17.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -2937,7 +2937,7 @@
   "answer": "b",
   "explain_zh": "第6條：事業或污水下水道系統依第3條第一項附表一規定設置之廢（污）水處理專責人員，如具備其他類環境保護專責及技術人員之資格，且設置級別均符合法規規定，在同一處所內，得同時兼任其他類環境保護專責及技術人員。第15條第二項並規定應專職者不得兼任環保法規以外其他法規所定專責（任）人員或從事與污染防治無關之工作。",
   "explain_en": "Article 6; see also Article 15, Paragraph 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -2964,7 +2964,7 @@
   "answer": "a",
   "explain_zh": "第7條：事業或污水下水道系統員工人數五十人以下者，負責人得兼任廢（污）水處理專責人員；所稱負責人指水污染防治措施計畫或水污染防治許可證（文件）所登記之負責人或經負責人授權之人。本辦法施行前員工人數超過五十人且負責人已兼任者，應於本辦法施行後六個月內重新申請核定設置。第9條並規定負責人兼任者應至少設置二名代理人。",
   "explain_en": "Article 7; see also Article 9.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -2991,7 +2991,7 @@
   "answer": "a",
   "explain_zh": "第8條第一項：二以上事業共同設置廢（污）水處理設施共同處理廢（污）水，經直轄市、縣（市）主管機關核准者，得共同設置專責單位或人員，其級別及員額依下列之一認定：廢（污）水產生量以共同設置事業許可核准量合併計算後依附表一認定；各該事業之一之原廢（污）水未經處理前所含附表二物質超過放流水標準情形；各該事業之一有違反本法經認定情節重大處以停工或停業者於申請復工（業）時。第二項：認定不一致時，以設置級別最高者認定之。",
   "explain_en": "Article 8.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -3018,7 +3018,7 @@
   "answer": "a",
   "explain_zh": "第10條第一項：應檢具設置申請書並附上廢（污）水處理專責人員之合格證書及其同意查詢勞健保資料同意書，與代理人具參加同一級別以上專責人員訓練資格之學（經）歷證明及其同意查詢勞健保資料同意書，向直轄市、縣（市）主管機關申請核定設置。第二項：除經該機關同意得以書面方式申請者外，自中央主管機關指定之日起，應採網路傳輸方式辦理。",
   "explain_en": "Article 10; online filing applies from the designated date.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -3045,7 +3045,7 @@
   "answer": "b",
   "explain_zh": "第11條：事業或污水下水道系統得以其委任之代操作營運機構派任具資格之人員，依第10條規定向直轄市、縣（市）主管機關申請核定設置為該事業或污水下水道系統之廢（污）水處理專責人員或代理人；除派任外，事業或污水下水道系統仍應負本辦法所定管理之責。第18條並課予監督常駐、專職及執行第22條業務之義務。",
   "explain_en": "Article 11; see also Article 18.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -3072,7 +3072,7 @@
   "answer": "c",
   "explain_zh": "第12條第一項、第二項：專責人員於取得合格證書後連續三年以上未經核准設置者，應於到職之翌日起六個月內依環境保護專責及技術人員訓練管理辦法規定完成到職訓練；設置屆滿六個月後十五日內，事業或污水下水道系統應檢具完成到職訓練之證明文件向直轄市、縣（市）主管機關報備。第三項規定未完成者應廢止核定設置並於十五日內重新申請；第四項並禁止再聘僱取得證書後連續三年以上未經核准設置者。",
   "explain_en": "Article 12, Paragraphs 1 and 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -3099,7 +3099,7 @@
   "answer": "a",
   "explain_zh": "第14條：中央主管機關有調整或變更第3條第一項所列附表一或附表二之情形，致事業或污水下水道系統需提升廢（污）水處理專責人員設置級別或增加設置員額時，應於調整或變更後一年內向直轄市、縣（市）主管機關完成核定設置廢（污）水處理專責單位或人員。第24條第六款並規定未依第14條於一年內申請核定設置者，依本法第四十八條第三項處罰。",
   "explain_en": "Article 14; penalties under Article 24, Subparagraph 6.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -3126,7 +3126,7 @@
   "answer": "c",
   "explain_zh": "第16條：依本辦法設置之專責人員因故未能常駐在場者，應備有請假紀錄或其他相關證明文件以備查閱；專責人員於勞動基準法所定休息、休假規定之日數外，半年內累積超過三十日未到職，或經主管機關查獲一年內三次以上未符合前項規定者，不得再繼續設置為該事業或污水下水道系統之專責人員，事業並應於事實發生後三十日內重新申請核定設置。第24條第九款對未備請假紀錄簿或未保存三年者定有處罰。",
   "explain_en": "Article 16; see also Article 24.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -3153,7 +3153,7 @@
   "answer": "c",
   "explain_zh": "第17條：依本辦法設置之專責人員或代理人不得有下列行為：明知並有意或預見其發生而其發生並不違背其本意之情形下違反本法第十八條之一第一項或第二項規定；同一時間設置於不同之事業或污水下水道系統（依法共同設置者除外）；使他人利用其名義虛偽設置；明知為不實之事項而申報不實或於業務上作成之文書為虛偽記載。第25條並就違反各該款者依本法第四十八條第四項處罰。",
   "explain_en": "Article 17; penalties under Article 25.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -3180,7 +3180,7 @@
   "answer": "a",
   "explain_zh": "第18條：事業或污水下水道系統應令所設置之專責人員或代理人符合下列規定：依第15條監督其於勞動基準法所定工作時間內常駐，並專職負責第22條所定業務；依第16條備有請假紀錄簿（單）供其未能常駐在場時填寫，該紀錄簿（單）應至少保存三年；監督其執行第22條所定業務，且不得有第17條所定之行為。第24條第八款至第十款對違反各該款者定有處罰。",
   "explain_en": "Article 18; penalties under Article 24.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -3207,7 +3207,7 @@
   "answer": "a",
   "explain_zh": "第19條：專責人員離職、異動時，事業或污水下水道系統應由設置之代理人代理，並於事實發生後十五日內以書面報請直轄市、縣（市）主管機關備查；代理期間不得超過三個月，期滿前十五日內應完成同一級別以上合格專責人員之核定設置；專責人員應於離職或異動日起三十日內以書面報備。所稱異動，指調離原廠址或仍於原廠址惟未擔任專責人員職務。",
   "explain_en": "Article 19.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -3234,7 +3234,7 @@
   "answer": "c",
   "explain_zh": "第20條：專責人員非因離職、異動而因故未能執行業務時，事業或污水下水道系統應由設置之代理人代理；代理期間連續達十五日以上者，應於事實發生後十五日內以書面報請直轄市、縣（市）主管機關備查。代理期間不得超過三個月，但報經該主管機關核准者可延長至六個月；代理期滿前十五日內應完成同一級別以上之合格專責人員核定設置。",
   "explain_en": "Article 20; compare Article 19.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -3261,7 +3261,7 @@
   "answer": "b",
   "explain_zh": "第21條：本辦法施行前已核定設置專責單位或人員者，應於本辦法施行日起六個月內完成代理人之設置。於該期間內尚未完成者，發生第20條第一項及第19條第一項情形時，應即指定具參加同一級別以上專責人員訓練資格之人員，或熟悉廢（污）水處理操作管理之人員代理；並應於事實發生後十五日內以書面報請備查，三十日內完成代理人之設置。第9條並規定代理人之設置員額及更動申請期限。",
   "explain_en": "Article 21; see also Article 9.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -3288,7 +3288,7 @@
   "answer": "d",
   "explain_zh": "第23條：事業或污水下水道系統不得以任何方式妨礙、禁止廢（污）水處理專責人員參加中央主管機關指定之在職訓練。第24條第十二款規定有第23條情形妨礙、禁止專責人員參加在職訓練者，依本法第四十八條第三項處罰。第12條並規定連續三年以上未經核准設置者之到職訓練義務。",
   "explain_en": "Article 23; penalties under Article 24, Subparagraph 12.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -3315,7 +3315,7 @@
   "answer": "b",
   "explain_zh": "第24條：事業或污水下水道系統未依第3條第一項設置專責單位或專責人員、負責人兼任而未依第7條第四項重新申請、未依第9條第四項於代理人更動十五日內申請、未依第12條第二項報備到職訓練、未依第12條第三項十五日內重新申請、未依第14條於一年內完成核定設置、未依第16條第二項三十日內重新申請、未依第18條各款監督、未依第19條至第21條執行代理報備、有第23條妨礙在職訓練情形者，依本法第四十八條第三項處罰。其餘選項屬第17條、第25條所定專責人員本身之責任。",
   "explain_en": "Article 24; the others fall under Articles 17 and 25.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -3342,7 +3342,7 @@
   "answer": "c",
   "explain_zh": "第25條：專責人員一年內二次以上未依第15條第一項常駐且未依第16條第一項備有請假紀錄、明知或預見而不違背本意違反本法第十八條之一第一項或第二項、違反第17條第二款或第三款、申報不實或業務文書虛偽記載、一年內二次以上未依第22條第二款第三目填具檢測申報並簽章確認、一年內二次以上未依第22條第三款第四目或第五目執行操作管理業務、違反第22條第五款第一目要求採樣人員違反採樣方法者，依本法第四十八條第四項處罰。所稱一年內，指本辦法施行後之違規行為，自違規之日起往前回溯至第三百六十五日止。",
   "explain_en": "Article 25.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -3369,7 +3369,7 @@
   "answer": "d",
   "explain_zh": "第26條：依本辦法規定應重新申請廢（污）水處理專責單位或人員核定設置者，其原申請核定設置書自應完成設置之期限屆滿之翌日起，失其效力。第12條第三項、第16條第二項、第7條第四項及第14條均定有應重新申請核定設置之情形與期限，逾期依第24條處罰。",
   "explain_en": "Article 26.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -3396,7 +3396,7 @@
   "answer": "d",
   "explain_zh": "第27條：自本辦法施行之日起，環境保護專責單位或人員設置及管理辦法有關廢（污）水處理專責單位或人員之設置及管理規定，不再適用之。第28條並規定本辦法自發布日施行。第12條第一項所定到職訓練仍依環境保護專責及技術人員訓練管理辦法之規定辦理。",
   "explain_en": "Article 27; see also Articles 12 and 28.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -3423,7 +3423,7 @@
   "answer": "d",
   "explain_zh": "第28條：本辦法自發布日施行。第21條並規定本辦法施行前已核定設置專責單位或人員者，應於施行日起六個月內完成代理人之設置；第27條則排除環境保護專責單位或人員設置及管理辦法相關規定之適用。",
   "explain_en": "Article 28.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -3450,7 +3450,7 @@
   "answer": "d",
   "explain_zh": "第1條：本辦法依水污染防治法第二十七條第二項及第三項規定訂定之。母法第27條第1項規定事業或污水下水道系統排放廢（污）水，有嚴重危害人體健康、農漁業生產或飲用水之虞時，負責人應立即採取緊急應變措施並停止排放。本辦法即據此界定承受水體範圍（第2條）、危害情形（第3條）及應變措施與執行方法（第4條、第5條）。",
   "explain_en": "Article 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -3477,7 +3477,7 @@
   "answer": "b",
   "explain_zh": "第2條：本辦法適用之承受水體範圍為自來水水源、飲用水水源、灌溉渠道用水、漁業養殖用水四類。第3條規定於前條承受水體排放廢（污）水而有各款情形之一者，即屬嚴重危害人體健康、農漁業生產或飲用水之虞，須依第4條、第5條採取應變措施。",
   "explain_en": "Article 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -3504,7 +3504,7 @@
   "answer": "c",
   "explain_zh": "第3條第1款：處理設施故障、操作異常或意外事故發生且有下列情形之一者屬之：（一）排放廢（污）水含有害健康物質；（二）廢（污）水未經處理逕行排放，致影響水體正常用途；（三）排放廢（污）水超過事業或污水下水道系統廢（污）水處理或貯留能力，致影響水體正常用途。此時負責人應依第4條立即停止排放並限制污染範圍。",
   "explain_en": "Article 3, Subparagraph 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -3531,7 +3531,7 @@
   "answer": "b",
   "explain_zh": "第3條第2款：化學物質運作場所發生災變，因救災產生大量廢（污）水，未經處理而直接排放者，屬嚴重危害情形。對應第5條第12款規定，此類場所應設置截流、收集、暫時貯存設施，並妥善處理或委託處理。",
   "explain_en": "Article 3, Subparagraph 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -3558,7 +3558,7 @@
   "answer": "d",
   "explain_zh": "第6條：污水下水道系統屬新開發社區專用污水下水道系統，未組成管理委員會且未推選管理負責人時，以區分所有權人互推之召集人或申請直轄市、縣（市）主管機關指定之臨時召集人為管理負責人，負責執行緊急應變。該管理負責人即須依第4條、第5條採取停止排放、通知用水單位等措施。",
   "explain_en": "Article 6.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -3585,7 +3585,7 @@
   "answer": "d",
   "explain_zh": "第7條：事業或污水下水道系統經限期執行緊急應變，屆期不為執行者，由所在地主管機關與目的事業主管機關協助執行。第5條第9款另規定無法於主管機關命採取必要措施期間內排除污染行為時，應設置管線將未妥善處理之廢（污）水排放於第2條承受水體區域範圍外。",
   "explain_en": "Article 7.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -3612,7 +3612,7 @@
   "answer": "c",
   "explain_zh": "第8條：本辦法自發布日施行。本辦法修正日期為民國94年8月26日，依水污染防治法第27條第2項及第3項授權訂定，內容包含承受水體範圍、嚴重危害情形之判定、應變措施內容與執行方法共八條。",
   "explain_en": "Article 8.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -3639,7 +3639,7 @@
   "answer": "b",
   "explain_zh": "第1條：為確保飲用水水源水質，提昇公眾飲用水品質，維護國民健康，特制定本條例；本條例未規定者，適用其他有關法令之規定。第7條即明定自來水有關之設備管理依自來水法辦理，第28條規定包裝飲用水之容器包裝衛生依食品衛生管理法。",
   "explain_en": "Article 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -3666,7 +3666,7 @@
   "answer": "d",
   "explain_zh": "第2條：本條例所稱主管機關，在中央為行政院環境保護署，在直轄市為直轄市政府，在縣（市）為縣（市）政府。第26條並規定本條例所定之處罰，在中央由行政院環境保護署為之，在直轄市、縣（市）分別由各該政府為之。",
   "explain_en": "Article 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -3693,7 +3693,7 @@
   "answer": "a",
   "explain_zh": "第3條第1項：飲用水指供人飲用之水，種類為自來水（依自來水法以水管及其他設施導引供應合於衛生之公共給水）、社區自設公共給水設備供應之水、經連續供水固定設備處理後供應之水，及其他經中央主管機關指定之水。第4條並就飲用水設備另為定義。",
   "explain_en": "Article 3, Paragraph 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -3720,7 +3720,7 @@
   "answer": "d",
   "explain_zh": "第3條第2項：飲用水之水源為地面水體（存在於河川、湖潭、水庫、池塘或其他體系內全部或部分之水）、地下水體（存在於地下水層之水）及其他經中央主管機關指定之水體。第6條規定該等水體須符合飲用水水源水質標準，始得作為飲用水之水源。",
   "explain_en": "Article 3, Paragraph 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -3747,7 +3747,7 @@
   "answer": "b",
   "explain_zh": "第4條：飲用水設備指依自來水法規定之設備、社區自設公共給水設備、公私場所供公眾飲用之連續供水固定設備及其他經中央主管機關指定公告之設備。第10條規定經中央主管機關指定公告之飲用水設備應符合國家標準；無國家標準者，由中央主管機關公告其標準。",
   "explain_en": "Article 4.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -3774,7 +3774,7 @@
   "answer": "d",
   "explain_zh": "第6條第1項：第3條第2項各款所定水體符合飲用水水源水質標準者，始得作為飲用水之水源；但提出飲用水水源水質或淨水處理改善計畫，向中央主管機關申請核准者，不在此限。第2項規定水源水質標準由中央主管機關定之。違反者依第21條處新臺幣6萬元以上60萬元以下罰鍰並禁止作為水源。",
   "explain_en": "Article 6.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -3801,7 +3801,7 @@
   "answer": "a",
   "explain_zh": "第7條：自來水有關之設備管理，依自來水法之規定。此係呼應第1條所定本條例未規定者適用其他有關法令之原則；第4條亦將依自來水法規定之設備納入飲用水設備之定義範圍。",
   "explain_en": "Article 7.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -3828,7 +3828,7 @@
   "answer": "a",
   "explain_zh": "第8條：經中央主管機關公告之公私場所，設有供公眾飲用之連續供水固定設備者，應向直轄市、縣（市）主管機關申請登記，始得使用；申請登記、變更登記、有效期限與展延等辦法由中央主管機關定之。違反者依第22條處新臺幣1萬元以上10萬元以下罰鍰並通知限期補正。",
   "explain_en": "Article 8.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -3855,7 +3855,7 @@
   "answer": "b",
   "explain_zh": "第9條：公私場所設置供公眾飲用之連續供水固定設備者，應依規定維護，並作成維護紀錄，紀錄應予揭示，並保存供主管機關查驗；其維護方法、頻率、紀錄製作方式、揭示、保存期限等辦法由中央主管機關定之。違反者依第23條第1款處新臺幣1萬元以上10萬元以下罰鍰並限期改善。",
   "explain_en": "Article 9.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -3882,7 +3882,7 @@
   "answer": "a",
   "explain_zh": "第10條：經中央主管機關指定公告之飲用水設備，應符合國家標準；無國家標準者，由中央主管機關公告其標準。第4條界定飲用水設備之範圍，包括自來水法所定設備、社區自設公共給水設備及供公眾飲用之連續供水固定設備。",
   "explain_en": "Article 10.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -3909,7 +3909,7 @@
   "answer": "c",
   "explain_zh": "第11條：飲用水水質應符合飲用水水質標準；該標準由中央主管機關定之。飲用水水質違反本條規定者，依第24條處新臺幣6萬元以上60萬元以下罰鍰並通知限期改善，屆期未完成改善者按日連續處罰，情節重大者禁止供飲用。",
   "explain_en": "Article 11.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -3936,7 +3936,7 @@
   "answer": "b",
   "explain_zh": "第12條第1項：公私場所設置供公眾飲用之連續供水固定設備者，應依規定採樣、檢驗水質狀況，並作成紀錄揭示、備查；水質檢測項目、頻率、紀錄製作方式、揭示、保存期限、設備抽驗方式等辦法由中央主管機關定之。違反者依第23條第2款處新臺幣1萬元以上10萬元以下罰鍰。",
   "explain_en": "Article 12, Paragraph 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -3963,7 +3963,7 @@
   "answer": "c",
   "explain_zh": "第12條第2項：飲用水水質狀況之採樣及檢驗測定，由取得中央主管機關核發許可證之環境檢驗測定機構辦理。第12條之1第1項並規定檢驗測定機構應取得中央主管機關核給之許可證後，始得辦理本法規定之檢驗測定。",
   "explain_en": "Article 12, Paragraph 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -3990,7 +3990,7 @@
   "answer": "d",
   "explain_zh": "第12條之1第1項、第2項：檢驗測定機構應取得中央主管機關核給之許可證後，始得辦理本法規定之檢驗測定；其應具備條件、設施、許可證申請、審查程序、核（換）發、撤銷、廢止、停業、復業、查核、評鑑程序等管理辦法，由中央主管機關定之。違反該辦法者依第24條之1處罰。",
   "explain_en": "Article 12-1.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -4017,7 +4017,7 @@
   "answer": "c",
   "explain_zh": "第13條：飲用水水質處理所使用之藥劑，以經中央主管機關公告者為限；非屬公告之藥劑，供水單位得向中央主管機關申請公告為飲用水水質處理藥劑，其申請資格、應檢附書件、程序、核准條件等準則由中央主管機關定之。違反本條者依第18條處一年以下有期徒刑、拘役或科或併科新臺幣6萬元以下罰金。",
   "explain_en": "Article 13.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -4044,7 +4044,7 @@
   "answer": "a",
   "explain_zh": "第14條：各級主管機關應選定地點，定期採樣檢驗、整理分析，並依據檢驗結果採取適當措施；經證明有危害人體健康之虞者，應即公告禁止飲用。第2項規定採樣地點、檢驗結果及採取之措施，直轄市、縣（市）主管機關應向中央主管機關報告。",
   "explain_en": "Article 14.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -4071,7 +4071,7 @@
   "answer": "d",
   "explain_zh": "第14條之1：因天災或其他不可抗力事由造成飲用水水源水質惡化時，自來水、簡易自來水或社區自設公共給水之供水單位應於事實發生後，立即採取應變措施及加強飲用水水質檢驗，並應透過報紙、電視、電台、沿街廣播、張貼公告或其他方式，迅即通知民眾水質狀況及因應措施。",
   "explain_en": "Article 14-1.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -4098,7 +4098,7 @@
   "answer": "d",
   "explain_zh": "第15條：各級主管機關得派員並提示有關執行職務上證明文件或顯示足資辨別之標誌，進入公私場所檢查飲用水水源水質、飲用水水質、連續供水固定設備、飲用水水質處理藥劑或採取有關樣品、索取有關資料；公私場所之所有人、使用人或管理人不得規避、妨礙或拒絕。違反者依第25條處新臺幣3萬元以上30萬元以下罰鍰。",
   "explain_en": "Article 15.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -4125,7 +4125,7 @@
   "answer": "d",
   "explain_zh": "第15條之1：依第21條或第24條規定經禁止作為飲用水水源或供飲用者，該取水或供水單位於原因消失後，應由非其所屬且取得中央主管機關核發許可證之環境檢驗測定機構，對於水質不合格項目辦理採樣，並以同一水樣送檢後，檢具符合標準之檢驗測定報告，報處分機關核准後，始得恢復作為飲用水水源或供飲用。",
   "explain_en": "Article 15-1.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -4152,7 +4152,7 @@
   "answer": "d",
   "explain_zh": "第18條：違反第13條規定者，處一年以下有期徒刑、拘役或科或併科新臺幣6萬元以下罰金。第13條規定飲用水水質處理所使用之藥劑以經中央主管機關公告者為限。第19條並定有兩罰規定，法人或自然人亦科以各該條之罰金。",
   "explain_en": "Article 18.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -4179,7 +4179,7 @@
   "answer": "a",
   "explain_zh": "第19條：法人之代表人、法人或自然人之代理人、受雇人或其他從業人員，因執行業務犯第16條或第18條規定之罪者，除依各該條規定處罰其行為人外，對該法人或自然人亦科以各該條之罰金。第16條之罪為經通知禁止而不遵行者，第18條之罪為違反藥劑公告限制者。",
   "explain_en": "Article 19.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -4206,7 +4206,7 @@
   "answer": "c",
   "explain_zh": "第20條：違反第5條第1項規定者，處新臺幣10萬元以上100萬元以下罰鍰，並通知禁止該行為。第5條第2項所列污染行為包括非法砍伐林木或開墾土地、工業區開發或污染性工廠設立、傾倒棄置垃圾灰渣污泥等十二款。經通知禁止而不遵行者，另依第16條處一年以下有期徒刑。",
   "explain_en": "Article 20.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -4233,7 +4233,7 @@
   "answer": "c",
   "explain_zh": "第21條：違反第6條第1項規定者，處新臺幣6萬元以上60萬元以下罰鍰，並通知禁止作為飲用水水源。經依本條通知禁止而不遵行者，依第16條第1項第2款處一年以下有期徒刑、拘役，得併科新臺幣6萬元以下罰金；欲恢復作為水源者應依第15條之1辦理。",
   "explain_en": "Article 21.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -4260,7 +4260,7 @@
   "answer": "d",
   "explain_zh": "第22條：違反第8條規定者，處新臺幣1萬元以上10萬元以下罰鍰，並通知限期補正，屆期仍未補正者，按次處罰。第8條規定經公告之公私場所設有供公眾飲用之連續供水固定設備者，應向直轄市、縣（市）主管機關申請登記始得使用。另依第24條之2，屆期未報請查驗者視為未完成改善。",
   "explain_en": "Article 22.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -4287,7 +4287,7 @@
   "answer": "d",
   "explain_zh": "第24條：飲用水水質違反第11條第1項規定者，處新臺幣6萬元以上60萬元以下罰鍰，並通知限期改善，屆期仍未完成改善者按日連續處罰；情節重大者，禁止供飲用。經禁止供飲用者，須依第15條之1程序報經處分機關核准後始得恢復；按日連續處罰之起算日等依第24條之3所定辦法。",
   "explain_en": "Article 24.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -4314,7 +4314,7 @@
   "answer": "b",
   "explain_zh": "第24條之1：違反第12條之1第2項所定辦法者，處新臺幣5萬元以上50萬元以下罰鍰，並通知限期改善；屆期仍未完成改善者，按日連續處罰；情節重大者，得命其停業，必要時並得廢止其許可證。第12條之1第2項授權中央主管機關訂定檢驗測定機構之條件、設施、許可證核發及查核評鑑等管理辦法。",
   "explain_en": "Article 24-1.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -4341,7 +4341,7 @@
   "answer": "a",
   "explain_zh": "第24條之2第1項：公私場所未於依第22條、第23條、第24條或第24條之1所為通知限期改善、申報或補正期限屆滿前，檢具符合飲用水水質標準或其他規定之證明文件，向主管機關報請查驗者，視為未完成改善。第2項規定該證明文件如為經中央主管機關核給許可證之環境檢驗測定機構所出具之檢驗報告，主管機關得免水質採樣及檢驗。",
   "explain_en": "Article 24-2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -4368,7 +4368,7 @@
   "answer": "d",
   "explain_zh": "第24條之3：本條例所稱按日連續處罰，其起算日、暫停日、停止日、改善完成認定查驗及其他應遵行之事項，由中央主管機關定之。按日連續處罰之適用場合見第24條（水質違反標準屆期未改善）及第24條之1（檢驗測定機構違反管理辦法屆期未改善）。",
   "explain_en": "Article 24-3.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -4395,7 +4395,7 @@
   "answer": "c",
   "explain_zh": "第25條：規避、妨礙或拒絕依第15條規定之查驗或提供樣品、資料，或提供不實之樣品、資料者，處新臺幣3萬元以上30萬元以下罰鍰，並得按次處罰及強制執行查驗。第15條規定主管機關得派員提示證明文件進入公私場所檢查，所有人、使用人或管理人不得規避、妨礙或拒絕。",
   "explain_en": "Article 25.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -4422,7 +4422,7 @@
   "answer": "c",
   "explain_zh": "第25條之1：依本條例通知限期改善者，其改善措施及工程計畫，因天災或其他不可抗力事由致不能於期限內完成改善者，應於其原因消滅後繼續進行改善，並於原因消滅後十日內以書面敘明理由，檢具有關證明文件，向原核定機關申請重新核定改善期限。未依第24條之2規定報請查驗者，仍視為未完成改善。",
   "explain_en": "Article 25-1.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -4449,7 +4449,7 @@
   "answer": "b",
   "explain_zh": "第26條：本條例所定之處罰，除本條例另有規定外，在中央由行政院環境保護署為之，在直轄市由直轄市政府為之，在縣（市）由縣（市）政府為之。此與第2條所定主管機關層級相呼應；第8條之登記則由直轄市、縣（市）主管機關受理。",
   "explain_en": "Article 26.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -4476,7 +4476,7 @@
   "answer": "c",
   "explain_zh": "第28條：供販賣之包裝或盛裝之飲用水，其水源之水質管理依本條例之規定；其容器、包裝與製造過程之衛生、標示、廣告及水質之查驗，依食品衛生管理法之規定。故水源端仍須符合第6條之飲用水水源水質標準。",
   "explain_en": "Article 28.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -4503,7 +4503,7 @@
   "answer": "a",
   "explain_zh": "第29條：依第8條規定公告之公私場所，其於公告前已設置連續供水固定設備者，應自公告之日起六個月內，依第8條規定申請登記。逾期未申請登記即使用者，依第22條處新臺幣1萬元以上10萬元以下罰鍰並通知限期補正。",
   "explain_en": "Article 29.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -4530,7 +4530,7 @@
   "answer": "d",
   "explain_zh": "第30條：本條例施行細則，由中央主管機關定之。依第2條，中央主管機關為行政院環境保護署。本條例另授權中央主管機關訂定飲用水水源水質標準（第6條）、飲用水水質標準（第11條）及檢驗測定機構管理辦法（第12條之1）等。",
   "explain_en": "Article 30.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -4557,7 +4557,7 @@
   "answer": "b",
   "explain_zh": "第31條：本條例自公布日施行。本條例修正日期為民國95年1月27日，共六章三十一條，包括總則、水源管理、設備管理、水質管理、罰則及附則；施行細則依第30條由中央主管機關定之。",
   "explain_en": "Article 31.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -4584,7 +4584,7 @@
   "answer": "d",
   "explain_zh": "第1條：本細則依廢棄物清理法第七十六條規定訂定之。本細則就中央、直轄市縣（市）主管機關及執行機關之權責分工（第2條至第4條）、自行清除處理之定義（第11條）、清理計畫書變更範圍（第12條）等作補充規定。",
   "explain_en": "Article 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -4611,7 +4611,7 @@
   "answer": "b",
   "explain_zh": "第2條第6款、第10款：廢棄物檢驗測定機構之許可及管理、有害事業廢棄物輸入輸出過境及轉口之同意，均屬中央主管機關主管事項；另包括全國性清理政策方案計畫之策劃訂定督導、資源回收管理基金之管理及運作等。第3條所列則為直轄市或縣（市）主管機關之主管事項。",
   "explain_en": "Article 2, Subparagraphs 6 and 10.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -4638,7 +4638,7 @@
   "answer": "a",
   "explain_zh": "第3條第6款、第12款：直轄市或縣（市）主管機關主管公民營廢棄物清除處理機構許可文件之核發與督導查核管理、應回收廢棄物回收處理業之登記及管理；另含廢棄物輸入輸出過境轉口許可文件之核發（第11款）。第2條所列則屬中央主管機關，第4條所列屬執行機關。",
   "explain_en": "Article 3, Subparagraphs 6, 11 and 12.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -4665,7 +4665,7 @@
   "answer": "b",
   "explain_zh": "第4條第1款第9目：直轄市政府環境保護局執行占用道路廢棄車輛之查報、認定、張貼、移置及公告；第4款第8目：鄉（鎮、市）公所執行占用道路廢棄車輛之查報、認定及張貼，不含移置及公告。另鄉（鎮、市）公所受託事項限於清除，縣環保局則受託處理一般事業廢棄物。",
   "explain_en": "Article 4, Subparagraphs 1(9) and 4(8).",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -4692,7 +4692,7 @@
   "answer": "b",
   "explain_zh": "第5條：縣環境保護局依本法第5條第5項規定完成一般廢棄物工作調整前，鄉（鎮、市）應自行設置一般廢棄物處理設施，並將處理方法及地點報縣環境保護局核准後，自行處理所轄之一般廢棄物；但經縣環境保護局指定處理場所者，鄉（鎮、市）公所應備置適當之清除車輛，清除至指定場所處理。",
   "explain_en": "Article 5.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -4719,7 +4719,7 @@
   "answer": "d",
   "explain_zh": "第6條：縣環境保護局依本法第5條第5項規定辦理一般廢棄物工作調整，應於中華民國九十二年七月十四日前，檢具工作調整計畫報請中央主管機關備查；計畫內容包括調整之時程、人員機具設施之調整、財務計畫及其他事項。調整完成前之處理方式依第5條辦理。",
   "explain_en": "Article 6.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -4746,7 +4746,7 @@
   "answer": "d",
   "explain_zh": "第7條第1項：執行機關應公告一般廢棄物與依本法第5條第6項所定一般廢棄物回收項目之清除時間、作業及回收方式，並於每月十五日前將前一個月之一般廢棄物清除、處理及回收量，報送各該上級主管機關彙總層報中央主管機關備查。第2項：受託清除處理一般事業廢棄物時亦同。",
   "explain_en": "Article 7.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -4773,7 +4773,7 @@
   "answer": "a",
   "explain_zh": "第8條：執行機關依前條規定收集之廢棄物，經分類後之廢塑膠、廢鋁、廢鐵、廢玻璃、廢紙等物質，得交付回收業、處理業或依中央主管機關指定之方式進行回收、再利用。第7條並要求執行機關公告回收項目之清除時間、作業及回收方式並按月申報數量。",
   "explain_en": "Article 8.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -4800,7 +4800,7 @@
   "answer": "d",
   "explain_zh": "第9條第1項：廢棄物產生源之證明文件為依本法第31條第1項第2款申報廢棄物情形所列印之遞送聯單、依事業廢棄物貯存清除處理方法及設施標準所填具有害事業廢棄物之遞送聯單，或其他主管機關所定或認定之格式文件。第2項：處理地點證明文件為產生源與處理者所簽訂之合約文件影本；處理者為執行機關者，得為其出具之同意處理文件影本。",
   "explain_en": "Article 9.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -4827,7 +4827,7 @@
   "answer": "d",
   "explain_zh": "第10條：一般廢棄物清除處理基金收入來源，為下列收入中屬本法第26條第1項、第2項規定之成本：一、向指定清除地區內家戶及其他產生源所徵收一般廢棄物清除、處理費用之收入；二、代清除、處理一般事業廢棄物及其他收入。",
   "explain_en": "Article 10.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -4854,7 +4854,7 @@
   "answer": "a",
   "explain_zh": "第13條：本法第38條第1項但書所定之產業用料需求，得由用料需求之事業或公會，檢具產生源、主要成分及有害成分說明，國內使用現況（含相關事業、料源、用途及使用量），過去三年進口量之統計，未來三年需求量之評估，替代用料及其料源之評估，污染防治設施，及其他經指定之文件或資料，分送中央主管機關及中央目的事業主管機關會商後公告之。",
   "explain_en": "Article 13.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -4881,7 +4881,7 @@
   "answer": "b",
   "explain_zh": "第14條第1項：本法第39條所定中央目的事業主管機關，應依事業廢棄物產生源所屬業別或屬性認定之；所定再利用用途目的事業主管機關，應依事業廢棄物再利用機構所屬業別或屬性認定之。第2項：目的事業主管機關之認定產生爭議時，由中央主管機關報請行政院指定之。",
   "explain_en": "Article 14.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -4908,7 +4908,7 @@
   "answer": "d",
   "explain_zh": "第15條：事業經執行機關或主管機關（處分機關）依本法規定命其停工或停業者，應於復工、復業前，檢具完成改善證明文件、事業廢棄物清理計畫書或經處分機關指定之文件向處分機關申請；經處分機關審查核准後，始得復工、復業。第16條並就涉及製程改變或處理設施新置變更者定有試車程序。",
   "explain_en": "Article 15.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -4935,7 +4935,7 @@
   "answer": "c",
   "explain_zh": "第16條第1項：試車期間以三十日為限，但必要時得申請延長之，展延期限不得超過六十日。第2項：經核定試車之事業，應於試車期限屆滿前檢具試車報告及指定文件申請復工、復業。第3項：處分機關除審查要求補正資料之期間外，應於三十日內審查完成試車報告，併第15條規定審查。",
   "explain_en": "Article 16.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -4962,7 +4962,7 @@
   "answer": "a",
   "explain_zh": "第17條：本法第46條第4款所稱廢棄物清除、處理許可文件，指依公民營廢棄物清除處理機構許可管理辦法核發之清除許可證、處理許可證。本法第46條第4款係未依廢棄物清除處理許可文件內容貯存、清除、處理廢棄物之刑責規定。",
   "explain_en": "Article 17.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -4989,7 +4989,7 @@
   "answer": "b",
   "explain_zh": "第18條：處分機關依本法所作成之處分書，其涉及跨區違法者，除將處分書送達受處分人外，應將處分書副知當地主管機關及違法行為者所在地主管機關。第19條並規定告發單、處分書、移送書等書表格式除另有規定外由中央主管機關定之。",
   "explain_en": "Article 18.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -5016,7 +5016,7 @@
   "answer": "d",
   "explain_zh": "第19條：本法及本細則所定之告發單、處分書及移送書或其他書表之格式，除另有規定者外，由中央主管機關定之。第18條並規定跨區違法之處分書應副知當地主管機關及違法行為者所在地主管機關。",
   "explain_en": "Article 19.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -5043,7 +5043,7 @@
   "answer": "c",
   "explain_zh": "第20條：本細則自發布日施行。本細則修正日期為民國108年11月6日，依本法第76條授權訂定，內容涵蓋各級主管機關與執行機關權責、自行清除處理定義、餘裕處理能量計算、清理計畫書變更範圍及復工復業試車程序等共二十條。",
   "explain_en": "Article 20.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -5070,7 +5070,7 @@
   "answer": "c",
   "explain_zh": "第1條：本標準依廢棄物清理法第二條第三項規定訂定之。第2條規定有害事業廢棄物依序以列表之有害事業廢棄物、有害特性認定之有害事業廢棄物、其他經中央主管機關公告者三種方式判定。",
   "explain_en": "Article 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -5097,7 +5097,7 @@
   "answer": "c",
   "explain_zh": "第3條：列表之有害事業廢棄物種類為製程有害事業廢棄物（附表一所列製程產生之廢棄物）、混合五金廢料（依貯存清除處理及輸出入等清理階段危害特性判定，認定方式如附表二）、生物醫療廢棄物（醫療機構、生物安全等級第二級以上實驗室等產生附表三所列之廢棄物）。第4條所列者則為有害特性認定之有害事業廢棄物。",
   "explain_en": "Article 3.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -5124,7 +5124,7 @@
   "answer": "c",
   "explain_zh": "第5條第1款：第3條第1款附表一所列之有害事業廢棄物，事業得檢具公司登記證明文件或商業登記證明文件、有害事業廢棄物表列排除申請書、廢棄物採樣計畫書、廢棄物特性組成及成分分析之檢測報告及其他經指定文件，向所在地主管機關申請表列排除核准後，得改列為一般事業廢棄物；表列排除判定程序與排除標準值由中央主管機關公告之。",
   "explain_en": "Article 5, Subparagraph 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -5151,7 +5151,7 @@
   "answer": "c",
   "explain_zh": "第5條第2款、第3款：第3條及第4條之有害事業廢棄物依事業廢棄物貯存清除處理方法及設施標準之中間處理方式處理，其有害性質消失者，得認定為一般事業廢棄物；第4條第6款第1目之廢液不具製程、毒性、溶出毒性、戴奧辛、多氯聯苯、腐蝕性、反應性等性質且採焚化或熱處理者亦同，但處理前之貯存、清除仍應符合有害事業廢棄物相關規定。",
   "explain_en": "Article 5, Subparagraphs 2 and 3.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -5178,7 +5178,7 @@
   "answer": "b",
   "explain_zh": "第6條：本標準修正前已審查核准之事業廢棄物清理計畫書或依本法取得之清除、處理、清理或再利用相關許可，其審查核准或許可內容於本標準修正施行後應辦理變更或異動者，應於本標準發布施行後一年內完成變更或異動；因本標準修正而須增設之相關設施，於本標準發布後一年內應完成設置。",
   "explain_en": "Article 6.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -5205,7 +5205,7 @@
   "answer": "b",
   "explain_zh": "第7條：本標準自發布日施行。本標準修正日期為民國109年2月21日，共七條，包括判定順序（第2條）、列表之有害事業廢棄物（第3條）、有害特性認定之八類廢棄物（第4條）、改列一般事業廢棄物之要件（第5條）及過渡期間規定（第6條）。",
   "explain_en": "Article 7.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -5232,7 +5232,7 @@
   "answer": "a",
   "explain_zh": "第1條：本辦法依廢棄物清理法第三十一條第二項及第三項規定訂定之。本法第31條第1項規定指定公告事業應檢具事業廢棄物清理計畫書送審查核准後始得營運，並於變更時事先申請變更；第2條並界定本辦法適用對象為指定公告事業。",
   "explain_en": "Article 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -5259,7 +5259,7 @@
   "answer": "c",
   "explain_zh": "第2條第1項、第2項：本辦法適用對象為依本法第31條第1項指定公告一定規模之事業（指定公告事業）；所稱審核機關指依本法規定審查核准事業廢棄物清理計畫書之直轄市、縣（市）主管機關或中央主管機關委託之機關。第12條並規定中央主管機關委託之機關受理審查時，應將審查結果副知事業所在地直轄市、縣（市）主管機關。",
   "explain_en": "Article 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -5286,7 +5286,7 @@
   "answer": "c",
   "explain_zh": "第3條第1項：提送時機為新設（新設事業屬指定公告事業時）、新提（既設事業未曾檢具經核准而依修正後公告規定需檢具時）、重提（清理計畫書經撤銷或廢止後仍需檢具時）、變更（符合第6條）、異動（符合第7條）、展延（符合第9條）。第2項：應於審查核准後，始得進行事業實質運作產生廢棄物之貯存、清除、處理、再利用、輸出及輸入之營運行為。",
   "explain_en": "Article 3.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -5313,7 +5313,7 @@
   "answer": "b",
   "explain_zh": "第5條第1項：應依中央主管機關網路傳輸申報系統所定格式填具清理計畫書，以電子簽章簽署之電子文件或書面併同下列文件一式二份提出：一、主管機關或目的事業主管機關核發之相關許可、登記、執照或其他證明文件影本（新設尚未取得者免附）；二、負責人身分證明文件影本；三、設置專業技術人員之相關證明文件（新設尚未完成設置者免附）；四、環境影響評估書件所載與廢棄物有關之內容及審查結論；五、其他經審核機關指定者。",
   "explain_en": "Article 5.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -5340,7 +5340,7 @@
   "answer": "c",
   "explain_zh": "第6條第1項：取得核准後有下列情形之一者應事先辦理變更：一、新增或改變產品製造過程、作業流程或處理流程，致廢棄物性質改變或數量增加逾百分之十；二、廢棄物回收、貯存、清除、處理、再利用方法或設施改變；三、原物料使用量及產品產量或營運擴增及其他改變，致廢棄物性質改變或數量增加逾百分之十。第2項：非經常性廢棄物提出處置計畫書經核准者免辦理變更。",
   "explain_en": "Article 6.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -5367,7 +5367,7 @@
   "answer": "d",
   "explain_zh": "第7條第1項：清理計畫書所載基本資料、專業技術人員、原物料、產品或營運資料異動或製造過程、作業流程、處理流程新增或改變，而未致廢棄物性質改變或數量增加逾百分之十者，應於事實發生後十五日內辦理異動。第2項：新設事業申請時尚未完成專業技術人員設置者，應於完成設置後十五日內辦理異動。",
   "explain_en": "Article 7.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -5394,7 +5394,7 @@
   "answer": "d",
   "explain_zh": "第8條：指定公告事業辦理變更或異動事業廢棄物清理計畫書，應依中央主管機關網路傳輸申報系統所定格式，填具變更或異動申請表，以經電子簽章簽署之電子文件方式，或以書面方式併同變更或異動證明文件一式二份，向審核機關申請變更或異動。變更之事由見第6條，異動之事由見第7條。",
   "explain_en": "Article 8.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -5421,7 +5421,7 @@
   "answer": "d",
   "explain_zh": "第10條：指定公告事業辦理展延事業廢棄物清理計畫書，應依中央主管機關網路傳輸申報系統所定格式，填具展延申請表，以經電子簽章簽署之電子文件方式，或以書面方式併同第5條第1項規定之文件一式二份，向審核機關申請。依第9條第2項，展延應於有效期限屆滿前四個月至六個月提出。",
   "explain_en": "Article 10.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -5448,7 +5448,7 @@
   "answer": "a",
   "explain_zh": "第11條第1項：審核機關受理新設、新提、重提、變更及展延後，應通知申請者於七日內繳納審查費，並應於四十五日內完成審查；必要時得再延長審查期限，以四十五日為限；審查符合規定者應於完成審查後七日內通知。第2項：受理異動後應於二十五日內完成審查，必要時得延長二十五日。",
   "explain_en": "Article 11, Paragraphs 1 and 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -5475,7 +5475,7 @@
   "answer": "c",
   "explain_zh": "第11條第4項、第5項：經認定應補正資料時，審查意見應以一次性提供為原則，並與申請項目或內容有關，後續通知不宜有前次未列明之審查意見；申請者未於期限內補正或未繳納審查費者得駁回申請，已補正而仍不合規定者得再通知限期補正，各次補正日數不計入審查期限，補正次數以三次為限，補正總日數不得超過三十日。",
   "explain_en": "Article 11, Paragraphs 4 and 5.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -5502,7 +5502,7 @@
   "answer": "d",
   "explain_zh": "第11條之1第1項：指定公告事業辦理清理計畫書之新設、新提、重提、變更、異動或展延申請前，須先繪製全廠（場）空氣、水、廢棄物、毒性及關注化學物質污染流向示意圖，檢視污染在不同介質間之流向及在各類環保許可證（文件）間之關連。第2項並要求涉及其他類環保許可者須同時提出申請、變更、異動或展延。",
   "explain_en": "Article 11-1.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -5529,7 +5529,7 @@
   "answer": "b",
   "explain_zh": "第11條之2第1項：指定公告事業採自行處理、自行再利用、依附表或公告管理方式，將事業廢棄物作為固體再生燃料原料用途，辦理清理計畫書之新設、新提、重提申請，應經書面審查、現場勘查及試運轉之三階段審查程序；清理計畫書之變更、異動申請涉及固體再生燃料製造技術相關之主要設備、廢棄物項目或數量時亦同。",
   "explain_en": "Article 11-2, Paragraph 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -5556,7 +5556,7 @@
   "answer": "b",
   "explain_zh": "第11條之2第3項：試運轉期限不得超過二個月，屆期未完成者得於核准期限屆滿前申請展延，展延申請次數以一次為限，展延期限不得超過一個月，試運轉期間不計入第11條第1項及第2項之審查期限；應於試運轉期限屆滿十五日前申請展延。第5項：至遲應於試運轉期限屆滿之次日起三十日內，檢具試運轉報告及符合固體再生燃料品質標準之檢測報告送審，屆期未檢送者駁回申請。",
   "explain_en": "Article 11-2, Paragraphs 3 and 5.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -5583,7 +5583,7 @@
   "answer": "b",
   "explain_zh": "第12條第1項：中央主管機關委託之機關受理審查事業廢棄物清理計畫書時，應將審查結果副知指定公告事業所在地直轄市、縣（市）主管機關。第2項：審核機關發現審核通過之清理計畫書有誤寫、誤算或其他類此未符合本法及相關規定之顯然錯誤者，得隨時更正之，並通知指定公告事業。",
   "explain_en": "Article 12.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -5610,7 +5610,7 @@
   "answer": "d",
   "explain_zh": "第13條：指定公告事業應依核准之事業廢棄物清理計畫書進行事業廢棄物貯存、清除、處理、再利用、輸出及輸入之行為。違反本條同一規定一年內經二次限期改善仍繼續違反者，依第16條第1項第1款得移請審核機關撤銷或廢止其清理計畫書。",
   "explain_en": "Article 13.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -5637,7 +5637,7 @@
   "answer": "b",
   "explain_zh": "第14條：清理計畫書中製程產出物之認定，審核機關應謹慎審查，必要時應請指定公告事業提供產品種類、成分、規格、形態、顏色、數量、照片、用途或流向等資料以供審查，並應確認產品之說明屬合理、技術可行且流向無虞；審核機關與工商登記單位應加強橫向聯繫，避免發生廢棄物登記為產品情事。",
   "explain_en": "Article 14.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -5664,7 +5664,7 @@
   "answer": "b",
   "explain_zh": "第15條：指定公告事業遷廠、停（歇）業或宣告破產，且依核准之事業廢棄物清理計畫書清理廠內廢棄物後，應向所在地直轄市、縣（市）主管機關申請解除列管。第4條第6款並要求清理計畫書應載明遷廠、停（歇）業、宣告破產時之事業廢棄物清理計畫。",
   "explain_en": "Article 15.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -5691,7 +5691,7 @@
   "answer": "a",
   "explain_zh": "第17條第1項：本辦法所定之相關文件為外文者，應檢附經駐外機構驗證或國內公證人認證之中文譯本。第2項：依規定應檢附之文件於國外製作者，應經駐外機構驗證；在國內由外國駐我國使領館或其授權代表機構製作者，應經外交部複驗；在大陸地區或香港、澳門製作者，應經行政院設立或指定機構或委託之民間團體驗證。",
   "explain_en": "Article 17.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -5718,7 +5718,7 @@
   "answer": "d",
   "explain_zh": "第18條：指定公告事業於本辦法施行前，經審核機關核准之事業廢棄物清理計畫書仍屬有效；但指定公告事業應於中華民國一百十一年十二月三十一日前，取得事業廢棄物清理計畫書之核准期限，屆期未取得者，原核准之事業廢棄物清理計畫書失其效力。第9條並定有效期限原則為五年。",
   "explain_en": "Article 18.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -5745,7 +5745,7 @@
   "answer": "a",
   "explain_zh": "第19條：本辦法自中華民國一百零七年七月一日施行；本辦法修正條文自發布日施行。本辦法最新修正日期為民國114年7月10日，依本法第31條第2項及第3項授權訂定，內容包括提送時機、應載明事項、變更異動展延、審查期限與補正限制、固體再生燃料三階段審查及撤銷廢止事由等。",
   "explain_en": "Article 19.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -5772,7 +5772,7 @@
   "answer": "a",
   "explain_zh": "第1條：本細則依環境影響評估法第三十一條規定訂定之。第52條並定明本法及本細則所定處分書、委任書或其他書表之格式，由中央主管機關定之；第53條則規定本細則之施行日期，除部分條文另定施行日外，自發布日施行。",
   "explain_en": "Article 1 of the Enforcement Rules.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -5799,7 +5799,7 @@
   "answer": "d",
   "explain_zh": "第2條：本法第三條第四項及第五項之權責機關為中央主管機關。第5條之1並要求各級主管機關依本法第三條所定之環境影響評估審查委員會組織規程，應包含委員利益迴避原則，除本法所定迴避要求外，另應依行政程序法相關規定迴避。",
   "explain_en": "Article 2; see also Article 5-1 on committee recusal rules.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -5826,7 +5826,7 @@
   "answer": "a",
   "explain_zh": "第3條列舉中央主管機關十一款權限，包括全國性環評政策計畫之研訂、相關法規訂定審核及釋示、依第12條第1項分工所列書件之審查、資料蒐集建立交流、研究發展、專業人員訓練及管理、宣導、對直轄市及縣（市）環評工作之監督輔導及國際合作等。第4條、第5條則分別列舉直轄市及縣（市）主管機關之權限。",
   "explain_en": "Article 3 lists eleven central-level powers; Articles 4 and 5 list the local ones.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -5853,7 +5853,7 @@
   "answer": "c",
   "explain_zh": "第3條第7款、第10款、第5款：全國性環評專業人員訓練及管理、環境影響評估之國際合作、全國性環評資料之蒐集建立及交流，均屬中央主管機關權限。第4條第7款所定專業人員訓練及管理，則限於直轄市範圍；第5條之縣（市）權限並未列訓練及管理事項。",
   "explain_en": "Article 3, subparagraphs 5, 7 and 10.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -5880,7 +5880,7 @@
   "answer": "d",
   "explain_zh": "第4條列舉直轄市主管機關十款權限，包括直轄市環評工作之規劃執行、相關法規訂定審核及釋示、依第12條第1項分工所列書件之審查、審查通過或管轄權移轉案件及其審查結論執行之監督、資料蒐集、研究發展、專業人員訓練及管理、宣導與監督輔導等。全國性事項及國際合作則屬第3條中央主管機關之權限。",
   "explain_en": "Article 4 lists ten municipal-level powers.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -5907,7 +5907,7 @@
   "answer": "b",
   "explain_zh": "第5條列舉縣（市）主管機關八款權限：規劃執行、相關規章訂定審核及釋示、依第12條第1項分工之書件審查、審查通過或管轄權移轉案件之監督、資料蒐集建立交流、研究發展、宣導及其他。第4條之直轄市權限則為十款，另含專業人員訓練及管理與監督輔導事項。",
   "explain_en": "Article 5 (eight items) versus Article 4 (ten items).",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -5934,7 +5934,7 @@
   "answer": "b",
   "explain_zh": "第5條之1第2項：開發單位為直轄市、縣（市）政府，或該府為促進民間參與公共建設法之主辦機關，而由該府辦理環評審查時，該府機關委員應全數迴避出席會議及表決，主席由出席委員互推一人擔任。同條第1項並要求委員會組織規程應包含委員利益迴避原則。",
   "explain_en": "Article 5-1, paragraph 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -5961,7 +5961,7 @@
   "answer": "c",
   "explain_zh": "第5條之1第3項：委員應出席人數之計算方式，應將迴避之委員人數予以扣除，作為委員總數之基準。同條第1項規定委員利益迴避原則，除本法所定迴避要求外，另應依行政程序法相關規定迴避；第2項則定明地方政府為開發單位時之全數迴避及主席互推規定。",
   "explain_en": "Article 5-1, paragraph 3.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -5988,7 +5988,7 @@
   "answer": "a",
   "explain_zh": "第7條：本法所稱開發單位，指自然人、法人、團體或其他從事開發行為者。第12條之1並定明目的事業主管機關依開發行為所依據設立之專業法規或組織法規定之，二者主體不同，不得混淆。",
   "explain_en": "Article 7.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -6015,7 +6015,7 @@
   "answer": "c",
   "explain_zh": "第8條第1項：本法第六條第一項之規劃，指可行性研究、先期作業、準備申請許可或其他經中央主管機關認定為有關規劃之階段行為。第2項：前項認定，中央主管機關應會商中央目的事業主管機關為之。第11條並定明說明書於開發審議或開發許可申請階段辦理。",
   "explain_en": "Article 8, paragraphs 1 and 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -6042,7 +6042,7 @@
   "answer": "c",
   "explain_zh": "第11條：開發單位依本法第七條第一項提出環境影響說明書者，除相關法令另有規定程序者外，於開發審議或開發許可申請階段辦理。至於本法第七條第三項之公開說明會，依第18條應於開發行為經目的事業主管機關許可後動工前辦理。",
   "explain_en": "Article 11 of the Enforcement Rules.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -6069,7 +6069,7 @@
   "answer": "c",
   "explain_zh": "第11條之1第1項：目的事業主管機關收到書件後，應釐清非屬主管機關所主管法規之爭點，並針對開發行為之政策提出說明及建議，併同環境影響說明書或第二階段環評之勘察現場紀錄、公聽會紀錄、評估書初稿轉送主管機關審查。第3項並定明環評流程詳見附圖。",
   "explain_en": "Article 11-1, paragraph 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -6096,7 +6096,7 @@
   "answer": "d",
   "explain_zh": "第11條之1第2項：目的事業主管機關未依第1項規定辦理者，主管機關得敘明理由退回環境影響說明書或評估書初稿。第3項規定本法及本細則所規範之環境影響評估流程詳見附圖。審查期限之起算另依第15條，自備齊書件並繳交審查費之日起算。",
   "explain_en": "Article 11-1, paragraph 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -6123,7 +6123,7 @@
   "answer": "a",
   "explain_zh": "第12條第1項：主管機關之分工依附表一定之，必要時中央主管機關得委辦地方主管機關。第2項：二個以上應實施環評之開發行為合併評估時應合併審查；涉及不同主管機關或基地跨越二個以上直轄市、縣（市）者，由中央主管機關為之。第3項：類型或分工認定有爭議時，由中央主管機關會商相關地方主管機關認定。",
   "explain_en": "Article 12, paragraphs 1 and 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -6150,7 +6150,7 @@
   "answer": "b",
   "explain_zh": "第12條第4項：分工規定施行後受理審查中之案件，管轄權有變更者，原管轄主管機關應將案件移送有管轄權之主管機關；但經開發單位及有管轄權主管機關同意，亦得由原管轄主管機關繼續辦理至完成環境影響說明書審查或評估書認可後，後續監督及變更再移送有管轄權主管機關辦理。",
   "explain_en": "Article 12, paragraph 4.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -6177,7 +6177,7 @@
   "answer": "c",
   "explain_zh": "第12條之1第1項：本法所稱之目的事業主管機關，依開發行為所依據設立之專業法規或組織法規定之。第2項：前項目的事業主管機關之認定如有爭議時，依行政程序法規定辦理。至於環評主管機關之分工爭議，則依第12條第3項由中央主管機關會商認定。",
   "explain_en": "Article 12-1.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -6204,7 +6204,7 @@
   "answer": "d",
   "explain_zh": "第13條第1項：主管機關依本法第七條第二項就環境影響說明書或依本法第十三條第二項就評估書初稿審查時，應將書件內容、委員會開會資訊、會議紀錄及審查結論公布於指定網站。第2項並定明各該資訊之公布期限。",
   "explain_en": "Article 13, paragraph 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -6231,7 +6231,7 @@
   "answer": "c",
   "explain_zh": "第13條第2項：環境影響說明書或評估書初稿內容及開會資訊，應於會議舉行七日前公布；會議紀錄應於會後三十日內公布；審查結論應於公告後七日內公布。第22條之1對範疇界定資料另定至少十四日之公布期間及會議七日前之公布義務。",
   "explain_en": "Article 13, paragraph 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -6258,7 +6258,7 @@
   "answer": "b",
   "explain_zh": "第15條第1項：本法第七條及第十三條之審查期限，自開發單位備齊書件，並向主管機關繳交審查費之日起算。第2項並定明審查期限不含補正日數、涉法令釋示或機關協商未逾六十日之日數及其他不可歸責於主管機關之可扣除日數。",
   "explain_en": "Article 15, paragraph 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -6285,7 +6285,7 @@
   "answer": "a",
   "explain_zh": "第15條第2項：審查期限不含開發單位補正日數、涉目的事業主管機關法令釋示或與其他機關（構）協商未逾六十日之日數，以及其他不可歸責於主管機關之可扣除日數。情形特殊而得依本法但書延長者，另見第16條之認定。",
   "explain_en": "Article 15, paragraph 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -6312,7 +6312,7 @@
   "answer": "d",
   "explain_zh": "第16條：所稱情形特殊者，指開發行為規模龐大、影響層面廣泛，非短時間所能完成審查者，或開發行為爭議性高、非短時間所能完成審查者。審查期限之起算及扣除另見第15條。",
   "explain_en": "Article 16.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -6339,7 +6339,7 @@
   "answer": "a",
   "explain_zh": "第17條：本法第七條第三項所稱許可，指目的事業主管機關對開發行為之許可。配合第18條，開發單位舉行之公開說明會應於開發行為經目的事業主管機關許可後動工前辦理。",
   "explain_en": "Article 17.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -6366,7 +6366,7 @@
   "answer": "b",
   "explain_zh": "第18條：開發單位依本法第七條第三項舉行公開之說明會，應於開發行為經目的事業主管機關許可後動工前辦理。所稱許可依第17條指目的事業主管機關對開發行為之許可；說明會之通知及公告方式另依第22條辦理。",
   "explain_en": "Article 18.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -6393,7 +6393,7 @@
   "answer": "a",
   "explain_zh": "第20條第1項列舉適當地點：開發行為所在地之鄉（鎮、市、區）公所及村（里）辦公室、毗鄰前款鄉（鎮、市、區）之其他公所、距離開發行為所在地附近之學校寺廟教堂或市集、開發行為所在地五百公尺內公共道路路側之處所，及其他經主管機關認可之處所。",
   "explain_en": "Article 20, paragraph 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -6420,7 +6420,7 @@
   "answer": "b",
   "explain_zh": "第20條第2項：開發單位應擇定第1項五處以上為環境影響說明書陳列或揭示之處所，並力求各處所平均分布於開發環境區域內。第3項：陳列或揭示時應將說明書公布於指定網站至少三十日。另依第21條，刊載新聞紙應連續刊載三日以上。",
   "explain_en": "Article 20, paragraphs 2 and 3.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -6447,7 +6447,7 @@
   "answer": "b",
   "explain_zh": "第21條：開發單位依本法第八條第一項第三款刊載新聞紙，應連續刊載三日以上。應注意第30條之公告則要求陳列或揭示至少十五日，或刊載於新聞紙連續五日以上，兩者期間不同。",
   "explain_en": "Article 21; compare Article 30 (five consecutive days).",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -6474,7 +6474,7 @@
   "answer": "c",
   "explain_zh": "第22條之1第1項：開發單位依本法第十條所提出之範疇界定資料，主管機關應公布於指定網站至少十四日，供民眾、團體及機關以書面表達意見，並轉交開發單位處理。第2項、第3項則規定會議公布期限、主席產生方式及確認事項之公布期限。",
   "explain_en": "Article 22-1, paragraph 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -6501,7 +6501,7 @@
   "answer": "a",
   "explain_zh": "第22條之1第2項：主管機關舉辦範疇界定會議七日前應公布於指定網站，邀集委員會委員、目的事業主管機關、相關機關、團體、學者、專家及居民代表界定評估範疇，並由主管機關指定委員會委員擔任主席。第3項：完成界定後三十日內，應將本法第十條第二項所確認之事項公布於指定網站。",
   "explain_en": "Article 22-1, paragraphs 2 and 3.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -6528,7 +6528,7 @@
   "answer": "d",
   "explain_zh": "第23條：所稱處理情形應包括就意見之來源與內容作彙整條列並逐項作說明、意見採納之情形及未採納之原因、意見修正之說明等三款事項。相關民眾意見之蒐集程序另見第20條至第22條之1。",
   "explain_en": "Article 23.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -6555,7 +6555,7 @@
   "answer": "a",
   "explain_zh": "第24條：目的事業主管機關依本法第十二條第一項進行現場勘察時，應發給參與者勘察意見表，並彙整作成勘察紀錄，一併送交主管機關。第25條並定明邀集專家學者應考量個案特殊性、評估項目及各相關專業領域。",
   "explain_en": "Article 24.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -6582,7 +6582,7 @@
   "answer": "a",
   "explain_zh": "第24條之1：所稱公聽會，指目的事業主管機關向主管機關、委員會委員、有關機關、專家學者、團體及當地居民，廣泛蒐集意見，以利後續委員會審查之會議。其通知期限及紀錄公布期限則見第26條。",
   "explain_en": "Article 24-1.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -6609,7 +6609,7 @@
   "answer": "a",
   "explain_zh": "第25條：主管機關依本法第十條界定評估範疇或目的事業主管機關依本法第十二條第一項進行現場勘察、舉行公聽會時，應考量個案之特殊性、評估項目及各相關專業領域，邀集專家學者參加。",
   "explain_en": "Article 25.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -6636,7 +6636,7 @@
   "answer": "c",
   "explain_zh": "第26條第1項：目的事業主管機關舉行公聽會時，應於十日前通知主管機關、委員會委員、有關機關、專家、學者、團體及當地居民，並公布於指定網站至公聽會舉行翌日。同條第3項並允許當地居民之通知委請當地鄉（鎮、市、區）公所轉知。",
   "explain_en": "Article 26, paragraph 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -6663,7 +6663,7 @@
   "answer": "d",
   "explain_zh": "第26條第2項至第4項：公聽會應於開發行為所在地之適當地點行之；當地居民之通知得委請當地鄉（鎮、市、區）公所轉知；目的事業主管機關應於公聽會議紀錄作成後三十日內公布於指定網站。所稱適當地點依第20條第1項認定。",
   "explain_en": "Article 26, paragraphs 2 to 4.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -6690,7 +6690,7 @@
   "answer": "b",
   "explain_zh": "第28條第1項：開發單位依本法第七條、第十三條及第十八條提出環境影響說明書、評估書及環境影響調查報告書時，應提供包含預測與可行方案之完整資料。第2項並定明主管機關得命補提資料或通知到場備詢。",
   "explain_en": "Article 28, paragraph 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -6717,7 +6717,7 @@
   "answer": "b",
   "explain_zh": "第28條第2項：主管機關於審查之必要範圍內，認為開發單位所提供之資料不夠完整時，得定相當期間命開發單位提供相關資料或報告，或以書面通知其到場備詢。第3項：前項資料涉及營業或其他秘密之保護者，依相關法令規定辦理。補正日數並依第15條第2項不計入審查期限。",
   "explain_en": "Article 28, paragraphs 2 and 3.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -6744,7 +6744,7 @@
   "answer": "c",
   "explain_zh": "第29條：開發單位未依本法第十三條第二項審查結論修正評估書初稿時，主管機關應敘明理由，還請開發單位限期補正。此與第11條之1第2項目的事業主管機關未依規定辦理時之敘明理由退回，二者主體與情形不同。",
   "explain_en": "Article 29.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -6771,7 +6771,7 @@
   "answer": "c",
   "explain_zh": "第30條：本法第七條第二項及第十三條第三項之公告，應於開發行為所在地附近適當地點陳列或揭示至少十五日，或刊載於新聞紙連續五日以上。應與第21條區別：依本法第八條第一項第三款刊載新聞紙者為連續三日以上。",
   "explain_en": "Article 30; compare Article 21.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -6798,7 +6798,7 @@
   "answer": "c",
   "explain_zh": "第32條第1項：開發單位依本法第十四條第二項但書重新將替代方案送主管機關審查者，應依本法第六條及第七條所定程序辦理。第2項則就於原地點重新規劃同一開發行為之替代方案，定有轉送原審查主管機關之特別規定。",
   "explain_en": "Article 32, paragraph 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -6825,7 +6825,7 @@
   "answer": "b",
   "explain_zh": "第32條第2項：於原地點重新規劃同一開發行為之替代方案者，開發單位應檢具環境影響說明書，向目的事業主管機關提出，並由目的事業主管機關轉送原審查主管機關審查，不受第12條第1項及第2項分工之限制。",
   "explain_en": "Article 32, paragraph 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -6852,7 +6852,7 @@
   "answer": "a",
   "explain_zh": "第33條：本法第十五條所稱同一場所，指一定區域內，各開發場所環境背景因子類似，且其環境影響可合併評估者。第34條並定明二個以上開發行為合併進行評估者，各開發單位應共同負責。",
   "explain_en": "Article 33.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -6879,7 +6879,7 @@
   "answer": "d",
   "explain_zh": "第34條第1項：二個以上開發行為合併進行評估者，關於評估之執行、審查程序之進行、環境影響說明書或評估書之作成及其他相關事項，各開發單位應共同負責。第2項：各開發單位應各派代表或共同推舉代表執行評估、參與審查程序及其他相關事項。",
   "explain_en": "Article 34.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -6906,7 +6906,7 @@
   "answer": "a",
   "explain_zh": "第36條第1項：所稱變更原申請內容，指本法第六條第二項第一款、第四款、第五款及第八款或本法第十一條第二項第一款、第四款、第五款、第八款及第十款至第十二款之內容有變更者。第2項則列舉七款非屬須經核准變更而應報備查之情形。",
   "explain_en": "Article 36, paragraph 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -6933,7 +6933,7 @@
   "answer": "c",
   "explain_zh": "第36條第2項列舉七款應報備查而非須經核准變更之情形，包括開發基地內非環境保護設施局部調整位置、不立即改善有發生災害之虞或災害復原重建、其他法規容許誤差範圍內之變更、依環保法規修正執行公告之檢驗或監測方法、原基地內計畫產能或規模降低、提升環境保護設施處理等級或效率，及其他經主管機關認定未涉環保事項者。",
   "explain_en": "Article 36, paragraph 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -6960,7 +6960,7 @@
   "answer": "c",
   "explain_zh": "第37條本文：開發單位依本法第十六條第一項申請變更環境影響說明書、評估書內容或審查結論，無須依第38條重新進行環評者，應提出環境影響差異分析報告，由目的事業主管機關核准後，轉送主管機關核准。但書則列舉得改以變更內容對照表辦理之五款情形。",
   "explain_en": "Article 37, main text.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -6987,7 +6987,7 @@
   "answer": "d",
   "explain_zh": "第37條但書第2款：既有設備改變製程、汰舊換新或更換低能耗、低污染排放量設備，而產能不變或產能提升未達百分之十，且污染總量未增加者，得檢附變更內容對照表。同但書第1款並排除涉及改變承受水體或處理等級效率之情形；第38條第1項第1款則以擴增百分之十以上為重新辦理環評之門檻。",
   "explain_en": "Article 37, proviso subparagraph 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -7014,7 +7014,7 @@
   "answer": "d",
   "explain_zh": "第37條之1第1項：依第36條第2項提出備查之內容為開發單位之名稱及其營業所或事務所地址、符合第36條第2項之情形及申請備查理由及內容、其他經主管機關指定之事項等三款。第2項、第3項則分別規定差異分析報告及變更內容對照表之記載事項。",
   "explain_en": "Article 37-1, paragraph 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -7041,7 +7041,7 @@
   "answer": "c",
   "explain_zh": "第37條之1第2項共八款，包括開發單位名稱地址、綜合評估者及影響項目撰寫者簽名、本次及歷次申請變更內容與原通過內容之比較、變更理由及內容、無第38條第1項各款應重新辦理環評情形之具體說明、變更後對環境影響之差異分析、環境保護對策之檢討修正及其他經主管機關指定事項。",
   "explain_en": "Article 37-1, paragraph 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -7068,7 +7068,7 @@
   "answer": "a",
   "explain_zh": "第39條第1項列舉三款追蹤事項：核發許可時要求開發單位辦理之事項、開發單位執行環境影響說明書或評估書內容及主管機關審查結論事項、其他相關環境影響事項。第2項：前項執行情形，應函送主管機關。第41條並定明得派員赴開發單位或開發地點調查或檢驗。",
   "explain_en": "Article 39.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -7095,7 +7095,7 @@
   "answer": "c",
   "explain_zh": "第40條第1項共七款，包括開發單位名稱及地址、綜合評估者及影響項目撰寫者之簽名、開發行為現況、開發行為進行前及完成後使用時之環境差異調查分析並與環境影響說明書、評估書之預測結果相互比對檢討、結論及建議、參考文獻及其他經主管機關指定之事項。",
   "explain_en": "Article 40, paragraph 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -7122,7 +7122,7 @@
   "answer": "a",
   "explain_zh": "第40條第2項共五款：開發單位名稱及地址、依前項環境影響調查報告書判定之結論或主管機關逕行認定對環境造成不良影響之內容而提出之環境保護對策檢討修正及預定改善完成期限、執行修正後環境保護對策所需經費、參考文獻及其他經主管機關指定事項。",
   "explain_en": "Article 40, paragraph 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -7149,7 +7149,7 @@
   "answer": "b",
   "explain_zh": "第41條：主管機關或目的事業主管機關為執行本法第十八條所定職權，得派員赴開發單位或開發地點調查或檢驗其相關運作情形。追蹤事項及其執行情形之函送則見第39條，調查報告書及因應對策之記載事項見第40條。",
   "explain_en": "Article 41.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -7176,7 +7176,7 @@
   "answer": "a",
   "explain_zh": "第43條：主管機關作成之審查結論內容應涵括綜合評述，其分類為通過環境影響評估審查、有條件通過環境影響評估審查、應繼續進行第二階段環境影響評估、認定不應開發、其他經中央主管機關認定者等五款。",
   "explain_en": "Article 43.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -7203,7 +7203,7 @@
   "answer": "b",
   "explain_zh": "第43條本文明定審查結論內容應涵括綜合評述，並將分類列為五款。審查結論作成後之公告依第30條辦理，並依第13條第2項於公告後七日內公布於指定網站。",
   "explain_en": "Article 43, main text.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -7230,7 +7230,7 @@
   "answer": "c",
   "explain_zh": "第48條：本法第28條所稱主管機關認有必要時，指第19條所列各款情形之一，經依其他相關法令處理後仍未能解決者。第49條並列舉依本法第28條辦理調查、分析及提出因應對策之書面報告應記載之十一款事項。",
   "explain_en": "Article 48.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -7257,7 +7257,7 @@
   "answer": "c",
   "explain_zh": "第49條第1款至第3款：應記載開發單位之名稱及其營業所或事務所、負責人之姓名、住居所及身分證統一編號、開發行為之名稱及開發場所。第4款以下另有開發行為之目的及內容、環境保護對策及其成果等規定。",
   "explain_en": "Article 49, subparagraphs 1 to 3.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -7284,7 +7284,7 @@
   "answer": "d",
   "explain_zh": "第49條第4款至第11款：開發行為之目的及其內容、開發行為所採之環境保護對策及其成果、環境現況、開發行為已知或預測之環境影響、減輕或避免不利環境影響之對策、替代方案、執行因應對策所須經費及參考文獻。此與第40條第2項之因應對策記載事項應予區別。",
   "explain_en": "Article 49, subparagraphs 4 to 11.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -7311,7 +7311,7 @@
   "answer": "c",
   "explain_zh": "第50條第1項：本法第29條所稱相關主管機關，指本法施行前辦理環境影響說明書或評估書之原審查機關。第2項：前項機關應依本法第18條規定辦理監督工作，主管機關得會同執行。第51條並定明本法施行前已作成審查結論者之變更準用規定。",
   "explain_en": "Article 50.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -7338,7 +7338,7 @@
   "answer": "d",
   "explain_zh": "第51條：本法施行前已完成環境影響說明書或評估書，經審查作成審查結論者，開發單位申請變更原申請內容者，準用第36條至第38條規定。第50條並定明本法施行前之原審查機關為本法第29條所稱相關主管機關，應依本法第18條辦理監督。",
   "explain_en": "Article 51.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -7365,7 +7365,7 @@
   "answer": "b",
   "explain_zh": "第51條之1：中央目的事業主管機關或直轄市、縣（市）政府就認定標準、細目或環境影響評估作業準則等相關法規提出建議修正時，應邀集有關機關及多元民間團體舉辦公開研商會，將共識意見彙整為草案，函請中央主管機關召開公聽會，並由中央主管機關依法制作業程序辦理。",
   "explain_en": "Article 51-1.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -7392,7 +7392,7 @@
   "answer": "a",
   "explain_zh": "第52條：本法及本細則所定處分書、委任書或其他書表之格式，由中央主管機關定之。第53條則規定本細則之施行日期，其中部分條文另定發布後六個月或三個月施行之特別規定。",
   "explain_en": "Article 52.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -7419,7 +7419,7 @@
   "answer": "d",
   "explain_zh": "第53條：本細則除中華民國一百零四年七月三日修正發布之第五條之一、第十一條之一及第十二條自發布後六個月施行，一百零七年四月十一日修正發布之第十二條附表一部分開發行為類型自發布後三個月施行，一百十四年一月十六日修正發布之第十二條附表一自一百十四年七月一日施行外，自發布日施行。",
   "explain_en": "Article 53.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -7446,7 +7446,7 @@
   "answer": "c",
   "explain_zh": "第1條：本細則依毒性及關注化學物質管理法第七十四條規定訂定之。第19條並定明本細則自中華民國一百零九年一月十六日施行。本法第71條則為運作場所全廠（場）及內部配置圖副知消防機關之依據，見第18條。",
   "explain_en": "Article 1 of the Enforcement Rules.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -7473,7 +7473,7 @@
   "answer": "b",
   "explain_zh": "第2條：本法所稱製造，指調配、加工、合成、分裝毒性或關注化學物質之行為；但自行使用時之調配、加工與分裝，不在此限。第3條則定義運送，指以車輛、船舶或航空器等交通工具載運、裝卸之行為。",
   "explain_en": "Article 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -7500,7 +7500,7 @@
   "answer": "a",
   "explain_zh": "第3條：本法所稱運送，指以車輛、船舶或航空器等交通工具載運、裝卸毒性或關注化學物質之行為。第2條為製造之定義，第7條為中止運作之定義，第8條則為郵購及電子購物之定義，均應分辨。",
   "explain_en": "Article 3.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -7527,7 +7527,7 @@
   "answer": "a",
   "explain_zh": "第4條列舉四款：毒性或關注化學物質之來源、運作情形、產品製造流程、管理方法及貯存設備說明；改善前後之差異及成效；完成改善之設備或設施；其他經直轄市、縣（市）主管機關指定者。",
   "explain_en": "Article 4.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -7554,7 +7554,7 @@
   "answer": "d",
   "explain_zh": "第5條第1項：本法第19條所稱停止運作，指運作人結束部分或全部毒性化學物質運作之情形。第2項：停止運作或依本法第20條視為停止運作之毒性化學物質處理完成後，主管機關認有收回相關許可證、登記文件或核可文件之必要者，得命運作人返還之。中止運作之定義則見第7條。",
   "explain_en": "Article 5.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -7581,7 +7581,7 @@
   "answer": "a",
   "explain_zh": "第6條：毒性化學物質運作人依本法第19條規定，將所剩毒性化學物質列冊報請直轄市、縣（市）主管機關核准時，應造冊申報停止運作毒性化學物質名稱、成分含量、數量、處理方式或受讓者。停止運作之意義見第5條第1項。",
   "explain_en": "Article 6.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -7608,7 +7608,7 @@
   "answer": "a",
   "explain_zh": "第7條第1項：本法第20條所稱中止運作，指中斷製造、輸入、販賣、使用或貯存運作之情形。第2項：本法第20條第2款所定中止運作，包括經主管機關核准及未經主管機關核准者；其污染環境或危害人體健康之虞之情形，由直轄市、縣（市）主管機關依事實及相關資料認定。",
   "explain_en": "Article 7.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -7635,7 +7635,7 @@
   "answer": "a",
   "explain_zh": "第8條：本法第21條第2項、第28條第2項及第60條所稱之郵購及電子購物，指以廣播、電視、電話、傳真、型錄、報紙、雜誌、網際網路、傳單或其他類似不具特定對象之交易方法。其重點在於交易對象不特定。",
   "explain_en": "Article 8.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -7662,7 +7662,7 @@
   "answer": "a",
   "explain_zh": "第9條：本法第41條第1項之事故發生所在地如涉及二以上直轄市、縣（市）者，由中央主管機關指定主管機關；但運作人依本法該條第1項規定所為報知之對象，得僅向其中之一為之。緊急防治措施之內容則見第10條，必要時之情形見第11條。",
   "explain_en": "Article 9.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -7689,7 +7689,7 @@
   "answer": "c",
   "explain_zh": "第11條第1項：所稱必要時，指運作人已採取緊急防治措施、或依主管機關命令採取必要措施、或已停止相關運作，仍未減輕或防堵危害擴大；或運作人未採取緊急防治措施、未依命令採取必要措施、或未停止相關運作而情況急迫者。第2項：所稱處理措施，準用第10條緊急防治措施之規定。",
   "explain_en": "Article 11.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -7716,7 +7716,7 @@
   "answer": "c",
   "explain_zh": "第12條第1項：主管機關依本法第44條、第48條第3項規定所為查核工作，得委任、委託或委辦機關（構）或法人、團體辦理。第2項：前項查核工作涉及國防機密者，應會同當地憲兵或軍事機關、環保人員前往相關場所或設施；受查之軍事機關應提供必要之協助。",
   "explain_en": "Article 12.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -7743,7 +7743,7 @@
   "answer": "b",
   "explain_zh": "第13條：依本法第45條第2款認定得改善或改製其他物質者，由主管機關命運作人提出其改善或改製計畫書，並載明完成期限，報請核准。第14條並定明啟封交還之期限，第15條則定明屆期之意義。",
   "explain_en": "Article 13.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -7770,7 +7770,7 @@
   "answer": "d",
   "explain_zh": "第14條：主管機關依本法第45條第2款或第3款為啟封交還，應於核准改善或改製計畫書或認定未違反本法規定後七日內為之。第15條並定明本法第45條第2款及第63條第2款所稱屆期，指經核准計畫書所載之改善或改製完成期限屆至。",
   "explain_en": "Article 14.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -7797,7 +7797,7 @@
   "answer": "b",
   "explain_zh": "第15條：本法第45條第2款及第63條第2款所稱屆期，指前條經核准之計畫書所載之改善或改製完成期限屆至。第13條為計畫書之提出及核准，第16條則規定沒入物品之處理方式。",
   "explain_en": "Article 15.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -7824,7 +7824,7 @@
   "answer": "c",
   "explain_zh": "第16條：主管機關依本法第63條規定沒入之毒性、關注化學物質、其他應登錄化學物質或有關物品，應以變賣、廢棄、轉讓或其他適當方式處理之。第15條所稱屆期即與本法第63條第2款相呼應。",
   "explain_en": "Article 16.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -7851,7 +7851,7 @@
   "answer": "c",
   "explain_zh": "第17條：依本法第64條規定通知限期改善、申報或改製之期間，指主管機關命本法義務人完成改善、申報或改製並通知主管機關之期間，不含主管機關之審查期間。故審查期間不計入義務人之改善期限。",
   "explain_en": "Article 17.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -7878,7 +7878,7 @@
   "answer": "b",
   "explain_zh": "第18條：直轄市、縣（市）主管機關依本法第71條規定將運作場所全廠（場）及內部配置圖副知消防機關時，得併以資訊系統、網際網路或其他電子通訊方式為之。第19條則定明本細則自一百零九年一月十六日施行。",
   "explain_en": "Article 18.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -7905,7 +7905,7 @@
   "answer": "a",
   "explain_zh": "第19條：本細則自中華民國一百零九年一月十六日施行。同日施行者尚有毒性及關注化學物質專業技術管理人員設置及管理辦法（該辦法第18條）；危害預防及應變計畫作業辦法則自一百零九年十一月一日施行。",
   "explain_en": "Article 19.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -7932,7 +7932,7 @@
   "answer": "d",
   "explain_zh": "第1條：本辦法依毒性及關注化學物質管理法第三十五條第三項規定訂定之。第11條並定明本辦法自中華民國一百零九年十一月一日施行。本法第18條第2項則為專業技術管理人員設置及管理辦法之授權依據。",
   "explain_en": "Article 1 of the Operating Regulations.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -7959,7 +7959,7 @@
   "answer": "a",
   "explain_zh": "第4條第1項：商數大於一者，計畫並應包含危害辨識及管理措施、危害控制失效之後果及對策、消防防災及防護措施、緊急救護醫療及通訊裝備之管理維護、場所外鄰近地區之災害防救訓練及教育宣導，以及場所外之通報機制、人員搶救及災區隔離建議、環境復原與疏散避難方式建議。第2項：已依職業安全或消防規定提送製程安全評估報告書、消防防護計畫或消防防災計畫並經核定或備查者，得檢附代之，免提報第1項第1款事項。",
   "explain_en": "Article 4, paragraphs 1 and 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -7986,7 +7986,7 @@
   "answer": "a",
   "explain_zh": "第5條第1項將運送計畫分為基本資料、危害預防、應變三類，其中災害防救訓練、演練及教育宣導之無預警測試每年至少二次、整體演練每年至少一次（第3條第3款第4目就廠場計畫亦同）。第2項：運送之運作人於運送時須攜帶危害預防應變資料，包括任一時刻均可聯繫之緊急聯絡電話、事故通報電話、事故發生後派遣專業應變人員姓名及聯絡方式、攜帶安全裝備清單、預定運輸路線、外部支援組織、機構等。",
   "explain_en": "Article 5, paragraphs 1 and 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -8013,7 +8013,7 @@
   "answer": "d",
   "explain_zh": "第6條第1項：運作人於申請毒性化學物質許可證、登記文件或具危害性關注化學物質核可文件前，應檢送廠（場）危害預防及應變計畫報請直轄市、縣（市）主管機關備查。第2項：所有人應檢送運送計畫報請備查。第3項：所有人委託運送者，應告知受託運送之運作人已報請備查之運送計畫執行內容，並納入委託運送契約內。",
   "explain_en": "Article 6.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -8040,7 +8040,7 @@
   "answer": "c",
   "explain_zh": "第7條第1項：運作人應依廠（場）計畫實施，所有人及運送之運作人應依運送計畫共同實施；災害防救訓練、演練及教育宣導之執行應作成紀錄，保存三年備查。第2項：運作人、所有人應每二年檢討計畫內容；其內容有變更者，應報請備查。",
   "explain_en": "Article 7, paragraphs 1 and 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -8067,7 +8067,7 @@
   "answer": "d",
   "explain_zh": "第7條第3項列舉四款應報請備查之變更情形：物質種類之運作異動、製程變更、影響應變作為之貯存方式或容器變更、運作總量變更致依附件計算所得商數大於一。第4項：前項變更應於事實發生後三十日內報請備查；但經直轄市、縣（市）主管機關同意延長者，不在此限。",
   "explain_en": "Article 7, paragraphs 3 and 4.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -8094,7 +8094,7 @@
   "answer": "c",
   "explain_zh": "第8條第1項：發生事故者，運作人或所有人應依備查後之事故調查處理報告，於半年內重新檢討計畫內容報請備查。第2項：運作人發生依本法提出之事故調查處理報告涉及人員傷亡或污染面積達五百平方公尺，或事故造成環境污染且經認定情節重大並依環保法令受裁處等重大事故者，地方主管機關得命其依第4條內容修正廠（場）計畫並半年內重新報請備查。第3項並定有同意延長之例外。",
   "explain_en": "Article 8, paragraphs 1 and 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -8121,7 +8121,7 @@
   "answer": "c",
   "explain_zh": "第9條第1項：直轄市、縣（市）主管機關應於備查後十五日內，隱匿個人資料後完整公開於中央主管機關指定之網站，並置於直轄市、縣（市）政府或所在地鄉（鎮、市）公所，供民眾查閱。第2項：涉及國家安全、國防機密及工商機密者應予保密。第3項列舉工商機密三要件：非一般涉及該類資訊之人所知、因其秘密性而具有實際或潛在之經濟價值、已採取合理之保密措施。",
   "explain_en": "Article 9.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -8148,7 +8148,7 @@
   "answer": "c",
   "explain_zh": "第10條第1項：本辦法一百零九年十一月一日修正施行前已報請備查者，運作人或所有人應於修正施行後二年內依本辦法相關規定重新提報。第2項：重新提報之計畫經備查後，應依相關規定於十五日內完整公開。第3項：修正施行後經中央主管機關公告之毒性化學物質或具危害性關注化學物質，應依其公告指定期限提報。",
   "explain_en": "Article 10.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -8175,7 +8175,7 @@
   "answer": "d",
   "explain_zh": "第11條：本辦法自中華民國一百零九年十一月一日施行。第10條第1項並以該日為過渡期間之起算基準，修正施行前已報請備查者應於修正施行後二年內重新提報。",
   "explain_en": "Article 11.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -8202,7 +8202,7 @@
   "answer": "d",
   "explain_zh": "第1條：本辦法依毒性及關注化學物質管理法第十八條第二項規定訂定之。第14條、第15條則分別以本法第59條第10款、第62條為運作人及專業技術管理人員違規之處罰依據；第18條定明本辦法自一百零九年一月十六日施行。",
   "explain_en": "Article 1 of these Regulations.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -8229,7 +8229,7 @@
   "answer": "d",
   "explain_zh": "第2條第1項：本辦法所定專業技術管理人員分為甲級、乙級及丙級。第2項：運作人所設置之專業技術管理人員，應由中央主管機關訓練合格並取得合格證書者擔任。第3條並依運作數量規定應設置之級別及人數。",
   "explain_en": "Article 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -8256,7 +8256,7 @@
   "answer": "b",
   "explain_zh": "第4條第1項：設置由運作人檢具該級別合格證書影本、身分證明文件影本、設置申請書及同意查詢勞、健保資料同意書，向運作場所所在地直轄市、縣（市）主管機關申請核定。第2項：離職、異動或因故未能執行業務時，應指定具有參加同一級別以上訓練資格者代理。第3項規定原則採網路傳輸方式辦理。第4項：合格證書經撤銷或廢止者，設置核定自撤銷或廢止日起失其效力。",
   "explain_en": "Article 4.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -8283,7 +8283,7 @@
   "answer": "c",
   "explain_zh": "第5條第2項：專業技術管理人員於申請設置前連續三年以上未經設置者，應於到職翌日起六個月內，依環境保護專責及技術人員訓練管理辦法規定完成到職訓練。第3項：運作人至遲應於前項設置屆滿六個月後十五日內，檢具完成到職訓練證明文件報請直轄市、縣（市）主管機關備查。第4項並定有未依限者廢止設置核定及十五日內重新申請之規定。",
   "explain_en": "Article 5, paragraphs 2 and 3.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -8310,7 +8310,7 @@
   "answer": "d",
   "explain_zh": "第6條第1項：專業技術管理人員應於勞動基準法所定工作時間內常駐於製造、使用、貯存運作場所，並專職執行業務。第2項：專職指不得兼任環境保護法規以外其他法規所定專責（任）人員或從事其他與環境保護、化學物質管理無關之工作；但具備第2條第2項資格之廠務、場所主管人員、負責人，於運作第一、二類毒化物單一物質任一日在常溫常壓下液體未滿十公噸、固體未滿三百公噸者得兼任乙級，或得兼任丙級。",
   "explain_en": "Article 6, paragraphs 1 and 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -8337,7 +8337,7 @@
   "answer": "b",
   "explain_zh": "第7條第1項：專業技術管理人員因故未能常駐在場者，應備有請假紀錄或其他相關證明文件，以備查閱。第2項：於勞動基準法所定休息、休假規定之日數外，半年內累積超過三十日未到職，或經主管機關查獲一年內三次以上未符合前項規定者，不得再繼續設置為該運作人之專業技術管理人員；運作人並應於事實發生後三十日內重新申請核定設置。",
   "explain_en": "Article 7.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -8364,7 +8364,7 @@
   "answer": "d",
   "explain_zh": "第8條列舉三款禁止行為：同一時間設置於不同之運作場所、使他人利用其名義虛偽設置、明知為不實之事項而申報不實或於業務上作成之文書為虛偽記載。第15條第1款並定明違反第8條各款情形之一者，依本法第62條規定處罰。",
   "explain_en": "Article 8.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -8391,7 +8391,7 @@
   "answer": "d",
   "explain_zh": "第9條列舉三款：依第6條監督其於勞動基準法所定工作時間內常駐運作場所並專職負責第12條、第13條所定業務；依第7條應備有請假紀錄，該請假紀錄應至少保存三年；監督其執行第12條、第13條所定業務，且不得有第8條所定之行為。第14條並定明運作人未依各該款規定辦理者，依本法第59條第10款處罰。",
   "explain_en": "Article 9.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -8418,7 +8418,7 @@
   "answer": "c",
   "explain_zh": "第10條第1項：離職、異動時應由代理人代理，並於事實發生後十五日內以書面報請直轄市、縣（市）主管機關備查。第2項：代理期間不得超過三個月，代理期滿前十五日內，運作人應完成規定級別以上之合格專業技術管理人員核定設置。第3項：該人員應於離職或異動日起三十日內以書面報請備查。第4項並定義異動之意義。",
   "explain_en": "Article 10, paragraphs 1 to 3.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -8445,7 +8445,7 @@
   "answer": "b",
   "explain_zh": "第11條第1項：非因離職、異動而因故未能執行業務時，應由代理人代理；代理期間連續達十五日以上者，運作人應於事實發生後十五日內以書面報請直轄市、縣（市）主管機關備查。第2項：代理期間不得超過三個月，但報經直轄市、縣（市）主管機關核准者，可延長至六個月；代理期滿前十五日內，運作人應完成規定級別以上之核定設置。",
   "explain_en": "Article 11.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -8472,7 +8472,7 @@
   "answer": "b",
   "explain_zh": "第13條：丙級專業技術管理人員應執行依本法第40條就裝置即時追蹤系統之運送車輛管理系統維持正常操作、監督運送駕駛人隨車攜帶文件、備具安全裝備及懸掛或黏貼運送工具標示，以及其他運送行為之污染防制及危害預防等相關事項。第12條第2項並規定運作人兼有運送行為而未設丙級者，由甲、乙級人員辦理丙級業務。",
   "explain_en": "Article 13.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -8499,7 +8499,7 @@
   "answer": "c",
   "explain_zh": "第14條列舉九款運作人依本法第59條第10款處罰之情事，包括未依第4條第2項指定符合資格者代理、違反第5條第1項拒絕規避或妨礙參加在職及到職訓練、未依第5條第3項報備、未依第5條第4項於十五日內重新申請、未依第7條第2項於三十日內重新申請、未依第9條各款監督及備有並保存請假紀錄、未依第10條、第11條執行代理報備及完成核定設置等。第15條則為專業技術管理人員本身之處罰。",
   "explain_en": "Article 14.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -8526,7 +8526,7 @@
   "answer": "a",
   "explain_zh": "第15條第1項列舉四款：違反第8條各款情形之一；一年內二次未依第12條第1項第1款就運作或釋放量製作紀錄並定期申報；一年內二次未依第12條第1項第2款辦理容器、包裝、運作場所及設施之標示或未備具安全資料表；一年內二次未依第13條第1款監督運送駕駛人。第2項：所稱一年內，指本辦法修正施行後之違規行為，自違規之日起往前回溯至第三百六十五日止。",
   "explain_en": "Article 15.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -8553,7 +8553,7 @@
   "answer": "a",
   "explain_zh": "第16條：依本辦法規定應重新申請專業技術管理人員核定設置者，其原申請核定設置書自應完成設置之期限屆滿之翌日起，失其效力。第4條第4項則另定合格證書經撤銷或廢止者，設置核定自撤銷或廢止日起失其效力。",
   "explain_en": "Article 16.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -8580,7 +8580,7 @@
   "answer": "c",
   "explain_zh": "第17條：經中央主管機關依本法指定公告具有危害性之關注化學物質管理所設置之專業技術管理人員，準用本辦法之規定。故其級別（第2條）、設置人數（第3條）、核定程序（第4條）、代理（第10條、第11條）及罰則（第14條、第15條）等均一體適用。",
   "explain_en": "Article 17.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -8607,7 +8607,7 @@
   "answer": "d",
   "explain_zh": "第18條：本辦法自中華民國一百零九年一月十六日施行，與毒性及關注化學物質管理法施行細則第19條之施行日相同。危害預防及應變計畫作業辦法則依該辦法第11條自一百零九年十一月一日施行。",
   "explain_en": "Article 18.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -8634,7 +8634,7 @@
   "answer": "b",
   "explain_zh": "第1條：本細則依土壤及地下水污染整治法第五十六條規定訂定之。母法第六條第二項則是土壤、地下水污染管制標準之授權依據；第十二條第三項為整治場址公告之規定，兩者均非本細則之授權來源。",
   "explain_en": "Article 1: issued under Article 56 of the Act.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -8661,7 +8661,7 @@
   "answer": "b",
   "explain_zh": "第2條：定期檢測應依轄區之地理、地質、水文條件及土地使用情形，逐年編列預算進行，並對有土壤、地下水污染之虞之地區優先檢測。此為主管機關掌握轄區品質狀況並及早發現污染的基礎工作。",
   "explain_en": "Article 2: annual budgeting by local conditions, with suspected areas first.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -8688,7 +8688,7 @@
   "answer": "d",
   "explain_zh": "第3條：追查污染責任之適當措施包括調查土地類別、實際使用及產權歸屬、清查污染來源、保存相關證明文件，以及依相關環境保護法令處理並通知農業、衛生、水利、工業、地政、營建或相關機關依權責處理。代為執行及求償係本法第十三條、第四十三條之另一制度。",
   "explain_en": "Article 3 lists four tracing measures; cost recovery is not one of them.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -8715,7 +8715,7 @@
   "answer": "a",
   "explain_zh": "第4條：得委任或委託辦理者包括本法第六條第一項之檢測及監測、第七條第一項、第七項及第十二條第一項之查證工作、第二十五條之檢查、第二十六條第一項核准前之查證工作、第二十八條第五項之相關查核工作。公告、處分等決定權仍由主管機關行使。",
   "explain_en": "Article 4 lists five delegable verification and inspection tasks.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -8742,7 +8742,7 @@
   "answer": "d",
   "explain_zh": "第5條：採行土壤離場處理者，應提報土壤離場之處理方式及設施、管制措施二項資料。第14條、第18條、第20條亦要求控制計畫、清理計畫及整治計畫中就土壤離場處理載明相同事項。",
   "explain_en": "Article 5 requires the off-site treatment method, facilities and control measures.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -8769,7 +8769,7 @@
   "answer": "c",
   "explain_zh": "第6條：如經研判污染物質之特性、污染範圍或情況，無法於本法第七條第六項規定之執行期限內符合同條第七項情形者，應即依本法第十二條第二項規定辦理（公告為控制場址）。第9條、第11條則規範控制場址後續之初步評估與解除管制。",
   "explain_en": "Article 6 directs the authority to proceed under Article 12-2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -8796,7 +8796,7 @@
   "answer": "c",
   "explain_zh": "第7條：所稱變更經營者，指經營事業之主體發生異動，不包括公司或法人之負責人、代表人或股東之變更。本法第九條第一項要求指定公告之事業於變更經營者等情形時，應提供土壤污染評估調查及檢測資料。",
   "explain_en": "Article 7 defines it as a change of the operating entity itself.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -8823,7 +8823,7 @@
   "answer": "a",
   "explain_zh": "第8條：地下水污染來源明確，指依查證、調查結果及資料，可判斷或確認造成地下水污染之物質或位置等資訊。本法第十二條第二項規定地下水污染來源明確者，應公告為控制場址。",
   "explain_en": "Article 8 defines it by reference to verification and investigation results.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -8850,7 +8850,7 @@
   "answer": "a",
   "explain_zh": "第9條：直轄市、縣（市）主管機關得於控制場址污染物移除或清理後，依本法第十二條第三項規定進行初步評估，並應編列預算執行控制場址初步評估事宜。初步評估之評分方式另定於初步評估暨處理等級評定辦法。",
   "explain_en": "Article 9: local authorities may assess after removal and must budget for it.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -8877,7 +8877,7 @@
   "answer": "c",
   "explain_zh": "第11條：報請中央主管機關審核公告為整治場址前，因代為執行致土壤、地下水污染物濃度低於管制標準者，得解除控制場址之管制並公告之。第9條規定初步評估之進行，第10條則規範公告內容。",
   "explain_en": "Article 11 allows lifting the control-site designation with an announcement.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -8904,7 +8904,7 @@
   "answer": "c",
   "explain_zh": "第12條第1項：囑託文件應載明土地所有人之姓名、身分證明文件字號及住址等基本資料、土地標示、公告控制場址或整治場址之日期及文號。此係為使污染管制狀態公示於土地登記簿。",
   "explain_en": "Article 12-1 lists the three required items.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -8931,7 +8931,7 @@
   "answer": "a",
   "explain_zh": "第12條第2項：辦理整治場址囑託登記時，得併同本法第二十一條規定辦理土地禁止處分之登記，囑託文件除第1項各款外，並應載明權利範圍、禁止處分之法律依據及其事由、禁止土地移轉、分割及設定負擔之處分方式。",
   "explain_en": "Article 12-2 adds three items for the prohibition registration.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -8958,7 +8958,7 @@
   "answer": "a",
   "explain_zh": "第13條：主管機關依本法第十三條第二項採取適當措施進行改善，應包括污染範圍調查及污染監測。第14條進一步規定污染控制計畫應載明之十四款內容。",
   "explain_en": "Article 13 requires extent investigation and monitoring.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -8985,7 +8985,7 @@
   "answer": "d",
   "explain_zh": "第15條：前條污染控制計畫之實施者，得視實際需要申請變更污染控制計畫，經主管機關核定後實施。相對地，第22條就整治計畫之變更則區分應申請核定與應送備查之事項。",
   "explain_en": "Article 15 requires application and approval before implementation.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -9012,7 +9012,7 @@
   "answer": "c",
   "explain_zh": "第16條：調查及評估計畫內容包括計畫提出者、撰寫者、調查者及評估者資料、場址基本資料、場址現況及污染情形、污染調查方法、污染物與範圍及程度、對環境影響之評估方法、計畫執行期程、經費預估及其他指定事項。整治後土地使用方式與自行驗證屬第20條整治計畫之內容。",
   "explain_en": "Article 16 lists nine items; post-remediation land use belongs to Article 20.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -9039,7 +9039,7 @@
   "answer": "b",
   "explain_zh": "第18條：清理或污染防治計畫書應載明提出者及場址基本資料、污染情況說明、土壤挖除回填暫存運輸或地下水抽出之方式與預估數量及管制措施、執行期程、污染防治對策、安全衛生管理及緊急應變方式；計畫於實施完成後，應將結果通知直轄市、縣（市）主管機關。",
   "explain_en": "Article 18-2 requires notifying the local competent authority of the results.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -9066,7 +9066,7 @@
   "answer": "a",
   "explain_zh": "第19條：主管機關擬訂整治計畫前，應通知整治場址之污染土地關係人，得於一定期限內依本法第二十二條第三項規定提出土壤、地下水污染整治計畫。第20條則規定整治計畫應載明之十五款內容。",
   "explain_en": "Article 19 requires notifying the interested party of the polluted land.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -9093,7 +9093,7 @@
   "answer": "b",
   "explain_zh": "第20條：整治計畫內容包括計畫提出者資料、計畫大綱、場址基本資料、場址現況及污染情形、污染物與範圍及程度、整治目標、整治方法、整治後之土地使用方式、污染監測方式、清理或污染防治、場址安全衛生管理、整治完成之自行驗證方式及採樣檢測規劃、經費預估、整治期程等十五款。",
   "explain_en": "Article 20 lists fifteen required items for the remediation plan.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -9120,7 +9120,7 @@
   "answer": "b",
   "explain_zh": "第21條：應提出場址地質特性、污染物特性或整治技術等因素之評估、預計可行之整治目標、整治目標下對環境影響之評估、對健康風險之評估及其他中央主管機關指定事項，報經直轄市、縣（市）主管機關轉請中央主管機關核准，並依審核意見修正後併入整治目標內容。",
   "explain_en": "Article 21 lists five items forwarded for central approval.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -9147,7 +9147,7 @@
   "answer": "c",
   "explain_zh": "第22條：應申請變更核定者為第二十條第一項第一款所定計畫提出者之資料，及第五款至第八款（污染物範圍程度、整治目標、整治方法、整治後土地使用方式）、第十二款（自行驗證方式）及第十四款（整治期程）所定事項；其餘事項之變更送主管機關備查即可。",
   "explain_en": "Article 22 distinguishes changes needing approval from those merely filed.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -9174,7 +9174,7 @@
   "answer": "c",
   "explain_zh": "第23條：所定適當地點應包括整治場址所在地之鄉（鎮、市、區）公所、地政事務所、村（里）辦公室及主管機關之資訊網站。此係為使利害關係人及當地居民得以充分知悉整治計畫內容。",
   "explain_en": "Article 23 lists four categories of appropriate locations.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -9201,7 +9201,7 @@
   "answer": "c",
   "explain_zh": "第24條：報請核准解除列管應提出污染來源範圍及程度、控制或整治目標、適當措施或計畫實施情形及結果、自行驗證實施情形及結果、經費支出情形及其他主管機關指定事項。土地開發利用計畫非屬本條所列資料。",
   "explain_en": "Article 24 lists six items; a development plan is not among them.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -9228,7 +9228,7 @@
   "answer": "b",
   "explain_zh": "第25條：各土地使用目的事業主管機關辦理土地使用復育事宜時，除應依土地使用相關法規辦理外，並為必要之指導及協助。第28條並要求土地開發計畫與整治計畫同時提出時應會商辦理。",
   "explain_en": "Article 25 adds a duty of necessary guidance and assistance.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -9255,7 +9255,7 @@
   "answer": "b",
   "explain_zh": "第26條：所稱相關工作指控制場址或整治場址調查及評估之執行、應變必要措施之執行、控制場址適當措施之實施、控制計畫與整治計畫之訂定及實施，以及其他與基金支應有利益衝突之事項。本條係為避免基金運用產生利益衝突。",
   "explain_en": "Article 26 lists five categories of remediation-related works.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -9282,7 +9282,7 @@
   "answer": "a",
   "explain_zh": "第27條第1項：本法第四十條第三項及第四十一條第四項所定之污染行為人，如係法人、非法人團體、機關（構）或其他組織者，應令該法人、機關（構）或團體有代表權之人參加本法相關法規及環境教育講習。",
   "explain_en": "Article 27-1 requires the representative of the entity to attend.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -9309,7 +9309,7 @@
   "answer": "b",
   "explain_zh": "第27條第2項：污染行為人於通知指定時間參加講習時，如有正當理由而無法參加者，得申請延期，並以二次為限。逾此次數未參加者，即應依本法相關規定處理。",
   "explain_en": "Article 27-2 allows postponement up to twice.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -9336,7 +9336,7 @@
   "answer": "c",
   "explain_zh": "第28條：同時提出土地開發計畫及土壤、地下水污染整治計畫者，土地開發目的事業主管機關及主管機關依相關法令審核時，應會商辦理，以避免審查標準歧異並加速場址再利用。",
   "explain_en": "Article 28 requires the two authorities to review in consultation.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -9363,7 +9363,7 @@
   "answer": "a",
   "explain_zh": "第29條：本細則自發布日施行。本細則現行條文之修正日期為民國九十九年十二月三十一日，與母法及各項管制標準共同構成土壤及地下水污染管理之規範體系。",
   "explain_en": "Article 29: effective upon promulgation.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -9390,7 +9390,7 @@
   "answer": "d",
   "explain_zh": "第1條：本標準依土壤及地下水污染整治法第六條第二項規定訂定之。同一授權條項亦為地下水污染管制標準之訂定依據；母法第五十六條則是施行細則之授權來源。",
   "explain_en": "Article 1: issued under Article 6-2 of the Act.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -9417,7 +9417,7 @@
   "answer": "d",
   "explain_zh": "第2條：本標準所列土壤中物質濃度，受區域土壤地質條件及環境背景因素影響，經具體科學性數據研判非因外來污染而達管制值者，得經中央主管機關同意後不適用本標準。地下水污染管制標準第2條亦有類似之背景值排除機制。",
   "explain_en": "Article 2 allows exemption with central approval based on scientific data.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -9444,7 +9444,7 @@
   "answer": "d",
   "explain_zh": "第3條：毫克／公斤指每一公斤土壤中（乾基）所含污染物之毫克數；奈克－毒性當量／公斤指每一公斤土壤中（乾基）所含之污染物奈克－毒性當量（TEQ）數。二者均以乾基為計算基準。",
   "explain_en": "Article 3 defines both on a dry-weight basis.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -9471,7 +9471,7 @@
   "answer": "a",
   "explain_zh": "第6條：戴奧辛管制標準值之濃度，以檢測附表所列各項戴奧辛污染物所得濃度，乘以其國際毒性當量因子（I-TEF）之總和計算之，並以毒性當量（TEQ）表示。第5條所列戴奧辛管制標準值為一千奈克－毒性當量／公斤。",
   "explain_en": "Article 6: sum of concentrations times I-TEF, expressed as TEQ.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -9498,7 +9498,7 @@
   "answer": "c",
   "explain_zh": "第7條：事業及其所屬公會或環境保護相關團體得提出具體科學性數據、資料，供中央主管機關作為本標準修正之參考。地下水污染管制標準第6條亦有相同之公眾參與規定。",
   "explain_en": "Article 7 allows enterprises, associations and environmental groups to submit data.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -9525,7 +9525,7 @@
   "answer": "c",
   "explain_zh": "第8條：本標準自發布日施行。本標準現行條文修正日期為民國一百年一月三十一日；相對地，地下水污染管制標準第7條除自發布日施行外，另就一百零二年修正條文定有自一百零三年一月一日施行之特別規定。",
   "explain_en": "Article 8: effective upon promulgation.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -9552,7 +9552,7 @@
   "answer": "b",
   "explain_zh": "第2條：排除適用之要件為受區域土壤地質條件及環境背景因素影響，且經具體科學性數據研判非因外來污染而達管制值，並須經中央主管機關同意。單純之切結、位置或檢測次數均非法定要件。",
   "explain_en": "Article 2 hinges on scientific proof of non-external origin.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -9579,7 +9579,7 @@
   "answer": "b",
   "explain_zh": "第1條：本標準依土壤及地下水污染整治法第六條第二項規定訂定之，與土壤污染管制標準之授權依據相同。母法第十二條第十一項及第十四條第五項則為初步評估暨處理等級評定辦法之授權來源。",
   "explain_en": "Article 1: issued under Article 6-2 of the Act.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -9606,7 +9606,7 @@
   "answer": "a",
   "explain_zh": "第2條：本標準所列地下水中物質濃度，受區域水文地質條件及環境背景因素影響，經研判非因外來污染而達管制值者，得經中央主管機關同意後不適用本標準。此與土壤污染管制標準第2條之背景值排除規定相呼應。",
   "explain_en": "Article 2 allows exemption with central approval.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -9633,7 +9633,7 @@
   "answer": "a",
   "explain_zh": "第4條：污染物之管制項目及管制標準值，其濃度單位為毫克／公升。相對地，土壤污染管制標準第3條所定單位為毫克／公斤（乾基）及奈克－毒性當量／公斤，二者計量基準不同。",
   "explain_en": "Article 4 uses milligrams per litre.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -9660,7 +9660,7 @@
   "answer": "a",
   "explain_zh": "第4條：污染物之管制項目及管制標準值以毫克／公升表示，並依第3條所分之第一類（飲用水水源水質保護區內）及第二類（第一類以外）地下水分別訂定，第一類之管制標準值較為嚴格。第5條並允許主管機關選擇最適當之檢測項目與調查範圍。",
   "explain_en": "Article 4 sets values separately for the two categories defined in Article 3.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -9687,7 +9687,7 @@
   "answer": "b",
   "explain_zh": "第5條：前條所列污染物之管制項目，得由各級主管機關依區域特性、調查目的、運作方式，評估、選擇及核定最適當之檢測項目與調查範圍，使調查資源得以合理配置。",
   "explain_en": "Article 5 allows selection of the most appropriate items and scope.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -9714,7 +9714,7 @@
   "answer": "d",
   "explain_zh": "第6條：事業及其所屬公會或環境保護相關團體得提出具體科學性數據、資料，供中央主管機關作為本標準修正之參考，與土壤污染管制標準第7條規定一致。",
   "explain_en": "Article 6 mirrors Article 7 of the soil standards.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -9741,7 +9741,7 @@
   "answer": "d",
   "explain_zh": "第7條：本標準自發布日施行；本標準中華民國一百零二年十二月十八日修正之條文，自一百零三年一月一日施行。相對地，土壤污染管制標準第8條僅規定自發布日施行。",
   "explain_en": "Article 7 sets a special date for the 2013 amendments.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -9768,7 +9768,7 @@
   "answer": "b",
   "explain_zh": "第1條：本辦法依土壤及地下水污染整治法第十二條第十一項及第十四條第五項規定訂定之。母法第六條第二項為土壤、地下水污染管制標準之授權依據，第五十六條則為施行細則之授權來源。",
   "explain_en": "Article 1: issued under Articles 12-11 and 14-5 of the Act.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -9795,7 +9795,7 @@
   "answer": "d",
   "explain_zh": "第2條第1款：初步評估指進行土壤、地下水污染控制場址污染影響潛勢評估，並依評估結果評定是否公告為整治場址。同條第2款之處理等級評定則是評定基金支出之優先順序，第3款場址污染影響潛勢評估則指土壤與地下水兩途徑之評分。",
   "explain_en": "Article 2-1 defines preliminary assessment.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -9822,7 +9822,7 @@
   "answer": "b",
   "explain_zh": "第2條第2款：處理等級評定指依場址污染影響潛勢評估總分，評定由整治基金支出費用之控制場址、整治場址優先順序。同條第5款：對環境影響之評估指依場址污染潛勢評估總分評估污染場址對國民健康及生活環境之危害性。第9條並規定評定之順序。",
   "explain_en": "Article 2 items 2 and 5 define these two terms.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -9849,7 +9849,7 @@
   "answer": "d",
   "explain_zh": "第4條：如有二項以上污染物項目達土壤、地下水污染管制標準，所有污染物項目均應納入評估，作為判定之依據。第5條、第6條並要求分別計算各污染物項目之分數後加總為總分。",
   "explain_en": "Article 4 requires all contaminants to be assessed.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -9876,7 +9876,7 @@
   "answer": "b",
   "explain_zh": "第5條：土壤污染途徑影響潛勢評分項目包括土壤污染程度評分（SL1）、土壤污染場址土地使用狀況評分（SL2）及土壤污染物危害性評分（SL3）；SL＝SL1×SL2×SL3／20。應分別計算各污染物項目分數，其總和為土壤污染途徑影響潛勢總分（SLT）。",
   "explain_en": "Article 5 sets SL = SL1×SL2×SL3/20.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -9903,7 +9903,7 @@
   "answer": "c",
   "explain_zh": "第6條：地下水污染途徑影響潛勢評分項目包括地下水污染程度評分（GW1）、地下水污染場址土地使用狀況評分（GW2）及地下水污染物危害性評分（GW3）；GW＝GW1×GW2×GW3／80。與第5條土壤途徑之除數20不同，應特別留意。",
   "explain_en": "Article 6 sets GW = GW1×GW2×GW3/80.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -9930,7 +9930,7 @@
   "answer": "b",
   "explain_zh": "第7條：場址污染影響潛勢評估總分（TOL）＝根號下［（SLT）平方＋（GWT）平方］除以二，即以土壤污染途徑影響潛勢總分與地下水污染途徑影響潛勢總分之平方和除以二後開根號。計算結果應填報於附表四。",
   "explain_en": "Article 7 uses the root-mean-square of SLT and GWT.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -9957,7 +9957,7 @@
   "answer": "d",
   "explain_zh": "第9條：處理等級評定應先依第七條第二項場址污染影響潛勢評估總分評定；分數相同者，依第六條第三項地下水污染途徑影響潛勢總分評定；再相同者，依第五條第三項土壤污染途徑影響潛勢總分評定；仍相同者優先順序相同。中央主管機關並得視個案實際需要調整。",
   "explain_en": "Article 9 sets a three-tier tie-breaking order.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -9984,7 +9984,7 @@
   "answer": "a",
   "explain_zh": "第10條：本辦法自發布日施行。本辦法現行條文修正日期為民國一百零二年四月二十四日，其第8條並規定總分達一千二百分以上者應報請中央主管機關審核公告為整治場址。",
   "explain_en": "Article 10: effective upon promulgation.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -10011,7 +10011,7 @@
   "answer": "d",
   "explain_zh": "第1條：本細則依氣候變遷因應法第六十二條規定訂定之。母法第二十一條第二項為溫室氣體排放量盤查登錄及查驗管理辦法之授權依據，第二十七條第二項等則為碳費收費辦法之授權來源。",
   "explain_en": "Article 1: issued under Article 62 of the Act.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -10038,7 +10038,7 @@
   "answer": "c",
   "explain_zh": "第2條：中央主管機關主管事項共二十二款，包括溫室氣體查驗機構之審查、許可、管理及認證機構之管理。至於推動會之規劃執行、減量執行方案之訂修及協助檢查輔導，則為第3條所定直轄市、縣（市）主管機關之事項。",
   "explain_en": "Article 2 lists 22 central matters; the others belong to Article 3.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -10065,7 +10065,7 @@
   "answer": "c",
   "explain_zh": "第2條第14款、第15款、第18款、第20款：全國溫室氣體之排放源碳費徵收之訂定、審核及執行，進口產品碳排放量之申報、審查及管理，產品碳足跡之審查、查驗、核算、核定、查核及檢查，二氧化碳捕捉後封存之審查及管理，均屬中央主管機關主管事項。",
   "explain_en": "Article 2 items 14, 15, 18 and 20 all fall to the central authority.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -10092,7 +10092,7 @@
   "answer": "b",
   "explain_zh": "第3條：直轄市、縣（市）主管機關主管事項共十四款，包括執行直轄市、縣（市）產品碳足跡查核及檢查事項、氣候變遷因應推動會之規劃及執行事項。查驗機構許可、減量額度審查及總量管制排放交易則屬第2條中央主管機關事項。",
   "explain_en": "Article 3 lists 14 local matters.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -10119,7 +10119,7 @@
   "answer": "b",
   "explain_zh": "第3條第6款至第10款：直轄市、縣（市）主管機關主管事項包括氣候變遷調適執行方案之訂修、規劃及執行、調適之教育及宣導、協助民間團體推展、人員之訓練與講習，以及調適及減量之調查、輔導及研究發展等事項。",
   "explain_en": "Article 3 items 6 to 10 cover local adaptation duties.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -10146,7 +10146,7 @@
   "answer": "c",
   "explain_zh": "第4條：國家因應氣候變遷行動綱領經行政院核定後公開之，其內容包括我國氣候變遷之未來情境、調適及減緩所遭遇之衝擊及挑戰、願景及目標、基本原則、政策內涵、後續推動等六項。",
   "explain_en": "Article 4 lists six content items, approved by the Executive Yuan.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -10173,7 +10173,7 @@
   "answer": "d",
   "explain_zh": "第5條：中央有關機關應進行溫室氣體排放趨勢推估及情境分析，並提出電力排放係數、電力需求成長、各部門溫室氣體減量情境、減量貢獻及減量成本之估算，且評估可能衍生之影響，送中央主管機關彙整及綜合評估；階段管制目標報請行政院核定後實施並公開。",
   "explain_en": "Article 5 requires trend projection and scenario analysis.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -10200,7 +10200,7 @@
   "answer": "c",
   "explain_zh": "第6條第1項：中央主管機關依本法第十條第五項彙整各部門階段管制目標執行狀況，應於每年十一月三十日前向行政院報告。報告內容包括階段管制目標、各部門執行狀況摘要、達成情形、分析及檢討。",
   "explain_en": "Article 6-1 sets November 30.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -10227,7 +10227,7 @@
   "answer": "a",
   "explain_zh": "第6條第3項：中央主管機關應於各階段管制期間結束後次次年十一月三十日前，向行政院報告前一階段之達成情形。此與同條第1項每年十一月三十日前之年度報告義務併行。",
   "explain_en": "Article 6-3 sets the second following year, November 30.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -10254,7 +10254,7 @@
   "answer": "b",
   "explain_zh": "第8條：部門行動方案成果報告應於每年九月三十日前送中央主管機關，報請行政院核定後公開之；其內容包括摘要、所屬部門階段管制目標執行狀況及評量指標達成情形、推動策略及措施執行成果含經費執行情形。",
   "explain_en": "Article 8: September 30, with Executive Yuan approval.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -10281,7 +10281,7 @@
   "answer": "c",
   "explain_zh": "第9條：成果報告顯示未達目標或指標者，中央目的主管機關應於提送成果報告時併同提出改善措施，送中央主管機關報請行政院核定後公開之；改善措施內容包括改善措施、期程及經費，以及預期改善成果。",
   "explain_en": "Article 9 requires improvement measures filed with the report.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -10308,7 +10308,7 @@
   "answer": "b",
   "explain_zh": "第10條：中央目的事業主管機關應於每年三月三十一日前提送排放量調查及統計成果供中央主管機關進行全國排放量統計；其成果應包括前二年之溫室氣體排放量或碳匯量，及其活動數據或排放係數。",
   "explain_en": "Article 10: by March 31, covering the previous two years.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -10335,7 +10335,7 @@
   "answer": "c",
   "explain_zh": "第12條：國家報告應每三年編撰一次，於每三年之第三年十一月三十日前報請行政院核定後公開之。相對地，第11條所定國家溫室氣體排放清冊則為每年六月三十日前公開。",
   "explain_en": "Article 12: every three years, by November 30 of the third year.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -10362,7 +10362,7 @@
   "answer": "a",
   "explain_zh": "第12條第2項：國家報告內容包括國情及環境基本資料、排放與吸收統計及趨勢分析、減量政策及措施、排放預測、氣候變遷衝擊影響及調適對策、氣候變遷及系統觀測研究、技術研發需求及移轉、國際合作及交流、教育培訓及宣導等九項。個別事業之盤查清冊非其內容。",
   "explain_en": "Article 12-2 lists nine items; enterprise inventories are not among them.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -10389,7 +10389,7 @@
   "answer": "d",
   "explain_zh": "第13條：減量執行方案應於部門行動方案核定後八個月內，送直轄市、縣（市）氣候變遷因應推動會，報請中央主管機關會商中央目的事業主管機關核定後實施並公開，且每五年至少檢討一次。相對地，第19條調適執行方案為核定後一年內、每四年至少檢討一次。",
   "explain_en": "Article 13: eight months, central approval in consultation, five-year review.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -10416,7 +10416,7 @@
   "answer": "a",
   "explain_zh": "第14條：減量執行方案成果報告應於每年九月三十日前，送直轄市、縣（市）氣候變遷因應推動會後公開之；其內容包括摘要、推動策略及措施執行成果含經費執行情形、分析及檢討。第20條調適執行方案成果報告則為每年八月三十一日前。",
   "explain_en": "Article 14: September 30, to the local committee, then published.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -10443,7 +10443,7 @@
   "answer": "b",
   "explain_zh": "第15條：調適方案及作為應依循三項基本原則：以科學為基礎並評估氣候變遷風險、發展因地制宜或由下而上及社區與原住民族為本之調適、強化脆弱群體因應能力並充分考量人權潛在影響。經費分配比例並非本條所定原則。",
   "explain_en": "Article 15 lists three principles; budget allocation is not one.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -10470,7 +10470,7 @@
   "answer": "c",
   "explain_zh": "第16條：調適行動方案及調適目標應於易受氣候變遷衝擊之權責領域確定後一年內送中央主管機關；其內容包括領域範疇及執行現況、氣候變遷衝擊情形、未來情境設定及風險評估、調適目標、推動策略措施及檢討、永續發展目標關聯性、推動期程及經費編列、預期效益及管考機制等八項。",
   "explain_en": "Article 16: within one year of determining the sector.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -10497,7 +10497,7 @@
   "answer": "c",
   "explain_zh": "第17條第3項：中央主管機關應於各期國家調適計畫結束後次年十一月三十日前，向行政院報告前一期之執行情形。相對地，第6條第3項階段管制目標之達成情形報告則為結束後次次年十一月三十日前。",
   "explain_en": "Article 17-3: by November 30 of the following year.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -10524,7 +10524,7 @@
   "answer": "a",
   "explain_zh": "第18條：調適行動方案成果報告應於每年八月三十一日前送中央主管機關，報請行政院核定後公開之；內容包括摘要、該領域推動進度及調適目標執行狀況、分析及檢討、經費執行情形、未來規劃及需求。第8條之部門行動方案成果報告則為九月三十日前。",
   "explain_en": "Article 18: August 31, with Executive Yuan approval.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -10551,7 +10551,7 @@
   "answer": "b",
   "explain_zh": "第19條：調適執行方案應於調適行動方案及國家調適計畫核定後一年內，送直轄市、縣（市）氣候變遷因應推動會，報請中央主管機關會商中央目的事業主管機關核定後實施並公開，且每四年至少檢討一次。第13條減量執行方案則為八個月內、每五年檢討一次。",
   "explain_en": "Article 19: one year, with a four-year review cycle.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -10578,7 +10578,7 @@
   "answer": "a",
   "explain_zh": "第20條：調適執行方案成果報告應於完整執行年度後每年八月三十一日前，送直轄市、縣（市）氣候變遷因應推動會後公開之；內容包括摘要、整體進度及執行情形、分析及檢討、未來推動規劃。第14條減量執行方案成果報告則為每年九月三十日前。",
   "explain_en": "Article 20: August 31 after a full implementation year.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -10605,7 +10605,7 @@
   "answer": "d",
   "explain_zh": "第21條：召開公聽會程序時應將部門行動方案或調適行動方案初稿內容、開會資訊、會議紀錄公開之；初稿內容及開會資訊應於會議舉行十日前公開周知。第22條地方舉辦座談會則為舉辦七日前。",
   "explain_en": "Article 21: ten days in advance.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -10632,7 +10632,7 @@
   "answer": "b",
   "explain_zh": "第22條：直轄市、縣（市）主管機關依本法第十五條或第二十條舉辦座談會或以其他適當方法廣詢意見時，應將減量執行方案或調適執行方案之初稿內容、開會資訊或其他適當廣詢方法、紀錄公開之，並於舉辦七日前公開周知。",
   "explain_en": "Article 22: seven days in advance.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -10659,7 +10659,7 @@
   "answer": "c",
   "explain_zh": "第23條：中央主管機關依本法第十條第二項規定舉辦公聽會之會議紀錄應公開之。依第24條規定，本細則所定應公開之事項，除另有規定外，應於辦理完成或核定後三十日內公開於中央主管機關指定網站。",
   "explain_en": "Article 23 requires publication of the minutes.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -10686,7 +10686,7 @@
   "answer": "b",
   "explain_zh": "第24條：本細則所定應公開之事項，除另有規定外，應於辦理完成或核定後三十日內，公開於中央主管機關指定網站。第21條至第23條就公聽會、座談會及其紀錄之公開另有特別規定。",
   "explain_en": "Article 24: within thirty days, on the designated website.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -10713,7 +10713,7 @@
   "answer": "d",
   "explain_zh": "第25條：本細則自發布日施行，其現行條文修正日期為民國一百十二年十二月二十九日。相對地，溫室氣體排放量盤查登錄及查驗管理辦法第17條則規定自中華民國一百十三年一月一日施行。",
   "explain_en": "Article 25: effective upon promulgation.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -10740,7 +10740,7 @@
   "answer": "c",
   "explain_zh": "第1條：本辦法依氣候變遷因應法第二十一條第二項規定訂定之。母法第六十二條為施行細則之授權依據；第二十七條第二項、第二十八條第四項及第三十條第二項則為碳費收費辦法之授權來源。",
   "explain_en": "Article 1: issued under Article 21-2 of the Act.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -10767,7 +10767,7 @@
   "answer": "a",
   "explain_zh": "第2條第3款、第4款：質量平衡法指利用製程或化學反應式中物種質量與能量之進出、產生、消耗及轉換之平衡，計算排放量之方法；直接監測法指以連續排放監（檢）測，測定出溫室氣體排氣濃度，並根據排氣濃度與流量計算排放量之方法。第2款排放係數法則為使用量乘以特定排放係數。",
   "explain_en": "Article 2 items 3 and 4 define these two methods.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -10794,7 +10794,7 @@
   "answer": "c",
   "explain_zh": "第2條第5款、第6款：盤查指彙整、計算及分析排放量之作業；查驗指以系統化、文件化及獨立性等方式，執行查證或重要項目評估之作業。第8條並規定查驗結果應為合理保證等級，且不得連續六年由同一主導查驗員執行。",
   "explain_en": "Article 2 items 5 and 6 define inventory and verification.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -10821,7 +10821,7 @@
   "answer": "c",
   "explain_zh": "第4條第1項：事業盤查排放量應以排放係數法、質量平衡法、直接監測法或其他經中央主管機關認可之方法計算，以公噸二氧化碳當量（公噸 CO2e）表示，並四捨五入至小數點後第三位。碳費收費辦法第5條之收費排放量亦取至小數點後第三位。",
   "explain_en": "Article 4-1: four methods, tonnes CO2e, three decimal places.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -10848,7 +10848,7 @@
   "answer": "d",
   "explain_zh": "第4條第5項：以直接監測法計算排放量，事業應提出排放量監（檢）測計畫書送經中央主管機關核定後實施；計畫書內容應包含監（檢）測方法與原理、連續監測設施之規格、設置位置、監（檢）測結果與其數據處理及品質保證作業、結果之記錄方式及保存等事項。",
   "explain_en": "Article 4-5 requires central approval of a monitoring plan.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -10875,7 +10875,7 @@
   "answer": "a",
   "explain_zh": "第5條第1項：應由中央主管機關許可之環境檢驗測定機構、取得 CNS 17025 或 ISO／IEC 17025 認證之實驗室或檢測機構，依 NIEA、CNS、USEPA、APHA、JIS、ASTM、AOAC、ISO、歐盟認可方法或其他經認可方法之最新版次為之。第2項並規定使用公告燃料及原（物）料者，得以商品標示之熱值或碳含量計算。",
   "explain_en": "Article 5-1 lists qualified bodies and ten method sources.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -10902,7 +10902,7 @@
   "answer": "b",
   "explain_zh": "第7條第1項：盤查報告書應包括基本資料、排放源平面配置圖說、製程流程圖說與產製期程及產品產量、排放源單元名稱及溫室氣體種類、原（物）料與燃料之種類成分碳含量低位熱值及用量、減量措施、排放源增設拆除情形、年排放量計算方法與數據來源、各類排放量資料等十款。財務績效資料非其內容。",
   "explain_en": "Article 7-1 lists ten items; financial performance is not one.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -10929,7 +10929,7 @@
   "answer": "a",
   "explain_zh": "第9條第1項：事業應於每年十月三十一日前，依中央主管機關所定格式，將溫室氣體查驗總結報告及查驗聲明書之查驗結果，以網路傳輸方式上傳至指定之資訊平台。第6條之排放量清冊及盤查報告書登錄期限則為每年四月三十日前。",
   "explain_en": "Article 9-1 sets October 31.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -10956,7 +10956,7 @@
   "answer": "a",
   "explain_zh": "第9條第2項：事業原登錄之排放量盤查資料與查驗機構查驗結果不一致者，應於上傳查驗結果時併同上傳修正後之排放量清冊及盤查報告書。第15條並規定登錄總排放量與查核結果差異達百分之五以上者，經限期改善屆期未完成者處以罰鍰。",
   "explain_en": "Article 9-2 requires uploading corrected documents at the same time.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -10983,7 +10983,7 @@
   "answer": "c",
   "explain_zh": "第10條：事業登錄之盤查文件或上傳之查驗結果，經中央主管機關審查有欠缺或不合規定者，應通知限期補正，補正總日數不得超過三十日；屆期未補正或補正仍不合規定者，駁回登錄之盤查文件或上傳之查驗結果。",
   "explain_en": "Article 10: total correction period capped at thirty days.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -11010,7 +11010,7 @@
   "answer": "d",
   "explain_zh": "第11條第1項：事業因天災或其他不可抗力事由致未能於期限內完成登錄或查驗作業時，應於規定期限屆滿前，以書面敘明理由，檢具相關資料，向中央主管機關申請展延，最長不得超過六十日。",
   "explain_en": "Article 11-1 caps the extension at sixty days.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -11037,7 +11037,7 @@
   "answer": "d",
   "explain_zh": "第11條第2項：中央主管機關受理展延申請，經審查不合規定或內容有欠缺者，應即通知事業補正，補正次數以一次為限，補正日數不得超過三十日；屆期未補正或補正仍不合規定，駁回其申請。",
   "explain_en": "Article 11-2: one correction, up to thirty days.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -11064,7 +11064,7 @@
   "answer": "b",
   "explain_zh": "第12條：事業停業、歇業或解散，應於事實發生之日起九十日內依本辦法規定辦理盤查登錄作業。碳費收費辦法第18條亦規定事業因停業、歇業、解散應於事實發生之日起九十日內申請碳費結算及停徵。",
   "explain_en": "Article 12: within ninety days.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -11091,7 +11091,7 @@
   "answer": "c",
   "explain_zh": "第13條：主管機關得通知事業備妥與溫室氣體排放有關之原（物）料燃料之種類成分熱值及用量、產品種類及生產量或其他操作量紀錄報表、製程現場操作紀錄報表、進貨生產銷貨存貨憑證帳冊相關報表及其他產銷營運或輸出入文件、其他經指定之文件。勞保及薪資資料非屬之。",
   "explain_en": "Article 13 lists four categories; payroll data is not among them.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -11118,7 +11118,7 @@
   "answer": "d",
   "explain_zh": "第14條：事業應妥善保存盤查、登錄及查驗相關之資料六年，以備主管機關查核。碳費收費辦法第20條就碳費申報資料、繳費收據及減量額度相關文件亦規定保存六年備查。",
   "explain_en": "Article 14: six years.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -11145,7 +11145,7 @@
   "answer": "a",
   "explain_zh": "第15條：應處罰鍰之情形包括未依第6條及第12條於期限內完成登錄、未依第9條第1項於期限內完成查驗結果上傳、經依第10條通知限期補正屆期未完成補正、未依第14條妥善保存資料，以及以相同計算方法登錄之總排放量與查核結果差異達百分之五以上等五款。",
   "explain_en": "Article 15 item 5 sets the five percent threshold.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -11172,7 +11172,7 @@
   "answer": "a",
   "explain_zh": "第16條：因辦理本辦法規定之審查、查核或查驗而知悉或持有涉及事業營業秘密及個人隱私之資訊者，應予保密。此係為兼顧盤查登錄制度之資訊揭露與事業營業秘密之保護。",
   "explain_en": "Article 16 imposes a duty of confidentiality.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -11199,7 +11199,7 @@
   "answer": "b",
   "explain_zh": "第17條：本辦法自中華民國一百十三年一月一日施行；本辦法修正條文自發布日施行。相對地，氣候變遷因應法施行細則第25條及碳費收費辦法第23條均規定自發布日施行。",
   "explain_en": "Article 17 sets January 1, 2024 with amendments on promulgation.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -11226,7 +11226,7 @@
   "answer": "d",
   "explain_zh": "第1條：本辦法依氣候變遷因應法第二十七條第二項、第二十八條第四項及第三十條第二項規定訂定之。母法第二十一條第二項則為盤查登錄及查驗管理辦法之授權依據，第六十二條為施行細則之授權來源。",
   "explain_en": "Article 1 cites Articles 27-2, 28-4 and 30-2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -11253,7 +11253,7 @@
   "answer": "d",
   "explain_zh": "第2條：碳費指對事業經盤查登錄與查驗後之溫室氣體直接排放量及使用電力溫室氣體間接排放量，換算為二氧化碳當量所徵收之費用。第3條並規定徵收對象為全廠（場）直接及使用電力間接排放合計達二萬五千公噸二氧化碳當量以上之電力、燃氣供應業及製造業。",
   "explain_en": "Article 2 defines the fee over verified direct and power-related indirect emissions.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -11280,7 +11280,7 @@
   "answer": "d",
   "explain_zh": "第4條第1項：事業應於碳費徵收費率公告生效次年起，每年五月底前，依其前一年度一月一日至十二月三十一日之排放量，按公告費率自行計算費額，填具碳費申報書及繳款單，繳納至指定金融機構代收專戶後，以網路傳輸方式向中央主管機關申報。",
   "explain_en": "Article 4-1 sets the end of May and the prior calendar year.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -11307,7 +11307,7 @@
   "answer": "a",
   "explain_zh": "第4條第2項：前項碳費，於第一年未滿一年者，以碳費徵收費率公告生效日期當月起算，依月份比例計算應繳納之費額。第5條並規定碳費之計算為收費排放量乘以徵收費率。",
   "explain_en": "Article 4-2 prorates by months from the effective month.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -11334,7 +11334,7 @@
   "answer": "c",
   "explain_zh": "第7條：事業依本法第二十四條規定或依環境影響評估書件所載內容抵換溫室氣體增量者，得併同碳費申報作業，檢具相關證明文件，向中央主管機關提出申請第五條第二項年排放量之扣除；其抵換扣除比率視所使用減量額度之種類，依第九條第一項各款規定辦理。",
   "explain_en": "Article 7 allows deduction from annual emissions at Article 9 ratios.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -11361,7 +11361,7 @@
   "answer": "a",
   "explain_zh": "第8條：生產電力之事業依規定申報碳費，得檢具提供電力消費之排放量證明文件，併同碳費申報作業，向中央主管機關提出申請第五條第二項年排放量之扣除；該證明文件包含躉售公用售電業或非經躉售逕行供應特定用戶之電量及其排碳強度等資料。",
   "explain_en": "Article 8 allows deduction with proof of electricity supplied.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -11388,7 +11388,7 @@
   "answer": "c",
   "explain_zh": "第10條：非屬經審查認定之高碳洩漏風險事業，以符合中央主管機關認可之國外減量額度申請扣除，其上限不得超過收費排放量之百分之五；中央主管機關並應定期檢討該上限。第9條國內減量額度之扣除上限則為百分之十。",
   "explain_en": "Article 10 caps foreign credits at five percent.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -11415,7 +11415,7 @@
   "answer": "d",
   "explain_zh": "第11條：事業依第九條、第十條以減量額度扣除收費排放量者，得於每年五月底前，檢具減量額度註銷相關證明文件，併同碳費申報作業，向中央主管機關申請第五條第二項收費排放量之扣除。註銷證明是關鍵要件，避免額度重複使用。",
   "explain_en": "Article 11 requires cancellation certificates by the end of May.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -11442,7 +11442,7 @@
   "answer": "a",
   "explain_zh": "第12條第1項：中央主管機關為執行碳費查核作業，得通知該事業於十五日內提報排放源平面配置圖及製程流程圖說、原（物）料燃料資料、製程操作紀錄、進銷存憑證、增量抵換來源證明、電力躉售資料、自主減量計畫措施證明、減量額度註銷核准文件等九款資料。",
   "explain_en": "Article 12-1 sets fifteen days.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -11469,7 +11469,7 @@
   "answer": "a",
   "explain_zh": "第12條第2項：事業無法於十五日內提報前項相關資料者，得於期限屆滿前，向中央主管機關申請展延一次，展延期間不得超過十五日。相對地，盤查登錄及查驗管理辦法第11條之展延最長為六十日。",
   "explain_en": "Article 12-2 allows one extension of up to fifteen days.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -11496,7 +11496,7 @@
   "answer": "a",
   "explain_zh": "第13條：經結算有溢繳且溢繳金額未達新臺幣二千元者，應充作其後應繳納費額之一部分，不予退還；溢繳金額達新臺幣二千元以上者，得向中央主管機關申請無息退還溢繳之費用。第18條停歇業解散之結算溢繳則一律無息退還。",
   "explain_en": "Article 13 sets the NT$2,000 threshold with interest-free refund.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -11523,7 +11523,7 @@
   "answer": "c",
   "explain_zh": "第14條：中央主管機關查核發現事業未繳納或未足額繳納碳費者，得逕依其溫室氣體排放源之產品產量、原（物）料使用量、燃料使用量或其他相關資料核算碳費差額，並限期於九十日內繳清；屆期未繳清者，逕依本法第六十條規定辦理。",
   "explain_en": "Article 14: assessment plus a ninety-day payment deadline.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -11550,7 +11550,7 @@
   "answer": "a",
   "explain_zh": "第15條：應令事業於九十日內繳清碳費之情形包括自主減量計畫經查核未達指定目標、自主減量計畫經廢止、所用減量額度經廢止、經認定屬高碳洩漏風險之事業因行業別或製程改變致非屬高碳洩漏風險，及其他經中央主管機關認定之情形等五款。",
   "explain_en": "Article 15 lists five such situations.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -11577,7 +11577,7 @@
   "answer": "a",
   "explain_zh": "第16條第1項：得申請分期繳納之情形為因天災、疫情或其他不可歸責之事由致遭受重大財產損失，或經主管機關查核應補繳加徵之差額達新臺幣五百萬元以上；並應於期限前檢附相關證明文件提出申請。",
   "explain_en": "Article 16-1 sets two alternative conditions.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -11604,7 +11604,7 @@
   "answer": "a",
   "explain_zh": "第16條第2項：經核准分期繳納者，應自通知限期繳納屆滿之次日起，至最後一期繳納之日止，依原訂限期繳納期限屆滿當日郵政儲金一年期定期存款固定利率按日加計利息一併繳納，並應一次將各期應繳金額預開票據函送中央主管機關；任一期票據未獲付款者，逕依本法第六十條辦理。",
   "explain_en": "Article 16-2 sets daily postal savings rate interest and pre-issued notes.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -11631,7 +11631,7 @@
   "answer": "c",
   "explain_zh": "第17條第2項第1款、第2款：補繳差額未滿新臺幣一千萬元者得分二至六期，每期不得低於一百萬元；一千萬元以上未滿五千萬元者得分二至十二期，每期不得低於二百萬元。同項第3款五千萬元以上者得分二至二十四期，每期不得低於三百萬元。同條第3項並規定每一期為一個月。",
   "explain_en": "Article 17-2 items 1 and 2 set these brackets.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -11658,7 +11658,7 @@
   "answer": "c",
   "explain_zh": "第17條第2項第4款：補繳差額在新臺幣二億五千萬元以上，且提供銀行本票、抵押權設定登記、保付支票或擔保書狀之案件，得延長分期期數，其分期期數不得逾三十六期，每期繳納金額不得低於五百萬元。第1項並規定申請文件不合規定者應通知七日內補正。",
   "explain_en": "Article 17-2 item 4 allows up to thirty-six instalments.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -11685,7 +11685,7 @@
   "answer": "d",
   "explain_zh": "第18條：事業因停業、歇業、解散，應於事實發生之日起九十日內，檢具相關證明文件向中央主管機關申請碳費結算及辦理停徵作業；經結算溢繳者，無息退還其溢繳之費用。盤查登錄及查驗管理辦法第12條之盤查登錄期限亦為九十日內。",
   "explain_en": "Article 18: within ninety days.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -11712,7 +11712,7 @@
   "answer": "b",
   "explain_zh": "第19條：中央主管機關為徵收碳費，得請其他目的事業主管機關提供涉及其職權資料或相關證明文件等，據以審查核算事業之溫室氣體排放量。第22條並規定得委辦或委託相關機關或機構辦理徵收與申報作業之審查等事項。",
   "explain_en": "Article 19 allows requesting data from other authorities.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -11739,7 +11739,7 @@
   "answer": "d",
   "explain_zh": "第20條：碳費申報資料、繳費收據、自主減量計畫執行成果相關資料、減量額度來源及註銷核准之相關文件、紀錄及證明資料，應保存六年備查。盤查登錄及查驗管理辦法第14條亦規定盤查登錄查驗資料保存六年。",
   "explain_en": "Article 20: six years.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -11766,7 +11766,7 @@
   "answer": "c",
   "explain_zh": "第21條：事業因天災、疫情或其他不可抗力事由致未能於期限內完成碳費申報或繳納作業者，應於規定期限屆滿前，以書面敘明理由，並檢具相關資料，向中央主管機關申請展延，經中央主管機關同意後據以調整申報或繳納期限。",
   "explain_en": "Article 21 requires a written application before the deadline.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -11793,7 +11793,7 @@
   "answer": "b",
   "explain_zh": "第22條：中央主管機關得委辦或委託相關機關或機構辦理碳費之徵收與申報作業之審查、結算、核算、核定、通知、查核、繳費金額不足之追補繳及溢繳退費作業。費率之訂定則依本法規定由中央主管機關辦理。",
   "explain_en": "Article 22 lists the delegable collection and filing tasks.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -11820,7 +11820,7 @@
   "answer": "c",
   "explain_zh": "第23條：本辦法自發布日施行，其修正日期為民國一百十三年八月二十九日。相對地，溫室氣體排放量盤查登錄及查驗管理辦法第17條則規定自中華民國一百十三年一月一日施行。",
   "explain_en": "Article 23: effective upon promulgation.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -11847,7 +11847,7 @@
   "answer": "b",
   "explain_zh": "第1條：本細則依環境教育法第二十五條規定訂定之。第15條：本細則自發布日施行，未定緩衝期間。環境教育法第二十五條為本細則之唯一授權依據，與第二十三條（環境講習裁處）、第二十四條（機關學校四小時環境教育）性質不同。",
   "explain_en": "Articles 1 and 15.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -11874,7 +11874,7 @@
   "answer": "a",
   "explain_zh": "第2條第1款、第2款：中央主管機關主管國家環境教育綱領與國家環境教育行動方案之擬訂、訂定及變更，以及全國性環境教育法規之訂定、研議及釋示。第3條所列各款則為直轄市、縣（市）主管機關事項，包括地方行動方案、自治法規、轄區內稽查處分及地方環境講習之規劃執行。第2條第11款另定中央應督導直轄市、縣（市）環境教育業務。",
   "explain_en": "Articles 2 and 3.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -11901,7 +11901,7 @@
   "answer": "c",
   "explain_zh": "第2條第6款、第8款：環境講習之規劃及執行、處分執行之督導，以及環境教育人員、機構與設施場所之訓練、認證、管理及執行，均屬中央主管機關主管事項。第2條第11款並定中央應督導直轄市、縣（市）環境教育業務。地方主管機關依第3條第7款負責其轄區之環境講習規劃及執行。",
   "explain_en": "Article 2, subparagraphs 6, 8 and 11.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -11928,7 +11928,7 @@
   "answer": "c",
   "explain_zh": "第3條第6款、第7款：直轄市、縣（市）主管機關主管轄區內違反環境教育法案件之稽查及處分，及地方環境講習之規劃及執行。第3條其餘各款包括地方行動方案訂定變更、地方自治法規、地方環境教育基金管理運用、宣導推動輔導獎勵評鑑及研究發展訓練管理。全國性法規、國家綱領、認證管理及對地方之督導則屬第2條中央事項。",
   "explain_en": "Article 3, subparagraphs 6 and 7.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -11955,7 +11955,7 @@
   "answer": "a",
   "explain_zh": "第4條：中央主管機關依本法第五條擬訂或變更國家環境教育綱領前，應會商相關機關，並於中央主管機關網站公告三十天，公開徵求意見。第5條第3項並定環境教育行動方案之訂定或變更，其公開徵求意見程序準用第4條規定。",
   "explain_en": "Articles 4 and 5.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -11982,7 +11982,7 @@
   "answer": "c",
   "explain_zh": "第5條第1項：行動方案內容為宗旨及目標、現況議題及挑戰、行動策略、工作項目期程經費及實施方式、主協辦機關、預期效益、評量基準及追蹤考核等七款。第6條第1項所定執行成果報告內容則為年度工作項目摘要、執行現況及績效、分析檢討及未來策進事項，並應於每年六月三十日前公開於各級主管機關網站。",
   "explain_en": "Articles 5 and 6.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -12009,7 +12009,7 @@
   "answer": "a",
   "explain_zh": "第5條第2項：行動方案之工作項目，應包含本法第九條各款所列事項。第5條第3項：訂定或變更行動方案之公開徵求意見程序，準用前條（第4條）之規定，即應會商相關機關並於網站公告三十天公開徵求意見。",
   "explain_en": "Article 5, paragraphs 2 and 3.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -12036,7 +12036,7 @@
   "answer": "d",
   "explain_zh": "第8條：本法第八條第二項第一款所定環境保護基金為資源回收管理基金之非營業基金、一般廢棄物清除處理基金、空氣污染防制基金、水污染防治基金、土壤及地下水污染整治基金及溫室氣體管理基金等六種。第7條另定環境保護法律共十三種，為環境講習及處分之依據範圍。",
   "explain_en": "Article 8.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -12063,7 +12063,7 @@
   "answer": "c",
   "explain_zh": "第9條第1項：中央主管機關應建置環境教育資訊系統，登錄經認證之環境教育人員、環境教育機構及環境教育設施、場所。第9條第2項：該系統得蒐錄環境教育課程方案、教材、研究與統計資料、研究發展及交流合作等資訊，提供查詢。認證管理事項並屬第2條第8款之中央主管事項。",
   "explain_en": "Article 9.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -12090,7 +12090,7 @@
   "answer": "d",
   "explain_zh": "第10條：本法第十九條第一項所稱員工、教師，指由各機關、公營事業機構、高級中等以下學校及政府捐助基金累計超過百分之五十之財團法人，為其投保勞工保險、軍人保險或公教人員保險者。第14條並定主管機關依本法第二十四條命限期辦理者，其辦理期間最長不得逾九十日。",
   "explain_en": "Articles 10 and 14.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -12117,7 +12117,7 @@
   "answer": "d",
   "explain_zh": "第11條：本法第十九條第三項所稱其他活動，指該項所列舉環境教育方式以外，並符合本法第三條第一款環境教育定義，具環境教育意義之活動；但不包括參訪。故單純參訪不得列入四小時環境教育之時數計算。",
   "explain_en": "Article 11.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -12144,7 +12144,7 @@
   "answer": "b",
   "explain_zh": "第12條：本法第二十三條所稱有代表權之人，指違反環境保護法律或自治條例所定行政法上義務之法人、非法人團體、機關（構）、公營事業機構或其他組織之負責人。第13條則定負責環境保護權責人員為該等組織之所屬員工且從事督導或實際執行環境保護業務者。環境講習執行辦法第4條規定經處停工、停業處分等情形，須由有代表權之人親自接受講習。",
   "explain_en": "Articles 12 and 13.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -12171,7 +12171,7 @@
   "answer": "b",
   "explain_zh": "第13條：本法第二十三條所稱負責環境保護權責人員，指法人、非法人團體、機關（構）、公營事業機構或其他組織之所屬員工，且從事督導或實際執行環境保護業務之人員。與第12條之有代表權之人（負責人）不同。環境講習執行辦法第5條規定，除該辦法第4條所定情形外，得指派有代表權之人或負責環境保護權責人員接受講習。",
   "explain_en": "Articles 12 and 13.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -12198,7 +12198,7 @@
   "answer": "a",
   "explain_zh": "第14條：主管機關依本法第二十四條命限期辦理者，其辦理期間最長不得逾九十日。本法第二十四條係針對機關、公營事業機構、高級中等以下學校及政府捐助基金逾百分之五十之財團法人未辦理四小時環境教育之處理，逾期未辦理者並得依本法第二十四條之一令接受環境講習。",
   "explain_en": "Article 14.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -12225,7 +12225,7 @@
   "answer": "d",
   "explain_zh": "第15條：本細則自發布日施行。第1條並定本細則依環境教育法第二十五條規定訂定之。相較之下，環境講習執行辦法第18條亦定自發布日施行。",
   "explain_en": "Article 15.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -12252,7 +12252,7 @@
   "answer": "b",
   "explain_zh": "第1條：本辦法依環境教育法第二十四條之一第一項規定訂定之。第18條：本辦法自發布日施行。本法第二十三條為裁處環境講習之實體依據，第二十四條之一第二項則為未完成講習之後續處理依據。",
   "explain_en": "Articles 1 and 18.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -12279,7 +12279,7 @@
   "answer": "b",
   "explain_zh": "第2條第1款：受處分人指經依本法第二十三條規定，令違反行政法上義務者接受環境講習之自然人、法人、設有代表人或管理人之非法人團體、中央或地方機關（構）或其他組織。第3條並明定土壤及地下水污染整治法第四十條第三項、第四十一條第四項及第四十二條第三項所令之環境教育講習，不適用本辦法。",
   "explain_en": "Articles 2 and 3.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -12306,7 +12306,7 @@
   "answer": "a",
   "explain_zh": "第2條第2款：受處分人包括經依本法第二十四條處分，並令違反第十九條第一項規定或依第二項所定辦法者接受環境講習之機關、公營事業機構、高級中等以下學校或政府捐助基金累計超過百分之五十之財團法人。此範圍與施行細則第10條對員工、教師之界定一致。",
   "explain_en": "Article 2, subparagraph 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -12333,7 +12333,7 @@
   "answer": "a",
   "explain_zh": "第3條：環境講習依本辦法辦理，但不包括主管機關依土壤及地下水污染整治法第四十條第三項、第四十一條第四項及第四十二條第三項規定，令接受環境教育講習者。該等土污法所定講習另有其執行方式，不受本辦法時數、通知及延期等規定拘束。",
   "explain_en": "Article 3.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -12360,7 +12360,7 @@
   "answer": "d",
   "explain_zh": "第5條：除第4條所定情形（經處停工、停業處分，或一年內同轄區第二次以上違反同一規定且罰鍰逾法定最高額百分之七十並逾新臺幣一萬元）外，自然人以外之受處分人得指派有代表權之人或負責環境保護權責人員接受環境講習；其無負責環境保護權責人員者，處分機關得令受處分人指派有代表權之人。第7條並定講習對象均應親自出席，不得代理。",
   "explain_en": "Articles 4, 5 and 7.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -12387,7 +12387,7 @@
   "answer": "c",
   "explain_zh": "第6條：自然人以外之受處分人應提供所指派環境講習對象之姓名及聯絡事項相關資料；經令限期提供仍拒不提供者，處分機關得逕令該受處分人之負責人接受環境講習。此與第12條講習對象報到時應攜帶通知單及身分證明文件正本之規定相配合。",
   "explain_en": "Article 6.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -12414,7 +12414,7 @@
   "answer": "a",
   "explain_zh": "第7條：環境講習對象接受環境講習均應親自出席，不得代理。第12條並定應攜帶環境講習通知單及身分證明文件正本，依指定時間及地點報到，以確認出席者身分。無法親自出席者，須依第13條申請重新指派或依第14條申請延期。",
   "explain_en": "Articles 7 and 12.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -12441,7 +12441,7 @@
   "answer": "d",
   "explain_zh": "第9條：非主管機關之處分機關裁處環境講習者，應移請所在地之直轄市、縣（市）主管機關依本辦法辦理環境講習。第16條並定主管機關得自行或委託環境教育機構辦理，完成後由辦理環境講習機關（構）開立環境講習證明單。",
   "explain_en": "Articles 9 and 16.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -12468,7 +12468,7 @@
   "answer": "a",
   "explain_zh": "第10條：主管機關應依受處分人違反之法律，依附件二環境講習課程規劃一覽表規劃環境講習課程，其實務課程，主管機關得視需要以體驗、實習或實作等方式為之。附件一則係第8條計算環境講習時數之依據，二者不同。",
   "explain_en": "Articles 8 and 10.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -12495,7 +12495,7 @@
   "answer": "a",
   "explain_zh": "第11條：主管機關應於辦理環境講習十四日前，以環境講習通知單通知環境講習對象及受處分人。第13條第2項規定，經同意重新指派之對象若得依原通知單指定時間及地點接受講習者，主管機關免依第11條辦理；第14條第2項則規定經同意延期者，主管機關應另依第11條寄送通知單。",
   "explain_en": "Articles 11, 13 and 14.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -12522,7 +12522,7 @@
   "answer": "c",
   "explain_zh": "第12條第1項：環境講習對象應攜帶環境講習通知單及身分證明文件正本，依前條通知單之指定時間及地點報到。第7條並定應親自出席不得代理，故報到時須查驗身分證明文件正本。",
   "explain_en": "Articles 7 and 12.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -12549,7 +12549,7 @@
   "answer": "d",
   "explain_zh": "第12條第2項：身分證明文件，於本國人者為國民身分證、護照、駕駛執照或健保卡；於非本國人者為護照、居留證或入出國（境）證明。第12條第1項並要求攜帶正本及環境講習通知單依指定時間、地點報到。",
   "explain_en": "Article 12, paragraph 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -12576,7 +12576,7 @@
   "answer": "a",
   "explain_zh": "第13條第1項：經指派之環境講習對象因病、服役、服刑、受保安感訓處分、動員機關之召集或徵集，或其他正當理由無法接受環境講習者，由受處分人於指定接受環境講習日期前，以書面向處分機關申請重新指派環境講習對象，經處分機關同意後，始完成申請程序。與第14條之延期申請（指定日後三日內）須分辨。",
   "explain_en": "Article 13, paragraph 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -12603,7 +12603,7 @@
   "answer": "b",
   "explain_zh": "第13條第2項：經處分機關同意受處分人重新指派之環境講習對象者，得依原指派環境講習對象之環境講習通知單指定時間及地點接受環境講習者，主管機關免依第十一條辦理。反之，依第14條第2項經同意延期者，主管機關應另依第11條寄送環境講習通知單。",
   "explain_en": "Article 13, paragraph 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -12630,7 +12630,7 @@
   "answer": "c",
   "explain_zh": "第14條第1項：環境講習對象因不可歸責之事由或其他正當理由，無法依指定之環境講習時間接受環境講習者，受處分人應至遲於指定接受環境講習日後三日內，以書面向處分機關申請延期，經處分機關同意後，始完成申請延期程序。屬不可歸責事由者，其延期得不計入次數。第13條之重新指派則須於指定日期前提出。",
   "explain_en": "Article 14, paragraph 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -12657,7 +12657,7 @@
   "answer": "b",
   "explain_zh": "第14條第1項但書：屬不可歸責事由者，其延期得不計入次數。第14條第2項：經同意延期者，處分機關應通知辦理環境講習之主管機關，由該主管機關另依第11條寄送通知單；未獲同意者，環境講習對象應依指定之時間接受講習；未獲同意且未完成接受環境講習者，處分機關依本法第二十四條之一第二項辦理。第15條第4項就變更地點未獲同意者亦同。",
   "explain_en": "Articles 14 and 15.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -12684,7 +12684,7 @@
   "answer": "d",
   "explain_zh": "第15條第1項：符合受處分人為自然人、或受處分人屬違反移動污染源法規者之一，得由受處分人申請變更環境講習地點。第15條第2項：處分機關接獲申請，應通知變更地點所在地之主管機關並獲同意後，完成案件移轉程序；第3項規定變更地點之主管機關應依第11條通知，未依通知完成講習者，應將案件移回處分機關。",
   "explain_en": "Article 15.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -12711,7 +12711,7 @@
   "answer": "a",
   "explain_zh": "第16條：主管機關得自行或委託環境教育機構辦理環境講習，並應於環境講習對象完成環境講習後，由辦理環境講習機關（構）開立環境講習證明單。第9條並定非主管機關之處分機關應移請所在地直轄市、縣（市）主管機關辦理。",
   "explain_en": "Articles 9 and 16.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -12738,7 +12738,7 @@
   "answer": "c",
   "explain_zh": "第17條第1項：受處分人對於違反環境保護法律或自治條例之行政法上義務所受處分，依法提起訴願或行政訴訟者，於行政救濟程序終結前，暫不予環境講習，俟該處分確定後，再予執行環境講習。第17條第2項：受處分人為自然人，因案羈押、服刑、重大傷病或有其他不可抗力因素致無法接受環境講習者，主管機關得暫緩或停止執行。",
   "explain_en": "Article 17.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -12765,7 +12765,7 @@
   "answer": "c",
   "explain_zh": "第18條：本辦法自發布日施行。第1條並定本辦法依環境教育法第二十四條之一第一項規定訂定。環境教育法施行細則第15條亦同採自發布日施行。",
   "explain_en": "Article 18.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -12792,7 +12792,7 @@
   "answer": "b",
   "explain_zh": "第1條：本辦法依空氣污染防制法第三十四條第四項、水污染防治法第二十一條第二項、毒性及關注化學物質管理法第十八條第二項、廢棄物清理法第四十四條、土壤及地下水污染整治法第九條第二項、環境用藥管理法第十九條第二項及室內空氣品質管理法第九條第三項規定訂定之。第2條並定訓練包括證照訓練、到職訓練及在職訓練三類。",
   "explain_en": "Articles 1 and 2.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -12819,7 +12819,7 @@
   "answer": "c",
   "explain_zh": "第4條第1項第1款、第2款：參加乙級空氣污染防制專責人員、廢（污）水處理專責人員、毒性及關注化學物質專業技術管理人員證照訓練者，得以專科以上學校環境工程、環境科學、公害防治或環境保護相關學科副學士以上學位證書，或理工農醫各學科非屬前款之副學士以上學位證書報名，均不另要求工作經驗。第3條所定甲級資格則明顯較嚴，須技師證書、碩士學位或相關學士學位等。",
   "explain_en": "Articles 3 and 4.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -12846,7 +12846,7 @@
   "answer": "a",
   "explain_zh": "第4條第1項第3款至第5款：高級中等學校工業、農業、水產類科畢業後須具一年以上相當類別之環境保護管理或操作實務工作經驗；一般高級中等學校畢業後須具二年以上；經公私場所、事業、污水下水道系統或毒化物場所推薦其從業人員或負責人者，須具一年以上相當類別工作經驗。第4條第4項並定依第5款推薦資格取得合格證書者，僅得設置於推薦之各該場所。",
   "explain_en": "Article 4, paragraph 1.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -12873,7 +12873,7 @@
   "answer": "b",
   "explain_zh": "第5條：丙級毒性及關注化學物質專業技術管理人員證照訓練資格為高級中等以上學校畢業證書；或國民中學以上畢業後具二年以上主管機關列管登記之化學品運送實務工作經驗；或經運送毒性及關注化學物質之運送人推薦其從業人員並具三年以上運送化學品實務工作經驗；或領有交通部許可之訓練單位辦理危險物品運送相關專業訓練合格證明書。",
   "explain_en": "Article 5.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -12900,7 +12900,7 @@
   "answer": "c",
   "explain_zh": "第6條：甲級廢棄物清理專業技術人員證照訓練資格為環工、化工、土木、衛生、電機、機械、水利工程、工業安全、工礦衛生、應用地質技師證書；或專科以上環境工程、環境科學、公害防治或環境保護相關學科系副學士以上學位；或理工農醫學科系非屬前款之副學士以上學位；或領有乙級合格證書後設置為乙級廢棄物清理專業技術人員滿二年。第7條所定乙級資格則為高中以上畢業等。",
   "explain_en": "Articles 6 and 7.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -12927,7 +12927,7 @@
   "answer": "b",
   "explain_zh": "第7條：乙級廢棄物清理專業技術人員證照訓練資格為高級中等以上學校畢業證書；或國民中學畢業後從事廢棄物清理業務滿二年且有證明文件；或領有丙級廢棄物清除專業技術人員合格證書後從事廢棄物清理業務滿二年且有證明文件。第8條所定丙級廢棄物清除專業技術人員資格更寬，為國小以上畢業或從事廢棄物清理業務滿三年。",
   "explain_en": "Articles 7 and 8.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -12954,7 +12954,7 @@
   "answer": "d",
   "explain_zh": "第8條：參加丙級廢棄物清除專業技術人員證照訓練，應領有公立或立案之私立國民小學以上畢業證書，或從事廢棄物清理業務滿三年且有證明文件。此為本辦法各類別中學歷門檻最低者；第7條乙級則須高中以上畢業或國中畢業加二年經驗。",
   "explain_en": "Article 8.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -12981,7 +12981,7 @@
   "answer": "a",
   "explain_zh": "第9條：環境用藥製造業專業技術人員證照訓練資格包括環工、化工、工業工程、工業安全、工礦衛生、農藝、園藝、食品之技師證書或獸醫師、藥師證書；藥學、植物病蟲害、昆蟲、化學工程、化學、農業化學、環境工程、環境科學、生命科學、公共衛生、食品科學、獸醫學等相關學科系副學士以上學位；理工農醫非屬前款學科系副學士以上學位並具一年以上藥品製造經驗；高級中等學校畢業並具二年以上藥品製造經驗；或具三年以上藥品製造經驗。",
   "explain_en": "Article 9.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -13008,7 +13008,7 @@
   "answer": "a",
   "explain_zh": "第10條：環境用藥販賣業專業技術人員證照訓練資格為高級中等以上學校畢業證書；或國民小學以上學校畢業證書並具一年以上藥品管理實務工作經驗且有證明文件；或具三年以上藥品管理實務工作經驗且有證明文件。與第9條製造業著重藥品製造經驗不同，本條著重藥品管理經驗。",
   "explain_en": "Articles 9 and 10.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -13035,7 +13035,7 @@
   "answer": "d",
   "explain_zh": "第11條：病媒防治業專業技術人員證照訓練資格為專科以上理工農醫學科系副學士以上學位證書；或高級中等學校畢業並具一年以上病媒防治、清潔或消毒實務工作經驗；或國民中學畢業並具二年以上該等經驗；或具三年以上該等經驗，均須有證明文件。",
   "explain_en": "Article 11.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -13062,7 +13062,7 @@
   "answer": "a",
   "explain_zh": "第12條：參加室內空氣品質維護管理專責人員證照訓練，應領有大學、獨立學院或專科副學士以上學位證書；或領有高級中等學校畢業證書並具三年以上實務工作經驗且有證明文件。第1條並定本類別之授權來源為室內空氣品質管理法第九條第三項。",
   "explain_en": "Articles 1 and 12.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -13089,7 +13089,7 @@
   "answer": "c",
   "explain_zh": "第13條：土壤污染評估調查人員證照訓練資格為環境工程、土木工程、應用地質、大地工程或其他經中央主管機關認可公告之相關專業技師證書；或理工農醫各學系研究所碩士以上學位證書；或理工農醫各學系學士以上學位證書並具一年以上土壤或地下水污染調查、整治或場址評估相關工作經驗且有證明文件。本類別授權依據為土壤及地下水污染整治法第九條第二項。",
   "explain_en": "Articles 1 and 13.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -13116,7 +13116,7 @@
   "answer": "a",
   "explain_zh": "第14條：本辦法各項訓練之報名、課程、教材、測驗、費用及收費方式等相關事項，依中央主管機關之規定。第24條並定訓練、資格審查、課程規劃、教材編定、測驗及合格證書核發等事項，中央主管機關得自行或委任、委託、委辦其他機關（構）辦理。",
   "explain_en": "Articles 14 and 24.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -13143,7 +13143,7 @@
   "answer": "d",
   "explain_zh": "第15條：報名參加環境保護專責及技術人員證照訓練者，應視其所報名之類別與級別，依第三條至第十三條規定，檢具符合之學經歷證明文件，始得參訓。第16條並定資格文件得為影本者應載明與正本相符，外文文件應經駐外館處驗證並附中文譯本。",
   "explain_en": "Articles 15 and 16.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -13170,7 +13170,7 @@
   "answer": "c",
   "explain_zh": "第16條第1項：報名本辦法證照訓練所附資格文件得為影本者，應載明與正本相符；資格文件為外文者，應經駐外館處驗證並附資格文件之中文譯本。第16條第2項：前項中文譯本得由國內公證人認證之。",
   "explain_en": "Article 16.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -13197,7 +13197,7 @@
   "answer": "c",
   "explain_zh": "第17條：參加環境保護專責及技術人員各項訓練者，其缺課時數逾總訓練時數四分之一以上，應予退訓，其已繳納之訓練費用不予退還。第18條另定各科目測驗以一百分為滿分、六十分為及格，並得於結訓之日起一年內申請補考二次。",
   "explain_en": "Articles 17 and 18.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -13224,7 +13224,7 @@
   "answer": "a",
   "explain_zh": "第19條第1項：參加證照訓練者對測驗（評量）成績有異議，得於成績通知單送達之翌日起三十日內，以書面向中央主管機關申請複查。第19條第2項：前項申請複查以一次為限。第20條並定測驗試卷或評量資料由中央主管機關自測驗或評量結束日起保存六個月。",
   "explain_en": "Articles 19 and 20.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -13251,7 +13251,7 @@
   "answer": "a",
   "explain_zh": "第20條：測驗試卷或評量資料由中央主管機關自測驗或評量結束日起保存六個月。此期間與第19條所定成績複查期限（成績通知單送達翌日起三十日內、以一次為限）相配合。",
   "explain_en": "Articles 19 and 20.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -13278,7 +13278,7 @@
   "answer": "d",
   "explain_zh": "第21條第1項：參加證照訓練合格者，應於接獲通知之翌日起三個月內，向中央主管機關申請核發合格證書。第21條第2項：未於前項期間內申請者，其所參加之證照訓練課程、內容有變更時，應就變更部分參加補正訓練合格後始得申請，並非一律作廢重訓。",
   "explain_en": "Article 21.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -13305,7 +13305,7 @@
   "answer": "c",
   "explain_zh": "第22條：取得環境保護專責及技術人員合格證書後，連續三年以上未經依法設置或登記為該項環境保護專責及技術人員者，應於到職之翌日起六個月內，依中央主管機關規定完成到職訓練。第23條第1項另定經設置或登記者每二年應完成在職訓練至少六小時，其中政策法規類課程不得少於三小時。",
   "explain_en": "Articles 22 and 23.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -13332,7 +13332,7 @@
   "answer": "d",
   "explain_zh": "第23條之1：第二十三條第一項所定每二年期間，於本辦法中華民國一百零九年七月一日修正施行後，就環境保護專責及技術人員執行業務事實發生年度之次年一月一日起算；修正施行前已設置為環境保護專責及技術人員者，自一百十年一月一日起算。第23條第1項所定在職訓練為每二年至少六小時，其中政策法規類不得少於三小時。",
   "explain_en": "Articles 23 and 23-1.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -13359,7 +13359,7 @@
   "answer": "c",
   "explain_zh": "第23條之1後段：逐年以年度計算之連續二年，其設置期間未滿一年者，仍以一年計；但逐年以年度計算時，設置年度未連續者，不在此限。故僅有設置年度連續時，未滿一年之設置期間才會被視為一年計入該二年期間。",
   "explain_en": "Article 23-1.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -13386,7 +13386,7 @@
   "answer": "b",
   "explain_zh": "第24條：本辦法之訓練、資格審查、課程規劃、教材編定、測驗及合格證書核發等事項，中央主管機關得自行或委任、委託、委辦其他機關（構）辦理。第14條並定報名、課程、教材、測驗、費用及收費方式等相關事項，依中央主管機關之規定。",
   "explain_en": "Articles 14 and 24.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -13413,7 +13413,7 @@
   "answer": "c",
   "explain_zh": "第25條：環境保護專責及技術人員以詐欺、脅迫或違法方法取得合格證書，或檢具之學經歷證明文件有虛偽不實者，中央主管機關應撤銷其合格證書。其餘選項所列（執行業務違法致污染環境情節嚴重、同時設置於不同場所、使他人利用其名義、連續二次未參加調訓等）係第26條所定應廢止合格證書之事由。第27條並定撤銷或廢止者三年內不得參加該項證照訓練。",
   "explain_en": "Articles 25 to 27.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -13440,7 +13440,7 @@
   "answer": "b",
   "explain_zh": "第26條第2款：同一時間設置於不同之公私場所或事業為環境保護專責及技術人員者，中央主管機關應廢止其合格證書；但屬依法共同設置者，不在此限。第25條所定以詐欺取得證書、學經歷不實則屬應撤銷之事由；缺課逾四分之一係第17條之退訓，連續三年未設置係第22條之到職訓練義務，均非廢止事由。",
   "explain_en": "Articles 17, 22, 25 and 26.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -13467,7 +13467,7 @@
   "answer": "b",
   "explain_zh": "第26條第5款、第6款：連續二次未參加中央主管機關辦理之調訓且未依第二十三條第三項規定申請延訓，或一年內受該類環境保護法規裁處罰鍰金額累計至最高罰鍰者，應廢止其合格證書。第23條第2項、第3項並定中央主管機關得調訓，無正當理由不得拒絕；因故未能參加者應於報到日前以書面敘明原因申請延訓。",
   "explain_en": "Articles 23 and 26.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -13494,7 +13494,7 @@
   "answer": "a",
   "explain_zh": "第27條：經中央主管機關撤銷或廢止環境保護專責及技術人員之合格證書者，三年內不得參加該項環境保護專責及技術人員證照訓練。第28條並就本辦法施行前已受撤銷或廢止處分者，定其不得再請領期間自處分送達翌日起算三年。",
   "explain_en": "Articles 27 and 28.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -13521,7 +13521,7 @@
   "answer": "c",
   "explain_zh": "第28條第1項：本辦法施行前經中央主管機關撤銷或廢止合格證書，並命一定期間不得再請領該項合格證書者，於該期間內亦不得參加該項證照訓練。第28條第2項：前項期間於本辦法施行後均自中央主管機關撤銷或廢止合格證書之處分送達翌日起算三年，與第27條之三年限制一致。",
   "explain_en": "Articles 27 and 28.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -13548,7 +13548,7 @@
   "answer": "d",
   "explain_zh": "第29條第1項：本辦法施行前已領有空氣污染防制、廢水處理、毒性化學物質、廢棄物清理、環境用藥製造販賣、病媒防治、室內空氣品質及土壤污染評估調查等合格證書者，免依本辦法規定申請換發。第29條第2項：一百零九年七月一日修正前已領有毒性化學物質專業技術管理人員合格證書者，視為具有同級別毒性及關注化學物質專業技術管理人員合格證書，免申請換發。",
   "explain_en": "Article 29.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""
@@ -13575,7 +13575,7 @@
   "answer": "d",
   "explain_zh": "第30條第1項：本辦法自發布日施行。第30條第2項：本辦法中華民國一百零九年七月一日修正條文，自一百零九年一月十六日施行，即該次修正條文溯及自一百零九年一月十六日生效。第23條之1並就該次修正後在職訓練期間之起算另設過渡規定。",
   "explain_en": "Articles 23-1 and 30.",
-  "status": "draft",
+  "status": "active",
   "batch": 13,
   "reviewer": "",
   "review_note": ""

@@ -1,4 +1,4 @@
-/* 台灣職安環保知識王 — 前端 v0.6
+/* 台灣職安環保知識王 — 前端 v0.7
    單人闖關 / 每日挑戰 / 連線對戰（2–5 人房間、隨機配對、電腦）＋ 全站排行榜（Firebase）
    出題範圍：首頁「職業安全衛生／環保」切換，兩邊題庫、每日挑戰、對戰配對、排行榜完全獨立
    題庫：GAS API（CFG.bankUrl）→ 失敗退回 data/questions.json
@@ -7,13 +7,15 @@
 (() => {
 'use strict';
 
-const CFG = { questionsPerGame: 20, secondsPerQuestion: 20, baseScore: 500, speedBonusMax: 500,
+const CFG = { questionsPerGame: 20, secondsPerQuestion: 20, baseScore: 200, speedBonusMax: 300,
+              perQuestionMax: 500, streakMult: 1.2,          // 單題上限 500 分（20 題滿分 10000）；連對速度分 ×1.2 但不超過上限
               streakStart: 3, streakBonus: 50, dailyQuestions: 10, useDraft: true,
               pvpGapMs: 2500, pvpCountdownMs: 4000, lobbyWaitMs: 10000, maxPlayers: 5,
               // 題庫 API（GAS 網頁應用程式 /exec 網址；留空＝只用 repo 內的 data/questions.json）
               bankUrl: 'https://script.google.com/macros/s/AKfycbw8GLA29GyEC4hLyXCZoaRBrG3mgJl389Tye47b8XARo-2fKs3rY6Jbfcm6Uxe0ewDM/exec' };
 const CFG_MAP = { questions_per_game: 'questionsPerGame', seconds_per_question: 'secondsPerQuestion', base_score: 'baseScore',
                   speed_bonus_max: 'speedBonusMax', streak_start: 'streakStart', streak_bonus: 'streakBonus', daily_questions: 'dailyQuestions',
+                  per_question_max: 'perQuestionMax', streak_mult: 'streakMult',
                   lobby_wait_seconds: 'lobbyWaitSec', max_players: 'maxPlayers' };
 
 const I18N = {
@@ -33,7 +35,8 @@ const I18N = {
         nickHint:'請先輸入暱稱（1–12 字）才能開始遊戲，暱稱會顯示在排行榜與對戰中', nickRequired:'⚠ 請先輸入暱稱再開始',
         groupOsh:'職業安全衛生', groupEnv:'環保', segNoteOsh:'目前出題範圍：職業安全衛生法規（單人、每日、對戰、排行榜各自獨立）', segNoteEnv:'目前出題範圍：環保法規（單人、每日、對戰、排行榜各自獨立）',
         online:'雲端連線中', offline:'離線（排行榜僅本機）', globalNote:'全站前 10 名', localNote:'本機紀錄', vsBot:'（對電腦，不列入全站排行）',
-        waitingFor:'尚未作答：{n}', allIn:'全員已作答', weekly:'每週冠軍', weekLead:'本週目前領先', weekN:'第 {w} 週（{a}～{b}）', noWeekly:'尚無週冠軍紀錄' },
+        waitingFor:'尚未作答：{n}', allIn:'全員已作答', weekly:'歷屆每週冠軍', weekLead:'本週目前領先', weekN:'第 {w} 週（{a}～{b}）', noWeekly:'尚無週冠軍紀錄',
+        weekBoard:'本週排行榜（每週一重置）', noWeekBoard:'本週還沒有紀錄，先來一局！', ofMax:'滿分 {m}' },
   en: { title:'Taiwan OSH & Env Quiz', lead:'Occupational Safety × Environmental Law · Speed quiz', solo:'Solo Run', soloDesc:'20 questions · 20 s each · faster = more points',
         daily:'Daily Challenge', dailyDesc:'10 questions a day, same for everyone', pvp:'Online Battle', pvpDesc:'Rooms of 2–5 or random match, same questions in sync', nick:'Nickname',
         prev:'Previous', backCur:'Back to current', viewing:'Viewing Q{n} (your answer marked; timer paused)', noAns:'No answer', resultTitle:'Results',
@@ -50,7 +53,8 @@ const I18N = {
         nickHint:'Enter a nickname (1–12 chars) to play; it appears on leaderboards and in battles', nickRequired:'⚠ Please enter a nickname first',
         groupOsh:'Occupational Safety', groupEnv:'Environment', segNoteOsh:'Current scope: occupational safety & health laws (solo, daily, battle and leaderboard are separate)', segNoteEnv:'Current scope: environmental laws (solo, daily, battle and leaderboard are separate)',
         online:'Online', offline:'Offline (local leaderboard only)', globalNote:'Global top 10', localNote:'Local records', vsBot:'(vs bot, not ranked globally)',
-        waitingFor:'Waiting for: {n}', allIn:'Everyone answered', weekly:'Weekly champions', weekLead:'Leading this week', weekN:'Week {w} ({a}–{b})', noWeekly:'No weekly champions yet' }
+        waitingFor:'Waiting for: {n}', allIn:'Everyone answered', weekly:'Past weekly champions', weekLead:'Leading this week', weekN:'Week {w} ({a}–{b})', noWeekly:'No weekly champions yet',
+        weekBoard:'This week (resets every Monday)', noWeekBoard:'No records this week yet — play a round!', ofMax:'max {m}' }
 };
 
 let lang = localStorage.getItem('lang') || 'zh';
@@ -123,11 +127,18 @@ function shuffle(arr, rnd = Math.random) { const a = arr.slice(); for (let i = a
 const today = () => new Date().toLocaleDateString('sv-SE');
 function show(id) { document.querySelectorAll('.screen').forEach(s => s.classList.remove('active')); $(id).classList.add('active'); window.scrollTo(0, 0); }
 function escapeHtml(s) { return String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
+/* 計分（v0.7）：答對 = 基本 200 + 速度 300×(剩餘秒/總秒)；連對 3 題起速度分 ×1.2。
+   單題不超過 perQuestionMax（500），故 20 題滿分 10000、每日挑戰 10 題滿分 5000。答錯或逾時 0 分。 */
 function scoreFor(ok, usedSec, streak) {
   if (!ok) return { gained: 0, bonus: 0 };
   const remain = Math.max(0, CFG.secondsPerQuestion - usedSec);
-  return { gained: CFG.baseScore + Math.round(CFG.speedBonusMax * remain / CFG.secondsPerQuestion), bonus: streak >= CFG.streakStart ? CFG.streakBonus : 0 };
+  const speed = CFG.speedBonusMax * remain / CFG.secondsPerQuestion;
+  const cap = CFG.perQuestionMax || (CFG.baseScore + CFG.speedBonusMax);
+  const plain = Math.min(cap, Math.round(CFG.baseScore + speed));
+  const withStreak = Math.min(cap, Math.round(CFG.baseScore + speed * (streak >= CFG.streakStart ? (CFG.streakMult || 1) : 1)));
+  return { gained: plain, bonus: withStreak - plain };
 }
+const maxScore = n => (CFG.perQuestionMax || 500) * n;
 
 /* ---------- 題庫 ---------- */
 /* 題庫載入（v0.5）：每個範圍各自載入 core 欄位（不含解析），先用 IndexedDB 快取立即開玩、背景更新；解析另外背景載入 */
@@ -660,6 +671,7 @@ function finish() {
 function renderResult() {
   if (!game) return;
   $('rScore').textContent = game.score;
+  const rn = $('rNote'); if (rn && !rn.dataset.keep) rn.textContent = fmt(t('ofMax'), { m: maxScore(game.qs.length) });
   const correct = game.log.filter(r => r && r.ok).length;
   const avg = (game.log.reduce((s, r) => s + (r ? r.used : CFG.secondsPerQuestion), 0) / game.log.length).toFixed(1);
   $('rStats').innerHTML = `<div><b>${correct}/${game.qs.length}</b><span>${t('correctN')}</span></div><div><b>${game.bestStreak}</b><span>${t('bestStreak')}</span></div><div><b>${avg}s</b><span>${t('avgTime')}</span></div>`;
@@ -684,14 +696,16 @@ function renderResult() {
 function renderBoard() {
   const el = $('boardBody'); if (!el) return;
   document.querySelectorAll('.tab').forEach(b => b.classList.toggle('active', b.dataset.board === boardMode));
-  const local = JSON.parse(localStorage.getItem('board') || '[]').filter(r => r.mode === boardMode && (r.group || 'OSH') === GROUP);
+  const wk0 = weekKey(now());                                   // 本週起點（週一 00:00，UTC+8）
+  const thisWeek = r => r && r.ts && weekKey(r.ts) === wk0;
+  const local = JSON.parse(localStorage.getItem('board') || '[]').filter(r => r.mode === boardMode && (r.group || 'OSH') === GROUP && thisWeek(r));
   const draw = (rows, note) => {
-    if (!rows.length) { el.innerHTML = `<p class="empty">${t('noBoard')}</p>`; return; }
+    if (!rows.length) { el.innerHTML = `<p class="empty">${t('noWeekBoard')}</p>`; return; }
     el.innerHTML = `<table>${rows.slice(0, 10).map((r, i) => `<tr><td>${i + 1}. ${escapeHtml(r.nick)}${r.uid && r.uid === FB.uid ? ' ★' : ''}</td><td>${r.result ? ({ win: '🏆', lose: '·', draw: '=' })[r.result] + ' ' : ''}${r.correct}/${r.n} · ${r.date}</td><td>${r.score}</td></tr>`).join('')}</table><p class="note">${note}</p>`;
   };
   if (FB.ok) {
-    FB.db.ref('scores/' + scopeKey(boardMode)).orderByChild('score').limitToLast(10).once('value').then(s => {
-      const rows = []; s.forEach(c => { rows.push(c.val()); }); rows.sort((a, b) => b.score - a.score || a.ts - b.ts);
+    FB.db.ref('scores/' + scopeKey(boardMode)).orderByChild('ts').startAt(wk0).limitToLast(500).once('value').then(s => {
+      const rows = []; s.forEach(c => { const r = c.val(); if (thisWeek(r)) rows.push(r); }); rows.sort((a, b) => b.score - a.score || a.ts - b.ts);
       draw(rows, t('globalNote'));
       renderWeekly();
     }).catch(() => draw(local, t('localNote')));
@@ -710,8 +724,8 @@ function renderWeekly() {
   FB.db.ref('scores/' + scopeKey(boardMode)).orderByChild('ts').limitToLast(2000).once('value').then(s => {
     const best = {};
     s.forEach(c => { const r = c.val(); if (!r || !r.ts) return; const wk = weekKey(r.ts); if (!best[wk] || r.score > best[wk].score || (r.score === best[wk].score && r.ts < best[wk].ts)) best[wk] = r; });
-    const weeks = Object.keys(best).map(Number).sort((a, b) => b - a);
     const cur = weekKey(now());
+    const weeks = Object.keys(best).map(Number).filter(w => w !== cur).sort((a, b) => b - a);   // 本週在上方主榜，這裡只列過去週
     if (!weeks.length) { el.innerHTML = `<p class="empty">${t('noWeekly')}</p>`; return; }
     el.innerHTML = `<table>${weeks.slice(0, 12).map(wk => { const r = best[wk]; const d = new Date(wk); const isoWeek = (() => { const t0 = new Date(Date.UTC(d.getUTCFullYear(), 0, 4)); const w = Math.round(((wk - t0.getTime()) / 86400e3 - 3 + ((t0.getUTCDay() + 6) % 7)) / 7) + 1; return w; })();
       return `<tr><td>${wk === cur ? '⏳ ' : '🏆 '}${fmt(t('weekN'), { w: isoWeek, a: fmtMD(wk), b: fmtMD(wk + 6 * 86400e3) })}</td><td>${escapeHtml(r.nick)}${r.uid && r.uid === FB.uid ? ' ★' : ''}${wk === cur ? ' <small>' + t('weekLead') + '</small>' : ''}</td><td>${r.score}</td></tr>`; }).join('')}</table>`;
