@@ -90,7 +90,7 @@ function initFirebase() {
 }
 const now = () => Date.now() + FB.offset;
 function nickVal() { return $('nick').value.trim().slice(0, 12); }
-function requireNick() {            // 暱稱必填：沒填就不能開始任何模式
+function requireNick() {            // 暱稱必填：沒填就不能開始任何模式（欄位預設留空，每次都要自己輸入）
   if (nickVal()) return true;
   if (!$('home').classList.contains('active')) show('home');      // 暱稱欄在首頁，先切回去才看得到提醒
   const f = $('nick'); f.focus(); f.classList.add('shake'); setTimeout(() => f.classList.remove('shake'), 600);
@@ -704,6 +704,7 @@ function finish() {
   board.push({ ...rec, mode: game.mode, group: GROUP }); board.sort((a, b) => b.score - a.score); localStorage.setItem('board', JSON.stringify(board.slice(0, 60)));
   if (game.mode === 'daily') localStorage.setItem('daily-' + GROUP + '-' + today(), String(game.score));
   const isBot = game.pvp && game.pvp.local;
+  if (!isBot) recordChampion(rec);   // 對電腦不列入
   game.pushFailed = false;
   if (FB.ok && !isBot) FB.db.ref('scores/' + scopeKey(game.mode)).push(rec)
     .catch(e => { console.warn('score push failed', e); game.pushFailed = true; const n = $('boardNote'); if (n) { n.textContent = t('pushFailed'); n.classList.add('warn'); } });
@@ -737,7 +738,7 @@ function renderResult() {
   });
   renderBoard();
 }
-let boardQuery = null, boardHandler = null, boardScope = '', boardCache = null;                       // 排行榜即時監聽（切換範圍／模式時重綁）
+let boardQuery = null, boardHandler = null, boardScope = '', boardCache = null, champQuery = null, champHandler = null, champCache = null;                       // 排行榜即時監聽（切換範圍／模式時重綁）
 function boardRows(snap) { const all = []; snap.forEach(c => { const r = c.val(); if (r && r.ts) all.push(r); }); return all; }
 function renderBoard() {
   const el = $('boardBody'); if (!el) return;
@@ -758,6 +759,10 @@ function renderBoard() {
   if (boardQuery && boardHandler) { boardQuery.off('value', boardHandler); boardQuery = null; boardHandler = null; }
   boardScope = scope;
   // 即時監聽：任何人交出新成績，本週排行榜與每週冠軍都會自動更新
+  if (champQuery && champHandler) { champQuery.off('value', champHandler); }
+  champQuery = FB.db.ref('champions/' + scope); champCache = null;
+  champHandler = s => { champCache = s.val() || {}; renderWeekly(boardCache); };
+  champQuery.on('value', champHandler, () => { champCache = null; });
   boardQuery = FB.db.ref('scores/' + scope).orderByChild('ts').limitToLast(3000);
   boardHandler = s => {
     const all = boardRows(s); boardCache = all;
@@ -766,6 +771,13 @@ function renderBoard() {
     renderWeekly(all);
   };
   boardQuery.on('value', boardHandler, () => { draw(local, t('localNote')); renderWeekly(null); });
+}
+/* 每週冠軍另存一份到 champions/<榜單>/<週起點>，排行榜之後清空也不會失去歷屆紀錄 */
+function recordChampion(rec) {
+  if (!FB.ok || !rec || !rec.ts) return;
+  const ref = FB.db.ref('champions/' + scopeKey(game.mode) + '/' + weekKey(rec.ts));
+  const mine = { nick: rec.nick, score: rec.score, uid: rec.uid, correct: rec.correct, n: rec.n, date: rec.date, ts: rec.ts };
+  ref.transaction(cur => (cur && cur.score >= mine.score) ? undefined : mine).catch(e => console.warn('champion write failed', e));
 }
 /* 每週冠軍：以週一為一週起點（台灣時間）；本週冠軍也列出（標示「本週目前領先」），有人超車會即時更新 */
 function weekKey(ts) {
@@ -778,9 +790,9 @@ const fmtMD = ms => { const d = new Date(ms); return (d.getUTCMonth() + 1) + '/'
 function isoWeekNo(wk) { const d = new Date(wk); const t0 = new Date(Date.UTC(d.getUTCFullYear(), 0, 4)); return Math.round(((wk - t0.getTime()) / 86400e3 - 3 + ((t0.getUTCDay() + 6) % 7)) / 7) + 1; }
 function renderWeekly(all) {
   const el = $('weeklyBody'); if (!el) return;
-  if (!all) { el.innerHTML = `<p class="empty">${t('noWeekly')}</p>`; return; }
   const best = {};
-  all.forEach(r => { const wk = weekKey(r.ts); if (!best[wk] || r.score > best[wk].score || (r.score === best[wk].score && r.ts < best[wk].ts)) best[wk] = r; });
+  Object.entries(champCache || {}).forEach(([wk, r]) => { if (r && typeof r.score === 'number') best[Number(wk)] = r; });   // 已保存的歷屆冠軍
+  (all || []).forEach(r => { const wk = weekKey(r.ts); if (!best[wk] || r.score > best[wk].score || (r.score === best[wk].score && r.ts < best[wk].ts)) best[wk] = r; });
   const cur = weekKey(now());
   if (!best[cur]) best[cur] = null;                                        // 本週還沒有人玩也要占一列
   const weeks = Object.keys(best).map(Number).sort((a, b) => b - a);
@@ -799,7 +811,7 @@ $('backBtn').addEventListener('click', backToCurrent);
 $('againBtn').addEventListener('click', () => { const m = game.mode; if (m === 'pvp') { show('pvp'); pvpMenu(); } else start(m); });
 $('homeBtn').addEventListener('click', () => { clearInterval(game && game.timer); game = null; pvpCleanup(); show('home'); renderBoard(); });
 $('langBtn').addEventListener('click', () => { lang = lang === 'zh' ? 'en' : 'zh'; localStorage.setItem('lang', lang); applyLang(); });
-$('nick').value = localStorage.getItem('nick') || '';
+$('nick').value = '';                      // 暱稱欄預設留空，不帶入上次輸入
 $('nick').addEventListener('change', syncNick);
 $('nick').addEventListener('input', () => { const h = $('nickHint'); if (h && nickVal()) { h.textContent = ''; h.classList.remove('warn'); } });
 $('btnMatch').addEventListener('click', pvpMatch);

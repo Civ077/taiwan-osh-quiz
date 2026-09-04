@@ -36,6 +36,24 @@
       }
     },
 
+    "champions": {
+      "$scope": {
+        ".read": "auth != null",
+        "$week": {
+          ".write": "auth != null && $scope.matches(/^(solo|daily|pvp)_(OSH|ENV)$/) && (!data.exists() || newData.child('score').val() > data.child('score').val())",
+          ".validate": "newData.hasChildren(['nick','score','ts']) && $week.matches(/^[0-9]{10,14}$/)",
+          "nick": { ".validate": "newData.isString() && newData.val().length >= 1 && newData.val().length <= 12" },
+          "score": { ".validate": "newData.isNumber() && newData.val() >= 0 && newData.val() <= ($scope.beginsWith('daily') ? 5000 : 10000)" },
+          "correct": { ".validate": "newData.isNumber() && newData.val() >= 0 && newData.val() <= 20" },
+          "n": { ".validate": "newData.isNumber() && newData.val() >= 1 && newData.val() <= 20" },
+          "uid": { ".validate": "newData.isString() && newData.val() === auth.uid" },
+          "date": { ".validate": "newData.isString() && newData.val().matches(/^\\d{4}-\\d{2}-\\d{2}$/)" },
+          "ts": { ".validate": "newData.isNumber() && newData.val() > now - 600000 && newData.val() <= now + 300000" },
+          "$other": { ".validate": false }
+        }
+      }
+    },
+
     "lobby": {
       ".read": "auth != null",
       "$uid": {
