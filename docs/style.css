@@ -60,6 +60,7 @@ button{font:inherit;cursor:pointer}
 .fb-explain{font-size:14px;color:#3b4855;white-space:pre-wrap;margin-bottom:12px}
 .hidden{display:none}
 .primary{width:100%;background:var(--green);color:#fff;border:0;border-radius:12px;padding:14px;font-size:17px;font-weight:700;letter-spacing:2px;box-shadow:0 4px 12px rgba(57,181,113,.35)}
+.primary:disabled{background:#c8d2da;box-shadow:none;color:#f2f6f8}
 .ghost{width:100%;background:transparent;color:var(--navy);border:1px solid var(--line);border-radius:12px;padding:12px;font-size:16px}
 .actions{display:grid;gap:10px;margin:14px 0 22px}
 .total{text-align:center;font-size:48px;font-weight:800;color:var(--navy);margin:6px 0}

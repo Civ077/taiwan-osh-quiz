@@ -20,6 +20,7 @@ self.addEventListener('fetch', e => {
   e.respondWith(
     fetch(e.request).then(r => {
       if (r && r.ok && (url.origin === location.origin || url.hostname === 'www.gstatic.com')) {
+        if (/\/data\//.test(e.request.url)) return r;   // 備援題庫 14 MB，只存 IndexedDB，不進 Cache Storage
         const copy = r.clone(); caches.open(VERSION).then(c => c.put(e.request, copy));
       }
       return r;
