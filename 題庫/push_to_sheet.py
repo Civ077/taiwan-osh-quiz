@@ -6,6 +6,7 @@
   python push_to_sheet.py changelog 4          # 把 Changelog 中「建立批次4」那列接在最後
   python push_to_sheet.py laws-all             # 用 tsv/Laws.tsv 覆寫 Laws!A2:I62 全部欄位（依 Sheet 順序）
   python push_to_sheet.py laws                 # 用 tsv/Laws.tsv 的 law_version+source_url 覆寫 Laws!F2:G62（依 Sheet 順序）
+  python push_to_sheet.py sync-split / laws-split / articles-split   # 職安／環保分開的分頁（Questions_OSH…）；drop-combined 清舊合併分頁
   python push_to_sheet.py sync                 # 整批同步：用本地 tsv/Questions.tsv 覆寫 Questions!A2 起的 A–U 欄（題目內容），
                                                #   不動 V–Y 欄（status/batch/reviewer/review_note）；新題的 status/batch 只在空白時補上
   python push_to_sheet.py raw Config A2 "key<TAB>value"   # 任意分頁、任意起始格，range 模式
@@ -119,6 +120,56 @@ def main(a):
                 time.sleep(5)
             print("%d-%d" % (i + 1, i + len(chunk)), "ok" if r.get("ok") else r)
             if not r.get("ok"): sys.exit("中斷於 %d，可用 `articles %d` 續灌" % (i + 1, i + 1))
+    elif cmd == "sync-split":
+        # 職安／環保分開：tsv/Questions_OSH.tsv → Questions_OSH、tsv/Questions_ENV.tsv → Questions_ENV（含標題，從 A1 覆寫；不存在則建立；
+        # 500 列一塊、range 定位寫入可重試；之後補 status/batch（只補空白列）並刪掉多餘舊列。需 GAS v5+。
+        import time
+        for g in ("OSH", "ENV"):
+            sheet = "Questions_" + g
+            rows = read("tsv/Questions_%s.tsv" % g)
+            head, body = rows[0], rows[1:]
+            content = [head.split(TAB)[:21]] + [r.split(TAB)[:21] for r in body]      # A–U
+            print(sheet, "建立/確認：", post({"token": token(), "sheet": sheet, "mode": "range", "startCell": "A1", "tsv": TAB.join(content[0]), "create": True}))
+            step = 500
+            for i in range(1, len(content), step):
+                chunk = content[i:i + step]
+                for attempt in range(3):
+                    r = post({"token": token(), "sheet": sheet, "mode": "range", "startCell": "A%d" % (i + 1), "tsv": NL.join(TAB.join(c) for c in chunk)})
+                    if r.get("ok"): break
+                    time.sleep(5)
+                print(" %d-%d" % (i, i + len(chunk) - 1), "ok" if r.get("ok") else r)
+                if not r.get("ok"): sys.exit("中斷")
+            # V–Y 標題 + 補 status/batch
+            hv = head.split(TAB)
+            print(" 標題 V–Y：", post({"token": token(), "sheet": sheet, "mode": "range", "startCell": "V1", "tsv": TAB.join(hv[21:25])}))
+            fill = NL.join(r.split(TAB)[0] + TAB + r.split(TAB)[21] + TAB + r.split(TAB)[22] for r in body)
+            print(" 補 status/batch：", post({"token": token(), "sheet": sheet, "mode": "fill_status", "tsv": fill}))
+            print(" 清多餘列：", post({"token": token(), "sheet": sheet, "mode": "clear_from", "from": len(content) + 1}))
+    elif cmd == "laws-split":
+        for g in ("OSH", "ENV"):
+            sheet = "Laws_" + g
+            rows = read("tsv/Laws_%s.tsv" % g)
+            print(sheet, post({"token": token(), "sheet": sheet, "mode": "range", "startCell": "A1", "tsv": NL.join(rows), "create": True}))
+            print(" 清多餘列：", post({"token": token(), "sheet": sheet, "mode": "clear_from", "from": len(rows) + 1}))
+    elif cmd == "articles-split":
+        import time
+        for g in ("OSH", "ENV"):
+            sheet = "Articles_" + g
+            rows = read("tsv/Articles_%s.tsv" % g)
+            print(sheet, "建立/確認：", post({"token": token(), "sheet": sheet, "mode": "range", "startCell": "A1", "tsv": rows[0], "create": True}))
+            step = 250
+            for i in range(1, len(rows), step):
+                chunk = rows[i:i + step]
+                for attempt in range(3):
+                    r = post({"token": token(), "sheet": sheet, "mode": "range", "startCell": "A%d" % (i + 1), "tsv": NL.join(chunk)})
+                    if r.get("ok"): break
+                    time.sleep(5)
+                if not r.get("ok"): sys.exit("中斷於 %d" % i)
+            print(" 寫入 %d 條；清多餘列：" % (len(rows) - 1), post({"token": token(), "sheet": sheet, "mode": "clear_from", "from": len(rows) + 1}))
+    elif cmd == "drop-combined":
+        # GAS v6 上線後，把舊的合併分頁 Questions／Laws／Articles 清空（保留分頁，避免 GAS 舊版找不到）
+        for sheet in ("Questions", "Laws", "Articles"):
+            print(sheet, post({"token": token(), "sheet": sheet, "mode": "clear_from", "from": 1}))
     elif cmd == "sync":
         rows = [r.split(TAB) for r in read("tsv/Questions.tsv")]
         if rows and rows[0][0] == "id":

@@ -98,13 +98,13 @@ FAMILIES = [
  ("職安-勞動檢查", [3,4,25]),
  ("職安-勞動條件與職場平等", [48,49,37,38]),
  ("環保-環境基本與環評", [21,13,63,64,65,66,98]),
- ("環保-空氣品質（含室內空品）", [1,2,26,27,28,29,32,33,34,35,3,4,36,37,38,30,31,99,100,101,102,103,104,105,106,107,108,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,131,132,133,134,135,136,137,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153]),
- ("環保-噪音", [5,6,39,40,41,42,43,109,130,138,204]),
- ("環保-水污染與飲用水", [7,44,8,9,45,46,47,48,51,49,50,154,155,156,157,158,159,160,161,162]),
+ ("環保-空氣品質（含室內空品）", [1,2,26,27,28,29,32,33,34,35,3,4,36,37,38,30,31,99,100,101,102,103,104,105,106,107,108,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,131,132,133,134,135,136,137,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,208,209]),
+ ("環保-噪音", [5,6,39,40,41,42,43,109,130,138,204,210]),
+ ("環保-水污染與飲用水", [7,44,8,9,45,46,47,48,51,49,50,154,155,156,157,158,159,160,161,162,211,212,222,223]),
  ("環保-廢棄物與資源循環", [10,52,11,53,54,55,56,57,58,59,60,61,24,62,12,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,187]),
  ("環保-土壤及地下水", [19,77,78,79,80,81,82,83,201,202,203]),
- ("環保-毒性化學物質與環境用藥", [20,67,68,69,70,71,72,73,74,75,76,188,189,190,191,192,193,194,195,196,197,198,199,200]),
- ("環保-氣候變遷", [22,84,85,86,87,88,89,90,91,163,164,165,166]),
+ ("環保-毒性化學物質與環境用藥", [20,67,68,69,70,71,72,73,74,75,76,188,189,190,191,192,193,194,195,196,197,198,199,200,214,215,216,217,218,219,220,221]),
+ ("環保-氣候變遷", [22,84,85,86,87,88,89,90,91,163,164,165,166,213]),
  ("環保-環境教育與環檢機構", [23,92,93,94,96,97,205,206,207]),
  ("環保-公害糾紛", [25,95]),
  ("環保-海洋與生態保育", [14,15,16,17,18]),
@@ -132,6 +132,7 @@ BATCHES = {
  11: sorted(_p.stem for _p in _Path(__file__).parent.glob("batch11_*.py")),
  12: sorted(_p.stem for _p in _Path(__file__).parent.glob("batch12_*.py")),
  13: sorted(_p.stem for _p in _Path(__file__).parent.glob("batch13_*.py")),
+ 14: sorted(_p.stem for _p in _Path(__file__).parent.glob("batch14_*.py")),
 }
 
 # ---------- Laws 主檔（沿用批次 1 清單，另加 OSH-36 營造標準） ----------
@@ -435,6 +436,22 @@ ENV_LAWS = [
  ("環境教育設施場所認證及管理辦法","Regulations Governing the Accreditation and Management of Environmental Education Facilities and Venues","O0120004",1,2),
  ("環境教育機構認證及管理辦法","Regulations Governing the Accreditation and Management of Environmental Education Institutions","O0120005",1,2),
  ("環境檢驗測定機構違反環保法規罰鍰額度裁罰準則","Guidelines for Determining Fine Amounts for Environmental Testing Institutions in Violation of Environmental Protection Regulations","O0070007",1,2),
+ ("既存固定污染源污染物排放量認可準則","Approval Guidelines for Pollutant Emission Amounts of Existing Stationary Pollution Sources","O0020064",1,2),
+ ("三級防制區既存固定污染源應削減污染物排放量準則","Guidelines for Pollutant Emission Reduction by Existing Stationary Pollution Sources in Class III Control Areas","O0020126",1,2),
+ ("機動車輛噪音驗證核可準則","Guidelines for Verification and Approval of Motor Vehicle Noise","O0030015",1,2),
+ ("飲用水水質處理藥劑申請公告作業準則","Operational Guidelines for Application and Announcement of Drinking Water Treatment Chemicals","O0040050",1,2),
+ ("飲用水水源水質或淨水處理改善計畫審核準則","Guidelines for Review of Drinking Water Source Quality or Water Treatment Improvement Plans","O0040051",1,2),
+ ("氣候變遷風險評估作業準則","Guidelines for Climate Change Risk Assessment","O0020143",1,2),
+ ("環境用藥原體轉讓申請作業準則","Operational Guidelines for Application for Transfer of Environmental Agent Technical Materials","O0060023",1,2),
+ ("環境用藥專供輸出申請作業準則","Operational Guidelines for Application for Environmental Agents Exclusively for Export","O0060026",1,2),
+ ("環境用藥專供試驗研究教育示範專案防治或登記用申請作業準則","Operational Guidelines for Application for Environmental Agents Exclusively for Testing, Research, Education, Demonstration Projects, Pest Control, or Registration","O0060027",1,2),
+ ("環境用藥許可證申請核發作業準則","Operational Guidelines for Application and Issuance of Environmental Agent Permits","O0060028",1,2),
+ ("環境用藥分裝調配及委託製造作業準則","Operational Guidelines for Repackaging, Formulation, and Contract Manufacturing of Environmental Agents","O0060029",1,2),
+ ("環境用藥標示準則","Labeling Guidelines for Environmental Agents","O0060030",1,2),
+ ("環境用藥販賣業及病媒防治業許可執照申請核發作業準則","Operational Guidelines for Application and Issuance of Permits for Environmental Agent Retailers and Pest Control Operators","O0060032",1,2),
+ ("毒性及關注化學物質事故調查處理報告作業準則","Operational Guidelines for Investigation and Reporting of Toxic and Concerned Chemical Substance Incidents","O0060034",1,2),
+ ("土壤底泥及地下水污染物檢驗測定品質管制準則","Quality Control Guidelines for Testing of Soil, Sediment, and Groundwater Pollutants","O0110016",1,2),
+ ("辦理土壤及地下水污染場址整治目標公聽會作業準則","Operational Guidelines for Public Hearings on Remediation Goals for Soil and Groundwater Pollution Sites","O0110019",1,2),
 ]
 
 for _i,(_zh,_en,_code,_w) in enumerate(OSH_LAWS, start=1):
@@ -513,7 +530,7 @@ def load_questions():
                 order = [0,1,2,3]; random.Random(f"{qid}-osh-quiz").shuffle(order)
                 oz2 = [oz[i] for i in order]; oe2 = [oe[i] for i in order]
                 ans2 = "abcd"[order.index("abcd".index(ans))]
-                row = [qid,"OSH",lid,LAW_NAME[lid],art,LAW_VER[lid],cat,diff,qz,*oz2,qe,*oe2,ans2,ez,ee,("draft" if in_scope(lid) else "archived"),bno,"",("" if in_scope(lid) else "不在使用者指定之職安法規範圍，暫不使用")]
+                row = [qid,lid[:3],lid,LAW_NAME[lid],art,LAW_VER[lid],cat,diff,qz,*oz2,qe,*oe2,ans2,ez,ee,("draft" if in_scope(lid) else "archived"),bno,"",("" if in_scope(lid) else "不在使用者指定之職安法規範圍，暫不使用")]
                 rows.append(row); per_batch.setdefault(bno, []).append(row)
     return rows, errs, per_batch
 
@@ -544,6 +561,7 @@ CHANGELOG = [
  ["2026-09-03","OSH-01..90","見各題 law_version","建立批次11：職安法規逐條補題（每一條文至少一題）","batch=11","初版 draft，待審","Claude Code"],
  ["2026-09-04","ENV-98..207","見各題 law_version","建立批次12：新增 110 部環保細則／標準／準則／管理辦法（空氣、噪音、水、廢棄物、土水、毒化物、氣候、環教）逐條出題","batch=12","初版 draft，待審","Claude Code"],
  ["2026-09-04","ENV-26..96","見各題 law_version","建立批次13：環保子法（批次8 原僅 5–8 題之 28 部）逐條補齊","batch=13","初版 draft，待審","Claude Code"],
+ ["2026-09-04","ENV-208..223","見各題 law_version","建立批次14：環保 16 部準則類法規逐條出題","batch=14","初版 draft，待審","Claude Code"],
  ["2026-09-03","OSH-51..96, ENV-26..97","見各題 law_version","建立批次7：依全國法規資料庫「職業安全衛生目／勞動檢查目／環境部各目」總表補齊：新增 46 部職安法規、72 部環保子法（原文已抓齊）；批次7 起建立題目（霸凌準則、工程安全設計、容許暴露、環測、危險性機械設備檢查、化學品三辦法、機械產品申報登錄／型式驗證、健康服務機構、職業病鑑定、職災補助…）","batch=7","初版 draft，待審","Claude Code"],
  ["2026-09-03","OSH-39,40,42,43,44,45,46,47,48,49,50","見各題 law_version","建立批次6：鉛、四烷基鉛、有機溶劑、特定化學物質、粉塵、化學品評估分級、鍋爐壓力容器、起重升降機具、碼頭裝卸、勞動基準法及施行細則（使用者 2026-09-03 增列之職安範圍）","batch=6","初版 draft，待審","Claude Code"],
  ["2026-09-03","OSH-03,04,35,22,20,21,16,17,23,25,29,31,30,19,27,26,33,28","見各題 law_version","建立批次5：勞動檢查法系（含施行細則、立即危險認定標準、違反案件處理要點、重大災害通報要點、優良單位選拔要點）、勞工職業災害保險及保護法、母性健康保護、妊娠及未滿十八歲禁止工作認定標準、女性夜間、精密、重體力、工業用機器人、顧問機構、文化獎勵、績效評核、健檢醫療機構認可、檢驗機構要點；Laws 分頁全部 61 部法規版本日期改由條文檔自動帶入","batch=5","初版 draft，待審","Claude Code"],
@@ -570,18 +588,46 @@ def tsv(rows):
         out.append('\t'.join(cells))
     return '\n'.join(out)
 
+def _art_key(a):
+    """條號排序鍵：第12條之1 → (12,1)；章節名（無條號）→ (10**6, 原字串)"""
+    m = re.search(r'第\s*(\d+)(?:-(\d+))?\s*條(?:之\s*(\d+))?', str(a))
+    if not m: return (10**6, 0, str(a))
+    return (int(m.group(1)), int(m.group(2) or m.group(3) or 0), "")
+
+def sort_and_renumber(qrows, per_batch):
+    """職安／環保分開：先職安後環保，各依 Laws 體系順序→法規→條號排序，題號重編為 OSH-0001…／ENV-0001…。
+    per_batch 內的列與 qrows 是同一批 list 物件，改 id 會同步反映。"""
+    order = {lid: i for i, (lid, _f) in enumerate(family_order())}
+    head, rows = qrows[0], qrows[1:]
+    rows.sort(key=lambda r: (0 if r[1] == "OSH" else 1, order.get(r[2], 10**6), _art_key(r[4])))
+    n = {"OSH": 0, "ENV": 0}
+    for r in rows:
+        n[r[1]] += 1; r[0] = f"{r[1]}-{n[r[1]]:04d}"
+    return [head] + rows
+
 def main():
     qrows, errs, per_batch = load_questions()
     if errs:
         print("驗證錯誤："); [print(" ", e) for e in errs]; sys.exit(1)
+    qrows = sort_and_renumber(qrows, per_batch)
     from collections import Counter
     laws_rows = build_laws(Counter(r[2] for r in qrows[1:]))
     wb = Workbook()
-    ws = wb.active; ws.title = "Laws"
-    for r in laws_rows: ws.append(r)
+    split = {}
+    for g in ("OSH", "ENV"):
+        split[g] = ([laws_rows[0]] + [r for r in laws_rows[1:] if r[1] == g],
+                    [qrows[0]] + [r for r in qrows[1:] if r[1] == g])
+    ws = wb.active; ws.title = "Laws_OSH"
+    for r in split["OSH"][0]: ws.append(r)
     style_header(ws); autowidth(ws)
-    ws = wb.create_sheet("Questions")
-    for r in qrows: ws.append(r)
+    ws = wb.create_sheet("Laws_ENV")
+    for r in split["ENV"][0]: ws.append(r)
+    style_header(ws); autowidth(ws)
+    ws = wb.create_sheet("Questions_OSH")
+    for r in split["OSH"][1]: ws.append(r)
+    style_header(ws); autowidth(ws, 50)
+    ws = wb.create_sheet("Questions_ENV")
+    for r in split["ENV"][1]: ws.append(r)
     style_header(ws); autowidth(ws, 50)
     ws = wb.create_sheet("Config")
     for r in CONFIG: ws.append(r)
@@ -599,6 +645,9 @@ def main():
         open(os.path.join(HERE,"tsv",f"Questions_batch{bno}.tsv"),"w",encoding="utf-8",newline="").write(tsv(rows))
     open(os.path.join(HERE,"tsv","Questions.tsv"),"w",encoding="utf-8",newline="").write(tsv(qrows))   # 全部題目（含表頭），push_to_sheet.py sync 用
     open(os.path.join(HERE,"tsv","Laws.tsv"),"w",encoding="utf-8",newline="").write(tsv(laws_rows))
+    for g in ("OSH", "ENV"):
+        open(os.path.join(HERE,"tsv",f"Laws_{g}.tsv"),"w",encoding="utf-8",newline="").write(tsv(split[g][0]))
+        open(os.path.join(HERE,"tsv",f"Questions_{g}.tsv"),"w",encoding="utf-8",newline="").write(tsv(split[g][1]))
     open(os.path.join(HERE,"tsv","Changelog.tsv"),"w",encoding="utf-8",newline="").write(tsv(CHANGELOG))
     # 前端用精簡 JSON
     keep = ['id','law_id','law','article','law_version','category','difficulty','q_zh','a_zh','b_zh','c_zh','d_zh','q_en','a_en','b_en','c_en','d_en','answer','explain_zh','explain_en','status']
@@ -611,8 +660,9 @@ def main():
     print("依法規：", dict(Counter(r[2] for r in qrows[1:])))
     print("依難度：", dict(sorted(Counter(r[7] for r in qrows[1:]).items())))
     print("答案分布：", dict(sorted(Counter(r[18] for r in qrows[1:]).items())))
-    for bno, rows in sorted(per_batch.items()):
-        print(f"批次{bno} 題號 {rows[0][0]}–{rows[-1][0]}，答案分布", dict(sorted(Counter(r[18] for r in rows).items())))
+    for g in ("OSH", "ENV"):
+        rs = split[g][1][1:]
+        print(f"{g} 題號 {rs[0][0]}–{rs[-1][0]}，共 {len(rs)} 題，答案分布", dict(sorted(Counter(r[18] for r in rs).items())))
 
 if __name__ == "__main__":
     main()

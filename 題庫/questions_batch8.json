@@ -1,7 +1,7 @@
 [
  {
-  "id": "Q0941",
-  "law_group": "OSH",
+  "id": "ENV-0458",
+  "law_group": "ENV",
   "law_id": "ENV-26",
   "law": "空氣污染防制專責單位或專責人員設置及管理辦法",
   "article": "第2條",
@@ -27,8 +27,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0942",
-  "law_group": "OSH",
+  "id": "ENV-0462",
+  "law_group": "ENV",
   "law_id": "ENV-26",
   "law": "空氣污染防制專責單位或專責人員設置及管理辦法",
   "article": "第5條",
@@ -54,8 +54,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0943",
-  "law_group": "OSH",
+  "id": "ENV-0464",
+  "law_group": "ENV",
   "law_id": "ENV-26",
   "law": "空氣污染防制專責單位或專責人員設置及管理辦法",
   "article": "第7條",
@@ -81,8 +81,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0944",
-  "law_group": "OSH",
+  "id": "ENV-0466",
+  "law_group": "ENV",
   "law_id": "ENV-26",
   "law": "空氣污染防制專責單位或專責人員設置及管理辦法",
   "article": "第9條",
@@ -108,8 +108,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0945",
-  "law_group": "OSH",
+  "id": "ENV-0470",
+  "law_group": "ENV",
   "law_id": "ENV-26",
   "law": "空氣污染防制專責單位或專責人員設置及管理辦法",
   "article": "第13條",
@@ -135,8 +135,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0946",
-  "law_group": "OSH",
+  "id": "ENV-0477",
+  "law_group": "ENV",
   "law_id": "ENV-26",
   "law": "空氣污染防制專責單位或專責人員設置及管理辦法",
   "article": "第18條",
@@ -162,8 +162,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0947",
-  "law_group": "OSH",
+  "id": "ENV-0488",
+  "law_group": "ENV",
   "law_id": "ENV-27",
   "law": "固定污染源空氣污染物排放標準",
   "article": "第4條",
@@ -189,8 +189,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0948",
-  "law_group": "OSH",
+  "id": "ENV-0489",
+  "law_group": "ENV",
   "law_id": "ENV-27",
   "law": "固定污染源空氣污染物排放標準",
   "article": "第5條",
@@ -216,8 +216,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0949",
-  "law_group": "OSH",
+  "id": "ENV-0491",
+  "law_group": "ENV",
   "law_id": "ENV-27",
   "law": "固定污染源空氣污染物排放標準",
   "article": "第7條",
@@ -243,8 +243,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0950",
-  "law_group": "OSH",
+  "id": "ENV-0495",
+  "law_group": "ENV",
   "law_id": "ENV-27",
   "law": "固定污染源空氣污染物排放標準",
   "article": "第11條",
@@ -270,8 +270,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0951",
-  "law_group": "OSH",
+  "id": "ENV-0497",
+  "law_group": "ENV",
   "law_id": "ENV-27",
   "law": "固定污染源空氣污染物排放標準",
   "article": "第13條",
@@ -297,8 +297,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0952",
-  "law_group": "OSH",
+  "id": "ENV-0500",
+  "law_group": "ENV",
   "law_id": "ENV-28",
   "law": "空氣品質標準",
   "article": "第2條",
@@ -324,8 +324,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0953",
-  "law_group": "OSH",
+  "id": "ENV-0502",
+  "law_group": "ENV",
   "law_id": "ENV-28",
   "law": "空氣品質標準",
   "article": "第4條",
@@ -351,8 +351,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0954",
-  "law_group": "OSH",
+  "id": "ENV-0749",
+  "law_group": "ENV",
   "law_id": "ENV-30",
   "law": "室內空氣品質管理法",
   "article": "第3條",
@@ -378,8 +378,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0955",
-  "law_group": "OSH",
+  "id": "ENV-0753",
+  "law_group": "ENV",
   "law_id": "ENV-30",
   "law": "室內空氣品質管理法",
   "article": "第6條",
@@ -405,8 +405,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0956",
-  "law_group": "OSH",
+  "id": "ENV-0755",
+  "law_group": "ENV",
   "law_id": "ENV-30",
   "law": "室內空氣品質管理法",
   "article": "第8條",
@@ -432,8 +432,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0957",
-  "law_group": "OSH",
+  "id": "ENV-0764",
+  "law_group": "ENV",
   "law_id": "ENV-30",
   "law": "室內空氣品質管理法",
   "article": "第15條",
@@ -459,8 +459,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0958",
-  "law_group": "OSH",
+  "id": "ENV-0776",
+  "law_group": "ENV",
   "law_id": "ENV-31",
   "law": "室內空氣品質標準",
   "article": "第2條",
@@ -486,8 +486,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0959",
-  "law_group": "OSH",
+  "id": "ENV-0777",
+  "law_group": "ENV",
   "law_id": "ENV-31",
   "law": "室內空氣品質標準",
   "article": "第3條",
@@ -513,8 +513,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0960",
-  "law_group": "OSH",
+  "id": "ENV-1599",
+  "law_group": "ENV",
   "law_id": "ENV-39",
   "law": "噪音管制法施行細則",
   "article": "第3條",
@@ -540,8 +540,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0961",
-  "law_group": "OSH",
+  "id": "ENV-1604",
+  "law_group": "ENV",
   "law_id": "ENV-39",
   "law": "噪音管制法施行細則",
   "article": "第7條",
@@ -567,8 +567,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0962",
-  "law_group": "OSH",
+  "id": "ENV-1610",
+  "law_group": "ENV",
   "law_id": "ENV-39",
   "law": "噪音管制法施行細則",
   "article": "第12條",
@@ -594,8 +594,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0963",
-  "law_group": "OSH",
+  "id": "ENV-1612",
+  "law_group": "ENV",
   "law_id": "ENV-39",
   "law": "噪音管制法施行細則",
   "article": "第14條",
@@ -621,8 +621,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0964",
-  "law_group": "OSH",
+  "id": "ENV-1617",
+  "law_group": "ENV",
   "law_id": "ENV-40",
   "law": "環境音量標準",
   "article": "第2條",
@@ -648,8 +648,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0965",
-  "law_group": "OSH",
+  "id": "ENV-1618",
+  "law_group": "ENV",
   "law_id": "ENV-40",
   "law": "環境音量標準",
   "article": "第3條",
@@ -675,8 +675,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0966",
-  "law_group": "OSH",
+  "id": "ENV-1619",
+  "law_group": "ENV",
   "law_id": "ENV-40",
   "law": "環境音量標準",
   "article": "第4條",
@@ -702,8 +702,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0967",
-  "law_group": "OSH",
+  "id": "ENV-1849",
+  "law_group": "ENV",
   "law_id": "ENV-44",
   "law": "水污染防治法施行細則",
   "article": "第8條",
@@ -729,8 +729,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0968",
-  "law_group": "OSH",
+  "id": "ENV-1850",
+  "law_group": "ENV",
   "law_id": "ENV-44",
   "law": "水污染防治法施行細則",
   "article": "第9條",
@@ -756,8 +756,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0969",
-  "law_group": "OSH",
+  "id": "ENV-1853",
+  "law_group": "ENV",
   "law_id": "ENV-44",
   "law": "水污染防治法施行細則",
   "article": "第11條",
@@ -783,8 +783,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0970",
-  "law_group": "OSH",
+  "id": "ENV-1859",
+  "law_group": "ENV",
   "law_id": "ENV-44",
   "law": "水污染防治法施行細則",
   "article": "第15條",
@@ -810,8 +810,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0971",
-  "law_group": "OSH",
+  "id": "ENV-2111",
+  "law_group": "ENV",
   "law_id": "ENV-46",
   "law": "廢（污）水處理專責單位或人員設置及管理辦法",
   "article": "第4條",
@@ -837,8 +837,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0972",
-  "law_group": "OSH",
+  "id": "ENV-2116",
+  "law_group": "ENV",
   "law_id": "ENV-46",
   "law": "廢（污）水處理專責單位或人員設置及管理辦法",
   "article": "第9條",
@@ -864,8 +864,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0973",
-  "law_group": "OSH",
+  "id": "ENV-2122",
+  "law_group": "ENV",
   "law_id": "ENV-46",
   "law": "廢（污）水處理專責單位或人員設置及管理辦法",
   "article": "第15條",
@@ -891,8 +891,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0974",
-  "law_group": "OSH",
+  "id": "ENV-2129",
+  "law_group": "ENV",
   "law_id": "ENV-46",
   "law": "廢（污）水處理專責單位或人員設置及管理辦法",
   "article": "第22條",
@@ -918,8 +918,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0975",
-  "law_group": "OSH",
+  "id": "ENV-2204",
+  "law_group": "ENV",
   "law_id": "ENV-48",
   "law": "事業或污水下水道系統排放廢（污）水緊急應變辦法",
   "article": "第4條",
@@ -945,8 +945,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0976",
-  "law_group": "OSH",
+  "id": "ENV-2205",
+  "law_group": "ENV",
   "law_id": "ENV-48",
   "law": "事業或污水下水道系統排放廢（污）水緊急應變辦法",
   "article": "第5條",
@@ -972,8 +972,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0977",
-  "law_group": "OSH",
+  "id": "ENV-2247",
+  "law_group": "ENV",
   "law_id": "ENV-49",
   "law": "飲用水管理條例",
   "article": "第5條",
@@ -999,8 +999,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0978",
-  "law_group": "OSH",
+  "id": "ENV-2262",
+  "law_group": "ENV",
   "law_id": "ENV-49",
   "law": "飲用水管理條例",
   "article": "第16條",
@@ -1026,8 +1026,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0979",
-  "law_group": "OSH",
+  "id": "ENV-2269",
+  "law_group": "ENV",
   "law_id": "ENV-49",
   "law": "飲用水管理條例",
   "article": "第23條",
@@ -1053,8 +1053,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0980",
-  "law_group": "OSH",
+  "id": "ENV-2531",
+  "law_group": "ENV",
   "law_id": "ENV-52",
   "law": "廢棄物清理法施行細則",
   "article": "第11條",
@@ -1080,8 +1080,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0981",
-  "law_group": "OSH",
+  "id": "ENV-2532",
+  "law_group": "ENV",
   "law_id": "ENV-52",
   "law": "廢棄物清理法施行細則",
   "article": "第12條",
@@ -1107,8 +1107,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0982",
-  "law_group": "OSH",
+  "id": "ENV-2599",
+  "law_group": "ENV",
   "law_id": "ENV-53",
   "law": "有害事業廢棄物認定標準",
   "article": "第2條",
@@ -1134,8 +1134,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0983",
-  "law_group": "OSH",
+  "id": "ENV-2601",
+  "law_group": "ENV",
   "law_id": "ENV-53",
   "law": "有害事業廢棄物認定標準",
   "article": "第4條",
@@ -1161,8 +1161,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0984",
-  "law_group": "OSH",
+  "id": "ENV-2648",
+  "law_group": "ENV",
   "law_id": "ENV-55",
   "law": "事業廢棄物清理計畫書審查管理辦法",
   "article": "第4條",
@@ -1188,8 +1188,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0985",
-  "law_group": "OSH",
+  "id": "ENV-2653",
+  "law_group": "ENV",
   "law_id": "ENV-55",
   "law": "事業廢棄物清理計畫書審查管理辦法",
   "article": "第9條",
@@ -1215,8 +1215,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0986",
-  "law_group": "OSH",
+  "id": "ENV-2664",
+  "law_group": "ENV",
   "law_id": "ENV-55",
   "law": "事業廢棄物清理計畫書審查管理辦法",
   "article": "第16條",
@@ -1242,8 +1242,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0987",
-  "law_group": "OSH",
+  "id": "ENV-0097",
+  "law_group": "ENV",
   "law_id": "ENV-63",
   "law": "環境影響評估法施行細則",
   "article": "第6條",
@@ -1269,8 +1269,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0988",
-  "law_group": "OSH",
+  "id": "ENV-0118",
+  "law_group": "ENV",
   "law_id": "ENV-63",
   "law": "環境影響評估法施行細則",
   "article": "第19條",
@@ -1296,8 +1296,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0989",
-  "law_group": "OSH",
+  "id": "ENV-0122",
+  "law_group": "ENV",
   "law_id": "ENV-63",
   "law": "環境影響評估法施行細則",
   "article": "第22條",
@@ -1323,8 +1323,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0990",
-  "law_group": "OSH",
+  "id": "ENV-0148",
+  "law_group": "ENV",
   "law_id": "ENV-63",
   "law": "環境影響評估法施行細則",
   "article": "第38條",
@@ -1350,8 +1350,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0991",
-  "law_group": "OSH",
+  "id": "ENV-3621",
+  "law_group": "ENV",
   "law_id": "ENV-67",
   "law": "毒性及關注化學物質管理法施行細則",
   "article": "第10條",
@@ -1377,8 +1377,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0992",
-  "law_group": "OSH",
+  "id": "ENV-3632",
+  "law_group": "ENV",
   "law_id": "ENV-68",
   "law": "毒性及關注化學物質危害預防及應變計畫作業辦法",
   "article": "第2條",
@@ -1404,8 +1404,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0993",
-  "law_group": "OSH",
+  "id": "ENV-3633",
+  "law_group": "ENV",
   "law_id": "ENV-68",
   "law": "毒性及關注化學物質危害預防及應變計畫作業辦法",
   "article": "第3條",
@@ -1431,8 +1431,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0994",
-  "law_group": "OSH",
+  "id": "ENV-3645",
+  "law_group": "ENV",
   "law_id": "ENV-69",
   "law": "毒性及關注化學物質專業技術管理人員設置及管理辦法",
   "article": "第3條",
@@ -1458,8 +1458,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0995",
-  "law_group": "OSH",
+  "id": "ENV-3654",
+  "law_group": "ENV",
   "law_id": "ENV-69",
   "law": "毒性及關注化學物質專業技術管理人員設置及管理辦法",
   "article": "第12條",
@@ -1485,8 +1485,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0996",
-  "law_group": "OSH",
+  "id": "ENV-3374",
+  "law_group": "ENV",
   "law_id": "ENV-77",
   "law": "土壤及地下水污染整治法施行細則",
   "article": "第10條",
@@ -1512,8 +1512,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0997",
-  "law_group": "OSH",
+  "id": "ENV-3379",
+  "law_group": "ENV",
   "law_id": "ENV-77",
   "law": "土壤及地下水污染整治法施行細則",
   "article": "第14條",
@@ -1539,8 +1539,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0998",
-  "law_group": "OSH",
+  "id": "ENV-3382",
+  "law_group": "ENV",
   "law_id": "ENV-77",
   "law": "土壤及地下水污染整治法施行細則",
   "article": "第17條",
@@ -1566,8 +1566,8 @@
   "review_note": ""
  },
  {
-  "id": "Q0999",
-  "law_group": "OSH",
+  "id": "ENV-3401",
+  "law_group": "ENV",
   "law_id": "ENV-78",
   "law": "土壤污染管制標準",
   "article": "第5條",
@@ -1593,8 +1593,8 @@
   "review_note": ""
  },
  {
-  "id": "Q1000",
-  "law_group": "OSH",
+  "id": "ENV-3402",
+  "law_group": "ENV",
   "law_id": "ENV-78",
   "law": "土壤污染管制標準",
   "article": "第5條",
@@ -1620,8 +1620,8 @@
   "review_note": ""
  },
  {
-  "id": "Q1001",
-  "law_group": "OSH",
+  "id": "ENV-3408",
+  "law_group": "ENV",
   "law_id": "ENV-79",
   "law": "地下水污染管制標準",
   "article": "第3條",
@@ -1647,8 +1647,8 @@
   "review_note": ""
  },
  {
-  "id": "Q1002",
-  "law_group": "OSH",
+  "id": "ENV-3436",
+  "law_group": "ENV",
   "law_id": "ENV-82",
   "law": "土壤及地下水污染場址初步評估暨處理等級評定辦法",
   "article": "第8條",
@@ -1674,8 +1674,8 @@
   "review_note": ""
  },
  {
-  "id": "Q1003",
-  "law_group": "OSH",
+  "id": "ENV-3431",
+  "law_group": "ENV",
   "law_id": "ENV-82",
   "law": "土壤及地下水污染場址初步評估暨處理等級評定辦法",
   "article": "第3條",
@@ -1701,8 +1701,8 @@
   "review_note": ""
  },
  {
-  "id": "Q1004",
-  "law_group": "OSH",
+  "id": "ENV-4101",
+  "law_group": "ENV",
   "law_id": "ENV-84",
   "law": "氣候變遷因應法施行細則",
   "article": "第7條",
@@ -1728,8 +1728,8 @@
   "review_note": ""
  },
  {
-  "id": "Q1005",
-  "law_group": "OSH",
+  "id": "ENV-4105",
+  "law_group": "ENV",
   "law_id": "ENV-84",
   "law": "氣候變遷因應法施行細則",
   "article": "第11條",
@@ -1755,8 +1755,8 @@
   "review_note": ""
  },
  {
-  "id": "Q1006",
-  "law_group": "OSH",
+  "id": "ENV-4124",
+  "law_group": "ENV",
   "law_id": "ENV-85",
   "law": "溫室氣體排放量盤查登錄及查驗管理辦法",
   "article": "第3條",
@@ -1782,8 +1782,8 @@
   "review_note": ""
  },
  {
-  "id": "Q1007",
-  "law_group": "OSH",
+  "id": "ENV-4128",
+  "law_group": "ENV",
   "law_id": "ENV-85",
   "law": "溫室氣體排放量盤查登錄及查驗管理辦法",
   "article": "第6條",
@@ -1809,8 +1809,8 @@
   "review_note": ""
  },
  {
-  "id": "Q1008",
-  "law_group": "OSH",
+  "id": "ENV-4130",
+  "law_group": "ENV",
   "law_id": "ENV-85",
   "law": "溫室氣體排放量盤查登錄及查驗管理辦法",
   "article": "第8條",
@@ -1836,8 +1836,8 @@
   "review_note": ""
  },
  {
-  "id": "Q1009",
-  "law_group": "OSH",
+  "id": "ENV-4144",
+  "law_group": "ENV",
   "law_id": "ENV-86",
   "law": "碳費收費辦法",
   "article": "第3條",
@@ -1863,8 +1863,8 @@
   "review_note": ""
  },
  {
-  "id": "Q1010",
-  "law_group": "OSH",
+  "id": "ENV-4147",
+  "law_group": "ENV",
   "law_id": "ENV-86",
   "law": "碳費收費辦法",
   "article": "第5條",
@@ -1890,8 +1890,8 @@
   "review_note": ""
  },
  {
-  "id": "Q1011",
-  "law_group": "OSH",
+  "id": "ENV-4148",
+  "law_group": "ENV",
   "law_id": "ENV-86",
   "law": "碳費收費辦法",
   "article": "第6條",
@@ -1917,8 +1917,8 @@
   "review_note": ""
  },
  {
-  "id": "Q1012",
-  "law_group": "OSH",
+  "id": "ENV-4151",
+  "law_group": "ENV",
   "law_id": "ENV-86",
   "law": "碳費收費辦法",
   "article": "第9條",
@@ -1944,8 +1944,8 @@
   "review_note": ""
  },
  {
-  "id": "Q1013",
-  "law_group": "OSH",
+  "id": "ENV-4456",
+  "law_group": "ENV",
   "law_id": "ENV-92",
   "law": "環境教育法施行細則",
   "article": "第7條",
@@ -1971,8 +1971,8 @@
   "review_note": ""
  },
  {
-  "id": "Q1014",
-  "law_group": "OSH",
+  "id": "ENV-4455",
+  "law_group": "ENV",
   "law_id": "ENV-92",
   "law": "環境教育法施行細則",
   "article": "第6條",
@@ -1998,8 +1998,8 @@
   "review_note": ""
  },
  {
-  "id": "Q1015",
-  "law_group": "OSH",
+  "id": "ENV-4469",
+  "law_group": "ENV",
   "law_id": "ENV-93",
   "law": "環境講習執行辦法",
   "article": "第4條",
@@ -2025,8 +2025,8 @@
   "review_note": ""
  },
  {
-  "id": "Q1016",
-  "law_group": "OSH",
+  "id": "ENV-4473",
+  "law_group": "ENV",
   "law_id": "ENV-93",
   "law": "環境講習執行辦法",
   "article": "第8條",
@@ -2052,8 +2052,8 @@
   "review_note": ""
  },
  {
-  "id": "Q1017",
-  "law_group": "OSH",
+  "id": "ENV-4508",
+  "law_group": "ENV",
   "law_id": "ENV-96",
   "law": "環境保護專責及技術人員訓練管理辦法",
   "article": "第2條",
@@ -2079,8 +2079,8 @@
   "review_note": ""
  },
  {
-  "id": "Q1018",
-  "law_group": "OSH",
+  "id": "ENV-4509",
+  "law_group": "ENV",
   "law_id": "ENV-96",
   "law": "環境保護專責及技術人員訓練管理辦法",
   "article": "第3條",
@@ -2106,8 +2106,8 @@
   "review_note": ""
  },
  {
-  "id": "Q1019",
-  "law_group": "OSH",
+  "id": "ENV-4525",
+  "law_group": "ENV",
   "law_id": "ENV-96",
   "law": "環境保護專責及技術人員訓練管理辦法",
   "article": "第18條",
@@ -2133,8 +2133,8 @@
   "review_note": ""
  },
  {
-  "id": "Q1020",
-  "law_group": "OSH",
+  "id": "ENV-4530",
+  "law_group": "ENV",
   "law_id": "ENV-96",
   "law": "環境保護專責及技術人員訓練管理辦法",
   "article": "第23條",

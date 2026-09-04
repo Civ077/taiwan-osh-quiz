@@ -18,7 +18,7 @@
  * v5：body 加 create:true 時分頁不存在會自動建立（例如 Articles 完整法條）；
  *     mode:'clear_from', from:N → 刪除第 N 列以後所有列（from=1 整張清空），用來縮短 Laws 或重灌 Articles。
  */
-const GAS_VERSION = 5;   // v5：append/range 可自動建立分頁（create:true）；新增 clear_from 模式（刪除第 N 列以後）
+const GAS_VERSION = 6;   // v5：append/range 可自動建立分頁（create:true）；新增 clear_from 模式（刪除第 N 列以後）
 const SHEET_QUESTIONS = 'Questions';
 const SHEET_CONFIG = 'Config';
 const CACHE_SEC = 300;
@@ -72,7 +72,7 @@ function doPost(e) {
       clearCacheSilent_();
       return json_({ ok: true, mode: 'range', sheet: sh.getName(), startCell: a1, rows: rows.length, cols: width });
     }
-    if (req.mode === 'fill_status' && sh.getName() === SHEET_QUESTIONS) {
+    if (req.mode === 'fill_status' && isQuestionSheet_(sh)) {
       // rows: id 	 status 	 batch —— 只補 status 空白的列（新題），不動已審題目
       const last0 = sh.getLastRow(); if (last0 < 2) return json_({ ok: true, filled: 0 });
       const rng = sh.getRange(2, 1, last0 - 1, 23); const vals = rng.getValues();
@@ -86,7 +86,7 @@ function doPost(e) {
     // append：Questions 依 id 去重；其他分頁直接接在最後一列之後
     const last = sh.getLastRow();
     let skipped = 0, toWrite = rows;
-    if (sh.getName() === SHEET_QUESTIONS && last >= 2) {
+    if (isQuestionSheet_(sh) && last >= 2) {
       const ids = {}; sh.getRange(2, 1, last - 1, 1).getValues().forEach(r => { const v = String(r[0]).trim(); if (v) ids[v] = 1; });
       toWrite = rows.filter(r => { const dup = ids[String(r[0]).trim()]; if (dup) skipped++; return !dup; });
     }
@@ -103,11 +103,30 @@ function clearCacheSilent_() {
   ['active', 'all', 'draft', 'reviewed'].forEach(s => c.remove('bank:' + s + ':' + GAS_VERSION));
 }
 
+// v6：題目分「Questions_OSH」「Questions_ENV」兩張分頁（職安／環保分開）；都不存在時回退到舊的「Questions」
+const SHEET_QUESTIONS_SPLIT = ['Questions_OSH', 'Questions_ENV'];
+function questionSheets_(ss) {
+  const list = SHEET_QUESTIONS_SPLIT.map(n => ss.getSheetByName(n)).filter(Boolean);
+  if (list.length) return list;
+  const old = ss.getSheetByName(SHEET_QUESTIONS);
+  return old ? [old] : [];
+}
+function isQuestionSheet_(sh) { return sh.getName() === SHEET_QUESTIONS || SHEET_QUESTIONS_SPLIT.indexOf(sh.getName()) >= 0; }
+function readQuestionRows_(ss) {   // 合併各題目分頁：回傳 {head, rows}，欄位以第一張分頁為準
+  let head = null; const rows = [];
+  questionSheets_(ss).forEach(sh => {
+    const v = sh.getDataRange().getValues(); if (!v.length) return;
+    const h = v.shift().map(x => String(x).trim());
+    if (!head) head = h;
+    const map = h.map(x => head.indexOf(x));
+    v.forEach(r => { const o = new Array(head.length).fill(''); h.forEach((x, i) => { if (map[i] >= 0) o[map[i]] = r[i]; }); rows.push(o); });
+  });
+  return { head: head || [], rows };
+}
+
 function buildBank_(status) {
   const ss = SpreadsheetApp.getActiveSpreadsheet();
-  const sh = ss.getSheetByName(SHEET_QUESTIONS);
-  const rows = sh.getDataRange().getValues();
-  const head = rows.shift().map(h => String(h).trim());
+  const { head, rows } = readQuestionRows_(ss);
   const idx = {}; head.forEach((h, i) => idx[h] = i);
   const need = ['id','law_id','law','article','law_version','category','difficulty',
                 'q_zh','a_zh','b_zh','c_zh','d_zh','q_en','a_en','b_en','c_en','d_en','answer','explain_zh','explain_en','status'];
@@ -173,9 +192,7 @@ function clearCache() {
 }
 function checkBank() {
   const ss = SpreadsheetApp.getActiveSpreadsheet();
-  const sh = ss.getSheetByName(SHEET_QUESTIONS);
-  const rows = sh.getDataRange().getValues();
-  const head = rows.shift().map(h => String(h).trim());
+  const { head, rows } = readQuestionRows_(ss);
   const iId = head.indexOf('id'), iAns = head.indexOf('answer'), iSt = head.indexOf('status');
   const bad = [], seen = {}, cnt = { active: 0, draft: 0, reviewed: 0, other: 0 };
   rows.forEach((r, n) => {

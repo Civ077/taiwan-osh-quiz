@@ -47,6 +47,9 @@ def main():
     os.makedirs(os.path.join(HERE, "tsv"), exist_ok=True)
     with open(os.path.join(HERE, "tsv", "Articles.tsv"), "w", encoding="utf-8", newline="") as f:
         f.write("\n".join("\t".join(str(c) for c in r) for r in rows))
+    for g in ("OSH", "ENV"):   # 職安／環保分開的分頁
+        with open(os.path.join(HERE, "tsv", "Articles_%s.tsv" % g), "w", encoding="utf-8", newline="") as f:
+            f.write(chr(10).join(chr(9).join(str(c) for c in r) for r in [rows[0]] + [r for r in rows[1:] if r[1] == g]))
     print("Articles.tsv：%d 部法規、%d 條" % (len(per_law), len(rows) - 1))
     if missing: print("找不到原文：", missing)
     return per_law

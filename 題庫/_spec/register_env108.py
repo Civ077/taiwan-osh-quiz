@@ -4,7 +4,7 @@ import re, io, os, sys
 HERE = os.path.dirname(os.path.abspath(__file__)); Q = os.path.dirname(HERE)
 bs_path = os.path.join(Q, 'build_sheet.py')
 s = open(bs_path, encoding='utf-8').read()
-rows = [l.rstrip('\n').split('\t') for l in open(os.path.join(HERE, 'env_add_108_en.tsv'), encoding='utf-8') if l.strip()]
+rows = [l.rstrip('\n').split('\t') for l in open(os.path.join(HERE, os.environ.get('ENV_ADD_FILE', 'env_add_108_en.tsv')), encoding='utf-8') if l.strip()]
 assert all(len(r) == 4 for r in rows), [r for r in rows if len(r) != 4]
 def family(name, cat):
     if re.search(r'噪音|航空噪音', name): return "環保-噪音"
