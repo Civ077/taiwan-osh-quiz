@@ -134,3 +134,10 @@ button{font:inherit;cursor:pointer}
 .vr-list .vr-row{justify-content:space-between;padding:4px 10px;border-radius:8px}
 .vr-list .vr-row.me{background:#eaf2fb;font-weight:700}
 .vr-list .vr-row b{display:inline;font-size:18px}
+
+/* v0.6：對戰尚未作答提示、每週冠軍 */
+.vswait{margin:4px 0 6px;font-size:13px;color:#b45309;background:#fff7ed;border:1px solid #fed7aa;border-radius:8px;padding:4px 10px}
+.vswait.all{color:#166534;background:#f0fdf4;border-color:#bbf7d0}
+.vs .vsp.pending{opacity:.75}
+.board .weekly-title{margin:12px 0 4px;font-size:14px;color:var(--navy)}
+.board small{font-weight:400;color:var(--muted)}
