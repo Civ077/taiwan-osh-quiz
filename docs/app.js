@@ -672,7 +672,7 @@ function finish() {
 function renderResult() {
   if (!game) return;
   $('rScore').textContent = game.score;
-  const rn = $('rNote'); if (rn && !rn.dataset.keep) rn.textContent = fmt(t('ofMax'), { m: maxScore(game.qs.length) });
+
   const correct = game.log.filter(r => r && r.ok).length;
   const avg = (game.log.reduce((s, r) => s + (r ? r.used : CFG.secondsPerQuestion), 0) / game.log.length).toFixed(1);
   $('rStats').innerHTML = `<div><b>${correct}/${game.qs.length}</b><span>${t('correctN')}</span></div><div><b>${game.bestStreak}</b><span>${t('bestStreak')}</span></div><div><b>${avg}s</b><span>${t('avgTime')}</span></div>`;
@@ -682,8 +682,8 @@ function renderResult() {
     vr.className = 'vsresult ' + game.result;
     vr.innerHTML = `<div class="vr-title">${t(game.result)}　<small>${fmt(t('rank'), { r: game.rank })}</small></div><div class="vr-list">${order.map((u, i) => `<div class="vr-row${u === p.me ? ' me' : ''}"><span>${i + 1}. ${escapeHtml(p.players[u].nick)}</span><b>${p.players[u].score}</b></div>`).join('')}</div>`;
     vr.classList.remove('hidden');
-    $('rNote').textContent = game.isBot ? t('vsBot') : '';
-  } else { vr.classList.add('hidden'); $('rNote').textContent = ''; }
+    $('rNote').textContent = (game.isBot ? t('vsBot') + '　·　' : '') + fmt(t('ofMax'), { m: maxScore(game.qs.length) });
+  } else { vr.classList.add('hidden'); $('rNote').textContent = fmt(t('ofMax'), { m: maxScore(game.qs.length) }); }
   const ol = $('reviewList'); ol.innerHTML = '';
   game.qs.forEach((q, i) => {
     const r = game.log[i] || { chosen: null, ok: false };
