@@ -32,7 +32,17 @@ def token():
     return t
 
 
-def post(payload):
+def post(payload, _retry=3):
+    """送到 GAS；遇到 HTTP 錯誤／連線中斷自動重試"""
+    import time
+    for attempt in range(_retry):
+        try:
+            return _post_once(payload)
+        except Exception as e:                       # HTTPError 404/5xx、URLError、timeout
+            if attempt == _retry - 1: raise
+            print("  post 重試（%s）" % e); time.sleep(5)
+
+def _post_once(payload):
     data = json.dumps(payload, ensure_ascii=False).encode("utf-8")
     req = urllib.request.Request(URL, data=data, headers={"Content-Type": "text/plain;charset=utf-8"})
     with urllib.request.urlopen(req, timeout=180) as r:
