@@ -174,7 +174,7 @@ Q = [
   "Within two years of the amendment being promulgated; operations must be suspended meanwhile"],
  "Article 7, paragraphs 1 and 2."),
 
-(A,"第8條",1,"廢機動車輛標準-施行日",
+(A,"第7條、第8條",1,"廢機動車輛標準-施行日",
  "本標準之施行日期如何規定？",
  ["本標準自發布日施行，第七條另定六個月之改善期間",
   "本標準自發布後三個月施行，並就貯存規定另定緩衝期",
