@@ -1,4 +1,4 @@
-/* 台灣職安環保知識王 — 前端 v0.7
+/* 台灣職安環保知識王 — 前端 v0.8
    單人闖關 / 每日挑戰 / 連線對戰（2–5 人房間、隨機配對、電腦）＋ 全站排行榜（Firebase）
    出題範圍：首頁「職業安全衛生／環保」切換，兩邊題庫、每日挑戰、對戰配對、排行榜完全獨立
    題庫：GAS API（CFG.bankUrl）→ 失敗退回 data/questions.json
@@ -695,6 +695,8 @@ function renderResult() {
   });
   renderBoard();
 }
+let boardQuery = null, boardHandler = null;                       // 排行榜即時監聽（切換範圍／模式時重綁）
+function boardRows(snap) { const all = []; snap.forEach(c => { const r = c.val(); if (r && r.ts) all.push(r); }); return all; }
 function renderBoard() {
   const el = $('boardBody'); if (!el) return;
   document.querySelectorAll('.tab').forEach(b => b.classList.toggle('active', b.dataset.board === boardMode));
@@ -705,15 +707,19 @@ function renderBoard() {
     if (!rows.length) { el.innerHTML = `<p class="empty">${t('noWeekBoard')}</p>`; return; }
     el.innerHTML = `<table>${rows.slice(0, 10).map((r, i) => `<tr><td>${i + 1}. ${escapeHtml(r.nick)}${r.uid && r.uid === FB.uid ? ' ★' : ''}</td><td>${r.result ? ({ win: '🏆', lose: '·', draw: '=' })[r.result] + ' ' : ''}${r.correct}/${r.n} · ${r.date}</td><td>${r.score}</td></tr>`).join('')}</table><p class="note">${note}</p>`;
   };
-  if (FB.ok) {
-    FB.db.ref('scores/' + scopeKey(boardMode)).orderByChild('ts').startAt(wk0).limitToLast(500).once('value').then(s => {
-      const rows = []; s.forEach(c => { const r = c.val(); if (thisWeek(r)) rows.push(r); }); rows.sort((a, b) => b.score - a.score || a.ts - b.ts);
-      draw(rows, t('globalNote'));
-      renderWeekly();
-    }).catch(() => draw(local, t('localNote')));
-  } else draw(local, t('localNote'));
+  if (boardQuery && boardHandler) { boardQuery.off('value', boardHandler); boardQuery = null; boardHandler = null; }
+  if (!FB.ok) { draw(local, t('localNote')); renderWeekly(null); return; }
+  // 即時監聽：任何人交出新成績，本週排行榜與每週冠軍都會自動更新
+  boardQuery = FB.db.ref('scores/' + scopeKey(boardMode)).orderByChild('ts').limitToLast(3000);
+  boardHandler = s => {
+    const all = boardRows(s);
+    const week = all.filter(thisWeek).sort((a, b) => b.score - a.score || a.ts - b.ts);
+    draw(week, t('globalNote'));
+    renderWeekly(all);
+  };
+  boardQuery.on('value', boardHandler, () => { draw(local, t('localNote')); renderWeekly(null); });
 }
-/* 每週冠軍：以週一為一週起點（台灣時間），從該範圍／模式的全部紀錄算出每週最高分；本週顯示「目前領先」 */
+/* 每週冠軍：以週一為一週起點（台灣時間）；本週冠軍也列出（標示「本週目前領先」），有人超車會即時更新 */
 function weekKey(ts) {
   const d = new Date(ts + 8 * 3600e3);                      // 以 UTC+8 計算週次
   const day = (d.getUTCDay() + 6) % 7;                       // 週一=0
@@ -721,19 +727,21 @@ function weekKey(ts) {
   return mon.getTime();
 }
 const fmtMD = ms => { const d = new Date(ms); return (d.getUTCMonth() + 1) + '/' + d.getUTCDate(); };
-function renderWeekly() {
-  const el = $('weeklyBody'); if (!el || !FB.ok) return;
-  FB.db.ref('scores/' + scopeKey(boardMode)).orderByChild('ts').limitToLast(2000).once('value').then(s => {
-    const best = {};
-    s.forEach(c => { const r = c.val(); if (!r || !r.ts) return; const wk = weekKey(r.ts); if (!best[wk] || r.score > best[wk].score || (r.score === best[wk].score && r.ts < best[wk].ts)) best[wk] = r; });
-    const cur = weekKey(now());
-    const weeks = Object.keys(best).map(Number).filter(w => w !== cur).sort((a, b) => b - a);   // 本週在上方主榜，這裡只列過去週
-    if (!weeks.length) { el.innerHTML = `<p class="empty">${t('noWeekly')}</p>`; return; }
-    el.innerHTML = `<table>${weeks.slice(0, 12).map(wk => { const r = best[wk]; const d = new Date(wk); const isoWeek = (() => { const t0 = new Date(Date.UTC(d.getUTCFullYear(), 0, 4)); const w = Math.round(((wk - t0.getTime()) / 86400e3 - 3 + ((t0.getUTCDay() + 6) % 7)) / 7) + 1; return w; })();
-      return `<tr><td>${wk === cur ? '⏳ ' : '🏆 '}${fmt(t('weekN'), { w: isoWeek, a: fmtMD(wk), b: fmtMD(wk + 6 * 86400e3) })}</td><td>${escapeHtml(r.nick)}${r.uid && r.uid === FB.uid ? ' ★' : ''}${wk === cur ? ' <small>' + t('weekLead') + '</small>' : ''}</td><td>${r.score}</td></tr>`; }).join('')}</table>`;
-  }).catch(() => { el.innerHTML = ''; });
+function isoWeekNo(wk) { const d = new Date(wk); const t0 = new Date(Date.UTC(d.getUTCFullYear(), 0, 4)); return Math.round(((wk - t0.getTime()) / 86400e3 - 3 + ((t0.getUTCDay() + 6) % 7)) / 7) + 1; }
+function renderWeekly(all) {
+  const el = $('weeklyBody'); if (!el) return;
+  if (!all) { el.innerHTML = `<p class="empty">${t('noWeekly')}</p>`; return; }
+  const best = {};
+  all.forEach(r => { const wk = weekKey(r.ts); if (!best[wk] || r.score > best[wk].score || (r.score === best[wk].score && r.ts < best[wk].ts)) best[wk] = r; });
+  const cur = weekKey(now());
+  if (!best[cur]) best[cur] = null;                                        // 本週還沒有人玩也要占一列
+  const weeks = Object.keys(best).map(Number).sort((a, b) => b - a);
+  el.innerHTML = `<table>${weeks.slice(0, 12).map(wk => {
+    const r = best[wk], isCur = wk === cur;
+    const who = r ? `${escapeHtml(r.nick)}${r.uid && r.uid === FB.uid ? ' ★' : ''}${isCur ? ' <small>' + t('weekLead') + '</small>' : ''}` : `<small>${t('noWeekBoard')}</small>`;
+    return `<tr${isCur ? ' class="cur"' : ''}><td>${isCur ? '⏳ ' : '🏆 '}${fmt(t('weekN'), { w: isoWeekNo(wk), a: fmtMD(wk), b: fmtMD(wk + 6 * 86400e3) })}</td><td>${who}</td><td>${r ? r.score : ''}</td></tr>`;
+  }).join('')}</table>`;
 }
-
 /* ---------- 綁定 ---------- */
 document.querySelectorAll('.mode').forEach(b => b.addEventListener('click', () => start(b.dataset.mode)));
 document.querySelectorAll('.segbtn').forEach(b => b.addEventListener('click', () => setGroup(b.dataset.group)));

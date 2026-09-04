@@ -141,3 +141,5 @@ button{font:inherit;cursor:pointer}
 .vs .vsp.pending{opacity:.75}
 .board .weekly-title{margin:12px 0 4px;font-size:14px;color:var(--navy)}
 .board small{font-weight:400;color:var(--muted)}
+
+.board tr.cur td{background:#fffbeb}
