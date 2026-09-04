@@ -81,6 +81,13 @@ function initFirebase() {
   try {
     if (!window.firebase || !window.FIREBASE_CONFIG) throw new Error('no firebase');
     firebase.initializeApp(window.FIREBASE_CONFIG);
+    // App Check：把這份公開設定綁在本站網域。別人把 firebase-config.js 複製到自己的
+    // 網頁或用腳本直接呼叫，拿不到 App Check 權杖，Firebase 會直接拒絕。
+    // 尚未設定 reCAPTCHA 金鑰時整段跳過，網站行為不變。
+    if (window.FIREBASE_APPCHECK_KEY && firebase.appCheck) {
+      try { firebase.appCheck().activate(window.FIREBASE_APPCHECK_KEY, true); }
+      catch (e) { console.warn('App Check 啟用失敗', e); }
+    }
     FB.db = firebase.database();
     firebase.auth().onAuthStateChanged(u => {
       if (u) { FB.uid = u.uid; FB.ok = true; syncNick(); renderNet(); renderBoard(); }
