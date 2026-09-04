@@ -30,7 +30,7 @@ const I18N = {
         waitMatch:'配對中…', waitNoOne:'目前沒有其他玩家，可以改打電腦或建立房間邀請朋友', waitRoom:'等待朋友加入…把房號傳給對方（最多 5 人），人數夠了按「開始對戰」', joining:'加入中…',
         found:'配對成功！對手：{n}', starting:'{s} 秒後開始', roomNotFound:'找不到這個房號、房間已開始或已滿', needOnline:'連線對戰需要網路與雲端登入，目前不可用；可改打電腦',
         waitHost:'已加入房間，等待房主開始…', startBtn:'開始對戰', players:'玩家', playersN:'{n} 人', hostTag:'房主', youTag:'你',
-        bot1:'電腦', you:'你', opp:'對手', win:'你贏了！', lose:'你輸了', draw:'平手', gapMe:'你 +{a}', gapOpp:'{n} +{b}', oppLeft:'{n} 已離線，剩下題目由電腦代打',
+        bot1:'電腦', you:'你', opp:'對手', win:'你贏了！', lose:'你輸了', draw:'平手', gapMe:'你 +{a}', gapOpp:'{n} +{b}', oppLeft:'{n} 已離線，之後不再作答',
         allAnswered:'全員作答完畢，準備下一題', rank:'第 {r} 名', hostLeft:'房主離線，改以計時方式繼續',
         nickHint:'請先輸入暱稱（1–12 字）才能開始遊戲，暱稱會顯示在排行榜與對戰中', nickRequired:'⚠ 請先輸入暱稱再開始',
         groupOsh:'職業安全衛生', groupEnv:'環保', segNoteOsh:'目前出題範圍：職業安全衛生法規（單人、每日、對戰、排行榜各自獨立）', segNoteEnv:'目前出題範圍：環保法規（單人、每日、對戰、排行榜各自獨立）',
@@ -48,7 +48,7 @@ const I18N = {
         waitMatch:'Matching…', waitNoOne:'No other players right now. Play the bot or create a room for a friend', waitRoom:'Waiting for friends… share the room code (up to 5 players), then press Start', joining:'Joining…',
         found:'Matched! Opponent: {n}', starting:'Starting in {s} s', roomNotFound:'Room not found, already started or full', needOnline:'Online battle needs network + cloud sign-in; try the bot instead',
         waitHost:'Joined. Waiting for the host to start…', startBtn:'Start battle', players:'Players', playersN:'{n} players', hostTag:'host', youTag:'you',
-        bot1:'Bot', you:'You', opp:'Opp', win:'You win!', lose:'You lose', draw:'Draw', gapMe:'You +{a}', gapOpp:'{n} +{b}', oppLeft:'{n} left; the bot answers for them',
+        bot1:'Bot', you:'You', opp:'Opp', win:'You win!', lose:'You lose', draw:'Draw', gapMe:'You +{a}', gapOpp:'{n} +{b}', oppLeft:'{n} went offline and stops answering',
         allAnswered:'Everyone answered — next question', rank:'Rank {r}', hostLeft:'Host offline; continuing on the timer',
         nickHint:'Enter a nickname (1–12 chars) to play; it appears on leaderboards and in battles', nickRequired:'⚠ Please enter a nickname first',
         groupOsh:'Occupational Safety', groupEnv:'Environment', segNoteOsh:'Current scope: occupational safety & health laws (solo, daily, battle and leaderboard are separate)', segNoteEnv:'Current scope: environmental laws (solo, daily, battle and leaderboard are separate)',
@@ -537,7 +537,8 @@ function onRoomUpdate(p) {
     const was = p.players[u].online; p.players[u].online = pl.online !== false;
     if (was && !p.players[u].online && u !== p.me) { flash(fmt(t('oppLeft'), { n: p.players[u].nick })); if (u === r.host) p.hostGone = true; }
   });
-  if (typeof r.cur === 'number' && r.cur !== game.i && r.cur >= 0) { if (r.cur >= game.qs.length) return finish(); pvpGoto(r.cur, r.curAt); }
+  // 只跟隨「往前」的題號：房主離線時房間的 cur 會停住，若照舊同步會把已自行推進的玩家拉回舊題（該題已作答，選項會全部鎖住）
+  if (typeof r.cur === 'number' && r.cur > game.i) { if (r.cur >= game.qs.length) return finish(); pvpGoto(r.cur, r.curAt); }
   recomputeAll(); renderVs();
 }
 function flash(msg) { $('gap').textContent = msg; $('gap').classList.remove('hidden'); setTimeout(() => { if (game && $('gap').textContent === msg) $('gap').classList.add('hidden'); }, 2500); }
@@ -630,7 +631,7 @@ function rankOrder(p) { return p.order.slice().sort((a, b) => p.players[b].score
 function renderVs() {
   const p = game && game.pvp; if (!p) return;
   const k = game.i;
-  $('vs').innerHTML = rankOrder(p).map((u, i) => { const pl = p.players[u]; const done = k < p.k || getAnswer(p, u, k) != null; return `<span class="vsp${u === p.me ? ' me' : ''}${pl.online ? '' : ' off'}${done ? ' done' : ' pending'}">${i + 1}. ${done ? '✔ ' : '⏳ '}<b>${escapeHtml(pl.nick)}</b> ${pl.score}${pl.online ? '' : ' 🤖'}</span>`; }).join('');
+  $('vs').innerHTML = rankOrder(p).map((u, i) => { const pl = p.players[u]; const done = k < p.k || getAnswer(p, u, k) != null; return `<span class="vsp${u === p.me ? ' me' : ''}${pl.online ? '' : ' off'}${done ? ' done' : ' pending'}">${i + 1}. ${done ? '✔ ' : '⏳ '}<b>${escapeHtml(pl.nick)}</b> ${pl.score}${pl.online ? '' : (pl.bot ? ' 🤖' : ' 💤')}</span>`; }).join('');
   // 本題尚未作答的人（在線且非電腦）；全員作答完畢會提前跳題
   const pending = p.order.filter(u => { const pl = p.players[u]; return pl.online && !pl.bot && getAnswer(p, u, k) == null; }).map(u => p.players[u].nick);
   let w = $('vsWait'); if (!w) { w = document.createElement('div'); w.id = 'vsWait'; w.className = 'vswait'; $('vs').after(w); }
