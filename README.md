@@ -57,6 +57,16 @@ status(draft/reviewed/active), batch, reviewer, review_note`
 - 環保：207 部（25 部母法＋72 部主要子法＋110 部細則／標準／準則／管理辦法）。
 - 每部法規每一條至少一題（`python coverage.py` 未出題 0）；ABCD 選項長度平衡（`python check_options.py all`）。共 242 部、6,535 條、7,459 題。
 
+
+## 審題與維運（2026-09-04）
+- 審題：在 Sheet 的 `Questions_OSH`／`Questions_ENV` 把 status 改成 `active`；或用 `python push_to_sheet.py approve ENV-01 active`（可用 `OSH-*`、`all`）整部一次核准。
+- 出題模式：Config 分頁 `site_mode`＝`draft`（含待審題）或 `active`（只出已核准題），改完網頁重新整理即生效。
+- 每題秒數：Config 分頁 `seconds_per_question`（目前 20）。
+- 抽題：依 `Laws_*` 的 weight 先抽法規再抽題（`pickWeighted`），同一局盡量不重複法規。
+- 法規更新：`python check_updates.py` 比對全國法規資料庫各目清單的修正日期，輸出 `_spec/法規更新檢查.tsv`；有 UPDATED 者用 `fetch_law.py` 重抓 → `coverage.py` 補題 → build → `sync-split`。
+- 題目品質：`check_options.py all`（選項長度）、`coverage.py`（每條至少一題，刪除條不計）；建表自動略過「（刪除）」條文的題目；範圍外題目檔在 `題庫/_archive/`。
+- 網頁：題庫依範圍分開載入並存 IndexedDB（GAS v7 `group`/`fields` 參數），解析背景載入；`sw.js` 提供離線 app shell。
+
 ## 網頁功能（2026-09-03 更新）
 - 首頁兩個大按鈕「🦺 職業安全衛生／🌱 環保」切換出題範圍；單人、每日挑戰、連線對戰（配對只找同範圍的人）、排行榜（`scores/<mode>_<OSH|ENV>`）全部各自獨立。
 - Google Sheet 新增 **Articles** 分頁＝全部法規逐條原文（law_id／法規／條號／有無附表／條文），Laws 分頁多了 `articles`（條數）與 `questions`（題數）欄，缺漏一眼可見；灌入方式見 gas/部署清單_照著做.md v5。
