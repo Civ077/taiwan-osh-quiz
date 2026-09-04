@@ -507,7 +507,7 @@ function pvpBot() {
 /* 開打：p = 對戰狀態；roomRef 為 null 表示本機（電腦）房間 */
 function beginPvp(r, roomRef, role) {
   const me = FB.uid || 'me';
-  const p = { roomRef, role, me, room: r, local: !roomRef, k: -1, gapShown: -1, players: {}, order: [], refs: [], hostGone: false, lastAdvance: 0 };
+  const p = { roomRef, role, me, room: r, local: !roomRef, k: -1, gapShown: -1, players: {}, order: [], refs: [], hostGone: false, lastAdvance: -1 };   // -1：第 0 題也要能推進（原本設 0 會卡在第一題）
   Object.entries(r.players || {}).forEach(([u, pl]) => { p.players[u] = { uid: u, nick: pl.nick || '?', online: pl.online !== false, bot: !!pl.bot, score: 0, streak: 0, log: [] }; });
   p.order = Object.keys(p.players);
   if (roomRef) {
