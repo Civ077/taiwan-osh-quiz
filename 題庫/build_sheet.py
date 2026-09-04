@@ -553,7 +553,7 @@ def load_questions():
 CONFIG = [
  ["key","value","說明 / Description"],
  ["questions_per_game",20,"每局題數 / questions per game"],
- ["seconds_per_question",15,"每題秒數 / seconds per question"],
+ ["seconds_per_question",20,"每題秒數 / seconds per question"],
  ["base_score",500,"答對基本分 / base score for a correct answer"],
  ["speed_bonus_max",500,"速度加分上限：base + max×(剩餘秒/總秒) / speed bonus = max × (remaining/total)"],
  ["wrong_score",0,"答錯或逾時得分 / score for wrong or timeout"],
@@ -563,6 +563,7 @@ CONFIG = [
  ["lobby_wait_seconds",10,"隨機配對等待秒數，逾時轉房間碼或 bot / matchmaking wait before fallback"],
  ["languages","zh,en","支援語言 / supported languages"],
  ["active_status","active","前端只抓此 status 的題目 / only questions with this status are exported"],
+ ["site_mode","draft","網站出題模式：draft＝含待審題全部出題；active＝只出 status=active 的題（審完後改這裡即可，不必改程式）/ site question mode"],
 ]
 CHANGELOG = [
  ["date","law_id","law_version","change","affected_questions","action","done_by"],

@@ -1,13 +1,13 @@
-/* 台灣職安環保知識王 — 前端 v0.4
+/* 台灣職安環保知識王 — 前端 v0.5
    單人闖關 / 每日挑戰 / 連線對戰（2–5 人房間、隨機配對、電腦）＋ 全站排行榜（Firebase）
    出題範圍：首頁「職業安全衛生／環保」切換，兩邊題庫、每日挑戰、對戰配對、排行榜完全獨立
    題庫：GAS API（CFG.bankUrl）→ 失敗退回 data/questions.json
-   計分：答對 500 + 500×(剩餘秒/15)，連對 3 題起每題 +50；答錯/逾時 0。
+   計分：答對 500 + 500×(剩餘秒/20)，連對 3 題起每題 +50；答錯/逾時 0。
    對戰：房主同步題目與每題起算時間；該題全員作答完畢（或時間到）即跳下一題，不必等倒數跑完。 */
 (() => {
 'use strict';
 
-const CFG = { questionsPerGame: 20, secondsPerQuestion: 15, baseScore: 500, speedBonusMax: 500,
+const CFG = { questionsPerGame: 20, secondsPerQuestion: 20, baseScore: 500, speedBonusMax: 500,
               streakStart: 3, streakBonus: 50, dailyQuestions: 10, useDraft: true,
               pvpGapMs: 2500, pvpCountdownMs: 4000, lobbyWaitMs: 10000, maxPlayers: 5,
               // 題庫 API（GAS 網頁應用程式 /exec 網址；留空＝只用 repo 內的 data/questions.json）
@@ -17,7 +17,7 @@ const CFG_MAP = { questions_per_game: 'questionsPerGame', seconds_per_question: 
                   lobby_wait_seconds: 'lobbyWaitSec', max_players: 'maxPlayers' };
 
 const I18N = {
-  zh: { title:'台灣職安環保知識王', lead:'職業安全衛生 × 環保法規　限時搶答', solo:'單人闖關', soloDesc:'20 題・每題 15 秒・越快分越高',
+  zh: { title:'台灣職安環保知識王', lead:'職業安全衛生 × 環保法規　限時搶答', solo:'單人闖關', soloDesc:'20 題・每題 20 秒・越快分越高',
         daily:'每日挑戰', dailyDesc:'每天 10 題，全站同題', pvp:'連線對戰', pvpDesc:'2–5 人房間或隨機配對，同題同步搶答', nick:'暱稱',
         prev:'上一題', backCur:'回到目前題目', viewing:'回看第 {n} 題（你的作答已標示，倒數暫停中）', noAns:'未作答', resultTitle:'本局結果',
         pts:'分', again:'再來一局', home:'回首頁', review:'答題回顧', timeout:'時間到', ans:'正確答案', correctN:'答對', bestStreak:'最長連對', avgTime:'平均秒數',
@@ -33,7 +33,7 @@ const I18N = {
         nickHint:'請先輸入暱稱（1–12 字）才能開始遊戲，暱稱會顯示在排行榜與對戰中', nickRequired:'⚠ 請先輸入暱稱再開始',
         groupOsh:'職業安全衛生', groupEnv:'環保', segNoteOsh:'目前出題範圍：職業安全衛生法規（單人、每日、對戰、排行榜各自獨立）', segNoteEnv:'目前出題範圍：環保法規（單人、每日、對戰、排行榜各自獨立）',
         online:'雲端連線中', offline:'離線（排行榜僅本機）', globalNote:'全站前 10 名', localNote:'本機紀錄', vsBot:'（對電腦，不列入全站排行）' },
-  en: { title:'Taiwan OSH & Env Quiz', lead:'Occupational Safety × Environmental Law · Speed quiz', solo:'Solo Run', soloDesc:'20 questions · 15 s each · faster = more points',
+  en: { title:'Taiwan OSH & Env Quiz', lead:'Occupational Safety × Environmental Law · Speed quiz', solo:'Solo Run', soloDesc:'20 questions · 20 s each · faster = more points',
         daily:'Daily Challenge', dailyDesc:'10 questions a day, same for everyone', pvp:'Online Battle', pvpDesc:'Rooms of 2–5 or random match, same questions in sync', nick:'Nickname',
         prev:'Previous', backCur:'Back to current', viewing:'Viewing Q{n} (your answer marked; timer paused)', noAns:'No answer', resultTitle:'Results',
         pts:'pts', again:'Play again', home:'Home', review:'Review', timeout:'Time up', ans:'Answer', correctN:'Correct', bestStreak:'Best streak', avgTime:'Avg seconds',
@@ -54,12 +54,16 @@ const I18N = {
 let lang = localStorage.getItem('lang') || 'zh';
 let GROUP = (localStorage.getItem('group') === 'ENV') ? 'ENV' : 'OSH';   // 出題範圍：OSH 職安 / ENV 環保，兩邊完全獨立
 let BANK_ALL = [], BANK = [], BANK_BY_ID = {};
+const BANKS = { OSH: null, ENV: null };        // 各範圍題庫（core 欄位）
+const LAWS = { OSH: [], ENV: [] };             // 各範圍法規表（law_id, name, weight, family）
+const EXPLAIN = {};                            // id → {explain_zh, explain_en}（背景載入）
+let SITE_MODE = 'draft';                       // Config.site_mode：draft＝含待審題；active＝只出 active
 const scopeKey = mode => mode + '_' + GROUP;                               // 排行榜、每日挑戰都依範圍分開
 let game = null;
 let boardMode = 'solo';
 const $ = id => document.getElementById(id);
 const t = k => I18N[lang][k];
-const L = (obj, key) => obj[key + '_' + lang] || obj[key + '_zh'];
+const L = (obj, key) => { if (key === 'explain' && obj && EXPLAIN[obj.id]) obj = Object.assign({}, obj, EXPLAIN[obj.id]); return obj[key + '_' + lang] || obj[key + '_zh'] || ''; };
 const fmt = (s, o) => s.replace(/\{(\w+)\}/g, (_, k) => o[k]);
 
 /* ---------- Firebase（可選） ---------- */
@@ -124,7 +128,7 @@ function scoreFor(ok, usedSec, streak) {
 }
 
 /* ---------- 題庫 ---------- */
-/* 題庫快取：雲端 JSON 已達 14 MB、GAS 回應 10–50 秒，改為「先用本機快取（IndexedDB）立即開玩，背景再更新」 */
+/* 題庫載入（v0.5）：每個範圍各自載入 core 欄位（不含解析），先用 IndexedDB 快取立即開玩、背景更新；解析另外背景載入 */
 function idbOpen() {
   return new Promise((res, rej) => {
     const r = indexedDB.open('osh-quiz', 1);
@@ -135,61 +139,80 @@ function idbOpen() {
 async function idbGet(k) { try { const db = await idbOpen(); return await new Promise((res, rej) => { const t = db.transaction('kv').objectStore('kv').get(k); t.onsuccess = () => res(t.result); t.onerror = () => rej(t.error); }); } catch (e) { return null; } }
 async function idbSet(k, v) { try { const db = await idbOpen(); await new Promise((res, rej) => { const t = db.transaction('kv', 'readwrite').objectStore('kv').put(v, k); t.onsuccess = res; t.onerror = () => rej(t.error); }); } catch (e) { console.warn('cache write failed', e); } }
 
-function applyBankJson(j, src) {
-  if (j.config) Object.keys(CFG_MAP).forEach(k => { const v = Number(j.config[k]); if (k in j.config && !isNaN(v) && v > 0) CFG[CFG_MAP[k]] = v; });
+const bankUrl = () => new URLSearchParams(location.search).get('bank') || CFG.bankUrl;
+async function fetchJson(url, timeoutMs) {
+  const ctrl = new AbortController(); const tm = setTimeout(() => ctrl.abort(), timeoutMs);
+  try { const r = await fetch(url, { signal: ctrl.signal }); if (!r.ok) throw new Error('HTTP ' + r.status); return await r.json(); }
+  finally { clearTimeout(tm); }
+}
+function applyConfig(j) {
+  if (!j || !j.config) return;
+  Object.keys(CFG_MAP).forEach(k => { const v = Number(j.config[k]); if (k in j.config && !isNaN(v) && v > 0) CFG[CFG_MAP[k]] = v; });
   if (CFG.lobbyWaitSec) CFG.lobbyWaitMs = CFG.lobbyWaitSec * 1000;
   CFG.maxPlayers = Math.min(5, Math.max(2, CFG.maxPlayers | 0));
   const secParam = Number(new URLSearchParams(location.search).get('sec'));   // 測試用：?sec=4 縮短每題秒數
   if (secParam > 0) CFG.secondsPerQuestion = secParam;
-  BANK_ALL = j.questions.filter(q => CFG.useDraft ? q.status !== 'archived' : q.status === 'active');
-  BANK_ALL.forEach(q => { if (!q.law_group) q.law_group = String(q.law_id || q.id || '').startsWith('ENV') ? 'ENV' : 'OSH'; });
-  applyGroup();
-  renderBankInfo(String(j.generated || '').slice(0, 10), src);
+  const sm = String(j.config.site_mode || '').toLowerCase();
+  SITE_MODE = sm === 'active' ? 'active' : 'draft';
+  CFG.useDraft = SITE_MODE !== 'active';
 }
-async function fetchCloudBank(url, timeoutMs) {
-  const ctrl = new AbortController(); const tm = setTimeout(() => ctrl.abort(), timeoutMs);
+function installBank(g, j, src) {
+  applyConfig(j);
+  const qs = (j.questions || []).filter(q => String(q.law_id || q.id || '').startsWith(g))   // GAS v6 以前不認 group 參數，會回全部：這裡再過濾一次
+                                   .filter(q => SITE_MODE === 'active' ? q.status === 'active' : q.status !== 'archived');
+  qs.forEach(q => { if (!q.law_group) q.law_group = String(q.law_id || q.id || '').startsWith('ENV') ? 'ENV' : 'OSH'; });
+  BANKS[g] = qs; LAWS[g] = Array.isArray(j.laws) ? j.laws : [];
+  if (g === GROUP) { BANK_ALL = qs; applyGroup(); renderBankInfo(String(j.generated || '').slice(0, 10), src); }
+}
+async function loadExplain(g) {                // 解析：背景載入到 EXPLAIN（結果頁答題回顧用），有快取先用快取
+  const key = 'explain:' + g;
+  const cached = await idbGet(key);
+  if (cached && cached.questions) cached.questions.forEach(q => { EXPLAIN[q.id] = q; });
+  const url = bankUrl(); if (!url) return;
   try {
-    const r = await fetch(url + (url.includes('?') ? '&' : '?') + 'status=' + (CFG.useDraft ? 'draft' : 'active'), { signal: ctrl.signal });
-    if (!r.ok) throw new Error('HTTP ' + r.status);
-    const j = await r.json();
-    if (!j || !Array.isArray(j.questions) || !j.questions.length) throw new Error('empty bank');
-    return j;
-  } finally { clearTimeout(tm); }
+    const j = await fetchJson(url + (url.includes('?') ? '&' : '?') + 'status=all&group=' + g + '&fields=explain', 180000);
+    if (j && j.questions && j.questions.length) { j.questions.forEach(q => { EXPLAIN[q.id] = q; }); await idbSet(key, j); }
+  } catch (e) { console.warn('解析載入失敗（不影響作答）：', e); }
 }
-async function loadBank() {
-  const url = new URLSearchParams(location.search).get('bank') || CFG.bankUrl;
-  const key = 'bank:' + (CFG.useDraft ? 'draft' : 'active');
+async function loadBankGroup(g) {
+  const url = bankUrl(); const key = 'bank:core:' + g;
   const el = $('bankInfo');
-  // 1) 先用快取（有的話）立即可玩
   const cached = url ? await idbGet(key) : null;
-  if (cached && cached.questions && cached.questions.length) {
-    applyBankJson(cached, 'cache');
-  } else {
-    if (el) el.textContent = lang === 'zh' ? '題庫載入中（第一次約 10–60 秒）…' : 'Loading question bank (first time 10–60 s)…';
-  }
-  // 2) 雲端更新（最長 120 秒）；若沒有快取且雲端失敗 → 退回站內 data/questions.json
+  if (cached && cached.questions && cached.questions.length) installBank(g, cached, 'cache');
+  else if (g === GROUP && el) el.textContent = lang === 'zh' ? '題庫載入中（第一次約 10–30 秒）…' : 'Loading question bank (first time 10–30 s)…';
   if (url) {
     try {
-      const j = await fetchCloudBank(url, 120000);
+      const j = await fetchJson(url + (url.includes('?') ? '&' : '?') + 'status=all&group=' + g + '&fields=core', 120000);
+      if (!j || !Array.isArray(j.questions) || !j.questions.length) throw new Error('empty bank');
       const newer = !cached || String(j.generated || '') !== String(cached.generated || '') || j.questions.length !== cached.questions.length;
       if (newer) {
         await idbSet(key, j);
         const playing = document.getElementById('play').classList.contains('active');
-        if (!cached || !playing) applyBankJson(j, 'cloud');   // 作答中不換題庫，下次載入生效
-        else { const e2 = $('bankInfo'); if (e2) e2.dataset.pending = '1'; }
-      } else { renderBankInfo(String(j.generated || '').slice(0, 10), 'cloud'); }
+        if (!cached || !playing) installBank(g, j, 'cloud');        // 作答中不換題庫，下次載入生效
+      } else if (g === GROUP) { applyConfig(j); renderBankInfo(String(j.generated || '').slice(0, 10), 'cloud'); }
+      loadExplain(g);
       return;
-    } catch (e) { console.warn('雲端題庫讀取失敗：', e); if (cached) return; }
+    } catch (e) { console.warn('雲端題庫讀取失敗：', e); if (cached) { loadExplain(g); return; } }
   }
-  const r = await fetch('data/questions.json', { cache: 'no-cache' }); applyBankJson(await r.json(), 'local');
+  // 沒有快取且雲端失敗 → 站內 data/questions.json（含全部範圍與解析）
+  const r = await fetch('data/questions.json', { cache: 'no-cache' }); const all = await r.json();
+  const j = { generated: all.generated, config: all.config || {}, laws: [], questions: (all.questions || []).filter(q => String(q.law_id || q.id || '').startsWith(g)) };
+  j.questions.forEach(q => { if (q.explain_zh || q.explain_en) EXPLAIN[q.id] = { id: q.id, explain_zh: q.explain_zh, explain_en: q.explain_en }; });
+  installBank(g, j, 'local');
+}
+async function loadBank() {
+  await loadBankGroup(GROUP);
+  loadBankGroup(GROUP === 'OSH' ? 'ENV' : 'OSH');   // 另一範圍背景預載，切換時立刻可用
 }
 function applyGroup() {
-  BANK = BANK_ALL.filter(q => q.law_group === GROUP);
+  BANK_ALL = BANKS[GROUP] || [];
+  BANK = BANK_ALL.slice();
   BANK_BY_ID = {}; BANK.forEach(q => BANK_BY_ID[q.id] = q);
 }
 function setGroup(g) {
   GROUP = g === 'ENV' ? 'ENV' : 'OSH'; localStorage.setItem('group', GROUP);
   applyGroup(); renderGroup(); renderBankInfo(); renderBoard();
+  if (!BANKS[GROUP]) loadBankGroup(GROUP);
 }
 function renderGroup() {
   document.querySelectorAll('.segbtn').forEach(b => { b.classList.toggle('active', b.dataset.group === GROUP); b.setAttribute('aria-selected', b.dataset.group === GROUP); });
@@ -199,13 +222,30 @@ function renderBankInfo(gen, src) {
   const el = $('bankInfo'); if (!el) return;
   el.dataset.gen = gen || el.dataset.gen || ''; el.dataset.src = src || el.dataset.src || '';
   const srcLabel = el.dataset.src === 'cloud' ? (lang === 'zh' ? '雲端' : 'cloud') : el.dataset.src === 'cache' ? (lang === 'zh' ? '快取（背景更新中）' : 'cached (updating)') : (lang === 'zh' ? '本機' : 'local');
-  el.textContent = `${t(GROUP === 'ENV' ? 'groupEnv' : 'groupOsh')} ${t('bank')} ${BANK.length} ${lang === 'zh' ? '題' : 'questions'}（${lang === 'zh' ? '全部' : 'all'} ${BANK_ALL.length}） · ${srcLabel} · ${t('ver')} ${el.dataset.gen} ${CFG.useDraft ? t('draftNote') : ''}`;
+  const total = (BANKS.OSH ? BANKS.OSH.length : 0) + (BANKS.ENV ? BANKS.ENV.length : 0);
+  el.textContent = `${t(GROUP === 'ENV' ? 'groupEnv' : 'groupOsh')} ${t('bank')} ${BANK.length} ${lang === 'zh' ? '題' : 'questions'}（${lang === 'zh' ? '全部' : 'all'} ${total}） · ${srcLabel} · ${t('ver')} ${el.dataset.gen} ${CFG.useDraft ? t('draftNote') : ''}`;
 }
 
 /* ---------- 開局 ---------- */
+/* 加權抽題：先依 Laws.weight 抽法規（同一局盡量不重複法規），再從該法規抽一題；小法規也有機會出現、大法規不會洗版 */
+function pickWeighted(n, rnd) {
+  const byLaw = {}; BANK.forEach(q => { (byLaw[q.law_id] = byLaw[q.law_id] || []).push(q); });
+  const ids = Object.keys(byLaw); if (!ids.length) return [];
+  const w = {}; (LAWS[GROUP] || []).forEach(l => { w[l.law_id] = Math.max(0.1, Number(l.weight) || 1); });
+  const pool = {}; ids.forEach(id => { pool[id] = shuffle(byLaw[id], rnd); });
+  const out = []; let avail = ids.slice(); let usedLaw = new Set();
+  while (out.length < n && avail.length) {
+    let cand = avail.filter(id => !usedLaw.has(id)); if (!cand.length) { usedLaw = new Set(); cand = avail; }
+    const tot = cand.reduce((a, id) => a + (w[id] || 1), 0); let x = rnd() * tot, pick = cand[cand.length - 1];
+    for (const id of cand) { x -= (w[id] || 1); if (x <= 0) { pick = id; break; } }
+    out.push(pool[pick].pop().id); usedLaw.add(pick);
+    if (!pool[pick].length) avail = avail.filter(id => id !== pick);
+  }
+  return out;
+}
 function pickIds(mode) {
-  if (mode === 'daily') { const rnd = mulberry32(hashStr('osh-daily-' + GROUP + '-' + today())); return shuffle(BANK, rnd).slice(0, CFG.dailyQuestions).map(q => q.id); }
-  return shuffle(BANK).slice(0, CFG.questionsPerGame).map(q => q.id);
+  if (mode === 'daily') return pickWeighted(CFG.dailyQuestions, mulberry32(hashStr('osh-daily-' + GROUP + '-' + today())));
+  return pickWeighted(CFG.questionsPerGame, Math.random);
 }
 const Q_FIELDS = ['id','law','article','category','difficulty','q_zh','a_zh','b_zh','c_zh','d_zh','q_en','a_en','b_en','c_en','d_en','answer','explain_zh','explain_en'];
 const slimQ = q => { const o = {}; Q_FIELDS.forEach(k => { if (q[k] != null) o[k] = q[k]; }); return o; };
@@ -684,4 +724,5 @@ applyLang();
 syncNick();
 initFirebase();
 loadBank().catch(err => { $('bankInfo').textContent = '題庫載入失敗 / failed to load bank: ' + err; });
+if ('serviceWorker' in navigator && location.protocol === 'https:') navigator.serviceWorker.register('sw.js').catch(e => console.warn('sw', e));
 })();

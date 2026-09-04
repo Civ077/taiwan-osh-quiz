@@ -1,0 +1,3602 @@
+[
+ {
+  "file": "batch9_a",
+  "idx": 0,
+  "law_id": "ENV-29",
+  "law": "空氣品質嚴重惡化警告發布及緊急防制辦法",
+  "art": "第2條",
+  "q_zh": "空氣品質惡化警告依污染程度區分為幾類別幾等級？各類別之等級細分為何？",
+  "opt_zh": [
+   "預警（初級、中級）及嚴重惡化（輕度、中度、重度）二類別五等級",
+   "預警（初級、中級、高級）及嚴重惡化（輕度、重度）二類別五等級",
+   "預警（輕度、中度）及嚴重惡化（初級、中級、重度）二類別五等級",
+   "預警（初級）及嚴重惡化（輕度、中度、重度、極重度）二類別五等級"
+  ],
+  "ans": "a",
+  "ex_zh": "第2條：空氣品質惡化警告等級依污染程度區分為預警（細分初級、中級）及嚴重惡化（細分輕度、中度或重度）二類別五等級，依懸浮微粒、細懸浮微粒、二氧化硫、二氧化氮、一氧化碳及臭氧之濃度條件依附件一判定。所稱空氣品質嚴重惡化，包含任一空氣污染物濃度達附件一所定輕度、中度或重度嚴重惡化等級者。",
+  "q_en": "Air quality deterioration warnings are divided into how many categories and levels, and how are they subdivided?",
+  "opt_en": [
+   "Alert (primary, intermediate) and severe deterioration (mild, moderate, heavy): two categories, five levels",
+   "Alert (primary, intermediate, advanced) and severe deterioration (mild, heavy): two categories, five levels",
+   "Alert (mild, moderate) and severe deterioration (primary, intermediate, heavy): two categories, five levels",
+   "Alert (primary only) and severe deterioration (mild, moderate, heavy, extreme): two categories, five levels"
+  ],
+  "ex_en": "Article 2 sets two categories and five levels, judged against the pollutant concentrations in Annex 1."
+ },
+ {
+  "file": "batch9_a",
+  "idx": 8,
+  "law_id": "ENV-32",
+  "law": "固定污染源設置操作及燃料使用許可證管理辦法",
+  "art": "第4條",
+  "q_zh": "空污法第24條所稱固定污染源之「變更」，其排放量門檻為何？",
+  "opt_zh": [
+   "任一污染物年排放量推估較許可證記載增加達百分之二十及五公噸以上；或氮氧化物達五公噸、硫氧化物達十公噸、揮發性有機物達五公噸、粒狀物達十公噸以上",
+   "任一污染物年排放量推估較許可證記載增加達百分之十及一公噸以上；或氮氧化物達十公噸、硫氧化物達五公噸、揮發性有機物達十公噸、粒狀物達五公噸以上",
+   "任一污染物年排放量推估較許可證記載增加達百分之三十及十公噸以上；或氮氧化物達二公噸、硫氧化物達二公噸、揮發性有機物達二公噸、粒狀物達二公噸以上",
+   "任一污染物年排放量推估較許可證記載增加達百分之五及零點五公噸以上；或氮氧化物達一公噸、硫氧化物達一公噸、揮發性有機物達一公噸、粒狀物達一公噸以上"
+  ],
+  "ans": "a",
+  "ex_zh": "第4條：所稱變更指設備更換或擴增、製程、原（物）料、燃料或產品改變，致增加空氣污染物排放種類；或任一污染物年排放量推估較許可證記載之年許可排放量增加達百分之二十及五公噸以上；或增加達氮氧化物五公噸、硫氧化物十公噸、揮發性有機物五公噸、粒狀物十公噸以上者。因增設空氣污染防制設施而致增加者，得依操作許可證異動程序辦理。",
+  "q_en": "What emission thresholds define a modification under Article 24 of the Act?",
+  "opt_en": [
+   "Any pollutant increasing by 20 percent and 5 tonnes or more over the permitted annual amount; or NOx 5 t, SOx 10 t, VOC 5 t, particulates 10 t or more",
+   "Any pollutant increasing by 10 percent and 1 tonne or more over the permitted annual amount; or NOx 10 t, SOx 5 t, VOC 10 t, particulates 5 t or more",
+   "Any pollutant increasing by 30 percent and 10 tonnes or more over the permitted annual amount; or NOx 2 t, SOx 2 t, VOC 2 t, particulates 2 t or more",
+   "Any pollutant increasing by 5 percent and 0.5 tonne or more over the permitted annual amount; or NOx 1 t, SOx 1 t, VOC 1 t, particulates 1 t or more"
+  ],
+  "ex_en": "Article 4."
+ },
+ {
+  "file": "batch9_a",
+  "idx": 16,
+  "law_id": "ENV-33",
+  "law": "空氣污染防制費收費辦法",
+  "art": "第3條",
+  "q_zh": "固定污染源當年度各季排放量甚小者，得如何調整申報方式？其後任一季超過門檻應如何處理？",
+  "opt_zh": [
+   "經核定各季個別污染物排放量皆在一公噸以下者，得調整為每年一月底前一次申報繳納；任一季超過一公噸應即恢復按季申報",
+   "經核定各季個別污染物排放量皆在十公噸以下者，得調整為每年七月底前一次申報繳納；任一季超過十公噸應即恢復按季申報",
+   "經核定各季個別污染物排放量皆在五公噸以下者，得調整為每半年申報繳納一次；任一季超過五公噸應即改為按月申報",
+   "經核定各季個別污染物排放量皆在零點五公噸以下者，得免予申報及繳納；任一季超過零點五公噸應改為按月申報"
+  ],
+  "ans": "a",
+  "ex_zh": "第3條第3項：公私場所固定污染源當年度各季排放之空氣污染物，經中央主管機關核定其個別污染物種類排放量皆於一公噸以下者，得於次年一月底前報經中央主管機關同意，調整為每年一月底前將前一年各季排放量與費額一次申報及繳納。第4項：其個別污染物排放量任一季超過一公噸者，應即依第1項規定按季申報、繳費。",
+  "q_en": "How may small emitters adjust their reporting, and what if a quarter exceeds the threshold?",
+  "opt_en": [
+   "If each quarter's individual pollutant emissions are approved at 1 tonne or less, report once yearly by end of January; exceeding 1 tonne in any quarter restores quarterly reporting",
+   "If each quarter's individual pollutant emissions are approved at 10 tonnes or less, report once yearly by end of July; exceeding 10 tonnes in any quarter restores quarterly reporting",
+   "If each quarter's individual pollutant emissions are approved at 5 tonnes or less, report once every half year; exceeding 5 tonnes in any quarter switches to monthly reporting",
+   "If each quarter's individual pollutant emissions are approved at 0.5 tonne or less, reporting is waived; exceeding 0.5 tonne in any quarter switches to monthly reporting"
+  ],
+  "ex_en": "Article 3, paragraphs 3 and 4."
+ },
+ {
+  "file": "batch9_a",
+  "idx": 24,
+  "law_id": "ENV-34",
+  "law": "揮發性有機物空氣污染管制及排放標準",
+  "art": "第5條",
+  "q_zh": "廢氣燃燒塔之母火及蒸氣輔助燃燒型式之蒸氣量規定為何？",
+  "opt_zh": [
+   "母火不可熄滅且應使用獨立穩定之燃料系統；蒸氣量與廢氣量之重量比應介於百分之十五至百分之五十",
+   "母火得於停爐期間熄滅並共用製程燃料系統；蒸氣量與廢氣量之重量比應介於百分之五至百分之二十",
+   "母火不可熄滅且應使用獨立穩定之燃料系統；蒸氣量與廢氣量之重量比應介於百分之三十至百分之七十",
+   "母火應每日熄滅一次進行檢查及保養作業；蒸氣量與廢氣量之重量比應介於百分之十至百分之二十五"
+  ],
+  "ans": "a",
+  "ex_zh": "第5條：廢氣燃燒塔之母火不可熄滅，且應使用獨立穩定之燃料系統；使用蒸氣輔助燃燒型式者，其蒸氣量與廢氣量之重量比應介於百分之十五至百分之五十，但因製程特性報經主管機關核可者不在此限。第4條：正常操作下排放之廢氣不得使用廢氣燃燒塔處理，但遇緊急狀況、開車、停車、歲修或經核可之必要操作不在此限。",
+  "q_en": "What are the pilot flame and steam-assist requirements for flares?",
+  "opt_en": [
+   "The pilot flame must not be extinguished and must use an independent stable fuel system; steam to waste gas weight ratio between 15 and 50 percent",
+   "The pilot flame may be extinguished during shutdown and share the process fuel system; steam to waste gas weight ratio between 5 and 20 percent",
+   "The pilot flame must not be extinguished and must use an independent stable fuel system; steam to waste gas weight ratio between 30 and 70 percent",
+   "The pilot flame must be extinguished daily for inspection and maintenance; steam to waste gas weight ratio between 10 and 25 percent"
+  ],
+  "ex_en": "Articles 4 and 5."
+ },
+ {
+  "file": "batch9_a",
+  "idx": 32,
+  "law_id": "ENV-35",
+  "law": "鍋爐空氣污染物排放標準",
+  "art": "第2條",
+  "q_zh": "本標準所稱備用鍋爐及雙燃料系統鍋爐之定義為何？",
+  "opt_zh": [
+   "備用鍋爐指原鍋爐因故中斷運作時，為維持熱能或蒸汽供給系統正常運作而啟動之鍋爐；雙燃料系統鍋爐指可互相切換液體或氣體物質作為燃料之鍋爐",
+   "備用鍋爐指僅於歲修期間使用且每年運轉不超過三十日之鍋爐；雙燃料系統鍋爐指可同時燃燒固體與液體物質作為燃料之鍋爐",
+   "備用鍋爐指供應蒸汽量低於主鍋爐一半之輔助性小型鍋爐；雙燃料系統鍋爐指以生質燃料混燒煤炭作為燃料之鍋爐",
+   "備用鍋爐指設置完成但尚未取得操作許可證之待用鍋爐；雙燃料系統鍋爐指得切換氣體與固體物質作為燃料之鍋爐"
+  ],
+  "ans": "a",
+  "ex_zh": "第2條：備用鍋爐指原鍋爐因故中斷運作時，為維持熱能或蒸汽供給系統正常運作而啟動之鍋爐；雙燃料系統鍋爐指可互相切換液體或氣體物質作為燃料之鍋爐。鍋爐則指以氣體、液體或固體物質作為燃料，加熱於水、熱媒，致產生熱水、超過大氣壓之壓力蒸汽或熱能之設備。",
+  "q_en": "How are standby boilers and dual-fuel boilers defined?",
+  "opt_en": [
+   "A standby boiler is started to maintain normal heat or steam supply when the original boiler is interrupted; a dual-fuel boiler can switch between liquid and gaseous fuels",
+   "A standby boiler is used only during the annual overhaul and runs no more than 30 days a year; a dual-fuel boiler burns solid and liquid fuels at the same time only",
+   "A standby boiler is an auxiliary small boiler supplying less than half the main boiler steam; a dual-fuel boiler co-fires biomass fuel with coal",
+   "A standby boiler is one installed but not yet holding an operating permit; a dual-fuel boiler can switch between gaseous and solid fuels"
+  ],
+  "ex_en": "Article 2, subparagraphs 4 and 5."
+ },
+ {
+  "file": "batch9_a",
+  "idx": 40,
+  "law_id": "ENV-37",
+  "law": "空氣污染行為管制執行準則",
+  "art": "第5條",
+  "q_zh": "主管機關執行空氣污染行為管制應填載之稽查工作紀錄表，其內容應包括下列何者？",
+  "opt_zh": [
+   "公私場所名稱與負責人或行為人姓名、污染源名稱及位置、稽查時間、稽查判定位置與污染發生源位置之相關性",
+   "公私場所之工廠登記證號與資本額、員工人數及年度營業額、污染源購置金額與折舊年限、預定裁處金額",
+   "陳情人之姓名住址與聯絡電話、歷年陳情次數統計資料、預定裁處之金額及法條依據、複查預定日期",
+   "污染源負責人之學經歷與訓練紀錄、防制設備之廠牌型號與保固期限、公私場所稅籍與財產資料"
+  ],
+  "ans": "a",
+  "ex_zh": "第5條：稽查工作紀錄表內容應包括公私場所名稱、負責人或行為人之姓名；污染源名稱及位置；稽查時間；稽查判定位置及與污染發生源位置之相關性；發生污染行為之具體事實及判定方式；污染源及污染防制設施設置及操作情形；判定污染行為之相關佐證資料；其他必要之稽查事項。",
+  "q_en": "What must the inspection record form contain?",
+  "opt_en": [
+   "Name of the premises and the responsible person or actor, source name and location, inspection time, and the relation between the determination point and the source location",
+   "Factory registration number and capital, headcount and annual turnover, source purchase price and depreciation period, and the planned penalty amount and legal basis",
+   "Complainant's name, address and phone, historical complaint statistics, planned penalty amount and legal basis, and the planned re-inspection date",
+   "The responsible person's education and training records, control equipment brand, model and warranty period, and the premises' tax and property data"
+  ],
+  "ex_en": "Article 5."
+ },
+ {
+  "file": "batch9_a",
+  "idx": 48,
+  "law_id": "ENV-38",
+  "law": "空氣品質監測站設置及監測準則",
+  "art": "第4條",
+  "q_zh": "一般空氣品質監測站應設置站數之最低數量如何規定？何種情形得酌減？地方設置之監測站是否應與中央連線？",
+  "opt_zh": [
+   "最低數量規定於附表一；監測站連續三年以上符合空氣品質標準且提出調整計畫者得酌減；地方設置之監測站應與中央連線",
+   "最低數量規定於本準則條文本身；監測站連續一年符合空氣品質標準即得逕予酌減；地方設置之監測站得自行決定是否連線",
+   "最低數量由地方主管機關自行公告；監測站連續五年符合空氣品質標準並經中央核准得酌減；地方監測站僅需每年報送資料",
+   "最低數量依人口數每十萬人一站計算；監測站連續二年符合空氣品質標準即得酌減；地方監測站應與環境檢驗機構連線"
+  ],
+  "ans": "a",
+  "ex_zh": "第4條：一般空氣品質監測站應設置站數之最低數量規定如附表一，但各級主管機關設置之監測站連續三年以上符合空氣品質標準且提出空氣品質監測站調整計畫者得酌減之；一般站以外之其他種類監測站視實際需要設置。第12條：直轄市、縣（市）主管機關設置之監測站應與中央主管機關連線，各級主管機關並應將原始資料公開於網頁。",
+  "q_en": "How is the minimum number of general stations set, when may it be reduced, and must local stations link to the central authority?",
+  "opt_en": [
+   "The minimum is set in Annex 1; a reduction is allowed where stations meet air quality standards for three consecutive years with an adjustment plan; local stations must link to the central authority",
+   "The minimum is set in the text of the regulation; a reduction is allowed after one year meeting standards; local stations may decide themselves whether to link",
+   "The minimum is announced by each local authority; a reduction needs five consecutive years meeting air quality standards plus central approval; local stations only submit annual data reports",
+   "The minimum is one station per hundred thousand people; a reduction is allowed after two years meeting standards; local stations must link to testing organizations"
+  ],
+  "ex_en": "Articles 4 and 12."
+ },
+ {
+  "file": "batch9_a",
+  "idx": 56,
+  "law_id": "ENV-42",
+  "law": "易發生噪音設施設置及操作許可辦法",
+  "art": "第4條",
+  "q_zh": "地方主管機關受理公私場所設施設置許可證申請後之繳費、審查及補正通知期限為何？",
+  "opt_zh": [
+   "應通知於七日內繳納審查費及證書費；受理之日起三十日內完成審查；文件欠缺者於受理之日起十五日內通知限期補正",
+   "應通知於十五日內繳納審查費及證書費；受理之日起六十日內完成審查；文件欠缺者於受理之日起三十日內通知限期補正",
+   "應通知於三日內繳納審查費及證書費；受理之日起十四日內完成審查；文件欠缺者於受理之日起七日內通知限期補正",
+   "應通知於三十日內繳納審查費及證書費；受理之日起九十日內完成審查；文件欠缺者於受理之日起二十日內通知限期補正"
+  ],
+  "ans": "a",
+  "ex_zh": "第4條：受理設置許可證申請後應通知所有人或操作人於七日內繳納審查費及證書費，並應於受理之日起三十日內完成審查，符合規定者核發設置許可證；申請文件有欠缺或不合規定者，應於受理之日起十五日內通知限期補正，補正日數不算入審查期間，核准補正之總日數不得超過九十日。第7條：操作許可證審查程序準用第4條。",
+  "q_en": "What are the fee, review and supplementation deadlines for a facility installation permit?",
+  "opt_en": [
+   "Notify to pay fees within 7 days; complete review within 30 days of acceptance; notify supplementation within 15 days of acceptance",
+   "Notify to pay fees within 15 days; complete review within 60 days of acceptance; notify supplementation within 30 days of acceptance",
+   "Notify to pay fees within 3 days; complete review within 14 days of acceptance; notify supplementation within 7 days of acceptance",
+   "Notify to pay fees within 30 days; complete review within 90 days of acceptance; notify supplementation within 20 days of acceptance"
+  ],
+  "ex_en": "Article 4."
+ },
+ {
+  "file": "batch9_a1",
+  "idx": 0,
+  "law_id": "ENV-29",
+  "law": "空氣品質嚴重惡化警告發布及緊急防制辦法",
+  "art": "第1條",
+  "q_zh": "空氣品質嚴重惡化警告發布及緊急防制辦法之授權訂定依據為何？",
+  "opt_zh": [
+   "依空氣污染防制法第十四條第四項規定訂定之",
+   "依空氣污染防制法第十六條第二項規定訂定之",
+   "依空氣污染防制法第二十條第二項規定訂定之",
+   "依空氣污染防制法第三十二條第三項規定訂定之"
+  ],
+  "ans": "a",
+  "ex_zh": "第1條：本辦法依空氣污染防制法第十四條第四項規定訂定之。空污法第16條第2項為空氣污染防制費收費辦法之依據，第20條第2項為排放標準之依據，第32條第3項為空氣污染行為管制執行準則之依據。",
+  "q_en": "Under which provision was this regulation adopted?",
+  "opt_en": [
+   "Article 14, paragraph 4 of the Air Pollution Control Act",
+   "Article 16, paragraph 2 of the Air Pollution Control Act",
+   "Article 20, paragraph 2 of the Air Pollution Control Act",
+   "Article 32, paragraph 3 of the Air Pollution Control Act"
+  ],
+  "ex_en": "Article 1."
+ },
+ {
+  "file": "batch9_a1",
+  "idx": 8,
+  "law_id": "ENV-29",
+  "law": "空氣品質嚴重惡化警告發布及緊急防制辦法",
+  "art": "第15條",
+  "q_zh": "轄區內空氣污染物濃度達空氣品質惡化警告等級，經研判非屬氣象變異所致者，地方主管機關應如何處理？",
+  "opt_zh": [
+   "仍應查明原因，並令有關之特定污染源採取相關應變防制措施",
+   "得免予處理，俟中央主管機關完成調查認定後再行辦理",
+   "應逕行解除已發布之警告，並公告該區域免除應變措施",
+   "應報請中央主管機關成立指揮中心，由中央統一查明原因"
+  ],
+  "ans": "a",
+  "ex_zh": "第15條：直轄市、縣（市）主管機關對於轄區內空氣污染物濃度達空氣品質惡化警告等級，經研判非屬氣象變異所致者，仍應查明原因，並令有關之特定污染源採取相關應變防制措施。",
+  "q_en": "If deterioration levels are reached but are judged not to be caused by weather variation, what must the local authority do?",
+  "opt_en": [
+   "Still investigate the cause and order the relevant specific sources to take response control measures",
+   "Take no action and wait until the central authority has completed its own investigation and findings",
+   "Immediately lift the issued warning and announce that response measures are waived in that area",
+   "Ask the central authority to set up a command center to investigate the cause on its behalf"
+  ],
+  "ex_en": "Article 15."
+ },
+ {
+  "file": "batch9_a1",
+  "idx": 16,
+  "law_id": "ENV-33",
+  "law": "空氣污染防制費收費辦法",
+  "art": "第10條",
+  "q_zh": "公私場所申報空污費之固定污染源空氣污染物排放量，其計算依據之優先順序為何？",
+  "opt_zh": [
+   "連續自動監測設施監測資料；經認可之揮發性有機物自廠係數；符合規定檢測方法之結果或公告排放係數、控制效率、質量平衡；其他經認可之替代計算方式",
+   "公告之空氣污染物排放係數；連續自動監測設施監測資料；經認可之揮發性有機物自廠係數；符合規定檢測方法之檢測結果或質量平衡計量方式",
+   "經認可之揮發性有機物自廠係數；符合規定檢測方法之檢測結果；連續自動監測設施之監測資料；其他由公私場所自行選定之替代計算方式",
+   "公私場所自行選定之計算方式；經目的事業主管機關認可之係數；連續自動監測設施監測資料；符合中央規定檢測方法之檢測結果"
+  ],
+  "ans": "a",
+  "ex_zh": "第10條：計算依據順序為：符合規定之連續自動監測設施監測資料；經中央主管機關認可之揮發性有機物自廠係數；符合規定檢測方法之檢測結果或中央指定公告之排放係數、控制效率、質量平衡計量方式；其他經認可之排放係數或替代計算方式。申報 VOC 排放量者原則應以第二至第四款計算，採密閉集氣系統至排放管道者經同意得以第一款或第三款檢測結果計算。",
+  "q_en": "What is the priority order of bases for calculating stationary source emissions?",
+  "opt_en": [
+   "Continuous automatic monitoring data; approved in-house VOC factors; compliant test results or announced emission factors, control efficiency and mass balance; other approved alternatives",
+   "Announced emission factors, control efficiency and mass balance methods; continuous automatic monitoring data; approved in-house VOC factors; compliant test results of announced methods",
+   "Approved in-house VOC factors; compliant test results of announced methods; continuous automatic monitoring data; other alternative methods chosen by the premises",
+   "Alternative methods chosen by the premises itself; factors approved by the industry competent authority; continuous automatic monitoring data; compliant test results"
+  ],
+  "ex_en": "Article 10, paragraph 1."
+ },
+ {
+  "file": "batch9_a1",
+  "idx": 24,
+  "law_id": "ENV-33",
+  "law": "空氣污染防制費收費辦法",
+  "art": "第20條",
+  "q_zh": "依第三條申報空污費之固定污染源應如何計量及記錄相關紀錄報表？以質量平衡推估者有何例外？",
+  "opt_zh": [
+   "應每日計量及記錄相關紀錄報表；以質量平衡推估揮發性有機物者得每批計量記錄，且每季至少計量及記錄一次",
+   "應每月計量及記錄相關紀錄報表；以質量平衡推估揮發性有機物者得每年計量記錄，且每半年至少計量記錄一次",
+   "應每季計量及記錄相關紀錄報表；以質量平衡推估揮發性有機物者得每批計量記錄，且每年至少計量及記錄一次",
+   "應每小時計量及記錄相關紀錄報表；以質量平衡推估揮發性有機物者得每日計量記錄，且每月至少計量記錄一次"
+  ],
+  "ans": "a",
+  "ex_zh": "第20條：公私場所固定污染源依第3條申報空污費者，應每日計量及記錄其須依第9條提報之相關紀錄報表；但以質量平衡計量方式推估揮發性有機物排放量者，得每批計量及記錄原（物）料回收量、廢溶劑量、廢棄物量與產品產量等項目及數量，且每季至少計量及記錄一次。無法依規定計量記錄者，得報經地方主管機關同意後改變記錄項目或頻率。",
+  "q_en": "How often must sources measure and record, and what is the mass balance exception?",
+  "opt_en": [
+   "Measure and record daily; those estimating VOC by mass balance may record per batch, with at least one measurement and record each quarter",
+   "Measure and record monthly; those estimating VOC by mass balance may record yearly, with at least one measurement and record each half year",
+   "Measure and record quarterly; those estimating VOC by mass balance may record per batch, with at least one measurement and record each year",
+   "Measure and record hourly; those estimating VOC by mass balance may record daily, with at least one measurement and record each month"
+  ],
+  "ex_en": "Article 20."
+ },
+ {
+  "file": "batch9_a1",
+  "idx": 32,
+  "law_id": "ENV-35",
+  "law": "鍋爐空氣污染物排放標準",
+  "art": "第3條",
+  "q_zh": "鍋爐空氣污染物排放標準之適用對象及其適用順序為何？",
+  "opt_zh": [
+   "適用對象為各行業所設鍋爐設施；電力設施排放標準另有管制之鍋爐，或區域另訂有較嚴標準者，優先適用該標準",
+   "適用對象為各行業所設鍋爐設施；電力設施排放標準另有管制之鍋爐，或區域另訂有較寬標準者，優先適用該標準",
+   "適用對象僅限石化業及鋼鐵業之鍋爐設施；其他行業之鍋爐一律適用固定污染源空氣污染物排放標準之規定",
+   "適用對象為蒸汽產生量十公噸以上之鍋爐設施；未達該規模者由地方主管機關另行公告管制標準值適用"
+  ],
+  "ans": "a",
+  "ex_zh": "第3條：本標準適用對象為各行業所設鍋爐設施；電力設施空氣污染物排放標準另有管制之鍋爐，或區域另訂有較嚴標準者，優先適用該標準。第8條並定有除水泥業外其他行業別加熱設備或程序使用固態生質燃料等者之準用規定。",
+  "q_en": "What does the boiler emission standard apply to, and which standard prevails?",
+  "opt_en": [
+   "It applies to boilers in all industries; where the power facility standard covers a boiler, or a region sets a stricter standard, that standard prevails",
+   "It applies to boilers in all industries; where the power facility standard covers a boiler, or a region sets a looser standard, that standard prevails",
+   "It applies only to boilers in petrochemical and steel industries; boilers in other industries follow the general stationary source standard",
+   "It applies to boilers producing ten tonnes of steam or more; smaller boilers follow standards announced by local authorities"
+  ],
+  "ex_en": "Article 3."
+ },
+ {
+  "file": "batch9_a2",
+  "idx": 0,
+  "law_id": "ENV-32",
+  "law": "固定污染源設置操作及燃料使用許可證管理辦法",
+  "art": "第1條",
+  "q_zh": "固定污染源設置操作及燃料使用許可證管理辦法之授權訂定依據為何？",
+  "opt_zh": [
+   "依空氣污染防制法第二十四條第四項及第二十八條第二項規定訂定之",
+   "依空氣污染防制法第二十條第二項及第二十二條第一項規定訂定之",
+   "依空氣污染防制法第十六條第二項及第十七條第二項規定訂定之",
+   "依空氣污染防制法第十三條第二項及第十四條第四項規定訂定之"
+  ],
+  "ans": "a",
+  "ex_zh": "第1條：本辦法依空氣污染防制法第二十四條第四項及第二十八條第二項規定訂定之。第24條為設置及操作許可證之依據，第28條為燃料使用許可證之依據。",
+  "q_en": "Under which provisions was the stationary source permit regulation adopted?",
+  "opt_en": [
+   "Article 24, paragraph 4 and Article 28, paragraph 2 of the Air Pollution Control Act",
+   "Article 20, paragraph 2 and Article 22, paragraph 1 of the Air Pollution Control Act",
+   "Article 16, paragraph 2 and Article 17, paragraph 2 of the Air Pollution Control Act",
+   "Article 13, paragraph 2 and Article 14, paragraph 4 of the Air Pollution Control Act"
+  ],
+  "ex_en": "Article 1."
+ },
+ {
+  "file": "batch9_a2",
+  "idx": 8,
+  "law_id": "ENV-32",
+  "law": "固定污染源設置操作及燃料使用許可證管理辦法",
+  "art": "第12條",
+  "q_zh": "公私場所申請固定污染源設置許可證應檢具何文件？設置於經環評且具排放總量規定區域者另應檢具何者？",
+  "opt_zh": [
+   "應填具申請表並檢具空氣污染防制計畫；設於該區域者應同時檢具區域管理單位核定之排放量分配證明文件",
+   "應填具申請表並檢具試車計畫書；設於該區域者應同時檢具中央主管機關核發之排放量核配許可文件",
+   "應填具申請表並檢具檢測報告書；設於該區域者應同時檢具目的事業主管機關核准之產能證明文件",
+   "應填具申請表並檢具專責人員名冊；設於該區域者應同時檢具地方主管機關核定之空氣品質模擬報告"
+  ],
+  "ans": "a",
+  "ex_zh": "第12條：公私場所依本法第24條第1項規定申請固定污染源設置許可證，應填具申請表並檢具空氣污染防制計畫，向審核機關為之；固定污染源設置於經環境影響評估且具排放總量規定之區域者，於申請設置許可證時，應同時檢具該區域管理單位核定之排放量分配證明文件。",
+  "q_en": "What must an installation permit application include, and what extra document applies in total-quantity areas?",
+  "opt_en": [
+   "An application form and an air pollution control plan; in such areas, also the emission allocation certificate approved by the area management unit",
+   "An application form and a test-run plan; in such areas, also the emission allocation approval document issued by the central competent authority",
+   "An application form and a testing report; in such areas, also the production capacity certificate approved by the industry authority",
+   "An application form and a roster of dedicated personnel; in such areas, also the air quality modeling report approved locally"
+  ],
+  "ex_en": "Article 12."
+ },
+ {
+  "file": "batch9_a2",
+  "idx": 16,
+  "law_id": "ENV-32",
+  "law": "固定污染源設置操作及燃料使用許可證管理辦法",
+  "art": "第22條",
+  "q_zh": "公私場所預計得於多久內完成固定污染源設備安裝或建造者，得同時申請設置許可證及操作許可證？",
+  "opt_zh": [
+   "預計得於三個月內完成設備安裝或建造者，得填具申請表連同空氣污染防制計畫及試車計畫書等文件同時申請",
+   "預計得於六個月內完成設備安裝或建造者，得填具申請表連同空氣污染防制計畫及檢測報告書等文件同時申請",
+   "預計得於一年內完成設備安裝或建造者，得填具申請表連同空氣污染防制設施說明書及專責人員名冊同時申請",
+   "預計得於一個月內完成設備安裝或建造者，得填具申請表連同工程施作契約及設備採購憑證等文件同時申請"
+  ],
+  "ans": "a",
+  "ex_zh": "第22條：公私場所預計得於三個月內完成固定污染源設備安裝或建造者，得填具申請表，連同空氣污染防制計畫及試車計畫書、依第14條或第15條規定之文件、符合燃料成分標準之證明文件、應實施環評者之審查通過書件及結論等，向審核機關同時申請設置許可證及操作許可證。第37條定有合併申請之審查程序。",
+  "q_en": "Within what period of expected completion may installation and operating permits be applied for together?",
+  "opt_en": [
+   "Where installation or construction is expected within three months, filing an application with the control plan and test-run plan",
+   "Where installation or construction is expected within six months, filing an application with the control plan and testing reports",
+   "Where installation or construction is expected within one year, filing an application with the facility statement and personnel roster",
+   "Where installation or construction is expected within one month, filing an application with works contracts and purchase records"
+  ],
+  "ex_en": "Article 22."
+ },
+ {
+  "file": "batch9_a2",
+  "idx": 24,
+  "law_id": "ENV-32",
+  "law": "固定污染源設置操作及燃料使用許可證管理辦法",
+  "art": "第32條",
+  "q_zh": "審核機關受理設置及操作許可證申請時，經技師簽證得免再審查之文件，及仍應審查之例外情形為何？",
+  "opt_zh": [
+   "空氣污染防制計畫、防制計畫差異說明書、試車計畫書、防制設施說明書及檢測計畫、修正試車計畫書；但情節重大、申請試車復工等情形仍應審查",
+   "空氣污染防制計畫、專責人員名冊、燃料成分證明文件、空污費申報書、年度操作紀錄；但公私場所曾遭裁處罰鍰者仍應審查其全部文件",
+   "廠場設施平面配置圖、製程流程圖說、環評審查結論、目的事業核准文件、土地權狀；但技師執業年資未滿五年者仍應審查其簽證文件",
+   "檢測報告書、監測設施校正紀錄、防制設備採購契約、施工進度表、竣工查驗紀錄；但由外國技師簽證者仍應由審核機關重新審查"
+  ],
+  "ans": "a",
+  "ex_zh": "第32條：下列申請文件經環境工程技師或其他相關專業技師簽證後得免再審查：第12條第1項空氣污染防制計畫；第18條第1項第2款防制計畫差異說明書及第3款試車計畫書；第18條第2項防制設施說明書及空氣污染排放檢測計畫；第20條第4項修正試車計畫書。但有違反本法第96條第1項情節重大、依第97條第1項申請試車後復工（業）、辦理簽證技師五年內經報請懲戒、簽證後經懲戒廢止執照、或其他經認定有審查必要者，審核機關仍應審查。",
+  "q_en": "Which documents are exempt from further review once certified by an engineer, and what are the exceptions?",
+  "opt_en": [
+   "The control plan, plan variance statement, test-run plan, facility statement and testing plan, and revised test-run plan; but serious violations or restart after test run still require review",
+   "The control plan, personnel roster, fuel composition documents, fee filings and annual operating records; but any premises previously fined still has all documents reviewed",
+   "Facility layout drawings, process flow charts, EIA conclusions, industry approvals and land title copies; but engineers with under five years of practice still have documents reviewed",
+   "Testing reports, monitor calibration records, equipment purchase contracts, schedules and completion records; but certifications by foreign engineers are always reviewed again"
+  ],
+  "ex_en": "Article 32."
+ },
+ {
+  "file": "batch9_a2",
+  "idx": 32,
+  "law_id": "ENV-32",
+  "law": "固定污染源設置操作及燃料使用許可證管理辦法",
+  "art": "第40條",
+  "q_zh": "審核機關就已核發之許可證，於何種情形得予更正？其職權變更之限制為何？",
+  "opt_zh": [
+   "發現許可證有誤寫、誤算或其他類此顯然錯誤者應即更正並限期換領證書；除此之外不得依職權變更許可證應記載事項",
+   "發現許可證所載排放量高於同業平均水準者應即更正並限期換領證書；並得依職權加嚴其應記載之許可排放量數值",
+   "發現公私場所有違規紀錄者應即更正許可內容並限期換領證書；並得依職權增列監測、檢測及申報頻率等義務事項",
+   "發現法規修正致許可內容與現行規定不符者應即更正證書；並得依職權變更全部許可條件以符合最新法規要求"
+  ],
+  "ans": "a",
+  "ex_zh": "第40條：審核機關除發現核發之許可證有誤寫、誤算或其他類此未符合本法規定之顯然錯誤者，應即更正並限期公私場所換領證書外，不得依職權變更許可證應記載事項。第42條並列舉不得以任何形式之處分增加法規所未明定義務之情形。",
+  "q_en": "When may the authority correct an issued permit, and what limits apply?",
+  "opt_en": [
+   "Obvious clerical or calculation errors must be corrected with a deadline to exchange the certificate; otherwise recorded particulars may not be changed ex officio",
+   "Permits showing emissions above the industry average must be corrected with a deadline to exchange it; permitted emission figures may be tightened ex officio",
+   "Permits held by premises with violation records must be corrected with a deadline to exchange it; monitoring and reporting duties may be added ex officio",
+   "Permits inconsistent with amended law must be corrected; all permit conditions may be changed ex officio to match the latest legal requirements"
+  ],
+  "ex_en": "Article 40."
+ },
+ {
+  "file": "batch9_a2",
+  "idx": 40,
+  "law_id": "ENV-32",
+  "law": "固定污染源設置操作及燃料使用許可證管理辦法",
+  "art": "第49條",
+  "q_zh": "審核機關審查空氣污染物排放檢測計畫時，其檢測項目之限制及得免實施檢測之情形為何？",
+  "opt_zh": [
+   "檢測以預估需核定之四種污染物及特定業別排放標準規範之污染物為限；因故未能設置採樣設施或證明無特定污染物排放者得免檢測",
+   "檢測以中央主管機關公告之全部空氣污染物項目為限；因故未能設置採樣設施或證明無特定污染物排放者仍應委外檢測不得免除",
+   "檢測以地方主管機關逐案指定之污染物項目為限；經公私場所自行評估認無檢測必要並報請備查者即得免實施檢測作業",
+   "檢測以周界標準所規範之污染物項目為限；因檢測費用過高或檢測機構排程不及者得報經審核機關同意後免實施檢測"
+  ],
+  "ans": "a",
+  "ex_zh": "第49條：審核機關審查依第18條提出之空氣污染物排放檢測計畫時，其檢測應以下列項目為限：預估需核定之硫氧化物、氮氧化物、粒狀污染物及揮發性有機物；主管機關依本法第20條第2項訂定特定業別或設施排放標準規範之空氣污染物。非屬前述項目者得以自廠係數、公告係數或替代計算方式推估確認。有固定污染源因故未能依本法第48條第4項設置檢查或鑑定設施致不能採樣、或檢具證明無特定污染物排放之文件者，經同意得免實施檢測。",
+  "q_en": "What limits apply to testing items, and when may testing be waived?",
+  "opt_en": [
+   "Testing is limited to the four pollutants to be approved and pollutants under sector-specific standards; waivers apply where sampling facilities cannot be installed or absence is proven",
+   "Testing must cover every air pollutant announced by the central competent authority; even where sampling facilities cannot be installed at all, outsourced testing is still required",
+   "Testing is limited to pollutants designated case by case by the local authority; a self-assessment filed for record is enough to waive testing",
+   "Testing is limited to pollutants under the boundary standard; high testing costs or scheduling difficulties allow a waiver with the authority's consent"
+  ],
+  "ex_en": "Article 49."
+ },
+ {
+  "file": "batch9_a2",
+  "idx": 48,
+  "law_id": "ENV-32",
+  "law": "固定污染源設置操作及燃料使用許可證管理辦法",
+  "art": "第57條",
+  "q_zh": "依第五十六條取得操作許可證之產能變動快速者，其操作及檢測規定為何？",
+  "opt_zh": [
+   "操作條件之產量或原（物）料燃料達許可使用量後每增加核定量百分之二十時，應於一個月內完成檢測，檢測時操作條件應達實際操作條件百分之八十以上",
+   "操作條件之產量或原（物）料燃料達許可使用量後每增加核定量百分之五十時，應於三個月內完成檢測，檢測時操作條件應達實際操作條件百分之六十以上",
+   "操作條件之產量或原（物）料燃料達許可使用量後每增加核定量百分之十時，應於六個月內完成檢測，檢測時操作條件應達實際操作條件百分之九十以上",
+   "操作條件之產量或原（物）料燃料達許可使用量後每增加核定量百分之三十時，應於一年內完成檢測，檢測時操作條件應達最大設計量百分之七十以上"
+  ],
+  "ans": "a",
+  "ex_zh": "第57條：產能變動快速者，操作條件之產品產量、與排放有關之原（物）料或燃料達許可使用量後，每增加許可核定量百分之二十時，應於一個月內依規定完成檢測，檢測時操作條件應達實際操作條件百分之八十以上；並應定期記錄相關操作事項，於每年一月、四月、七月及十月之月底前向地方主管機關申報上一季紀錄。產品變動快速者則應每日記錄、至少每半年檢測一次並每半年定期申報。且不受第9條百分之十容許差值之限制。",
+  "q_en": "What operating and testing rules apply to rapidly changing capacity holders?",
+  "opt_en": [
+   "Once permitted usage is reached, each further 20 percent of the approved amount requires testing within one month, at operating conditions of at least 80 percent of actual conditions",
+   "Once permitted usage is reached, each further 50 percent of the approved amount requires testing within three months, at operating conditions of at least 60 percent of actual conditions",
+   "Once permitted usage is reached, each further 10 percent of the approved amount requires testing within six months, at operating conditions of at least 90 percent of actual conditions",
+   "Once permitted usage is reached, each further 30 percent of the approved amount requires testing within one year, at operating conditions of at least 70 percent of design capacity"
+  ],
+  "ex_en": "Article 57, subparagraph 1."
+ },
+ {
+  "file": "batch9_a3",
+  "idx": 0,
+  "law_id": "ENV-34",
+  "law": "揮發性有機物空氣污染管制及排放標準",
+  "art": "第1條",
+  "q_zh": "揮發性有機物空氣污染管制及排放標準之授權訂定依據為何？",
+  "opt_zh": [
+   "依空氣污染防制法第二十條第二項、第二十二條及第二十三條規定訂定之",
+   "依空氣污染防制法第十六條第二項、第十七條及第十八條規定訂定之",
+   "依空氣污染防制法第二十四條第四項、第二十八條及第三十條規定訂定之",
+   "依空氣污染防制法第十三條第二項、第十四條及第十五條規定訂定之"
+  ],
+  "ans": "a",
+  "ex_zh": "第1條：本標準依空氣污染防制法第二十條第二項、第二十二條及第二十三條規定訂定之。第20條第2項為排放標準之依據，第22條為定期檢驗測定及申報之依據，第23條為污染防制設施設置及操作之依據。",
+  "q_en": "Under which provisions was the VOC control and emission standard adopted?",
+  "opt_en": [
+   "Articles 20, paragraph 2, 22 and 23 of the Air Pollution Control Act",
+   "Articles 16, paragraph 2, 17 and 18 of the Air Pollution Control Act",
+   "Articles 24, paragraph 4, 28 and 30 of the Air Pollution Control Act",
+   "Articles 13, paragraph 2, 14 and 15 of the Air Pollution Control Act"
+  ],
+  "ex_en": "Article 1."
+ },
+ {
+  "file": "batch9_a3",
+  "idx": 8,
+  "law_id": "ENV-34",
+  "law": "揮發性有機物空氣污染管制及排放標準",
+  "art": "第13條",
+  "q_zh": "石化製程排放管道排氣以密閉集氣系統連通至鍋爐或加熱爐處理者，其削減率規定為何？採非破壞性物料回收處理方式者又如何？",
+  "opt_zh": [
+   "連通至鍋爐或加熱爐者，其負荷應維持削減率達百分之九十五；採非破壞性物料回收處理方式者，削減率達百分之八十五或排放濃度三百ppm以下",
+   "連通至鍋爐或加熱爐者，其負荷應維持削減率達百分之八十五；採非破壞性物料回收處理方式者，削減率達百分之九十五或排放濃度一百ppm以下",
+   "連通至鍋爐或加熱爐者，其負荷應維持削減率達百分之九十；採非破壞性物料回收處理方式者，削減率達百分之九十或排放濃度二百ppm以下",
+   "連通至鍋爐或加熱爐者，其負荷應維持削減率達百分之七十；採非破壞性物料回收處理方式者，削減率達百分之六十或排放濃度五百ppm以下"
+  ],
+  "ans": "a",
+  "ex_zh": "第13條：石化製程原（物）料或產品輸送管線不得破損，且排放管道排氣應以密閉集氣系統收集，但採密閉集氣系統有困難並報經主管機關核可者不在此限；未採密閉集氣系統者應適用削減率之規定。以密閉集氣系統連通至鍋爐或加熱爐處理者，其鍋爐或加熱爐負荷應維持削減率達百分之九十五；採非破壞性物料回收處理方式者，其削減率達百分之八十五或揮發性有機物排放濃度三百ppm以下。",
+  "q_en": "What reduction rates apply when petrochemical stack gas is routed to a boiler or heater, and for non-destructive recovery?",
+  "opt_en": [
+   "Routing to a boiler or heater must maintain a 95 percent reduction; non-destructive material recovery must reach 85 percent reduction or 300 ppm or less",
+   "Routing to a boiler or heater must maintain an 85 percent reduction; non-destructive material recovery must reach 95 percent reduction or 100 ppm or less",
+   "Routing to a boiler or heater must maintain a 90 percent reduction; non-destructive material recovery must reach 90 percent reduction or 200 ppm or less",
+   "Routing to a boiler or heater must maintain a 70 percent reduction; non-destructive material recovery must reach 60 percent reduction or 500 ppm or less"
+  ],
+  "ex_en": "Article 13."
+ },
+ {
+  "file": "batch9_a3",
+  "idx": 16,
+  "law_id": "ENV-34",
+  "law": "揮發性有機物空氣污染管制及排放標準",
+  "art": "第23條",
+  "q_zh": "揮發性有機液體儲槽污染防制設備之流量計及連續自動監測設施，應適用何條規定？",
+  "opt_zh": [
+   "適用第十四條有關流量計、連續紀錄設施及溫度量測器設置之規定",
+   "適用第六條有關廢氣燃燒塔監測設施校正及性能規範之規定",
+   "適用第三十一條有關設備元件洩漏檢查及檢測頻率之規定",
+   "適用第三十八條有關廢水處理設施氣體偵測設備之規定"
+  ],
+  "ans": "a",
+  "ex_zh": "第23條：揮發性有機液體儲槽污染防制設備之流量計及連續自動監測設施適用第14條之規定。第27條就裝載操作設施、第36條就設備元件之防制設備亦同樣準用第14條規定。",
+  "q_en": "Which article governs flow meters and continuous monitors on VOL tank control equipment?",
+  "opt_en": [
+   "Article 14 on flow meters, continuous recorders and temperature sensors",
+   "Article 6 on flare monitoring calibration and performance specifications",
+   "Article 31 on component leak inspection and testing frequencies",
+   "Article 38 on gas detection equipment at wastewater treatment facilities"
+  ],
+  "ex_en": "Article 23."
+ },
+ {
+  "file": "batch9_a3",
+  "idx": 24,
+  "law_id": "ENV-34",
+  "law": "揮發性有機物空氣污染管制及排放標準",
+  "art": "第33條",
+  "q_zh": "設備元件洩漏檢查（測）之紀錄、保存及申報規定為何？",
+  "opt_zh": [
+   "經判定為洩漏源者應記錄於維護紀錄表並以標籤標示，修護完成後以網路傳輸申報始得拆除標籤；紀錄應保存五年，並於每年一月、四月、七月及十月底前申報前一季",
+   "經判定為洩漏源者應記錄於維護紀錄表並以油漆標示，修護完成後以書面報請核准始得塗除標示；紀錄應保存三年，並於每年三月、六月、九月及十二月底前申報前一季",
+   "經判定為洩漏源者應記錄於年度報告並以口頭告知現場人員，修護完成後即得逕行結案；紀錄應保存一年，並於每年一月及七月底前申報前半年之檢測結果",
+   "經判定為洩漏源者應通報檢驗測定機構複測並列冊管理，複測合格後始得解除列管；紀錄應保存十年，並於次年一月底前一次申報全年之檢測結果資料"
+  ],
+  "ans": "a",
+  "ex_zh": "第33條：設備元件定期檢查（測）應做成紀錄，包括檢查方式或檢測儀器型式、檢查人員姓名、元件編號型式、流體組成、檢查日期及結果；經判定為洩漏源者應將相關資料記錄在維護紀錄表上並以標籤標示，並依中央主管機關所定格式以網路傳輸下載標籤、以防水保護標示在洩漏源上，修護完成後以網路傳輸申報維護紀錄表及修護結果，始得拆除標籤。檢測儀器校正保養資料應做成紀錄。紀錄連同原始資料保存五年，並於每年一月、四月、七月及十月底前申報前一季紀錄。",
+  "q_en": "What recording, retention and reporting rules apply to component leak inspections?",
+  "opt_en": [
+   "Confirmed leaks are logged on a maintenance form and tagged, with the tag removable only after online filing of the repair; records kept five years and reported by end of January, April, July and October",
+   "Confirmed leaks are logged on a maintenance form and marked with paint, with the mark removable only after written approval; records kept three years and reported by end of March, June, September and December",
+   "Confirmed leaks are noted in the annual report and told to site staff orally, and the case may then be closed; records kept one year and reported by the end of January and July",
+   "Confirmed leaks are referred to a testing organization for retesting and listed for control until they pass; records kept ten years and reported once by the end of next January"
+  ],
+  "ex_en": "Article 33."
+ },
+ {
+  "file": "batch9_a3",
+  "idx": 32,
+  "law_id": "ENV-34",
+  "law": "揮發性有機物空氣污染管制及排放標準",
+  "art": "第41條",
+  "q_zh": "本標準第八章歲修及設備維修之適用對象為何？",
+  "opt_zh": [
+   "適用對象為公私場所具有石化製程之歲修及石化製程設備維修作業",
+   "適用對象為公私場所具有石油煉製製程之新建及擴建工程作業",
+   "適用對象為全國各行業之機械設備定期保養及零件更換作業",
+   "適用對象為公私場所廢氣燃燒塔及儲槽之清洗及開槽作業"
+  ],
+  "ans": "a",
+  "ex_zh": "第41條：本章適用對象為公私場所具有石化製程之歲修及石化製程設備維修作業。第2條並定義歲修為石化製程停止操作進行計劃性之整修、養護及檢查工作；設備維修作業指單一或部分設備停用進行維修，包含危險性機械及設備安全檢查之前置排空作業、非計畫性與短時間內恢復生產之維修作業。",
+  "q_en": "What does Chapter 8 on overhauls and equipment maintenance cover?",
+  "opt_en": [
+   "Overhauls of petrochemical processes and petrochemical process equipment maintenance work at premises",
+   "New construction and expansion works of petroleum refining processes at premises nationwide",
+   "Periodic maintenance and parts replacement of machinery in every industry nationwide",
+   "Cleaning and tank opening operations for flares and storage tanks at premises"
+  ],
+  "ex_en": "Article 41."
+ },
+ {
+  "file": "batch9_a3",
+  "idx": 40,
+  "law_id": "ENV-34",
+  "law": "揮發性有機物空氣污染管制及排放標準",
+  "art": "第49條",
+  "q_zh": "一百十二年十二月四日修正發布之條文施行日前設立之廢氣燃燒塔、儲槽、裝載設施、設備元件及廢水處理設施，其施行日期如何規定？",
+  "opt_zh": [
+   "其施行日期依附表五規定；本標準除另定施行日期者外，自發布日施行",
+   "其施行日期依附表三規定；本標準除另定施行日期者外，自發布日施行",
+   "其施行日期一律自一百十五年一月一日施行；本標準其餘條文自發布日施行",
+   "其施行日期由地方主管機關逐案核定；本標準其餘條文自發布後一年施行"
+  ],
+  "ans": "a",
+  "ex_zh": "第49條：中華民國一百十二年十二月四日修正發布之條文施行日前設立之廢氣燃燒塔、揮發性有機液體儲槽、揮發性有機液體裝載操作設施及槽車、設備元件及廢水處理設施，其施行日期依附表五規定；本標準除另定施行日期者外，自發布日施行。",
+  "q_en": "How do the effective dates apply to facilities established before the 4 December 2023 amendment?",
+  "opt_en": [
+   "Their effective dates follow Annex 5; the standard otherwise takes effect on promulgation unless separately specified",
+   "Their effective dates follow Annex 3; the standard otherwise takes effect on promulgation unless separately specified",
+   "Their effective dates are uniformly 1 January 2026; the remaining provisions take effect on promulgation",
+   "Their effective dates are set case by case locally; the remaining provisions take effect one year after promulgation"
+  ],
+  "ex_en": "Article 49."
+ },
+ {
+  "file": "batch9_a4",
+  "idx": 0,
+  "law_id": "ENV-37",
+  "law": "空氣污染行為管制執行準則",
+  "art": "第1條",
+  "q_zh": "空氣污染行為管制執行準則之授權訂定依據為何？",
+  "opt_zh": [
+   "依空氣污染防制法第三十二條第三項規定訂定之",
+   "依空氣污染防制法第二十條第二項規定訂定之",
+   "依空氣污染防制法第十三條第二項規定訂定之",
+   "依空氣污染防制法第三十八條第二項規定訂定之"
+  ],
+  "ans": "a",
+  "ex_zh": "第1條：本準則依空氣污染防制法第三十二條第三項規定訂定之。空污法第32條第1項列舉五款空氣污染行為，本準則即為主管機關執行各該款行為管制之判定依據。",
+  "q_en": "Under which provision was the air pollution behavior control enforcement rule adopted?",
+  "opt_en": [
+   "Article 32, paragraph 3 of the Air Pollution Control Act",
+   "Article 20, paragraph 2 of the Air Pollution Control Act",
+   "Article 13, paragraph 2 of the Air Pollution Control Act",
+   "Article 38, paragraph 2 of the Air Pollution Control Act"
+  ],
+  "ex_en": "Article 1."
+ },
+ {
+  "file": "batch9_a4",
+  "idx": 8,
+  "law_id": "ENV-38",
+  "law": "空氣品質監測站設置及監測準則",
+  "art": "第1條",
+  "q_zh": "空氣品質監測站設置及監測準則之授權訂定依據為何？",
+  "opt_zh": [
+   "依空氣污染防制法第十三條第二項規定訂定之",
+   "依空氣污染防制法第十四條第四項規定訂定之",
+   "依空氣污染防制法第二十條第二項規定訂定之",
+   "依空氣污染防制法第三十二條第三項規定訂定之"
+  ],
+  "ans": "a",
+  "ex_zh": "第1條：本準則依空氣污染防制法第十三條第二項規定訂定之。空污法第13條規定各級主管機關應設置空氣品質監測站，定期公布空氣品質狀況。",
+  "q_en": "Under which provision was the air quality monitoring station rule adopted?",
+  "opt_en": [
+   "Article 13, paragraph 2 of the Air Pollution Control Act",
+   "Article 14, paragraph 4 of the Air Pollution Control Act",
+   "Article 20, paragraph 2 of the Air Pollution Control Act",
+   "Article 32, paragraph 3 of the Air Pollution Control Act"
+  ],
+  "ex_en": "Article 1."
+ },
+ {
+  "file": "batch9_a4",
+  "idx": 16,
+  "law_id": "ENV-41",
+  "law": "噪音管制區劃定作業準則",
+  "art": "第1條",
+  "q_zh": "噪音管制區劃定作業準則之授權訂定依據為何？",
+  "opt_zh": [
+   "依噪音管制法第七條第一項規定訂定之",
+   "依噪音管制法第十條第三項規定訂定之",
+   "依噪音管制法第十一條第一項規定訂定之",
+   "依噪音管制法第二十條第三項規定訂定之"
+  ],
+  "ans": "a",
+  "ex_zh": "第1條：本準則依噪音管制法第七條第一項規定訂定之。噪音管制法第10條第3項為易發生噪音設施設置及操作許可辦法之依據，第11條第1項為機動車輛噪音管制標準之依據。",
+  "q_en": "Under which provision was the noise control zone designation rule adopted?",
+  "opt_en": [
+   "Article 7, paragraph 1 of the Noise Control Act",
+   "Article 10, paragraph 3 of the Noise Control Act",
+   "Article 11, paragraph 1 of the Noise Control Act",
+   "Article 20, paragraph 3 of the Noise Control Act"
+  ],
+  "ex_en": "Article 1."
+ },
+ {
+  "file": "batch9_a4",
+  "idx": 24,
+  "law_id": "ENV-42",
+  "law": "易發生噪音設施設置及操作許可辦法",
+  "art": "第1條",
+  "q_zh": "易發生噪音設施設置及操作許可辦法之授權訂定依據為何？",
+  "opt_zh": [
+   "依噪音管制法第十條第三項規定訂定之",
+   "依噪音管制法第七條第一項規定訂定之",
+   "依噪音管制法第十一條第一項規定訂定之",
+   "依噪音管制法第八條第二項規定訂定之"
+  ],
+  "ans": "a",
+  "ex_zh": "第1條：本辦法依噪音管制法第十條第三項規定訂定之。噪音管制法第7條第1項為噪音管制區劃定作業準則之依據，第11條第1項為機動車輛噪音管制標準之依據。",
+  "q_en": "Under which provision was the noise-prone facility permit regulation adopted?",
+  "opt_en": [
+   "Article 10, paragraph 3 of the Noise Control Act",
+   "Article 7, paragraph 1 of the Noise Control Act",
+   "Article 11, paragraph 1 of the Noise Control Act",
+   "Article 8, paragraph 2 of the Noise Control Act"
+  ],
+  "ex_en": "Article 1."
+ },
+ {
+  "file": "batch9_a4",
+  "idx": 32,
+  "law_id": "ENV-42",
+  "law": "易發生噪音設施設置及操作許可辦法",
+  "art": "第14條",
+  "q_zh": "許可證於有效期間內因毀損、滅失或基本資料變更者，應於幾日內辦理何種程序？",
+  "opt_zh": [
+   "應自事實發生之日起十五日內，檢具證明文件向地方主管機關申請補發、換發或辦理變更登記",
+   "應自事實發生之日起六十日內，檢具證明文件向中央主管機關申請補發、換發或辦理變更登記",
+   "應自事實發生之日起三十日內，檢具證明文件向目的事業主管機關申請補發或辦理變更登記",
+   "應自事實發生之日起七日內，以電話通報地方主管機關後，於年度終了時一併辦理變更登記"
+  ],
+  "ans": "a",
+  "ex_zh": "第14條：許可證於有效期間內因毀損、滅失或基本資料變更者，應自事實發生之日起十五日內，檢具證明文件，向直轄市、縣（市）主管機關申請補發、換發或辦理變更登記。第15條另規定變更原許可內容者，應於變更前重新申請設置或操作許可證。",
+  "q_en": "Within what period and to whom must a damaged, lost or altered permit be re-filed?",
+  "opt_en": [
+   "Within 15 days of the event, filing supporting documents with the local authority to apply for re-issuance, exchange or change registration",
+   "Within 60 days of the event, filing supporting documents with the central authority to apply for re-issuance, exchange or change registration",
+   "Within 30 days of the event, filing supporting documents with the industry competent authority to apply for re-issuance or change registration",
+   "Within 7 days of the event, notifying the local authority by telephone and completing the change registration at the end of the year"
+  ],
+  "ex_en": "Article 14."
+ },
+ {
+  "file": "batch9_b",
+  "idx": 0,
+  "law_id": "ENV-45",
+  "law": "地面水體分類及水質標準",
+  "art": "第2條",
+  "q_zh": "依本標準第2條，一級、二級、三級公共用水之定義分別為何？",
+  "opt_zh": [
+   "一級：經消毒處理即可供公共給水；二級：經混凝、沈澱、過濾、消毒等一般通用淨水方法處理；三級：經活性碳吸附、離子交換、逆滲透等特殊或高度處理",
+   "一級：經混凝、沈澱、過濾、消毒處理；二級：經活性碳吸附、離子交換、逆滲透等高度處理；三級：未經任何淨水處理即可直接供公共給水之水源",
+   "一級：經活性碳吸附、離子交換、逆滲透處理；二級：僅經消毒處理即可供公共給水；三級：經混凝、沈澱、過濾、消毒等一般通用之淨水方法處理",
+   "一級：經曝氣、沈砂處理即可供公共給水；二級：經混凝、過濾及紫外線消毒處理；三級：經蒸餾、電透析等特殊或高度處理後供公共給水之水源"
+  ],
+  "ans": "a",
+  "ex_zh": "第2條第1款至第3款：一級公共用水指經消毒處理即可供公共給水之水源；二級公共用水指需經混凝、沈澱、過濾、消毒等一般通用之淨水方法處理可供公共給水之水源；三級公共用水指經活性碳吸附、離子交換、逆滲透等特殊或高度處理可供公共給水之水源。此三級定義為第4條水體分類適用性質之基礎。",
+  "q_en": "How does Article 2 define first-, second- and third-class public water supply sources?",
+  "opt_en": [
+   "First: usable after disinfection alone; Second: needs coagulation, sedimentation, filtration and disinfection; Third: needs activated carbon, ion exchange or reverse osmosis special or advanced treatment",
+   "First: needs coagulation, sedimentation, filtration and disinfection; Second: needs activated carbon, ion exchange or reverse osmosis; Third: usable with no purification treatment at all",
+   "First: needs activated carbon, ion exchange or reverse osmosis; Second: usable after disinfection alone; Third: needs coagulation, sedimentation, filtration and disinfection as general methods",
+   "First: usable after aeration and grit removal; Second: needs coagulation, filtration and UV disinfection; Third: needs distillation or electrodialysis special or advanced treatment"
+  ],
+  "ex_en": "Article 2, subparagraphs 1-3."
+ },
+ {
+  "file": "batch9_b",
+  "idx": 8,
+  "law_id": "ENV-47",
+  "law": "水污染防治措施計畫及許可申請審查管理辦法",
+  "art": "第5條",
+  "q_zh": "應先檢具水措計畫之事業，其申請審查程序分為哪三階段？各階段所指期間為何？",
+  "opt_zh": [
+   "設立階段指水措之規劃、設計至水措計畫經審查核准；營運前階段指依核准水措計畫辦理建造、裝置至取得許可證（文件）；營運階段指取得許可證後開始營運產生廢（污）水",
+   "設立階段指公司登記至取得工廠登記證；營運前階段指水措計畫之規劃、設計至審查核准；營運階段指設施建造、裝置完成至提送功能測試報告經核發機關查驗之期間",
+   "設立階段指水措設施之建造、裝置至完工；營運前階段指試車及功能測試至核發機關查驗評鑑合格；營運階段指許可證申請展延至其有效期間屆滿之期間",
+   "設立階段指環境影響評估書件審查至作成審查結論；營運前階段指取得許可證（文件）至開始營運；營運階段指產生廢（污）水至申請許可證展延之期間"
+  ],
+  "ans": "a",
+  "ex_zh": "第5條第1項：應先檢具水措計畫之事業，程序分為設立階段（水措之規劃、設計至水措計畫審查核准）、營運前階段（依核准水措計畫建造、裝置至取得許可證（文件））及營運階段（取得許可證後開始營運產生廢（污）水）。第6條：設立階段須先經核准始得進行水措設施之建造、裝置。第5條第4項另定應執行試車者，應於營運前階段執行試車。",
+  "q_en": "For enterprises that must first file a control plan, the three procedural stages are:",
+  "opt_en": [
+   "Establishment (planning and design until plan approval); pre-operation (construction and installation until the permit is obtained); operation (from permit issuance, generating wastewater)",
+   "Establishment (company registration to factory registration); pre-operation (planning and design to plan approval); operation (construction completion to performance test review)",
+   "Establishment (construction and installation to completion); pre-operation (trial run and performance testing to inspection approval); operation (renewal application to permit expiry)",
+   "Establishment (EIA review to conclusion); pre-operation (permit issuance to start of operation); operation (wastewater generation to renewal application)"
+  ],
+  "ex_en": "Article 5, paragraph 1, with Article 6."
+ },
+ {
+  "file": "batch9_b",
+  "idx": 16,
+  "law_id": "ENV-50",
+  "law": "飲用水水質標準",
+  "art": "第3條",
+  "q_zh": "飲用水物理性標準之最大限值，以及自由有效餘氯與氫離子濃度指數之限值範圍為何？",
+  "opt_zh": [
+   "臭度三初嗅數、濁度二 NTU、色度五鉑鈷單位；自由有效餘氯○‧二～一‧○ 毫克／公升；氫離子濃度指數六‧○～八‧五",
+   "臭度五初嗅數、濁度四 NTU、色度十五鉑鈷單位；自由有效餘氯○‧一～二‧○ 毫克／公升；氫離子濃度指數五‧○～九‧○",
+   "臭度三初嗅數、濁度五 NTU、色度十鉑鈷單位；自由有效餘氯○‧五～三‧○ 毫克／公升；氫離子濃度指數六‧五～八‧○",
+   "臭度二初嗅數、濁度一 NTU、色度三鉑鈷單位；自由有效餘氯○‧二～○‧五 毫克／公升；氫離子濃度指數七‧○～九‧五"
+  ],
+  "ans": "a",
+  "ex_zh": "第3條第2款物理性標準：臭度三初嗅數、濁度二 NTU、色度五鉑鈷單位。第3條第3款第4目：自由有效餘氯限值範圍○‧二～一‧○ 毫克／公升，僅限加氯消毒之供水系統。第3條第3款第5目：氫離子濃度指數六‧○～八‧五，公私場所供公眾飲用之連續供水固定設備處理後之水不在此限。",
+  "q_en": "The physical standards and the free residual chlorine and pH ranges are:",
+  "opt_en": [
+   "Odour 3 threshold odour number, turbidity 2 NTU, colour 5 Pt-Co units; free residual chlorine 0.2-1.0 mg/L; pH 6.0-8.5",
+   "Odour 5 threshold odour number, turbidity 4 NTU, colour 15 Pt-Co units; free residual chlorine 0.1-2.0 mg/L; pH 5.0-9.0",
+   "Odour 3, turbidity 5 NTU, colour 10 Pt-Co units; free residual chlorine 0.5-3.0 mg/L; pH 6.5-8.0",
+   "Odour 2, turbidity 1 NTU, colour 3 Pt-Co units; free residual chlorine 0.2-0.5 mg/L; pH 7.0-9.5"
+  ],
+  "ex_en": "Article 3, subparagraphs 2 and 3 (items 4-5)."
+ },
+ {
+  "file": "batch9_b",
+  "idx": 24,
+  "law_id": "ENV-51",
+  "law": "土壤處理標準",
+  "art": "第2條",
+  "q_zh": "何謂土壤處理？依本標準第3條，哪些事業或污水下水道系統得採土壤處理？",
+  "opt_zh": [
+   "指以管線或溝渠輸送廢（污）水，排放、滲透於土壤以去除水中污染物或降低其濃度；得採者限畜牧業、動物園、製糖業及公共污水下水道系統",
+   "指以桶裝或槽車運送廢（污）水傾倒於土壤以去除水中污染物；得採者限畜牧業、造紙業、食品業及工業區專用污水下水道系統等四類",
+   "指將污泥摻拌於農地土壤中進行厭氧分解之處理方法；得採者限畜牧業、動物園、製糖業及社區專用污水下水道系統等四類",
+   "指以管線輸送廢（污）水注入地下含水層之處理方法；得採者限動物園、製糖業、電鍍業及公共污水下水道系統等四類事業"
+  ],
+  "ans": "a",
+  "ex_zh": "第2條：土壤處理指以管線或溝渠輸送廢（污）水，排放、滲透於土壤，以去除水中污染物或降低其濃度之方法。第3條：得採土壤處理者為畜牧業、動物園、製糖業及公共污水下水道系統。第1條：本標準依水污染防治法第32條第3項訂定。",
+  "q_en": "Soil treatment is defined as, and permitted for, which enterprises?",
+  "opt_en": [
+   "Conveying wastewater by pipeline or ditch for discharge and infiltration into soil to remove or reduce pollutants; allowed for livestock farming, zoos, sugar refining and public sewerage systems",
+   "Trucking wastewater in barrels or tankers and pouring it onto soil to remove or reduce pollutants; allowed for livestock farming, papermaking, food industry and industrial park sewerage systems",
+   "Mixing sludge into farmland soil for anaerobic decomposition; allowed for livestock farming, zoos, sugar refining and community sewerage systems",
+   "Injecting wastewater by pipeline into the groundwater aquifer; allowed for zoos, sugar refining, electroplating and public sewerage systems"
+  ],
+  "ex_en": "Articles 2 and 3."
+ },
+ {
+  "file": "batch9_b",
+  "idx": 32,
+  "law_id": "ENV-51",
+  "law": "土壤處理標準",
+  "art": "第31條",
+  "q_zh": "排放於土壤之廢（污）水，其水溫、氫離子濃度指數、總酚、氰化物、油脂及鈉吸著比限值為何？",
+  "opt_zh": [
+   "水溫三十五度、氫離子濃度指數六．○－九．○、總酚○．一、氰化物○．五、礦物性油脂一○、動植物性油脂三○、鈉吸著比六．○",
+   "水溫四十度、氫離子濃度指數五．○－一○．○、總酚○．五、氰化物一．○、礦物性油脂三○、動植物性油脂一○、鈉吸著比一二．○",
+   "水溫三十度、氫離子濃度指數六．五－八．五、總酚○．○一、氰化物○．○五、礦物性油脂五、動植物性油脂一五、鈉吸著比三．○",
+   "水溫四十五度、氫離子濃度指數六．○－九．○、總酚一．○、氰化物○．二、礦物性油脂二○、動植物性油脂四○、鈉吸著比九．○"
+  ],
+  "ans": "a",
+  "ex_zh": "第31條水質限值表：水溫三十五（攝氏度）、氫離子濃度指數六．○－九．○、總酚○．一、氰化物○．五、油脂礦物類一○、動植物性三○、鈉吸著比六．○。另導電度二．五、總氮四○、總磷一五（飼養豬隻牛隻之畜牧業不適用）、生化需氧量一五○（畜牧業四○○）、懸浮固體三○○（畜牧業四○○）毫克／公升。除氫離子濃度指數為範圍外，均為最大限值。",
+  "q_en": "For wastewater discharged to soil, the limits on temperature, pH, phenols, cyanide, oils and SAR are:",
+  "opt_en": [
+   "Temperature 35°C, pH 6.0-9.0, total phenols 0.1, cyanide 0.5, mineral oils 10, animal and plant oils 30, sodium adsorption ratio 6.0",
+   "Temperature 40°C, pH 5.0-10.0, total phenols 0.5, cyanide 1.0, mineral oils 30, animal and plant oils 10, sodium adsorption ratio 12.0",
+   "Temperature 30°C, pH 6.5-8.5, total phenols 0.01, cyanide 0.05, mineral oils 5, animal and plant oils 15, SAR 3.0",
+   "Temperature 45°C, pH 6.0-9.0, total phenols 1.0, cyanide 0.2, mineral oils 20, animal and plant oils 40, SAR 9.0"
+  ],
+  "ex_en": "Article 31 (limit table)."
+ },
+ {
+  "file": "batch9_b",
+  "idx": 40,
+  "law_id": "ENV-54",
+  "law": "公民營廢棄物清除處理機構許可管理辦法",
+  "art": "第25條",
+  "q_zh": "清除、處理技術員未能從事業務或離職時，該機構應如何辦理？",
+  "opt_zh": [
+   "應指定代理人並於十五日內報請核發機關備查；並於九十日內另聘符合資格者繼任，但負責有害事業廢棄物業務之甲級技術員應於三十日內另聘，另聘後十五日內報請備查",
+   "應指定代理人並於三十日內報請核發機關備查；並於一百八十日內另聘符合資格者繼任，但負責有害事業廢棄物業務之甲級技術員應於九十日內另聘，另聘後三十日內報備查",
+   "應指定代理人並於七日內報請核發機關備查；並於六十日內另聘符合資格者繼任，但負責有害事業廢棄物業務之乙級技術員應於十四日內另聘，另聘後七日內報請備查",
+   "應指定代理人並於十五日內報請核發機關核准；並於一年內另聘符合資格者繼任，但負責一般事業廢棄物業務之丙級技術員應於六十日內另聘，另聘後三十日內報核准"
+  ],
+  "ans": "a",
+  "ex_zh": "第25條第1項：清除、處理技術員未能從事業務或離職時，應指定代理人並於十五日內報請核發機關備查，甲級處理機構應指定取得同一等級以上合格證書之處理技術員代理；並於九十日內另聘符合資格規定者繼任，但負責有害事業廢棄物清除、處理業務之甲級清除、處理技術員應於三十日內另聘，另聘時該機構應於十五日內報請核發機關備查。",
+  "q_en": "When a removal or treatment technician leaves or cannot perform duties, the organization must:",
+  "opt_en": [
+   "Appoint a deputy and file it within 15 days; hire a successor within 90 days, or within 30 days for Class A technicians handling hazardous waste, filing within 15 days of hiring",
+   "Appoint a deputy and file it within 30 days; hire a successor within 180 days, or within 90 days for Class A technicians handling hazardous waste, filing within 30 days of hiring",
+   "Appoint a deputy and file within 7 days; hire a successor within 60 days, or 14 days for Class B hazardous waste technicians, filing within 7 days",
+   "Appoint a deputy and obtain approval within 15 days; hire a successor within one year, or 60 days for Class C general waste technicians, with approval within 30 days"
+  ],
+  "ex_en": "Article 25, paragraph 1."
+ },
+ {
+  "file": "batch9_b1",
+  "idx": 0,
+  "law_id": "ENV-45",
+  "law": "地面水體分類及水質標準",
+  "art": "第1條",
+  "q_zh": "地面水體分類及水質標準係依何法條授權訂定？",
+  "opt_zh": [
+   "依水污染防治法第六條第一項規定訂定",
+   "依水污染防治法第七條第二項規定訂定",
+   "依飲用水管理條例第十一條第二項訂定",
+   "依環境基本法第十二條第三項規定訂定"
+  ],
+  "ans": "a",
+  "ex_zh": "第1條：地面水體分類及水質標準（本標準）依水污染防治法第六條第一項規定訂定之。水污染防治法第6條授權中央主管機關會商有關機關，就水體特質、地面水體之用途及其他相關事項劃定水體分類及水質標準。",
+  "q_en": "Under which provision were the Surface Water Classification and Water Quality Standards issued?",
+  "opt_en": [
+   "Article 6, paragraph 1 of the Water Pollution Control Act",
+   "Article 7, paragraph 2 of the Water Pollution Control Act",
+   "Article 11, paragraph 2 of the Drinking Water Management Act",
+   "Article 12, paragraph 3 of the Basic Environment Act"
+  ],
+  "ex_en": "Article 1."
+ },
+ {
+  "file": "batch9_b1",
+  "idx": 8,
+  "law_id": "ENV-50",
+  "law": "飲用水水質標準",
+  "art": "第3-1條",
+  "q_zh": "全氟及多氟烷基物質標準施行前，淨水處理設備供水單位之檢測頻率規定為何？",
+  "opt_zh": [
+   "每日供水量達二萬立方公尺以上者應至少檢測二次，且二次檢測日間隔應至少超過三百六十日；未達二萬立方公尺者應至少檢測一次",
+   "每日供水量達一萬立方公尺以上者應至少檢測四次，且二次檢測日間隔應至少超過一百八十日；未達一萬立方公尺者應至少檢測二次",
+   "每日供水量達五萬立方公尺以上者應至少檢測二次，且二次檢測日間隔應至少超過九十日；未達五萬立方公尺者得免予檢測",
+   "每日供水量達二萬立方公尺以上者應每季檢測一次，且二次檢測日間隔應至少超過三十日；未達二萬立方公尺者應每半年檢測一次"
+  ],
+  "ans": "a",
+  "ex_zh": "第3-1條第2項：淨水處理設備供水單位或管理單位自中華民國一百十四年一月一日起至施行日期前，淨水處理設備每日供水量達二萬立方公尺以上者，應至少檢測二次，且二次檢測日間隔應至少超過三百六十日；每日供水量未達二萬立方公尺者，應至少檢測一次。",
+  "q_en": "Before the PFAS standards take effect, the required testing frequency is:",
+  "opt_en": [
+   "Facilities supplying 20,000 m³/day or more must test at least twice with the two test dates more than 360 days apart; smaller facilities at least once",
+   "Facilities supplying 10,000 m³/day or more must test at least four times with the two test dates more than 180 days apart; smaller facilities at least twice",
+   "Facilities supplying 50,000 m³/day or more must test at least twice with dates more than 90 days apart; smaller ones are exempt",
+   "Facilities supplying 20,000 m³/day or more must test quarterly with dates more than 30 days apart; smaller ones every six months"
+  ],
+  "ex_en": "Article 3-1, paragraph 2."
+ },
+ {
+  "file": "batch9_b1",
+  "idx": 16,
+  "law_id": "ENV-56",
+  "law": "廢棄物清理專業技術人員管理辦法",
+  "art": "第3條",
+  "q_zh": "依規定設置之專業技術人員應如何常駐？未能常駐時應如何處理？",
+  "opt_zh": [
+   "應於勞動基準法所定工作時間內常駐於設施機構；因故未能常駐者，應備有請假紀錄或其他相關證明文件以備查閱",
+   "應於設施機構實際營運時間內每日到場二次；因故未能到場者，應由設施機構負責人代為簽章並作成書面紀錄",
+   "應於勞動基準法所定工作時間內以視訊方式監控；因故未能監控者，應於事後三日內補行現場查核並作成紀錄",
+   "應於每月至少十五個工作日常駐於設施機構；因故未能常駐者，應報請主管機關核准後始得請假離開設施機構"
+  ],
+  "ans": "a",
+  "ex_zh": "第3條：依本法第28條第2項至第5項及第42條所定公告或管理辦法規定所設置之專業技術人員，應於勞動基準法所定工作時間內常駐於設施機構；因故未能常駐在設施機構者，應備有請假紀錄或其他相關證明文件，以備查閱。第2條並規定專業技術人員應由訓練合格並取得合格證書者擔任。",
+  "q_en": "How must the personnel be stationed, and what applies if they cannot be?",
+  "opt_en": [
+   "Stationed at the facility during Labor Standards Act working hours; if absent for cause, leave records or other supporting documents must be kept for inspection",
+   "On site twice a day during the facility own actual operating hours; if absent, the responsible person signs on their behalf and makes a written record",
+   "Monitoring by video during Labor Standards Act working hours; if unable to monitor, an on-site check within three days afterwards",
+   "Stationed at least fifteen working days a month; if unable to be present, prior approval from the competent authority is required"
+  ],
+  "ex_en": "Article 3."
+ },
+ {
+  "file": "batch9_b2",
+  "idx": 0,
+  "law_id": "ENV-51",
+  "law": "土壤處理標準",
+  "art": "第1條",
+  "q_zh": "土壤處理標準係依何法條授權訂定？",
+  "opt_zh": [
+   "依水污染防治法第三十二條第三項規定訂定",
+   "依水污染防治法第十三條第三項規定訂定",
+   "依土壤及地下水污染整治法第六條規定訂定",
+   "依廢棄物清理法第三十九條第二項規定訂定"
+  ],
+  "ans": "a",
+  "ex_zh": "第1條：本標準依水污染防治法（本法）第三十二條第三項規定訂定之。水污染防治法第32條第1項禁止廢（污）水注入地下水體或排放於土壤，第2項定有例外，第3項授權中央主管機關訂定土壤處理標準。",
+  "q_en": "Under which provision were the Soil Treatment Standards issued?",
+  "opt_en": [
+   "Article 32, paragraph 3 of the Water Pollution Control Act",
+   "Article 13, paragraph 3 of the Water Pollution Control Act",
+   "Article 6 of the Soil and Groundwater Pollution Remediation Act",
+   "Article 39, paragraph 2 of the Waste Disposal Act"
+  ],
+  "ex_en": "Article 1."
+ },
+ {
+  "file": "batch9_b2",
+  "idx": 8,
+  "law_id": "ENV-51",
+  "law": "土壤處理標準",
+  "art": "第12條",
+  "q_zh": "下列何種土壤處理許可證登記事項之變更，應於事實發生後三十日內向地方主管機關辦理？",
+  "opt_zh": [
+   "基本資料、廢（污）水水量與污泥量之計測設施及計量方式、增加或變更用水來源或主要製程設施且未增加水量者、核准餘裕量內之受託處理委託者、水質自動監測設施及攝錄影監視系統",
+   "廢（污）水前處理設施或其操作參數、污泥處理設施之處理能力、廢（污）水每日最大處理量、污泥每日最大產生量，及其他經地方主管機關認定應辦理變更登記之相關事項",
+   "基本資料、適用土地區段之位置與面積、飼養頭數之增減、種植作物種類之變更、土壤處理許可證有效期間之延長，及承受水體水質分類之調整等六款登記事項",
+   "負責人變更、公司組織型態變更、營業項目增列、股東結構調整、實收資本額增減，及其他經目的事業主管機關核准應辦理變更登記之相關事項等六款事項"
+  ],
+  "ans": "a",
+  "ex_zh": "第12條第1項：變更下列登記事項應於事實發生後三十日內向地方主管機關辦理變更──基本資料；廢（污）水水量、污泥量之計測設施、計量方式及其校正維護方法；增加或變更作業系統用水來源、產生廢（污）水之主要製程設施或每日最大生產服務規模，且未增加用水量、廢（污）水產生量及未變更前處理與污泥處理設施功能者；受託處理同業別廢（污）水於核准餘裕量內之委託者；水質自動監測設施及攝錄影監視系統。其餘事項依第13條應於變更前送審核准。",
+  "q_en": "Which registered items may be changed by filing within 30 days after the event?",
+  "opt_en": [
+   "Basic data; metering facilities and methods for wastewater and sludge; added or changed water sources or main process facilities without added volume; entrusting parties within the approved surplus capacity; automatic monitoring and video surveillance systems",
+   "Pretreatment facilities or their operating parameters; sludge treatment facility capacity; the maximum daily wastewater treatment volume; the maximum daily sludge generation; and other matters the local competent authority identifies as requiring change registration",
+   "Basic data; the location and area of the land segment; changes in head count; changes in crop type; extension of the permit's validity period; and adjustment of receiving water classification",
+   "Change of responsible person; change of corporate form; added business items; shareholder restructuring; change in paid-in capital; and other matters approved by the industry authority"
+  ],
+  "ex_en": "Article 12, paragraph 1 (compare Article 13)."
+ },
+ {
+  "file": "batch9_b2",
+  "idx": 16,
+  "law_id": "ENV-51",
+  "law": "土壤處理標準",
+  "art": "第24條",
+  "q_zh": "事業將部分廠（場）或設備供他人使用，或委託他人操作水污染防治設備者，其責任歸屬為何？",
+  "opt_zh": [
+   "仍應由該事業或污水下水道系統負申請、變更、展延土壤處理許可證之責任",
+   "其申請、變更、展延土壤處理許可證之責任應移轉予實際使用之他人",
+   "供他人使用者仍負其責，但委託代操作者得免負申請、變更、展延之責",
+   "應由委託者與受託者共同具名申請，並就違規行為負連帶行政責任"
+  ],
+  "ans": "a",
+  "ex_zh": "第24條：事業或污水下水道系統將其部分廠（場）或設備供他人使用，或委託他人操作水污染防治設備，仍應負申請、變更、展延土壤處理許可證之責。此與水污染防治措施計畫及許可申請審查管理辦法第51條之規定意旨相同，均由原事業負最終之申請與管理責任。",
+  "q_en": "Where part of a plant or equipment is used by others, or control equipment is operated under contract:",
+  "opt_en": [
+   "The enterprise or sewerage system remains responsible for applying for, changing and renewing the soil treatment permit",
+   "Responsibility for applying for, changing and renewing the soil treatment permit passes to the party actually using it",
+   "Responsibility remains where a plant is used by others, but is waived where operation is contracted out",
+   "The principal and the contractor must apply jointly and bear joint administrative liability for violations"
+  ],
+  "ex_en": "Article 24."
+ },
+ {
+  "file": "batch9_b3",
+  "idx": 0,
+  "law_id": "ENV-54",
+  "law": "公民營廢棄物清除處理機構許可管理辦法",
+  "art": "第1條",
+  "q_zh": "公民營廢棄物清除處理機構許可管理辦法係依何法條授權訂定？",
+  "opt_zh": [
+   "依廢棄物清理法第四十二條規定訂定",
+   "依廢棄物清理法第四十四條規定訂定",
+   "依廢棄物清理法第二十八條規定訂定",
+   "依資源回收再利用法第十八條規定訂定"
+  ],
+  "ans": "a",
+  "ex_zh": "第1條：本辦法依廢棄物清理法（本法）第四十二條規定訂定之。廢棄物清理法第42條授權中央主管機關就公民營廢棄物清除處理機構之設施、設備、專業技術人員、許可及管理等事項訂定管理辦法；至於廢棄物清理專業技術人員管理辦法則係依本法第44條訂定。",
+  "q_en": "Under which provision were these Regulations for Public and Private Waste Disposal Organizations issued?",
+  "opt_en": [
+   "Article 42 of the Waste Disposal Act",
+   "Article 44 of the Waste Disposal Act",
+   "Article 28 of the Waste Disposal Act",
+   "Article 18 of the Resource Recycling Act"
+  ],
+  "ex_en": "Article 1."
+ },
+ {
+  "file": "batch9_b3",
+  "idx": 8,
+  "law_id": "ENV-54",
+  "law": "公民營廢棄物清除處理機構許可管理辦法",
+  "art": "第15條",
+  "q_zh": "申請清除、處理許可證期限之展延時，應檢具下列何項文件？",
+  "opt_zh": [
+   "原核發許可證、許可期間內營運概況及違法事實改善情形、最近一次固定污染源檢測或水污染防治措施功能測試結果、有害事業廢棄物處理後衍生廢棄物之每六個月檢測紀錄及同業公會會員證明文件",
+   "原核發同意設置文件、展延原因說明書、工程計畫說明書及污染防治計畫書、閉路電視錄影系統配置計畫、環境影響評估定稿本審查結論及最終處置場之封場復育計畫書等文件",
+   "試運轉計畫書及其質量平衡計算方式、採樣監測及品質管理計畫、緊急應變措施、收受廢棄物之允收標準、資源化產品品管規劃及運作管理紀錄規劃等相關文件",
+   "最近三年財務報表及營利事業所得稅結算申報書、股東名簿與公司章程、員工勞工保險投保資料明細、建築執照或使用執照及土地使用分區證明文件等文件"
+  ],
+  "ans": "a",
+  "ex_zh": "第15條第2項：申請清除、處理許可證期限之展延，應檢具申請表、登記證明文件、負責人身分證明、原核發許可證、清除或處理技術員合格證書與勞保投保資料及任職證明、原許可文件許可事項、許可期間內營運概況及違法事實改善情形、最近一次固定污染源檢測或水污染防治措施功能測試結果及品管與運作管理紀錄（清除機構及採掩埋法者免附）、他場（廠）同意處理證明（清除機構免）、有害事業廢棄物處理後衍生廢棄物之每六個月檢測紀錄、同業公會會員證明文件及自律切結聲明。",
+  "q_en": "Which documents must accompany an application to renew a removal or treatment permit?",
+  "opt_en": [
+   "The original permit; an operations summary and record of remedying violations during the term; the latest stationary source test or water control performance test results; six-monthly testing records for waste derived from hazardous waste; and trade association membership proof",
+   "The original consent-to-establish document; a statement of renewal reasons; an engineering plan statement and a pollution control plan; a CCTV system layout plan; the EIA review conclusions; a site closure restoration plan for final disposal sites; and a land ownership inventory",
+   "The trial run plan and its mass balance calculations; a sampling, monitoring and quality management plan; emergency response measures; waste acceptance criteria; a recycled product quality plan; and an operations record plan",
+   "Three years of financial statements and tax returns; the shareholder register and articles of incorporation; employees' labor insurance data; building or use permits; and a land use zoning certificate"
+  ],
+  "ex_en": "Article 15, paragraph 2."
+ },
+ {
+  "file": "batch9_b3",
+  "idx": 16,
+  "law_id": "ENV-54",
+  "law": "公民營廢棄物清除處理機構許可管理辦法",
+  "art": "第19條",
+  "q_zh": "處理機構產出之資源化產品及衍生廢棄物貯存量達何程度時，應暫時停止收受廢棄物？",
+  "opt_zh": [
+   "其貯存量超出前六個月之累積產出量時，應暫時停止收受廢棄物；但經核發機關同意者，不在此限",
+   "其貯存量超出前三個月之累積產出量時，應暫時停止收受廢棄物；但經核發機關備查者，不在此限",
+   "其貯存量超出前十二個月之累積產出量時，應暫時停止收受廢棄物，且無任何例外情形之規定",
+   "其貯存量超出當月之累積產出量時，應暫時停止收受廢棄物；但經目的事業主管機關同意者除外"
+  ],
+  "ans": "a",
+  "ex_zh": "第19條：處理機構產出資源化產品及衍生廢棄物，如其貯存量超出前六個月之累積產出量時，應暫時停止收受廢棄物；但經核發機關同意者，不在此限。第24條並定資源化產品應標示用途範圍、逐項逐筆記錄銷售流向並符合品質標準。",
+  "q_en": "When must a treatment organization suspend accepting waste due to stored products and derived waste?",
+  "opt_en": [
+   "When the stored volume exceeds the cumulative output of the previous six months, unless the issuing authority consents otherwise",
+   "When the stored volume exceeds the cumulative output of the previous three months, unless filed with the issuing authority",
+   "When the stored volume exceeds the cumulative output of the previous twelve months, with no exception provided at all",
+   "When the stored volume exceeds the current month's cumulative output, unless the industry authority consents"
+  ],
+  "ex_en": "Article 19."
+ },
+ {
+  "file": "batch9_b3",
+  "idx": 24,
+  "law_id": "ENV-54",
+  "law": "公民營廢棄物清除處理機構許可管理辦法",
+  "art": "第29條",
+  "q_zh": "本辦法所定之相關文件為外文者，應如何處理？",
+  "opt_zh": [
+   "應檢附經駐外館處驗證或國內公證人認證之中文譯本；但提供之文件為英文者，得免附中文譯本",
+   "應檢附經駐外館處驗證或國內公證人認證之中文譯本；不論該文件為何種語文均不得免附譯本",
+   "應檢附由申請者自行翻譯並蓋章確認之中文譯本；但提供之文件為英文者，得免附中文譯本",
+   "應檢附經目的事業主管機關核可之翻譯社中文譯本；但提供之文件為日文者，得免附中文譯本"
+  ],
+  "ans": "a",
+  "ex_zh": "第29條：本辦法所定之相關文件為外文者，應檢附經駐外館處驗證或國內公證人認證之中文譯本；但提供之文件為英文者，得免附中文譯本。此規定使英文文件之申請成本降低，其他語文則須經驗證或認證。",
+  "q_en": "How must documents required under these Regulations that are in a foreign language be handled?",
+  "opt_en": [
+   "A Chinese translation authenticated by an overseas mission or a domestic notary must be attached; documents in English are exempt from the translation requirement",
+   "A Chinese translation authenticated by an overseas mission or a domestic notary must be attached; no language is exempt from the translation requirement",
+   "A Chinese translation prepared and stamped by the applicant must be attached; documents in English are exempt from the translation requirement",
+   "A Chinese translation from a translation agency approved by the industry authority must be attached; documents in Japanese are exempt"
+  ],
+  "ex_en": "Article 29."
+ },
+ {
+  "file": "batch9_b4",
+  "idx": 0,
+  "law_id": "ENV-47",
+  "law": "水污染防治措施計畫及許可申請審查管理辦法",
+  "art": "第1條",
+  "q_zh": "水污染防治措施計畫及許可申請審查管理辦法係依何法條授權訂定？",
+  "opt_zh": [
+   "依水污染防治法第十三條第三項、第四項、第十四條第三項、第十九條準用第十四條及第二十條第二項規定訂定",
+   "依水污染防治法第六條第一項、第七條第二項、第十八條第三項、第三十二條第三項及第六十三條第二項規定訂定",
+   "依水污染防治法第十三條第一項、第十四條之一、第十五條第二項、第三十一條第一項及第七十三條第二項訂定",
+   "依水污染防治法第九條第二項、第十七條第四項、第十八條之一第一項、第三十條第二項及第四十條第一項訂定"
+  ],
+  "ans": "a",
+  "ex_zh": "第1條：本辦法依水污染防治法（本法）第十三條第三項、第四項、第十四條第三項、第十九條準用第十四條及第二十條第二項規定訂定之。本法第13條為水措計畫之依據，第14條為許可證（文件）之依據，第19條規定污水下水道系統準用，第20條為貯留稀釋許可之依據。",
+  "q_en": "Under which provisions were these Regulations on water pollution control plans and permits issued?",
+  "opt_en": [
+   "Article 13, paragraphs 3 and 4; Article 14, paragraph 3; Article 14 as applied by Article 19; and Article 20, paragraph 2 of the Water Pollution Control Act",
+   "Article 6, paragraph 1; Article 7, paragraph 2; Article 18, paragraph 3; Article 32, paragraph 3; and Article 63, paragraph 2 of the Water Pollution Control Act",
+   "Article 13, paragraph 1; Article 14-1; Article 15, paragraph 2; Article 31, paragraph 1; and Article 73, paragraph 2 of the Water Pollution Control Act",
+   "Article 9, paragraph 2; Article 17, paragraph 4; Article 18-1, paragraph 1; Article 30, paragraph 2; and Article 40, paragraph 1 of the Water Pollution Control Act"
+  ],
+  "ex_en": "Article 1."
+ },
+ {
+  "file": "batch9_b4",
+  "idx": 8,
+  "law_id": "ENV-47",
+  "law": "水污染防治措施計畫及許可申請審查管理辦法",
+  "art": "第12條",
+  "q_zh": "事業或污水下水道系統申請許可證（文件）審查時，應如何提出申請？",
+  "opt_zh": [
+   "應填具申請表，並檢附附表四規定之文件",
+   "應填具申請表，並檢附附表三規定之文件",
+   "應填具申請表，並檢附附表六規定之文件",
+   "應由核發機關逕依水措計畫核准內容核發"
+  ],
+  "ans": "a",
+  "ex_zh": "第12條：事業或污水下水道系統申請許可證（文件）審查時，應填具申請表，並檢附附表四規定之文件。第8條則定申請水措計畫審查應檢附附表三規定之文件；第32條另定申請展延應檢附之十三款文件。",
+  "q_en": "How must an application for a permit be filed for review?",
+  "opt_en": [
+   "Complete the application form and attach the documents required by Table 4",
+   "Complete the application form and attach the documents required by Table 3",
+   "Complete the application form and attach the documents required by Table 6",
+   "The issuing authority issues it directly based on the approved plan"
+  ],
+  "ex_en": "Article 12 (compare Articles 8 and 32)."
+ },
+ {
+  "file": "batch9_b4",
+  "idx": 16,
+  "law_id": "ENV-47",
+  "law": "水污染防治措施計畫及許可申請審查管理辦法",
+  "art": "第22條",
+  "q_zh": "第21條以外之登記事項變更應如何辦理？何種情形免進行功能測試？",
+  "opt_zh": [
+   "應於變更前送核發機關審查核准後始得變更；取得排放許可證（文件）者，變更涉及處理設施、操作參數或每日最大處理量應進行功能測試；但新增處理單元或擴大容量而未增加每日最大處理量、未超原廢水水質上限值且非因管制加嚴者，及縮減用水量或改善原廢水水質者，免功能測試",
+   "應於變更後三十日內送核發機關備查即得變更；設置處理設施並取得排放許可證（文件）者，變更涉及處理設施、操作參數或每日最大處理量應進行功能測試，但凡屬新增處理設施單元或擴大處理設施容量者，一律免進行功能測試而僅需檢附設計圖說及完工照片即可",
+   "應於變更前送目的事業主管機關核准後始得變更；設置處理設施並取得排放許可證（文件）者，任何變更均應進行功能測試而無例外規定，縱使僅係縮減每日最大用水量或改善原廢（污）水水質者亦同，且應由技師全程簽證",
+   "應於變更前送核發機關審查經核准後始得變更；設置處理設施並取得排放許可證（文件）者，變更涉及處理設施、操作參數或每日最大處理量應進行功能測試，但因應管制標準加嚴或新增管制項目而變更者，均得免進行功能測試而逕予核准"
+  ],
+  "ans": "a",
+  "ex_zh": "第22條第1項：事業或污水下水道系統變更第21條以外之登記事項，應於變更前送核發機關審查，經核准後始得變更。第22條第2項：設置廢（污）水處理設施且取得排放許可證（文件）者，其變更涉及處理設施或其操作參數、每日最大處理量或其他經主管機關認定之事項者，應進行功能測試。第22條第3項：新增處理設施單元或擴大處理設施容量，且未涉及每日最大處理量增加、原廢（污）水水質超過上限值或氫離子濃度指數超過核准範圍、因應管制標準加嚴或新增管制項目者，及縮減每日最大用水量、廢（污）水產生量或改善原廢（污）水水質者，免進行功能測試。",
+  "q_en": "How are changes outside Article 21 handled, and when is performance testing waived?",
+  "opt_en": [
+   "Prior approval is needed before the change; permit holders must test where facilities, parameters or maximum daily volume change; testing is waived for added units or expanded capacity that do not raise the maximum volume or exceed raw water limits, and for reduced water use or improved raw water quality",
+   "They may be made after filing for record within 30 days; holders of a discharge permit must test where facilities, parameters or volume change, but any addition of units or expansion of capacity is always waived from testing on submission of design drawings and completion photographs of the works",
+   "They need prior approval from the industry competent authority; holders of a discharge permit must test for every change without exception, including mere reductions in water use or improvements in raw wastewater quality, all certified by an engineer throughout",
+   "They need prior approval before the change; holders of a discharge permit must test where facilities, parameters or volume change, but changes made in response to tightened standards or newly added controlled items are always waived from testing"
+  ],
+  "ex_en": "Article 22."
+ },
+ {
+  "file": "batch9_b5",
+  "idx": 0,
+  "law_id": "ENV-47",
+  "law": "水污染防治措施計畫及許可申請審查管理辦法",
+  "art": "第28條",
+  "q_zh": "事業規劃以試驗提升廢（污）水處理設施功能之技術者，應如何辦理？其計畫書內容為何？",
+  "opt_zh": [
+   "應於試驗前檢具廢（污）水處理技術試驗計畫書報經直轄市、縣（市）主管機關備查後，依備查內容及期間執行；計畫書內容至少包括基本資料、試驗目的、試驗內容、試驗期間及試驗期間廢（污）水流向示意圖",
+   "應於試驗前檢具廢（污）水處理技術試驗計畫書報經中央主管機關核准後，依核准內容及期間執行；計畫書內容至少包括基本資料、試驗經費預算、參與人員名冊、試驗期間及試驗設備採購契約書影本",
+   "應於試驗完成後檢具廢（污）水處理技術試驗成果報告報請直轄市、縣（市）主管機關備查；報告內容至少包括基本資料、試驗目的、試驗內容、試驗期間及試驗期間之全部水質檢測原始紀錄",
+   "應於試驗前取得環境工程技師簽證之廢（污）水處理技術試驗計畫書即得逕行執行；計畫書內容至少包括基本資料、試驗目的、試驗內容、試驗期間及試驗設施之工程結構安全證明"
+  ],
+  "ans": "a",
+  "ex_zh": "第28條第1項：事業或污水下水道系統規劃以試驗提升廢（污）水處理設施功能之技術或措施者，得於試驗前檢具廢（污）水處理技術試驗計畫書（試驗計畫書），報經直轄市、縣（市）主管機關備查後，依備查內容及期間執行。第28條第2項：計畫書內容至少包括基本資料、試驗目的、試驗內容、試驗期間及試驗期間廢（污）水流向示意圖。第28條第3項：試驗不得變更登記之處理設施單元，亦不得超過每日最大處理量。第28條第5項：總補正日數不得超過四十二日，必要時經同意得延長並以三十日為限。",
+  "q_en": "How must an enterprise proceed with a technology trial to improve treatment performance, and what must the plan contain?",
+  "opt_en": [
+   "File a wastewater treatment technology trial plan with the municipal or county authority for record before the trial and execute it as filed; the plan covers basic data, trial purpose, trial content, trial period and a wastewater flow diagram for the period",
+   "File the trial plan with the central competent authority for approval before the trial and execute it as approved; the plan covers basic data, the trial budget, the roster of participating personnel, the trial period and copies of equipment purchase contracts",
+   "File a trial results report with the municipal or county authority for record after the trial is completed; the report covers basic data, trial purpose, trial content, trial period and all raw water quality testing records",
+   "Obtain an environmental engineer's certification of the trial plan and proceed directly; the plan covers basic data, trial purpose, trial content, trial period and structural safety certificates for the trial facilities"
+  ],
+  "ex_en": "Article 28."
+ },
+ {
+  "file": "batch9_b5",
+  "idx": 8,
+  "law_id": "ENV-47",
+  "law": "水污染防治措施計畫及許可申請審查管理辦法",
+  "art": "第37條",
+  "q_zh": "核發機關審查水措計畫或許可證（文件）之申請、變更或展延時，應依何規定辦理現場勘察？",
+  "opt_zh": [
+   "應依附表六規定辦理現場勘察",
+   "應依附表五規定辦理現場勘察",
+   "應依附表八規定辦理現場勘察",
+   "得由核發機關自行斟酌決定"
+  ],
+  "ans": "a",
+  "ex_zh": "第37條：核發機關審查水措計畫或許可證（文件）之申請、變更或展延，應依附表六規定辦理現場勘察。至於附表五為應邀請專家學者協助審查之規定（第33條第4項）、附表七為核准每日最大量及生產或服務規模之原則（第38條）、附表八為審查期間（第42條）。",
+  "q_en": "Which table governs on-site inspections when the authority reviews an application, change or renewal?",
+  "opt_en": [
+   "On-site inspections follow Table 6",
+   "On-site inspections follow Table 5",
+   "On-site inspections follow Table 8",
+   "The issuing authority decides at its own discretion"
+  ],
+  "ex_en": "Article 37."
+ },
+ {
+  "file": "batch9_b6",
+  "idx": 0,
+  "law_id": "ENV-47",
+  "law": "水污染防治措施計畫及許可申請審查管理辦法",
+  "art": "第47條",
+  "q_zh": "主管機關得廢止事業水措計畫核准文件之情形為何？",
+  "opt_zh": [
+   "新設事業已停止設置主要生產設備或經目的事業主管機關認定無繼續設廠（場）事實；事業停工（業）一年以上；事業遷移或主要設備已搬遷經認定無繼續生產事實；改變生產製程致無廢水產生；經下水道管理機關通知拒絕納管自通知日起一個月內仍未補正",
+   "新設事業已停止設置主要生產設備或經目的事業主管機關認定無繼續設廠（場）事實；事業停工（業）三個月以上；事業遷移或主要設備已搬遷經認定無繼續生產事實；改變生產製程致無廢水產生；經下水道管理機關通知拒絕納管自通知日起七日內仍未補正",
+   "事業於申請日前一年內有違反本法情事經主管機關處分；事業經查獲繞流排放一次以上；事業之放流水任一項目超過放流水標準；事業未依規定辦理年度申報；事業未於期限內繳納水污染防治費或審查費用等五種情形之一者",
+   "新設事業已取得工廠登記但尚未開始營運；事業停工（業）一個月以上；事業之負責人變更而未辦理登記事項變更；事業之專責人員離職逾三十日未補行設置；事業未依規定公開其水措計畫核准文件於資訊網路"
+  ],
+  "ans": "a",
+  "ex_zh": "第47條：事業有下列情形之一者，主管機關得廢止其水措計畫核准文件──新設事業已停止設置主要生產設備或經目的事業主管機關認定無繼續設廠（場）事實；事業停工（業）一年以上，但有正當理由無法復工、復業報經目的事業主管機關核准者不在此限；事業遷移或主要生產、服務設備已搬遷，經目的事業主管機關或主管機關認定無繼續生產、製造、加工或服務之事實；事業改變生產製程致無廢水產生；經下水道管理機關（構）通知拒絕納入污水下水道系統，自通知日起一個月內仍未補正。",
+  "q_en": "On what grounds may the authority revoke an enterprise's approved control plan?",
+  "opt_en": [
+   "A new enterprise has stopped installing main production equipment or is found not to be continuing plant construction; shutdown for one year or more; relocation or removal of main equipment with no continuing production; a process change ending wastewater generation; or refusal of sewer connection uncorrected within one month of notice",
+   "A new enterprise has stopped installing main production equipment or is found not to be continuing construction; shutdown for three months or more; relocation or removal of main equipment with no continuing production; a process change ending wastewater generation; or refusal of sewer connection uncorrected within seven days of notice",
+   "The enterprise was penalized under the Act within the year before filing; it was caught bypassing discharge once or more; any effluent item exceeded the standards; it failed to file its annual report; or it failed to pay the water pollution control fee or review fee on time",
+   "A new enterprise holds factory registration but has not begun operating; shutdown for one month or more; the responsible person changed without a registration change; dedicated personnel left for over 30 days without replacement; or the plan was not published online"
+  ],
+  "ex_en": "Article 47."
+ },
+ {
+  "file": "batch9_b6",
+  "idx": 8,
+  "law_id": "ENV-47",
+  "law": "水污染防治措施計畫及許可申請審查管理辦法",
+  "art": "第54條",
+  "q_zh": "下列何種情形，事業或污水下水道系統免依本辦法規定申請或變更水措計畫、許可證（文件）？",
+  "opt_zh": [
+   "因天然災害或緊急事故依主管機關命令所採行之水措；自來水事業減少供水或停水期間以槽車補充用水且未超出原登記總用水量者；作業環境內土壤地下水污染整治所產生之水，不超過設計容量及登記每日最大核准量百分之十、超過放流水標準且處理設施有足夠功能，經審查同意納入處理者",
+   "因天然災害或緊急事故依主管機關命令所採行之水措；自來水事業減少供水或停水期間以槽車補充用水而不論是否超出原登記總用水量者；作業環境內土壤地下水污染整治所產生之水，不超過設計容量及登記每日最大核准量百分之三十，經審查同意納入處理設施處理者",
+   "因季節性生產調整或訂單增加所採行之臨時性水措；自來水事業減少供水或停水期間以槽車補充用水且未超出原登記總用水量者；作業環境內土壤地下水污染整治所產生之水，不超過設計容量及登記每日最大核准量百分之十，經審查同意納入處理設施處理者",
+   "因天然災害或緊急事故依事業自行判斷所採行之水措；自來水事業減少供水期間以槽車補充用水且未超出原登記總用水量者；作業環境內土壤地下水污染整治所產生之水，未超過放流水標準且不超過登記每日最大核准量百分之五十者，均免申請或變更"
+  ],
+  "ans": "a",
+  "ex_zh": "第54條第1項：事業或污水下水道系統因天然災害或緊急事故發生時，依主管機關之命令所採行之水措，免依本辦法規定申請或變更水措計畫、許可證（文件）。第54條第2項：自來水事業減少供水或輪流供水、停水期間，事業以槽車或其他方式補充其用水來源，且未超出原登記之總用水量時，免依本辦法規定變更。第54條第3項：於作業環境內因土壤、地下水污染整治所產生之水，符合不超過廢（污）水處理設施設計容量且不超過登記每日最大核准量百分之十、整治所產生之水超過放流水標準、處理設施有足夠功能處理其所含污染物等三款規定，且經主管機關依土壤及地下水污染整治法審查同意應納入處理者，免申請或變更。",
+  "q_en": "In which situations is an application or change exempted under these Regulations?",
+  "opt_en": [
+   "Measures ordered by the authority during a natural disaster or emergency; tanker-supplied water during reduced or suspended tap water supply not exceeding the registered total; and remediation water on site within design capacity and 10% of the registered maximum, exceeding effluent standards, with adequate treatment capacity, approved for treatment",
+   "Measures ordered by the authority during a natural disaster or emergency; tanker-supplied water during reduced or suspended tap water supply whether or not it exceeds the registered total; and remediation water on site within design capacity and 30% of the registered maximum, exceeding effluent standards, with adequate treatment capacity, approved for treatment",
+   "Temporary measures for seasonal production changes or increased orders; tanker-supplied water during reduced supply not exceeding the registered total; and remediation water on site within design capacity and 10% of the registered maximum, approved for treatment",
+   "Measures adopted at the enterprise's own judgment during a disaster; tanker-supplied water during reduced supply not exceeding the registered total; and remediation water not exceeding the effluent standards and within 50% of the registered maximum"
+  ],
+  "ex_en": "Article 54."
+ },
+ {
+  "file": "batch9_b6",
+  "idx": 16,
+  "law_id": "ENV-47",
+  "law": "水污染防治措施計畫及許可申請審查管理辦法",
+  "art": "第62條",
+  "q_zh": "本辦法之施行日期規定為何？一百十五年三月二十四日修正發布之條文如何施行？",
+  "opt_zh": [
+   "本辦法自發布日施行；一百十五年三月二十四日修正發布之條文，除第五十七條自發布日施行外，自一百十五年十月一日施行",
+   "本辦法自發布日施行；一百十五年三月二十四日修正發布之條文，除第五十六條自發布日施行外，自一百十六年一月一日施行",
+   "本辦法自發布日施行；一百十五年三月二十四日修正發布之條文一律自發布日施行，並無另定施行日期之特別規定存在",
+   "本辦法自發布後六個月施行；一百十五年三月二十四日修正發布之條文，除第五十七條自發布日施行外，自一百十五年七月一日施行"
+  ],
+  "ans": "a",
+  "ex_zh": "第62條：本辦法自發布日施行；本辦法中華民國一百十五年三月二十四日修正發布之條文，除第五十七條自發布日施行外，自一百十五年十月一日施行。第57條係關於申請日前一年內有違反本法情事經處分者應加重公開檢具文件之規定，故提前自發布日生效。",
+  "q_en": "What is the effective date rule, and how do the amendments of 24 March 2026 take effect?",
+  "opt_en": [
+   "The Regulations take effect on promulgation; the amendments take effect on 1 October 2026, except Article 57 which takes effect on the promulgation date",
+   "The Regulations take effect on promulgation; the amendments take effect on 1 January 2027, except Article 56 which takes effect on the promulgation date",
+   "The Regulations take effect on promulgation; all of the amendments take effect on the promulgation date, with no separate effective date set at all",
+   "The Regulations take effect six months after promulgation; the amendments take effect on 1 July 2026, except Article 57 which takes effect on promulgation"
+  ],
+  "ex_en": "Article 62."
+ },
+ {
+  "file": "batch9_c",
+  "idx": 0,
+  "law_id": "ENV-57",
+  "law": "一般廢棄物回收清除處理辦法",
+  "art": "第2條",
+  "q_zh": "依本辦法第2條，「有害垃圾」之定義為何？",
+  "opt_zh": [
+   "指符合有害事業廢棄物認定標準並經中央主管機關公告之一般廢棄物",
+   "指經直轄市、縣（市）主管機關公告具毒性之一般事業廢棄物",
+   "指體積龐大之廢棄傢俱或修剪庭院之樹枝等一般廢棄物",
+   "指被拋棄之生、熟食物殘渣或經公告之有機性一般廢棄物"
+  ],
+  "ans": "a",
+  "ex_zh": "第2條第3款：有害垃圾指符合有害事業廢棄物認定標準並經中央主管機關公告之一般廢棄物。同條第1款巨大垃圾為體積龐大之廢棄傢俱、修剪庭院之樹枝；第4款廚餘為被拋棄之生、熟食物及其殘渣或經公告之有機性一般廢棄物。第32條並規定有害垃圾採封閉掩埋處理者，準用事業廢棄物貯存清除處理方法及設施標準。",
+  "q_en": "Under Article 2, how is hazardous garbage defined?",
+  "opt_en": [
+   "General waste meeting the hazardous industrial waste identification standards and announced by the central competent authority",
+   "General industrial waste announced as toxic in nature by the municipal or county (city) competent authority of its location",
+   "General waste of large volume such as discarded furniture or branches trimmed from a garden or courtyard",
+   "Discarded raw or cooked food and its residues, or organic general waste announced by the competent authority"
+  ],
+  "ex_en": "Article 2(3) defines hazardous garbage; subparagraphs 1 and 4 define bulky garbage and kitchen waste respectively."
+ },
+ {
+  "file": "batch9_c",
+  "idx": 8,
+  "law_id": "ENV-57",
+  "law": "一般廢棄物回收清除處理辦法",
+  "art": "第6條之2",
+  "q_zh": "受託清除、處理裝潢修繕廢棄物之網路申報，最早自何時、對何地區之產生源開始適用？",
+  "opt_zh": [
+   "自一百十四年三月一日起，產生源位於臺北市、新北市及桃園市，受託者屬公民營廢棄物處理機構等事業",
+   "自一百十四年七月一日起，產生源位於臺中市、臺南市及高雄市，受託者屬公民營廢棄物清除機構等事業",
+   "自一百十五年一月一日起，產生源位於臺北市、新北市及基隆市，受託者屬事業廢棄物共同清除機構等事業",
+   "自一百十六年七月一日起，產生源位於全國各直轄市，受託者屬公民營廢棄物處理機構及共同處理機構等事業"
+  ],
+  "ans": "a",
+  "ex_zh": "第6條之2第1款：自一百十四年三月一日起，廢棄物產生源位於臺北市、新北市及桃園市，受託者屬公民營廢棄物處理機構、事業廢棄物共同處理機構及第六條第六項第三、四款之事業者，應網路申報。第2款自同年七月一日起適用清除機構；第3款自一百十五年七月一日起及第4款自一百十六年七月一日起逐步擴大地區。",
+  "q_en": "From when and for which sources does online reporting of decoration and repair waste first apply?",
+  "opt_en": [
+   "From 1 March 2025, for sources in Taipei, New Taipei and Taoyuan, where the entrusted party is a public or private waste disposal institution and similar entities",
+   "From 1 July 2025, for sources in Taichung, Tainan and Kaohsiung, where the entrusted party is a public or private waste clearance institution and similar entities",
+   "From 1 January 2026, for sources in Taipei, New Taipei and Keelung, where the entrusted party is a joint industrial waste clearance institution and similar entities",
+   "From 1 July 2027, for sources in all special municipalities, where the entrusted party is a public or private waste disposal or joint disposal institution and similar entities"
+  ],
+  "ex_en": "Article 6-2, subparagraph 1 sets 1 March 2025 for Taipei, New Taipei and Taoyuan with disposal-side entrusted parties."
+ },
+ {
+  "file": "batch9_c",
+  "idx": 16,
+  "law_id": "ENV-58",
+  "law": "應回收廢棄物責任業者管理辦法",
+  "art": "第12條",
+  "q_zh": "責任業者得申請分期繳納回收清除處理費之原因為何？利息如何計算？",
+  "opt_zh": [
+   "因天然災害等不可歸責事由受重大財產損失，或經查核應補繳達新臺幣十萬元以上，按日複利計息",
+   "因訂單減少導致營運週轉困難，或經查核應補繳費用達新臺幣一萬元以上者，得分期並免計利息",
+   "因負責人變更尚未完成登記手續，或經查核應補繳費用達新臺幣五十萬元以上，按月計算利息",
+   "因原料價格大幅上漲致成本增加，或經查核應補繳費用達新臺幣一百萬元以上，得延期一年繳清"
+  ],
+  "ans": "a",
+  "ex_zh": "第12條：責任業者因颱風、地震、水災、土石流或其他天然災害或不可歸責之事由致遭受重大財產損失，或經主管機關查核應補繳回收清除處理費達新臺幣十萬元以上者，得於繳納期限前檢具分期繳納申請表及證明文件，向中央主管機關申請按郵政儲金匯業局一年期定期存款利率按日複利計算利息分期繳納。",
+  "q_en": "On what grounds may fees be paid in instalments, and how is interest computed?",
+  "opt_en": [
+   "Major property loss from a natural disaster or other non-attributable cause, or audited arrears of NT$100,000 or more, with daily compound interest",
+   "Operating difficulty caused by falling orders, or audited arrears of NT$10,000 or more, in which case instalments carry no interest at all",
+   "An incomplete change registration of the responsible person, or audited arrears of NT$500,000 or more, with interest computed monthly",
+   "A sharp rise in raw material prices raising costs, or audited arrears of NT$1,000,000 or more, with a one-year deferral of payment"
+  ],
+  "ex_en": "Article 12 allows instalments for disaster losses or audited arrears of NT$100,000 or more, with daily compound interest."
+ },
+ {
+  "file": "batch9_c",
+  "idx": 24,
+  "law_id": "ENV-60",
+  "law": "環境部事業廢棄物再利用管理辦法",
+  "art": "第6條",
+  "q_zh": "本部受理再利用許可申請之形式審查及實質審查期限各為何？",
+  "opt_zh": [
+   "形式審查應自收件日起十個工作日內完成，實質審查應於完成形式審查後四十五個工作日內完成",
+   "形式審查應自收件日起三十個工作日內完成，實質審查應於完成形式審查後六十個工作日內完成",
+   "形式審查應自收件日起五個工作日內完成，實質審查應於完成形式審查後九十個工作日內完成",
+   "形式審查應自收件日起十五個工作日內完成，實質審查應於完成形式審查後三十個工作日內完成"
+  ],
+  "ans": "a",
+  "ex_zh": "第6條第1項：形式審查應自收件日起十個工作日內完成書面完整性審查；實質審查應自完成形式審查後四十五個工作日內，得邀集學者專家及相關主管機關進行實質審查及現場勘查。第2項規定必要時得延長各以一次為限；第4項規定補正日數不算入審查期限，且總日數不得超過九十個工作日。",
+  "q_en": "What are the time limits for formal and substantive review of a reuse permit application?",
+  "opt_en": [
+   "Formal review within ten working days of receipt, and substantive review within forty-five working days after the formal review",
+   "Formal review within thirty working days of receipt, and substantive review within sixty working days after the formal review",
+   "Formal review within five working days of receipt, and substantive review within ninety working days after the formal review",
+   "Formal review within fifteen working days of receipt, and substantive review within thirty working days after the formal review"
+  ],
+  "ex_en": "Article 6, paragraph 1 sets ten working days for formal review and forty-five working days for substantive review."
+ },
+ {
+  "file": "batch9_c",
+  "idx": 32,
+  "law_id": "ENV-61",
+  "law": "共通性事業廢棄物再利用管理辦法",
+  "art": "第2條",
+  "q_zh": "本辦法所稱「共通性事業廢棄物」之定義為何？",
+  "opt_zh": [
+   "指附表所列由二個以上目的事業所產生之同種類事業廢棄物",
+   "指附表所列由二個以上再利用機構共同收受之事業廢棄物",
+   "指由同一目的事業主管機關公告得共同清理之事業廢棄物",
+   "指經二個以上縣市主管機關同意跨區再利用之事業廢棄物"
+  ],
+  "ans": "a",
+  "ex_zh": "第2條第2款：共通性事業廢棄物指附表所列由二個以上目的事業所產生同種類之事業廢棄物。同條第3款定義再利用為事業將其事業廢棄物自行或送往再利用機構作為原料、材料、燃料等附表所列之用途行為；第4款定義再利用機構為收受事業廢棄物再利用之農工商廠（場）。",
+  "q_en": "How are common industrial wastes defined under these Regulations?",
+  "opt_en": [
+   "Industrial waste of the same type listed in the attached table generated by two or more industry categories",
+   "Industrial waste listed in the attached table jointly received by two or more reuse institutions",
+   "Industrial waste announced by a single industry competent authority as eligible for joint clearance",
+   "Industrial waste approved by two or more municipal authorities for cross-jurisdiction reuse"
+  ],
+  "ex_en": "Article 2, subparagraph 2 defines them as same-type waste listed in the attached table generated by two or more industry categories."
+ },
+ {
+  "file": "batch9_c",
+  "idx": 40,
+  "law_id": "ENV-62",
+  "law": "資源回收再利用法施行細則",
+  "art": "第10條",
+  "q_zh": "依第10條，下列何者屬本法第22條所稱之「環境保護產品」？",
+  "opt_zh": [
+   "取得中央主管機關或其委託之機關（構）核發環境保護標章使用許可證書之產品",
+   "取得中央主管機關核發正字標記或國家標準檢驗合格證書等品質證明之產品",
+   "經相關目的事業主管機關認定具節省能源效益並公告列管之各類耗能產品",
+   "經公司自行檢驗符合再生材質比例並於外包裝標示回收標誌之各類產品"
+  ],
+  "ans": "a",
+  "ex_zh": "第10條第1款：取得中央主管機關或其委託之機關（構）核發環境保護標章使用許可證書之產品，或與我國簽署協議相互承認之國外環境保護標章使用許可之產品。第2款為非屬公告標章項目但經認定符合再生材質、可回收、低污染或省能源條件並發給證明文件者；第3款為經認定增加社會利益或減少社會成本者。",
+  "q_en": "Which of the following is an environmental protection product under Article 22 of the Act?",
+  "opt_en": [
+   "A product holding an environmental protection label licence issued by the central authority or an agency it commissions",
+   "A product holding a CNS mark or a national standard inspection certificate issued as proof of its quality",
+   "An energy-consuming product recognized by the industry authority as energy saving and publicly listed for control",
+   "A product self-tested by the company for recycled content and marked with a recycling logo on its outer package"
+  ],
+  "ex_en": "Article 10, subparagraph 1 covers products holding an environmental protection label licence."
+ },
+ {
+  "file": "batch9_c",
+  "idx": 48,
+  "law_id": "ENV-95",
+  "law": "公害糾紛處理法施行細則",
+  "art": "第25條",
+  "q_zh": "調處不成立者，調處委員會應如何通知當事人？",
+  "opt_zh": [
+   "調處不成立者，調處委員會應於七日內作成調處不成立之通知，送達於當事人",
+   "調處不成立者，調處委員會應於三十日內作成調處不成立之通知，送達於當事人",
+   "調處不成立者，調處委員會得於次一調處期日當場以言詞告知兩造當事人即可",
+   "調處不成立者，調處委員會應於十五日內報請裁決委員會轉知兩造之當事人"
+  ],
+  "ans": "a",
+  "ex_zh": "第25條：調處不成立者，調處委員會應於七日內作成調處不成立之通知，送達當事人。第24條規定調處不成立之事由；第32條第1項並規定直轄市、縣（市）調處委員會每六個月應將前六個月辦理調處業務之概況併同法院核定之調處書，報請裁決委員會備查。",
+  "q_en": "How must the mediation committee notify the parties when mediation fails?",
+  "opt_en": [
+   "Where mediation fails, the committee shall prepare a notice of failure within seven days and serve it on the parties",
+   "Where mediation fails, the committee shall prepare a notice of failure within thirty days and serve it on the parties",
+   "Where mediation fails, the committee may simply inform both parties orally at the next scheduled mediation date",
+   "Where mediation fails, the committee shall report within fifteen days to the ruling committee to notify the parties"
+  ],
+  "ex_en": "Article 25 requires a written notice of failure within seven days, served on the parties."
+ },
+ {
+  "file": "batch9_c",
+  "idx": 56,
+  "law_id": "ENV-97",
+  "law": "環境檢驗測定機構管理辦法",
+  "art": "第9條",
+  "q_zh": "檢測機構從事事業廢棄物採樣之人員，其安全與應變知能訓練時數規定為何？",
+  "opt_zh": [
+   "不明事業廢棄物採樣須四十小時以上知能訓練及三日以上實務訓練；其他事業廢棄物採樣須十六小時以上及八小時以上",
+   "不明事業廢棄物採樣須二十小時以上知能訓練及一日以上實務訓練；其他事業廢棄物採樣須八小時以上及四小時以上",
+   "不明事業廢棄物採樣須八十小時以上知能訓練及五日以上實務訓練；其他事業廢棄物採樣須三十小時以上及二日以上",
+   "不明事業廢棄物採樣須十六小時以上知能訓練及八小時以上實務訓練；其他事業廢棄物採樣須四十小時以上及三日以上"
+  ],
+  "ans": "a",
+  "ex_zh": "第9條第1項：從事不明事業廢棄物採樣項目之現場品保品管負責人、採樣員及安全衛生負責人，應接受四十小時以上之安全與應變知能訓練及三日以上之實務訓練。第2項：從事其他事業廢棄物採樣者，應接受十六小時以上知能訓練及八小時以上實務訓練。第3項：經第1項訓練者，得從事第2項之採樣項目。",
+  "q_en": "What safety and response training hours are required for industrial waste sampling personnel?",
+  "opt_en": [
+   "Unidentified industrial waste sampling needs 40 hours of training and 3 days of practice; other industrial waste sampling needs 16 hours and 8 hours",
+   "Unidentified industrial waste sampling needs 20 hours of training and 1 day of practice; other industrial waste sampling needs 8 hours and 4 hours",
+   "Unidentified industrial waste sampling needs 80 hours of training and 5 days of practice; other industrial waste sampling needs 30 hours and 2 days",
+   "Unidentified industrial waste sampling needs 16 hours of training and 8 hours of practice; other industrial waste sampling needs 40 hours and 3 days"
+  ],
+  "ex_en": "Article 9 requires 40 hours plus 3 days for unidentified waste and 16 hours plus 8 hours for other industrial waste."
+ },
+ {
+  "file": "batch9_c1",
+  "idx": 0,
+  "law_id": "ENV-57",
+  "law": "一般廢棄物回收清除處理辦法",
+  "art": "第1條",
+  "q_zh": "《一般廢棄物回收清除處理辦法》之訂定法源依據為何？",
+  "opt_zh": [
+   "依廢棄物清理法第十二條第一項規定訂定之",
+   "依廢棄物清理法第十五條第二項規定訂定之",
+   "依廢棄物清理法第三十九條第二項規定訂定",
+   "依資源回收再利用法第十二條第一項規定訂定"
+  ],
+  "ans": "a",
+  "ex_zh": "第1條：本辦法依廢棄物清理法（本法）第十二條第一項規定訂定之。本法第十五條第二項為應回收廢棄物之公告依據，第三十九條第二項則為事業廢棄物再利用管理辦法之授權依據，兩者均非本辦法之法源。",
+  "q_en": "Under which provision are these Regulations enacted?",
+  "opt_en": [
+   "Enacted under Article 12, paragraph 1 of the Waste Disposal Act",
+   "Enacted under Article 15, paragraph 2 of the Waste Disposal Act",
+   "Enacted under Article 39, paragraph 2 of the Waste Disposal Act",
+   "Enacted under Article 12, paragraph 1 of the Resource Recycling Act"
+  ],
+  "ex_en": "Article 1 cites Article 12, paragraph 1 of the Waste Disposal Act as the enabling provision."
+ },
+ {
+  "file": "batch9_c1",
+  "idx": 8,
+  "law_id": "ENV-57",
+  "law": "一般廢棄物回收清除處理辦法",
+  "art": "第9條",
+  "q_zh": "一般廢棄物之貯存設施應符合何種規定？",
+  "opt_zh": [
+   "設置防止地面水、雨水及地下水流入滲透之設備，並收集或防止廢液廢氣惡臭污染",
+   "設置抽水泵浦定期排除積水之設備，並將收集之廢液直接排入雨水下水道系統",
+   "設置自動噴灑除臭藥劑之設備，並將產生之廢氣經稀釋後由高煙囪排放至大氣",
+   "設置地下水監測井及自動採樣設備，並每月將監測結果報請主管機關備查"
+  ],
+  "ans": "a",
+  "ex_zh": "第9條：一般廢棄物之貯存設施應設置防止地面水、雨水及地下水流入、滲透之設備或措施，並就由貯存設施產生之廢液、廢氣、惡臭等，設置收集或防止其污染地面水體、地下水體、空氣、土壤之設備或措施。第10條就資源垃圾回收貯存場所之貯存設施另有加重規定。",
+  "q_en": "What requirements apply to storage facilities for general waste?",
+  "opt_en": [
+   "Equipment preventing surface water, rainwater and groundwater from entering, plus collection or prevention of liquid, gas and odour pollution",
+   "Pumps to periodically remove accumulated water, with the collected waste liquid discharged directly into the public storm sewer system",
+   "Automatic deodorant spraying equipment, with the resulting waste gas diluted and released through a tall stack",
+   "Groundwater monitoring wells and automatic sampling equipment, with monthly results filed with the authority"
+  ],
+  "ex_en": "Article 9 requires water-intrusion prevention plus collection or prevention of waste liquid, gas and odour pollution."
+ },
+ {
+  "file": "batch9_c1",
+  "idx": 16,
+  "law_id": "ENV-57",
+  "law": "一般廢棄物回收清除處理辦法",
+  "art": "第16條之2",
+  "q_zh": "小型清掃機械使用證應向何機關申請？操作人員應遵守何種規定？",
+  "opt_zh": [
+   "向清掃作業所在地直轄市、縣（市）主管機關申請；駕駛人應領有小型車普通駕駛執照並隨身攜帶使用證",
+   "向中央主管機關指定之機構申請核發；駕駛人應領有大型車職業駕駛執照並隨身攜帶行車執照",
+   "向所在地之鄉（鎮、市）公所申請並報備查；駕駛人應領有機車駕駛執照並接受八小時教育訓練",
+   "向所在地之公路監理機關申請並定期換發；駕駛人應領有小型車職業駕駛執照並通過體格檢查"
+  ],
+  "ans": "a",
+  "ex_zh": "第16條之2第1項：小型清掃機械使用證，由執行機關或其委託執行道路清掃作業之廠商，向清掃作業所在地直轄市、縣（市）主管機關申請。第3項第1款：駕駛人應領有小型車普通駕駛執照，並隨身攜帶小型清掃機械使用證；第2款並要求設置適當交通管制設施導引車流。",
+  "q_en": "To which authority is a small sweeping machine permit applied for, and what must the operator observe?",
+  "opt_en": [
+   "To the municipal or county (city) authority where sweeping is carried out; the driver holds an ordinary light vehicle licence and carries the permit",
+   "To an institution designated by the central competent authority; the driver holds a professional heavy vehicle licence and carries the registration",
+   "To the township or city office of the location for recordation; the driver holds a motorcycle licence and completes eight hours of training",
+   "To the local motor vehicle office with periodic renewal; the driver holds a professional light vehicle licence and passes a physical examination"
+  ],
+  "ex_en": "Article 16-2 requires application to the local authority where sweeping occurs and an ordinary light vehicle licence plus carrying the permit."
+ },
+ {
+  "file": "batch9_c1",
+  "idx": 24,
+  "law_id": "ENV-57",
+  "law": "一般廢棄物回收清除處理辦法",
+  "art": "第25條",
+  "q_zh": "一般廢棄物採焚化處理以外之熱處理法者，其設施應符合何項規定？",
+  "opt_zh": [
+   "應符合第十九條及第二十四條第一款、第二款、第六款、第七款之規定",
+   "應符合第十九條及第二十四條全部各款有關焚化設施之規定，不得減省",
+   "應符合第二十條有關破碎分選設施及第二十六條堆肥設施之各項規定",
+   "應符合第二十九條有關衛生掩埋設施及第三十條掩埋作業之各項規定"
+  ],
+  "ans": "a",
+  "ex_zh": "第25條：一般廢棄物採焚化處理以外之熱處理法處理者，其設施應符合第19條及第24條第1款（進料計量及檢查設備）、第2款（消防及臭氣處理設備、滲出水收集系統）、第6款（緊急應變處理裝置）、第7款（其他經主管機關規定者）之規定。第2條第15款並定義熱處理法包括焚化法、熱解法、熔融法等。",
+  "q_en": "Which provisions must facilities using thermal treatment other than incineration meet?",
+  "opt_en": [
+   "Article 19 and Article 24, subparagraphs 1, 2, 6 and 7",
+   "Article 19 and all subparagraphs of Article 24 on incineration facilities, with no reduction",
+   "Article 20 on crushing and sorting facilities and Article 26 on composting facilities",
+   "Article 29 on sanitary landfill facilities and Article 30 on landfill operations"
+  ],
+  "ex_en": "Article 25 requires compliance with Article 19 and Article 24, subparagraphs 1, 2, 6 and 7."
+ },
+ {
+  "file": "batch9_c1",
+  "idx": 32,
+  "law_id": "ENV-57",
+  "law": "一般廢棄物回收清除處理辦法",
+  "art": "第34條",
+  "q_zh": "再利用機構對於一般廢棄物再利用之紀錄應如何辦理？",
+  "opt_zh": [
+   "應按月作成種類、來源、數量、用途及剩餘廢棄物處理紀錄，並妥善保存三年以供查核",
+   "應按日作成種類、來源、數量、用途及剩餘廢棄物處理紀錄，並妥善保存一年以供查核",
+   "應按季作成種類、來源、數量、用途及剩餘廢棄物處理紀錄，並妥善保存五年以供查核",
+   "應按年作成種類、來源、數量、用途及剩餘廢棄物處理紀錄，並妥善保存十年以供查核"
+  ],
+  "ans": "a",
+  "ex_zh": "第34條第3項：再利用機構對於一般廢棄物再利用之種類、來源、數量、用途及剩餘廢棄物處理，應按月作成紀錄，並妥善保存相關紀錄及證明文件三年，以供查核。第1項並規定再利用應依公告方式辦理或報經中央主管機關核准；第4項規定技術研發得專案向直轄市、縣（市）主管機關申請同意文件。",
+  "q_en": "How must a reuse institution keep records of general waste reuse?",
+  "opt_en": [
+   "Make monthly records of type, source, quantity, use and residual waste handling, and keep them for three years for inspection",
+   "Make daily records of type, source, quantity, use and residual waste handling, and keep them for one year for inspection",
+   "Make quarterly records of type, source, quantity, use and residual waste handling, and keep them for five years for inspection",
+   "Make annual records of type, source, quantity, use and residual waste handling, and keep them for ten years for inspection"
+  ],
+  "ex_en": "Article 34, paragraph 3 requires monthly records kept for three years."
+ },
+ {
+  "file": "batch9_c2",
+  "idx": 0,
+  "law_id": "ENV-58",
+  "law": "應回收廢棄物責任業者管理辦法",
+  "art": "第1條",
+  "q_zh": "《應回收廢棄物責任業者管理辦法》之訂定法源依據為何？",
+  "opt_zh": [
+   "依廢棄物清理法第十六條第四項規定訂定之",
+   "依廢棄物清理法第十五條第二項規定訂定之",
+   "依廢棄物清理法第十二條第一項規定訂定之",
+   "依資源回收再利用法第十六條第四項規定訂定"
+  ],
+  "ans": "a",
+  "ex_zh": "第1條：本辦法依廢棄物清理法（本法）第十六條第四項規定訂定之。本法第十五條第二項為應回收物品之公告依據，第十二條第一項則為一般廢棄物回收清除處理辦法之授權依據。",
+  "q_en": "Under which provision are these Regulations enacted?",
+  "opt_en": [
+   "Enacted under Article 16, paragraph 4 of the Waste Disposal Act",
+   "Enacted under Article 15, paragraph 2 of the Waste Disposal Act",
+   "Enacted under Article 12, paragraph 1 of the Waste Disposal Act",
+   "Enacted under Article 16, paragraph 4 of the Resource Recycling Act"
+  ],
+  "ex_en": "Article 1 cites Article 16, paragraph 4 of the Waste Disposal Act."
+ },
+ {
+  "file": "batch9_c2",
+  "idx": 8,
+  "law_id": "ENV-58",
+  "law": "應回收廢棄物責任業者管理辦法",
+  "art": "第15條",
+  "q_zh": "責任業者提供之資料不實或未提供完整帳冊時，主管機關如何認定其營業量或進口量？",
+  "opt_zh": [
+   "依原（物）料、人員、水電或設備使用情形等六種方法，擇定其中可取得之最高營業量或進口量",
+   "依原（物）料、人員、水電或設備使用情形等六種方法，擇定其中可取得之最低營業量或進口量",
+   "依上年度申報之營業量加計百分之二十，作為該責任業者當期之營業量或進口量認定之基準",
+   "依銷售額相近同業平均營業量之三倍計算，作為該責任業者當期之營業量或進口量並據以計費"
+  ],
+  "ans": "a",
+  "ex_zh": "第15條第1項：主管機關或其委託之專業人員依本法第20條查核時，責任業者所提供資料不實或未提供完整帳冊者，得依原（物）料人員水電設備使用情形、上下游業者資料、銷售額相近同業申報量、同業費額占銷售額比例、相近同業製造量計算方式、稅捐機關提供資料等六種方法，擇定其中可取得之最高營業量或進口量。",
+  "q_en": "How does the authority determine volumes where an enterprise gives false data or incomplete books?",
+  "opt_en": [
+   "Adopt the highest volume obtainable among six prescribed methods based on materials, staff, utilities, equipment use and similar data",
+   "Adopt the lowest volume obtainable among six prescribed methods based on materials, staff, utilities, equipment use and similar data",
+   "Add twenty percent to the volume declared for the previous year and use that as the basis for the current period's volume",
+   "Multiply by three the average volume of peers with similar turnover and use that as the current period's volume for the fee"
+  ],
+  "ex_en": "Article 15, paragraph 1 requires choosing the highest obtainable volume among the six listed methods."
+ },
+ {
+  "file": "batch9_c2",
+  "idx": 16,
+  "law_id": "ENV-59",
+  "law": "事業委託清理之相當注意義務認定準則",
+  "art": "第9條",
+  "q_zh": "本準則及其修正條文之施行日期為何？",
+  "opt_zh": [
+   "本準則自發布日施行；本準則修正條文自發布後六個月施行",
+   "本準則自發布日施行；本準則修正條文亦自發布日起即施行",
+   "本準則自發布後三個月施行；其修正條文自發布後一年施行",
+   "本準則自發布後六個月施行；其修正條文自發布日起即施行"
+  ],
+  "ans": "a",
+  "ex_zh": "第9條：本準則自發布日施行；本準則修正條文，自發布後六個月施行。本準則最近一次修正日期為民國一百十年二月二十三日，其修正條文即自發布後六個月始行施行，使事業有調整期間。",
+  "q_en": "When do these Criteria and their amendments take effect?",
+  "opt_en": [
+   "The Criteria take effect on promulgation; the amended provisions take effect six months after promulgation",
+   "The Criteria take effect on promulgation; the amended provisions likewise take effect upon promulgation",
+   "The Criteria take effect three months after promulgation; the amendments take effect one year after that",
+   "The Criteria take effect six months after promulgation; the amended provisions take effect on promulgation"
+  ],
+  "ex_en": "Article 9 sets promulgation for the Criteria and six months after promulgation for the amendments."
+ },
+ {
+  "file": "batch9_c2",
+  "idx": 24,
+  "law_id": "ENV-60",
+  "law": "環境部事業廢棄物再利用管理辦法",
+  "art": "第12條",
+  "q_zh": "事業廢棄物送往再利用機構再利用前之清除，得以何種方式為之？",
+  "opt_zh": [
+   "自行清除、委託領有廢棄物清除許可證之公民營清除機構清除，或依附表規定委託合法運輸業代為清除",
+   "自行清除、委託未領有許可證但已辦理公司登記之運輸業清除，或委託再利用產品之買受人代為清除",
+   "委託執行機關之垃圾車清除、委託取得處理許可證之處理機構清除，或委託目的事業主管機關清除",
+   "自行清除、委託共同清除處理機構清除，或委託取得再利用許可之其他再利用機構代為運送至廠內"
+  ],
+  "ans": "a",
+  "ex_zh": "第12條第1項：事業廢棄物送往再利用機構再利用前之清除，由事業或再利用機構以自行清除、委託領有廢棄物清除許可證之公民營廢棄物清除機構清除（受託機構並應依公民營廢棄物清除處理機構許可管理辦法第18條第4項辦理）、依附表再利用管理方式規定委託合法運輸業代為清除等方式為之。第2項並要求清運機具依本法第31條第1項第3款裝置即時追蹤系統。",
+  "q_en": "In what ways may industrial waste be cleared before being sent to a reuse institution?",
+  "opt_en": [
+   "Self-clearance, entrusting a permitted public or private clearance institution, or entrusting a lawful transport operator as the attached table allows",
+   "Self-clearance, entrusting an unlicensed but company-registered transport operator, or entrusting the buyer of the reuse product to clear it",
+   "Entrusting the executing agency's garbage truck, entrusting a permitted disposal institution, or entrusting the industry competent authority",
+   "Self-clearance, entrusting a joint clearance and disposal institution, or entrusting another permitted reuse institution to transport it in"
+  ],
+  "ex_en": "Article 12, paragraph 1 allows self-clearance, a permitted clearance institution, or a lawful transport operator under the attached table."
+ },
+ {
+  "file": "batch9_c3",
+  "idx": 0,
+  "law_id": "ENV-61",
+  "law": "共通性事業廢棄物再利用管理辦法",
+  "art": "第1條",
+  "q_zh": "《共通性事業廢棄物再利用管理辦法》之訂定法源依據為何？",
+  "opt_zh": [
+   "依廢棄物清理法第三十九條第二項規定訂定之",
+   "依廢棄物清理法第三十一條第一項規定訂定之",
+   "依廢棄物清理法第二十八條第二項規定訂定之",
+   "依資源回收再利用法第三十九條第二項規定訂定"
+  ],
+  "ans": "a",
+  "ex_zh": "第1條：本辦法依廢棄物清理法（本法）第三十九條第二項規定訂定之。環境部事業廢棄物再利用管理辦法第1條亦以同一條項為授權依據，二者分別規範共通性廢棄物與以環境部為中央目的事業主管機關之事業廢棄物。",
+  "q_en": "Under which provision are these Regulations enacted?",
+  "opt_en": [
+   "Enacted under Article 39, paragraph 2 of the Waste Disposal Act",
+   "Enacted under Article 31, paragraph 1 of the Waste Disposal Act",
+   "Enacted under Article 28, paragraph 2 of the Waste Disposal Act",
+   "Enacted under Article 39, paragraph 2 of the Resource Recycling Act"
+  ],
+  "ex_en": "Article 1 cites Article 39, paragraph 2 of the Waste Disposal Act."
+ },
+ {
+  "file": "batch9_c3",
+  "idx": 8,
+  "law_id": "ENV-61",
+  "law": "共通性事業廢棄物再利用管理辦法",
+  "art": "第17條",
+  "q_zh": "本辦法之施行日期規定為何？",
+  "opt_zh": [
+   "本辦法自發布日施行",
+   "本辦法自發布後三個月施行",
+   "本辦法自發布後六個月施行",
+   "本辦法自發布後一年起施行"
+  ],
+  "ans": "a",
+  "ex_zh": "第17條：本辦法自發布日施行。本辦法最近一次修正日期為民國一百十五年六月二日。第14條並就本辦法施行前已通過再利用登記檢核之機構訂有過渡規定，得繼續再利用至原檢核有效期間屆滿。",
+  "q_en": "When do these Regulations take effect?",
+  "opt_en": [
+   "These Regulations take effect on the date of promulgation",
+   "These Regulations take effect three months after promulgation",
+   "These Regulations take effect six months after promulgation",
+   "These Regulations take effect one year after their promulgation"
+  ],
+  "ex_en": "Article 17 provides that the Regulations take effect on the date of promulgation."
+ },
+ {
+  "file": "batch9_c3",
+  "idx": 16,
+  "law_id": "ENV-62",
+  "law": "資源回收再利用法施行細則",
+  "art": "第11條",
+  "q_zh": "處分機關依本法第26條所為之處罰，其處分書應載明何項事項？",
+  "opt_zh": [
+   "應載明處分事由；須限期補正或改善者，並應載明補正改善內容、期限、應檢具之證明文件及按日處罰規定",
+   "應載明處分事由；並應載明受處分人之營業額、員工人數、資本額及最近三年內之違規紀錄與裁罰金額",
+   "應載明處分事由；並應載明主管機關承辦人員姓名、聯絡電話、開會日期及委員會決議之票數與比例",
+   "應載明處分事由；並應載明受處分人得申請分期繳納罰鍰之期數、利率、擔保方式及逾期加計之滯納金"
+  ],
+  "ans": "a",
+  "ex_zh": "第11條：主管機關或目的事業主管機關（處分機關）依本法第二十六條所為之處罰，應於處分書載明處分事由；其須限期補正或改善者，應載明補正或改善內容、期限、完成補正或改善應檢具之證明文件，及屆期未完成補正或改善者按日連續處罰之相關規定。",
+  "q_en": "What must a disposition under Article 26 of the Act state in the written disposition?",
+  "opt_en": [
+   "The grounds; and where correction is ordered, the content, deadline, documents required on completion, and the daily continuous penalty rules",
+   "The grounds; and the recipient's turnover, headcount, capital, and its violation records and penalty amounts over the past three years",
+   "The grounds; and the name and telephone number of the handling officer, the meeting date, and the committee's vote count and ratio",
+   "The grounds; and the number of instalments, interest rate, security and late payment surcharge applicable to paying the fine"
+  ],
+  "ex_en": "Article 11 requires the grounds plus, where correction is ordered, its content, deadline, documents and daily penalty rules."
+ },
+ {
+  "file": "batch9_c4",
+  "idx": 0,
+  "law_id": "ENV-95",
+  "law": "公害糾紛處理法施行細則",
+  "art": "第1條",
+  "q_zh": "《公害糾紛處理法施行細則》之訂定法源依據為何？",
+  "opt_zh": [
+   "依公害糾紛處理法第五十條規定訂定之",
+   "依公害糾紛處理法第四十三條規定訂定之",
+   "依公害糾紛處理法第三十條第二項規定訂定",
+   "依環境影響評估法第五十條之規定訂定之"
+  ],
+  "ans": "a",
+  "ex_zh": "第1條：本細則依公害糾紛處理法（本法）第五十條規定訂定之。本法第四十三條為調處及裁決費用之規定（第13條第6款、第35條均與其相關），第三十條第二項則為環境保護協定之規定（第28條、第29條據以規範）。",
+  "q_en": "Under which provision are these Enforcement Rules enacted?",
+  "opt_en": [
+   "Enacted under Article 50 of the Public Nuisance Dispute Resolution Act",
+   "Enacted under Article 43 of the Public Nuisance Dispute Resolution Act",
+   "Enacted under Article 30, paragraph 2 of the Dispute Resolution Act",
+   "Enacted under Article 50 of the Environmental Impact Assessment Act"
+  ],
+  "ex_en": "Article 1 cites Article 50 of the Public Nuisance Dispute Resolution Act."
+ },
+ {
+  "file": "batch9_c4",
+  "idx": 8,
+  "law_id": "ENV-95",
+  "law": "公害糾紛處理法施行細則",
+  "art": "第11條",
+  "q_zh": "申請指定調處委員會管轄者，應如何辦理？由何人以何種方式決定？",
+  "opt_zh": [
+   "應將有關書件送交裁決委員會，由主任委員指定委員三人或五人，以合議方式決定其管轄",
+   "應將有關書件送交中央主管機關，由部長指定委員五人或七人，以多數決方式決定其管轄",
+   "應將有關書件送交所在地地方法院，由院長指定法官三人，以裁定方式決定其管轄之歸屬",
+   "應將有關書件送交行政院，由院長指定政務委員一人，以行政命令方式決定其管轄歸屬"
+  ],
+  "ans": "a",
+  "ex_zh": "第11條第1項：依本法第十六條第一項規定申請指定調處委員會管轄者，應將有關書件送交裁決委員會，由主任委員指定委員三人或五人，以合議決定之。第2項：裁決委員會得指定直轄市或縣（市）調處委員會管轄。第3項：為指定後應即通知當事人及受指定之調處委員會。",
+  "q_en": "How is an application to designate a competent mediation committee handled, and who decides?",
+  "opt_en": [
+   "The documents go to the ruling committee, whose chairperson designates three or five members to decide collegially",
+   "The documents go to the central competent authority, whose minister designates five or seven members to decide by majority",
+   "The documents go to the local district court, whose president designates three judges to decide the matter by ruling",
+   "The documents go to the Executive Yuan, whose premier designates one minister to decide by administrative order"
+  ],
+  "ex_en": "Article 11 sends the documents to the ruling committee, whose chairperson names three or five members to decide collegially."
+ },
+ {
+  "file": "batch9_c4",
+  "idx": 16,
+  "law_id": "ENV-95",
+  "law": "公害糾紛處理法施行細則",
+  "art": "第20條",
+  "q_zh": "調處委員會因調查證據之必要，得為下列何種處置？",
+  "opt_zh": [
+   "請當事人或關係人提出文書表冊物件、詢問證人或鑑定人、請有關機關協助提供文書、進行勘驗或鑑定",
+   "拘提無正當理由不到場之證人、對拒絕陳述者科處罰鍰、查封當事人之財產、限制當事人出境",
+   "搜索當事人之營業處所、扣押相關帳冊憑證、監聽當事人之通訊、命令關係人具保後始得離境",
+   "命當事人先行繳納鑑定費用、指定特定鑑定機構、逕行採信一造之陳述、拒絕另一造提出證據"
+  ],
+  "ans": "a",
+  "ex_zh": "第20條：調處委員會因調查證據之必要，得請當事人或其他關係人提出文書、表冊及物件，聽取當事人之意見、詢問證人或鑑定人或取得其書面意見，請有關機關協助提供有關文書、表冊及物件，以及進行勘驗或鑑定等四款處置。第22條並規定當事人或代理人於調處進行中得請求閱覽、抄錄或影印有關文書表冊及物件。",
+  "q_en": "What measures may the mediation committee take when investigating evidence?",
+  "opt_en": [
+   "Ask parties or others to produce documents and objects, question witnesses or experts, seek agency assistance, and conduct inspection or appraisal",
+   "Summon absent witnesses by force, fine those refusing to state, seize the parties' property, and restrict the parties from leaving the country",
+   "Search the parties' business premises, impound account books and vouchers, intercept communications, and require bail before departure",
+   "Order a party to prepay appraisal fees, designate a particular appraiser, accept one side's statement, and refuse the other's evidence"
+  ],
+  "ex_en": "Article 20 lists production of documents, questioning of witnesses and experts, agency assistance, and inspection or appraisal."
+ },
+ {
+  "file": "batch9_c4",
+  "idx": 24,
+  "law_id": "ENV-95",
+  "law": "公害糾紛處理法施行細則",
+  "art": "第33條",
+  "q_zh": "本法第16條第1項、第33條第1項之申請，多數有共同利益之當事人得如何為之？",
+  "opt_zh": [
+   "多數有共同利益之公害糾紛當事人得單獨或共同為之",
+   "多數有共同利益之公害糾紛當事人僅得共同為之",
+   "多數有共同利益之公害糾紛當事人僅得單獨為之",
+   "應先選定當事人後由被選定之人代表全體為之"
+  ],
+  "ans": "a",
+  "ex_zh": "第33條：本法第十六條第一項、第三十三條第一項之申請，多數有共同利益之公害糾紛當事人得單獨或共同為之。第11條並就本法第十六條第一項指定管轄之申請程序另有規定；第16條則就選定當事人之效果為規範。",
+  "q_en": "How may multiple parties with a common interest make an application under Article 16 or 33 of the Act?",
+  "opt_en": [
+   "Parties with a common interest may make the application individually or jointly",
+   "Parties with a common interest may make the application only jointly together",
+   "Parties with a common interest may make the application only individually",
+   "They must first select representatives who then apply on behalf of them all"
+  ],
+  "ex_en": "Article 33 allows such applications individually or jointly."
+ },
+ {
+  "file": "batch9_c5",
+  "idx": 0,
+  "law_id": "ENV-97",
+  "law": "環境檢驗測定機構管理辦法",
+  "art": "第1條",
+  "q_zh": "《環境檢驗測定機構管理辦法》之訂定，係依據何種法律之授權？",
+  "opt_zh": [
+   "依空氣污染防制法、水污染防治法、廢棄物清理法、氣候變遷因應法等十部環保法律之授權規定訂定",
+   "依環境基本法及行政程序法之概括授權規定訂定，並經行政院核定後由中央主管機關發布施行",
+   "依環境影響評估法及環境教育法之特別授權規定訂定，並適用於所有環境檢驗與監測之業務",
+   "依商品檢驗法及計量法之授權規定訂定，並由經濟部會同中央主管機關共同發布後施行之"
+  ],
+  "ans": "a",
+  "ex_zh": "第1條：本辦法依空氣污染防制法第49條第2項、室內空氣品質管理法第11條第2項、噪音管制法第20條第2項、水污染防治法第23條第2項、土壤及地下水污染整治法第10條第2項、廢棄物清理法第43條第2項、毒性及關注化學物質管理法第44條第3項、環境用藥管理法第36條第2項、飲用水管理條例第12條之1第2項及氣候變遷因應法第41條第2項規定訂定之。",
+  "q_en": "Which statutes authorize these Regulations?",
+  "opt_en": [
+   "Ten environmental statutes including the Air Pollution Control Act, Water Pollution Control Act, Waste Disposal Act and Climate Change Response Act",
+   "The general authorization of the Basic Environment Act and the Administrative Procedure Act, promulgated after Executive Yuan approval",
+   "The special authorization of the Environmental Impact Assessment Act and the Environmental Education Act, covering all monitoring work",
+   "The authorization of the Commodity Inspection Act and the Weights and Measures Act, promulgated jointly by the Ministry of Economic Affairs"
+  ],
+  "ex_en": "Article 1 lists ten environmental statutes, including the Air Pollution Control Act and the Climate Change Response Act."
+ },
+ {
+  "file": "batch9_c5",
+  "idx": 8,
+  "law_id": "ENV-97",
+  "law": "環境檢驗測定機構管理辦法",
+  "art": "第14條",
+  "q_zh": "中央主管機關為辦理檢測機構許可證之審查、評鑑及諮詢，得設置何種組織？其委員人數及任期為何？",
+  "opt_zh": [
+   "得設評鑑技術審議會，置委員二十一人至二十五人，任期均為二年，期滿得續聘之",
+   "得設環境檢驗諮詢委員會，置委員十一人至十五人，任期均為三年，期滿不得續聘",
+   "得設品質系統評鑑小組，置委員五人至九人，任期均為一年，期滿應全數改聘之",
+   "得設檢測技術輔導團，置委員三十一人至三十五人，任期均為四年，並得連任之"
+  ],
+  "ans": "a",
+  "ex_zh": "第14條第1項：中央主管機關為辦理檢測機構許可證之審查、評鑑及諮詢，得設評鑑技術審議會（審議會）。第2項：審議會置委員二十一人至二十五人，任期均為二年，期滿得續聘之。第26條並規定中央主管機關得委託相關機關或機構辦理檢測機構之輔導、審查、評鑑及查核事項。",
+  "q_en": "What body may the central authority set up for permit review, evaluation and consultation, and what is its composition?",
+  "opt_en": [
+   "An evaluation and technical review board of 21 to 25 members, each serving a two-year term and eligible for reappointment",
+   "An environmental testing advisory committee of 11 to 15 members, each serving a three-year term without reappointment",
+   "A quality system evaluation group of 5 to 9 members, each serving a one-year term after which all must be replaced",
+   "A testing technology guidance corps of 31 to 35 members, each serving a four-year term and eligible for another term"
+  ],
+  "ex_en": "Article 14 provides for an evaluation and technical review board of 21 to 25 members serving two-year renewable terms."
+ },
+ {
+  "file": "batch9_c5",
+  "idx": 16,
+  "law_id": "ENV-97",
+  "law": "環境檢驗測定機構管理辦法",
+  "art": "第24條",
+  "q_zh": "下列何者屬檢測機構應依各該環保法律罰則規定處罰之情形？",
+  "opt_zh": [
+   "已申報採樣行程未實際到場執行採樣，或發生採樣時間或地點申報不實之情形",
+   "檢測報告之格式未依機構內部規章製作，或報告未於出具後三日內寄送客戶",
+   "檢驗室之儀器設備未於每年年底前完成盤點，或設備使用紀錄未以電腦建檔",
+   "檢測人員未參加公（協）會舉辦之研討會，或機構未加入相關同業公會組織"
+  ],
+  "ans": "a",
+  "ex_zh": "第24條列舉十款應依空氣污染防制法第70條、水污染防治法第49條、廢棄物清理法第58條、氣候變遷因應法第50條等各該罰則處罰之情形，其中第9款即為已申報採樣行程未實際到場執行採樣，或發生採樣時間或地點申報不實。其餘尚包括違反第3條第2項、第17條、第18條第1項、第19條、第20條第1項、第21條、第22條規定及有第16條之1任一違規情形等。",
+  "q_en": "Which situation subjects a testing agency to penalties under the relevant environmental statutes?",
+  "opt_en": [
+   "A declared sampling trip where no one actually attended to sample, or a false declaration of the sampling time or place",
+   "A report format not matching the agency's internal rules, or a report not sent to the client within three days of issue",
+   "Laboratory instruments not inventoried before the end of each year, or equipment use records not kept in a computer file",
+   "Testing personnel not attending association seminars, or the agency not joining the relevant trade association body"
+  ],
+  "ex_en": "Article 24, subparagraph 9 covers unattended declared sampling trips and false declarations of sampling time or place."
+ },
+ {
+  "file": "batch9_c6",
+  "idx": 0,
+  "law_id": "ENV-57",
+  "law": "一般廢棄物回收清除處理辦法",
+  "art": "第33條",
+  "q_zh": "《一般廢棄物回收清除處理辦法》第33條之現行條文內容為何？",
+  "opt_zh": [
+   "該條已刪除而無實質規定；灰渣採穩定化法處理後之衛生掩埋，現依第三十一條規定辦理",
+   "該條規定灰渣得逕行運至安定掩埋場掩埋；其掩埋作業並依第二十八條規定辦理即可",
+   "該條規定飛灰處理後衍生物免辦理戴奧辛檢測；其最終處置依第二十七條規定辦理之",
+   "該條規定衛生掩埋場得免設置地下水監測井；其監測作業依第三十條規定辦理即可"
+  ],
+  "ans": "a",
+  "ex_zh": "本辦法第33條現行條文僅載「（刪除）」，已無實質規定。灰渣採穩定化法處理後以衛生掩埋處理者，現依第31條規定應獨立分區掩埋、設置獨立滲出水收集系統並以雙層不透水材質構築，並每季檢測滲出水處理後及上下游地下水監測井水質。第27條第4項並規定底渣最終處置應每季檢測戴奧辛及重金屬。",
+  "q_en": "What does Article 33 of these Regulations currently provide?",
+  "opt_en": [
+   "The article has been deleted and has no substantive content; stabilized ash placed in sanitary landfill is now governed by Article 31",
+   "The article allows incineration ash to be taken directly to a stabilized landfill, with the landfill operation governed by Article 28",
+   "The article exempts derivatives of treated fly ash from dioxin testing, with final disposal governed by Article 27",
+   "The article exempts sanitary landfills from installing groundwater monitoring wells, with monitoring under Article 30"
+  ],
+  "ex_en": "Article 33 has been deleted; stabilized ash in sanitary landfill is governed by Article 31."
+ },
+ {
+  "file": "batch9_d",
+  "idx": 0,
+  "law_id": "ENV-64",
+  "law": "開發行為應實施環境影響評估細目及範圍認定標準",
+  "art": "第2條",
+  "q_zh": "本標準所稱「興建」與「擴建（含擴大）」，其定義為何？",
+  "opt_zh": [
+   "興建指開發單位向目的事業主管機關申請開發行為許可；擴建指原已取得許可之開發行為申請擴增其開發基地面積",
+   "興建指開發單位取得建造執照並實際動工開挖整地；擴建指原已取得許可之開發行為申請提高其生產設備產能",
+   "興建指開發行為完工後首次向主管機關申請營運登記；擴建指原開發行為變更其負責人或變更營業項目登記",
+   "興建指目的事業主管機關核發開發許可之日起算；擴建指開發基地內既有建築物之改建、修繕或汰舊換新"
+  ],
+  "ans": "a",
+  "ex_zh": "第2條第1款：興建指開發單位向目的事業主管機關申請開發行為許可。第2款：擴建（含擴大）指原已取得目的事業主管機關許可之開發行為，開發單位申請擴增其開發基地面積。同條並定義水庫集水區分為第一級、第二級水庫集水區及攔河堰集水區，農業用地指依區域計畫法編定之農牧、林業、養殖、水利、生態保護用地。",
+  "q_en": "How does this Standard define construction and expansion?",
+  "opt_en": [
+   "Construction is the developer applying to the industry authority for development permission; expansion is an already permitted development applying to enlarge its site area",
+   "Construction is the developer obtaining a building permit and actually starting excavation; expansion is an already permitted development applying to raise its production capacity",
+   "Construction is applying for an operating registration for the first time after completion; expansion is registering a change of responsible person or of business items",
+   "Construction is the date the industry authority issues the development permit; expansion is rebuilding, repairing or replacing existing buildings inside the site"
+  ],
+  "ex_en": "Article 2, subparagraphs 1 and 2."
+ },
+ {
+  "file": "batch9_d1",
+  "idx": 0,
+  "law_id": "ENV-64",
+  "law": "開發行為應實施環境影響評估細目及範圍認定標準",
+  "art": "第1條",
+  "q_zh": "開發行為應實施環境影響評估細目及範圍認定標準，係依何法何條授權訂定？",
+  "opt_zh": [
+   "環境影響評估法第五條第二項",
+   "環境影響評估法第四條第一項",
+   "環境影響評估法第六條第三項",
+   "環境影響評估法第十一條第二項"
+  ],
+  "ans": "a",
+  "ex_zh": "第1條：本標準依環境影響評估法第五條第二項規定訂定之。環評法第五條第一項列舉應實施環評之開發行為類別，第二項授權中央主管機關會商目的事業主管機關訂定其細目及範圍認定標準。",
+  "q_en": "Under which provision is this Standard enacted?",
+  "opt_en": [
+   "Article 5, paragraph 2 of the Environmental Impact Assessment Act",
+   "Article 4, paragraph 1 of the Environmental Impact Assessment Act",
+   "Article 6, paragraph 3 of the Environmental Impact Assessment Act",
+   "Article 11, paragraph 2 of the Environmental Impact Assessment Act"
+  ],
+  "ex_en": "Article 1."
+ },
+ {
+  "file": "batch9_d1",
+  "idx": 8,
+  "law_id": "ENV-64",
+  "law": "開發行為應實施環境影響評估細目及範圍認定標準",
+  "art": "第14條",
+  "q_zh": "防洪排水工程之開發，河川疏濬計畫及滯洪池工程達何規模應實施環境影響評估？",
+  "opt_zh": [
+   "疏濬沿河身長度五公里以上、同一主支流累積五公里以上或同一水系累積十五公里以上；滯洪池申請開發面積一百公頃以上",
+   "疏濬沿河身長度十公里以上、同一主支流累積二十公里以上或同一水系累積三十公里以上；滯洪池申請開發面積二百公頃以上",
+   "疏濬沿河身長度一公里以上、同一主支流累積二公里以上或同一水系累積五公里以上；滯洪池申請開發面積二十公頃以上者",
+   "疏濬沿河身長度三公里以上、同一主支流累積十公里以上或同一水系累積二十公里以上；滯洪池申請開發面積五十公頃以上"
+  ],
+  "ans": "a",
+  "ex_zh": "第14條第1款：河川水道變更工程（天然改道除外）不分規模應實施環評。第2款：河川疏濬計畫沿河身計其長度五公里以上，或同一主、支流河川疏濬長度累積五公里以上，或同一水系累積十五公里以上。第4款：防洪排水之滯洪池工程申請開發面積一百公頃以上，但利用廢棄鹽田、魚塭開發或位於地下水管制區第一級管制區者除外。第3款第6目：河堤工程沿河身十公里以上或同一水系累積三十公里以上。",
+  "q_en": "What scale of river dredging and detention pond works triggers EIA?",
+  "opt_en": [
+   "Dredging 5 km along the river, 5 km cumulative on one main or tributary stream, or 15 km cumulative in one water system; detention ponds of 100 hectares or more",
+   "Dredging 10 km along the river, 20 km cumulative on one main or tributary stream, or 30 km cumulative in one water system; detention ponds of 200 hectares or more",
+   "Dredging 1 km along the river, 2 km cumulative on one main or tributary stream, or 5 km cumulative in one water system; detention ponds of 20 hectares or more",
+   "Dredging 3 km along the river, 10 km cumulative on one main or tributary stream, or 20 km cumulative in one water system; detention ponds of 50 hectares or more"
+  ],
+  "ex_en": "Article 14, subparagraphs 2 and 4."
+ },
+ {
+  "file": "batch9_d1",
+  "idx": 16,
+  "law_id": "ENV-64",
+  "law": "開發行為應實施環境影響評估細目及範圍認定標準",
+  "art": "第22條",
+  "q_zh": "運動場地之興建或擴建，其室內球場、體育館及運動場地面積達多少應實施環境影響評估？",
+  "opt_zh": [
+   "位於山坡地或一般保護區室內球場、體育館面積一公頃以上；室內球場、體育館面積三公頃以上；運動場地面積五公頃以上",
+   "位於山坡地或一般保護區室內球場、體育館面積五公頃以上；室內球場、體育館面積十公頃以上；運動場地面積二十公頃以上",
+   "位於山坡地或一般保護區室內球場、體育館面積○．五公頃以上；室內球場、體育館面積一公頃以上；運動場地面積二公頃以上",
+   "位於山坡地或一般保護區室內球場、體育館面積十公頃以上；室內球場、體育館面積二十公頃以上；運動場地面積三十公頃以上"
+  ],
+  "ans": "a",
+  "ex_zh": "第22條第1項第1款第5目至第8目：位於山坡地或一般保護區，申請開發或累積開發室內球場、體育館面積一公頃以上；位於特定農業區之農業用地一公頃以上；申請開發或累積開發室內球場、體育館面積三公頃以上；申請開發或累積開發運動場地面積五公頃以上。第2款：運動公園之興建或擴建適用第1款第1目至第6目規定。第2項：運動場地位於學校內且主要供校內師生教學使用者，適用文教建設之開發規定。",
+  "q_en": "What indoor court, gymnasium and sports ground areas trigger EIA?",
+  "opt_en": [
+   "Indoor courts or gymnasiums of 1 hectare on slopeland or a general protection area; 3 hectares overall; sports grounds of 5 hectares or more",
+   "Indoor courts or gymnasiums of 5 hectares on slopeland or a general protection area; 10 hectares overall; sports grounds of 20 hectares or more",
+   "Indoor courts or gymnasiums of 0.5 hectare on slopeland or a general protection area; 1 hectare overall; sports grounds of 2 hectares or more",
+   "Indoor courts or gymnasiums of 10 hectares on slopeland or a general protection area; 20 hectares overall; sports grounds of 30 hectares or more"
+  ],
+  "ex_en": "Article 22, paragraph 1, subparagraph 1, items 5 to 8."
+ },
+ {
+  "file": "batch9_d1",
+  "idx": 24,
+  "law_id": "ENV-64",
+  "law": "開發行為應實施環境影響評估細目及範圍認定標準",
+  "art": "第29條",
+  "q_zh": "能源或輸變電工程之開發，下列何種情形免實施環境影響評估？",
+  "opt_zh": [
+   "屬利用再生能源之發電設備且裝置容量未達二千瓩；或屬試驗性計畫並經目的事業主管機關核准者",
+   "屬利用再生能源之發電設備且裝置容量未達二萬瓩；或屬示範性計畫並報請中央主管機關備查者",
+   "屬利用任何能源之發電設備且裝置容量未達五千瓩；或屬商業性計畫並經地方主管機關同意者",
+   "屬利用再生能源之發電設備且裝置容量未達五百瓩；或屬營利性計畫並經目的事業主管機關備查"
+  ],
+  "ans": "a",
+  "ex_zh": "第29條第4項：第1項開發行為（除設置太陽光電發電系統外）符合下列規定之一者免實施環評：屬利用再生能源之發電設備，其裝置容量未達二千瓩；屬試驗性計畫且經目的事業主管機關核准。第2項並規定小水力發電裝置容量未達二萬瓩，利用既有圳路管渠或引水點下游水量維持每秒二立方公尺以上並經審核確認者，免實施環評。",
+  "q_en": "Which energy developments are exempt from EIA?",
+  "opt_en": [
+   "Renewable energy generating equipment with installed capacity under 2,000 kW; or a pilot project approved by the industry authority",
+   "Renewable energy generating equipment with installed capacity under 20,000 kW; or a demonstration project filed with the central authority",
+   "Any generating equipment with installed capacity under 5,000 kW; or a commercial project agreed to by the local competent authority",
+   "Renewable energy generating equipment with installed capacity under 500 kW; or a for-profit project recorded by the industry authority"
+  ],
+  "ex_en": "Article 29, paragraphs 2 and 4."
+ },
+ {
+  "file": "batch9_d10",
+  "idx": 0,
+  "law_id": "ENV-76",
+  "law": "環境用藥管理法",
+  "art": "第31條",
+  "q_zh": "環境用藥微生物製劑致污染環境、危害生態或人體健康時，應如何處理？至遲多久內報知？",
+  "opt_zh": [
+   "負責人或實際運作人應立即採取緊急防治措施，並至遲於二小時內報知當地直轄市、縣（市）主管機關；主管機關得立即禁止與該污染有關之各項運作行為",
+   "負責人或實際運作人應立即採取緊急防治措施，並至遲於二十四小時內報知中央主管機關；主管機關僅得命其限期改善而不得禁止與該污染有關之運作行為",
+   "負責人或實際運作人得先行觀察後續發展情形，並至遲於七日內報知當地直轄市、縣（市）主管機關；主管機關應俟調查完成後始得禁止相關之運作行為",
+   "負責人或實際運作人應立即停止全部營業，並至遲於三十日內報知目的事業主管機關；主管機關應先舉行聽證程序後始得禁止與該污染有關之各項運作行為"
+  ],
+  "ans": "a",
+  "ex_zh": "第31條第1項：環境用藥微生物製劑如致污染環境、危害生態或人體健康時，其負責人或實際運作人，應立即採取緊急防治措施，並至遲於二小時內，報知當地直轄市、縣（市）主管機關。第2項：前項情形，直轄市、縣（市）主管機關得立即禁止與該污染有關之製造、加工、分裝、調配、輸入、輸出、運送、販賣、貯存、使用、試驗研究及教育示範等運作行為。第48條第1款並規定違反第31條第1項、第2項規定者，處新臺幣六萬元以上三十萬元以下罰鍰。",
+  "q_en": "What must be done when a microbial preparation pollutes or harms health, and within what time?",
+  "opt_en": [
+   "The responsible person or actual operator must take emergency control measures at once and report to the local authority within two hours at the latest; that authority may immediately ban the related operations",
+   "The responsible person or actual operator must take emergency measures at once and report to the central authority within 24 hours at the latest; the authority may only order improvement and may not ban operations",
+   "The responsible person or actual operator may first observe how matters develop and report to the local authority within seven days; the authority may ban operations only after its investigation is complete",
+   "The responsible person or actual operator must halt all business at once and report to the industry authority within 30 days; the authority must hold a hearing before banning any related operations"
+  ],
+  "ex_en": "Articles 31 and 48."
+ },
+ {
+  "file": "batch9_d10",
+  "idx": 8,
+  "law_id": "ENV-76",
+  "law": "環境用藥管理法",
+  "art": "第39條",
+  "q_zh": "主管機關查獲劣質環境用藥，應通知業者於何期限內列冊及收回市售品？",
+  "opt_zh": [
+   "自通知書到達翌日起七日內將庫存品列冊，一個月內將市售之劣質環境用藥收回列冊",
+   "自通知書到達翌日起七日內將庫存品列冊，十五日內將市售之劣質環境用藥收回列冊",
+   "自通知書到達翌日起十五日內將庫存品列冊，三個月內將市售之劣質環境用藥收回列冊",
+   "自通知書到達翌日起三十日內將庫存品列冊，六個月內將市售之劣質環境用藥收回列冊"
+  ],
+  "ans": "a",
+  "ex_zh": "第39條：主管機關查獲劣質環境用藥，應通知製造、加工、輸入或販賣者，自通知書到達翌日起七日內將庫存品列冊，一個月內將市售之劣質環境用藥收回列冊，分別報請直轄市、縣（市）主管機關備查、點驗。相較之下，第38條就偽造或禁用環境用藥之市售品收回期限則為十五日，較劣質環境用藥為短。",
+  "q_en": "Within what periods must substandard agents be listed and recalled from the market?",
+  "opt_en": [
+   "Stock listed within seven days from the day after the notice arrives, and market products recalled and listed within one month",
+   "Stock listed within seven days from the day after the notice arrives, and market products recalled and listed within fifteen days",
+   "Stock listed within fifteen days from the day after the notice arrives, and market products recalled and listed within three months",
+   "Stock listed within thirty days from the day after the notice arrives, and market products recalled and listed within six months"
+  ],
+  "ex_en": "Articles 38 and 39."
+ },
+ {
+  "file": "batch9_d10",
+  "idx": 16,
+  "law_id": "ENV-76",
+  "law": "環境用藥管理法",
+  "art": "第47條",
+  "q_zh": "違反第16條第2項專供輸出環境用藥不得在國內販賣，或第23條第2項試驗研究用環境用藥不得販賣或移作他用者，處多少罰鍰？",
+  "opt_zh": [
+   "處新臺幣九萬元以上四十五萬元以下罰鍰",
+   "處新臺幣三萬元以上十五萬元以下罰鍰",
+   "處新臺幣六萬元以上三十萬元以下罰鍰",
+   "處新臺幣三十萬元以上一百五十萬元以下罰鍰"
+  ],
+  "ans": "a",
+  "ex_zh": "第47條：違反第十六條第二項或第二十三條第二項規定者，處新臺幣九萬元以上四十五萬元以下罰鍰。第16條第2項規定經核准專供輸出之環境用藥不得在國內販賣或移作他用；第23條第2項規定專供試驗研究、教育示範、專案防治或申請登記用之環境用藥不得販賣或移作他用。",
+  "q_en": "What fine applies to breaching Article 16(2) or Article 23(2)?",
+  "opt_en": [
+   "A fine of NT$90,000 to NT$450,000",
+   "A fine of NT$30,000 to NT$150,000",
+   "A fine of NT$60,000 to NT$300,000",
+   "A fine of NT$300,000 to NT$1.5 million"
+  ],
+  "ex_en": "Articles 16, 23 and 47."
+ },
+ {
+  "file": "batch9_d10",
+  "idx": 24,
+  "law_id": "ENV-76",
+  "law": "環境用藥管理法",
+  "art": "第55條",
+  "q_zh": "經撤銷、廢止環境用藥許可證或許可執照者，其重行申請有何限制？",
+  "opt_zh": [
+   "一年內不得再提出申請該項許可證或許可執照；其原許可證之品名，二年內亦不得再申請使用",
+   "三年內不得再提出申請該項許可證或許可執照；其原許可證之品名，五年內亦不得再申請使用",
+   "六個月內不得再提出申請該項許可證或許可執照；其原許可證之品名則不受任何限制得隨時申請",
+   "終身不得再提出申請該項許可證或許可執照；其原許可證之品名亦永久不得再由任何人申請使用"
+  ],
+  "ans": "a",
+  "ex_zh": "第55條：經撤銷、廢止環境用藥許可證或許可執照者，一年內不得再提出申請該項許可證或許可執照；其原許可證之品名，二年內亦不得再申請使用。此規定使受撤銷廢止處分者於一定期間內不得規避處分效果，並避免以相同品名混淆消費者。",
+  "q_en": "What restriction applies to re-applying after a permit or licence is revoked?",
+  "opt_en": [
+   "No fresh application for that permit or licence may be made for one year; and the product name on the original permit may not be applied for again for two years",
+   "No fresh application for that permit or licence may be made for three years; and the product name on the original permit may not be applied for again for five years",
+   "No fresh application for that permit or licence may be made for six months; and the product name on the original permit is unrestricted and may be applied for at any time",
+   "No fresh application for that permit or licence may ever be made again; and the product name on the original permit may never be applied for again by anyone"
+  ],
+  "ex_en": "Article 55."
+ },
+ {
+  "file": "batch9_d2",
+  "idx": 0,
+  "law_id": "ENV-64",
+  "law": "開發行為應實施環境影響評估細目及範圍認定標準",
+  "art": "第31條",
+  "q_zh": "工商綜合區或大型購物中心之興建或擴建，達何規模應實施環境影響評估？",
+  "opt_zh": [
+   "位於山坡地、國家風景區或一般保護區面積一公頃以上；申請開發或累積開發面積十公頃以上",
+   "位於山坡地、國家風景區或一般保護區面積五公頃以上；申請開發或累積開發面積二十公頃以上",
+   "位於山坡地、國家風景區或一般保護區面積○．五公頃以上；申請開發或累積開發面積三公頃以上",
+   "位於山坡地、國家風景區或一般保護區面積十公頃以上；申請開發或累積開發面積三十公頃以上"
+  ],
+  "ans": "a",
+  "ex_zh": "第31條第7款至第9款：工商綜合區或大型購物中心興建或擴建，位於山坡地、國家風景區或臺灣沿海地區一般保護區申請開發或累積開發面積一公頃以上、位於特定農業區之農業用地一公頃以上、申請開發或累積開發面積十公頃以上者應實施環評。第1款至第6款規定位於國家公園、重要濕地、水庫集水區、海拔一千五百公尺以上等區位者不分規模應實施。",
+  "q_en": "What scale of commercial complex or large shopping centre triggers EIA?",
+  "opt_en": [
+   "1 hectare or more on slopeland, a national scenic area or general protection area; or 10 hectares or more overall",
+   "5 hectares or more on slopeland, a national scenic area or general protection area; or 20 hectares or more overall",
+   "0.5 hectare or more on slopeland, a national scenic area or general protection area; or 3 hectares or more overall",
+   "10 hectares or more on slopeland, a national scenic area or general protection area; or 30 hectares or more overall"
+  ],
+  "ex_en": "Article 31, subparagraphs 7 to 9."
+ },
+ {
+  "file": "batch9_d2",
+  "idx": 8,
+  "law_id": "ENV-64",
+  "law": "開發行為應實施環境影響評估細目及範圍認定標準",
+  "art": "第39條",
+  "q_zh": "矯正機關或其他以拘禁、感化為目的之收容機構，其興建或擴建之面積門檻為何？",
+  "opt_zh": [
+   "位於山坡地或國家風景區五公頃以上，同時位於自來水水質水量保護區或水庫集水區者一公頃以上；申請開發面積十公頃以上",
+   "位於山坡地或國家風景區十公頃以上，同時位於自來水水質水量保護區或水庫集水區者五公頃以上；申請開發面積二十公頃以上",
+   "位於山坡地或國家風景區一公頃以上，同時位於自來水水質水量保護區或水庫集水區者○．五公頃以上；申請開發面積二公頃以上",
+   "位於山坡地或國家風景區二十公頃以上，同時位於自來水水質水量保護區或水庫集水區者十公頃以上；申請開發面積五十公頃以上"
+  ],
+  "ans": "a",
+  "ex_zh": "第39條第6款至第8款：矯正機關、保安處分處所或其他以拘禁、感化為目的之收容機構興建或擴建，位於山坡地、國家風景區或一般保護區申請開發或累積開發面積五公頃以上，其同時位於自來水水質水量保護區或水庫集水區者一公頃以上；位於特定農業區之農業用地五公頃以上；申請開發或累積開發面積十公頃以上者應實施環評。",
+  "q_en": "What area thresholds apply to correctional or custodial institutions?",
+  "opt_en": [
+   "5 hectares on slopeland or a national scenic area, 1 hectare if also in a water protection area or reservoir catchment; or 10 hectares overall",
+   "10 hectares on slopeland or a national scenic area, 5 hectares if also in a water protection area or reservoir catchment; or 20 hectares overall",
+   "1 hectare on slopeland or a national scenic area, 0.5 hectare if also in a water protection area or reservoir catchment; or 2 hectares overall",
+   "20 hectares on slopeland or a national scenic area, 10 hectares if also in a water protection area or reservoir catchment; or 50 hectares overall"
+  ],
+  "ex_en": "Article 39, subparagraphs 6 to 8."
+ },
+ {
+  "file": "batch9_d2",
+  "idx": 16,
+  "law_id": "ENV-64",
+  "law": "開發行為應實施環境影響評估細目及範圍認定標準",
+  "art": "第47條",
+  "q_zh": "經環評審查完成之開發行為，事後有何情形致原開發行為未符合應實施環評之規定者，開發單位得辦理變更？",
+  "opt_zh": [
+   "開發行為規模降低、環境敏感區位劃定之變更、應實施環評之規定修正或其他相關法令之修正",
+   "開發行為規模提高、環境敏感區位範圍之擴大、應實施環評之規定新增或其他相關法令之制定",
+   "開發單位負責人變更、開發基地所有權之移轉、目的事業主管機關改組或審查委員之改聘者",
+   "開發行為工期之延長、施工廠商之更換、環境監測項目之增列或環境保護對策之部分調整者"
+  ],
+  "ans": "a",
+  "ex_zh": "第47條第1項：經環境影響評估審查完成之開發行為，事後於進行中或完成後，有開發行為規模降低、環境敏感區位劃定之變更、應實施環境影響評估之規定修正、其他相關法令之修正等情形之一，致原開發行為未符合應實施環評之規定者，開發單位得依本法第16條規定辦理變更說明書或評估書、審查結論內容。第2項：於審查完成前有上開情形者，主管機關應將說明書或評估書退回目的事業主管機關。",
+  "q_en": "After EIA approval, which changes let a developer apply to modify the EIA documents?",
+  "opt_en": [
+   "A reduction in development scale, a change in designated sensitive area boundaries, amendment of the EIA thresholds, or amendment of other related laws",
+   "An increase in development scale, an enlargement of sensitive area boundaries, addition of new EIA thresholds, or enactment of other related laws",
+   "A change of the developer's responsible person, transfer of site ownership, reorganisation of the industry authority, or replacement of review committee members",
+   "An extension of the construction period, a change of contractor, addition of monitoring items, or partial adjustment of environmental protection measures"
+  ],
+  "ex_en": "Article 47."
+ },
+ {
+  "file": "batch9_d3",
+  "idx": 0,
+  "law_id": "ENV-65",
+  "law": "開發行為環境影響評估作業準則",
+  "art": "第1條",
+  "q_zh": "開發行為環境影響評估作業準則之訂定依據為何？",
+  "opt_zh": [
+   "環境影響評估法第五條第二項",
+   "環境影響評估法第七條第一項",
+   "環境影響評估法第十三條第三項",
+   "環境影響評估法第二十六條規定"
+  ],
+  "ans": "a",
+  "ex_zh": "第1條：本準則依環境影響評估法第五條第二項規定訂定之。與開發行為應實施環境影響評估細目及範圍認定標準同屬環評法第五條第二項之授權命令，前者定應否實施環評，本準則則定書件之製作方式。",
+  "q_en": "Under which provision are these Guidelines enacted?",
+  "opt_en": [
+   "Article 5, paragraph 2 of the Environmental Impact Assessment Act",
+   "Article 7, paragraph 1 of the Environmental Impact Assessment Act",
+   "Article 13, paragraph 3 of the Environmental Impact Assessment Act",
+   "Article 26 of the Environmental Impact Assessment Act"
+  ],
+  "ex_en": "Article 1."
+ },
+ {
+  "file": "batch9_d3",
+  "idx": 8,
+  "law_id": "ENV-65",
+  "law": "開發行為環境影響評估作業準則",
+  "art": "第9條",
+  "q_zh": "開發單位於開始進行環境影響評估時，應於指定網站刊登事項供表達意見之期間為何？並應告知哪些對象？",
+  "opt_zh": [
+   "自刊登日起二十日內表達意見；並以書面告知目的事業主管機關及基地所在地之縣市政府、縣市議會、鄉鎮市區公所、鄉鎮市代表會及村里辦公處",
+   "自刊登日起十日內表達意見；並以口頭告知目的事業主管機關及基地所在地之縣市政府、縣市議會、鄉鎮市區公所、鄉鎮市代表會及村里辦公處等",
+   "自刊登日起六十日內表達意見；並以書面告知中央主管機關及基地所在地之警察機關、消防機關、衛生機關、地政機關及戶政事務所等單位",
+   "自刊登日起三十日內表達意見；並以公告方式告知目的事業主管機關及基地周界五百公尺內之全體土地所有權人與建築物所有權人等"
+  ],
+  "ans": "a",
+  "ex_zh": "第9條第1項：開發單位於開始進行環境影響評估時，應於中央主管機關指定網站刊登開發行為名稱、開發單位名稱、開發行為內容基地及地理位置圖、預定調查或蒐集之項目地點時間及頻率，供民眾、團體及機關於刊登日起二十日內以書面或於指定網站表達意見。第2項：並應以書面告知目的事業主管機關及基地所在地之直轄市或縣市政府、議會、鄉鎮市區公所、鄉鎮市代表會、村里辦公處。第3項：應記載並參酌所表達意見據以檢討規劃評估內容。",
+  "q_en": "What comment period and notification apply when EIA work begins?",
+  "opt_en": [
+   "Comments within 20 days of posting; written notice to the industry authority and the local government, council, township office, township representative council and village office",
+   "Comments within 10 days of posting; oral notice to the industry authority and the local government, council, township office, township representative council and village office",
+   "Comments within 60 days of posting; written notice to the central authority and the local police, fire, health and land administration agencies and household registration office",
+   "Comments within 30 days of posting; public notice to the industry authority and all landowners and building owners within 500 m of the site boundary"
+  ],
+  "ex_en": "Article 9."
+ },
+ {
+  "file": "batch9_d3",
+  "idx": 16,
+  "law_id": "ENV-65",
+  "law": "開發行為環境影響評估作業準則",
+  "art": "第17條",
+  "q_zh": "開發行為產生之廢（污）水排放，本準則有何規定？",
+  "opt_zh": [
+   "廢（污）水應妥善處理始得排放；經前處理排放至既有污水下水道系統者應附該主管機構之同意文件；排放至河川海洋等水體者應評估對水質、水域生態之影響",
+   "廢（污）水得先行排放再補行處理；排放至既有污水下水道系統者僅需通知管理單位即可；排放至河川海洋等水體者免評估對水質及水域生態之影響",
+   "廢（污）水應全部回收不得排放；排放至既有污水下水道系統者應繳納三倍納管費用；排放至河川海洋者應取得下游全體用水人之書面同意文件",
+   "廢（污）水處理由主管機關代為規劃；排放至既有污水下水道系統者由下水道機構負責；排放至河川海洋者僅需於營運後每年檢測水質一次即可"
+  ],
+  "ans": "a",
+  "ex_zh": "第17條第1項：開發行為對施工及營運期間所產生之點源及非點源污染應予預防、管理並納入環境保護對策；廢（污）水應妥善處理始得排放；其經前處理排放至既有之污水下水道系統者，應附該有關主管機構之同意文件；自行規劃設置廢（污）水處理設施者應併案進行評估、分析及影響預測。第2項：排放至河川、海洋、湖泊、水庫或灌溉、灌排系統者，應評估對該水體水質、水域生態之影響。第3項：承受水體自放流口以下至出海口前有自來水取水口者，應進行分析及評估。",
+  "q_en": "What rules apply to wastewater discharge from a development?",
+  "opt_en": [
+   "Wastewater must be properly treated before discharge; pre-treated discharge to an existing sewer needs that authority's consent document; discharge to rivers or seas requires assessment of water quality and aquatic ecology impacts",
+   "Wastewater may be discharged first and treated afterwards; discharge to an existing sewer requires only notice to the sewerage operator; discharge to rivers or seas needs no assessment of water quality or aquatic ecology at all",
+   "All wastewater must be recycled with no discharge; discharge to an existing sewer incurs triple connection fees; discharge to rivers or seas needs written consent from all downstream users",
+   "The competent authority plans the treatment; discharge to an existing sewer is the sewerage operator's responsibility; discharge to rivers or seas requires only annual testing after operation"
+  ],
+  "ex_en": "Article 17."
+ },
+ {
+  "file": "batch9_d3",
+  "idx": 24,
+  "law_id": "ENV-65",
+  "law": "開發行為環境影響評估作業準則",
+  "art": "第25條",
+  "q_zh": "開發單位應對開發行為基地及毗鄰之受影響地區，預測評估何種潛在可能性？",
+  "opt_zh": [
+   "邊坡穩定、地基沈陷、地質災變、土壤污染及土壤液化等潛在可能性",
+   "地價漲跌、租金水準、稅收增減及人口遷入等潛在經濟社會變化",
+   "建照核發、使照取得、工期延誤及預算追加等潛在行政作業風險",
+   "市場需求、產品價格、匯率變動及原料供應等潛在營運財務風險"
+  ],
+  "ans": "a",
+  "ex_zh": "第25條：開發單位應對開發行為基地及毗鄰之受影響地區預測評估邊坡穩定、地基沈陷、地質災變、土壤污染及土壤液化等潛在可能性，並納入環境保護對策。第31條並就基礎開挖、抽沙、填土、高填方或地下深開挖可能造成之地面沈陷或地下水位變化予以預測研判。",
+  "q_en": "What potential risks must be assessed for the site and adjoining affected areas?",
+  "opt_en": [
+   "Slope stability, foundation settlement, geological hazards, soil contamination and soil liquefaction",
+   "Land price movements, rent levels, tax changes and population inflow as socio-economic shifts",
+   "Building permit issuance, occupancy permits, schedule delays and budget overruns as risks",
+   "Market demand, product prices, exchange rates and raw material supply as financial risks"
+  ],
+  "ex_en": "Articles 25 and 31."
+ },
+ {
+  "file": "batch9_d3",
+  "idx": 32,
+  "law_id": "ENV-65",
+  "law": "開發行為環境影響評估作業準則",
+  "art": "第34條",
+  "q_zh": "開發單位應評估開發行為在施工及營運期間發生何種意外災害之風險，並訂定何計畫？",
+  "opt_zh": [
+   "火災、風災、水災、地震、爆炸、化學災害、油污染等意外災害之風險及對周圍環境可能產生之影響與範圍；並配合周圍道路防災排水系統訂定緊急應變計畫",
+   "股價下跌、匯率波動、原料短缺、勞資爭議、罷工停工等營運風險及對公司財務可能產生之衝擊與範圍；並配合金融機構授信條件訂定財務調度應變計畫",
+   "工期延誤、預算追加、承包商倒閉、材料漲價等施工風險及對開發時程可能產生之影響與範圍；並配合工程契約條款訂定履約爭議處理及仲裁調解計畫",
+   "民眾抗爭、媒體負面報導、民意代表關切、環保團體訴訟等社會風險及對開發許可可能產生之影響；並配合公關公司建議訂定溝通說明及形象維護計畫"
+  ],
+  "ans": "a",
+  "ex_zh": "第34條：開發單位應評估開發行為在施工及營運期間發生火災、風災、水災、地震、爆炸、化學災害、油污染等意外災害之風險，以及對周圍環境可能產生之影響與範圍；配合周圍之道路系統、防災系統、排水系統與當地其他條件，訂定緊急應變計畫納入環境保護對策。第38條並就可能運作或衍生危害性化學物質者要求進行健康風險評估。",
+  "q_en": "What accident risks must be assessed and what plan prepared?",
+  "opt_en": [
+   "Risks of fire, wind, flood, earthquake, explosion, chemical disaster and oil pollution and their extent; with an emergency response plan matched to surrounding roads, disaster and drainage systems",
+   "Risks of share price falls, exchange rate swings, material shortages, labour disputes and strikes and their financial extent; with a treasury contingency plan matched to bank credit terms",
+   "Risks of schedule delay, budget overrun, contractor insolvency and material price rises and their extent; with a dispute resolution and arbitration plan matched to the works contract terms",
+   "Risks of public protest, negative media coverage, councillor interest and NGO litigation and their permit consequences; with a communication and image plan drafted on PR advice"
+  ],
+  "ex_en": "Articles 34 and 38."
+ },
+ {
+  "file": "batch9_d3",
+  "idx": 40,
+  "law_id": "ENV-65",
+  "law": "開發行為環境影響評估作業準則",
+  "art": "第42條",
+  "q_zh": "道路、鐵路、大眾捷運系統之開發，位於現有、興建中或已定案之重要水庫集水區者，應如何辦理？",
+  "opt_zh": [
+   "應以穿越性、封閉型且不得設置機廠（場）、站及交流道為限；但情形特殊經主管機關環評審查委員會審查同意者不在此限",
+   "應以停留性、開放型且應設置機廠（場）、站及交流道為原則；但情形特殊經目的事業主管機關同意者得免設置該等設施",
+   "應一律禁止開發並不得以任何理由排除適用；縱經主管機關環評審查委員會審查同意亦不得於水庫集水區內進行任何路線開發",
+   "應由水庫管理機關逕行核定其路線及設施配置；開發單位僅需依核定內容施工並免進行噪音振動及生態切割影響之評估作業"
+  ],
+  "ans": "a",
+  "ex_zh": "第42條第1項：道路、鐵路、大眾捷運系統之開發，如位於現有、興建中或已定案之重要水庫集水區，應以穿越性、封閉型、且不得設置機廠（場）、站及交流道為限；但情形特殊，經主管機關環境影響評估審查委員會審查同意者，不在此限。第2項：應詳細調查分析營運時噪音及振動之影響程度範圍及受體，採路塹或路堤方式者應評估對積水、洩洪、橫交設施、生態棲地切割或動物通過之影響。",
+  "q_en": "What applies to roads, railways or MRT in an important reservoir catchment?",
+  "opt_en": [
+   "They must be through-passing and enclosed with no depots, stations or interchanges; unless special circumstances are approved by the EIA review committee",
+   "They should be stopping and open in type with depots, stations and interchanges provided; unless the industry authority agrees these may be omitted",
+   "They are banned outright with no exception whatsoever; even approval by the EIA review committee cannot permit any route development in the catchment",
+   "Their route and facility layout is set directly by the reservoir authority; the developer simply builds to it and skips noise, vibration and habitat assessment"
+  ],
+  "ex_en": "Article 42."
+ },
+ {
+  "file": "batch9_d3",
+  "idx": 48,
+  "law_id": "ENV-65",
+  "law": "開發行為環境影響評估作業準則",
+  "art": "第50條",
+  "q_zh": "新市區建設、舊市區更新及高樓建築之開發，本準則有何評估要求？",
+  "opt_zh": [
+   "應預測對水源供應排水防洪廢棄物清理及交通設施之影響並評估各項節能省水措施可行性；高樓建築應評估帷幕牆反光、對周遭風場日照電波及空氣污染物擴散之干擾",
+   "應預測對房地產價格及銷售去化速度之影響並評估各項行銷推廣措施可行性；高樓建築應評估外牆建材成本、施工工期長短及對建照核發時程之可能影響程度",
+   "應預測對當地人口成長及學區劃分之影響並評估各項教育設施增設可行性；高樓建築應評估電梯數量、消防設備規格及對物業管理費用分攤方式之可能影響",
+   "應預測對地方稅收及財政收支之影響並評估各項公共設施委外經營可行性；高樓建築應評估屋頂設置直昇機停機坪之必要性及對航空管制之可能干擾情形"
+  ],
+  "ans": "a",
+  "ex_zh": "第50條第1項：新市區建設、舊市區更新之開發，應預測其對當地及鄰近地區水源供應、排水或防洪系統、廢棄物清理及交通設施等之影響，並應評估設置汽電共生或汽冷熱共生設備、區域供冷供熱系統、雨水貯留利用系統、生活雜排水回收再利用系統為中水道沖洗廁所及澆灌利用等各項節能省水措施之可行性。第2項：舊市區更新拆除所產生之廢棄物須先詳細調查、規劃運輸路線及適當之處理場。第3項：高樓建築應預測及評估交通、停車或帷幕牆（含太陽能板）反光、室內停車場廢氣排放之影響，以及高層結構體對周遭風場、日照、電波、空氣污染物擴散之干擾。",
+  "q_en": "What assessment applies to new town development, urban renewal and high-rise buildings?",
+  "opt_en": [
+   "Predict effects on water supply, drainage or flood systems, waste clearance and transport facilities and assess energy and water saving measures; high-rises must assess curtain wall glare and interference with wind, sunlight, radio waves and pollutant dispersion",
+   "Predict effects on property prices and sales absorption rates and assess the feasibility of marketing and promotion measures; high-rises must assess exterior material costs, construction duration and the possible effect on building permit issuance timing",
+   "Predict effects on local population growth and school catchment zoning and assess added educational facilities; high-rises must assess lift numbers, fire equipment specifications and management fee apportionment",
+   "Predict effects on local tax revenue and fiscal balance and assess outsourcing of public facilities; high-rises must assess the need for a rooftop helipad and possible interference with air traffic control"
+  ],
+  "ex_en": "Article 50."
+ },
+ {
+  "file": "batch9_d3",
+  "idx": 56,
+  "law_id": "ENV-65",
+  "law": "開發行為環境影響評估作業準則",
+  "art": "第58條",
+  "q_zh": "中央主管機關就評估技術規範有何權限？開發單位製作評估書初稿時應依何辦理環境調查？",
+  "opt_zh": [
+   "中央主管機關得視需要會商有關機關訂定評估技術規範並公告之；開發單位製作評估書初稿時依範疇界定會議決定之評估範疇辦理環境調查作業",
+   "中央主管機關應每年修正評估技術規範並報行政院核定；開發單位製作評估書初稿時依說明書審查結論所列項目辦理環境調查作業而不受範疇界定拘束",
+   "中央主管機關僅得就技術規範提供諮詢而無訂定權限；開發單位製作評估書初稿時得自行決定環境調查之項目方法地點時間及頻率並免敘明其理由",
+   "中央主管機關應委由技術顧問機構訂定評估技術規範；開發單位製作評估書初稿時依目的事業主管機關指定之調查項目辦理並將結果送該機關核定"
+  ],
+  "ans": "a",
+  "ex_zh": "第58條第1項：中央主管機關得視需要會商有關機關訂定評估技術規範，並公告之。第2項：開發單位製作說明書時，依第10條第2項辦理環境調查作業；如涉及開發行為特性應提出相關預測、分析及評估模式者，依評估技術規範辦理。第3項：開發單位製作評估書初稿時，依範疇界定會議決定之評估範疇辦理環境調查作業。",
+  "q_en": "What power does the central authority have over technical guidelines, and how is survey scope set for a draft report?",
+  "opt_en": [
+   "The central authority may consult relevant agencies to set and announce technical guidelines; draft reports follow the assessment scope decided at the scoping meeting",
+   "The central authority must revise the guidelines yearly with Executive Yuan approval; draft reports follow the items in the statement review conclusions and ignore scoping",
+   "The central authority may only advise and cannot issue guidelines; developers may set survey items, methods, places, times and frequencies freely without stating reasons",
+   "The central authority must commission a consultancy to write the guidelines; draft reports follow survey items designated by the industry authority and are sent to it for approval"
+  ],
+  "ex_en": "Article 58."
+ },
+ {
+  "file": "batch9_d4",
+  "idx": 0,
+  "law_id": "ENV-65",
+  "law": "開發行為環境影響評估作業準則",
+  "art": "第29條",
+  "q_zh": "開發行為環境影響評估作業準則第29條之現行狀態為何？",
+  "opt_zh": [
+   "該條已刪除，現行準則就該條不再定有任何規範內容",
+   "該條規定開發單位應設置環境保護專責單位及人員",
+   "該條規定開發單位應提繳環境影響評估保證金額度",
+   "該條規定開發單位應每季提報環境監測結果報告書"
+  ],
+  "ans": "a",
+  "ex_zh": "第29條：（刪除）。本準則第28條規定節約能源、雨水截流儲存利用及中水道系統之評估，第30條則規定地下管線、箱涵、隧道或地下化開發應調查地下埋藏之文化資產與鄰近結構體，原第29條之規範內容已於歷次修正時刪除。",
+  "q_en": "What is the current status of Article 29 of these Guidelines?",
+  "opt_en": [
+   "It has been deleted and the Guidelines no longer contain any rule under it",
+   "It requires the developer to set up a dedicated environmental protection unit",
+   "It requires the developer to lodge an environmental impact assessment bond",
+   "It requires the developer to submit quarterly environmental monitoring reports"
+  ],
+  "ex_en": "Article 29 (deleted)."
+ },
+ {
+  "file": "batch9_d4",
+  "idx": 8,
+  "law_id": "ENV-66",
+  "law": "政府政策環境影響評估作業辦法",
+  "art": "第8條",
+  "q_zh": "政策研提機關於政策報請行政院或中央目的事業主管機關核定時，應如何辦理？",
+  "opt_zh": [
+   "應檢附評估說明書",
+   "應檢附成本效益分析表",
+   "應檢附民意調查報告書",
+   "應檢附預算編列明細表"
+  ],
+  "ans": "a",
+  "ex_zh": "第8條：政策研提機關於政策報請行政院或中央目的事業主管機關核定時，應檢附評估說明書。此規定使政策環境影響評估之結果成為政策核定程序之必要文件，確保核定機關於決策時得以審酌政策之環境影響。",
+  "q_en": "What must accompany a policy submitted for approval to the Executive Yuan or central industry authority?",
+  "opt_en": [
+   "The assessment statement must be attached",
+   "A cost-benefit analysis table must be attached",
+   "A public opinion survey report must be attached",
+   "A detailed budget schedule must be attached"
+  ],
+  "ex_en": "Article 8."
+ },
+ {
+  "file": "batch9_d4",
+  "idx": 16,
+  "law_id": "ENV-70",
+  "law": "毒性及關注化學物質標示與安全資料表管理辦法",
+  "art": "第7條",
+  "q_zh": "毒性及關注化學物質之容器、包裝，於何種情形得免依第3條規定標示？",
+  "opt_zh": [
+   "外部容器已標示而僅供內襯且不再取出之內部容器；內部容器已標示而由外部可見清晰標示事項之外部容器；取自有標示容器且僅供當班立即使用者；取自有標示容器供實驗室自行實驗研究之用者",
+   "外部容器已標示而供重複取用之內部容器；內部容器已標示但由外部無法見到標示事項之外部容器；取自有標示容器而供跨班連續使用者；取自有標示容器供販賣或轉讓他人使用之用者",
+   "容器材質為玻璃或不鏽鋼且不易腐蝕者；容器置於上鎖之專用櫃內並由專人保管者；容器貯存期間未逾三十日且未曾開封者；容器已依其他法令規定標示危險物品字樣者等情形",
+   "運作人已投保公共意外責任保險者；運作場所已設置偵測警報設備者；運作人已完成專業技術管理人員設置者；運作人已將安全資料表置於運作場所易取得之處供查閱者等情形"
+  ],
+  "ans": "a",
+  "ex_zh": "第7條：毒性及關注化學物質之容器、包裝有下列情形之一者，得免依第三條規定標示：外部容器、包裝已標示，僅供內襯且不再取出之內部容器、包裝；內部容器、包裝已標示，由外部可見到清晰標示事項之外部容器、包裝；毒性及關注化學物質取自有標示之容器、包裝，且僅供當班立即使用；毒性及關注化學物質取自有標示之容器、包裝，並供實驗室自行作實驗、研究之用。",
+  "q_en": "When are containers exempt from the Article 3 labelling requirement?",
+  "opt_en": [
+   "Inner containers used only as lining and never removed where the outer is labelled; outer containers through which a labelled inner container is clearly visible; substances taken from a labelled container for immediate use on the same shift; and those taken for a laboratory's own experiments",
+   "Inner containers repeatedly drawn from where the outer one is labelled; outer containers through which the labelled inner container cannot be seen at all; substances taken from a labelled container for continuous use across several shifts; and those taken for sale or transfer to other persons",
+   "Containers made of glass or stainless steel resistant to corrosion; containers kept in a locked cabinet under a custodian; containers stored under 30 days and never opened; and containers already marked as dangerous goods under other laws",
+   "Operators carrying public liability insurance; sites already fitted with detection and alarm equipment; operators who have appointed professional technical managers; and operators keeping safety data sheets accessible at the site"
+  ],
+  "ex_en": "Article 7."
+ },
+ {
+  "file": "batch9_d4",
+  "idx": 24,
+  "law_id": "ENV-70",
+  "law": "毒性及關注化學物質標示與安全資料表管理辦法",
+  "art": "第15條",
+  "q_zh": "同一列管編號序號之毒性及關注化學物質，其為不同成分含量、濃度者，應如何製作安全資料表？",
+  "opt_zh": [
+   "應以不同之中英文物品名稱分別製作安全資料表；但危害成分、用途及危害分類相同時得使用同一份安全資料表",
+   "應一律使用同一份安全資料表而不得分別製作；縱危害成分、用途及危害分類不同亦不得另行製作其他安全資料表",
+   "應以相同之中英文物品名稱分別製作安全資料表；但危害成分、用途及危害分類不同時始得使用同一份安全資料表",
+   "應報請中央主管機關核定後始得決定製作方式；於核定前一律不得製作亦不得販賣該等不同濃度之毒性化學物質"
+  ],
+  "ans": "a",
+  "ex_zh": "第15條：同一列管編號序號之毒性及關注化學物質，其為不同成分含量、濃度者，應以不同之中英文物品名稱，分別製作安全資料表。但危害成分、用途及危害分類相同時，得使用同一份安全資料表。第16條並規定販賣毒性及關注化學物質者應備安全資料表，隨貨送毒性及關注化學物質買受人。",
+  "q_en": "How are safety data sheets prepared for the same listed number at different concentrations?",
+  "opt_en": [
+   "Separate sheets under different Chinese and English product names; but one sheet may serve where hazardous ingredients, uses and hazard classification are the same",
+   "One single sheet must always be used and separate sheets are forbidden; even where hazardous ingredients, uses and classification differ, no other sheet may be made",
+   "Separate sheets under the same Chinese and English product names; but one sheet may serve only where hazardous ingredients, uses and classification differ",
+   "The central competent authority must approve the approach first; before approval no sheet may be prepared and the substances may not be sold at all"
+  ],
+  "ex_en": "Articles 15 and 16."
+ },
+ {
+  "file": "batch9_d5",
+  "idx": 0,
+  "law_id": "ENV-71",
+  "law": "毒性及關注化學物質運送管理辦法",
+  "art": "第1條",
+  "q_zh": "毒性及關注化學物質運送管理辦法之訂定依據為何？",
+  "opt_zh": [
+   "毒性及關注化學物質管理法第四十條第三項",
+   "毒性及關注化學物質管理法第三十九條第三項",
+   "毒性及關注化學物質管理法第十七條第二項",
+   "毒性及關注化學物質管理法第九條第二項"
+  ],
+  "ans": "a",
+  "ex_zh": "第1條：本辦法依毒性及關注化學物質管理法（以下簡稱本法）第四十條第三項規定訂定之。本法第四十條第一項並授權中央主管機關指定公告具有危害性之關注化學物質，使其運送亦適用本辦法之規定。相對而言，應變器材與偵測警報設備管理辦法係依本法第三十九條第三項訂定。",
+  "q_en": "Under which provision are these Transport Regulations enacted?",
+  "opt_en": [
+   "Article 40, paragraph 3 of the Toxic and Concerned Chemical Substances Control Act",
+   "Article 39, paragraph 3 of the Toxic and Concerned Chemical Substances Control Act",
+   "Article 17, paragraph 2 of the Toxic and Concerned Chemical Substances Control Act",
+   "Article 9, paragraph 2 of the Toxic and Concerned Chemical Substances Control Act"
+  ],
+  "ex_en": "Article 1."
+ },
+ {
+  "file": "batch9_d5",
+  "idx": 8,
+  "law_id": "ENV-71",
+  "law": "毒性及關注化學物質運送管理辦法",
+  "art": "第9條",
+  "q_zh": "運送人於運送時應攜帶何文件及裝備？該安全裝備應如何備具？",
+  "opt_zh": [
+   "應攜帶運送表單、安全資料表、運送危害預防應變資料及安全裝備；運作人應參照安全資料表及其危害特性備具適當之緊急應變工具、設備及個人防護設備",
+   "應攜帶運送表單、行車執照、駕駛人身分證及滅火器；運作人得依運送距離長短自行決定是否備具緊急應變工具、設備及個人防護設備而無須參照資料表",
+   "應攜帶運送合約、發票、受貨人簽收單及保險單；運作人應依主管機關指定之統一規格備具緊急應變工具，其項目不得因物質危害特性不同而有差異",
+   "應攜帶許可證正本、工廠登記證及公司執照；運作人僅需備具個人防護設備一套，其餘緊急應變工具及設備得於事故發生後再行調度支援即可"
+  ],
+  "ans": "a",
+  "ex_zh": "第9條第1項：運送人於運送時，應攜帶該毒性或具危害性關注化學物質之運送表單、安全資料表、運送危害預防應變資料及安全裝備。第2項：前項之安全裝備，運作人應參照安全資料表及其危害特性，備具適當之緊急應變工具、設備及個人防護設備。第16條並規定運送數量未逾第三條第一項規定者，不適用第九條第一項運送危害預防應變資料及安全裝備之規定。",
+  "q_en": "What documents and equipment must a carrier carry during transport?",
+  "opt_en": [
+   "The transport manifest, safety data sheet, hazard prevention and response data and safety equipment; the operator provides suitable response tools, equipment and personal protective equipment per the safety data sheet and hazards",
+   "The transport manifest, the vehicle registration, the driver's ID card and a fire extinguisher; the operator may decide by the trip distance whether to provide any emergency response tools, equipment and personal protective equipment at all",
+   "The transport contract, invoice, consignee receipt and insurance policy; the operator must provide response tools to a uniform specification set by the authority regardless of the substance's hazards",
+   "The original permit, factory registration and company licence; the operator need provide only one set of personal protective equipment and may source other tools after an incident occurs"
+  ],
+  "ex_en": "Articles 9 and 16."
+ },
+ {
+  "file": "batch9_d5",
+  "idx": 16,
+  "law_id": "ENV-71",
+  "law": "毒性及關注化學物質運送管理辦法",
+  "art": "第17條",
+  "q_zh": "以公路運送毒性或具危害性關注化學物質者，主管機關得如何實施查核？",
+  "opt_zh": [
+   "直轄市、縣（市）主管機關得洽請公路監理機關、警察機關會同實施臨時查核",
+   "直轄市、縣（市）主管機關得逕行攔停車輛並沒入所運送之全部化學物質",
+   "中央主管機關得委由受貨人於收貨時代為查核並將結果報請地方機關備查",
+   "直轄市、縣（市）主管機關僅得於運作場所實施查核而不得於公路上查核"
+  ],
+  "ans": "a",
+  "ex_zh": "第17條：以公路運送毒性或具危害性關注化學物質者，直轄市、縣（市）主管機關得洽請公路監理機關、警察機關會同實施臨時查核。此與第10條公路運送車輛應備臨時通行證、駕駛人或隨車護送人員應經專業訓練並攜帶證明書之規定相配合，強化公路運送之現場稽查。",
+  "q_en": "How may authorities inspect road transport of these substances?",
+  "opt_en": [
+   "The special municipality or county authority may ask the highway supervision and police agencies to conduct joint spot checks",
+   "The special municipality or county authority may stop vehicles itself and confiscate all the chemicals being transported",
+   "The central authority may have the consignee inspect on delivery and file the results with the local authority",
+   "The special municipality or county authority may inspect only at operation sites and never on the public highway"
+  ],
+  "ex_en": "Articles 10 and 17."
+ },
+ {
+  "file": "batch9_d5",
+  "idx": 24,
+  "law_id": "ENV-73",
+  "law": "毒性及關注化學物質運作與釋放量紀錄管理辦法",
+  "art": "第7條",
+  "q_zh": "毒性化學物質釋放量之計算，得以何種方法為之？",
+  "opt_zh": [
+   "量測法、質量平衡法、排放因子法、經驗方程式法及其他可估算之方式；經中央主管機關公告指定者應依所定釋放量計算指引為之而不適用前開方法",
+   "僅得採量測法一種方法為之；經中央主管機關公告指定者得改採質量平衡法，其餘排放因子法及經驗方程式法均不得作為釋放量之計算方法使用",
+   "量測法、抽樣調查法、問卷推估法及專家判斷法；經中央主管機關公告指定者得由運作人自行選定任一方法為之而無須依循任何計算指引之規定",
+   "質量平衡法及排放因子法二者擇一為之；經中央主管機關公告指定者應委託認證實驗室以量測法實地檢測，其結果並應經公正第三方機構複核確認"
+  ],
+  "ans": "a",
+  "ex_zh": "第7條第1項：毒性化學物質釋放量之計算得以下列方法為之：量測法（以檢測方法實地測得濃度值及流量值，兩值乘積為單位時間釋放量）；質量平衡法（輸入質量流率減輸出質量流率及製程設備中累增或滅失量）；排放因子法（運作元件運作量與排放係數值之乘積）；經驗方程式法（將物理化學特性參數代入數學方程式）；其他可估算之方式。第2項：經中央主管機關公告指定之毒性化學物質，其釋放量之計算方法應依所定釋放量計算指引為之，不適用前項規定。",
+  "q_en": "Which methods may be used to calculate toxic chemical release volumes?",
+  "opt_en": [
+   "Measurement, mass balance, emission factor, empirical equation and other estimable methods; substances designated by the central authority follow its release calculation guidelines instead",
+   "Only the measurement method may be used; substances designated by the central authority may switch to mass balance, while emission factor and empirical equation methods are barred",
+   "Measurement, sample survey, questionnaire estimation and expert judgement; for designated substances the operator may freely pick any method without following any guidelines",
+   "Either mass balance or emission factor; substances designated by the central authority must be measured on site by an accredited laboratory and verified by an independent third party"
+  ],
+  "ex_en": "Article 7."
+ },
+ {
+  "file": "batch9_d6",
+  "idx": 0,
+  "law_id": "ENV-72",
+  "law": "毒性及關注化學物質許可登記核可管理辦法",
+  "art": "第1條",
+  "q_zh": "毒性及關注化學物質許可登記核可管理辦法之訂定依據為何？",
+  "opt_zh": [
+   "毒性及關注化學物質管理法第八條第五項、第十三條第五項及第二十五條第三項",
+   "毒性及關注化學物質管理法第九條第二項、第十七條第二項及第二十六條第二項",
+   "毒性及關注化學物質管理法第三十九條第三項、第四十條第三項及第四十一條",
+   "毒性及關注化學物質管理法第十一條、第二十四條及第二十七條第二項規定"
+  ],
+  "ans": "a",
+  "ex_zh": "第1條：本辦法依毒性及關注化學物質管理法（以下簡稱本法）第八條第五項、第十三條第五項及第二十五條第三項規定訂定之。本法第八條規範毒性化學物質之許可證，第十三條規範登記文件，第二十五條則規範關注化學物質之核可文件。",
+  "q_en": "Under which provisions are these Permit Regulations enacted?",
+  "opt_en": [
+   "Articles 8(5), 13(5) and 25(3) of the Toxic and Concerned Chemical Substances Control Act",
+   "Articles 9(2), 17(2) and 26(2) of the Toxic and Concerned Chemical Substances Control Act",
+   "Articles 39(3), 40(3) and 41 of the Toxic and Concerned Chemical Substances Control Act",
+   "Articles 11, 24 and 27(2) of the Toxic and Concerned Chemical Substances Control Act"
+  ],
+  "ex_en": "Article 1."
+ },
+ {
+  "file": "batch9_d6",
+  "idx": 8,
+  "law_id": "ENV-72",
+  "law": "毒性及關注化學物質許可登記核可管理辦法",
+  "art": "第8條之1",
+  "q_zh": "製造或使用毒性及關注化學物質之運作人申請許可證或其變更、展延前，應先辦理何事項？",
+  "opt_zh": [
+   "須先繪製運作場所全廠（場）空氣、水、廢棄物、毒性及關注化學物質污染流向示意圖，檢視污染在不同介質間之流向及在各類環保許可證間之關連；但僅供試驗研究或教育用途且運作總量低於分級運作量者不在此限",
+   "須先繪製運作場所全廠（場）機械設備配置圖及員工作業動線示意圖，檢視人員在不同區域間之移動路徑及在各類安全衛生設施間之關連；但僅供商業販賣用途且其運作總量高於分級運作量者不在此限",
+   "須先繪製運作場所周邊一公里範圍內之土地使用分區圖及人口分布圖，檢視居民在不同區域間之分布及在各類避難設施間之關連；但運作場所位於工業區範圍內且已納入園區管理者不在此限",
+   "須先繪製運作場所歷年產能變化圖及財務收支趨勢圖，檢視營運在不同年度間之變化及在各類稅捐申報間之關連；但運作人為中小企業且員工人數未達三十人者不在此限而免予繪製"
+  ],
+  "ans": "a",
+  "ex_zh": "第8條之1第1項：製造或使用毒性及關注化學物質之運作人申請許可證、登記文件或核可文件或其變更、展延前，須先繪製運作場所全廠（場）空氣、水、廢棄物、毒性及關注化學物質污染流向示意圖，檢視污染在不同介質間之流向及在各類環保許可證（文件）間之關連；但製造或使用僅供試驗、研究或教育用途，且運作總量低於分級運作量者不在此限。第2項：涉及其他類環保許可證之申請變更異動或展延者，須同時依各該環保法規提出。",
+  "q_en": "What must manufacturers and users do before applying for or amending a permit?",
+  "opt_en": [
+   "First draw a site-wide flow diagram of air, water, waste and chemical pollution to review flows between media and links to the various environmental permits; unless solely for testing, research or education below the graded operation volume",
+   "First draw a site-wide machinery layout and staff working circulation diagram to review personnel movement between the different areas and the links to the various safety and health facilities; unless solely for commercial sale above the graded operation volume",
+   "First draw a land use zoning and population distribution map for one kilometre around the site to review resident distribution and links to evacuation facilities; unless the site lies inside a managed industrial park",
+   "First draw charts of historical production capacity and financial trends to review changes between years and links to the various tax filings; unless the operator is a small business with fewer than thirty employees"
+  ],
+  "ex_en": "Article 8-1."
+ },
+ {
+  "file": "batch9_d6",
+  "idx": 16,
+  "law_id": "ENV-72",
+  "law": "毒性及關注化學物質許可登記核可管理辦法",
+  "art": "第16條",
+  "q_zh": "直轄市、縣（市）主管機關受理申請案件，其審查及核發方式為何？",
+  "opt_zh": [
+   "先依毒性及關注化學物質之特性個別審查，再依運作場所或運作人合併核發許可證、登記文件或核可文件",
+   "先依運作人之資本額規模個別審查，再依化學物質種類分別核發許可證、登記文件或核可文件於各場所",
+   "一律就每一種化學物質分別核發獨立之許可證、登記文件或核可文件而不得依運作場所或運作人合併",
+   "一律由中央主管機關統一審查並核發單一許可證，地方主管機關僅負責受理收件及後續之查核作業"
+  ],
+  "ans": "a",
+  "ex_zh": "第16條：直轄市、縣（市）主管機關受理申請案件，先依毒性及關注化學物質之特性個別審查，再依運作場所或運作人，合併核發許可證、登記文件或核可文件。此制度使審查得就個別物質特性把關，核發時則以運作場所或運作人為單位整合，避免文件過於零散。",
+  "q_en": "How are applications reviewed and documents issued?",
+  "opt_en": [
+   "Each substance is reviewed individually by its characteristics, and documents are then issued on a combined basis by operation site or operator",
+   "Applications are reviewed individually by the operator's capital scale, and documents issued separately by substance type for each site",
+   "A separate independent document is always issued for each substance and may never be combined by site or by operator",
+   "The central authority reviews and issues a single permit, with the local authority only receiving applications and inspecting"
+  ],
+  "ex_en": "Article 16."
+ },
+ {
+  "file": "batch9_d7",
+  "idx": 0,
+  "law_id": "ENV-74",
+  "law": "毒性及關注化學物質應變器材與偵測警報設備管理辦法",
+  "art": "第1條",
+  "q_zh": "毒性及關注化學物質應變器材與偵測警報設備管理辦法之訂定依據為何？",
+  "opt_zh": [
+   "毒性及關注化學物質管理法第三十九條第三項",
+   "毒性及關注化學物質管理法第四十條第三項",
+   "毒性及關注化學物質管理法第十七條第二項",
+   "毒性及關注化學物質管理法第二十五條第三項"
+  ],
+  "ans": "a",
+  "ex_zh": "第1條：本辦法依毒性及關注化學物質管理法（以下簡稱本法）第三十九條第三項規定訂定之。本法第三十九條第一項並授權中央主管機關指定公告具有危害性之關注化學物質，第二項則規定經公告之運作人應與直轄市、縣（市）主管機關連線。",
+  "q_en": "Under which provision are these Response Equipment Regulations enacted?",
+  "opt_en": [
+   "Article 39, paragraph 3 of the Toxic and Concerned Chemical Substances Control Act",
+   "Article 40, paragraph 3 of the Toxic and Concerned Chemical Substances Control Act",
+   "Article 17, paragraph 2 of the Toxic and Concerned Chemical Substances Control Act",
+   "Article 25, paragraph 3 of the Toxic and Concerned Chemical Substances Control Act"
+  ],
+  "ex_en": "Article 1."
+ },
+ {
+  "file": "batch9_d7",
+  "idx": 8,
+  "law_id": "ENV-74",
+  "law": "毒性及關注化學物質應變器材與偵測警報設備管理辦法",
+  "art": "第9條",
+  "q_zh": "偵測及警報設備之警報設定值有何限制？",
+  "opt_zh": [
+   "應依各運作場所適當地點之環境條件設定，其設定值不得大於勞工作業場所容許暴露標準之十倍；無容許暴露標準者，設定值在攝氏二十五度一大氣壓條件下不得大於每立方公尺二百五十毫克",
+   "應依各運作場所適當地點之環境條件設定，其設定值不得大於勞工作業場所容許暴露標準之一百倍；無容許暴露標準者，設定值在攝氏二十五度一大氣壓條件下不得大於每立方公尺一千毫克",
+   "應依中央主管機關公告之統一數值設定而不得因場所環境條件而有差異；無容許暴露標準者，設定值在攝氏二十五度一大氣壓條件下不得大於每立方公尺二十五毫克並應每年重新核定",
+   "應由運作人依設備廠商建議值自行設定而無任何上限限制；無容許暴露標準者，得由運作人參酌國外文獻自行決定其設定值並報請當地主管機關備查後即得作為警報之啟動依據"
+  ],
+  "ans": "a",
+  "ex_zh": "第9條：偵測及警報設備之警報設定值，應依各運作場所適當地點之環境條件設定，其設定值不得大於勞工作業場所容許暴露標準之十倍；無勞工作業場所容許暴露標準者，設定值在攝氏二十五度一大氣壓條件下，不得大於每立方公尺二百五十毫克（mg／m³）。第10條並規定偵測設備於警報設定值之偵測誤差應在正負百分之三十以內。",
+  "q_en": "What limits apply to the alarm set point?",
+  "opt_en": [
+   "Set to the environmental conditions of each suitable location, not exceeding ten times the permissible workplace exposure limit; where none exists, not exceeding 250 mg per cubic metre at 25 degrees Celsius and one atmosphere",
+   "Set to the environmental conditions of each suitable location, not exceeding one hundred times the permissible workplace exposure limit; where none exists, not exceeding 1,000 mg per cubic metre at 25 degrees Celsius and one atmosphere",
+   "Set to a uniform value announced by the central authority with no variation by site conditions; where none exists, not exceeding 25 mg per cubic metre at 25 degrees Celsius and one atmosphere, re-approved each year",
+   "Set by the operator on the equipment supplier's recommendation with no upper limit at all; where none exists, the operator may set its own value from foreign literature and simply file it with the local authority"
+  ],
+  "ex_en": "Articles 9 and 10."
+ },
+ {
+  "file": "batch9_d8",
+  "idx": 0,
+  "law_id": "ENV-75",
+  "law": "新化學物質及既有化學物質資料登錄辦法",
+  "art": "第1條",
+  "q_zh": "新化學物質及既有化學物質資料登錄辦法之訂定依據為何？",
+  "opt_zh": [
+   "毒性及關注化學物質管理法第三十條第五項",
+   "毒性及關注化學物質管理法第三十九條第三項",
+   "毒性及關注化學物質管理法第八條第五項",
+   "毒性及關注化學物質管理法第十七條第二項"
+  ],
+  "ans": "a",
+  "ex_zh": "第1條：本辦法依毒性及關注化學物質管理法（以下簡稱本法）第三十條第五項規定訂定之。本法第三十條規範新化學物質及既有化學物質之資料登錄義務，並授權中央主管機關訂定其登錄辦法。",
+  "q_en": "Under which provision are these Registration Regulations enacted?",
+  "opt_en": [
+   "Article 30, paragraph 5 of the Toxic and Concerned Chemical Substances Control Act",
+   "Article 39, paragraph 3 of the Toxic and Concerned Chemical Substances Control Act",
+   "Article 8, paragraph 5 of the Toxic and Concerned Chemical Substances Control Act",
+   "Article 17, paragraph 2 of the Toxic and Concerned Chemical Substances Control Act"
+  ],
+  "ex_en": "Article 1."
+ },
+ {
+  "file": "batch9_d8",
+  "idx": 8,
+  "law_id": "ENV-75",
+  "law": "新化學物質及既有化學物質資料登錄辦法",
+  "art": "第9條",
+  "q_zh": "中央主管機關審查新化學物質資料，於何種情形應於核准登錄時附以附款？",
+  "opt_zh": [
+   "判斷其毒性有符合本法第三條所定第一類、第二類或第三類毒性化學物質分類定義之虞者，應附款禁止或限制運作並要求定期申報運作情形、更新登錄報告資料或提供危害資訊；判斷有污染環境或危害人體健康之虞者，應附款限制運作並要求提報暴露及風險評估資料",
+   "判斷其市場價格有高於國內外各類同類產品之虞者，應附款限制其銷售之售價並要求定期申報其銷售情形、更新其年度財務報表資料或提供各項成本資訊；判斷有影響同業公平競爭秩序之虞者，應附款限制其產量並要求提報市場占有率及財務評估資料",
+   "判斷其製程有耗用大量能源之虞者，應附款要求改善製程並要求定期申報用電情形、更新節能計畫資料或提供碳排資訊；判斷有增加溫室氣體排放之虞者，應附款限制產能並要求提報盤查及查證報告資料",
+   "判斷其名稱有與既有物質混淆之虞者，應附款要求更名並要求定期申報使用情形、更新標示內容資料或提供譯名資訊；判斷有影響消費者辨識之虞者，應附款限制包裝並要求提報標示及廣告審查資料"
+  ],
+  "ans": "a",
+  "ex_zh": "第9條第1項：中央主管機關審查登錄人提交之新化學物質資料，判斷新化學物質之毒性有符合本法第三條所定第一類、第二類或第三類毒性化學物質之分類定義之虞者，應於核准登錄時附以附款，禁止或限制其運作並要求定期申報運作情形、更新登錄相關報告資料或提供化學物質危害資訊。第2項：判斷新化學物質有污染環境或危害人體健康之虞者，應於核准登錄時附以附款，限制其運作並要求提報暴露及風險評估資料、更新登錄相關報告資料或提供化學物質危害資訊。",
+  "q_en": "When must the central authority attach conditions when approving a new chemical registration?",
+  "opt_en": [
+   "Where its toxicity may meet the class 1, 2 or 3 definitions in Article 3 of the Act, conditions must ban or restrict operations and require periodic reporting, updated reports or hazard information; where it may pollute or harm health, conditions must restrict operations and require exposure and risk assessment data",
+   "Where its market price may exceed comparable domestic and foreign products, conditions must cap the selling price and require periodic sales reporting, updated financial statements or detailed cost information; where it may affect fair competition, conditions must cap output and require market share and financial assessment data",
+   "Where its process may consume large amounts of energy, conditions must require process improvement and periodic electricity reporting, updated energy plans or carbon data; where it may raise greenhouse gases, conditions must cap capacity and require inventory and verification reports",
+   "Where its name may be confused with an existing substance, conditions must require renaming and periodic use reporting, updated labelling or translation information; where it may confuse consumers, conditions must restrict packaging and require labelling and advertising review data"
+  ],
+  "ex_en": "Article 9."
+ },
+ {
+  "file": "batch9_d8",
+  "idx": 16,
+  "law_id": "ENV-75",
+  "law": "新化學物質及既有化學物質資料登錄辦法",
+  "art": "第17條",
+  "q_zh": "不同登錄人共同或先後申請登錄同一既有化學物質者，其規定為何？",
+  "opt_zh": [
+   "各登錄人得協議申請共同使用登錄所需之資料；申請共同登錄者應依第十六條第三項所定內容登錄；無法協議費用分攤方式者，得向中央主管機關申請酌定平均分攤費用並於支付後使用該登錄資料",
+   "各登錄人不得協議共同使用登錄資料而應各自獨立提出申請；縱經協議亦不生效力；無法協議費用分攤方式者，應由後申請之登錄人全額負擔先申請者所支出之全部登錄資料製作費用",
+   "各登錄人應強制共同登錄且不得單獨申請；申請共同登錄者應依第五條所定登錄類別辦理；無法協議費用分攤方式者，中央主管機關應駁回全部登錄人之申請並命其重新協議後再行提出",
+   "各登錄人得協議共同使用登錄資料；申請共同登錄者應依第十五條第一項第一階段登錄所定項目辦理；無法協議費用分攤方式者，得由中央主管機關逕行指定由資本額最大者負擔全部費用"
+  ],
+  "ans": "a",
+  "ex_zh": "第17條第1項：不同登錄人依前條第二項或第五項，共同或先後申請登錄同一既有化學物質者，各登錄人得協議申請共同使用登錄所需之資料。第2項：前項申請共同登錄者，應依前條第三項所定內容登錄化學物質資料。第3項：各登錄人協議共同登錄，若無法經協議決定登錄資料之費用分攤方式，得向中央主管機關申請酌定平均分攤費用，並於支付應分攤之費用後，使用化學物質登錄資料。",
+  "q_en": "What rules govern joint registration of the same existing chemical by different registrants?",
+  "opt_en": [
+   "Registrants may agree to share the registration data; joint registrations follow the content required by Article 16(3); and where cost sharing cannot be agreed, an equal apportionment may be sought and the data used after payment",
+   "Registrants may not agree to share data and must each apply independently; any agreement is ineffective; and where cost sharing cannot be agreed, the later applicant bears the entire cost incurred by the earlier one",
+   "Registrants must register jointly and may not apply alone; joint registrations follow the categories in Article 5; and where cost sharing cannot be agreed, the authority rejects all applications and orders fresh negotiation",
+   "Registrants may agree to share the data; joint registrations follow the phase one items in Article 15(1); and where cost sharing cannot be agreed, the authority designates the largest firm to bear the whole cost"
+  ],
+  "ex_en": "Article 17."
+ },
+ {
+  "file": "batch9_d8",
+  "idx": 24,
+  "law_id": "ENV-75",
+  "law": "新化學物質及既有化學物質資料登錄辦法",
+  "art": "第25條",
+  "q_zh": "中央主管機關受理本辦法各項申請，其審查期間為何？",
+  "opt_zh": [
+   "新化學物質少量登錄、低關注聚合物事前審定及少量登錄、既有化學物質第一階段登錄、保密或展延為七個工作日；新化學物質簡易登錄或納入既有清冊為十四個工作日；新化學物質標準登錄為四十五個工作日；既有化學物質標準登錄為九十個工作日",
+   "新化學物質少量登錄、低關注聚合物事前審定及少量登錄、既有化學物質第一階段登錄、保密或展延為三十個工作日；新化學物質簡易登錄或納入既有清冊為六十個工作日；新化學物質標準登錄為九十個工作日；既有化學物質標準登錄為一百八十個工作日",
+   "所有申請案件一律為三十個工作日而不區分登錄類別；中央主管機關並得視需要無限次數延長其審查期間，惟每次延長應通知登錄人並敘明其延長之理由及預計完成審查之日期",
+   "所有申請案件一律為十四個工作日而不區分登錄類別；逾期未作成准駁者視為已核准登錄，登錄人得逕行製造或輸入該化學物質而無須另行取得任何登錄碼或核准登錄之文件"
+  ],
+  "ans": "a",
+  "ex_zh": "第25條第1項：中央主管機關受理本辦法之各項申請，其審查期間如下：新化學物質少量登錄、低關注聚合物事前審定、低關注聚合物少量登錄、既有化學物質第一階段登錄、化學物質登錄資料保密或展延，自收件日起七個工作日；新化學物質簡易登錄或納入既有化學物質清冊，自收件日起十四個工作日；新化學物質標準登錄，自收件日起四十五個工作日；既有化學物質標準登錄，自收件日起九十個工作日。第2項：審查少量登錄及簡易登錄有第九條應附款情事者，審查期間得延長為四十五個工作日。第3項：延長次數以一次為限。",
+  "q_en": "What review periods apply to applications under these Regulations?",
+  "opt_en": [
+   "Seven working days for small quantity registration, prior determination and small quantity registration of polymers of low concern, phase one registration, confidentiality and extension; 14 for simplified registration or inventory listing; 45 for new chemical standard registration; and 90 for existing chemical standard registration",
+   "Thirty working days for small quantity registration, prior determination and small quantity registration of polymers of low concern, phase one registration, confidentiality and extension; 60 for simplified registration or inventory listing; 90 for new chemical standard registration; and 180 for existing chemical standard registration",
+   "Thirty working days for every application with no distinction by category; the central authority may extend the review period an unlimited number of times, notifying the registrant each time with reasons and the expected completion date",
+   "Fourteen working days for every application with no distinction by category; if no decision is made in time the registration is deemed approved and the registrant may manufacture or import without any registration code"
+  ],
+  "ex_en": "Article 25."
+ },
+ {
+  "file": "batch9_d9",
+  "idx": 0,
+  "law_id": "ENV-76",
+  "law": "環境用藥管理法",
+  "art": "第1條",
+  "q_zh": "環境用藥管理法之立法目的為何？",
+  "opt_zh": [
+   "為防止環境用藥之危害，維護人體健康，保護環境",
+   "為促進環境用藥產業發展，提升外銷競爭力及產值",
+   "為統一環境用藥之市場價格，穩定供需及物價水準",
+   "為健全環境用藥業者財務，保障從業人員工作權益"
+  ],
+  "ans": "a",
+  "ex_zh": "第1條：為防止環境用藥之危害，維護人體健康，保護環境，特制定本法。第2條並規定本法所稱主管機關在中央為行政院環境保護署，在直轄市為直轄市政府，在縣（市）為縣（市）政府。",
+  "q_en": "What is the legislative purpose of the Environmental Agents Control Act?",
+  "opt_en": [
+   "To prevent harm from environmental agents, safeguard human health and protect the environment",
+   "To promote the environmental agents industry and raise its export competitiveness and output",
+   "To unify the market prices of environmental agents and stabilise supply, demand and prices",
+   "To strengthen the finances of agent businesses and protect employees' working rights"
+  ],
+  "ex_en": "Articles 1 and 2."
+ },
+ {
+  "file": "batch9_d9",
+  "idx": 8,
+  "law_id": "ENV-76",
+  "law": "環境用藥管理法",
+  "art": "第9條",
+  "q_zh": "製造、加工或輸入環境用藥，應如何辦理？旅客攜帶少量自用者如何？",
+  "opt_zh": [
+   "應將名稱成分性能製法要旨分析方法毒理報告藥效報告及有關資料證件連同標示及樣品向中央主管機關申請查驗登記，經核發許可證後始得製造加工或輸入；旅客攜帶少量自用者不受限制但限供自用不得販售",
+   "應將名稱成分性能製法要旨分析方法毒理報告藥效報告及有關資料證件連同標示及樣品向直轄市縣市主管機關申請登記，經核發執照後始得製造加工或輸入；旅客攜帶少量自用者仍應申請查驗登記後始得攜入",
+   "應向目的事業主管機關申請工廠登記並取得同意函後即得製造加工或輸入而無須辦理查驗登記；旅客攜帶少量自用者應向海關申報並繳納關稅後始得攜入，且得於國內自由轉售予他人使用",
+   "應向中央主管機關報備其產品名稱及成分即可，無須提交毒理報告或藥效報告等資料；旅客攜帶少量自用者一律禁止攜入，海關查獲時應責令納稅義務人限期辦理退運或逕予沒入銷毀"
+  ],
+  "ans": "a",
+  "ex_zh": "第9條第1項：製造、加工或輸入環境用藥，應將其名稱、成分、性能、製法之要旨、分析方法、毒理報告、藥效（效力）報告及有關資料或證件，連同標示及樣品，向中央主管機關申請查驗登記，經核發許可證後，始得製造、加工或輸入。第2項：屬一般環境用藥者，主管機關應於網際網路上公告其廠商、產品名稱、許可證字號、成分、性能及產品標示。第3項：輸入未經許可者，海關應責令納稅義務人限期辦理退運。第4項、第5項：旅客或交通工具服務人員攜帶少量自用者不受第1項限制，但限供自用不得販售。",
+  "q_en": "How must manufacture, processing or import be handled, and what about travellers' personal use?",
+  "opt_en": [
+   "Submit the name, ingredients, performance, process summary, analytical methods, toxicology and efficacy reports and related documents with labels and samples to the central authority for registration, and manufacture only after a permit issues; travellers carrying small amounts for personal use are exempt but may not sell them",
+   "Submit the name, ingredients, performance, process summary, analytical methods, toxicology and efficacy reports and related documents together with labels and samples to the local competent authority, and manufacture only after a licence issues; travellers must still apply for registration before bringing any in at all",
+   "Apply to the industry authority for factory registration and a consent letter, after which manufacture or import may proceed without any product registration; travellers must declare to customs and pay duty, and may then resell freely within the country",
+   "Merely file the product name and ingredients with the central authority, with no toxicology or efficacy reports needed; travellers are wholly barred from bringing any in, and customs must order return shipment or confiscate and destroy them"
+  ],
+  "ex_en": "Article 9."
+ },
+ {
+  "file": "batch9_d9",
+  "idx": 16,
+  "law_id": "ENV-76",
+  "law": "環境用藥管理法",
+  "art": "第17條",
+  "q_zh": "環境用藥製造業者就委託或接受委託製造環境用藥，有何規定？",
+  "opt_zh": [
+   "非經中央主管機關核准，不得委託或接受委託製造環境用藥；其申請條件、審查、核准及其他應遵行事項之準則，由中央主管機關定之",
+   "非經直轄市縣市主管機關備查，不得委託或接受委託製造環境用藥；其申請條件及審查準則，由地方主管機關依轄內情形分別訂定",
+   "得自由委託或接受委託製造環境用藥而無須經任何機關核准；惟應於製造完成後三十日內報請中央主管機關備查其製造數量",
+   "一律不得委託或接受委託製造環境用藥；縱經中央主管機關核准亦同，違者應撤銷其環境用藥製造許可證並勒令停工歇業"
+  ],
+  "ans": "a",
+  "ex_zh": "第17條第1項：環境用藥製造業者，非經中央主管機關核准，不得委託或接受委託製造環境用藥。第2項：前項委託或接受委託之申請條件、審查、核准及其他應遵行事項之準則，由中央主管機關定之。第48條第1款並規定違反第17條第1項規定者，處新臺幣六萬元以上三十萬元以下罰鍰。",
+  "q_en": "What applies to contract manufacture of environmental agents?",
+  "opt_en": [
+   "Without central approval a manufacturer may not commission or accept contract manufacture; the application conditions, review, approval and other requirements are prescribed by the central authority",
+   "Without a filing to the local competent authority a manufacturer may not commission or accept contract manufacture; the application conditions and review rules are set locally by each such authority",
+   "Contract manufacture may be commissioned or accepted freely with no approval; the quantities made need only be filed with the central authority within 30 days of completion",
+   "Contract manufacture is entirely prohibited even with central approval, and breach means revocation of the manufacturing permit and an order to halt work and close the business"
+  ],
+  "ex_en": "Articles 17 and 48."
+ },
+ {
+  "file": "batch9_d9",
+  "idx": 24,
+  "law_id": "ENV-76",
+  "law": "環境用藥管理法",
+  "art": "第25條",
+  "q_zh": "環境用藥有效成分含量容許誤差範圍由何機關公告？其變更應於何時公告？",
+  "opt_zh": [
+   "由中央主管機關公告之；容許誤差範圍如有變更，應於施行之日起六個月前公告",
+   "由中央主管機關公告之；容許誤差範圍如有變更，應於施行之日起三十日前公告",
+   "由直轄市縣市主管機關公告之；容許誤差範圍如有變更，應於施行當日公告即可",
+   "由同業公會研議後公告之；容許誤差範圍如有變更，應於施行之日起一年前公告"
+  ],
+  "ans": "a",
+  "ex_zh": "第25條第1項：環境用藥有效成分含量容許誤差範圍，由中央主管機關公告之。第2項：前項容許誤差範圍如有變更，應於施行之日起六個月前公告。第8條第2款並規定有效成分含量與容許誤差範圍不符者，屬劣質環境用藥；第46條第3項則規定製造、加工或輸入該等劣質環境用藥者，處負責人六萬元以上三十萬元以下罰鍰。",
+  "q_en": "Who announces the tolerance range for active ingredient content, and when must changes be announced?",
+  "opt_en": [
+   "The central competent authority announces it; any change must be announced six months before the date it takes effect",
+   "The central competent authority announces it; any change must be announced thirty days before the date it takes effect",
+   "The local competent authority announces it; any change may simply be announced on the day it takes effect",
+   "The trade association announces it after deliberation; any change must be announced one year before it takes effect"
+  ],
+  "ex_en": "Articles 8, 25 and 46."
+ },
+ {
+  "file": "batch9_e",
+  "idx": 0,
+  "law_id": "ENV-80",
+  "law": "土壤污染監測標準",
+  "art": "第4條",
+  "q_zh": "土壤污染監測標準之砷、鎘、鉻、銅監測標準值各為多少？鎘之食用作物農地監測基準值為何？",
+  "opt_zh": [
+   "砷三十、鎘十、鉻一七五、銅二二○毫克／公斤；鎘之食用作物農地監測基準值為二點五",
+   "砷五十、鎘十五、鉻一○○、銅三○○毫克／公斤；鎘之食用作物農地監測基準值為一點五",
+   "砷十五、鎘二十、鉻二五○、銅一二○毫克／公斤；鎘之食用作物農地監測基準值為五點○",
+   "砷二十、鎘十八、鉻一五○、銅二○○毫克／公斤；鎘之食用作物農地監測基準值為三點○"
+  ],
+  "ans": "a",
+  "ex_zh": "第4條附表：砷30、鎘10（食用作物農地2.5）、鉻175、銅220（食用作物農地120）、汞10（食用作物農地2）、鎳130、鉛1000（食用作物農地300）、鋅1000（食用作物農地260），單位為毫克／公斤。第3條：毫克／公斤指重金屬全量分析每一公斤土壤（乾基）所含污染物之毫克數。",
+  "q_en": "What are the soil monitoring values for As, Cd, Cr and Cu, and the Cd value for edible crop farmland?",
+  "opt_en": [
+   "As 30, Cd 10, Cr 175, Cu 220 mg/kg; the Cd value for edible crop farmland is 2.5",
+   "As 50, Cd 15, Cr 100, Cu 300 mg/kg; the Cd value for edible crop farmland is 1.5",
+   "As 15, Cd 20, Cr 250, Cu 120 mg/kg; the Cd value for edible crop farmland is 5.0",
+   "As 20, Cd 18, Cr 150, Cu 200 mg/kg; the Cd value for edible crop farmland is 3.0"
+  ],
+  "ex_en": "Article 4 table; Article 3 defines mg/kg as total metal per kg of dry soil."
+ },
+ {
+  "file": "batch9_e",
+  "idx": 8,
+  "law_id": "ENV-83",
+  "law": "防止貯存系統污染地下水體設施及監測設備設置管理辦法",
+  "art": "第2條",
+  "q_zh": "本辦法所稱暫停使用、復用及轉換用途之定義各為何？",
+  "opt_zh": [
+   "暫停使用指暫時停止使用一個月以上；復用指停用一個月以上後再度使用；轉換用途指貯存物質由指定物質變更為非指定物質",
+   "暫停使用指暫時停止使用三個月以上；復用指停用三個月以上後再度使用；轉換用途指貯存物質由非指定物質變更為指定物質",
+   "暫停使用指暫時停止使用六個月以上；復用指停用六個月以上後再度使用；轉換用途指儲槽由地下移設至地上後繼續使用",
+   "暫停使用指暫時停止使用十四日以上；復用指停用十四日以上後再度使用；轉換用途指儲槽所有權移轉予其他事業使用"
+  ],
+  "ans": "a",
+  "ex_zh": "第2條第10至13款：復用指停用一個月以上後再度使用；暫停使用指暫時停止使用一個月以上，但不含因洩漏造成污染而進行改善或整治者；永久關閉指歇業、許可經撤銷廢止或永久停用且槽內貯存物全部取出；轉換用途指繼續使用但貯存物質由指定物質變更為非指定物質。第28條並定有暫停使用、復用、永久關閉或轉換用途十五日前之通報義務。",
+  "q_en": "How are suspension of use, resumption and change of use defined?",
+  "opt_en": [
+   "Suspension means stopping use for over one month; resumption is reuse after such a stop; change of use is to a non-designated substance",
+   "Suspension means stopping use for over three months; resumption is reuse after such a stop; change of use is to a designated substance",
+   "Suspension means stopping use for over six months; resumption is reuse after such a stop; change of use is relocating the tank above ground",
+   "Suspension means stopping use for over fourteen days; resumption is reuse after such a stop; change of use is transfer of tank ownership"
+  ],
+  "ex_en": "Article 2(10)-(13); Article 28 requires notification 15 days in advance."
+ },
+ {
+  "file": "batch9_e",
+  "idx": 16,
+  "law_id": "ENV-87",
+  "law": "自主減量計畫管理辦法",
+  "art": "第6條",
+  "q_zh": "中央主管機關受理自主減量計畫申請之審查程序及補正期限為何？",
+  "opt_zh": [
+   "應邀集中央目的事業主管機關組成審查小組，於三個月內作成准駁決定；補正日數不計入審查期間，補正總日數不得超過六十日",
+   "應邀集中央目的事業主管機關組成審查小組，於六個月內作成准駁決定；補正日數併計入審查期間，補正總日數不得超過九十日",
+   "應委由直轄市、縣（市）主管機關組成審查小組，於一個月內作成准駁決定；補正日數不計入審查期間，補正總日數以三十日為限",
+   "應遴聘專家學者組成審議會逐案表決，於一年內作成准駁決定；補正日數不計入審查期間，補正總日數不得超過一百二十日"
+  ],
+  "ans": "a",
+  "ex_zh": "第6條第1項：中央主管機關應邀集中央目的事業主管機關組成審查小組，必要時得遴聘專家學者協助審查，並於三個月內作成准駁之決定，必要時得延長之。第6條第2項：補正日數不計入審查期間，補正總日數不得超過六十日，屆期未補正或補正仍不合規定者予以駁回。第7條並定應核定之六項事項。",
+  "q_en": "What review procedure and correction limit apply to a voluntary reduction plan?",
+  "opt_en": [
+   "A review panel with central industry authorities decides within three months; correction days are excluded and capped at 60 days",
+   "A review panel with central industry authorities decides within six months; correction days are counted in and capped at 90 days",
+   "Municipal authorities form the panel and decide within one month; correction days are excluded and capped at 30 days",
+   "An expert council votes case by case within one year; correction days are excluded and capped at 120 days"
+  ],
+  "ex_en": "Article 6."
+ },
+ {
+  "file": "batch9_e",
+  "idx": 24,
+  "law_id": "ENV-88",
+  "law": "溫室氣體減量額度交易拍賣及移轉管理辦法",
+  "art": "第11條",
+  "q_zh": "減量額度交易及拍賣之手續費費率及繳納義務人為何？",
+  "opt_zh": [
+   "定價交易及拍賣以成交總金額百分之五計；協議交易以交易單價、公告碳費費率或最近成交價三者取高之百分之五計，由買方繳納",
+   "定價交易及拍賣以成交總金額百分之十計；協議交易以交易單價、公告碳費費率或最近成交價三者取低之百分之十計，由賣方繳納",
+   "定價交易及拍賣以成交總金額百分之三計；協議交易以交易單價、公告碳費費率或最近成交價三者平均之百分之三計，由雙方各半",
+   "定價交易及拍賣以成交總金額百分之一計；協議交易以交易單價、公告碳費費率或最近成交價三者取高之百分之二計，由賣方繳納"
+  ],
+  "ans": "a",
+  "ex_zh": "第11條：定價交易及拍賣手續費均為成交總金額百分之五，由買方事業繳納；協議交易以每一減量額度單位交易量乘以當次交易單價、買方適用之公告碳費費率或最近一次相同類型專案單位成交價格，三者取高者之百分之五計。第4款：手續費計算取至整數，小數點後無條件進位。",
+  "q_en": "What handling fee applies to credit trading and auctions, and who pays it?",
+  "opt_en": [
+   "Five percent of the total price for fixed price trades and auctions; five percent of the highest of three references, buyer pays",
+   "Ten percent of the total price for fixed price trades and auctions; ten percent of the lowest of three references, seller pays",
+   "Three percent of the total price for fixed price trades and auctions; three percent of the average of three, split equally",
+   "One percent of the total price for fixed price trades and auctions; two percent of the highest of three references, seller pays"
+  ],
+  "ex_en": "Article 11."
+ },
+ {
+  "file": "batch9_e",
+  "idx": 32,
+  "law_id": "ENV-89",
+  "law": "溫室氣體自願減量專案管理辦法",
+  "art": "第8條",
+  "q_zh": "何種規模之自願減量專案，其專案計畫書得僅分析法規外加性，並免除環境衝擊分析及公眾意見？",
+  "opt_zh": [
+   "再生能源總裝置容量小於或等於五千瓩、節能年總節電量小於或等於二千萬度或年減量小於或等於二萬公噸二氧化碳當量者",
+   "再生能源總裝置容量小於或等於一萬五千瓩、節能年總節電量小於或等於六千萬度或年減量小於或等於六萬公噸二氧化碳當量者",
+   "再生能源總裝置容量小於或等於一千瓩、節能年總節電量小於或等於五百萬度或年減量小於或等於五千公噸二氧化碳當量者",
+   "再生能源總裝置容量小於或等於十萬瓩、節能年總節電量小於或等於一億度或年減量小於或等於十萬公噸二氧化碳當量者"
+  ],
+  "ans": "a",
+  "ex_zh": "第8條第2項：再生能源總裝置容量小於或等於五千瓩、節能型專案每年總節電量小於或等於二千萬度、或每年總減量小於或等於二萬公噸二氧化碳當量者，專案計畫書得僅分析法規外加性，且免除環境衝擊分析及公眾意見。第8條第1項：介於五千至一萬五千瓩、二千萬至六千萬度或二萬至六萬公噸者，應分析法規外加性並於財務外加性、障礙分析及普遍性分析中擇一。",
+  "q_en": "Which project scale may analyze only regulatory additionality and omit impact analysis and public comment?",
+  "opt_en": [
+   "Renewable capacity at most 5,000 kW, annual savings at most 20 million kWh, or annual reductions at most 20,000 t CO2e",
+   "Renewable capacity at most 15,000 kW, annual savings at most 60 million kWh, or annual reductions at most 60,000 t CO2e",
+   "Renewable capacity at most 1,000 kW, annual savings at most 5 million kWh, or annual reductions at most 5,000 t CO2e",
+   "Renewable capacity at most 100,000 kW, annual savings at most 100 million kWh, or annual reductions at most 100,000 t CO2e"
+  ],
+  "ex_en": "Article 8(2); Article 8(1) covers the middle band."
+ },
+ {
+  "file": "batch9_e",
+  "idx": 40,
+  "law_id": "ENV-90",
+  "law": "溫室氣體排放量增量抵換管理辦法",
+  "art": "第4條",
+  "q_zh": "事業進行溫室氣體排放量增量抵換之抵換比率及執行期程規定為何？",
+  "opt_zh": [
+   "抵換比率每年百分之十，連續執行十年；抵換比率每年超過百分之十者，執行期程得少於十年至應抵換總量全數完成",
+   "抵換比率每年百分之五，連續執行二十年；抵換比率每年超過百分之五者，執行期程得少於二十年至應抵換總量完成",
+   "抵換比率每年百分之二十，連續執行五年；抵換比率每年超過百分之二十者，執行期程得少於五年至應抵換總量完成",
+   "抵換比率一次抵換百分之百並應於營運日前完成；經主管機關同意者，得分三年逐年抵換至應抵換總量全數完成"
+  ],
+  "ans": "a",
+  "ex_zh": "第4條第2款：溫室氣體排放量增量之抵換比率每年百分之十，連續執行十年；抵換比率每年超過百分之十者，其執行期程得少於十年，至應抵換總量全數抵換完成。第4條第1款：排放量增量依開發範圍內年度使用之原（物）料、燃料及外購電力或蒸汽量估算，以排放係數法、質量平衡法或其他認可方法為之。",
+  "q_en": "What offset ratio and schedule apply to greenhouse gas increment offsetting?",
+  "opt_en": [
+   "Ten percent a year for ten consecutive years; a higher yearly ratio may shorten the schedule until the total is offset",
+   "Five percent a year for twenty consecutive years; a higher yearly ratio may shorten the schedule until the total is offset",
+   "Twenty percent a year for five consecutive years; a higher yearly ratio may shorten the schedule until the total is offset",
+   "One hundred percent at once before the operation date; with consent it may be spread across three years until complete"
+  ],
+  "ex_en": "Article 4."
+ },
+ {
+  "file": "batch9_e",
+  "idx": 48,
+  "law_id": "ENV-91",
+  "law": "自願性產品碳足跡核定標示及管理辦法",
+  "art": "第13條",
+  "q_zh": "使用者發生資料異動、變更廠場製程或更新設備時，應於何時上傳資料報中央主管機關備查？",
+  "opt_zh": [
+   "資料異動自事實發生次日起三十日內；變更生產廠場範圍及製程於變更起始日前三十日內；更新設備或流程於完成日起三個月內",
+   "資料異動自事實發生次日起十五日內；變更生產廠場範圍及製程於變更起始日後十五日內；更新設備或流程於完成日起一個月內",
+   "資料異動自事實發生次日起六十日內；變更生產廠場範圍及製程於變更起始日前七日內；更新設備或流程於完成日起六個月內",
+   "資料異動自事實發生次日起九十日內；變更生產廠場範圍及製程於變更完成後九十日內；更新設備或流程於完成日起一年內"
+  ],
+  "ans": "a",
+  "ex_zh": "第13條第1項：第3條第1項第1款至第5款資料異動者自事實發生次日起三十日內上傳；變更生產廠場、服務場所範圍及製程者於變更起始日前三十日內上傳變更起始日、預計完成日及證明文件；更新設備或服務流程者於更新完成日起三個月內上傳起始日、完成日與完成日後之盤查結果。第13條第2項：屬變更廠場製程者應於變更起始日起停止使用及標示標籤。",
+  "q_en": "When must changes of data, of plant or process, and equipment updates be filed for record?",
+  "opt_en": [
+   "Data changes within thirty days after the event; plant or process changes thirty days before they start; updates in three months",
+   "Data changes within fifteen days after the event; plant or process changes fifteen days after they start; updates in one month",
+   "Data changes within sixty days after the event; plant or process changes seven days before they start; updates in six months",
+   "Data changes within ninety days after the event; plant or process changes ninety days after completion; updates in one year"
+  ],
+  "ex_en": "Article 13."
+ },
+ {
+  "file": "batch9_e",
+  "idx": 56,
+  "law_id": "ENV-94",
+  "law": "環境教育人員認證及管理辦法",
+  "art": "第15條",
+  "q_zh": "環境教育人員認證之有效期限、展延申請期間及展延所需研習時數為何？",
+  "opt_zh": [
+   "認證有效期限為五年，屆滿前三至六個月內得申請展延，每次展延五年；展延須研習十五小時以上含法規或政策三小時以上",
+   "認證有效期限為三年，屆滿前一至三個月內得申請展延，每次展延三年；展延須研習三十小時以上含法規或政策六小時以上",
+   "認證有效期限為十年，屆滿前六至十二個月內得申請展延，每次展延十年；展延須研習八小時以上含法規或政策二小時以上",
+   "認證有效期限為五年，屆滿後三個月內始得申請展延，每次展延二年；展延須研習二十五小時以上含法規或政策五小時以上"
+  ],
+  "ans": "a",
+  "ex_zh": "第15條第1項：除經薦舉取得認證者外，認證有效期限為五年，期限屆滿前三至六個月內得申請展延，每次展延之有效期限為五年。第15條第2項：應繳交新臺幣五百元展延審查費，並檢附研習累計十五小時以上（含三小時以上環境教育法規或相關政策）、修畢六學分、發表論文或取得專利等證明之一。第15條第4項：核發機關應於受理次日起十四日內作成准駁決定。",
+  "q_en": "How long is certification valid, when may renewal be applied for, and what training is needed?",
+  "opt_en": [
+   "Valid five years; apply three to six months before expiry; each renewal is five years and needs 15 hours including 3 on law",
+   "Valid three years; apply one to three months before expiry; each renewal is three years and needs 30 hours including 6 on law",
+   "Valid ten years; apply six to twelve months before expiry; each renewal is ten years and needs 8 hours including 2 on law",
+   "Valid five years; apply within three months after expiry; each renewal is two years and needs 25 hours including 5 on law"
+  ],
+  "ex_en": "Article 15."
+ },
+ {
+  "file": "batch9_e1",
+  "idx": 0,
+  "law_id": "ENV-80",
+  "law": "土壤污染監測標準",
+  "art": "第1條",
+  "q_zh": "土壤污染監測標準係依何項法律規定訂定？",
+  "opt_zh": [
+   "依土壤及地下水污染整治法第六條第二項規定訂定",
+   "依水污染防治法第三十三條第二項規定訂定之",
+   "依環境基本法第八條第一項規定所訂定者",
+   "依廢棄物清理法第三十六條規定訂定之"
+  ],
+  "ans": "a",
+  "ex_zh": "第1條：本標準依土壤及地下水污染整治法第六條第二項規定訂定之。同法第6條第2項授權中央主管機關訂定土壤及地下水污染監測標準；地下水污染監測標準第1條亦以同一條項為法源。",
+  "q_en": "Under which statutory provision were the Soil Pollution Monitoring Standards issued?",
+  "opt_en": [
+   "Article 6, paragraph 2 of the Soil and Groundwater Pollution Remediation Act",
+   "Article 33, paragraph 2 of the Water Pollution Control Act as amended",
+   "Article 8, paragraph 1 of the Basic Environment Act of the country",
+   "Article 36 of the Waste Disposal Act governing contaminated sites"
+  ],
+  "ex_en": "Article 1."
+ },
+ {
+  "file": "batch9_e1",
+  "idx": 8,
+  "law_id": "ENV-83",
+  "law": "防止貯存系統污染地下水體設施及監測設備設置管理辦法",
+  "art": "第3條",
+  "q_zh": "下列何種設備及其附屬儲槽、輸送設備，非本辦法所稱之貯存系統？",
+  "opt_zh": [
+   "廢（污）水處理設施、石化製程、公共設施管線、設於公共使用土地之石油管線及廠區外工廠設備",
+   "加油站地下儲槽、工廠鍋爐用油儲槽、發電機日用油槽、化學品倉庫及實驗室溶劑貯存櫃等",
+   "容積達六百公升以上之貯存容器、雙層槽地下儲槽、具二次阻隔層之輸送設備及槽間監測井",
+   "位於工業區內之地上儲槽、已投保責任險之儲槽、公營事業所屬儲槽及軍事單位所屬儲槽"
+  ],
+  "ans": "a",
+  "ex_zh": "第3條第1項：水污染防治法所稱廢（污）水處理設施、揮發性有機物空氣污染管制及排放標準所稱石化製程、共同管道法所稱公共設施管線、石油管理法所稱石油管線並設置於公共使用之土地者、工廠管理輔導法所稱廠區外工廠設備，均非本辦法所稱之貯存系統。第3條第2項：貯存容器貯存經登記廢棄之毒性化學物質，不受本辦法之限制。",
+  "q_en": "Which facilities are excluded from the definition of a storage system?",
+  "opt_en": [
+   "Wastewater treatment facilities, petrochemical processes, utility conduits, public land oil pipelines, off site factory equipment",
+   "Gas station underground tanks, boiler fuel tanks, generator day tanks, chemical warehouses and laboratory solvent cabinets",
+   "Containers of 600 liters or more, double wall underground tanks, piping with secondary containment and interstitial wells",
+   "Above ground tanks in industrial parks, insured tanks, tanks of state owned enterprises and tanks of military units"
+  ],
+  "ex_en": "Article 3."
+ },
+ {
+  "file": "batch9_e1",
+  "idx": 16,
+  "law_id": "ENV-83",
+  "law": "防止貯存系統污染地下水體設施及監測設備設置管理辦法",
+  "art": "第15條",
+  "q_zh": "事業申請採用第九條第一項第五款之其他監測方式，應檢附哪些文件並向何機關申請？",
+  "opt_zh": [
+   "應檢附登記證明及負責人身分證明、認證機構認證之測試成果報告、品保品管規劃書，報經中央主管機關核准後始得為之",
+   "應檢附登記證明及負責人身分證明、監測人員訓練合格證書、環境影響說明書，報經地方主管機關備查後即得為之",
+   "應檢附登記證明及土地權狀影本、儲槽竣工圖說、洩漏應變計畫，報經目的事業主管機關核轉中央主管機關核准",
+   "應檢附登記證明及財力證明文件、國外原廠型錄、保險單影本，報經檢驗測定機構審查同意後函報中央機關備查"
+  ],
+  "ans": "a",
+  "ex_zh": "第15條第1項：申請第9條第1項第5款之監測方式者，應檢附公司或商業登記證明文件影本及負責人身分證明文件影本、經認證機構認證之監測方式測試成果報告、品保品管規劃書，引進國外認證方法者並應檢具原文認證文件及經駐外機構驗證之中文譯本（原文為英文者免附），報經中央主管機關核准後始得為之。第15條第2項：其實施頻率、記錄、方法及設施標準依核准內容為之。",
+  "q_en": "What documents are needed to use another monitoring method, and who approves it?",
+  "opt_en": [
+   "Registration and identity documents, an accredited test result report and a QA/QC plan, approved by the central authority beforehand",
+   "Registration and identity documents, training certificates of monitors and an impact statement, filed with the local authority",
+   "Registration and land title documents, as built drawings and a leak response plan, forwarded by the industry authority",
+   "Registration and financial documents, foreign catalogs and an insurance policy, agreed by a testing organization first"
+  ],
+  "ex_en": "Article 15."
+ },
+ {
+  "file": "batch9_e1",
+  "idx": 24,
+  "law_id": "ENV-83",
+  "law": "防止貯存系統污染地下水體設施及監測設備設置管理辦法",
+  "art": "第25條",
+  "q_zh": "地上儲槽系統之申報時程及免申報情形為何？",
+  "opt_zh": [
+   "應於每年一月、五月、九月之月底前申報前四個月之紀錄；依第二十一條規定免進行監測者，免依規定進行申報",
+   "應於每年三月、七月、十一月之月底前申報前四個月之紀錄；依第二十一條規定免進行監測者，仍應按期申報",
+   "應於每年六月及十二月之月底前申報前六個月之紀錄；容積未達一千公秉之地上儲槽系統一律免進行申報",
+   "應於每年十二月三十一日前申報當年度全年之紀錄；已委託檢驗測定機構監測者，由該機構代為申報即可"
+  ],
+  "ans": "a",
+  "ex_zh": "第25條第1項：地上儲槽系統應以網路傳輸方式於每年一月、五月、九月之月底前，向直轄市、縣（市）主管機關申報前四個月依第19條第1項及第20條第1項之總量進出管制紀錄、監測日期及紀錄、洩漏量及處理情形等。第25條第3項：依第21條免進行監測者，免依第1項規定申報。第25條第4項：申報文件欠缺者應限期補正，逾期視為未申報。",
+  "q_en": "What is the reporting schedule for above ground systems, and who is exempt?",
+  "opt_en": [
+   "File by the end of January, May and September for the previous four months; those exempt from monitoring need not report",
+   "File by the end of March, July and November for the previous four months; those exempt from monitoring must still report",
+   "File by the end of June and December for the previous six months; any system under 1,000 kL is exempt from reporting",
+   "File by December 31 each year covering the whole year; where monitoring is commissioned the organization files instead"
+  ],
+  "ex_en": "Article 25."
+ },
+ {
+  "file": "batch9_e2",
+  "idx": 0,
+  "law_id": "ENV-87",
+  "law": "自主減量計畫管理辦法",
+  "art": "第1條",
+  "q_zh": "自主減量計畫管理辦法之訂定法源為何？",
+  "opt_zh": [
+   "依氣候變遷因應法第二十九條第三項規定訂定",
+   "依氣候變遷因應法第二十八條第二項規定訂定",
+   "依氣候變遷因應法第二十五條第四項規定訂定",
+   "依氣候變遷因應法第二十四條第二項規定訂定"
+  ],
+  "ans": "a",
+  "ex_zh": "第1條：本辦法依氣候變遷因應法（本法）第二十九條第三項規定訂定之。本法第29條第1項為事業提出自主減量計畫並達指定目標得適用優惠費率之依據；第2項為指定目標，第3項授權訂定本辦法。",
+  "q_en": "Under which provision was the Voluntary Reduction Plan Regulation issued?",
+  "opt_en": [
+   "Article 29, paragraph 3 of the Climate Change Response Act",
+   "Article 28, paragraph 2 of the Climate Change Response Act",
+   "Article 25, paragraph 4 of the Climate Change Response Act",
+   "Article 24, paragraph 2 of the Climate Change Response Act"
+  ],
+  "ex_en": "Article 1."
+ },
+ {
+  "file": "batch9_e2",
+  "idx": 8,
+  "law_id": "ENV-87",
+  "law": "自主減量計畫管理辦法",
+  "art": "第13條",
+  "q_zh": "中央主管機關得廢止已核定自主減量計畫之情形為何？",
+  "opt_zh": [
+   "事業因停業、歇業、解散或因故未能繼續執行自主減量計畫，或事業未依第十二條規定於期限內完成改善者",
+   "事業因產能擴增致排放量增加，或事業未於每年四月三十日前提交前一年度執行報告而逾期達三十日以上者",
+   "事業經查核未達年度指定目標，或事業申請變更計畫內容經中央主管機關審查後駁回而未於期限內重新申請者",
+   "事業之減量措施成效低於預估值一成以上，或事業未將自主減量計畫核定內容公開於其公司網站供公眾查閱者"
+  ],
+  "ans": "a",
+  "ex_zh": "第13條：事業執行自主減量計畫，因停業、歇業、解散或因故未能繼續執行自主減量計畫，或未依第12條規定於期限內完成改善者，中央主管機關得廢止已核定之自主減量計畫。第14條第2款：廢止自主減量計畫者，自廢止當年度及其後年度改為一般費率計算繳納碳費。",
+  "q_en": "In which cases may an approved voluntary reduction plan be revoked?",
+  "opt_en": [
+   "The enterprise suspends, closes or dissolves and cannot continue the plan, or fails to correct within the set time limit",
+   "The enterprise expands capacity so emissions rise, or files the annual progress report more than thirty days late",
+   "The enterprise misses an annual designated target, or fails to refile after a plan change application was rejected",
+   "Measured reductions fall more than ten percent short of the estimate, or the approval was not posted on the company website"
+  ],
+  "ex_en": "Article 13; Article 14(2)."
+ },
+ {
+  "file": "batch9_e2",
+  "idx": 16,
+  "law_id": "ENV-88",
+  "law": "溫室氣體減量額度交易拍賣及移轉管理辦法",
+  "art": "第7條",
+  "q_zh": "首次參與交易或拍賣之事業應先辦理何事？同一統一編號下不同事業之帳戶如何處理？",
+  "opt_zh": [
+   "應先經中央主管機關同意開立額度帳戶及買賣帳戶；同一統一編號下不同事業僅得使用共同帳戶，不得重複申請",
+   "應先向交易平台繳納保證金並簽訂契約；同一統一編號下不同事業應各自分別申請開立帳戶，不得共用同一帳戶",
+   "應先取得目的事業主管機關核發之交易許可證；同一統一編號下不同事業由排放量最大者統一代為開立及操作",
+   "應先完成年度溫室氣體盤查登錄及查驗；同一統一編號下不同事業得自由選擇共用或分別申請開立各該帳戶"
+  ],
+  "ans": "a",
+  "ex_zh": "第7條第1項：首次參與交易或拍賣之事業，應先經中央主管機關同意開立額度帳戶及買賣帳戶，始得進行交易或拍賣。第7條第2項：應上傳登記證明文件、委任書、指定電子憑證、切結書、使用約定書、指定匯款帳戶存摺封面影本等資料。第7條第3項：同一統一編號下不同事業僅得使用共同之額度帳戶及買賣帳戶，不得重複申請。第7條第4項：因執行專案已開立額度帳戶者免再開立。",
+  "q_en": "What must a first time participant do, and how are accounts handled under one tax ID?",
+  "opt_en": [
+   "Obtain central authority consent to open a credit account and a trading account; one tax ID uses shared accounts with no duplicates",
+   "Pay a deposit to the platform and sign a contract; enterprises under one tax ID must each open their own separate accounts",
+   "Obtain a trading permit from the industry authority; under one tax ID the largest emitter opens and operates the accounts",
+   "Complete annual inventory registration and verification; enterprises under one tax ID may freely share or open separate accounts"
+  ],
+  "ex_en": "Article 7."
+ },
+ {
+  "file": "batch9_e2",
+  "idx": 24,
+  "law_id": "ENV-88",
+  "law": "溫室氣體減量額度交易拍賣及移轉管理辦法",
+  "art": "第19條",
+  "q_zh": "中央主管機關於交易平台之拍賣公告，應載明哪些事項？",
+  "opt_zh": [
+   "應載明第十八條各款內容、保證金計算方式為申購數量及單位價格乘積總和之百分之二十、得標未依規定繳納餘款之處理",
+   "應載明第十八條各款內容、保證金計算方式為底價總額之百分之五十、未得標者保證金沒入基金及其後續處理方式",
+   "應載明賣方事業之財務報表、保證金計算方式為成交總金額之百分之十、買方事業之信用評等及其得標資格限制",
+   "應載明減量額度之查證報告全文、保證金計算方式為每單位一千元、得標者應於當日繳清全部價金之相關規定"
+  ],
+  "ans": "a",
+  "ex_zh": "第19條：中央主管機關於交易平台之拍賣公告，應載明第18條各款內容、保證金計算方式為申購減量額度數量及其單位價格之乘積總和之百分之二十、買方事業得標未依規定繳納餘款之處理。第22條：得標者應於指定期限內繳納扣除保證金後之餘款，未依規定繳納者當次得標無效，其保證金沒入依本法第32條設置之基金。",
+  "q_en": "What must the auction announcement state?",
+  "opt_en": [
+   "The Article 18 items, a deposit equal to twenty percent of quantity times unit price, and the handling of unpaid balances",
+   "The Article 18 items, a deposit equal to fifty percent of the floor price total, and forfeiture of deposits of losing bidders",
+   "The seller's financial statements, a deposit of ten percent of the closing amount, and buyer credit rating restrictions",
+   "The full verification report of the credits, a deposit of NT$1,000 per unit, and same day full payment by the winner"
+  ],
+  "ex_en": "Article 19; Article 22."
+ },
+ {
+  "file": "batch9_e2",
+  "idx": 32,
+  "law_id": "ENV-88",
+  "law": "溫室氣體減量額度交易拍賣及移轉管理辦法",
+  "art": "第29條",
+  "q_zh": "持有減量額度之事業因併購、合併或整併致持有事業改變者，應如何辦理減量額度歸戶？",
+  "opt_zh": [
+   "應由併購合併整併後之事業於事實發生日起一年內檢具證明文件及經公證之協議書申請歸戶；逾期經催告仍未申請者不再受理",
+   "應由原持有額度之事業於事實發生日起三十日內檢具證明文件申請歸戶；逾期未申請者其額度由中央主管機關逕予註銷",
+   "應由併購合併整併後之事業於事實發生日起三年內檢具證明文件申請歸戶；逾期未申請者得隨時再向中央主管機關補辦",
+   "應由目的事業主管機關於事實發生日起六個月內函報中央主管機關辦理歸戶；事業無須自行申請亦不生失權之效果"
+  ],
+  "ans": "a",
+  "ex_zh": "第29條第1項：因併購、合併或整併致減量額度持有事業改變者，得由併購、合併或整併後之事業，於事實發生日起一年內檢具併購證明文件、全體事業署名經公證之協議書（載明個別持有數量）等資料申請歸戶。第29條第2項：後之事業有二個以上者應共同申請並擇一代表提出，未開立額度帳戶者應依第7條開立。第29條第3項：逾期未申請經催告仍未申請者，不再受理其後歸戶之申請。第29條第4項：消滅事業之額度帳戶完成歸戶後由中央主管機關關閉。",
+  "q_en": "How are credits reassigned after a merger, acquisition or consolidation?",
+  "opt_en": [
+   "The surviving enterprise applies within one year with merger proof and a notarized agreement; after a reminder, late filings are refused",
+   "The original holder applies within thirty days with supporting documents; if late, the credits are cancelled by the central authority",
+   "The surviving enterprise applies within three years with supporting documents; late filings may still be made at any time afterwards",
+   "The industry competent authority reports the case within six months; the enterprise need not apply and loses no rights by waiting"
+  ],
+  "ex_en": "Article 29."
+ },
+ {
+  "file": "batch9_e2",
+  "idx": 40,
+  "law_id": "ENV-88",
+  "law": "溫室氣體減量額度交易拍賣及移轉管理辦法",
+  "art": "第38條",
+  "q_zh": "溫室氣體減量額度交易拍賣及移轉管理辦法自何日施行？",
+  "opt_zh": [
+   "自中華民國一百十三年八月十五日施行",
+   "自中華民國一百十三年七月一日發布日施行",
+   "自中華民國一百十四年一月一日開始施行",
+   "自發布日起算滿三個月之翌日開始施行"
+  ],
+  "ans": "a",
+  "ex_zh": "第38條：本辦法自中華民國一百十三年八月十五日施行。此與自主減量計畫管理辦法第18條規定自發布日施行不同，本辦法明定特定之施行日期以配合交易平台上線。",
+  "q_en": "When did the credit trading, auction and transfer regulation take effect?",
+  "opt_en": [
+   "On August 15, 2024 as expressly provided in the rule",
+   "On July 1, 2024, the date of its promulgation",
+   "On January 1, 2025, at the start of that year",
+   "Three months after the date of its promulgation"
+  ],
+  "ex_en": "Article 38."
+ },
+ {
+  "file": "batch9_e3",
+  "idx": 0,
+  "law_id": "ENV-89",
+  "law": "溫室氣體自願減量專案管理辦法",
+  "art": "第1條",
+  "q_zh": "溫室氣體自願減量專案管理辦法之訂定法源為何？",
+  "opt_zh": [
+   "依氣候變遷因應法第二十五條第四項規定訂定",
+   "依氣候變遷因應法第二十五條第五項規定訂定",
+   "依氣候變遷因應法第二十四條第二項規定訂定",
+   "依氣候變遷因應法第二十九條第三項規定訂定"
+  ],
+  "ans": "a",
+  "ex_zh": "第1條：本辦法依氣候變遷因應法（本法）第二十五條第四項規定訂定之。本法第25條第5項則為溫室氣體減量額度交易拍賣及移轉管理辦法之法源，第24條第2項為增量抵換管理辦法之法源。",
+  "q_en": "Under which provision was the Voluntary Reduction Project Regulation issued?",
+  "opt_en": [
+   "Article 25, paragraph 4 of the Climate Change Response Act",
+   "Article 25, paragraph 5 of the Climate Change Response Act",
+   "Article 24, paragraph 2 of the Climate Change Response Act",
+   "Article 29, paragraph 3 of the Climate Change Response Act"
+  ],
+  "ex_en": "Article 1."
+ },
+ {
+  "file": "batch9_e3",
+  "idx": 8,
+  "law_id": "ENV-89",
+  "law": "溫室氣體自願減量專案管理辦法",
+  "art": "第13條",
+  "q_zh": "中央主管機關得邀集學者專家召開審議會，辦理哪些自願減量專案相關審查作業？",
+  "opt_zh": [
+   "自願減量專案註冊及變更之申請、減量額度之申請、減量方法審定與修訂之申請及其他有關專案之審查",
+   "減量額度交易價格之核定、額度帳戶之開立、手續費費率之調整及交易平台受託機構之遴選等作業",
+   "碳費費率之審議、優惠費率級別之核定、自主減量計畫之查核及增量抵換執行報告之准駁等作業",
+   "查驗機構之許可與評鑑、查驗人員之訓練考核、查證報告之複核及查驗收費標準之核定等作業"
+  ],
+  "ans": "a",
+  "ex_zh": "第13條：中央主管機關得邀集學者專家召開審議會，辦理溫室氣體自願減量專案註冊及變更之申請、溫室氣體自願減量專案減量額度之申請、溫室氣體減量方法審定與修訂之申請，及其他有關溫室氣體自願減量專案之審查作業。第9條並定形式審查及實質審查之六個月審查期限。",
+  "q_en": "Which review matters may the expert review council handle?",
+  "opt_en": [
+   "Project registration and change applications, credit applications, methodology approval and revision applications, and other project reviews",
+   "Setting credit trading prices, opening credit accounts, adjusting handling fee rates and selecting the commissioned platform operator",
+   "Reviewing carbon fee rates, approving preferential rate tiers, auditing self reduction plans and deciding increment offset reports",
+   "Licensing and assessing verification bodies, training verifiers, reviewing verification reports and setting verification fee standards"
+  ],
+  "ex_en": "Article 13; Article 9."
+ },
+ {
+  "file": "batch9_e3",
+  "idx": 16,
+  "law_id": "ENV-90",
+  "law": "溫室氣體排放量增量抵換管理辦法",
+  "art": "第1條",
+  "q_zh": "溫室氣體排放量增量抵換管理辦法之訂定法源為何？",
+  "opt_zh": [
+   "依氣候變遷因應法第二十四條第二項規定訂定",
+   "依氣候變遷因應法第二十五條第四項規定訂定",
+   "依環境影響評估法第六條第二項規定訂定之",
+   "依氣候變遷因應法第二十八條第三項規定訂定"
+  ],
+  "ans": "a",
+  "ex_zh": "第1條：本辦法依氣候變遷因應法（本法）第二十四條第二項規定訂定之。本法第24條第1項規定事業新設或變更排放源達一定規模者應進行溫室氣體排放量增量抵換，第2項授權訂定本辦法。",
+  "q_en": "Under which provision was the Increment Offset Regulation issued?",
+  "opt_en": [
+   "Article 24, paragraph 2 of the Climate Change Response Act",
+   "Article 25, paragraph 4 of the Climate Change Response Act",
+   "Article 6, paragraph 2 of the Environmental Impact Assessment Act",
+   "Article 28, paragraph 3 of the Climate Change Response Act"
+  ],
+  "ex_en": "Article 1."
+ },
+ {
+  "file": "batch9_e3",
+  "idx": 24,
+  "law_id": "ENV-90",
+  "law": "溫室氣體排放量增量抵換管理辦法",
+  "art": "第12條",
+  "q_zh": "主管機關受理溫室氣體減量效益取得計畫或其執行成果之審查期限及補正規定為何？",
+  "opt_zh": [
+   "應於六十日內完成審查並作成准駁決定；補正日數不計入審查期間，補正總日數不得超過九十日，屆期未補正者予以駁回",
+   "應於九十日內完成審查並作成准駁決定；補正日數併計入審查期間，補正總日數不得超過三十日，屆期未補正者予以駁回",
+   "應於三十日內完成審查並作成准駁決定；補正日數不計入審查期間，補正總日數不得超過六十日，屆期未補正者視為通過",
+   "應於六個月內完成審查並作成准駁決定；補正日數不計入審查期間，補正總日數不得超過六個月，屆期未補正者得再申請"
+  ],
+  "ans": "a",
+  "ex_zh": "第12條第1項：主管機關受理第11條溫室氣體減量效益取得計畫或其執行成果，應於六十日內完成審查，並將審查結果作成准駁之決定。第12條第2項：經審查不合規定或內容有欠缺，應詳列補正所需資料並通知限期補正，補正日數不計入審查期間，補正總日數不得超過九十日；屆期未補正或補正仍不合規定者予以駁回。第13條就增量抵換及執行報告則定九十日審查及三十日補正。",
+  "q_en": "What review period and correction limit apply to reduction benefit plans and their results?",
+  "opt_en": [
+   "Decide within sixty days; correction days are excluded and capped at ninety days, and late or deficient filings are rejected",
+   "Decide within ninety days; correction days are counted in and capped at thirty days, and late or deficient filings are rejected",
+   "Decide within thirty days; correction days are excluded and capped at sixty days, and late filings are deemed to have passed",
+   "Decide within six months; correction days are excluded and capped at six months, and late filings may simply be refiled"
+  ],
+  "ex_en": "Article 12; compare Article 13."
+ },
+ {
+  "file": "batch9_e4",
+  "idx": 0,
+  "law_id": "ENV-91",
+  "law": "自願性產品碳足跡核定標示及管理辦法",
+  "art": "第1條",
+  "q_zh": "自願性產品碳足跡核定標示及管理辦法之訂定法源為何？",
+  "opt_zh": [
+   "依氣候變遷因應法第三十七條第三項規定訂定",
+   "依氣候變遷因應法第二十五條第四項規定訂定",
+   "依商品標示法第十一條第二項規定所訂定者",
+   "依氣候變遷因應法第二十四條第二項規定訂定"
+  ],
+  "ans": "a",
+  "ex_zh": "第1條：本辦法依氣候變遷因應法（本法）第三十七條第三項規定訂定之。本法第37條第2項為中央主管機關核定產品碳足跡及核定標籤之依據；第20條並定違反第11、13、14、16條者依本法第54條第2款處罰。",
+  "q_en": "Under which provision was the Voluntary Product Carbon Footprint Regulation issued?",
+  "opt_en": [
+   "Article 37, paragraph 3 of the Climate Change Response Act",
+   "Article 25, paragraph 4 of the Climate Change Response Act",
+   "Article 11, paragraph 2 of the Commodity Labeling Act",
+   "Article 24, paragraph 2 of the Climate Change Response Act"
+  ],
+  "ex_en": "Article 1; Articles 37(2) and 54(2) of the Act."
+ },
+ {
+  "file": "batch9_e4",
+  "idx": 8,
+  "law_id": "ENV-91",
+  "law": "自願性產品碳足跡核定標示及管理辦法",
+  "art": "第16條",
+  "q_zh": "使用者申請核定產品碳足跡及第十五條所列之資料，應保存幾年以備主管機關查核？",
+  "opt_zh": [
+   "應妥善保存三年，以備主管機關實施查核",
+   "應妥善保存五年，以備主管機關實施查核",
+   "應妥善保存一年，以備主管機關實施查核",
+   "應妥善保存十年，以備主管機關實施查核"
+  ],
+  "ans": "a",
+  "ex_zh": "第16條：使用者應妥善保存申請核定產品碳足跡及第15條各款所列之資料三年，以備主管機關查核。第20條第2款：違反第16條規定者，依本法第54條第2款規定處罰。第14條並定每年一月三十一日及七月三十一日前之標籤使用量申報義務。",
+  "q_en": "How long must the application and inspection materials be kept?",
+  "opt_en": [
+   "They must be properly kept for three years for the authority to audit",
+   "They must be properly kept for five years for the authority to audit",
+   "They must be properly kept for one year for the authority to audit",
+   "They must be properly kept for ten years for the authority to audit"
+  ],
+  "ex_en": "Article 16; Articles 14 and 20(2)."
+ },
+ {
+  "file": "batch9_e4",
+  "idx": 16,
+  "law_id": "ENV-91",
+  "law": "自願性產品碳足跡核定標示及管理辦法",
+  "art": "第24條",
+  "q_zh": "申請者於本辦法施行後多久期間內，得以原查證聲明書替代查驗聲明書申請核定？",
+  "opt_zh": [
+   "得於本辦法施行日起六個月內，以推動產品碳足跡管理要點取得之查證聲明書替代查驗聲明書",
+   "得於本辦法施行日起二年內，以推動產品碳足跡管理要點取得之查證聲明書替代查驗聲明書",
+   "得於本辦法施行日起三十日內，以推動產品碳足跡管理要點取得之查證聲明書替代該聲明書",
+   "得於本辦法施行日起五年內，以任何查驗機構出具之查證聲明書替代第三條所定之查驗聲明書"
+  ],
+  "ans": "a",
+  "ex_zh": "第24條：申請者得於本辦法施行日起六個月內，以中央主管機關所定推動產品碳足跡管理要點取得之查證聲明書，替代第3條第1項第7款規定之查驗聲明書，向中央主管機關申請核定產品碳足跡。第5條原則上要求盤查清冊及報告書應經中央主管機關許可之查驗機構查驗。",
+  "q_en": "For how long after the effective date may a former verification statement substitute?",
+  "opt_en": [
+   "For six months from the effective date, a statement obtained under the former guidelines may replace the verification statement",
+   "For two years from the effective date, a statement obtained under the former guidelines may replace the verification statement",
+   "For thirty days from the effective date, a statement obtained under the former guidelines may replace that statement",
+   "For five years from the effective date, a statement from any verification body may replace the Article 3 statement"
+  ],
+  "ex_en": "Article 24; Article 5."
+ },
+ {
+  "file": "batch9_e4",
+  "idx": 24,
+  "law_id": "ENV-94",
+  "law": "環境教育人員認證及管理辦法",
+  "art": "第12條",
+  "q_zh": "核發機關辦理環境教育人員認證之完成期限及延長規定為何？",
+  "opt_zh": [
+   "應於收到審查費之次日起三個月內完成認證；必要時得延長但不得逾三個月並以延長一次為限，補正日數不計入審查期間",
+   "應於收到申請書之次日起六個月內完成認證；必要時得延長但不得逾六個月並以延長二次為限，補正日數併計入審查期間",
+   "應於收到審查費之次日起一個月內完成認證；必要時得延長但不得逾一個月並以延長三次為限，補正日數不計入審查期間",
+   "應於收到審查費之次日起一年內完成認證；必要時得無限次延長，惟每次延長不得逾三個月且應通知申請者其延長理由"
+  ],
+  "ans": "a",
+  "ex_zh": "第12條第1項：核發機關應於收到審查費之次日起三個月內完成環境教育人員認證，經審查認有應補正情形者應通知限期補正，逾期未補正者駁回其申請。第12條第2項：前項審查期間必要時得延長之，但不得逾三個月，並以延長一次為限；補正日數不計入審查期間。第11條並定受理後七日內程序審查及十五日內繳納一千元審查費。",
+  "q_en": "What deadline and extension apply to completing the certification?",
+  "opt_en": [
+   "Within three months from the day after the fee is received; one extension of up to three months, with correction days excluded",
+   "Within six months from the day after the application is received; two extensions of up to six months, with correction days counted",
+   "Within one month from the day after the fee is received; three extensions of up to one month each, with correction days excluded",
+   "Within one year from the day after the fee is received; unlimited extensions of up to three months each with notice of reasons"
+  ],
+  "ex_en": "Article 12; Article 11."
+ }
+]

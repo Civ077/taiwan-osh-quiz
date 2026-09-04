@@ -9,7 +9,7 @@
 |---|---|
 | 對象 / 用途 | 所有人、娛樂競賽、中英雙語、記名計分 |
 | 模式 | 單人闖關、雙人/多人連線對戰（隨機配對＋房間碼）、每日挑戰（以日期當 seed 抽 10 題） |
-| 每局 | 20 題、每題 15 秒 |
+| 每局 | 20 題、每題 20 秒 |
 | 計分 | 答對 500 ＋ 500 ×（剩餘秒 ÷ 15）；答錯/逾時 0；連對 3 題起每題 +50，答錯歸零 |
 | 題庫 | Google Sheet「OSH_ENV_QuizBank」（Laws / Questions / Config / Changelog 四分頁），編輯者：vic、Jamie、Sue |
 | 架構 | GAS 定時把 status=active 的題目匯成 JSON → 前端單頁 PWA（GitHub Pages）；即時對戰與登入用 Firebase |

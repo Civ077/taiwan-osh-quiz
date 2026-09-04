@@ -6,6 +6,7 @@
   python push_to_sheet.py changelog 4          # 把 Changelog 中「建立批次4」那列接在最後
   python push_to_sheet.py laws-all             # 用 tsv/Laws.tsv 覆寫 Laws!A2:I62 全部欄位（依 Sheet 順序）
   python push_to_sheet.py laws                 # 用 tsv/Laws.tsv 的 law_version+source_url 覆寫 Laws!F2:G62（依 Sheet 順序）
+  python push_to_sheet.py approve ENV-01 active   # 審題：整部法規（可用 OSH-* / all）的 status 一次改成 active（或 draft/reviewed）
   python push_to_sheet.py sync-split / laws-split / articles-split   # 職安／環保分開的分頁（Questions_OSH…）；drop-combined 清舊合併分頁
   python push_to_sheet.py sync                 # 整批同步：用本地 tsv/Questions.tsv 覆寫 Questions!A2 起的 A–U 欄（題目內容），
                                                #   不動 V–Y 欄（status/batch/reviewer/review_note）；新題的 status/batch 只在空白時補上
@@ -130,6 +131,24 @@ def main(a):
                 time.sleep(5)
             print("%d-%d" % (i + 1, i + len(chunk)), "ok" if r.get("ok") else r)
             if not r.get("ok"): sys.exit("中斷於 %d，可用 `articles %d` 續灌" % (i + 1, i + 1))
+    elif cmd == "approve":
+        # 審題：把某部法規（或 all）的題目 status 一次改成指定值。用法：approve ENV-01 active ／ approve OSH-* active ／ approve all draft
+        # 依本地 tsv/Questions_<G>.tsv 的列順序定位（Sheet 分頁與本地同序），只寫 V 欄。
+        import fnmatch
+        target, st = a[1], (a[2] if len(a) > 2 else "active")
+        for g in ("OSH", "ENV"):
+            rows = [r.split(TAB) for r in read("tsv/Questions_%s.tsv" % g)][1:]
+            hit = [i for i, r in enumerate(rows) if target == "all" or fnmatch.fnmatch(r[2], target)]
+            if not hit: continue
+            # 連續區段一次寫
+            segs = []; s0 = hit[0]; prev = hit[0]
+            for i in hit[1:]:
+                if i != prev + 1: segs.append((s0, prev)); s0 = i
+                prev = i
+            segs.append((s0, prev))
+            for s0, s1 in segs:
+                r = post({"token": token(), "sheet": "Questions_" + g, "mode": "range", "startCell": "V%d" % (s0 + 2), "tsv": NL.join([st] * (s1 - s0 + 1))})
+                print("Questions_%s 第 %d–%d 列 → %s：" % (g, s0 + 2, s1 + 2, st), "ok" if r.get("ok") else r)
     elif cmd == "sync-split":
         # 職安／環保分開：tsv/Questions_OSH.tsv → Questions_OSH、tsv/Questions_ENV.tsv → Questions_ENV（含標題，從 A1 覆寫；不存在則建立；
         # 500 列一塊、range 定位寫入可重試；之後補 status/batch（只補空白列）並刪掉多餘舊列。需 GAS v5+。

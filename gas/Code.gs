@@ -18,7 +18,7 @@
  * v5：body 加 create:true 時分頁不存在會自動建立（例如 Articles 完整法條）；
  *     mode:'clear_from', from:N → 刪除第 N 列以後所有列（from=1 整張清空），用來縮短 Laws 或重灌 Articles。
  */
-const GAS_VERSION = 6;   // v5：append/range 可自動建立分頁（create:true）；新增 clear_from 模式（刪除第 N 列以後）
+const GAS_VERSION = 7;   // v5：append/range 可自動建立分頁（create:true）；新增 clear_from 模式（刪除第 N 列以後）
 const SHEET_QUESTIONS = 'Questions';
 const SHEET_CONFIG = 'Config';
 const CACHE_SEC = 300;
@@ -27,11 +27,13 @@ function doGet(e) {
   const p = (e && e.parameter) || {};
   if (p.ping) return json_({ ok: true, version: GAS_VERSION, time: new Date().toISOString() });
   const status = String(p.status || 'active').toLowerCase();
-  const key = 'bank:' + status + ':' + GAS_VERSION;
+  const group = String(p.group || '').toUpperCase();            // v7：OSH / ENV / 空＝全部
+  const fields = String(p.fields || 'full').toLowerCase();       // v7：full / core（不含解析）/ explain（只有 id＋解析）
+  const key = 'bank:' + status + ':' + group + ':' + fields + ':' + GAS_VERSION;
   const cache = CacheService.getScriptCache();
   let body = cache.get(key);
   if (!body) {
-    body = JSON.stringify(buildBank_(status));
+    body = JSON.stringify(buildBank_(status, group, fields));
     if (body.length < 95000) cache.put(key, body, CACHE_SEC);   // CacheService 單筆上限 100KB
   }
   return ContentService.createTextOutput(body).setMimeType(ContentService.MimeType.JSON);
@@ -99,22 +101,24 @@ function doPost(e) {
 }
 
 function clearCacheSilent_() {
-  const c = CacheService.getScriptCache();
-  ['active', 'all', 'draft', 'reviewed'].forEach(s => c.remove('bank:' + s + ':' + GAS_VERSION));
+  const c = CacheService.getScriptCache(); const keys = [];
+  ['active', 'all', 'draft', 'reviewed'].forEach(s => ['', 'OSH', 'ENV'].forEach(g => ['full', 'core', 'explain'].forEach(f => keys.push('bank:' + s + ':' + g + ':' + f + ':' + GAS_VERSION))));
+  c.removeAll(keys);
 }
 
 // v6：題目分「Questions_OSH」「Questions_ENV」兩張分頁（職安／環保分開）；都不存在時回退到舊的「Questions」
 const SHEET_QUESTIONS_SPLIT = ['Questions_OSH', 'Questions_ENV'];
-function questionSheets_(ss) {
-  const list = SHEET_QUESTIONS_SPLIT.map(n => ss.getSheetByName(n)).filter(Boolean);
+function questionSheets_(ss, group) {
+  const names = group ? ['Questions_' + group] : SHEET_QUESTIONS_SPLIT;
+  const list = names.map(n => ss.getSheetByName(n)).filter(Boolean);
   if (list.length) return list;
   const old = ss.getSheetByName(SHEET_QUESTIONS);
   return old ? [old] : [];
 }
 function isQuestionSheet_(sh) { return sh.getName() === SHEET_QUESTIONS || SHEET_QUESTIONS_SPLIT.indexOf(sh.getName()) >= 0; }
-function readQuestionRows_(ss) {   // 合併各題目分頁：回傳 {head, rows}，欄位以第一張分頁為準
+function readQuestionRows_(ss, group) {   // 合併各題目分頁：回傳 {head, rows}，欄位以第一張分頁為準
   let head = null; const rows = [];
-  questionSheets_(ss).forEach(sh => {
+  questionSheets_(ss, group).forEach(sh => {
     const v = sh.getDataRange().getValues(); if (!v.length) return;
     const h = v.shift().map(x => String(x).trim());
     if (!head) head = h;
@@ -124,9 +128,22 @@ function readQuestionRows_(ss) {   // 合併各題目分頁：回傳 {head, rows
   return { head: head || [], rows };
 }
 
-function buildBank_(status) {
+function readLaws_(ss, group) {          // v7：Laws_OSH / Laws_ENV → [{law_id, name, weight, family}]
+  const names = group ? ['Laws_' + group] : ['Laws_OSH', 'Laws_ENV'];
+  const out = [];
+  names.forEach(n => {
+    const sh = ss.getSheetByName(n); if (!sh) return;
+    const v = sh.getDataRange().getValues(); if (v.length < 2) return;
+    const h = v.shift().map(x => String(x).trim()); const ix = {}; h.forEach((x, i) => ix[x] = i);
+    v.forEach(r => { const id = String(r[ix.law_id] || '').trim(); if (!id) return;
+      out.push({ law_id: id, name: String(r[ix.name_zh] || ''), name_en: String(r[ix.name_en] || ''), weight: Number(r[ix.weight]) || 1, family: String(r[ix.family] || ''), articles: Number(r[ix.articles]) || 0 }); });
+  });
+  return out;
+}
+
+function buildBank_(status, group, fields) {
   const ss = SpreadsheetApp.getActiveSpreadsheet();
-  const { head, rows } = readQuestionRows_(ss);
+  const { head, rows } = readQuestionRows_(ss, group);
   const idx = {}; head.forEach((h, i) => idx[h] = i);
   const need = ['id','law_id','law','article','law_version','category','difficulty',
                 'q_zh','a_zh','b_zh','c_zh','d_zh','q_en','a_en','b_en','c_en','d_en','answer','explain_zh','explain_en','status'];
@@ -141,14 +158,17 @@ function buildBank_(status) {
     const ans = String(r[idx.answer] || '').trim().toLowerCase();
     if (!'abcd'.includes(ans) || ans.length !== 1) return;          // 答案不合法就不出
     const q = {};
-    need.forEach(k => { q[k] = r[idx[k]]; });
+    if (fields === 'explain') { q.id = id; q.explain_zh = String(r[idx.explain_zh] || '').trim(); q.explain_en = String(r[idx.explain_en] || '').trim(); questions.push(q); return; }
+    need.forEach(k => { if (fields === 'core' && (k === 'explain_zh' || k === 'explain_en')) return; q[k] = r[idx[k]]; });
     q.difficulty = Number(q.difficulty) || 2;
     q.answer = ans; q.status = st;
     need.forEach(k => { if (typeof q[k] === 'string') q[k] = q[k].trim(); });
     questions.push(q);
   });
-  return { generated: new Date().toISOString(), source: 'gas', gasVersion: GAS_VERSION,
-           status, count: questions.length, config: readConfig_(ss), questions };
+  const out = { generated: new Date().toISOString(), source: 'gas', gasVersion: GAS_VERSION,
+                status, group: group || 'ALL', fields: fields || 'full', count: questions.length, config: readConfig_(ss), questions };
+  if (fields !== 'explain') out.laws = readLaws_(ss, group);
+  return out;
 }
 
 function readConfig_(ss) {
