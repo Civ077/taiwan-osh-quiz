@@ -13,7 +13,7 @@ sys.path.insert(0, HERE)
 import build_sheet as bs
 SRC = os.path.join(os.path.dirname(HERE), "法規原文")
 
-DOTS = '[點．‧・·]'          # 法規原文的小數點有 ．(FF0E) 與 ‧(2027) 兩種寫法
+DOTS = '[點．‧・·˙・]'      # 法規原文的小數點寫法很多：．(FF0E)、‧(2027)、˙(02D9)、・(30FB)
 PCT = re.compile(r'(百|千|萬)分之')   # 百分之二十五 → 二十五，避免把「百」誤算成 100
 CN = {'零': 0, '○': 0, '〇': 0, '一': 1, '二': 2, '兩': 2, '三': 3, '四': 4, '五': 5,
       '六': 6, '七': 7, '八': 8, '九': 9}
@@ -25,7 +25,7 @@ def cn2num(s):
     if not s:
         return None
     if re.search(DOTS, s):
-        parts = re.split(DOTS, s, 1)
+        parts = re.split(DOTS, s, maxsplit=1)
         a, b = parts[0], (parts[1] if len(parts) > 1 else '')
         ia = cn2num(a) if a else 0
         frac = ''
@@ -57,7 +57,7 @@ def cn2num(s):
     return float(total + cur)
 
 
-TOKEN_CN = re.compile(r'[零○〇一二三四五六七八九十百千萬兩點．‧・·]{1,10}')
+TOKEN_CN = re.compile('[零○〇一二三四五六七八九十百千萬兩點．‧・·˙]{1,10}')
 TOKEN_AR = re.compile(r'\d[\d,]*(?:\.\d+)?')
 ART_REF = re.compile(r'第\s*[\d零○〇一二三四五六七八九十百千兩]+\s*(?:條|項|款|目|章|節|類|級|期|附表|附件)')
 
