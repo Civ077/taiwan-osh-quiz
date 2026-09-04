@@ -146,8 +146,6 @@ ENV-161	ENV	2	預鑄式建築物污水處理設施管理辦法	Regulations Gover
 ENV-162	ENV	2	廢（污）水處理專責人員違反水污染防治法罰鍰額度裁罰準則	Guidelines for Determining Fine Amounts for Wastewater Treatment Dedicated Personnel in Violation of the Water Pollution Control Act	民國105年5月19日	https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0040069	1		5	6	環保-水污染與飲用水
 ENV-211	ENV	2	飲用水水質處理藥劑申請公告作業準則	Operational Guidelines for Application and Announcement of Drinking Water Treatment Chemicals	民國103年8月15日	https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0040050	1		9	10	環保-水污染與飲用水
 ENV-212	ENV	2	飲用水水源水質或淨水處理改善計畫審核準則	Guidelines for Review of Drinking Water Source Quality or Water Treatment Improvement Plans	民國95年7月4日	https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0040051	1		7	9	環保-水污染與飲用水
-ENV-222	ENV	2	土壤底泥及地下水污染物檢驗測定品質管制準則	Quality Control Guidelines for Testing of Soil, Sediment, and Groundwater Pollutants	民國100年9月8日	https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0110016	1		8	11	環保-水污染與飲用水
-ENV-223	ENV	2	辦理土壤及地下水污染場址整治目標公聽會作業準則	Operational Guidelines for Public Hearings on Remediation Goals for Soil and Groundwater Pollution Sites	民國105年1月22日	https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0110019	1		13	17	環保-水污染與飲用水
 ENV-10	ENV	1	廢棄物清理法	Waste Disposal Act	民國115年7月15日	https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0050001	3		91	99	環保-廢棄物與資源循環
 ENV-52	ENV	1	廢棄物清理法施行細則	Enforcement Rules of the Waste Disposal Act	民國108年11月6日	https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0050036	1		20	20	環保-廢棄物與資源循環
 ENV-11	ENV	1	事業廢棄物貯存清除處理方法及設施標準	Standards for Storage, Clearance and Disposal of Industrial Waste	民國112年11月1日	https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0050005	2		52	57	環保-廢棄物與資源循環
@@ -195,6 +193,8 @@ ENV-83	ENV	2	防止貯存系統污染地下水體設施及監測設備設置管�
 ENV-201	ENV	2	土壤污染評估調查人員管理辦法	Regulations Governing Personnel for Soil Pollution Assessment and Investigation	民國111年10月19日	https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0110014	1		14	20	環保-土壤及地下水
 ENV-202	ENV	2	土壤污染評估調查及檢測作業管理辦法	Regulations Governing Soil Pollution Assessment, Investigation, and Testing Operations	民國114年12月29日	https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0110017	1		18	22	環保-土壤及地下水
 ENV-203	ENV	2	污染土地關係人之善良管理人注意義務認定準則	Guidelines for Determining the Duty of Care of a Prudent Administrator for Persons Related to Contaminated Land	民國102年11月11日	https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0110021	1		13	14	環保-土壤及地下水
+ENV-222	ENV	2	土壤底泥及地下水污染物檢驗測定品質管制準則	Quality Control Guidelines for Testing of Soil, Sediment, and Groundwater Pollutants	民國100年9月8日	https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0110016	1		8	11	環保-土壤及地下水
+ENV-223	ENV	2	辦理土壤及地下水污染場址整治目標公聽會作業準則	Operational Guidelines for Public Hearings on Remediation Goals for Soil and Groundwater Pollution Sites	民國105年1月22日	https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0110019	1		13	17	環保-土壤及地下水
 ENV-20	ENV	2	毒性及關注化學物質管理法	Toxic and Concerned Chemical Substances Control Act	民國108年1月16日	https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0060012	1		75	83	環保-毒性化學物質與環境用藥
 ENV-67	ENV	2	毒性及關注化學物質管理法施行細則	Enforcement Rules of the Toxic and Concerned Chemical Substances Control Act	民國108年9月3日	https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0060013	1		19	19	環保-毒性化學物質與環境用藥
 ENV-68	ENV	2	毒性及關注化學物質危害預防及應變計畫作業辦法	Regulations on Hazard Prevention and Response Plans for Toxic and Concerned Chemicals	民國109年10月21日	https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0060035	2		11	12	環保-毒性化學物質與環境用藥
