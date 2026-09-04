@@ -67,6 +67,13 @@ status(draft/reviewed/active), batch, reviewer, review_note`
 - 題目品質：`check_options.py all`（選項長度）、`coverage.py`（每條至少一題，刪除條不計）；建表自動略過「（刪除）」條文的題目；範圍外題目檔在 `題庫/_archive/`。
 - 網頁：題庫依範圍分開載入並存 IndexedDB（GAS v7 `group`/`fields` 參數），解析背景載入；`sw.js` 提供離線 app shell。
 
+
+## 計分與排行榜（2026-09-04 起）
+- 單題最高 500 分：答對 = 基本 200 + 速度 300×(剩餘秒/每題秒數)，連對 3 題起速度分 ×1.2（單題仍不超過 500）；答錯或逾時 0 分。
+- 一局 20 題滿分 10000 分；每日挑戰 10 題滿分 5000 分。參數在 Config 分頁（base_score／speed_bonus_max／per_question_max／streak_mult／seconds_per_question）。
+- 排行榜每週一（台灣時間）重置，首頁只列本週前 10；下方「歷屆每週冠軍」保留每一週的冠軍。
+- 題目全部上線：Sheet 的 status 皆為 active，Config 的 site_mode＝active。
+
 ## 網頁功能（2026-09-03 更新）
 - 首頁兩個大按鈕「🦺 職業安全衛生／🌱 環保」切換出題範圍；單人、每日挑戰、連線對戰（配對只找同範圍的人）、排行榜（`scores/<mode>_<OSH|ENV>`）全部各自獨立。
 - Google Sheet 新增 **Articles** 分頁＝全部法規逐條原文（law_id／法規／條號／有無附表／條文），Laws 分頁多了 `articles`（條數）與 `questions`（題數）欄，缺漏一眼可見；灌入方式見 gas/部署清單_照著做.md v5。
