@@ -112,11 +112,12 @@ def main(a):
         for i in range(start, len(rows), step):
             chunk = rows[i:i + step]
             for attempt in range(3):
-                r = post({"token": token(), "sheet": "Articles", "mode": "append", "tsv": NL.join(chunk)})
+                # 用 range 模式寫到固定列（重試不會重複寫入）；第 1 列為標題
+                r = post({"token": token(), "sheet": "Articles", "mode": "range", "startCell": "A%d" % (i + 1), "tsv": NL.join(chunk)})
                 if r.get("ok"):
                     break
                 time.sleep(5)
-            print("%d-%d" % (i + 1, i + len(chunk)), r.get("lastRow") if r.get("ok") else r)
+            print("%d-%d" % (i + 1, i + len(chunk)), "ok" if r.get("ok") else r)
             if not r.get("ok"): sys.exit("中斷於 %d，可用 `articles %d` 續灌" % (i + 1, i + 1))
     elif cmd == "sync":
         rows = [r.split(TAB) for r in read("tsv/Questions.tsv")]
