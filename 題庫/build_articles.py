@@ -32,6 +32,7 @@ def split_articles(txt):
 def main():
     laws = [("OSH-%02d" % i, "OSH", zh) for i, (zh, *_r) in enumerate(bs.OSH_LAWS, start=1)] + \
            [("ENV-%02d" % i, "ENV", zh) for i, (zh, *_r) in enumerate(bs.ENV_LAWS, start=1)]
+    laws = [l for l in laws if bs.in_scope(l[0])]   # 只灌指定範圍內的法規
     rows = [["law_id", "group", "law", "article", "has_annex", "text"]]
     missing = []; per_law = {}
     for lid, grp, zh in laws:
