@@ -150,6 +150,7 @@ function idbOpen() {
   });
 }
 async function idbGet(k) { try { const db = await idbOpen(); return await new Promise((res, rej) => { const t = db.transaction('kv').objectStore('kv').get(k); t.onsuccess = () => res(t.result); t.onerror = () => rej(t.error); }); } catch (e) { return null; } }
+async function idbDel(k) { try { const db = await idbOpen(); await new Promise((res, rej) => { const t = db.transaction('kv', 'readwrite').objectStore('kv').delete(k); t.onsuccess = res; t.onerror = () => rej(t.error); }); } catch (e) {} }
 async function idbSet(k, v) { try { const db = await idbOpen(); await new Promise((res, rej) => { const t = db.transaction('kv', 'readwrite').objectStore('kv').put(v, k); t.onsuccess = res; t.onerror = () => rej(t.error); }); } catch (e) { console.warn('cache write failed', e); } }
 
 const bankUrl = () => new URLSearchParams(location.search).get('bank') || CFG.bankUrl;
@@ -214,6 +215,7 @@ async function loadBankGroup(g) {
   installBank(g, j, 'local');
 }
 async function loadBank() {
+  ['bank:draft', 'bank:active'].forEach(k => idbDel(k));      // 清掉舊版（v0.5 之前）合併題庫的快取，省下約 9 MB
   await loadBankGroup(GROUP);
   loadBankGroup(GROUP === 'OSH' ? 'ENV' : 'OSH');   // 另一範圍背景預載，切換時立刻可用
 }
