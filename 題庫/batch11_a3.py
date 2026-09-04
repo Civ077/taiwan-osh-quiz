@@ -260,10 +260,10 @@ Q = [
 
 (L,"第157條",2,"設施規則-物料搬運",
  "對於搭載勞工於行駛中之貨車、垃圾車或資源回收車，下列規定何者正確？",
- ["勞工身體之最高部分不得超過貨車駕駛室之頂部高度，且不得搭乘有墜落之虞位置","勞工得站立於載貨台之後緣，惟應以手扶持車體並由他人在旁全程看護","載貨台之物料高度超過駕駛室頂部者，勞工身體之高度亦得比照放寬","僅需使勞工佩戴安全帽及反光背心，即得搭乘於車輛之任何位置"],"a",
+ ["勞工身體之最高部分不得超過貨車駕駛室之頂部高度，且不得搭乘有墜落之虞位置","勞工得站立於載貨台之後緣，惟應以手扶持車體並由他人在旁全程看護","搭載勞工於資源回收車者，不適用本條有關乘坐安全之各項規定","僅需使勞工佩戴安全帽及反光背心，即得搭乘於車輛之任何位置"],"a",
  "第157條：不得使勞工搭乘於因車輛搖動致有墜落之虞之位置；勞工身體之最高部分不得超過貨車駕駛室之頂部高度，載貨台之物料高度超過駕駛室頂部者，不得超過該物料之高度。",
  "Which rule applies to workers riding on moving trucks or refuse vehicles?",
- ["No part of the body may rise above the cab roof, and no riding where falls may occur","Workers may stand at the rear edge holding the body while another watches","Where cargo rises above the cab roof, the body height limit is relaxed too","Wearing a helmet allows riding at any position on the moving vehicle"],
+ ["No part of the body may rise above the cab roof, and no riding where falls may occur","Workers may stand at the rear edge holding the body while another watches","Riding on recycling collection vehicles falls outside the scope of this rule","Wearing a helmet allows riding at any position on the moving vehicle"],
  "Article 157 caps body height at the cab roof, or at the cargo height where higher."),
 
 (L,"第158條",2,"設施規則-物料處置",

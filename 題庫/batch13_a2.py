@@ -199,7 +199,7 @@ Q = [
 (NR,"第1條",1,"噪音細則-法源",
  "噪音管制法施行細則係依何規定訂定？",
  ["依噪音管制法第三十六條規定訂定","依噪音管制法第十五條第三項規定訂定","依噪音管制法第十一條第一項規定訂定","依噪音管制法第九條第二項規定訂定"],"a",
- "第1條：本細則依噪音管制法（以下簡稱本法）第三十六條規定訂定之。噪音管制法第十五條第三項為環境音量標準之授權依據，第十一條第一項則為噪音管制標準之授權依據，授權對象不同。",
+ "第1條：本細則依噪音管制法（以下簡稱本法）第三十六條規定訂定之。噪音管制法第十五條第三項為環境音量標準之授權依據，第十一條第一項為機動車輛、民用航空器噪音管制標準之授權依據，第九條第二項則為噪音管制標準之授權依據，授權對象均不相同。",
  "The Enforcement Rules of the Noise Control Act are enacted under:",
  ["Article 36 of the Noise Control Act","Article 15, Paragraph 3 of the Noise Control Act","Article 11, Paragraph 1 of the Noise Control Act","Article 9, Paragraph 2 of the Noise Control Act"],
  "Article 1."),

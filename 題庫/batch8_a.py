@@ -5,10 +5,10 @@ Q = [
 # ---------- 空氣污染防制專責單位或專責人員設置及管理辦法（108/8/6） ----------
 (AP,"第2條",2,"空污專責-類別",
  "空氣污染防制專責人員分為哪兩類？空氣污染防制專責人員又分為哪兩級？",
- ["空氣污染防制專責人員及健康風險評估專責人員；甲級及乙級","室內空氣品質專責人員及噪音防制專責人員；A 級及 B 級","固定污染源專責人員及移動污染源專責人員；第一級及第二級","空氣污染防制專責人員及廢水處理專責人員；高級及初級"],"a",
+ ["空氣污染防制專責人員及健康風險評估專責人員；甲級及乙級","室內空氣品質專責人員及噪音防制專責人員；初級及進階級","固定污染源專責人員及移動污染源專責人員；第一級及第二級","空氣污染防制專責人員及廢水處理專責人員；高級及初級"],"a",
  "第2條：專責人員指空氣污染防制專責人員及健康風險評估專責人員，應由經中央主管機關訓練合格取得合格證書者擔任。第3條：空氣污染防制專責人員分甲級及乙級；設置等級依空污法第34條公告事項；專責單位至少應包括甲級二人及乙級一人。第4條：同一處所得與廢（污）水處理專責單位合併設置，具雙重資格者得互兼。",
  "Air pollution control dedicated personnel fall into which two categories, and air pollution control personnel are further graded as:",
- ["Air pollution control personnel and health risk assessment personnel; Class A and Class B","Indoor air quality personnel and noise control personnel; Class A and Class B","Stationary source personnel and mobile source personnel; Level 1 and Level 2","Air pollution control personnel and wastewater treatment personnel; senior and junior"],
+ ["Air pollution control personnel and health risk assessment personnel; Class A and Class B","Indoor air quality personnel and noise control personnel; basic and advanced","Stationary source personnel and mobile source personnel; Level 1 and Level 2","Air pollution control personnel and wastewater treatment personnel; senior and junior"],
  "Articles 2–4; a dedicated unit needs at least two Class A and one Class B personnel."),
 
 (AP,"第5條",2,"空污專責-專職常駐",

@@ -134,6 +134,8 @@ BATCHES = {
  13: sorted(_p.stem for _p in _Path(__file__).parent.glob("batch13_*.py")),
  14: sorted(_p.stem for _p in _Path(__file__).parent.glob("batch14_*.py")),
 }
+# 已歸檔（移到 _archive/）的題目檔自動略過
+BATCHES = {k: [m for m in v if (_Path(__file__).parent / (m + ".py")).exists()] for k, v in BATCHES.items()}
 
 # ---------- Laws 主檔（沿用批次 1 清單，另加 OSH-36 營造標準） ----------
 OSH_LAWS = [

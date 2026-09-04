@@ -344,7 +344,7 @@ Q = [
  ["They apply mutatis mutandis to self-employed persons as employer duties","They do not apply at all to any self-employed person in any circumstance","Only the penalty provisions apply, not the substantive duty provisions","They apply only after the inspection body designates the case involved"],
  "Article 106-1(1): employer duties apply mutatis mutandis to the self-employed."),
 
-("OSH-42","第106之1條",2,"起重升降-附則",
+("OSH-42","第106條之1",2,"起重升降-附則",
  "受工作場所負責人指揮或監督從事勞動之人員，於事業單位工作場所從事勞動時，本規則如何適用？",
  ["比照該事業單位之勞工，適用本規則之規定","比照自營作業者，準用雇主義務之相關規定","不適用本規則，改依勞動基準法相關規定辦理","僅於簽訂承攬契約後始得適用本規則之規定"],"a",
  "第106條之1第2項：受工作場所負責人指揮或監督從事勞動之人員，於事業單位工作場所從事勞動，比照該事業單位之勞工，適用本規則之規定。同條第1項則規定自營作業者準用有關雇主義務之規定。",

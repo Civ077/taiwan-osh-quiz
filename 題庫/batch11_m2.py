@@ -330,10 +330,10 @@ Q = [
 
 (B,"第25條",3,"有機溶劑-防毒面罩",
  "下列何種情形之勞工，應佩戴輸氣管面罩或適當之有機氣體用防毒面罩？",
- ["依第十一條第一款以整體換氣裝置代替密閉設備或局部排氣裝置之室內或儲槽等作業場所從事有機溶劑作業","依第十一條第二款已使用輸氣管面罩且作業時間短暫而免設任何控制設備之儲槽等作業場所從事之作業","於已依規定設置密閉設備並有效運轉之室內作業場所，從事第一種有機溶劑混存物之過濾及攪拌等作業","於周壁二面以上直接向大氣開放並經勞動檢查機構認定免設設備之室內作業場所從事書寫描繪之作業"],"a",
+ ["依第十一條第一款以整體換氣裝置代替密閉設備或局部排氣裝置之室內或儲槽等作業場所從事有機溶劑作業","依第十一條第三款設置利用溫熱上升氣流之排氣煙囪而免設密閉設備之紅外線乾燥爐有機溶劑作業","於已依規定設置密閉設備並有效運轉之室內作業場所，從事第一種有機溶劑混存物之過濾及攪拌等作業","於周壁二面以上直接向大氣開放並經勞動檢查機構認定免設設備之室內作業場所從事書寫描繪之作業"],"a",
  "第25條第1項第1款：於依第11條第1款規定以整體換氣裝置代替密閉設備或局部排氣裝置之室內作業場所或儲槽等之作業場所從事有機溶劑作業者，應佩戴輸氣管面罩或適當之有機氣體用防毒面罩。同項第2款、第3款並及於依第6條第1項第2款、第3款設置整體換氣裝置之儲槽等作業場所，及依第8條未設控制設備之臨時性作業。",
  "In which situation must a worker wear an air line respirator or a suitable organic gas respirator?",
- ["Where dilution ventilation replaces an enclosure or local exhaust under Article 11 item 1, indoors or in tanks","Where an air line respirator is already used for short duration work and all controls are waived under item 2","Where an enclosure is properly installed and effectively running indoors for filtering and stirring class one mixtures","Where two or more walls open to the atmosphere and the inspection agency has waived equipment for writing work"],
+ ["Where dilution ventilation replaces an enclosure or local exhaust under Article 11 item 1, indoors or in tanks","Where an exhaust stack using warm rising air waives the enclosure for infrared drying oven solvent work","Where an enclosure is properly installed and effectively running indoors for filtering and stirring class one mixtures","Where two or more walls open to the atmosphere and the inspection agency has waived equipment for writing work"],
  "Article 25, paragraph 1, subparagraph 1."),
 
 (B,"第25條",2,"有機溶劑-面罩使用時限",

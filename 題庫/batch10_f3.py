@@ -325,7 +325,7 @@ Q = [
  ["A fine of NT$60,000 to NT$300,000; where the act destroys the protection target, six months to five years' imprisonment with a fine up to NT$400,000; where it causes a disaster, three to ten years' imprisonment with a fine up to NT$600,000","A fine of NT$30,000 to NT$150,000; where the act destroys the protection target, up to five years' imprisonment with a fine up to NT$300,000; where it causes a disaster, one to seven years' imprisonment with a fine up to NT$500,000","A fine of NT$20,000 to NT$100,000; where the act destroys the protection target, up to three years' imprisonment or detention with a fine up to NT$200,000; where it causes a disaster, six months to five years with a fine up to NT$400,000","A fine of NT$10,000 to NT$50,000; where the act destroys the protection target, up to two years' imprisonment with a fine up to NT$100,000; where it causes a disaster, six months to three years with a fine up to NT$200,000"],
  "Article 32; Article 38."),
 
-(CM,"第32條",2,"海管法-併同處分",
+(CM,"第38條",2,"海管法-併同處分",
  "主管機關對於一級保護區、防護區或二級保護區之違規使用行為，除處以罰鍰外尚應為何種處分？",
  ["應即令其停止使用或施工；並視情形令其限期回復原狀、拆除設施或增建安全設施，屆期未遵從者，得按次處罰","應即移送司法機關偵辦；並由檢察官逕行命其限期回復原狀或拆除設施，屆期未遵從者，由法院裁定強制執行","得視情形令其限期改善；屆期未遵從者，僅得加倍處以罰鍰，不得命其停止使用、回復原狀或拆除相關設施","應即撤銷其一切開發許可；並由主管機關代為回復原狀及拆除設施，所生費用由海岸管理基金全額支應負擔"],"a",
  "第38條：主管機關對第32條第1項、第33條第1項或第34條第1項規定行為，除處以罰鍰外，應即令其停止使用或施工；並視情形令其限期回復原狀、拆除設施或增建安全設施，屆期未遵從者，得按次處罰。第41條並定明因該等行為所生或所得之物及所用之物得沒入之，第42條就犯本法之罪者定明沒收。",

@@ -260,10 +260,10 @@ Q = [
 
 (HG,"第95條",3,"高壓氣體-乙類",
  "乙類製造事業單位之固定式製造設備，下列何者屬其準用之規定？",
- ["境界警戒標示、可燃性氣體儲槽塗紅色、氣密構造、防爆電氣設備及毒性氣體防毒措施等","儲槽相互間之安全距離、防液堤設置、耐震構造及儲槽配管之緊急遮斷裝置等規定","液化石油氣儲槽之耐熱構造、埋設於地盤內及儲槽室構造等相關之各項規定","冷凍設備壓縮機之設置限制、冷媒設備之氣密試驗與耐壓試驗等相關規定"],"a",
+ ["境界警戒標示、可燃性氣體儲槽塗紅色、氣密構造、防爆電氣設備及毒性氣體危害標示等","儲槽相互間之安全距離、防液堤設置、耐震構造及儲槽配管之緊急遮斷裝置等規定","液化石油氣儲槽之耐熱構造、埋設於地盤內及儲槽室構造等相關之各項規定","冷凍設備壓縮機之設置限制、冷媒設備之氣密試驗與耐壓試驗等相關規定"],"a",
  "第95條：乙類製造事業單位之固定式製造設備之設置，準用第31條、第33條、第36條、第38條、第39條、第41條、第43條、第48條、第49條、第51條、第54條、第60條、第63條至第67條之規定，包含警戒標示、與處理煙火設備距離八公尺、儲槽塗紅色、氣密構造、耐壓與氣密試驗、壓力表與釋放管、液面計、防爆電氣設備、漏洩警報、毒性標示、熔接接合、二重管、靜電除卻及消防設備。",
  "Which rules apply by reference to fixed manufacturing equipment of a Class B enterprise?",
- ["Boundary warning signs, red painting of flammable gas tanks, gastight construction, explosion-proof wiring and anti-poison measures","Separation distances between storage tanks, dike installation, earthquake-resistant construction and tank emergency shut-off devices","Heat-resistant construction of LPG tanks, burial within the ground base and construction rules for the tank chamber","Siting limits for refrigeration compressors, and airtightness and hydrostatic testing of refrigerant equipment generally"],
+ ["Boundary warning signs, red painting of flammable gas tanks, gastight construction, explosion-proof wiring and toxicity hazard marking","Separation distances between storage tanks, dike installation, earthquake-resistant construction and tank emergency shut-off devices","Heat-resistant construction of LPG tanks, burial within the ground base and construction rules for the tank chamber","Siting limits for refrigeration compressors, and airtightness and hydrostatic testing of refrigerant equipment generally"],
  "Article 95 lists the provisions applied by reference."),
 
 (HG,"第96條",1,"高壓氣體-乙類",

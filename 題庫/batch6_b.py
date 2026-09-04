@@ -71,8 +71,8 @@ Q = [
  "同一鍋爐房設有二座以上鍋爐，各鍋爐傳熱面積合計在多少平方公尺以上者，應指派具甲級鍋爐操作人員資格者擔任鍋爐作業主管？五十以上未滿五百者？",
  ["五百平方公尺以上；乙級以上","一百平方公尺以上；丙級以上","一千平方公尺以上；乙級以上","五十平方公尺以上；甲級"],"a",
  "第15條：合計五百平方公尺以上指派甲級（均為貫流式者得乙級以上）；五十以上未滿五百指派乙級以上（均為貫流式者得丙級以上）；未滿五十指派丙級以上。傳熱面積合計得減列：貫流鍋爐乘十分之一、廢熱鍋爐乘二分之一、具安全停止自動控制之鍋爐乘五分之一。",
- "With two or more boilers in one room, a Class A boiler operator must be the boiler work supervisor when the total heating surface is at least, and Class B or above when between 50 m² and:",
- ["500 m²; under 500 m²","100 m²; Class C","1,000 m²; Class B","50 m²; Class A"],
+ "With two or more boilers in one room, a Class A boiler operator must be the boiler work supervisor when total heating surface reaches what, and what grade is required for 50 m² up to that?",
+ ["500 m² or more; Class B or above","100 m² or more; Class C or above","1,000 m² or more; Class B or above","50 m² or more; Class A only"],
  "Article 15: 500 m²+ → Class A (Class B if all once-through); 50–499 m² → Class B (Class C if all once-through); under 50 m² → Class C; reduced counting for once-through, waste-heat and auto-safety boilers."),
 
 (BP,"第16條",2,"鍋爐-操作事項",

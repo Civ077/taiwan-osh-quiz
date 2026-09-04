@@ -134,7 +134,7 @@ Q = [
 (AP,"第20條",3,"空污專責-場所罰則",
  "下列何種情形，公私場所應依空氣污染防制法第六十九條第一項第一款規定處罰？",
  ["未依本法第三十四條第一項及第二項規定設置專責單位或專責人員者","專責人員一年內二次以上未常駐且未備請假紀錄或其他證明文件者","專責人員同一時間設置於不同之公私場所且非屬依法共同設置者","專責人員明知為不實事項而申報不實或於業務文書為虛偽記載者"],"a",
- "第20條第一款：公私場所未依本法第三十四條第一項及第二項規定設置專責單位或專責人員者，依本法第69條第1項第1款規定處罰。其餘選項所述均屬第18條所定專責人員本身之禁止行為，依第21條規定係對專責人員依本法第69條第2項處罰，處罰對象不同。",
+ "第20條第一款：公私場所未依本法第三十四條第一項及第二項規定設置專責單位或專責人員者，依本法第69條第1項第1款規定處罰。其餘選項均屬專責人員本身之違規（B為第21條第1款一年內二次未常駐，C、D分別為第18條第2款、第4款），依第21條規定對專責人員依本法第69條第2項處罰，處罰對象不同。",
  "Which situation subjects the premises to penalty under Article 69(1)(1) of the Air Pollution Control Act?",
  ["Failing to set up a dedicated unit or personnel as required by Article 34, Paragraphs 1 and 2 of the Act","The dedicated person twice in a year not being stationed on site and keeping no leave records at all","The dedicated person being appointed at different premises at the same time without lawful joint setup","The dedicated person knowingly filing false declarations or making false entries in business documents"],
  "Article 20, Subparagraph 1; the others fall under Articles 18 and 21."),

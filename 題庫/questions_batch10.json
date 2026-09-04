@@ -30456,11 +30456,11 @@
   "review_note": ""
  },
  {
-  "id": "ENV-5013",
+  "id": "ENV-5018",
   "law_group": "ENV",
   "law_id": "ENV-15",
   "law": "海岸管理法",
-  "article": "第32條",
+  "article": "第38條",
   "law_version": "民國104年2月4日",
   "category": "海管法-併同處分",
   "difficulty": 2,
@@ -30483,7 +30483,7 @@
   "review_note": ""
  },
  {
-  "id": "ENV-5014",
+  "id": "ENV-5013",
   "law_group": "ENV",
   "law_id": "ENV-15",
   "law": "海岸管理法",
@@ -30510,7 +30510,7 @@
   "review_note": ""
  },
  {
-  "id": "ENV-5015",
+  "id": "ENV-5014",
   "law_group": "ENV",
   "law_id": "ENV-15",
   "law": "海岸管理法",
@@ -30537,7 +30537,7 @@
   "review_note": ""
  },
  {
-  "id": "ENV-5016",
+  "id": "ENV-5015",
   "law_group": "ENV",
   "law_id": "ENV-15",
   "law": "海岸管理法",
@@ -30564,7 +30564,7 @@
   "review_note": ""
  },
  {
-  "id": "ENV-5017",
+  "id": "ENV-5016",
   "law_group": "ENV",
   "law_id": "ENV-15",
   "law": "海岸管理法",
@@ -30591,7 +30591,7 @@
   "review_note": ""
  },
  {
-  "id": "ENV-5018",
+  "id": "ENV-5017",
   "law_group": "ENV",
   "law_id": "ENV-15",
   "law": "海岸管理法",
@@ -31293,11 +31293,11 @@
   "review_note": ""
  },
  {
-  "id": "ENV-5044",
+  "id": "ENV-5059",
   "law_group": "ENV",
   "law_id": "ENV-16",
   "law": "海洋保育法",
-  "article": "第11條",
+  "article": "第22條",
   "law_version": "民國113年7月31日",
   "category": "海保法-緩衝區罰則",
   "difficulty": 2,
@@ -31320,7 +31320,7 @@
   "review_note": ""
  },
  {
-  "id": "ENV-5045",
+  "id": "ENV-5044",
   "law_group": "ENV",
   "law_id": "ENV-16",
   "law": "海洋保育法",
@@ -31347,7 +31347,7 @@
   "review_note": ""
  },
  {
-  "id": "ENV-5046",
+  "id": "ENV-5045",
   "law_group": "ENV",
   "law_id": "ENV-16",
   "law": "海洋保育法",
@@ -31374,7 +31374,7 @@
   "review_note": ""
  },
  {
-  "id": "ENV-5047",
+  "id": "ENV-5046",
   "law_group": "ENV",
   "law_id": "ENV-16",
   "law": "海洋保育法",
@@ -31401,7 +31401,7 @@
   "review_note": ""
  },
  {
-  "id": "ENV-5048",
+  "id": "ENV-5047",
   "law_group": "ENV",
   "law_id": "ENV-16",
   "law": "海洋保育法",
@@ -31428,7 +31428,7 @@
   "review_note": ""
  },
  {
-  "id": "ENV-5049",
+  "id": "ENV-5048",
   "law_group": "ENV",
   "law_id": "ENV-16",
   "law": "海洋保育法",
@@ -31455,7 +31455,7 @@
   "review_note": ""
  },
  {
-  "id": "ENV-5050",
+  "id": "ENV-5049",
   "law_group": "ENV",
   "law_id": "ENV-16",
   "law": "海洋保育法",
@@ -31482,7 +31482,7 @@
   "review_note": ""
  },
  {
-  "id": "ENV-5051",
+  "id": "ENV-5050",
   "law_group": "ENV",
   "law_id": "ENV-16",
   "law": "海洋保育法",
@@ -31509,7 +31509,7 @@
   "review_note": ""
  },
  {
-  "id": "ENV-5052",
+  "id": "ENV-5051",
   "law_group": "ENV",
   "law_id": "ENV-16",
   "law": "海洋保育法",
@@ -31536,7 +31536,7 @@
   "review_note": ""
  },
  {
-  "id": "ENV-5053",
+  "id": "ENV-5052",
   "law_group": "ENV",
   "law_id": "ENV-16",
   "law": "海洋保育法",
@@ -31563,7 +31563,7 @@
   "review_note": ""
  },
  {
-  "id": "ENV-5054",
+  "id": "ENV-5053",
   "law_group": "ENV",
   "law_id": "ENV-16",
   "law": "海洋保育法",
@@ -31590,7 +31590,7 @@
   "review_note": ""
  },
  {
-  "id": "ENV-5055",
+  "id": "ENV-5054",
   "law_group": "ENV",
   "law_id": "ENV-16",
   "law": "海洋保育法",
@@ -31617,7 +31617,7 @@
   "review_note": ""
  },
  {
-  "id": "ENV-5056",
+  "id": "ENV-5055",
   "law_group": "ENV",
   "law_id": "ENV-16",
   "law": "海洋保育法",
@@ -31644,7 +31644,7 @@
   "review_note": ""
  },
  {
-  "id": "ENV-5057",
+  "id": "ENV-5056",
   "law_group": "ENV",
   "law_id": "ENV-16",
   "law": "海洋保育法",
@@ -31671,7 +31671,7 @@
   "review_note": ""
  },
  {
-  "id": "ENV-5058",
+  "id": "ENV-5057",
   "law_group": "ENV",
   "law_id": "ENV-16",
   "law": "海洋保育法",
@@ -31698,7 +31698,7 @@
   "review_note": ""
  },
  {
-  "id": "ENV-5059",
+  "id": "ENV-5058",
   "law_group": "ENV",
   "law_id": "ENV-16",
   "law": "海洋保育法",
@@ -38705,7 +38705,7 @@
   "c_zh": "不得販賣或轉讓予未依第八條第四項第十三條第一項至第四項規定取得許可證完成登記或取得核可者，但事先報經直轄市縣市主管機關核准者不在此限；不得以郵購電子購物或其他無法辨識交易當事人身分之交易平台方式為之",
   "d_zh": "得販賣或轉讓予經同業公會推薦之會員廠商，無須報經主管機關核准；惟應於交易前確認對方已投保責任保險並設置專業技術管理人員後始得交易",
   "q_en": "May a handler sell or transfer toxic substances to those without permits, and how are such sales restricted?",
-  "a_en": "Sale or transfer to any registered business is allowed without checking its permits; the counterparty and quantity need only be reported centrally afterwards, and e-shopping platforms may be used provided the buyer uploads a copy of its registration certificate for the seller to keep on file",
+  "a_en": "Sale or transfer to any commercially registered business is allowed without checking whether it holds a permit, registration or approval; the counterparty and quantity need only be reported to the central authority for record after the deal, and e-shopping platforms or other store-less retail channels may be used for sale and delivery",
   "b_en": "Sale or transfer to those without a permit is prohibited with no exception; but mail order and e-shopping are allowed provided warnings are labelled and the recipient signs personally",
   "c_en": "Sale or transfer to those without a permit, registration or approval under Articles 8(4) and 13(1) to (4) is prohibited unless approved in advance by the municipal or county authority; and it may not be done by mail order, e-shopping or other platforms where identity cannot be verified",
   "d_en": "Sale or transfer to member firms recommended by the trade association is allowed without approval; the seller need only confirm the buyer has insurance and technical managers",
@@ -39408,7 +39408,7 @@
   "d_zh": "有違反本法規定情事者移送檢察機關偵辦，其物質或物品由檢察機關扣押保管；封存之物質應俟判決確定後始得處理，未違反本法規定者亦應俟結案後始得申請啟封並負擔保管費用",
   "q_en": "How must audited substances or goods be dealt with according to the audit result?",
   "a_en": "Violations are penalised under the Act and the handler may be ordered to clear the goods under waste laws within a deadline; sealed goods found to be waste may be ordered cleared, while those that can be improved or reprocessed are unsealed, returned and supervised; goods with no violation are unsealed and returned",
-  "b_en": "Violations lead to confiscation and destruction with the name published, and no improvement or reprocessing is allowed; sealed goods may not be unsealed even if reprocessable, being handled by contractors at the handler's cost, with the proceeds of any sale being paid into the chemicals management fund rather than returned to the handler",
+  "b_en": "Violations lead to confiscation and destruction with the name published, and no improvement or reprocessing is allowed; sealed goods may not be unsealed even if reprocessable, being handled instead by private contractors commissioned directly by the authority at the handler's expense, and that expense may not be reduced, waived or paid by instalments",
   "c_en": "Violations lead the industry authority to revoke the factory registration and auction the goods; sealed goods go to the joint defence organization, and non-violating goods may be unsealed by the handler without consent",
   "d_en": "Violations are referred for prosecution and the goods are detained by prosecutors; sealed goods may be dealt with only after final judgment, and even non-violating goods await case closure with storage costs borne",
   "answer": "a",
