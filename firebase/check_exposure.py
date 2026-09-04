@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """Firebase 對外暴露檢查（唯讀，不會改動任何東西）
 
-本專案只該開啟 Realtime Database + 匿名登入。這支腳本確認沒有別的服務被誤開，
-以及資料庫規則沒有被改成對外開放。任何一項不符就回傳非 0，方便排進例行檢查。
+本專案只該開啟 Realtime Database + 匿名登入。這支腳本確認沒有別的服務被誤開、
+API 金鑰仍限制在本站網域，以及資料庫規則沒有被改成對外開放。任何一項不符就回傳非 0，方便排進例行檢查。
 
 用法：python firebase/check_exposure.py
 """
@@ -56,6 +56,33 @@ def check_firestore():
         print('??   Firestore 狀態判讀不出來，請自行確認：\n     ' + out.strip()[:200])
 
 
+def check_key_referrer():
+    """確認 API 金鑰仍限制在本站網域：從別的來源網址請求匿名登入必須被拒。
+    這一項若失守，任何人都能把公開設定複製走使用。"""
+    import json as _json
+    key = None
+    cfg = os.path.join(os.path.dirname(HERE), 'docs', 'firebase-config.js')
+    m = re.search(r'apiKey:\s*"([^"]+)"', open(cfg, encoding='utf-8').read())
+    if not m:
+        bad.append('firebase-config.js 找不到 apiKey，無法檢查金鑰限制'); return
+    key = m.group(1)
+    req = urllib.request.Request(
+        'https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=' + key,
+        data=_json.dumps({'returnSecureToken': True}).encode(), method='POST',
+        headers={'Content-Type': 'application/json', 'Referer': 'https://not-our-site.example/'})
+    try:
+        urllib.request.urlopen(req, timeout=30)
+        bad.append('API 金鑰沒有網域限制：從 not-our-site.example 也能登入 → 到 Google Cloud 主控台'
+                   '「憑證」把應用程式限制設為「網站」並只允許 https://civ077.github.io/*')
+    except urllib.error.HTTPError as e:
+        if e.code == 403:
+            print('OK   API 金鑰限制在本站網域（外部來源被拒）')
+        else:
+            print('??   API 金鑰檢查回應 %s，請自行確認' % e.code)
+    except Exception as e:
+        print('??   API 金鑰檢查跳過（%s）' % e)
+
+
 def check_rules():
     p = os.path.join(HERE, 'database.rules.json')
     txt = open(p, encoding='utf-8').read()
@@ -82,7 +109,7 @@ def check_config():
                                else '尚未設定金鑰（設定後這份公開設定在別的網域就會失效）'))
 
 
-check_control(); check_storage(); check_firestore(); check_rules(); check_config()
+check_control(); check_storage(); check_firestore(); check_key_referrer(); check_rules(); check_config()
 print()
 if bad:
     print('發現 %d 個問題：' % len(bad))

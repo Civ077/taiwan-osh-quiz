@@ -3,7 +3,8 @@
 
    安全性不靠隱藏這份設定，而靠三層：
      1. Realtime Database 規則（firebase/database.rules.json，已部署）
-     2. API 金鑰的 HTTP 參照網址限制（Google Cloud 主控台設定，只允許本站網域）
+     2. API 金鑰的 HTTP 參照網址限制（已設定：只允許 https://civ077.github.io/*）
+        注意：此限制擋得住把設定複製到別的網頁的人，擋不住偽造 Referer 標頭的程式
      3. App Check（把這份設定綁在本站網域，別的地方拿去用會被拒絕）
    刻意不寫 storageBucket：本專案沒有用到 Cloud Storage，不留設定，
    將來就算有人在主控台誤按啟用，網站也不會連上去。 */
