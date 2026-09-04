@@ -236,7 +236,8 @@ function renderBankInfo(gen, src) {
   el.dataset.gen = gen || el.dataset.gen || ''; el.dataset.src = src || el.dataset.src || '';
   const srcLabel = el.dataset.src === 'cloud' ? (lang === 'zh' ? '雲端' : 'cloud') : el.dataset.src === 'cache' ? (lang === 'zh' ? '快取（背景更新中）' : 'cached (updating)') : (lang === 'zh' ? '本機' : 'local');
   const total = (BANKS.OSH ? BANKS.OSH.length : 0) + (BANKS.ENV ? BANKS.ENV.length : 0);
-  el.textContent = `${t(GROUP === 'ENV' ? 'groupEnv' : 'groupOsh')} ${t('bank')} ${BANK.length} ${lang === 'zh' ? '題' : 'questions'}（${lang === 'zh' ? '全部' : 'all'} ${total}） · ${srcLabel} · ${t('ver')} ${el.dataset.gen}`;
+  const par = lang === 'zh' ? ['（', '）'] : [' (', ')'];
+  el.textContent = `${t(GROUP === 'ENV' ? 'groupEnv' : 'groupOsh')} ${t('bank')} ${BANK.length} ${lang === 'zh' ? '題' : 'questions'}${par[0]}${lang === 'zh' ? '全部' : 'all'} ${total}${par[1]} · ${srcLabel} · ${t('ver')} ${el.dataset.gen}`;
 }
 
 /* ---------- 開局 ---------- */
@@ -689,7 +690,7 @@ function renderResult() {
     const r = game.log[i] || { chosen: null, ok: false };
     const li = document.createElement('li'); li.className = r.ok ? 'ok' : 'ng';
     const oppTxt = game.pvp ? game.pvp.order.filter(u => u !== game.pvp.me).map(u => { const l = game.pvp.players[u].log[i]; return `${escapeHtml(game.pvp.players[u].nick)}：${l ? (l.ok ? '✔' : '✘') : '—'}`; }).join('　') : '';
-    li.innerHTML = `<div class="rq">${escapeHtml(L(q, 'q'))}</div><div class="ra">${t('ans')}：${q.answer.toUpperCase()}. ${escapeHtml(L(q, q.answer))}${r.ok ? '' : r.chosen ? `　（${lang === 'zh' ? '你選' : 'you chose'} ${r.chosen.toUpperCase()}）` : `　（${t('timeout')}）`}${oppTxt ? '　·　' + oppTxt : ''}</div><div class="rx">${escapeHtml(L(q, 'explain'))}</div>`;
+    li.innerHTML = `<div class="rq">${escapeHtml(L(q, 'q'))}</div><div class="ra">${t('ans')}${lang === 'zh' ? '：' : ': '}${q.answer.toUpperCase()}. ${escapeHtml(L(q, q.answer))}${r.ok ? '' : r.chosen ? (lang === 'zh' ? `　（你選 ${r.chosen.toUpperCase()}）` : ` (you chose ${r.chosen.toUpperCase()})`) : (lang === 'zh' ? `　（${t('timeout')}）` : ` (${t('timeout')})`)}${oppTxt ? '　·　' + oppTxt : ''}</div><div class="rx">${escapeHtml(L(q, 'explain'))}</div>`;
     ol.appendChild(li);
   });
   renderBoard();
