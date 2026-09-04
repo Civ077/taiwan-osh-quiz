@@ -56,7 +56,7 @@ Q = [
  ["Three written copies held by the parties and filed with the authority; minors need their guardian's permission","Two written copies held by the parties and filed with the union; minors need their guardian's permission","Three written copies held by the parties and approved by the authority; minors need school consent","An oral agreement stated in the work rules is enough; the school signs on behalf of a minor"],
  "Article 65: three written copies, filed with the authority; guardian consent for minors."),
 
-("OSH-48","第66條",1,"勞基法-技術生",
+("OSH-48","第66條、第79條",1,"勞基法-技術生",
  "雇主可否向技術生收取有關訓練費用？違反者如何處罰？",
  ["不得向技術生收取有關訓練費用；違反者處新臺幣二萬元以上三十萬元以下罰鍰","得於訓練契約中約定收取合理訓練費用；未載明於契約者處三萬元以上罰鍰","得於技術生結業後留用時分期收取費用；違反者處九萬元以上四十五萬元罰鍰","不得向技術生收取訓練費用，但得要求提供保證人；違反者僅限期令其改善"],"a",
  "第66條：雇主不得向技術生收取有關訓練費用。違反者依第79條第3項處新臺幣二萬元以上三十萬元以下罰鍰。第69條並規定本法工作時間、休息、休假、童工女工、災害補償等規定於技術生準用之。",

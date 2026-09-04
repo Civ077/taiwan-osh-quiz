@@ -368,9 +368,9 @@ Q = [
 
 (K,"第6條",1,"環境用藥廣告-施行日期",
  "環境用藥廣告管理辦法之施行日期為何？",
- ["本辦法自發布日施行，並未於條文中另定過渡期間或延後生效之特別規定","本辦法自中華民國九十五年七月二十五日施行，既有廣告得於一年內改正","本辦法自中華民國九十五年十一月十日施行，與環境用藥管理法同日生效","本辦法自發布後三個月施行，既有已刊播之廣告不受本辦法規定之限制"],"a",
+ ["本辦法自發布日施行，並未於條文中另定過渡期間或延後生效之特別規定","本辦法自中華民國九十六年一月一日施行，既有廣告得於一年內改正並補正","本辦法自中華民國九十五年十一月十日施行，與環境用藥管理法同日生效","本辦法自發布後三個月施行，既有已刊播之廣告不受本辦法規定之限制"],"a",
  "第6條：本辦法自發布日施行。現行條文修正日期為民國九十五年七月二十五日；相對之下，環境用藥管理法施行細則第4條係定自中華民國九十五年十一月十日施行。",
  "When do the Regulations Governing Environmental Agent Advertising take effect?",
- ["It takes effect on the day of promulgation, with no transitional or deferred rule stated","It took effect on 25 July 2006, with existing advertisements given one year to correct","It took effect on 10 November 2006, the same day the Environmental Agents Act did too","It takes effect three months after promulgation, existing advertisements being exempt"],
+ ["It takes effect on the day of promulgation, with no transitional or deferred rule stated","It took effect on 1 January 2007, with existing advertisements given one year to correct","It took effect on 10 November 2006, the same day the Environmental Agents Act did too","It takes effect three months after promulgation, existing advertisements being exempt"],
  "Article 6."),
 ]

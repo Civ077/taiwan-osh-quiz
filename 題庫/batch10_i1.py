@@ -193,10 +193,7 @@ Q = [
   "公正轉型由原住民族委員會主辦；經濟影響評估由金融監督管理委員會主辦"],"a",
  "第8條第2項第18款：公正轉型之推動事項由國家發展委員會主辦、各中央目的事業主管機關協辦；第12款：溫室氣體減量對整體經濟影響評估及因應規劃事項由國家發展委員會主辦、經濟部協辦。第46條第2項所稱公正轉型主辦機關即指國發會。",
  "Which agency leads just transition and the economic impact assessment of GHG reduction?",
- ["The National Development Council leads both, assisted by industry authorities or the MOEA",
-  "The Environmental Protection Administration leads both, assisted by the NDC and the Ministry of Finance",
-  "The Ministry of Labor leads just transition; the Ministry of Finance leads the impact assessment with MOEA support",
-  "The Council of Indigenous Peoples leads just transition; the Financial Supervisory Commission leads the assessment"],
+ ["The National Development Council leads both, assisted by industry authorities or the MOEA","The Environmental Protection Administration leads both, assisted by the NDC and Finance Ministry","The Ministry of Labor leads just transition; the Finance Ministry leads the assessment with MOEA support","The Indigenous Peoples Council leads just transition; the Financial Supervisory Commission leads the assessment"],
  "Article 8(2)(12) and (18) place both with the National Development Council."),
 
 (L,"第9條",2,"氣候法-行動綱領",
@@ -389,10 +386,7 @@ Q = [
   "十年為一期，並依直轄市、縣（市）調適執行方案訂定調適目標"],"a",
  "第19條第1項：中央目的事業主管機關應就易受氣候變遷衝擊之權責領域，訂定四年為一期之該領域調適行動方案，並依第5條第3項、第6條及第17條訂定調適目標。第3項並規定中央主管機關應整合各領域調適行動方案，擬訂國家氣候變遷調適行動計畫報行政院核定。",
  "What is the cycle for sectoral climate adaptation action programs?",
- ["Four-year periods, with adaptation goals set under Articles 5(3), 6 and 17",
-  "Five-year periods, with adaptation goals set under the long-term reduction goal in Article 4",
-  "Three-year periods, with adaptation goals set by the efficiency standards announced centrally",
-  "Ten-year periods, with adaptation goals set by local adaptation implementation programs"],
+ ["Four-year periods, with adaptation goals set under Articles 5(3), 6 and 17","Five-year periods, with adaptation goals from the Article 4 reduction goal","Three-year periods, with adaptation goals from centrally announced efficiency standards","Ten-year periods, with adaptation goals from local implementation programs"],
  "Article 19(1) requires four-year sectoral adaptation action programs."),
 
 (L,"第19條",2,"氣候法-調適行動方案",
@@ -437,7 +431,7 @@ Q = [
   "Report emissions to the local authority by year end, which compiles and forwards them to the central authority"],
  "Article 21(1) requires inventory, registration and, where designated, verification."),
 
-(L,"第21條",3,"氣候法-盤查登錄",
+(L,"第21條、第49條",3,"氣候法-盤查登錄",
  "事業違反依第21條第2項所定辦法中有關盤查、登錄頻率、紀錄、期限或管理之規定，經通知限期補正或改善屆期未完成者，應如何處罰？",
  ["處新臺幣十萬元以上一百萬元以下罰鍰，並通知限期補正或改善；屆期仍未完成者，按次處罰",
   "處新臺幣二十萬元以上二百萬元以下罰鍰，並得逕行令其停工或停業，不再通知限期改善",

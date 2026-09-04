@@ -115,7 +115,7 @@ Q = [
  ["Have the crane pause to check for tilting or slipping, without touching the load by hand","Keep hoisting steadily while checking for tilting or slipping, steadying the load by hand","Have the crane pause while the signaller checks from directly beneath the load, then hoist","Have the crane pause to confirm the sling safety factor is at least 3, then hoist quickly"],
  "Article 63 lists eleven rigging duties from load verification to safe landing."),
 
-(CR,"第65條",3,"起重-安全係數",
+(CR,"第65條、第66條、第67條",3,"起重-安全係數",
  "起重機具吊掛用鋼索之安全係數應在多少以上？吊鉤？馬鞍環？",
  ["六以上；四以上；五以上","四以上；三以上；四以上","十以上；五以上；六以上","三以上；二以上；三以上"],"a",
  "第65條：吊掛用鋼索安全係數六以上（斷裂荷重除以最大荷重）。第66條：吊鏈安全係數符合伸長率條件者四以上，其他五以上。第67條：吊鉤四以上，馬鞍環五以上。",
@@ -220,7 +220,7 @@ Q = [
  ["Two or more, one of them outdoors (or one stair plus a slide, escape bridge, rescue chute, etc.)","One or more, located indoors (or that one stair plus a slide, escape bridge or rescue chute)","Three or more, two of them outdoors (or two stairs plus a lift or a controlled descent device)","Two or more, all of them indoors, with no slide, escape bridge or rescue chute permitted"],
  "Article 22; Article 23: leak alarms and neutralizing agents when 100 L+ of Class C-1 or D substances are handled."),
 
-(SC,"第27條",3,"特化-管理設備",
+(SC,"第23條、第27條",3,"特化-管理設備",
  "製造處置或使用丙類第一種或丁類物質合計在多少公升以上之特定化學管理設備，應設置溫度壓力流量異常之自動警報裝置？設置顯有困難時如何？",
  ["一百公升（氣體以一立方公尺換算為二公升）；置監視人於運轉中監視","五十公升（氣體以一立方公尺換算為十公升）；置監視人於運轉中監視","一百公升（氣體以一立方公尺換算為二公升）；得免設並改為每班檢點","一千公升（氣體以一立方公尺換算為五公升）；應立即停止運轉並報備"],"a",
  "第27條：製造處置使用丙類第一種或丁類物質合計一百公升以上（氣體以容積一立方公尺換算為二公升）之特定化學管理設備應設溫度壓力流量發生異常之自動警報裝置，顯有困難時應置監視人於運轉中監視。第26條：管理設備應設溫度計流量計壓力計。第28條：應設遮斷原料供輸或卸放製品、供輸惰性氣體冷卻水等因應異常反應之裝置，閥旋塞應確實動作圓潤安全。第29條：應置備用動力源，不常用之閥開關應加鎖鉛封。",
@@ -260,7 +260,7 @@ Q = [
  ["Prevent contamination or inhalation, decide methods and direct work, keep records of at least monthly LEV checks, and supervise PPE use","Prevent contamination or inhalation, decide methods and direct work, keep records of at least annual LEV checks, and perform health exams","Buy protective gear and fire extinguishers, set shift rosters and overtime hours, keep monthly attendance records, and calculate hazard pay","Sign work permits for the employer, outsource environmental monitoring, keep quarterly check records, and set and impose penalties"],
  "Article 37; Article 39: written operating procedures for specified chemical equipment."),
 
-(SC,"第38條",3,"特化-設計人員",
+(SC,"第38條、第38條之1",3,"特化-設計人員",
  "特定化學物質作業局部排氣裝置設計之專業人員，應接受在職教育訓練每三年不得低於幾小時？設計報告書及原始性能測試報告書應保存幾年？",
  ["十二小時；十年","六小時；三年","二十四小時；五年","三小時；一年"],"a",
  "第38條：密閉設備局部排氣裝置整體換氣裝置應由專業人員設計並維持性能；設置局部排氣裝置應指派或委託經中央主管機關訓練合格之專業人員設計並依附表二製作設計報告書；完成後實施原始性能測試並依附表三製作報告書，文件紀錄保存十年；改裝時亦同。第38條之1：設計專業人員應具附表四資格並依附表五課程訓練合格，在職教育訓練每三年不得低於十二小時。",

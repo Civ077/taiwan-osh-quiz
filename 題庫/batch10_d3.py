@@ -256,7 +256,7 @@ Q = [
  ["應於鯉魚、羅漢魚、斑馬魚胚胎擇一，及水蚤、米蝦擇一，進行二種生物檢測；基本頻率為每六個月一次","應於鯉魚、羅漢魚、斑馬魚胚胎擇二，及水蚤、米蝦擇二，進行四種生物檢測；基本頻率為每六個月一次","應於吳郭魚、鰻魚、虱目魚苗擇一，及豐年蝦、螺類擇一，進行二種生物檢測；基本頻率為每三個月一次","應於鯉魚、羅漢魚、斑馬魚胚胎擇一，及水蚤、米蝦擇一，進行二種生物檢測；基本頻率為每年檢測一次"],"a",
  "第84條之1第1項：辦理放流水水質之生物急毒性檢測，應於鯉魚、羅漢魚、斑馬魚胚胎擇一選定及水蚤、米蝦擇一選定，進行二種生物檢測，並依中央主管機關公告之檢測方法執行，主管機關稽查採樣時亦同。第2項：依第84條第3項規定檢測申報者，其頻率為每六個月一次。第2條第14款並定義 TUa 為半數致死濃度之倒數。",
  "Which organisms are used for acute toxicity testing, and at what base frequency?",
- ["One of carp, medaka or zebrafish embryo plus one of water flea or freshwater shrimp, two species in all; base frequency every six months","Two of carp, medaka or zebrafish embryo plus two of water flea or freshwater shrimp, four species in all; base frequency every six months","One of tilapia, eel or milkfish fry plus one of brine shrimp or snail, two species in all; base frequency every three months instead","One of carp, medaka or zebrafish embryo plus one of water flea or freshwater shrimp, two species in all; base frequency once every year"],
+ ["One of carp, topmouth gudgeon or zebrafish embryo plus one of water flea or freshwater shrimp, two species in all; base frequency every six months","Two of carp, topmouth gudgeon or zebrafish embryo plus two of water flea or freshwater shrimp, four species in all; base frequency every six months","One of tilapia, eel or milkfish fry plus one of brine shrimp or snail, two species in all; base frequency every three months instead","One of carp, topmouth gudgeon or zebrafish embryo plus one of water flea or freshwater shrimp, two species in all; base frequency once every year"],
  "Article 84-1 paragraphs 1 and 2."),
 
 (W,"第84條之1",3,"水措-頻率調整",

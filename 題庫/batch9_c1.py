@@ -350,10 +350,7 @@ Q = [
   "應符合第二十九條有關衛生掩埋設施及第三十條掩埋作業之各項規定"], "a",
  "第25條：一般廢棄物採焚化處理以外之熱處理法處理者，其設施應符合第19條及第24條第1款（進料計量及檢查設備）、第2款（消防及臭氣處理設備、滲出水收集系統）、第6款（緊急應變處理裝置）、第7款（其他經主管機關規定者）之規定。第2條第15款並定義熱處理法包括焚化法、熱解法、熔融法等。",
  "Which provisions must facilities using thermal treatment other than incineration meet?",
- ["Article 19 and Article 24, subparagraphs 1, 2, 6 and 7",
-  "Article 19 and all subparagraphs of Article 24 on incineration facilities, with no reduction",
-  "Article 20 on crushing and sorting facilities and Article 26 on composting facilities",
-  "Article 29 on sanitary landfill facilities and Article 30 on landfill operations"],
+ ["Article 19 and Article 24, subparagraphs 1, 2, 6 and 7","Article 19 and all of Article 24 on incineration, with no reduction","Articles 20 and 26 on crushing, sorting and composting facilities","Articles 29 and 30 on sanitary landfills and operations"],
  "Article 25 requires compliance with Article 19 and Article 24, subparagraphs 1, 2, 6 and 7."),
 
 (L, "第26條", 3, "一般廢棄物-堆肥",
@@ -512,10 +509,7 @@ Q = [
 
 (L, "第38條", 1, "一般廢棄物-施行",
  "本辦法之施行日期規定為何？",
- ["本辦法自發布日施行",
-  "本辦法自發布後六個月施行",
-  "本辦法自發布後一年起施行",
-  "本辦法自公布後三個月施行"], "a",
+ ["本辦法自發布日施行","本辦法自發布後六月施行","本辦法自發布後一年施行","本辦法自公布後三月施行"], "a",
  "第38條：本辦法自發布日施行。本辦法最近一次修正日期為民國一百十四年一月三日，其新增之第6條之2並就裝潢修繕廢棄物申報訂有分階段適用期程。",
  "When do these Regulations take effect?",
  ["These Regulations take effect on the date of promulgation",

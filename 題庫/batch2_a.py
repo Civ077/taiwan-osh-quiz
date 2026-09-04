@@ -55,7 +55,7 @@ Q = [
  ["非供勞工在其內部從事經常性作業","勞工進出方法受限制","無法以自然通風維持充分清淨空氣","面積在十平方公尺以下"],"d",
  "第19條之1：局限空間指非供勞工在其內部從事經常性作業，勞工進出方法受限制，且無法以自然通風來維持充分、清淨空氣之空間。與面積大小無關。",
  "Which is NOT part of the definition of 'confined space' under the Rules?",
- ["Not intended for regular work inside","Restricted means of entry and exit","Natural ventilation cannot maintain sufficient clean air","Floor area of 10 m² or less"],
+ ["Not for regular work inside","Restricted entry and exit","Insufficient natural ventilation","Floor area of 10 m² or less"],
  "Article 19-1: a confined space is not intended for regular work, has restricted entry/exit, and cannot maintain sufficient clean air by natural ventilation. Size is not a criterion."),
 
 (L,"第21-2條",2,"設施規則-道路作業",
@@ -236,10 +236,10 @@ Q = [
 
 (L,"第56條",1,"設施規則-機械",
  "對於鑽孔機、截角機等旋轉刃具作業，勞工手指有觸及之虞者，雇主應明確告知及標示勞工不得使用何物？",
- ["手套","安全眼鏡","耳塞","安全鞋"],"a",
+ ["手套","安全眼鏡","口罩","安全鞋"],"a",
  "第56條：對於鑽孔機、截角機等旋轉刃具作業，勞工手指有觸及之虞者，應明確告知及標示勞工不得使用手套，並使勞工確實遵守。",
  "For rotating-blade work such as drilling machines, workers whose fingers may contact the blade must be told and signs posted NOT to use:",
- ["Gloves","Safety glasses","Earplugs","Safety shoes"],
+ ["Gloves","Safety glasses","Masks","Safety shoes"],
  "Article 56: workers shall be clearly informed and signs posted that gloves must not be used, and the employer shall ensure compliance."),
 
 (L,"第57條",2,"設施規則-機械",
@@ -388,10 +388,10 @@ Q = [
 
 (L,"第108條",2,"設施規則-高壓氣體",
  "高壓氣體貯存，可燃性氣體、有毒性氣體及氧氣之鋼瓶應如何處理？",
- ["應分開貯存","可混合貯存以節省空間","僅需標示即可混放","放在同一鐵籠內即可"],"a",
+ ["應分開貯存","得混合貯存","標示後混放","同籠存放即可"],"a",
  "第108條第4款：可燃性氣體、有毒性氣體及氧氣之鋼瓶，應分開貯存；盛裝容器和空容器亦應分區放置。",
  "Cylinders of flammable gas, toxic gas and oxygen shall be:",
- ["Stored separately","Stored together to save space","Mixed as long as labeled","Kept in the same cage"],
+ ["Stored separately","Stored together","Mixed if labeled","Kept in one cage"],
  "Article 108(4): flammable, toxic and oxygen cylinders shall be stored separately; full and empty cylinders shall also be placed in separate zones."),
 
 (L,"第116條",2,"設施規則-車輛機械",
@@ -399,7 +399,7 @@ Q = [
  ["不得搭載","可搭載一人","可搭載二人","視現場需要"],"a",
  "第116條第2款：車輛系營建機械及堆高機，除乘坐席位外，於作業時不得搭載勞工。第10款並禁止勞工搭載於堆高機貨叉之托板等部分。",
  "May workers ride on vehicle-type construction machinery or forklifts other than in seats?",
- ["No","One person allowed","Two persons allowed","Depends on site needs"],
+ ["May not carry workers","May carry one person","May carry two persons","Depends on site needs"],
  "Article 116(2): apart from seats, no workers may ride during operation; item 10 also prohibits riding on forklift pallets or forks."),
 
 (L,"第116條",2,"設施規則-車輛機械",

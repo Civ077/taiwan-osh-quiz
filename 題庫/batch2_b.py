@@ -231,7 +231,7 @@ Q = [
  ["使勞工停止作業","加派人手趕工","要求勞工加快速度","僅發放雨衣"],"a",
  "第226條：對於高度在二公尺以上之作業場所，有遇強風、大雨等惡劣氣候致勞工有墜落危險時，應使勞工停止作業。",
  "At work areas 2 m or higher, in strong wind or heavy rain with fall risk, the employer shall:",
- ["Stop the work","Add workers to rush the job","Tell workers to hurry","Only hand out raincoats"],
+ ["Stop the work","Add more workers","Work faster","Issue raincoats"],
  "Article 226: work shall be stopped when severe weather such as strong wind or heavy rain creates a fall risk at heights of 2 m or more."),
 
 (L,"第227條",2,"設施規則-墜落",
@@ -428,10 +428,10 @@ Q = [
 
 (L,"第287-1條",2,"設施規則-防護具",
  "使勞工使用輸氣管面罩呼吸防護具時，應避免使用何種氣體供氣？",
- ["純氧","壓縮空氣","過濾空氣","一般空氣"],"a",
+ ["純氧氣體","壓縮空氣","過濾空氣","一般空氣"],"a",
  "第287條之1：應確保其供氣及性能維持正常運作，並避免使用純氧供氣；使用空氣壓縮機供氣者，輸氣管線及接頭應明顯標示種類及用途，相鄰管線接頭應以不同規格區隔。",
  "When supplying air-line respirators, the employer shall avoid supplying:",
- ["Pure oxygen","Compressed air","Filtered air","Ordinary air"],
+ ["Pure oxygen gas","Compressed air","Filtered air","Ordinary air"],
  "Article 287-1: ensure proper supply and performance and avoid pure oxygen; with compressors, label air lines and use different fitting sizes for adjacent lines."),
 
 (L,"第295條",2,"設施規則-衛生",
@@ -596,9 +596,9 @@ Q = [
 
 (L,"第326-1條",2,"設施規則-附則",
  "自營作業者獨立作業或以其作業交付承攬時，是否適用設施規則有關雇主義務之規定？",
- ["適用","不適用","僅適用一半","視契約而定"],"a",
+ ["一律適用","均不適用","僅部分適用","視契約而定"],"a",
  "第326條之1：自營作業者獨立作業或以其作業交付承攬時，適用本規則有關雇主義務之規定；受工作場所負責人指揮或監督從事勞動之人員，比照該事業單位之勞工適用本規則。",
  "Do the employer obligations in the Rules apply to self-employed persons working independently or contracting out their work?",
- ["Yes","No","Only half","Depends on the contract"],
+ ["Yes, they all apply","No, they do not apply","Only some apply","Depends on the contract"],
  "Article 326-1: yes; and persons working under the direction of a workplace manager are treated like that enterprise's laborers under the Rules."),
 ]

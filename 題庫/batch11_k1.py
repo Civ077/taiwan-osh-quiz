@@ -19,7 +19,7 @@ Q = [
  ["Articles 5, 9, 76 and 89 have all been deleted from the current text","Articles 10, 11, 12 and 87 have all been deleted from the current text","Articles 13, 14, 15 and 80 have all been deleted from the current text","Articles 82, 85, 88 and 89-1 have all been deleted from the current text"],
  "Articles 5, 9, 76 and 89 are deleted."),
 
-(A,"第10條",2,"職安管理辦法-安委會",
+(A,"第2條之1、第10條",2,"職安管理辦法-安委會",
  "依本辦法，哪些事業單位應設置職業安全衛生委員會？",
  ["適用第二條之一規定（第一類事業一百人以上、第二類事業三百人以上）及第六條第二項規定之事業單位","適用第三條附表二應置職業安全衛生業務主管之事業單位，不論勞工人數多寡一律均應設置委員會","第一類事業勞工人數在三十人以上，或第二類事業勞工人數在一百人以上之事業單位始應設置委員會","凡從事石油裂解石化工業，或使用危害性化學品達中央主管機關規定量以上之工作場所均應設置"],"a",
  "第10條：適用第二條之一及第六條第二項規定之事業單位，應設職業安全衛生委員會。第11條定委員七人以上、任期二年、勞工代表應佔三分之一以上；第12條定委員會應每三個月至少開會一次，紀錄保存三年。",

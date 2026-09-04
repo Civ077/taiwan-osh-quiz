@@ -53,10 +53,10 @@ Q = [
 
 (L,"第3條",1,"總則",
  "本法所稱中央主管機關為何？",
- ["衛生福利部","經濟部","勞動部","內政部"],"c",
+ ["衛生部","經濟部","勞動部","內政部"],"c",
  "第3條第1項：本法所稱主管機關，在中央為勞動部；在直轄市為直轄市政府；在縣（市）為縣（市）政府。",
  "Which is the central competent authority under the Act?",
- ["Ministry of Health and Welfare","Ministry of Economic Affairs","Ministry of Labor","Ministry of the Interior"],
+ ["Ministry of Health","Ministry of Economy","Ministry of Labor","Ministry of Interior"],
  "Article 3(1): the central competent authority is the Ministry of Labor; at the municipal level it is the municipal government; at the county (city) level it is the county (city) government."),
 
 (L,"第4條",1,"總則",

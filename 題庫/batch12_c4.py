@@ -149,7 +149,7 @@ Q = [
 
 (L1,"第18條",1,"燃料許可-施行",
  "移動污染源燃料販賣進口許可及管理辦法之施行日期為何？",
- ["本辦法自發布日施行","本辦法自發布後六個月施行","本辦法自次年一月一日施行","本辦法自發布後一年施行之"],"a",
+ ["本辦法自發布日起施行","本辦法自發布後六個月施行","本辦法自次年一月一日施行","本辦法自發布後一年施行之"],"a",
  "第18條：本辦法自發布日施行。第7條、第11條並分別規定販賣許可文件有效期間為五年、進口許可文件有效期間為六個月，其展延期限與次數各有不同規定。",
  "When do these Regulations on mobile source fuel permits take effect?",
  ["They take effect on the date of promulgation","They take effect six months after promulgation","They take effect on 1 January of the next year","They take effect one year after promulgation"],
@@ -187,7 +187,7 @@ Q = [
  ["管制揮發性有機物、氯乙烯單體及二氯乙烷；適用生產氯乙烯單體聚氯乙烯或二氯乙烷之場所、運輸槽車業者及儲運業者；研發用反應器容量○．二五立方公尺以下等除外","管制揮發性有機物、粒狀污染物及戴奧辛；適用生產氯乙烯單體與聚氯乙烯之場所；研發用反應器容量二．五立方公尺以下或單一儲槽容積一百五十立方公尺以下者除外","管制氯乙烯單體及氯化氫二項污染物；僅適用生產聚氯乙烯之公私場所，運輸槽車業者及儲運業者不在適用範圍；研發用設備一律不予排除仍應依本標準管制","管制揮發性有機物及硫氧化物；適用石化業全部製程與相關輔助設施；凡屬既存污染源者均得免適用本標準之各項排放標準與管制規定並得逐年改善"],"a",
  "第3條：本標準管制空氣污染物項目為揮發性有機物、氯乙烯單體及二氯乙烷；適用對象為生產氯乙烯單體及聚氯乙烯聚合物之公私場所、生產二氯乙烷且用於產製氯乙烯單體之公私場所、運輸氯乙烯單體或相關二氯乙烷之槽車業者、具氯乙烯單體儲槽之儲運業者。但用於研究與開發中之設備且反應器容量○．二五立方公尺以下、單一儲槽容積十五立方公尺以下或單一儲槽二氯乙烷容積一百立方公尺以下者，不在此限。",
  "Which pollutants are controlled, to whom does the standard apply, and what is excluded?",
- ["VOCs, VCM and EDC; it covers plants making VCM, PVC or EDC, tank truck operators and storage operators; R&D reactors of 0.25 cubic metres or less are excluded","VOCs, particulates and dioxins; it covers plants making VCM and PVC only; R&D reactors of 2.5 cubic metres or less or single tanks of 150 cubic metres or less are excluded","VCM and hydrogen chloride only; it covers only plants making PVC, with tank truck and storage operators outside its scope; research and development equipment is never excluded","VOCs and sulphur oxides; it covers all petrochemical processes and auxiliary facilities; all existing sources are exempt from the emission limits and may improve year by year"],
+ ["VOCs, VCM and EDC; it covers plants making VCM, PVC or EDC, tank truck operators and storage operators; R&D reactors of 0.25 cubic metres or less are excluded","VOCs, particulates and dioxins; it covers VCM and PVC plants only; R&D reactors of 2.5 cubic metres or less or single tanks of 150 cubic metres or less are excluded","VCM and hydrogen chloride only; it covers only plants making PVC, with tank truck and storage operators outside its scope; research and development equipment is never excluded","VOCs and sulphur oxides; it covers all petrochemical processes and auxiliary facilities; all existing sources are exempt from the emission limits and may improve year by year"],
  "Article 3."),
 
 (L2,"第4條",3,"氯乙烯標準-二氯乙烷製程",
@@ -223,7 +223,7 @@ Q = [
  ["It sets requirements for fugitive emission sources","It sets requirements for continuous stack monitoring","It sets water quality rules for wastewater facilities","It sets tank type and design pressure requirements"],
  "Article 7; see also Article 2."),
 
-(L2,"第8條",2,"氯乙烯標準-密閉設備",
+(L2,"第2條、第8條",2,"氯乙烯標準-密閉設備",
  "本標準所稱密閉設備之範圍為何？第八條就其另設何種規定？",
  ["指除儲槽外製程所屬任何密閉槽體，如反應槽、攪拌槽、重合槽、分離槽、精餾塔及過濾器；第八條並定有密閉設備應符合之規定","指所有儲槽及其附屬管線，如固定頂槽、浮頂槽及壓力槽等；第八條並定有儲槽排氣密閉收集系統應連通防制設備之規定","指裝載操作涵蓋之相關設施，包括灌裝臂、泵浦、流量計及關斷閥；第八條並定有裝載操作應維持氣密狀態之管制規定","指廢水收集系統及廢水回收再利用系統之各單元設備；第八條並定有廢水液面不得與大氣接觸之管制規定與其例外"],"a",
  "第2條第28款：密閉設備指除儲槽外，製程所屬任何密閉槽體，如反應槽（器）、攪拌槽、重合槽、分離槽、精餾塔、過濾器。第8條規定密閉設備應符合該條所定各項規定；第9條則另就二氯乙烷或氯乙烯單體儲槽定有管制規定。",
@@ -312,7 +312,7 @@ Q = [
  ["應於每年二月、八月底前，按當年度下半年與下年度上半年之各期需求量，共同檢具文件向中央主管機關申請","應於每年一月、七月底前，按當年度上半年與下半年之各期需求量，分別檢具文件向地方主管機關申請","應於每年四月、十月底前，按次年度全年之需求量，由進口廠商單獨檢具文件向中央主管機關申請許可","應於每次進口前三十日，按該批次之實際需求量，由使用者單獨檢具文件向目的事業主管機關申請"],"a",
  "第5條第1項：進口廠商及使用者應於每年二月、八月底前，按當年度下半年與下年度上半年之各期需求量，共同檢具申請表、出進口廠商登記證明文件、使用者經主管機關核准登記之相關證明文件（政府機關免附）及使用溴化甲烷用途證明文件，向中央主管機關申請進口及使用許可。",
  "When and how must importers and users apply for a methyl bromide import and use permit?",
- ["By the end of February and August each year, for the coming half-year demands, applying jointly with documents to the central authority","By the end of January and July each year, for the current year's two half-year demands, applying separately to the local authority","By the end of April and October each year, for the whole next year's demand, with the importer alone applying to the central authority","Thirty days before each import, for that batch's actual demand, with the user alone applying to the relevant industry regulator"],
+ ["By the end of February and August each year, for this year's second half and next year's first half, jointly to the central authority","By the end of January and July each year, for the current year's two half-year demands, applying separately to the local authority","By the end of April and October each year, for the whole next year's demand, with the importer alone applying to the central authority","Thirty days before each import, for that batch's actual demand, with the user alone applying to the relevant industry regulator"],
  "Article 5, Paragraph 1."),
 
 (L3,"第5條",3,"溴化甲烷-用途證明",
@@ -397,7 +397,7 @@ Q = [
 
 (L3,"第15條",1,"溴化甲烷-施行",
  "溴化甲烷管理辦法之施行日期為何？",
- ["本辦法自發布日施行","本辦法自發布後六個月施行","本辦法自次年一月一日施行","本辦法自發布後一年施行之"],"a",
+ ["本辦法自發布日起施行","本辦法自發布後六個月施行","本辦法自次年一月一日施行","本辦法自發布後一年施行之"],"a",
  "第15條：本辦法自發布日施行。第6條並規定進口及使用許可文件有效期限為六個月，展延以一次為限；第5條、第10條規定申請及申報期限均為每年二月、八月底前。",
  "When do the Regulations for the Management of Methyl Bromide take effect?",
  ["They take effect on the date of promulgation","They take effect six months after promulgation","They take effect on 1 January of the next year","They take effect one year after promulgation"],

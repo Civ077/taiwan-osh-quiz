@@ -28,7 +28,7 @@ Q = [
  ["不遵行主管機關命其減輕污染危害及避免擴大之處分、依命令或自行採取措施後污染物濃度或範圍仍持續顯著增加或擴大、其他非停止作為無法減輕危害之必要情事","未於三十日內繳納土壤及地下水污染整治費用、未指派專責人員出席主管機關說明會、未於場址公告後立即遷移全部員工及設備、未提供土地所有人聯絡方式","未依規定辦理環境影響評估即行營運、未取得水污染防治措施許可證、未於廠內設置事業廢棄物貯存區、未於工廠大門張貼污染場址公告文件","污染物濃度略高於監測基準但仍低於管制標準、鄰近居民陳情案件累計達十件、經媒體報導引起社會關注、或經地方民意代表要求限期停工者"],"a",
  "第17條：不遵行各級主管機關命其採取減輕污染危害及避免污染擴大之處分、依命令或自行採取措施經調查污染物濃度或範圍仍持續顯著增加或擴大、其他非以停止作為停業或停工無法減輕危害避免擴大之必要情事者，得命停止作為停業部分或全部停工。第18條：清理或污染防治計畫書應含提出者及場址資料、污染說明、土壤挖除回填暫存運輸或地下水抽出方式數量及管制措施、期程、防治對策、安全衛生、緊急應變，完成後通知主管機關。第27條：污染行為人為法人機關者應令有代表權之人參加法規及環教講習，正當理由得延期二次。",
  "Local authorities may order a polluter to stop acts, suspend business or halt work when the polluter:",
- ["Fails to comply with orders to reduce harm and prevent spread, or pollutant concentration or extent keeps significantly increasing despite measures, or stopping is otherwise necessary to reduce harm","Fails to pay soil and groundwater remediation fees within 30 days, sends no dedicated person to the authority's briefing, does not move out all staff after the announcement, or withholds the landowner's contact details","Operates without carrying out an environmental impact assessment, holds no water pollution control permit, has set up no industrial waste storage area on site, or fails to post the site announcement at the factory gate","Pollutant concentrations slightly exceed monitoring baselines but stay below control standards, ten complaints from nearby residents have accumulated, media coverage has drawn attention, or councilors demand a halt"],
+ ["Fails to comply with orders to reduce harm and prevent spread, or pollutant concentration or extent keeps significantly increasing despite measures, or stopping is otherwise necessary to reduce harm","Fails to pay soil and groundwater remediation fees within 30 days, sends no dedicated person to the briefing, does not move out all staff after the announcement, or withholds the landowner's contact details","Operates without an environmental impact assessment, holds no water pollution control permit, has set up no waste storage area on site, or fails to post the site announcement at the factory gate","Pollutant concentrations exceed monitoring baselines but stay below control standards, ten complaints from nearby residents have accumulated, media coverage has drawn attention, or councilors demand a halt"],
  "Articles 17–18 and 27."),
 
 # ---------- 土壤污染管制標準（100/1/31） ----------
@@ -75,7 +75,7 @@ Q = [
  "Articles 3–4."),
 
 # ---------- 氣候變遷因應法施行細則（112/12/29） ----------
-(CR,"第7條",3,"氣候細則-部門行動方案",
+(CR,"第7條、第8條",3,"氣候細則-部門行動方案",
  "中央目的事業主管機關訂修所屬部門溫室氣體減量行動方案，應於階段管制目標核定後幾個月內送中央主管機關？每幾年至少檢討一次？成果報告每年何時前提送？",
  ["六個月內；每五年；九月三十日前","三個月內；每三年；六月三十日前","十二個月內；每四年；十二月三十一日前","一個月內；每年；三月三十一日前"],"a",
  "第5條：訂定階段管制目標前中央有關機關應進行排放趨勢推估情境分析並提出電力排放係數需求成長各部門減量情境貢獻成本估算。第6條：中央主管機關每年十一月三十日前向行政院報告各部門執行狀況。第7條：部門行動方案於各期階段管制目標核定後六個月內送中央主管機關報行政院核定公開，每五年至少檢討一次，內容含現況分析、部門目標及評量指標、期程、策略措施經費誘因、效益影響、管考。第8條：部門成果報告每年九月三十日前送中央主管機關。第9條：未達目標者併提改善措施。第10條：排放量調查統計每年三月三十一日前提送。第11條：國家清冊每年六月三十日前公開。第12條：國家報告每三年編撰一次。第13條：地方減量執行方案於部門行動方案核定後八個月內送核定，每五年檢討。第19條：地方調適執行方案於核定後一年內送，每四年檢討。",
@@ -100,7 +100,7 @@ Q = [
  ["Direct emissions from stationary and mobile combustion, process and fugitive sources, plus indirect emissions from purchased electricity or steam; CO₂, CH₄, N₂O, HFCs, PFCs, SF₆, NF₃ and announced substances","Only direct emissions from stationary combustion sources, plus indirect energy emissions from employee commuting and business travel; CO₂, CO, SO₂, NOx, VOCs, ozone, particulates and announced substances","Other indirect emissions up and down the supply chain, plus indirect energy emissions from product use and disposal stages; CO₂, CH₄, water vapour, ozone, CFCs, ammonia, H₂S and announced substances","Embedded carbon of purchased raw materials and packaging, plus indirect energy emissions from outsourced waste disposal and wastewater treatment; CO₂, CH₄, N₂O, CO, SO₂, hydrogen, helium and announced substances"],
  "Articles 2–5."),
 
-(GI,"第6條",3,"盤查登錄-期限",
+(GI,"第6條、第9條、第14條",3,"盤查登錄-期限",
  "事業應於每年何時前登錄前一年度之排放量清冊及盤查報告書？查驗結果應於每年何時前上傳？相關資料應保存幾年？",
  ["四月三十日前登錄；十月三十一日前上傳查驗結果；保存六年","三月三十一日前登錄；六月三十日前上傳查驗結果；保存三年","六月三十日前登錄；十二月三十一日前上傳查驗結果；保存五年","一月三十一日前登錄；四月三十日前上傳查驗結果；保存十年"],"a",
  "第6條：每年四月三十日前將前一年度排放量清冊及盤查報告書登錄於事業溫室氣體排放量資訊平台。第7條：盤查報告書含基本資料、排放源平面配置、製程流程產製期程產量、排放源單元及氣體種類、原物料燃料種類成分碳含量熱值用量、減量措施、排放源增設拆除、計算方法參數數據來源檢測方法日期、各排放源排放量；非製造業另列分公司門市地址電號及電力分配比例。第8條：公告應查驗者由許可查驗機構查驗，合理保證等級，不得連續六年由同一主導查驗員執行。第9條：每年十月三十一日前上傳查驗總結報告及聲明書結果。第10條：補正總日數不超過三十日。第11條：不可抗力得申請展延最長六十日。第12條：停業歇業解散九十日內辦理。第14條：資料保存六年。第15條：未依期限登錄上傳、未補正、未保存、總排放量與查核差異達百分之五以上者限期補正改善屆期未完成處罰鍰。",
@@ -117,7 +117,7 @@ Q = [
  "Articles 8–9, 13 and 16."),
 
 # ---------- 碳費收費辦法（113/8/29） ----------
-(CF,"第3條",3,"碳費-徵收對象",
+(CF,"第3條、第4條",3,"碳費-徵收對象",
  "碳費徵收對象為何？碳費應於每年何時前自行申報繳納？",
  ["具公告應盤查登錄及查驗排放源且全廠直接排放及使用電力間接排放年合計達二萬五千公噸 CO2e 以上之電力、燃氣供應業及製造業；每年五月底前","具公告應盤查登錄排放源之所有事業，不論全廠直接排放及使用電力間接排放年合計排放量多寡，含服務業及運輸業；每年三月底前","具公告應查驗排放源且全廠直接排放及使用電力間接排放年合計達一萬公噸 CO2e 以上之所有行業，含農業及營造業；每年十二月底前","具公告應盤查登錄及查驗排放源且全廠直接排放年合計達五萬公噸 CO2e 以上而不計使用電力間接排放之製造業；每年八月底前"],"a",
  "第2條：碳費指對事業經盤查登錄與查驗後之直接排放量及使用電力間接排放量換算 CO2e 徵收之費用。第3條：對象為具公告應盤查登錄及查驗排放源且全廠直接排放及使用電力間接排放年排放量合計達二萬五千公噸 CO2e 以上之電力燃氣供應業及製造業。第4條：費率公告生效次年起每年五月底前依前一年度排放量按費率自行計算，填申報書繳款單繳納至指定專戶後網路申報；第一年未滿一年依月份比例計算。第20條：申報資料繳費收據等保存六年。第21條：不可抗力得申請展延。",
@@ -175,7 +175,7 @@ Q = [
  ["When ordered to suspend work or business, or when fined a second time within a year in the same municipality for the same provision of the same environmental law, with the fine over 70% of the statutory maximum and over NT$10,000","When fined NT$50,000 or more, or when violating different provisions of any environmental law or self-governance ordinance a second time within three years anywhere in the country with the fine exceeding 50% of the statutory maximum","When ordered to complete corrections by a deadline, or when violating any environmental law or self-governance ordinance a third time within a year in the same municipality with the fine over twice the statutory minimum and over NT$30,000","When subject to confiscation or forced closure, or when violating the same provision of the same environmental law a second time within two years in the same municipality with the fine over 90% of the maximum and over NT$100,000"],
  "Articles 2 and 4–7."),
 
-(EL,"第8條",3,"環境講習-時數與通知",
+(EL,"第8條、第11條",3,"環境講習-時數與通知",
  "一年內第二次以上違反同一環保法律同條同項規定者，環境講習時數如何計算？最高幾小時？主管機關應於講習幾日前通知？",
  ["依附件一計算之二倍，最高至八小時；十四日前以講習通知單通知","依附件一計算之三倍，最高至十二小時；七日前以講習通知單通知","依附件一計算之一點五倍，最高至六小時；三十日前以講習通知單通知","依附件一計算加四小時，最高至十六小時；三日前以講習通知單通知"],"a",
  "第8條：處分機關依附件一計算時數；一年內同一縣市第二次以上違反同一環保法律同條同項規定者依二倍計算最高至八小時；一行為同時處罰鍰及停工停業者時數從重。第9條：非主管機關之處分機關裁處者移請所在地主管機關辦理。第10條：依附件二規劃課程，實務課程得以體驗實習實作方式。第11條：講習十四日前以通知單通知對象及受處分人。第12條：攜帶通知單及身分證明文件報到。第13、14條：正當理由得申請重新指派或延期（指定日後三日內書面申請）。第15條：自然人或違反移動污染源法規者得申請變更地點。第16條：完成後開立講習證明單。第17條：行政救濟終結前暫不講習。",

@@ -314,7 +314,7 @@ Q = [
  ["Flammable gases other than acetylene, ethylene, hydrogen with 4 percent oxygen; those three with 2 percent oxygen","Flammable gases other than acetylene, ethylene, hydrogen with 2 percent oxygen; those three with 4 percent oxygen","Flammable gases other than acetylene, ethylene, hydrogen with 10 percent oxygen; those three with 5 percent oxygen","Flammable gases other than acetylene, ethylene, hydrogen with 1 percent oxygen; those three with 0.5 percent oxygen"],
  "Article 101; the same limits appear in Article 70."),
 
-(HG,"第102條",2,"高壓氣體-液化石油氣",
+(HG,"第74條、第98條、第102條",2,"高壓氣體-液化石油氣",
  "甲類及乙類製造事業單位以外之液化石油氣製造事業單位，其製造設施準用何規定？",
  ["準用工業用容器臭劑貼籤與添加臭劑，及灌裝距離五公尺與禁灌車輛容器之規定","準用儲槽相互間安全距離、防液堤設置及耐震構造設計等相關之各項規定","準用毒性氣體防毒措施、熔接接合與二重管構造等相關之各項規定內容","準用冷凍設備壓縮機設置限制及冷媒設備氣密耐壓試驗等相關之規定"],"a",
  "第102條：甲類製造事業單位及乙類製造事業單位以外之液化石油氣製造事業單位之製造設施，準用第74條及第98條第三款（一）及（二）之規定，即工業用液化石油氣容器應張貼紅字未添加臭劑貼籤、其他液化石油氣應添加臭劑，以及灌裝時應距煙火等場所五公尺以上、不得灌裝於固定在車輛之容器。",

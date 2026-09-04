@@ -45,7 +45,7 @@ Q = [
 
 (W,"第5條",2,"廢清法-執行機關",
  "本法所稱執行機關為何？在縣之一般廢棄物回收、清除及處理分別由何單位負責？",
- ["執行機關為直轄市政府環境保護局、縣（市）環境保護局及鄉（鎮、市）公所；在縣由鄉（鎮、市）公所負責回收、清除，由縣環境保護局負責處理","執行機關為直轄市政府建設局、縣（市）政府及village辦公處；在縣由縣政府負責回收、清除，由鄉（鎮、市）公所負責處理","執行機關為環境部所屬各區環境管理處及地方衛生所；在縣由環境管理處負責回收、清除，由鄉（鎮、市）公所負責處理","執行機關為公民營廢棄物清除處理機構及共同清除處理機構；在縣由清除機構負責回收、清除，由處理機構負責處理"],"a",
+ ["執行機關為直轄市政府環境保護局、縣（市）環境保護局及鄉（鎮、市）公所；在縣由鄉（鎮、市）公所負責回收、清除，由縣環境保護局負責處理","執行機關為直轄市政府建設局、縣（市）政府及村里辦公處；在縣由縣政府負責回收、清除，由鄉（鎮、市）公所負責處理","執行機關為環境部所屬各區環境管理處及地方衛生所；在縣由環境管理處負責回收、清除，由鄉（鎮、市）公所負責處理","執行機關為公民營廢棄物清除處理機構及共同清除處理機構；在縣由清除機構負責回收、清除，由處理機構負責處理"],"a",
  "第5條第1項定執行機關；第2項執行機關應設專責單位辦理一般廢棄物之回收、清除、處理及稽查；第4項在縣由鄉（鎮、市）公所負責回收、清除，縣環境保護局負責處理，必要時縣得委託鄉（鎮、市）公所執行處理。第6項一般廢棄物回收項目由中央主管機關定之，地方得增訂並報備查。",
  "Who are the executing agencies, and in a county who handles recovery, clearance and treatment of general waste?",
  ["Municipal and county environmental protection bureaus and township or city offices; in a county the township office recovers and clears, the county bureau treats","Municipal construction bureaus, county governments and village offices; in a county the county government recovers and clears, the township office treats","Regional environmental management offices under the Ministry and local health stations; the management office recovers and clears, the township office treats","Public and private waste clearance and treatment institutions and joint institutions; the clearance body recovers and clears, the treatment body treats"],
@@ -56,7 +56,7 @@ Q = [
  ["涉都市計畫變更者應協調都市計畫主管機關依都市計畫法第二十七條辦理變更；涉非都市土地使用變更者於報准徵收或撥用取得土地後依法辦理變更編定","涉都市計畫變更者應由興辦人逕向內政部申請依都市計畫法第十三條辦理通盤檢討；涉非都市土地使用變更者應先完成環境影響評估始得辦理變更編定","涉都市計畫變更者應報經行政院核定後依區域計畫法第十五條辦理變更；涉非都市土地使用變更者應於取得設置許可後三年內辦理變更編定","涉都市計畫變更者應由地方議會議決後依土地法第二十五條辦理變更；涉非都市土地使用變更者應由目的事業主管機關逕行公告變更編定"],"a",
  "第6條：涉都市計畫變更者依都市計畫法第27條辦理；涉非都市土地使用變更者，於報准徵收或撥用取得土地後依法辦理變更編定。完成報編為廢棄物清理專區之土地，其屬公有者得辦理撥用或出租、讓售與興辦人，不受土地法第25條規定之限制。",
  "When a waste disposal facility site involves urban plan change or non-urban land use change, how is it handled?",
- ["Coordinate with the urban planning authority under Article 27 of the Urban Planning Act; for non-urban land, re-designate after acquiring the land by approved expropriation or appropriation","The developer applies directly to the Ministry of the Interior for general review under Article 13; for non-urban land, complete environmental impact assessment before re-designation","Report to the Executive Yuan for approval under Article 15 of the Regional Plan Act; for non-urban land, re-designate within three years of obtaining the установка permit","The local council resolves the change under Article 25 of the Land Act; for non-urban land, the industry authority announces the re-designation directly"],
+ ["Coordinate with the urban planning authority under Article 27 of the Urban Planning Act; for non-urban land, re-designate after acquiring the land by approved expropriation or appropriation","The developer applies directly to the Ministry of the Interior for general review under Article 13; for non-urban land, complete environmental impact assessment before re-designation","Report to the Executive Yuan for approval under Article 15 of the Regional Plan Act; for non-urban land, re-designate within three years of obtaining the installation permit","The local council resolves the change under Article 25 of the Land Act; for non-urban land, the industry authority announces the re-designation directly"],
  "Article 6."),
 
 (W,"第7條",2,"廢清法-聯合設置",

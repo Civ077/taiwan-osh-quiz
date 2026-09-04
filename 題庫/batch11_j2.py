@@ -358,7 +358,7 @@ Q = [
  ["Note the failure at once in the remarks column of the certificate or other papers, record it and have witnesses sign","Take back and cancel the certificate at once, record it and report to the ministry within three days for publication","Affix a prohibition label on the spot and, with the enterprise staff, seal the item and hand it to the agency","Order the enterprise to improve within a period and re-inspect afterwards, endorsing it only if it then passes"],
  "Article 37; see also Article 31 of the Act."),
 
-(D,"第38條",1,"勞檢細則-代行檢查",
+(D,"第20條、第38條",1,"勞檢細則-代行檢查",
  "本法第三十一條第四項所定之代行檢查證，準用本細則何條規定？",
  ["準用第二十條關於勞動檢查證之規定，即每二年換發一次並應記載一定事項","準用第十九條關於檢查前告知之規定，應於檢查前告知雇主及工會其目的","準用第二十三條關於公告方式之規定，應於事業單位顯明易見處公告七日","並無準用規定，代行檢查證之格式及有效期限由各代行檢查機構自行訂定"],"a",
  "第38條：第20條之規定，於本法第31條第4項代行檢查證適用之。故代行檢查證亦每二年換發一次，離職時應繳回，並應貼照片及記載所屬單位名稱、姓名職稱及編號、檢查法令依據及檢查範圍、使用期限。代行檢查證由中央主管機關製發。",

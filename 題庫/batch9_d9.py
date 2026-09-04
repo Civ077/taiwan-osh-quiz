@@ -324,10 +324,10 @@ Q = [
 
 (EA,"第26條",1,"環境用藥-貯存管理",
  "環境用藥之貯存、置放、數量、地點、使用藥劑種類、人員安全防護設備及污染防治措施等事項之辦法，由何機關訂定？",
- ["由中央主管機關定之","由直轄市、縣（市）主管機關定之","由目的事業主管機關會同勞動主管機關定之","由業者依實際需要自行訂定並報請備查"],"a",
+ ["由中央主管機關定之","由地方主管機關定之","由目的事業主管機關定之","由業者自行訂定報備"],"a",
  "第26條：環境用藥之貯存、置放、數量、地點、使用藥劑種類、人員安全防護設備、污染防治措施及其他應遵行事項之辦法，由中央主管機關定之。第48條第2款並規定違反依第26條所定辦法中有關環境用藥貯存或置放之數量、地點、使用藥劑種類、人員安全防護設備、污染防治措施之管理規定者，處新臺幣六萬元以上三十萬元以下罰鍰。",
  "Who prescribes the rules on storage, placement, quantities, locations, protective equipment and pollution control?",
- ["The central competent authority","The special municipality, county or city competent authority","The industry authority jointly with the labour authority","The businesses themselves, subject to filing for record"],
+ ["The central competent authority","The local competent authority","The industry competent authority","The businesses themselves, for record"],
  "Articles 26 and 48."),
 
 (EA,"第27條",1,"環境用藥-標示核准",

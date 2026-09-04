@@ -74,10 +74,10 @@ Q = [
 
 (A,"第9條",1,"環評按日處罰-施行",
  "違反環境影響評估法按日連續處罰執行準則之施行日期如何規定？",
- ["自發布日施行","自發布後滿三個月施行","自發布後滿六個月施行","另由中央主管機關公告施行日"],"a",
+ ["本準則自發布日起施行","本準則自發布後三個月施行","本準則自發布後六個月施行","本準則另定施行日期公告之"],"a",
  "第9條：本準則自發布日施行。屬純形式條文，未另設緩衝期間，發布當日即生效力。",
  "When do these Rules take effect?",
- ["On the date of promulgation","Three full months after promulgation","Six full months after promulgation","On a date announced separately later"],
+ ["On the date of promulgation","Three months after promulgation","Six months after promulgation","On a separately announced date"],
  "Article 9: effective upon promulgation."),
 
 # ===== ENV-99 中小型廢棄物焚化爐戴奧辛管制及排放標準（13 條）=====

@@ -65,10 +65,7 @@ Q = [
   "應以帆布或塑膠布覆蓋於材料表面，並於材料上標示禁止勞工攀爬字樣"],"a",
  "第7條：雇主對於營造工程用之模板、施工架等材料拆除後，應採取拔除或釘入凸出之鐵釘、鐵條等防護措施。第5條並要求對暴露之鋼筋、鋼材採彎曲尖端、加蓋或加裝護套等防護。",
  "What must be done with protruding nails and bars on formwork and scaffold materials after dismantling?",
- ["They must be pulled out or hammered flush so that they cannot injure workers",
-  "Their positions must be marked in red paint with warning signs so workers can avoid them",
-  "The materials must be stacked in a designated area within seven days and watched full time",
-  "The materials must be covered with canvas or plastic sheet and marked with a no-climbing sign"],
+ ["They must be pulled out or hammered flush so that they cannot injure workers","Positions must be marked in red paint with warning signs so workers avoid them","Materials must be stacked in a designated area within seven days and watched full time","Materials must be covered with canvas or plastic and marked with a no-climbing sign"],
  "Article 7."),
 
 ("OSH-36","第8條之1",2,"營造安全-車輛機械",
@@ -435,7 +432,7 @@ Q = [
   "Clear all materials before the end of each day; powered machinery may sit on it by day; limits appear only in the work plan"],
  "Article 46."),
 
-("OSH-36","第49條",1,"營造安全-條文沿革",
+("OSH-36","第48條、第49條",1,"營造安全-條文沿革",
  "營造安全衛生設施標準第四十九條之現行狀態為何？高度二公尺以上施工架上作業之工作臺規定現依何條？",
  ["該條業經刪除；施工架上工作臺寬度四十公分以上、踏板縫隙三公分以下等規定，現依第四十八條辦理",
   "該條仍為現行有效條文；施工架上工作臺之寬度與踏板規格全部依該條規定辦理，不適用其他條文",
@@ -449,7 +446,7 @@ Q = [
   "It is only suspended, not deleted; until it revives, employers set platform specifications by national standards"],
  "Article 49 (deleted)."),
 
-("OSH-36","第50條",1,"營造安全-條文沿革",
+("OSH-36","第50條、第51條",1,"營造安全-條文沿革",
  "營造安全衛生設施標準第五十條之現行狀態為何？施工架上人員上下設備之現行規定為何？",
  ["該條業經刪除；施工架上人員上下設備應檢查穩固性並補強，任一處步行至最近上下設備距離應在三十公尺以下",
   "該條仍為現行有效條文；施工架上人員上下設備之間距及檢查方式全部依該條規定辦理不適用他條",

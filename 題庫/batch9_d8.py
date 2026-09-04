@@ -268,10 +268,10 @@ Q = [
 
 (RG,"第22條",1,"化學登錄-公開通知",
  "依本法第69條第2項予以公開之資料，中央主管機關應如何辦理？",
- ["應通知登錄人","應公告於指定網站三十日","應報請行政院核准後公開","應徵得登錄人書面同意"],"a",
+ ["應通知登錄人","應公告於指定網站","應報請行政院核准","應徵得書面同意"],"a",
  "第22條：依本法第六十九條第二項予以公開之資料，中央主管機關應通知登錄人。本條係就本法第六十九條第二項所定之資訊公開情形，課予中央主管機關通知登錄人之程序義務，使登錄人得以知悉其登錄資料遭公開之事實。",
  "What must the central authority do for data disclosed under Article 69(2) of the Act?",
- ["Notify the registrant","Post it on the designated website for 30 days","Obtain Executive Yuan approval before disclosure","Obtain the registrant's written consent first"],
+ ["Notify the registrant","Post it on the designated site","Obtain Executive Yuan approval","Obtain written consent"],
  "Article 22."),
 
 (RG,"第23條",2,"化學登錄-資料提供轉讓",
@@ -399,7 +399,7 @@ Q = [
 
 (RG,"第32條",1,"化學登錄-施行日期",
  "新化學物質及既有化學物質資料登錄辦法之施行日期規定為何？",
- ["自發布日施行","自發布日後六個月施行","自中華民國一百零九年一月十六日施行","自發布後次年一月一日施行"],"a",
+ ["自發布日施行","自六個月後施行","自一百零九年一月十六日施行","自次年一月一日施行"],"a",
  "第32條：本辦法自發布日施行。本辦法共分五章，第一章總則、第二章新化學物質登錄、第三章既有化學物質登錄、第四章資訊公開與工商機密保護、第五章附則，並訂有附表一至附表十等多項附表。",
  "When do these Registration Regulations take effect?",
  ["On the date of promulgation","Six months after promulgation","From 16 January 2020","On 1 January of the following year"],

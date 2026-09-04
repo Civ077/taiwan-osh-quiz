@@ -196,7 +196,7 @@ Q = [
 
 (L,"第316條",1,"設施規則-清潔",
  "工作場所之底板、周圍牆壁、容器等有被生物病原體污染之虞者，應如何辦理？",
- ["應予適當消毒","應予立即拆除更換","應予塗布防水塗料","應予標示使用年限"],"a",
+ ["應予適當消毒","應予拆除更換","應予塗布防水漆","應予標示年限"],"a",
  "第316條：雇主對於勞工工作場所之底板、周圍牆壁、容器等有被生物病原體污染之虞者，應予適當消毒。第296條並就受生物病原體污染物品之消毒殺菌處理有規定。",
  "What applies to floors, walls or vessels possibly contaminated by pathogens?",
  ["They must be suitably disinfected","They must be removed and replaced","They must be coated with waterproof paint","They must be marked with a service life"],

@@ -245,10 +245,10 @@ Q = [
 
 (C,"第31條",1,"資循法-應回收廢棄物",
  "再生資源屬依廢棄物清理法公告之應回收廢棄物者，其回收、貯存及回收清除處理費用之繳納應依何規定辦理？",
- ["依廢棄物清理法之規定辦理","依本法第二十六條生產者責任組織之規定辦理","依中央目的事業主管機關另訂之管理辦法辦理","依直轄市、縣（市）主管機關所定自治法規辦理"],"a",
+ ["依廢棄物清理法之規定辦理","依本法生產者責任規定辦理","依中央目的事業機關辦法辦理","依地方主管機關法規辦理"],"a",
  "第31條：再生資源屬依廢棄物清理法公告之應回收廢棄物者，其回收、貯存及回收清除處理費用之繳納，依廢棄物清理法之規定辦理。廢棄物清理法第15條至第18條就應回收廢棄物之範圍、責任業者登記與繳費、資源回收管理基金用途及稽核認證補貼等定有規定。第30條並規定再生資源未依規定循環利用者視為廢棄物，應依廢棄物清理法回收清除處理。",
  "Which rules govern recovery, storage and fee payment where a renewable resource is announced mandatory recycling waste?",
- ["The provisions of the Waste Disposal Act","The producer responsibility organization rules in Article 26","Separate regulations issued by the central industry authority","Self-government ordinances set by the municipal or county authority"],
+ ["The provisions of the Waste Disposal Act","The producer responsibility rules in the Act","Separate rules of the central industry authority","Ordinances of the local authority"],
  "Article 31, read with Article 30 and Articles 15 to 18 of the Waste Disposal Act."),
 
 (C,"第32條",3,"資循法-優先採購",
@@ -261,7 +261,7 @@ Q = [
 
 (C,"第33條",1,"資循法-自願服務獎勵",
  "事業自願提供物品或其包裝、容器之源頭減量、重複使用、延長使用或其他有利資源循環服務且績效優良者，得受何種待遇？",
- ["中央主管機關得予獎勵或補助","中央主管機關應逕予免除全部稅捐及規費","直轄市、縣（市）主管機關應發給定額獎勵金","中央目的事業主管機關應優先核發各項許可"],"a",
+ ["中央主管機關得予獎勵或補助","中央主管機關應免除全部稅費","地方主管機關應發定額獎金","中央目的事業機關優先發照"],"a",
  "第33條：為促進資源循環，事業自願提供物品或其包裝、容器之源頭減量、重複使用、延長使用或其他有利資源循環服務，績效優良者，中央主管機關得予獎勵或補助。第34條第4項並規定第33條獎勵或補助之條件、方式、審查程序、廢止及其他有關事項之辦法，由中央主管機關定之。第32條第4項則就民間企業或團體優先採購績效優良者定有獎勵規定。",
  "How may enterprises voluntarily providing source reduction, reuse or extended use services with strong results be treated?",
  ["The central authority may give them incentives or subsidies","The central authority must exempt them from all taxes and fees","The municipal or county authority must pay them a fixed incentive","The central industry authority must give their permits priority"],
@@ -381,10 +381,10 @@ Q = [
 
 (C,"第48條",1,"資循法-裁罰準則",
  "依本法所定罰鍰裁罰基準等相關事項之準則，由何機關訂定？",
- ["由中央主管機關定之","由行政院會同中央主管機關定之","由直轄市、縣（市）主管機關分別定之","由中央目的事業主管機關會商公會定之"],"a",
+ ["由中央主管機關定之","由行政院會同定之","由地方主管機關分別定之","由中央目的事業機關定之"],"a",
  "第48條：依本法所定罰鍰裁罰基準等相關事項之準則，由中央主管機關定之。第47條並規定本法所定之處罰除另有規定外由直轄市或縣（市）主管機關為之；第50條則規定有第38條至第42條、第44條等所定情形之一者，主管機關得於中央主管機關指定之網站公開違規業者之名稱、地址及違法情形。",
  "Who prescribes the guidelines on fining criteria under the Act?",
- ["The central competent authority","The Executive Yuan together with the central authority","Each municipal or county authority separately","The central industry authority with the trade association"],
+ ["The central competent authority","The Executive Yuan acting jointly","Each local authority separately","The central industry authority"],
  "Article 48, read with Articles 47 and 50."),
 
 (C,"第49條",1,"資循法-規費收取",
@@ -405,10 +405,10 @@ Q = [
 
 (C,"第51條",1,"資循法-施行細則",
  "本法施行細則由何機關訂定？",
- ["由中央主管機關定之","由行政院會同中央主管機關定之","由中央目的事業主管機關定之","由直轄市、縣（市）主管機關分別定之"],"a",
+ ["由中央主管機關定之","由行政院會同定之","由中央目的事業機關定之","由地方主管機關分別定之"],"a",
  "第51條：本法施行細則，由中央主管機關定之。第2條規定中央主管機關為環境部。本法多數授權辦法亦由中央主管機關訂定，例如第14條綠色設計準則相關辦法、第16條重複使用計畫辦法、第17條減量計畫辦法、第21條循環標誌辦法、第23條環保標章辦法及第37條創新實驗辦法等。",
  "Who prescribes the enforcement rules of the Act?",
- ["The central competent authority","The Executive Yuan together with the central authority","The central industry competent authority","Each municipal or county competent authority separately"],
+ ["The central competent authority","The Executive Yuan acting jointly","The central industry authority","Each local authority separately"],
  "Article 51, read with Articles 2, 14, 16, 17, 21, 23 and 37."),
 
 (C,"第52條",2,"資循法-施行日期",

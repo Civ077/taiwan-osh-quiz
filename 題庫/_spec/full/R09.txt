@@ -1,0 +1,12 @@
+batch12_f4	43
+batch12_g1	48
+batch12_g2	45
+batch12_g3	45
+batch12_g4	44
+batch12_h1	42
+batch12_h2	44
+batch12_h3	42
+batch12_h4	46
+batch12_i1	45
+batch12_i2	44
+batch12_i3	45

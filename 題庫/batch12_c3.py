@@ -114,7 +114,7 @@ Q = [
 
 (L1,"第11條",1,"乾洗標準-施行",
  "乾洗作業空氣污染防制設施管制標準之施行日期為何？",
- ["本標準自發布日起施行","本標準自八十九年七月一日起施行","本標準自發布後六個月起施行","本標準自發布後屆滿一年起施行"],"a",
+ ["本標準自發布日起施行","本標準自八十九年七月一日施行","本標準自發布後六個月施行","本標準自發布後屆滿一年施行"],"a",
  "第11條：本標準自發布日起施行。第10條另定既設乾洗業者應自八十九年七月一日起符合本標準規定之緩衝期間，兩者規範對象與意義不同。",
  "When do the Dry Cleaning Air Pollution Control Standards take effect?",
  ["They take effect on the date of promulgation","They take effect from 1 July 2000 onwards","They take effect six months after promulgation","They take effect one year after promulgation"],
@@ -271,7 +271,7 @@ Q = [
 
 (L3,"第5條",1,"移動源裁罰-施行",
  "移動污染源違反空氣污染防制法裁罰準則之施行日期為何？",
- ["本準則自發布日施行","本準則自發布後三個月施行","本準則自次年一月一日施行","本準則自發布後一年施行之"],"a",
+ ["本準則自發布日起施行","本準則自發布後三個月施行","本準則自次年一月一日施行","本準則自發布後一年施行之"],"a",
  "第5條：本準則自發布日施行。第2條並規定裁量罰鍰額度應依附表一及附表二辦理，並審酌應受責難程度、所生影響及受處罰者之資力。",
  "When do these Penalty Standards take effect?",
  ["They take effect on the date of promulgation","They take effect three months after promulgation","They take effect on 1 January of the next year","They take effect one year after promulgation"],

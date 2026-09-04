@@ -316,7 +316,7 @@ Q = [
 
 (L,"第30條",1,"CCS-施行日",
  "二氧化碳捕捉後封存管理辦法之施行日期規定為何？",
- ["自發布日施行","自發布後六個月施行","自發布後一年施行","自中央主管機關另以命令定之日施行"],"a",
+ ["本辦法自發布日起施行","本辦法自發布後六個月施行","本辦法自發布後一年施行","本辦法另以命令定施行日期"],"a",
  "第30條：本辦法自發布日施行。本辦法依氣候變遷因應法第39條第5項訂定，第28條並定既有試驗計畫應於發布日起二年內申請封存核准。",
  "When do these Regulations take effect?",
  ["On the date of promulgation","Six months after promulgation","One year after promulgation","On a date separately set by order"],

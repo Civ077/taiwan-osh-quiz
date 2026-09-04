@@ -27,7 +27,7 @@ Q = [
  ["At least one; when a dedicated unit is required or the responsible person doubles as Class B personnel; 15 days","At least two; when a dedicated unit is required or the responsible person doubles as Class A personnel; 30 days","At least three; when the premises is designated a regulated source by the competent authority; 7 days","None required; only for newly established premises with no operating permit yet; 60 days"],
  "Articles 7–8 and 12."),
 
-(AP,"第9條",3,"空污專責-離職異動",
+(AP,"第9條、第10條",3,"空污專責-離職異動",
  "空污專責人員離職或異動時，公私場所應於事實發生後幾日內報請備查？代理期間不得超過多久？非因離職而未能執行業務經核准得延長至多久？",
  ["十五日；三個月；六個月","三十日；一個月；三個月","七日；六個月；一年","六十日；一年；二年"],"a",
  "第9條：離職或異動應由代理人代理並於事實發生後十五日內書面報請備查；代理期間不得超過三個月，期滿前十五日內應完成同一類別級別以上合格專責人員核定設置；專責人員應於離職異動日起三十日內書面報備；異動指調離原廠址或擔任非專責人員職務。第10條：非因離職異動而未能執行業務由代理人代理，連續達十五日以上者十五日內報備；代理不得超過三個月，經核准得延長至六個月。第11條：修正施行前已設置者六個月內完成代理人設置。",

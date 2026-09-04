@@ -320,7 +320,7 @@ Q = [
  ["第七條、第十二條至第十五條、第二十二條、第二十四條、第二十五條、第三十七條、第三十八條及第四十三條第一項至第三項第五項第七項至第九項規定","第一條至第五條、第二十八條至第三十一條、第四十六條至第五十條及第五十四條至第五十七條等有關立法目的定義主管機關基金及附則之規定","第八條至第十一條、第十六條至第二十一條、第二十六條、第二十七條及第三十二條至第三十六條等有關防治措施管制措施及刑罰之規定","第六條、第十七條、第十八條、第二十三條、第三十九條至第四十二條及第五十一條至第五十二條等有關定期檢測管制行為及行政罰之規定"],"a",
  "第53條：第7條、第12條至第15條、第22條、第24條、第25條、第37條、第38條及第43條第1項至第3項、第5項、第7項至第9項規定，於本法施行前已發生土壤或地下水污染之污染行為人、潛在污染責任人、控制公司或持股超過半數以上之股東，適用之。此係就已發生之污染狀態課予調查、控制、整治及費用負擔責任之明文依據。",
  "Which provisions also apply to pollution that occurred before the Act took effect?",
- ["Article 7, Articles 12 to 15, Articles 22, 24, 25, 37, 38, and Article 43 paragraphs 1 to 3, 5 and 7 to 9","Articles 1 to 5, Articles 28 to 31, Articles 46 to 50 and Articles 54 to 57 on purpose, definitions, authorities, the fund and supplementary matters","Articles 8 to 11, Articles 16 to 21, Articles 26 and 27 and Articles 32 to 36 on prevention, control measures and criminal penalties","Article 6, Articles 17, 18, 23, Articles 39 to 42 and Articles 51 and 52 on periodic testing, controlled acts and administrative fines"],
+ ["Article 7, Articles 12 to 15, Articles 22, 24, 25, 37, 38, and Article 43 paragraphs 1 to 3, 5 and 7 to 9","Articles 1 to 5, 28 to 31, 46 to 50 and 54 to 57 on purpose, definitions, authorities, the fund and supplementary matters","Articles 8 to 11, 16 to 21, 26 and 27 and 32 to 36 on prevention, control measures and criminal penalties","Article 6, Articles 17, 18, 23, 39 to 42, 51 and 52 on periodic testing, controlled acts and administrative fines"],
  "Article 53."),
 
 (SG,"第54條",3,"土污法-公民訴訟",
@@ -341,10 +341,10 @@ Q = [
 
 (SG,"第56條",1,"土污法-施行細則",
  "本法施行細則由何機關定之？",
- ["由中央主管機關定之","由行政院會同考試院定之","由直轄市縣市政府分別定之","由立法院審議通過後公布定之"],"a",
+ ["由中央主管機關定之","由行政院會同考試院定之","由地方政府分別定之","由立法院審議後定之"],"a",
  "第56條：本法施行細則，由中央主管機關定之。本法多數授權辦法亦由中央主管機關訂定，例如第6條之監測及管制標準、第9條之評估調查辦法、第10條之檢測機構管理辦法、第12條之初步評估辦法、第14條之處理等級評定辦法及第24條之健康風險評估辦法等。",
  "Who prescribes the enforcement rules of this Act?",
- ["The central competent authority","The Executive Yuan with the Examination Yuan","Municipal and county governments separately","The Legislative Yuan after committee review"],
+ ["The central competent authority","The Executive and Examination Yuans","Local governments separately","The Legislative Yuan after review"],
  "Article 56."),
 
 (SG,"第57條",2,"土污法-施行日",

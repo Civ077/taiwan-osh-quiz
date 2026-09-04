@@ -235,10 +235,10 @@ Q = [
 
 ("ENV-218","第9條",1,"環境用藥-施行日期",
  "環境用藥分裝調配及委託製造作業準則之施行日期為何？",
- ["自發布日施行，未另訂特定之施行日期","自中華民國九十五年七月二十一日起施行","自發布後六個月施行，並得溯及既往適用","自中華民國一百年十一月十五日起施行"],"a",
- "第9條：本準則自發布日施行；本準則修正日期為民國95年7月21日，但施行日仍以發布日為準。",
+ ["自發布日施行，未另訂特定之施行日期","自中央主管機關公告指定之日起施行","自發布後六個月施行，並得溯及既往適用","自公布後一年施行，另由行政院核定"],"a",
+ "第9條：本準則自發布日施行，未另定特定施行日期，亦未授權中央主管機關另行公告施行日。",
  "When do the repackaging and contract manufacture regulations take effect?",
- ["On the date of promulgation, with no separate effective date set","On July 21 of the Republic of China year 95 (2006) specifically","Six months after promulgation, with retroactive application","On November 15 of the Republic of China year 100 (2011)"],
+ ["On the date of promulgation, with no separate effective date set","On a date designated and announced by the central competent authority","Six months after promulgation, with retroactive application","One year after publication, subject to Executive Yuan approval"],
  "Article 9."),
 
 # ===== ENV-220 環境用藥販賣業及病媒防治業許可執照申請核發作業準則 =====
@@ -365,10 +365,10 @@ Q = [
 
 ("ENV-220","第12條",1,"環境用藥-施行日期",
  "環境用藥販賣業及病媒防治業許可執照申請核發作業準則之施行日期為何？",
- ["自發布日施行，未另訂特定之施行日期","自中華民國一百十三年三月十一日施行","自發布後三個月施行，並溯及既往適用","自中華民國一百零九年一月十六日施行"],"a",
- "第12條：本準則自發布日施行。本準則最近修正日期為民國113年3月11日，但施行日仍依發布日認定。",
+ ["自發布日施行，未另訂特定之施行日期","自中央主管機關公告指定之日起施行","自發布後三個月施行，並溯及既往適用","自公布後一年施行，另由行政院核定"],"a",
+ "第12條：本準則自發布日施行，未另定特定施行日期，亦未授權中央主管機關另行公告施行日或報請行政院核定。",
  "When do these licence regulations take effect?",
- ["On the date of promulgation, with no separate effective date set","On March 11 of the Republic of China year 113 (2024)","Three months after promulgation, applying retroactively","On January 16 of the Republic of China year 109 (2020)"],
+ ["On the date of promulgation, with no separate effective date set","On a date designated and announced by the central competent authority","Three months after promulgation, applying retroactively","One year after publication, subject to Executive Yuan approval"],
  "Article 12."),
 
 ]

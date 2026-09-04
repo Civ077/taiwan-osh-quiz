@@ -59,7 +59,7 @@ Q = [
  ["Appoint personnel to carry out the maintenance plan; they must meet central qualifications and hold a training certificate","Appoint personnel with no qualification required, merely posting their name and contact details at the entrance","Commission a testing organisation instead, with no dedicated person and no maintenance plan required","Have the municipal or county authority station personnel at the site, with training costs borne by the site"],
  "Article 9; penalties under Article 17."),
 
-(IA,"第9條",2,"室內空品-計畫與人員",
+(IA,"第8條、第9條",2,"室內空品-計畫與人員",
  "公告場所之室內使用變更致影響其室內空氣品質時，維護管理計畫應如何處理？其執行由何人負責？",
  ["該計畫內容應立即檢討修正；由所置之室內空氣品質維護管理專責人員依計畫執行管理維護","該計畫應於次年度定期檢討時一併修正；由委託之檢驗測定機構負責依計畫執行管理維護","該計畫應報請主管機關核准後始得修正；由直轄市、縣（市）主管機關派員執行管理維護","該計畫毋須修正仍依原內容執行；由公告場所之建築物管理委員會負責執行管理與維護"],"a",
  "第8條：公告場所所有人、管理人或使用人應訂定室內空氣品質維護管理計畫據以執行，室內使用變更致影響室內空氣品質時，該計畫內容應立即檢討修正。第9條第一項：應置室內空氣品質維護管理專責人員，依該計畫執行管理維護。違反者依第17條經命限期改善屆期未改善處一萬元以上五萬元以下罰鍰，並再命限期改善。",
@@ -201,7 +201,7 @@ Q = [
  ["依噪音管制法第三十六條規定訂定","依噪音管制法第十五條第三項規定訂定","依噪音管制法第十一條第一項規定訂定","依噪音管制法第九條第二項規定訂定"],"a",
  "第1條：本細則依噪音管制法（以下簡稱本法）第三十六條規定訂定之。噪音管制法第十五條第三項為環境音量標準之授權依據，第十一條第一項為機動車輛、民用航空器噪音管制標準之授權依據，第九條第二項則為噪音管制標準之授權依據，授權對象均不相同。",
  "The Enforcement Rules of the Noise Control Act are enacted under:",
- ["Article 36 of the Noise Control Act","Article 15, Paragraph 3 of the Noise Control Act","Article 11, Paragraph 1 of the Noise Control Act","Article 9, Paragraph 2 of the Noise Control Act"],
+ ["Article 36 of the Noise Control Act","Article 15(3) of the Noise Control Act","Article 11(1) of the Noise Control Act","Article 9(2) of the Noise Control Act"],
  "Article 1."),
 
 (NR,"第2條",2,"噪音細則-管制標準",

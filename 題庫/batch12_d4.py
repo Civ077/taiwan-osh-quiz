@@ -336,7 +336,7 @@ Q = [
 
 (B,"第22條",1,"機車檢驗站-施行日",
  "機車排放空氣污染物檢驗站設置及管理辦法之施行日期為何？",
- ["本辦法自發布日施行","本辦法自發布後六個月施行","本辦法自一百十三年四月一日施行","本辦法自次年一月一日開始施行"],"a",
+ ["本辦法自發布日起施行","本辦法自發布後六個月施行","本辦法自一百十三年四月一日施行","本辦法自次年一月一日開始施行"],"a",
  "第22條：本辦法自發布日施行。本辦法最近一次修正日期為民國一百十三年四月十七日；第11條所定一百十三年四月一日則為每輛新臺幣一百元檢驗費用補助之起算日。",
  "When do these Regulations take effect?",
  ["They take effect on the date of promulgation","They take effect six months after promulgation","They take effect on April 1, 2024 in all cases","They take effect on January 1 of the next year"],

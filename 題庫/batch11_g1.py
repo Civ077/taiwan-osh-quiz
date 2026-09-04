@@ -24,7 +24,7 @@ Q = [
  ["Ministry of Labor centrally; municipal governments; county or city governments","Ministry of the Interior centrally; municipal governments; county or city governments","Ministry of Labor centrally; labor inspection agencies; county or city governments","The Executive Yuan centrally; municipal labor bureaus; township or city offices"],
  "Article 4 designates the Ministry of Labor and local governments."),
 
-("OSH-48","第5條",1,"勞基法-強制勞動",
+("OSH-48","第5條、第75條",1,"勞基法-強制勞動",
  "勞動基準法對雇主強制勞工從事勞動之禁止規定為何？違反者之刑責為何？",
  ["不得以強暴、脅迫、拘禁或其他非法方法強制勞動；處五年以下有期徒刑、拘役或科或併科七十五萬元以下罰金","不得以強暴、脅迫、拘禁或其他非法方法強制勞動；處三年以下有期徒刑、拘役或科或併科四十五萬元以下罰金","不得以扣薪、調職或其他不利處分強制勞動；處五年以下有期徒刑、拘役或科或併科一百萬元以下罰金","不得以強暴、脅迫或其他非法方法強制勞動；僅處新臺幣二萬元以上三十萬元以下罰鍰並公布名稱"],"a",
  "第5條：雇主不得以強暴、脅迫、拘禁或其他非法之方法，強制勞工從事勞動。違反者依第75條處五年以下有期徒刑、拘役或科或併科新臺幣七十五萬元以下罰金，為本法罰則章中最重之刑罰。",
@@ -32,7 +32,7 @@ Q = [
  ["No violence, threat, confinement or other unlawful means; up to 5 years imprisonment or a fine up to NT$750,000","No violence, threat, confinement or other unlawful means; up to 3 years imprisonment or a fine up to NT$450,000","No pay deduction, transfer or other adverse action; up to 5 years imprisonment or a fine up to NT$1,000,000","No violence, threat or other unlawful means; only an administrative fine of NT$20,000 to NT$300,000 with publication"],
  "Article 5 with Article 75: up to five years imprisonment or a NT$750,000 fine."),
 
-("OSH-48","第6條",1,"勞基法-中間剝削",
+("OSH-48","第6條、第76條",1,"勞基法-中間剝削",
  "關於他人之勞動契約，勞動基準法設有何種禁止規定？違反者如何處罰？",
  ["任何人不得介入他人勞動契約抽取不法利益；處三年以下有期徒刑、拘役或科或併科四十五萬元以下罰金","任何人不得介入他人勞動契約抽取不法利益；處五年以下有期徒刑、拘役或科或併科七十五萬元以下罰金","僅雇主不得介入他人勞動契約抽取不法利益；處六個月以下有期徒刑、拘役或科三十萬元以下罰金","任何人不得介入他人勞動契約抽取合理報酬；處新臺幣九萬元以上四十五萬元以下之罰鍰"],"a",
  "第6條：任何人不得介入他人之勞動契約，抽取不法利益，禁止對象不限於雇主。違反者依第76條處三年以下有期徒刑、拘役或科或併科新臺幣四十五萬元以下罰金。",
@@ -40,7 +40,7 @@ Q = [
  ["No person may intervene to extract unlawful profit; up to 3 years imprisonment or a fine up to NT$450,000","No person may intervene to extract unlawful profit; up to 5 years imprisonment or a fine up to NT$750,000","Only employers may not intervene to extract unlawful profit; up to 6 months imprisonment or NT$300,000 fine","No person may intervene to take reasonable remuneration; an administrative fine of NT$90,000 to NT$450,000"],
  "Article 6 with Article 76: up to three years imprisonment or NT$450,000."),
 
-("OSH-48","第7條",2,"勞基法-勞工名卡",
+("OSH-48","第7條、第79條",2,"勞基法-勞工名卡",
  "雇主置備之勞工名卡應保管至何時？未依規定置備勞工名卡之罰鍰為何？",
  ["應保管至勞工離職後五年；處新臺幣二萬元以上三十萬元以下罰鍰","應保管至勞工離職後三年；處新臺幣二萬元以上三十萬元以下罰鍰","應保管至勞工離職後十年；處新臺幣九萬元以上四十五萬元以下罰鍰","應保管至勞工離職當年年度終了；處新臺幣三萬元以上十五萬元以下罰鍰"],"a",
  "第7條：雇主應置備勞工名卡，登記姓名、性別、出生年月日、到職年月日、工資、獎懲、傷病等必要事項，並保管至勞工離職後五年。違反者依第79條第3項處新臺幣二萬元以上三十萬元以下罰鍰。",
@@ -128,7 +128,7 @@ Q = [
  ["Termination under Article 12 or 15, and leaving at the expiry of a fixed-term contract","Termination without notice under Article 14, and layoff by the employer under Article 11","Termination by the worker under Article 15-1, and termination by the employer under Article 13 proviso","Compulsory retirement by age, and non-retention after a reorganization or transfer"],
  "Article 18: Article 12 or 15 terminations and expiry of fixed-term contracts."),
 
-("OSH-48","第19條",1,"勞基法-服務證明書",
+("OSH-48","第19條、第79條",1,"勞基法-服務證明書",
  "勞動契約終止時，勞工請求發給服務證明書，雇主可否拒絕？違反者如何處罰？",
  ["雇主或其代理人不得拒絕；違反者處新臺幣二萬元以上三十萬元以下罰鍰","雇主得視勞工離職原因決定是否核發；違反者處新臺幣三萬元以上十五萬元以下罰鍰","雇主僅於勞工非自願離職時始有核發義務；違反者處新臺幣九萬元以上罰鍰","雇主得要求勞工負擔工本費後核發；拒絕核發者僅由主管機關限期改善"],"a",
  "第19條：勞動契約終止時，勞工如請求發給服務證明書，雇主或其代理人不得拒絕，不以離職原因為區別。違反者依第79條第3項處新臺幣二萬元以上三十萬元以下罰鍰，並依第80條之1公布事業單位名稱及負責人姓名。",
@@ -176,7 +176,7 @@ Q = [
  ["No differential treatment by sex; equal wages for the same work with the same efficiency","Wage structures may vary by sex if the gap is under 10 percent and is filed with the authority","Equal pay is required only within the same job grade; other grades are not covered","Seniority is the sole pay criterion; the same work is paid equally regardless of efficiency"],
  "Article 25: no sex-based wage discrimination; equal work and efficiency, equal pay."),
 
-("OSH-48","第26條",1,"勞基法-預扣工資",
+("OSH-48","第26條、第78條",1,"勞基法-預扣工資",
  "雇主可否預扣勞工工資作為違約金或賠償費用？違反者之罰鍰為何？",
  ["不得預扣工資作為違約金或賠償費用；處新臺幣九萬元以上四十五萬元以下罰鍰","不得預扣工資作為違約金或賠償費用；處新臺幣二萬元以上三十萬元以下罰鍰","得於勞動契約中約定預扣，但每月扣減不得逾工資三分之一並應報備查","得於勞工同意後預扣，惟應於離職時一次結清並加計法定利息返還之"],"a",
  "第26條：雇主不得預扣勞工工資作為違約金或賠償費用，所謂預扣係指於違約或損害事實未發生前即先扣減工資。違反者依第78條第2項處新臺幣九萬元以上四十五萬元以下罰鍰。第22條第2項並要求工資應全額直接給付勞工。",
@@ -184,7 +184,7 @@ Q = [
  ["No advance deduction as penalty or compensation; fine of NT$90,000 to NT$450,000","No advance deduction as penalty or compensation; fine of NT$20,000 to NT$300,000","It may be agreed in the contract if under one third of monthly wages and filed","It is allowed with consent, settled on separation with statutory interest added"],
  "Article 26 with Article 78(2): prohibited, fine NT$90,000 to NT$450,000."),
 
-("OSH-48","第27條",1,"勞基法-限期給付",
+("OSH-48","第27條、第79條",1,"勞基法-限期給付",
  "雇主不按期給付工資者，主管機關得採取何種處置？",
  ["主管機關得限期令其給付；違反該命令者並處二萬元以上一百萬元以下罰鍰","主管機關應逕行移送法院強制執行；並得同時停止其營業登記至改善為止","主管機關得逕由積欠工資墊償基金代為墊付；並向雇主追償一倍之違約金","主管機關僅得通知勞資雙方進行協調；協調不成立者始得處以行政罰鍰"],"a",
  "第27條：雇主不按期給付工資者，主管機關得限期令其給付。違反主管機關依本條所為限期給付工資之命令者，依第79條第1項第2款處新臺幣二萬元以上一百萬元以下罰鍰，並得依第80條之1公布名稱、限期改善及按次處罰。",
@@ -264,7 +264,7 @@ Q = [
  ["The annual paid leave under Article 38; wages for those days must be paid at double rate","The national holidays under Article 37; wages for those days are simply paid as usual","The regular days off and rest days under Article 36; wages get an extra one third","All regular days off, holidays and annual leave; wage rates are set by the authority"],
  "Article 41: annual leave may be suspended, with double wages."),
 
-("OSH-48","第42條",1,"勞基法-加班拒絕",
+("OSH-48","第42條、第77條",1,"勞基法-加班拒絕",
  "勞工因健康或其他正當理由不能接受正常工作時間以外之工作者，雇主應如何處理？違反者刑責為何？",
  ["雇主不得強制其工作；違反者處六個月以下有期徒刑、拘役或科或併科三十萬元以下罰金","雇主不得強制其工作；違反者僅處新臺幣二萬元以上三十萬元以下之行政罰鍰","雇主得要求其提出醫師證明後決定；違反者處新臺幣九萬元以上四十五萬元以下罰鍰","雇主得經工會同意後仍要求其加班；違反者處三年以下有期徒刑或併科罰金"],"a",
  "第42條：勞工因健康或其他正當理由，不能接受正常工作時間以外之工作者，雇主不得強制其工作。違反者依第77條處六個月以下有期徒刑、拘役或科或併科新臺幣三十萬元以下罰金。第49條第3項對女工夜間工作亦有類似不得強制之規定。",
@@ -288,7 +288,7 @@ Q = [
  ["Prohibited, unless they finished junior high or the authority approves the work as harmless to health","Prohibited, unless the legal representative consents in writing and commercial insurance is bought","Allowed, provided daily hours stay under four, no work on days off, and the authority is notified","Prohibited, unless the union agrees and the work rules state it, for apprenticeship-type work"],
  "Article 45: barred unless junior high graduate or approved by the authority."),
 
-("OSH-48","第46條",1,"勞基法-童工",
+("OSH-48","第46條、第79條",1,"勞基法-童工",
  "未滿十八歲之人受僱從事工作者，雇主應置備何種文件？未置備者如何處罰？",
  ["應置備其法定代理人同意書及年齡證明文件；處新臺幣二萬元以上三十萬元以下罰鍰","應置備其法定代理人同意書及健康檢查紀錄；處新臺幣九萬元以上四十五萬元以下罰鍰","應置備其學歷證明及主管機關許可函；處六個月以下有期徒刑或科三十萬元以下罰金","應置備其年齡證明文件及工會同意書；處新臺幣三萬元以上十五萬元以下之罰鍰"],"a",
  "第46條：未滿十八歲之人受僱從事工作者，雇主應置備其法定代理人同意書及其年齡證明文件。違反者依第79條第3項處新臺幣二萬元以上三十萬元以下罰鍰。第44條並規定童工及十六歲以上未滿十八歲之人不得從事危險性或有害性之工作。",
@@ -312,7 +312,7 @@ Q = [
  ["From 8 p.m. to 6 a.m. the next morning","From 10 p.m. to 6 a.m. the next morning","From 11 p.m. to 7 a.m. the next morning","From 6 p.m. to 8 a.m. the next morning"],
  "Article 48: child workers may not work from 8 p.m. to 6 a.m."),
 
-("OSH-48","第51條",2,"勞基法-妊娠改調",
+("OSH-48","第51條、第78條",2,"勞基法-妊娠改調",
  "女工在妊娠期間如有較為輕易之工作而申請改調，雇主應如何處理？",
  ["雇主不得拒絕，並不得減少其工資；違反者處九萬元以上四十五萬元以下罰鍰","雇主得視人力配置決定是否改調，改調後並得按新職務標準調降其工資","雇主應於接獲申請後三十日內改調，改調期間工資得減半發給並事後補足","雇主僅於妊娠三個月以上者不得拒絕，並得依改調後工作內容重新議定工資"],"a",
  "第51條：女工在妊娠期間，如有較為輕易之工作，得申請改調，雇主不得拒絕，並不得減少其工資。違反者依第78條第2項處新臺幣九萬元以上四十五萬元以下罰鍰。第50條並定有產假八星期及妊娠三個月以上流產產假四星期之規定。",

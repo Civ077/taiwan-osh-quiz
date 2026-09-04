@@ -27,7 +27,7 @@ Q = [
  ["Column A lists dust operations, column B specified dust sources, column C work requiring respirators","Column A lists specified dust sources, column B dust operations, column C work requiring enclosures","Column A lists work requiring respirators, column B dust operations, column C specified dust sources","Column A lists underground dust work, column B indoor dust work, column C outdoor specified work"],
  "Appendix 1 columns A, B and C, applied by Articles 2, 6 and 23."),
 
-(DU,"第4條",1,"粉塵標準-條文刪除",
+(DU,"第2條、第3條、第4條",1,"粉塵標準-條文刪除",
  "粉塵危害預防標準第四條之現行狀態為何？粉塵作業之適用範圍現如何界定？",
  ["第四條業經刪除；粉塵作業之適用範圍依第二條及第三條，以附表一甲欄所列作業之有關事業為準","第四條仍有效施行；粉塵作業之適用範圍依該條規定，以勞工人數三十人以上之事業單位為準","第四條業經刪除；粉塵作業之適用範圍改依附表二所列氣罩型式及第七條規定之作業處所為準","第四條仍有效施行；粉塵作業之適用範圍依該條規定，以坑內及隧道等特定場所之作業為準"],"a",
  "第4條已刪除。現行粉塵作業之適用範圍係由第2條（適用於附表一甲欄所列粉塵作業之有關事業）及第3條之定義規定界定。第8條同屬已刪除之條文，氣罩型式改依第7條及第9條規範。",
@@ -59,7 +59,7 @@ Q = [
  ["For the specified dust sources listed in Appendix 2, hoods other than the types listed in that table","For the specified dust sources listed in Appendix 2, enclosing hoods of the types listed in that table","For the dust operations in column B of Appendix 1, receiving hoods covering the dispersion direction","For the dust operations in column C of Appendix 1, exterior hoods fully enclosing the rotating body"],
  "Article 7 requires hoods other than those listed in Appendix 2."),
 
-(DU,"第8條",1,"粉塵標準-條文刪除",
+(DU,"第7條、第8條、第9條",1,"粉塵標準-條文刪除",
  "粉塵危害預防標準第八條之現行狀態為何？局部排氣裝置氣罩型式現由何條規範？",
  ["第八條業經刪除；氣罩型式現分別依第七條之附表二規定及第九條回轉機械氣罩之三種方式辦理","第八條仍有效施行；氣罩型式現依該條規定，一律應採用可完全包圍發生源之包圍型氣罩辦理","第八條業經刪除；氣罩型式現一律依第十五條規定，採用外裝型氣罩並儘量接近粉塵發生源","第八條仍有效施行；氣罩型式現依該條規定，得由雇主視作業性質自行選定並報檢查機構備查"],"a",
  "第8條已刪除，與第4條同。現行氣罩型式之規定分見於第7條（就附表二所列特定粉塵發生源，設置同表所列型式以外之氣罩）及第9條（磨床、鼓式砂磨機等回轉機械之三種氣罩方式）。第15條第1款另要求氣罩宜設於每一粉塵發生源，外裝型氣罩應儘量接近發生源。",
@@ -115,7 +115,7 @@ Q = [
  ["When the work is temporary, or when work at the same specified dust source is brief or short-term","When the work is at night, or when fewer than five workers engage at the same specified dust source","When the work is outdoors, or when dust concentration at the same source is below the permissible limit","When the work is maintenance, or when a work supervisor has been appointed for the same dust source"],
  "Article 12, subparagraphs 1 and 2."),
 
-(DU,"第12條",3,"粉塵標準-用詞定義",
+(DU,"第3條、第12條",3,"粉塵標準-用詞定義",
  "適用前述免除規定時，臨時性作業、作業時間短暫及作業期間短暫之判斷標準各為何？",
  ["臨時性作業指期間不超過三個月且一年內不再重覆；時間短暫指每日不超過一小時；期間短暫指不超過一個月且六個月內不再實施","臨時性作業指期間不超過一個月且半年內不再重覆；時間短暫指每日不超過三小時；期間短暫指不超過三個月且一年內不再實施","臨時性作業指期間不超過六個月且三年內不再重覆；時間短暫指每日不超過二小時；期間短暫指不超過二個月且一年內不再實施","臨時性作業指期間不超過一年且五年內不再重覆；時間短暫指每班不超過四小時；期間短暫指不超過六個月且三年內不再實施"],"a",
  "第3條第8款至第10款定義：臨時性作業指正常作業以外之作業，其作業期間不超過三個月且一年內不再重覆；作業時間短暫指同一特定粉塵發生源之特定粉塵作業每日作業不超過一小時；作業期間短暫指作業期間不超過一個月，且確知自該作業終了日起六個月以內不再實施該作業。第12條即據此判斷。",

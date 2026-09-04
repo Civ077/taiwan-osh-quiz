@@ -1,0 +1,12 @@
+batch11_n2	36
+batch12_a1	48
+batch12_a2	50
+batch12_a3	46
+batch12_a4	44
+batch12_b1	45
+batch12_b2	43
+batch12_b3	42
+batch12_b4	40
+batch12_c1	46
+batch12_c2	42
+batch12_c3	50

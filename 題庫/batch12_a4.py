@@ -122,7 +122,7 @@ Q = [
 
 (K,"第8條",1,"半導體空污-施行",
  "半導體製造業空氣污染管制及排放標準之施行日期為何？",
- ["自發布日施行","自發布後六個月施行","自發布後十八個月施行","另定施行日期並公告之"],"a",
+ ["本標準自發布日起施行","本標準自發布後六個月施行","本標準自發布後十八個月施行","本標準另定施行日期公告之"],"a",
  "第8條：本標準自發布日施行。既存製程之緩衝則另依第7條規定，以核定改善期限方式處理，改善期限不得逾十八個月。",
  "When does the semiconductor industry standard take effect?",
  ["On the date of promulgation","Six months after promulgation","Eighteen months after promulgation","On a separately announced date"],
@@ -356,7 +356,7 @@ Q = [
 
 (M,"第11條",1,"汽車塗裝-施行",
  "汽車製造業表面塗裝作業空氣污染物排放標準之施行日期為何？",
- ["自發布日施行","自發布後六個月施行","自發布後一年施行","另定施行日期並公告之"],"a",
+ ["本標準自發布日起施行","本標準自發布後六個月施行","本標準自發布後一年施行","本標準另定施行日期公告之"],"a",
  "第11條：本標準自發布日施行。屬形式規定，無緩衝期間，發布當日即生效力。",
  "When does the automobile surface coating emission standard take effect?",
  ["On the date of promulgation","Six months after promulgation","One year after promulgation","On a separately announced date"],

@@ -361,9 +361,9 @@ Q = [
 
 (B,"第18條",1,"應變諮詢機構-施行日期",
  "毒性及關注化學物質環境事故專業應變諮詢機關（構）認證及管理辦法之施行日期為何？",
- ["本辦法自發布日施行，並未另定延後生效之日期或過渡適用期間","本辦法自中華民國一百零九年三月三日起施行並回溯適用一年","本辦法自中華民國一百十年七月一日施行，與應變人員辦法同日","本辦法自發布後六個月施行，既有機構得於施行後一年內補正"],"a",
+ ["本辦法自發布日施行，並未另定延後生效之日期或過渡適用期間","本辦法自中華民國一百十一年九月一日起施行並回溯適用一年","本辦法自中華民國一百十年七月一日施行，與應變人員辦法同日","本辦法自發布後六個月施行，既有機構得於施行後一年內補正"],"a",
  "第18條：本辦法自發布日施行。相對之下，毒性及關注化學物質專業應變人員管理辦法第25條係定自中華民國一百十年七月一日施行，二者施行方式不同。",
  "When did these accreditation Regulations take effect?",
- ["They take effect on the day of promulgation, with no deferred date or transitional period set","They take effect on 3 March 2020 and apply retroactively for one year before that date","They take effect on 1 July 2021, the same day as the responder qualification regulations","They take effect six months after promulgation, existing bodies having one year to comply"],
+ ["They take effect on the day of promulgation, with no deferred date or transitional period set","They take effect on 1 September 2022 and apply retroactively for one year before that date","They take effect on 1 July 2021, the same day as the responder qualification regulations","They take effect six months after promulgation, existing bodies having one year to comply"],
  "Article 18."),
 ]

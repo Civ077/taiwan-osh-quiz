@@ -42,7 +42,7 @@ Q = [
  ["Planning and executing municipal EIA work, and training and managing municipal EIA personnel","Formulating nationwide EIA policies and plans, and handling international EIA cooperation","Planning and executing county-level EIA work, and carrying out county EIA public outreach","Issuing the industry development permit, and displaying environmental impact statements"],
  "Article 4 lists ten municipal-level powers."),
 
-(EIAR,"第5條",3,"環評細則-縣市權限",
+(EIAR,"第4條、第5條",3,"環評細則-縣市權限",
  "本細則所定縣（市）主管機關之權限，與直轄市主管機關相較，下列敘述何者正確？",
  ["縣（市）權限共八款，未列環評專業人員訓練及管理；直轄市則為十款並含該事項","縣（市）權限共十款，並列有環評專業人員訓練及管理；直轄市則為八款不含該事項","縣（市）與直轄市權限款數相同均為十款，內容亦完全一致並含國際合作事項","縣（市）權限共八款，其中並列有全國性環評政策計畫之研訂及國際合作事項"],"a",
  "第5條列舉縣（市）主管機關八款權限：規劃執行、相關規章訂定審核及釋示、依第12條第1項分工之書件審查、審查通過或管轄權移轉案件之監督、資料蒐集建立交流、研究發展、宣導及其他。第4條之直轄市權限則為十款，另含專業人員訓練及管理與監督輔導事項。",
@@ -163,7 +163,7 @@ Q = [
  "Article 13, paragraph 1."),
 
 (EIAR,"第13條",3,"環評細則-公布期限",
- "前開應公布於指定網站之書件內容、開會資訊、會議紀錄及審查結論，其公布期限分別為何？",
+ "環境影響說明書或評估書初稿內容、開會資訊、會議紀錄及審查結論公布於指定網站，其公布期限分別為何？",
  ["書件內容及開會資訊於會議舉行七日前公布；會議紀錄於會後三十日內；審查結論於公告後七日內","書件內容及開會資訊於會議舉行三日前公布；會議紀錄於會後十四日內；審查結論於公告後十日內","書件內容及開會資訊於會議舉行十日前公布；會議紀錄於會後十五日內；審查結論於公告後三日內","書件內容及開會資訊於會議舉行十四日前公布；會議紀錄於會後六十日內；審查結論於公告當日"],"a",
  "第13條第2項：環境影響說明書或評估書初稿內容及開會資訊，應於會議舉行七日前公布；會議紀錄應於會後三十日內公布；審查結論應於公告後七日內公布。第22條之1對範疇界定資料另定至少十四日之公布期間及會議七日前之公布義務。",
  "What are the publication deadlines for the documents, meeting information, minutes and conclusion?",

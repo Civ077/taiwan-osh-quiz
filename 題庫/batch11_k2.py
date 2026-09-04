@@ -235,7 +235,7 @@ Q = [
  ["A safety data sheet; whole-mixture test results if tested, otherwise CNS15030 mixture classification","A safety data sheet; component estimates if tested, otherwise a concentration-weighted calculation","A hazard communication plan; test results if tested, otherwise the supplier's own supplied data","A hazardous chemical inventory; CNS15030 mixture classification whether or not it was tested"],
  "Article 13, paragraphs 1 and 2."),
 
-(C,"第16條",2,"危害通識規則-條文沿革",
+(C,"第15條、第16條",2,"危害通識規則-條文沿革",
  "關於安全資料表之更新及本規則現行條文，下列敘述何者正確？",
  ["第十六條已刪除；安全資料表應適時更新並至少每三年檢討一次，更新紀錄應保存三年","第十六條仍為現行條文；安全資料表應至少每五年檢討一次，其更新紀錄應保存五年","第十六條已刪除；安全資料表僅於危害成分變更時始須更新，且無保存更新紀錄義務","第十六條已刪除；安全資料表之檢討更新改依毒性及關注化學物質管理法規定辦理之"],"a",
  "本規則第16條已刪除。安全資料表之檢討更新依第15條規定：製造者、輸入者、供應者或雇主應依實際狀況檢討其內容正確性、適時更新，並至少每三年檢討一次；更新之內容、日期、版次等紀錄應保存三年。",
@@ -276,7 +276,7 @@ Q = [
  ["Same as the entity's own workers; if they withhold data and consent, items 5 to 7 still apply","Same as the entity's own workers; if they withhold data and consent, the duty falls away entirely","No equal treatment is needed; their original employer or dispatching entity bears the whole duty","Same as the entity's own workers, but only for those engaged in specially hazardous work"],
  "Article 10, paragraphs 1 and 2."),
 
-(D,"第18條",3,"勞工健康保護規則-健康檢查",
+(D,"第18條、第20條",3,"勞工健康保護規則-健康檢查",
  "雇主對在職勞工有從事長期夜間工作之情形者，應實施何種健康檢查？該檢查紀錄保存年限為何？",
  ["應於當年度依附表十一實施長期夜間工作健康檢查，該檢查紀錄至少保存七年","應於當年度依附表十所定項目實施特殊健康檢查，該檢查紀錄至少保存十年","應於次年度依附表九所定項目實施一般健康檢查，該檢查紀錄至少保存三年","應每三年依附表十一實施長期夜間工作健康檢查，該檢查紀錄至少保存五年"],"a",
  "第18條：雇主對在職勞工有從事長期夜間工作之情形者，應於當年度依附表十一所定項目實施長期夜間工作健康檢查。第2條第4款定長期夜間工作指前一年度午後十時至翌晨六時工作三小時以上達當月工作日數二分之一且累計六個月以上，或該時段工作時數累計達七百小時以上。第20條定附表十一紀錄至少保存七年。",
@@ -309,7 +309,7 @@ Q = [
  ["Article 31, paragraph 3 of the Occupational Safety and Health Act","Article 30, paragraph 4 of the Occupational Safety and Health Act","Article 29, paragraph 2 of the Occupational Safety and Health Act","Article 15, paragraph 5 of the Act of Gender Equality in Employment"],
  "Article 1 cites Article 31-3 of the Act."),
 
-(E,"第4條",3,"母性健康保護-鉛作業",
+(E,"第4條、第10條",3,"母性健康保護-鉛作業",
  "具有鉛作業之事業中，雇主使女性勞工從事何種工作應實施母性健康保護？其風險等級如何區分？",
  ["從事鉛及其化合物散布場所之工作者；依血中鉛濃度五及十μg/dl為界區分三級管理","從事鉛及其化合物散布場所之工作者；依血中鉛濃度十及二十μg/dl為界區分三級管理","僅妊娠中女性勞工從事鉛作業者；依作業場所空氣中鉛濃度是否超過容許標準區分","從事任何金屬粉塵作業之女性勞工；依尿中鉛濃度五及十μg/dl為界區分三級管理"],"a",
  "第4條：具有鉛作業之事業中，雇主使女性勞工從事鉛及其化合物散布場所之工作者，應實施母性健康保護。第10條並定風險分級：血中鉛濃度低於五μg/dl者為第一級管理，五以上未達十μg/dl者為第二級，十μg/dl以上者為第三級，但經醫師評估須調整者不在此限。",

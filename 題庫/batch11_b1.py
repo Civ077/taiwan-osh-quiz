@@ -18,7 +18,7 @@ Q = [
  ["Compressed hydrogen, compressed natural gas, liquid oxygen, ammonia, chlorine and LPG","Compressed oxygen, compressed acetylene, liquid hydrogen, nitrogen, ammonia and LNG","Compressed air, compressed nitrogen, liquid chlorine, argon, helium and LPG","Compressed methane, compressed helium, liquid oxygen, neon, chlorine and propane"],
  "Article 3 lists the six specified high-pressure gases."),
 
-(HG,"第5條",1,"高壓氣體-定義",
+(HG,"第4條、第5條",1,"高壓氣體-定義",
  "本規則所稱原料氣體，係指下列何者？",
  ["規則所定之可燃性氣體及氧氣二者","規則所定之毒性氣體及氮氣二者","規則所定之特定高壓氣體及空氣","規則所定之壓縮氣體及惰性氣體"],"a",
  "第5條：原料氣體係指第4條規定之可燃性氣體及氧氣。第4條列舉丙烯腈、乙炔、氨、一氧化碳、氫、丁烷、丙烷、硫化氫等及其他爆炸下限在百分之十以下或爆炸上下限差在百分之二十以上之氣體為可燃性氣體。",

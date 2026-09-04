@@ -303,7 +303,7 @@ Q = [
  ["由中央主管機關定之","由各級主管機關分別定之","由行政院主計總處統一定之","由目的事業主管機關會商定之"],"a",
  "第56條：各級主管機關依本法應收取之規費標準，由中央主管機關定之。第57條並規定環境用藥標準檢驗方法有國家標準者依國家標準，未訂國家標準者由中央主管機關公告之；第59條規定本法施行細則由中央主管機關定之。",
  "Who prescribes the fee standards collectible under this Act?",
- ["The central competent authority","Each level of competent authority separately","The Directorate-General of Budget uniformly","The industry authority after consultation"],
+ ["The central competent authority","Each competent authority separately","The Directorate-General of Budget","The industry authority in consultation"],
  "Articles 56, 57 and 59."),
 
 (EA,"第57條",1,"環境用藥-檢驗方法",
@@ -333,15 +333,15 @@ Q = [
  ["由中央主管機關定之","由行政院會同立法院定之","由直轄市、縣（市）主管機關定之","由目的事業主管機關會同定之"],"a",
  "第59條：本法施行細則，由中央主管機關定之。第56條並規定各級主管機關依本法應收取之規費標準由中央主管機關定之；第60條規定本法自公布日施行。本法所稱中央主管機關依第2條規定為行政院環境保護署。",
  "Who prescribes the enforcement rules of this Act?",
- ["The central competent authority","The Executive Yuan jointly with the Legislative Yuan","The special municipality, county or city competent authority","The industry authority jointly with others"],
+ ["The central competent authority","The Executive and Legislative Yuans","The municipal or county authority","The industry authority jointly"],
  "Articles 56, 59 and 60."),
 
 (EA,"第60條",1,"環境用藥-施行日期",
  "環境用藥管理法之施行日期規定為何？",
- ["自公布日施行","自公布日後六個月施行","自公布日後一年施行","自公布後次年一月一日施行"],"a",
+ ["自公布日施行","自公布後六個月施行","自公布後一年施行","自次年起施行"],"a",
  "第60條：本法自公布日施行。本法共分六章，第一章總則、第二章登記、第三章管理、第四章查驗及取締、第五章罰則、第六章附則，其中第45條業經刪除，第59條並授權中央主管機關訂定本法施行細則。",
  "When does this Act take effect?",
- ["On the date of promulgation","Six months after promulgation","One year after promulgation","On 1 January of the following year"],
+ ["On the date of promulgation","Six months after promulgation","One year after promulgation","From the following year"],
  "Article 60."),
 # ---END---
 ]

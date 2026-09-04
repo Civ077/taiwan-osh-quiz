@@ -19,7 +19,7 @@ Q = [
   "The article exempts sanitary landfills from installing groundwater monitoring wells, with monitoring under Article 30"],
  "Article 33 has been deleted; stabilized ash in sanitary landfill is governed by Article 31."),
 
-("ENV-57", "第36條", 2, "一般廢棄物-刪除條文",
+("ENV-57", "第36條、第36條之1", 2, "一般廢棄物-刪除條文",
  "《一般廢棄物回收清除處理辦法》第36條之現行條文內容為何？",
  ["該條已刪除而無實質規定；回收處理業設施未符規定之改善期限，現依第三十六條之一辦理",
   "該條規定回收處理業之設施應於三年內完成改善；其改善期限並得申請展延一年為限",
@@ -47,7 +47,7 @@ Q = [
   "The article exempts terminating institutions from declaring operating records, a matter governed by Article 12"],
  "Article 15 has been deleted; the transitional rule is in Article 14."),
 
-("ENV-95", "第26條", 2, "公害糾紛-刪除條文",
+("ENV-95", "第25條、第26條", 2, "公害糾紛-刪除條文",
  "《公害糾紛處理法施行細則》第26條之現行條文內容為何？",
  ["該條已刪除而無實質規定；調處不成立之通知期限，現依第二十五條規定於七日內作成送達",
   "該條規定調處不成立者應於三十日內作成通知；其送達方式並依第九條規定辦理即可",
@@ -61,7 +61,7 @@ Q = [
   "The article defines the court of jurisdiction as that of the committee's seat, a matter set by Article 27"],
  "Article 26 has been deleted; the seven-day notice of failed mediation is in Article 25."),
 
-("ENV-95", "第34條", 2, "公害糾紛-刪除條文",
+("ENV-95", "第34條、第35條", 2, "公害糾紛-刪除條文",
  "《公害糾紛處理法施行細則》第34條之現行條文內容為何？",
  ["該條已刪除而無實質規定；裁決費用之分擔，現依第三十五條得申請兩造比例分擔或相對人負擔",
   "該條規定裁決費用一律由申請人自行負擔；其繳納方式並依第十三條第六款規定辦理",
@@ -75,7 +75,7 @@ Q = [
   "The article governs the filing of public nuisance complaint records, with reporting set out in Article 36"],
  "Article 34 has been deleted; apportionment of ruling fees is in Article 35."),
 
-("ENV-97", "第24條之1", 2, "檢測機構-刪除條文",
+("ENV-97", "第24條、第24條之1", 2, "檢測機構-刪除條文",
  "《環境檢驗測定機構管理辦法》第24條之1之現行條文內容為何？",
  ["該條已刪除而無實質規定；應依各該環保法律罰則處罰之情形，現依第二十四條所列十款辦理",
   "該條規定檢測機構違規之停業期間及復業程序；其復業之審查依第十三條規定辦理之",

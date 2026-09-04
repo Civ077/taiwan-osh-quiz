@@ -61,7 +61,7 @@ Q = [
   "At least 15 cm of sandy soil compacted at the end of each working week; at least 50 cm of impermeable material upon termination of use"],
  "Article 30, paragraph 1, subparagraphs 2 and 4 require 15 cm daily cover and 50 cm final cover."),
 
-("ENV-57", "第32條之1", 2, "一般廢棄物-封場復育",
+("ENV-57", "第32條之1、第32條之2", 2, "一般廢棄物-封場復育",
  "掩埋場封場復育計畫應何時提出？封場後環境監測至少應執行幾年？",
  ["封場前六個月提出封場復育計畫報中央主管機關備查；封場後環境監測至少執行七年",
   "封場前三個月提出封場復育計畫報直轄市主管機關核准；封場後環境監測至少執行三年",
@@ -499,7 +499,7 @@ Q = [
   "Submit an operation plan to the township or city office of its location for recordation and copy it to the central competent authority"],
  "Article 5 requires an approved industrial waste clearance plan reviewed by the local authority or a commissioned agency."),
 
-("ENV-61", "第9條", 2, "共通性再利用-紀錄申報",
+("ENV-61", "第9條、第10條", 2, "共通性再利用-紀錄申報",
  "事業與再利用機構之再利用紀錄應保存幾年？再利用機構應於何時申報營運紀錄？",
  ["事業及再利用機構之紀錄應保存三年；再利用機構應於每月十日前連線申報前月營運紀錄",
   "事業及再利用機構之紀錄應保存一年；再利用機構應於每月月底前連線申報當月營運紀錄",

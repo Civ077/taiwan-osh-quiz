@@ -36,7 +36,7 @@ Q = [
  "第4條第1項：事業盤查排放量應以排放係數法、質量平衡法、直接監測法或其他經中央主管機關認可之方法計算，以公噸二氧化碳當量（公噸 CO2e）表示，並四捨五入至小數點後第三位。碳費收費辦法第5條之收費排放量亦取至小數點後第三位。",
  "How must an enterprise calculate, express and round its emissions?",
  ["By emission factor, mass balance, direct monitoring or an approved method, in tonnes CO2e rounded to three decimal places","By either emission factor or mass balance only, in tonnes CO2e rounded to one decimal place with the rest truncated","By direct monitoring in principle, in kilograms CO2e rounded up to a whole number before uploading to the platform","By a single method designated centrally, in tonnes of methane equivalent rounded to two decimal places"],
- "Article 4-1: four methods, tonnes CO2e, three decimal places."),
+ "Article 4, Paragraph 1: four methods, tonnes CO2e, three decimal places."),
 
 (A,"第4條",3,"盤查辦法-直接監測法",
  "事業以直接監測法計算排放量者，應踐行何種程序？",
@@ -44,7 +44,7 @@ Q = [
  "第4條第5項：以直接監測法計算排放量，事業應提出排放量監（檢）測計畫書送經中央主管機關核定後實施；計畫書內容應包含監（檢）測方法與原理、連續監測設施之規格、設置位置、監（檢）測結果與其數據處理及品質保證作業、結果之記錄方式及保存等事項。",
  "What procedure applies when an enterprise uses the direct monitoring method?",
  ["It must submit a monitoring plan for central approval before implementation, stating methods, principles and QA work","It may monitor directly and merely attach the specifications and locations of the facilities in the annual report","It must file the plan with the local authority and send raw monitoring data to that authority every quarter","It may implement after obtaining a reasonable assurance statement and simply filing it with the central authority"],
- "Article 4-5 requires central approval of a monitoring plan."),
+ "Article 4, Paragraph 5 requires central approval of a monitoring plan."),
 
 (A,"第5條",2,"盤查辦法-檢測機構",
  "執行燃料熱值及原（物）料與燃料碳含量之檢測，應由何種機構依何種方法為之？",
@@ -173,7 +173,7 @@ Q = [
  "第4條第1項：事業應於碳費徵收費率公告生效次年起，每年五月底前，依其前一年度一月一日至十二月三十一日之排放量，按公告費率自行計算費額，填具碳費申報書及繳款單，繳納至指定金融機構代收專戶後，以網路傳輸方式向中央主管機關申報。",
  "By when and on what basis must an enterprise calculate and pay the carbon fee?",
  ["By the end of May each year from the year after the rate takes effect, based on the prior year from January 1 to December 31","By April 30 each year from the year the rate takes effect, based on that year's emissions from January 1 to June 30","By October 31 each year from the year after the rate takes effect, based on the average of the previous two years","By the end of December each year from the year the rate takes effect, based on July to June emissions"],
- "Article 4-1 sets the end of May and the prior calendar year."),
+ "Article 4, Paragraph 1 sets the end of May and the prior calendar year."),
 
 (B,"第4條",2,"碳費辦法-第一年計算",
  "碳費於第一年未滿一年者，其應繳納費額應如何計算？",
@@ -329,7 +329,7 @@ Q = [
 
 (B,"第23條",1,"碳費辦法-施行日",
  "碳費收費辦法之施行日期規定為何？",
- ["本辦法自發布日施行","本辦法自發布後六個月施行","本辦法自一百十四年一月一日施行","本辦法自發布後一年之次日施行"],"a",
+ ["本辦法自發布日起施行","本辦法自發布後六個月施行","本辦法自一百十四年元旦施行","本辦法自發布後一年之次日施行"],"a",
  "第23條：本辦法自發布日施行，其修正日期為民國一百十三年八月二十九日。相對地，溫室氣體排放量盤查登錄及查驗管理辦法第17條則規定自中華民國一百十三年一月一日施行。",
  "When do the Carbon Fee Collection Regulations take effect?",
  ["On the date of promulgation","Six months after promulgation","On January 1, 2025","The day after one year from promulgation"],

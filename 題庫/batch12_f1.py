@@ -125,7 +125,7 @@ Q = [
 
 (A,"第11條",1,"按次處罰準則-施行日",
  "違反水污染防治法按次處罰通知限期改善或補正執行準則之施行日期為何？",
- ["自發布日施行","自發布後三個月施行","自發布後六個月施行","自發布後滿一年施行"],"a",
+ ["本準則自發布日起施行","本準則自發布後三個月施行","本準則自發布後六個月施行","本準則自發布後滿一年施行"],"a",
  "第11條：本準則自發布日施行。本準則現行條文修正日期為民國104年8月24日，配合104年2月4日修正公布之水污染防治法按次處罰制度而訂定。第1條並定明其授權依據為本法第五十七條。",
  "When do these Enforcement Rules take effect?",
  ["They take effect on the date of promulgation","They take effect three months after promulgation","They take effect six months after promulgation","They take effect one full year after promulgation"],
@@ -222,7 +222,7 @@ Q = [
 
 (B,"第8條",1,"水污裁罰準則-施行日",
  "違反水污染防治法罰鍰額度裁罰準則之施行日期為何？",
- ["自發布日施行","自發布後三個月施行","自發布後六個月施行","自發布後滿一年施行"],"a",
+ ["本準則自發布日起施行","本準則自發布後三個月施行","本準則自發布後六個月施行","本準則自發布後滿一年施行"],"a",
  "第8條：本準則自發布日施行。本準則最近一次修正日期為民國113年11月7日。第1條並定明其授權依據為水污染防治法第六十六條之一。",
  "When do these Fine Assessment Regulations take effect?",
  ["They take effect on the date of promulgation","They take effect three months after promulgation","They take effect six months after promulgation","They take effect one full year after promulgation"],
@@ -311,7 +311,7 @@ Q = [
 
 (C,"第9條",1,"飲用水按日處罰-施行日",
  "違反飲用水管理條例按日連續處罰執行準則之施行日期為何？",
- ["自發布日施行","自發布後三個月施行","自發布後六個月施行","自發布後滿一年施行"],"a",
+ ["本準則自發布日起施行","本準則自發布後三個月施行","本準則自發布後六個月施行","本準則自發布後滿一年施行"],"a",
  "第9條：本準則自發布日施行。本準則修正日期為民國95年8月7日，其授權依據為飲用水管理條例第二十四條之三。",
  "When do these Rules take effect?",
  ["They take effect on the date of promulgation","They take effect three months after promulgation","They take effect six months after promulgation","They take effect one full year after promulgation"],
@@ -360,7 +360,7 @@ Q = [
 
 (D,"第5條",1,"專責人員裁罰-施行日",
  "廢（污）水處理專責人員違反水污染防治法罰鍰額度裁罰準則之施行日期為何？",
- ["自發布日施行","自發布後三個月施行","自發布後六個月施行","自發布後滿一年施行"],"a",
+ ["本準則自發布日起施行","本準則自發布後三個月施行","本準則自發布後六個月施行","本準則自發布後滿一年施行"],"a",
  "第5條：本準則自發布日施行。本準則修正日期為民國105年5月19日，其授權依據為水污染防治法第六十六條之一，附表則列明各違規情事對應之罰鍰額度。",
  "When do these Regulations take effect?",
  ["They take effect on the date of promulgation","They take effect three months after promulgation","They take effect six months after promulgation","They take effect one full year after promulgation"],

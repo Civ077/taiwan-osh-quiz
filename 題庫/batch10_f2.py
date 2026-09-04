@@ -52,7 +52,7 @@ Q = [
  ["Order the ship to berth in an ROC port, forbid it to sail or depart or require it to shift berth, and restrict the departure of the shipowner and key crew; the same applies on re-entry, unless adequate security is provided","Seize and auction the ship directly and apply the proceeds to the damages and costs, and restrict the departure of the shipowner and key crew; once the ship has departed, no further restrictive measure may ever be taken","Order the ship to leave ROC territorial waters at once and bar its return, notifying the flag state to enforce this; even where adequate security is later provided, the bar on re-entry may not be lifted","Apply to the court for provisional attachment of the ship and detain the master within the ROC; restricting the departure of the shipowner and key crew requires prior approval by the Executive Yuan"],
  "Article 38, paragraphs 1 and 2; Article 34."),
 
-(OP,"第38條",2,"海污法-補足擔保",
+(OP,"第38條、第49條",2,"海污法-補足擔保",
  "外國籍船舶所提供之擔保金額不足以支付應變費用及損害賠償時，應如何處理？違者如何處罰？",
  ["船舶所有人應於主管機關通知之期限內補足擔保；未於期限內補足者，處新臺幣六十萬元以上三千萬元以下罰鍰，並得限期令其補足，屆期未補足者得按次處罰","船舶所有人得就不足部分免除責任；主管機關僅得就已提供之擔保受償，不得再命補足，亦不得對船舶所有人處以任何罰鍰或其他行政處分","船舶所有人應於主管機關通知之期限內補足擔保；未於期限內補足者，處新臺幣三萬元以上三十萬元以下罰鍰，並移送司法機關依刑法追訴其刑事責任","船舶所有人應於六個月內補足擔保；未於期限內補足者，主管機關應逕行沒入該船舶並辦理拍賣，所得價金不足部分不再向船舶所有人追償"],"a",
  "第38條第3項：依第1項但書規定提供之擔保金額，不足以支付各有關機關採取應變措施、清除與處理所生費用及損害賠償金額時，船舶所有人應於主管機關通知之期限內補足擔保。第49條：違反第38條第3項規定未於通知期限內補足擔保者，處新臺幣六十萬元以上三千萬元以下罰鍰，並得限期令其補足，屆期未補足者得按次處罰。",
@@ -384,10 +384,10 @@ Q = [
 
 (OP,"第68條",1,"海污法-施行細則",
  "本法施行細則之訂定機關為何？",
- ["由中央主管機關定之","由行政院會商中央主管機關定之","由中央主管機關報請立法院審議","由各直轄市、縣（市）主管機關定之"],"a",
+ ["由中央主管機關定之","由行政院會商定之","經立法院審議後定之","由地方主管機關定之"],"a",
  "第68條：本法施行細則，由中央主管機關定之。依第3條第1項，本法之中央主管機關為海洋委員會。本法另授權中央主管機關訂定之辦法甚多，例如第11條第2項海洋污染防治費徵收辦法、第16條第3項污染清除處理辦法及第62條第2項裁罰準則等。",
  "Which authority prescribes the enforcement rules of this Act?",
- ["The central competent authority","The Executive Yuan with the central authority","The central authority, subject to legislative review","Each municipal and county competent authority"],
+ ["The central competent authority","The Executive Yuan after consultation","Subject to Legislative Yuan review","Each local competent authority"],
  "Article 68; Article 3."),
 
 (OP,"第69條",2,"海污法-施行日期",

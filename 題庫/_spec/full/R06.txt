@@ -1,0 +1,11 @@
+batch11_g3	47
+batch11_g4	45
+batch11_j1	49
+batch11_j2	48
+batch11_k1	47
+batch11_k2	46
+batch11_l1	48
+batch11_l2	47
+batch11_m1	45
+batch11_m2	45
+batch11_n1	44

@@ -153,7 +153,7 @@ Q = [
 
 (P,"第17條",2,"自行清除許可-取得時點",
  "依本辦法應申請許可之事業，其取得許可文件之時點規定為何？",
- ["應於指定公告應置專業技術人員實施日前取得許可文件；於實施日後新設或變更者，應於設置、變更或操作前依規定申請許可文件","應於指定公告應置專業技術人員實施日後六個月內取得許可文件；於實施日後新設或變更者，應於設置變更後三十日內補行申請","應於首次清除或處理事業廢棄物之日起三十日內取得許可文件；於實施日後新設或變更者，得於次年度定期申報時併同辦理","應於取得工廠登記證之同時取得許可文件；於實施日後新設或變更者，得先行operate並於六個月內補行申請許可文件辦理"],"a",
+ ["應於指定公告應置專業技術人員實施日前取得許可文件；於實施日後新設或變更者，應於設置、變更或操作前依規定申請許可文件","應於指定公告應置專業技術人員實施日後六個月內取得許可文件；於實施日後新設或變更者，應於設置變更後三十日內補行申請","應於首次清除或處理事業廢棄物之日起三十日內取得許可文件；於實施日後新設或變更者，得於次年度定期申報時併同辦理","應於取得工廠登記證之同時取得許可文件；於實施日後新設或變更者，得先行操作運轉並於六個月內補行申請許可文件辦理"],"a",
  "第17條：依本辦法應申請許可之事業，應於指定公告應置專業技術人員實施日前，取得自行清除或處理許可文件；依本辦法應申請許可之事業，於指定公告應置專業技術人員實施日後新設或變更者，應於設置、變更或操作前，依規定申請自行清除或處理許可文件。",
  "When must an enterprise required to hold a permit actually obtain it?",
  ["Before the effective date of the notice designating technicians; if newly built or altered after that date, before installation, alteration or operation begins","Within six months after the effective date of the designating notice; if newly built or altered after that date, within thirty days after the works are done","Within thirty days after first clearing or treating industrial waste; if newly built or altered after that date, together with the next annual periodic report","At the same time as obtaining factory registration; if newly built or altered after that date, operations may begin with the permit filed within six months"],
@@ -161,7 +161,7 @@ Q = [
 
 (P,"第18條",1,"自行清除許可-施行日",
  "事業自行清除處理事業廢棄物許可管理辦法之施行日期為何？",
- ["自發布日施行","自發布後三個月施行","自發布後六個月施行","自發布後滿一年施行"],"a",
+ ["本辦法自發布日起施行","本辦法自發布後三個月施行","本辦法自發布後六個月施行","本辦法自發布後滿一年施行"],"a",
  "第18條：本辦法自發布日施行。本辦法修正日期為民國110年9月3日，授權依據為廢棄物清理法第二十八條第二項；第11條並定明許可期限為五年及展延應於屆滿前三至五個月內申請。",
  "When do these Self-Clearance Permit Regulations take effect?",
  ["They take effect on the date of promulgation","They take effect three months after promulgation","They take effect six months after promulgation","They take effect one full year after promulgation"],
@@ -306,7 +306,7 @@ Q = [
 
 (V,"第14條",3,"餘裕容量許可-營運紀錄",
  "提供餘裕處理容量之事業，其營運紀錄之作成、申報及保存年限規定為何？",
- ["應將每日廢棄物產出收受貯存清除處理再利用情形逐項作成營運紀錄隨處理設施存放；除公告應網路傳輸者外應於每年一四七十月十五日前向主管機關申報前季營運紀錄；一般及一般事業廢棄物部分保存五年，有害事業廢棄物部分保存七年","應將每月廢棄物產出收受及處理情形彙總作成營運紀錄並存放於公司總部；應於每年一月底前向主管機關申報前一年度營運紀錄；一般廢棄物及一般事業廢棄物部分保存三年，有害事業廢棄物部分保存五年而無須跨區申報","應將每批次廢棄物之進廠時間車號及重量作成營運紀錄並隨車攜帶；應於每次處理完成後三日內向主管機關申報該批次紀錄；所有廢棄物之營運紀錄一律保存一年，屆期得逕行銷毀而免報請核發機關同意","應將每週廢棄物收受及處理情形作成營運紀錄並函送核發機關；應於每年六月及十二月底前向中央主管機關申報半年營運紀錄；一般廢棄物部分保存十年，有害事業廢棄物部分則應永久保存備查"],"a",
+ ["應將每日廢棄物產出收受貯存清除處理再利用情形逐項作成營運紀錄隨處理設施存放；除公告應網路傳輸者外應於每年一、四、七、十月十五日前向主管機關申報前季營運紀錄；一般及一般事業廢棄物部分保存五年，有害事業廢棄物部分保存七年","應將每月廢棄物產出收受及處理情形彙總作成營運紀錄並存放於公司總部；應於每年一月底前向主管機關申報前一年度營運紀錄；一般廢棄物及一般事業廢棄物部分保存三年，有害事業廢棄物部分保存五年而無須跨區申報","應將每批次廢棄物之進廠時間車號及重量作成營運紀錄並隨車攜帶；應於每次處理完成後三日內向主管機關申報該批次紀錄；所有廢棄物之營運紀錄一律保存一年，屆期得逕行銷毀而免報請核發機關同意","應將每週廢棄物收受及處理情形作成營運紀錄並函送核發機關；應於每年六月及十二月底前向中央主管機關申報半年營運紀錄；一般廢棄物部分保存十年，有害事業廢棄物部分則應永久保存備查"],"a",
  "第14條：提供處理設施餘裕處理容量之事業，應將每日廢棄物產出、收受、貯存、清除、處理、再利用情形及其他經中央主管機關指定之事項逐項作成營運紀錄，隨其處理設施存放以供查核；除經指定公告應以網路傳輸方式申報或地方另有規定外，應以書面方式於每年一月、四月、七月及十月十五日前向直轄市、縣（市）主管機關申報前季營運紀錄，跨區營運者應同時向跨區主管機關申報；一般廢棄物及一般事業廢棄物處理業務之營運紀錄應自行保存五年，有害事業廢棄物部分應自行保存七年。",
  "How must operating records be made, reported and kept by an enterprise offering spare capacity?",
  ["Daily records of output, receipt, storage, clearance, treatment and reuse kept with the facility; quarterly filing by the fifteenth of January, April, July and October; kept five years, and seven years for hazardous waste","Monthly summary records kept at company headquarters; annual filing by the end of January for the prior year; kept three years, and five years for hazardous waste, with no cross-region filing required at all","Per batch records of arrival time, plate number and weight carried on the vehicle; filing within three days after each batch is treated; all operating records kept one year and then destroyed without approval","Weekly records of receipt and treatment sent to the issuing authority; half yearly filing to the central authority by the end of June and December; general waste records kept ten years and hazardous records kept forever"],
@@ -346,7 +346,7 @@ Q = [
 
 (V,"第18條",1,"餘裕容量許可-施行日",
  "事業廢棄物處理設施餘裕處理容量許可管理辦法之施行日期為何？",
- ["自發布日施行","自發布後三個月施行","自發布後六個月施行","自發布後滿一年施行"],"a",
+ ["本辦法自發布日起施行","本辦法自發布後三個月施行","本辦法自發布後六個月施行","本辦法自發布後滿一年施行"],"a",
  "第18條：本辦法自發布日施行。本辦法修正日期為民國111年7月20日，授權依據為廢棄物清理法第二十九條第二項；第7條並定明許可餘裕處理容量不得大於設置處理容量百分之五十。",
  "When do these Spare Capacity Permit Regulations take effect?",
  ["They take effect on the date of promulgation","They take effect three months after promulgation","They take effect six months after promulgation","They take effect one full year after promulgation"],

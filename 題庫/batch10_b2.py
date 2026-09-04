@@ -186,7 +186,7 @@ Q = [
  ["The review conclusion loses its effect; conclusions announced before this amendment are subject to the same rule as well","The review conclusion stays valid for five years; conclusions announced before the amendment keep their original effect","The conclusion is suspended and may be reinstated on application; earlier conclusions need a fresh review to be used","The authority decides case by case whether it lapses; all conclusions announced before the amendment lapse at once"],
  "Article 16-2, paragraphs 1 and 2."),
 
-(EI,"第17條",1,"環評法-切實執行",
+(EI,"第17條、第23條",1,"環評法-切實執行",
  "開發單位對於環境影響說明書、評估書所載內容及審查結論，負有何種義務？違反時之罰則為何？",
  ["應依所載內容及審查結論切實執行；違反者處新臺幣三十萬元以上一百五十萬元以下罰鍰並限期改善","僅供參考而得視實際施工需要自行調整；違反者僅由主管機關予以書面告誡而不予裁處任何罰鍰","應於完工後一次檢討是否符合審查結論；違反者處新臺幣三千元以上三萬元以下罰鍰並得按次處罰","應於變更前報請目的事業主管機關核備；違反者由目的事業主管機關逕行廢止其開發許可並停工"],"a",
  "第17條：開發單位應依環境影響說明書、評估書所載之內容及審查結論，切實執行。第23條第1項第1款：違反第7條第3項、第16條之1或第17條規定者，處三十萬元以上一百五十萬元以下罰鍰並限期改善，屆期未改善得按日連續處罰。",

@@ -40,10 +40,10 @@ Q = [
 
 (QY,"第5條",2,"缺氧-設施",
  "從事缺氧危險作業時應適當換氣，保持氧氣濃度在百分之十八以上；實施換氣時不得使用何種氣體？",
- ["純氧","室外空氣","過濾空氣","壓縮空氣"],"a",
+ ["純氧氣體","室外空氣","過濾空氣","壓縮空氣"],"a",
  "第5條：應予適當換氣以保持氧氣濃度在百分之十八以上（防止爆炸、氧化或作業顯著困難者除外）；實施換氣時不得使用純氧。第9條惰性氣體熔接作業亦同。",
  "Ventilation must keep oxygen at 18% or above; which gas must NOT be used for ventilation?",
- ["Pure oxygen","Outdoor air","Filtered air","Compressed air"],
+ ["Pure oxygen gas","Outdoor air","Filtered air","Compressed air"],
  "Article 5: ventilate to keep oxygen at 18% or more (except where explosion, oxidation or work difficulty prevents it); pure oxygen must not be used. Article 9 applies the same to inert-gas welding."),
 
 (QY,"第6條",3,"缺氧-設施",
@@ -96,10 +96,10 @@ Q = [
 
 (QY,"第20條",2,"缺氧-管理",
  "雇主使勞工從事缺氧危險作業時，應於每一班次指定何人從事監督事項？",
- ["缺氧作業主管","職業安全衛生管理人員","現場值班工地主任","地方主管機關檢查員"],"a",
+ ["缺氧作業主管","職業安全衛生人員","值班工地主任","地方勞動檢查員"],"a",
  "第20條：應於每一班次指定缺氧作業主管，決定作業方法並指揮、辦理濃度確認、當班作業前確認換氣裝置測定儀器呼吸防護具安全帶等狀況、監督防護器具使用等。",
  "For each shift of oxygen-deficiency work, the employer shall designate:",
- ["An oxygen-deficiency work supervisor","An occupational safety and health officer","A construction site director on duty","A labor inspector from the local authority"],
+ ["An oxygen-deficiency work supervisor","An occupational safety and health officer","A site director on duty","A local labor inspector"],
  "Article 20: an oxygen-deficiency work supervisor per shift to decide methods, direct work, check concentrations, inspect ventilation, instruments, respirators and harnesses, and supervise PPE use."),
 
 (QY,"第21條",2,"缺氧-管理",
@@ -250,10 +250,10 @@ Q = [
 
 (GW,"第5條",3,"高溫-作息",
  "重工作之時量平均綜合溫度熱指數達攝氏 25.9 度時，其每小時作息比例為何？",
- ["連續作業","25%休息、75%作業","50%休息、50%作業","75%休息、25%作業"],"a",
+ ["0%休息、100%作業","25%休息、75%作業","50%休息、50%作業","75%休息、25%作業"],"a",
  "第5條表：重工作 25.9 為連續作業之上限值；27.9 為 25% 休息；30.0 為 50% 休息；32.1 為 75% 休息。",
  "For heavy work at a time-weighted WBGT of 25.9°C, the hourly work/rest ratio is:",
- ["Continuous work","25% rest / 75% work","50% rest / 50% work","75% rest / 25% work"],
+ ["0% rest / 100% work","25% rest / 75% work","50% rest / 50% work","75% rest / 25% work"],
  "Article 5 table: heavy work 25.9 = continuous work limit; 27.9 = 25% rest; 30.0 = 50% rest; 32.1 = 75% rest."),
 
 (GW,"第5條",3,"高溫-作息",

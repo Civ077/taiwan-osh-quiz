@@ -295,10 +295,10 @@ Q = [
 
 (B,"第11條",3,"室內空品細則-未切實執行",
  "本法第二十條第二項所稱未切實依改善計畫執行，包括下列何種情形？",
- ["未按月提報改善進度，或非因不可抗力因素未按核定進度執行且落後進度達三十日以上","未按季提報改善進度，或非因不可抗力因素未按核定進度執行且落後進度達七日以上","未按月提報改善進度，或因不可抗力因素致未按核定進度執行且落後進度達九十日以上","未於改善期限屆滿前完成改善，或改善經費支出未達原編列預算金額百分之八十以上"],"a",
+ ["未按月提報改善進度，或非因不可抗力因素未按核定進度執行且落後進度達三十日以上","未按季提報改善進度，或非因不可抗力因素未按核定進度執行且落後進度達七日以上","未按月提報經費支出明細，或因不可抗力因素致未按核定進度執行且落後進度達九十日以上","未於改善期限屆滿前完成改善，或改善經費支出未達原編列預算金額百分之八十以上"],"a",
  "第11條：未切實依改善計畫執行，指未依第10條第三項按月提報改善進度；非因不可抗力因素，未按主管機關核定之改善計畫進度執行且落後進度達三十日以上；未依核定之改善計畫內容執行；延長改善期間未採取改善計畫之防護措施而嚴重危害公眾健康；及其他經中央主管機關認定之情形。",
  "Which situation counts as failing to faithfully implement the improvement plan?",
- ["Failing to report progress monthly, or falling 30 days or more behind schedule without force majeure","Failing to report progress quarterly, or falling 7 days or more behind schedule without force majeure","Failing to report progress monthly, or falling 90 days or more behind schedule due to force majeure","Failing to complete improvement before the deadline, or spending under 80 percent of the budget"],
+ ["Failing to report progress monthly, or falling 30 days or more behind schedule without force majeure","Failing to report progress quarterly, or falling 7 days or more behind schedule without force majeure","Failing to report spending details monthly, or falling 90 days or more behind schedule due to force majeure","Failing to complete improvement before the deadline, or spending under 80 percent of the budget"],
  "Article 11(1)-(2): missed monthly reports and a 30-day schedule lag."),
 
 (B,"第11條",2,"室內空品細則-防護措施",

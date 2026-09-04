@@ -173,10 +173,10 @@ Q = [
 
 (W,"第57條",1,"水污法-改善期限準則",
  "本法所定屆期未補正或完成改善之按次處罰，其限期改善期限及查驗方式等事項之準則由何機關訂定？",
- ["由中央主管機關定之","由直轄市、縣（市）主管機關分別定之","由各目的事業主管機關會商後定之","由行政院報請立法院同意後定之"],"a",
+ ["由中央主管機關定之","由地方主管機關定之","由目的事業機關定之","由行政院會商後定之"],"a",
  "第57條：本法所定屆期仍未補正或完成改善之按次處罰，其限期改善或補正之期限、改善完成認定查驗方式、法令執行方式及其他應遵行事項之準則，由中央主管機關定之。第61條並定補正、改善或申報期間不得超過九十日。",
  "Who issues the criteria for improvement deadlines and verification methods for consecutive penalties?",
- ["The central competent authority","Each municipal and county authority separately","The industry authorities after joint consultation","The Executive Yuan with Legislative Yuan consent"],
+ ["The central competent authority","The local competent authority","The industry competent authority","The Executive Yuan after consultation"],
  "Article 57; see Article 61 on the ninety day cap."),
 
 (W,"第57條之1",3,"水污法-改善期間惡化",
@@ -189,10 +189,10 @@ Q = [
 
 (W,"第58條",2,"水污法-分別處罰",
  "同一事業設置數放流口，或數事業共同設置廢水處理設施或使用同一放流口，其排放未符標準時如何處罰？",
- ["應分別處罰","應合併為一次處罰","僅處罰設施之所有人","應由主管機關擇一處罰"],"a",
+ ["應分別處罰","應合併處罰","應減半處罰","應擇一處罰"],"a",
  "第58條：同一事業設置數放流口，或數事業共同設置廢水處理設施或使用同一放流口，其排放廢水未符合放流水標準或本法其他規定者，應分別處罰。此規定避免共用設施而規避處罰，與第42條（共同所有或共同使用且無管理人者應對共同所有人或使用人處罰）意旨相近。",
  "How are breaches penalised where one enterprise has several outlets or several enterprises share one outlet?",
- ["They are penalised separately","They are penalised as a single breach","Only the facility owner is penalised","The authority penalises only one of them"],
+ ["They are penalised separately","They are penalised as one","The penalty is halved","Only one of them is penalised"],
  "Article 58; compare Article 42."),
 
 (W,"第59條",3,"水污法-設施故障",
@@ -389,17 +389,17 @@ Q = [
 
 (W,"第74條",1,"水污法-施行細則",
  "水污染防治法施行細則由何機關訂定？",
- ["由中央主管機關定之","由行政院會商立法院定之","由各直轄市、縣（市）政府分別定之","由目的事業主管機關會商中央定之"],"a",
+ ["由中央主管機關定之","由行政院會商定之","由地方政府分別定之","由目的事業機關定之"],"a",
  "第74條：本法施行細則，由中央主管機關定之。本法多處授權中央主管機關訂定辦法或標準，例如第7條第2項放流水標準、第18條水污染防治措施管理辦法、第23條第2項檢驗測定機構管理辦法等。",
  "Who issues the Enforcement Rules of the Water Pollution Control Act?",
- ["The central competent authority","The Executive Yuan with the Legislative Yuan","Each municipal and county government separately","Industry authorities together with the central authority"],
+ ["The central competent authority","The Executive Yuan after consultation","Each local government separately","The industry competent authority"],
  "Article 74."),
 
 (W,"第75條",1,"水污法-施行日",
  "水污染防治法之施行日期規定為何？",
- ["自公布日施行","自公布後六個月施行","由行政院另定施行日期","自公布後一年施行"],"a",
+ ["自公布日施行","自公布後六個月施行","由行政院定之","自公布後一年施行"],"a",
  "第75條：本法自公布日施行。本法最近一次修正日期為民國107年6月13日。相對地，其授權訂定之放流水標準第9條則規定除另定施行日期者外，自發布日施行。",
  "When does the Water Pollution Control Act take effect?",
- ["From the date of promulgation","Six months after promulgation","On a date set by the Executive Yuan","One year after its promulgation"],
+ ["From the date of promulgation","Six months after promulgation","As set by the Executive Yuan","One year after its promulgation"],
  "Article 75."),
 ]

@@ -263,10 +263,7 @@ Q = [
   "應報請行政院核准後始得予以撲殺；該非臺灣地區原產動物由動植物防疫機關認定之"],"a",
  "第14條：逸失或生存於野外之非臺灣地區原產動物，如有影響國內動植物棲息環境之虞者，得由主管機關逕為必要之處置；該等非臺灣地區原產動物由中央主管機關認定之。第27條另規定首次輸入非臺灣地區原產物種須提出對國內動植物影響評估報告經核准。",
  "How are escaped or wild-living non-native animals handled when they may affect domestic habitats, and who identifies them?",
- ["The authority may take necessary action directly; such non-native animals are identified by the central authority",
-  "The landowner must capture them and hand them over for shelter; such non-native animals are identified by the local authority",
-  "Action requires a resolution of the conservation advisory committee; such non-native animals are identified by the industry authority",
-  "They may be culled only after Executive Yuan approval; such non-native animals are identified by the plant and animal quarantine agency"],
+ ["The authority may take necessary action directly; such non-native animals are identified by the central authority","The landowner must capture and shelter them; such non-native animals are identified by the local authority","Action needs a conservation advisory committee resolution; such non-native animals are identified by the industry authority","They may be culled only with Executive Yuan approval; such non-native animals are identified by the quarantine agency"],
  "Article 14."),
 
 (WL,"第15條",1,"野保法-無主動物",
@@ -507,7 +504,7 @@ Q = [
   "They may import or export freely without restriction once they clear customs and post a guarantee deposit"],
  "Article 25."),
 
-(WL,"第26條",2,"野保法-禁止輸出入公告",
+(WL,"第26條、第47條",2,"野保法-禁止輸出入公告",
  "為文化、衛生、生態保護或政策需要而禁止野生動物或其產製品輸出入時，應依何程序辦理？違反之罰則為何？",
  ["中央主管機關得洽請貿易主管機關依貿易法之規定公告禁止輸入或輸出；違反者處新臺幣二十萬元以上一百萬元以下罰鍰",
   "中央主管機關得逕依本法之規定公告禁止輸入或輸出而無須洽請他機關；違反者處新臺幣六萬元以上三十萬元以下罰鍰",

@@ -404,7 +404,7 @@ Q = [
   "一律不得適用本辦法，應改依事業廢棄物貯存清除處理標準辦理",
   "應強制適用本辦法之全部規定，不得以規模未達為由申請免除",
   "須經中央主管機關公告指定後，始得適用本辦法之部分規定"],"a",
- "第25條：未達第2條規模之回收業，得依其申請，適用本辦法之規定辦理登記及申報等相關事項，並受本辦法之規範。第2條並定回收業之適用規模為回收貯存廠（場）土地面積達一千平方公尺以上。",
+ "第25條：未達第2條規模之回收業，得依其申請，適用本辦法之規定辦理登記及申報等相關事項，並受本辦法之規範。第2條並定廢機動車輛回收業以外之其他回收業，以回收貯存廠（場）土地面積達一千平方公尺以上者為適用規模。",
  "May recovery operators below the Article 2 scale threshold apply these Regulations?",
  ["Yes, on their own application they may register and report under these Regulations and be governed by them",
   "No, they must instead follow the industrial waste storage, clearance and treatment facility standard",

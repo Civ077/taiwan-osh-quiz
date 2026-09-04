@@ -113,7 +113,7 @@ Q = [
  ["不得","得","加薪後得","經勞工同意即得"],"a",
  "第8條第2款：身體虛弱，經醫師診斷認為身體狀況不良者，雇主不得使其從事高架作業；第3款情緒不穩定有安全顧慮者、第4款勞工自覺不適者亦同。",
  "May an employer assign work at height to a worker a physician has diagnosed as physically unfit?",
- ["No","Yes","Yes, with extra pay","Yes, if the worker consents"],
+ ["Not permitted","Permitted","Permitted with extra pay","Permitted if the worker consents"],
  "Article 8(2): no; likewise for emotionally unstable workers with safety concerns and workers who feel unfit."),
 
 # ---------- 高溫 ----------

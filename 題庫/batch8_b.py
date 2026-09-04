@@ -24,10 +24,10 @@ Q = [
  ["訂定室內空氣品質維護管理計畫、置專責人員（經訓練取得合格證書）、委託檢驗測定機構定期檢測並公布及記錄、指定場所設自動監測設施即時公布","訂定室內空氣品質維護管理計畫、置專責人員（僅需具高中學歷）、自行以簡易儀器每年檢測一次並留存紀錄、指定場所設自動監測設施每年公布","訂定室內裝修施工計畫、置職業安全衛生管理員（經勞動部認可）、委託建築師定期檢查通風設施並公布、指定場所設消防偵煙設施即時公布","張貼禁菸標示及空氣品質告示牌、指定清潔人員（無須受訓）、每年委託空調廠商清洗風管一次並記錄、於場所入口設置溫濕度計"],"a",
  "第8條：應訂定室內空氣品質維護管理計畫據以執行，室內使用變更影響空品時應立即檢討修正。第9條：應置室內空氣品質維護管理專責人員，經訓練取得合格證書。第10條：應委託檢驗測定機構定期實施檢驗測定並定期公布結果作成紀錄；經指定之公告場所應設自動監測設施連續監測並即時公布於場所內或入口明顯處。第11條：檢驗測定機構應取得許可證。第12條：主管機關得派員現場檢查檢測查核紀錄，不得規避妨礙拒絕。",
  "Owners, managers or users of designated premises must:",
- ["Adopt an IAQ maintenance plan, appoint a certified dedicated person, commission periodic testing with published records, and install real-time monitors where designated","Adopt an IAQ maintenance plan, appoint a dedicated person needing only a high school diploma, self-test annually with simple instruments, and publish monitor data yearly where designated","Adopt an interior renovation plan, appoint an occupational safety manager certified by the labor ministry, have architects inspect ventilation, and install smoke detectors where designated","Post no-smoking and air quality signs, designate untrained cleaning staff, have an HVAC contractor clean the ducts once a year with records, and put a thermo-hygrometer at the entrance"],
+ ["Adopt an IAQ maintenance plan, appoint a certified dedicated person, commission periodic testing with published records, and install real-time monitors where designated","Adopt an IAQ maintenance plan, appoint a person with only a high school diploma, self-test annually with simple instruments, and publish monitor data yearly where designated","Adopt an interior renovation plan, appoint a safety manager certified by the labor ministry, have architects inspect ventilation, and install smoke detectors where designated","Post no-smoking and air quality signs, designate untrained cleaning staff, have a contractor clean the ducts once a year with records, and put a thermometer at the entrance"],
  "Articles 8–12."),
 
-(IA,"第15條",3,"室內空品-罰則",
+(IA,"第13條、第15條",3,"室內空品-罰則",
  "公告場所不符合室內空氣品質標準經限期改善屆期未改善者，處新臺幣多少罰鍰？紀錄虛偽記載者？改善期間應如何標示？",
  ["五萬元以上二十五萬元以下；十萬元以上五十萬元以下；於場所入口明顯處標示室內空氣品質不合格","一萬元以上五萬元以下；五萬元以上二十五萬元以下；於場所入口明顯處標示室內空氣品質不合格","十萬元以上五十萬元以下；一百萬元以上五百萬元以下；於主管機關網站公告該場所名稱及地址","五千元以上二萬五千元以下；一萬元以上五萬元以下；由現場稽查人員口頭告知場所負責人即可"],"a",
  "第13條：紀錄虛偽記載處十萬元以上五十萬元以下罰鍰。第14條：規避妨礙拒絕檢查者處十萬元以上五十萬元以下並得按次處罰。第15條：不符標準經限期改善屆期未改善處五萬元以上二十五萬元以下並再命限期改善，仍未改善按次處罰，情節重大得限制禁止使用或命停業；改善期間應於入口明顯處標示室內空氣品質不合格，未標示且繼續使用處五千元以上二萬五千元以下。第17條：未訂計畫或未置專責人員屆期未改善處一萬元以上五萬元以下。第18條：未定期檢測公布等屆期未改善處五千元以上二萬五千元以下。第20條：改善期間以九十日為限，得申請延長最長不超過六個月。第21條：情節重大指一年內二次處罰仍違反或嚴重惡化未採緊急應變致嚴重危害公眾健康之虞。",
@@ -44,7 +44,7 @@ Q = [
  ["1,000 ppm; 0.08 ppm; 35 μg/m³","500 ppm; 0.1 ppm; 15 μg/m³","2,000 ppm; 0.5 ppm; 50 μg/m³","800 ppm; 0.01 ppm; 25 μg/m³"],
  "Article 2 (also CO 9 ppm, TVOC 0.56 ppm, bacteria 1,500 CFU/m³, fungi 1,000 CFU/m³, PM10 75 μg/m³, ozone 0.06 ppm)."),
 
-(IS,"第3條",3,"室內空品標準-TVOC",
+(IS,"第2條、第3條",3,"室內空品標準-TVOC",
  "室內空氣品質標準之總揮發性有機化合物（TVOC）係採計幾種化合物之總和？真菌濃度室內外比值小於等於多少者不受真菌標準限制？",
  ["十二種；一‧三","六種；一","二十種；二","三種；一‧五"],"a",
  "第3條：一小時值指一小時內各測值算術平均或一小時累計採樣測值；八小時值、二十四小時值類推；最高值指依公告檢測方法採樣分析值；TVOC 採計苯、四氯化碳、氯仿、1,2-二氯苯、1,4-二氯苯、二氯甲烷、乙苯、苯乙烯、四氯乙烯、三氯乙烯、甲苯及二甲苯（對間鄰）十二種化合物濃度總和；真菌濃度室內外比值指室內真菌濃度除以室外真菌濃度，小於等於 1.3 者不受 1000 CFU/m³ 限制。",
@@ -61,7 +61,7 @@ Q = [
  ["4 or more; 30 m; twice per quarter","1 or more; 10 m; once per quarter","2 or more; 50 m; four times per quarter","8 or more; 100 m; once per year"],
  "Articles 2–3."),
 
-(NR,"第7條",3,"噪音細則-改善計畫",
+(NR,"第7條、第8條",3,"噪音細則-改善計畫",
  "陸上運輸系統噪音改善計畫，地方主管機關應於送達之日起幾日內完成審查核定？經核定無法於營運範圍內改善者，應於幾日內訂定噪音補助計畫？",
  ["六十日；一百八十日","三十日；九十日","九十日；三百六十五日","十日；三十日"],"a",
  "第6條：快速道路指高速公路及快速公路交通管制規則之快速公路及市區道路之快速道路；其他交通噪音指省道縣道主要次要道路等。第7條：改善計畫應包括執行機關、超標路段交通狀況及圖說、量測結果成因分析、防制措施及設施設計圖說、功能評估、期程、民眾意見、可行性分析；地方主管機關應於送達之日起六十日內完成審查核定，欠缺者三十日內通知限期補正，補正總日數不超過六十日。第8條：經核定無法於營運或管理範圍內改善者應自核定之日起一百八十日內訂定噪音補助計畫，補助建築物以既有合法建築物為限且以一次為限。第9至11條：民用及軍用機場航空噪音改善計畫內容。",

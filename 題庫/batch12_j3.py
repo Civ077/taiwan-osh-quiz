@@ -285,7 +285,7 @@ Q = [
 
 (L,"第34條",1,"查驗機構-外文文件",
  "本辦法所定之相關文件為外文者，應如何處理？",
- ["應檢附中文譯本","應經我國駐外館處驗證","應由查驗機構逐頁簽章確認","應經法院公證人辦理認證"],"a",
+ ["應檢附中文譯本","應經駐外館處驗證","應由查驗機構逐頁簽章","應經法院公證人認證"],"a",
  "第34條：本辦法所定之相關文件為外文者，應檢附中文譯本。第36條並定中央主管機關執行本辦法所取得之資料，涉及受查者之個人隱私、工商秘密、軍事秘密應予保密。",
  "How must documents in a foreign language be handled?",
  ["A Chinese translation must be attached","They must be authenticated by an overseas mission","Each page must be signed by the body","They must be notarized by a court notary"],
@@ -325,7 +325,7 @@ Q = [
 
 (L,"第38條",1,"查驗機構-施行日",
  "溫室氣體認證機構及查驗機構管理辦法之施行日期規定為何？",
- ["自發布日施行","自發布後六個月施行","自發布後一年施行","自一百十五年一月一日施行"],"a",
+ ["本辦法自發布日起施行","本辦法自發布後六個月施行","本辦法自發布後一年施行","本辦法自一百十五年元旦施行"],"a",
  "第38條：本辦法自發布日施行。第37條並定修正發布前已取得許可證者應於施行日起六個月內申請換發；第37條之1對產品碳足跡相關機構另定三個月及六個月之過渡期限。",
  "When do these Regulations take effect?",
  ["On the date of promulgation","Six months after promulgation","One year after promulgation","On 1 January 2026"],
@@ -373,15 +373,15 @@ Q = [
 
 (P,"第6條",2,"檢測裁罰-數行為",
  "數行為違反同一或不同管理辦法或機動車輛管理辦法規定者，應如何處罰？",
- ["應分別處罰之","應合併為一行為從重處罰","應僅就情節最重者處罰一次","應依行為次數平均計算後處罰"],"a",
+ ["應就各行為分別處罰之","應合併為一行為從重處罰","應僅就情節最重者處罰一次","應依行為次數平均計算後處罰"],"a",
  "第6條：數行為違反同一或不同管理辦法或機動車輛管理辦法規定者，應分別處罰之。第5條則規定一行為違反數個規定者，應先分別計算罰鍰額度再依最高者裁處。",
  "How are several acts breaching the same or different regulations penalized?",
- ["They are penalized separately","They merge into one act penalized severely","Only the most serious one is penalized once","The number of acts is averaged before penalty"],
+ ["Each act is penalized separately","They merge into one heavier penalty","Only the most serious one is penalized once","The number of acts is averaged before penalty"],
  "Article 6."),
 
 (P,"第7條",1,"檢測裁罰-施行日",
  "環境檢驗測定機構違反環保法規罰鍰額度裁罰準則之施行日期規定為何？",
- ["自發布日施行","自發布後三個月施行","自發布後六個月施行","自發布後一年施行"],"a",
+ ["本準則自發布日起施行","本準則自發布後三個月施行","本準則自發布後六個月施行","本準則自發布後一年施行"],"a",
  "第7條：本準則自發布日施行。本準則第1條所列授權依據包括空氣污染防制法第85條第2項等五部法律，第2條並定各類違規適用之附表裁罰計算公式。",
  "When do these Penalty Criteria take effect?",
  ["On the date of promulgation","Three months after promulgation","Six months after promulgation","One year after promulgation"],

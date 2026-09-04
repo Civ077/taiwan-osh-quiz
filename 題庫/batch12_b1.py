@@ -153,7 +153,7 @@ Q = [
 
 (A,"第16條",1,"汽油車檢驗站-施行",
  "本辦法之施行日期規定為何？",
- ["本辦法自發布日施行","本辦法自發布後六個月施行","本辦法自一百十五年一月一日施行","本辦法之施行日期由中央主管機關另定"],"a",
+ ["本辦法自發布日起施行","本辦法自發布後六個月施行","本辦法自一百十五年元旦施行","本辦法施行日期由中央另定"],"a",
  "第16條：本辦法自發布日施行。惟第15條就已取得委託檢驗合約書之檢驗站另設過渡條款，於一百十四年十二月三十一日前得繼續執行檢驗業務。",
  "When do these Rules take effect?",
  ["On the date of promulgation","Six months after promulgation","On 1 January 2026","On a date separately set by the central authority"],

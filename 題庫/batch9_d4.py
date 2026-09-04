@@ -17,7 +17,7 @@ Q = [
  ["環境影響評估法第二十六條","環境影響評估法第五條第二項","環境影響評估法第十一條第一項","環境影響評估法第十六條第二項"],"a",
  "第1條：本辦法依環境影響評估法（以下簡稱本法）第二十六條規定訂定之。環評法第二十六條授權中央主管機關就有影響環境之虞之政府政策訂定其環境影響評估作業辦法，與第五條第二項授權之開發行為環評體系有別。",
  "Under which provision are these Regulations enacted?",
- ["Article 26 of the Environmental Impact Assessment Act","Article 5, paragraph 2 of the Environmental Impact Assessment Act","Article 11, paragraph 1 of the Environmental Impact Assessment Act","Article 16, paragraph 2 of the Environmental Impact Assessment Act"],
+ ["Article 26 of the Environmental Impact Assessment Act","Article 5(2) of the Environmental Impact Assessment Act","Article 11(1) of the Environmental Impact Assessment Act","Article 16(2) of the Environmental Impact Assessment Act"],
  "Article 1."),
 
 (PL,"第2條",2,"政策環評-政策定義",
@@ -114,10 +114,10 @@ Q = [
 
 (PL,"第9條",1,"政策環評-施行日期",
  "政府政策環境影響評估作業辦法之施行日期規定為何？",
- ["自發布日施行","自發布日後六個月施行","自發布日後一年施行","自發布後次年七月一日施行"],"a",
+ ["自發布日施行","自發布後六個月施行","自發布後一年施行","自次年七月施行"],"a",
  "第9條：本辦法自發布日施行。本辦法係依環評法第二十六條授權訂定，全文僅九條，其中第3條列舉應實施政策環評之政策類別，第5條界定有影響環境之虞之情形，第6條規定評估說明書應記載事項。",
  "When do these Regulations take effect?",
- ["On the date of promulgation","Six months after promulgation","One year after promulgation","On 1 July of the following year"],
+ ["On the date of promulgation","Six months after promulgation","One year after promulgation","In July of the following year"],
  "Article 9."),
 
 # ---------- 毒性及關注化學物質標示與安全資料表管理辦法（ENV-70） ----------

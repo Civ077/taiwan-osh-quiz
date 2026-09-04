@@ -246,7 +246,7 @@ Q = [
   "An expert council votes case by case within one year; correction days are excluded and capped at 120 days"],
  "Article 6."),
 
-(VR,"第9條",2,"自主減量-執行報告",
+(VR,"第9條、第10條",2,"自主減量-執行報告",
  "事業提交自主減量計畫執行進度報告之期限，以及中央主管機關完成查核之期限各為何？",
  ["事業應於每年四月三十日前提交前一年度執行報告；中央主管機關應於每年十二月底前完成前一年度執行報告之查核作業",
   "事業應於每年一月三十一日前提交前一年度執行報告；中央主管機關應於每年六月底前完成前一年度執行報告之查核作業",
@@ -288,7 +288,7 @@ Q = [
   "The preferential rate continues with an order to improve; after revocation the general rate applies from the next year"],
  "Article 14; Articles 12-13 on correction and revocation."),
 
-(VR,"第15條",2,"自主減量-保存展延",
+(VR,"第15條、第16條",2,"自主減量-保存展延",
  "自主減量計畫相關文件之保存年限？因不可抗力未能依限提送執行報告時應如何處理？",
  ["相關文件、紀錄及證明文件應保存六年備查；因天災、疫情或其他不可抗力者，應於期限屆滿前以書面敘明理由申請展延",
   "相關文件、紀錄及證明文件應保存三年備查；因天災、疫情或其他不可抗力者，得於期限屆滿後三十日內補行提送執行報告",
@@ -387,7 +387,7 @@ Q = [
   "Volume not over 10,000 tonnes CO2e and used for carbon fee credit; no repeat for the same firm and use within two years"],
  "Article 17."),
 
-(TR,"第18條",3,"額度交易-拍賣",
+(TR,"第18條、第19條",3,"額度交易-拍賣",
  "減量額度採拍賣者，其公開閱覽期間、最低申請數量、等標期及保證金比例各為何？",
  ["公開閱覽二十八日，每次申請數量須達一千公噸二氧化碳當量，等標期不少於三十日，保證金為申購數量與單價乘積總和百分之二十",
   "公開閱覽十四日，每次申請數量須達一百公噸二氧化碳當量，等標期不少於十四日，保證金為申購數量與單價乘積總和百分之十",
@@ -415,7 +415,7 @@ Q = [
   "Opened the next working day after bidding closes; only bids at twice the floor price, highest first, ties chosen by seller"],
  "Article 21; Article 20(3)."),
 
-(TR,"第26條",2,"額度交易-移轉帳戶",
+(TR,"第9條、第26條",2,"額度交易-移轉帳戶",
  "每一減量額度單位之移轉次數限制？帳戶基本資料變更之申請期限為何？",
  ["每減量額度單位移轉次數以一次為限；已開立帳戶之事業變更基本資料，應於事實發生日起十日內向中央主管機關申請",
   "每減量額度單位移轉次數以三次為限；已開立帳戶之事業變更基本資料，應於事實發生日起三十日內向中央主管機關申請",
@@ -429,7 +429,7 @@ Q = [
   "Each credit unit may be transferred up to twice; account data changes may be filed together before the year ends"],
  "Articles 26, 9(1) and 37."),
 
-(TR,"第32條",2,"額度交易-受託機構",
+(TR,"第32條、第36條",2,"額度交易-受託機構",
  "受委託辦理交易平台之機關（構），其資安事件通報時限及紀錄保存年限為何？",
  ["發生重大資安或資訊服務異常事件應於知悉三十分鐘內向中央主管機關初步通報；交易平台相關作業之紀錄應保存六年",
   "發生重大資安或資訊服務異常事件應於知悉二十四小時內向中央主管機關初步通報；交易平台相關作業紀錄應保存三年",
@@ -500,7 +500,7 @@ Q = [
   "Equipment with liability insurance, all renewable generation equipment, labeled product lines, measures older than one year"],
  "Article 11; Article 10 sets the principles."),
 
-(VP,"第15條",2,"自願減量-展延變更",
+(VP,"第14條、第15條",2,"自願減量-展延變更",
  "自願減量專案辦理展延及計入期變更之申請時點各為何？",
  ["辦理展延應於計入期到期日六個月前檢具文件辦理；計入期變更應於欲變更之計入期起始日二個月前提出申請",
   "辦理展延應於計入期到期日三個月前檢具文件辦理；計入期變更應於欲變更之計入期起始日六個月前提出申請",
@@ -599,7 +599,7 @@ Q = [
   "Before EIA approval is granted; the operation date is the thirtieth day after the review conclusion is publicly announced"],
  "Article 6; Article 8 on annual reports."),
 
-(OF,"第13條",3,"增量抵換-審查期限",
+(OF,"第12條、第13條",3,"增量抵換-審查期限",
  "主管機關受理增量抵換申請、執行報告及減量效益取得計畫之審查期限與補正總日數各為何？",
  ["增量抵換及執行報告應於九十日內完成審查，補正總日數不得超過三十日；減量效益取得計畫應於六十日內審查，補正不超過九十日",
   "增量抵換及執行報告應於六十日內完成審查，補正總日數不得超過九十日；減量效益取得計畫應於九十日內審查，補正不超過三十日",
@@ -698,7 +698,7 @@ Q = [
   "Data changes within ninety days after the event; plant or process changes ninety days after completion; updates in one year"],
  "Article 13."),
 
-(CF,"第14條",2,"碳足跡-申報保存",
+(CF,"第14條、第16條",2,"碳足跡-申報保存",
  "使用者申報標籤使用量之期限及資料保存年限為何？",
  ["應於每年一月三十一日及七月三十一日前申報前半年標籤使用量；相關資料應保存三年以備主管機關查核",
   "應於每年三月三十一日及九月三十日前申報前半年標籤使用量；相關資料應保存五年以備主管機關查核",
@@ -783,7 +783,7 @@ Q = [
   "At least 200 hours in total; teaching applicants need 60 core hours, 80 field hours and 60 practical hours in that field"],
  "Article 9."),
 
-(EE,"第11條",2,"環教人員-審查費",
+(EE,"第11條、第12條",2,"環教人員-審查費",
  "核發機關受理環境教育人員認證申請之程序審查期限、審查費及完成認證期限為何？",
  ["受理後七日內程序審查，通知於十五日內繳納新臺幣一千元審查費；應於收到審查費之次日起三個月內完成認證",
   "受理後十四日內程序審查，通知於三十日內繳納新臺幣五百元審查費；應於收到審查費之次日起六個月內完成認證",

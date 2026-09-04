@@ -194,7 +194,7 @@ Q = [
  ["勞動檢查機構；免適用設施許可申請書、比例百分之一以上之作業場所略圖、工作計畫書","中央主管機關；免適用設施備查報告書、比例千分之一以上之作業場所照片、營業登記證","直轄市勞工局；設施變更登記申請書、比例百分之五以上之廠區配置圖、勞工名冊清單","當地衛生主管機關；設施豁免核定申請表、比例十分之一以上之建築平面圖、健檢紀錄"],"a",
  "第14條：依構造作業性質設置第6條設施顯有困難者，得填具免適用設施許可申請書、比例在百分之一以上之作業場所略圖、工作計畫書向勞動檢查機構申請免除；作業不適於原許可時應書面報告，檢查機構得取銷許可。",
  "When Article 6 controls are clearly impracticable, the employer may apply for exemption to whom, with what documents?",
- ["The labor inspection agency; exemption application form, site sketch at 1:100 or larger, and work plan","The central authority; exemption recordation report, site photographs at 1:1,000 or larger, and business registration","The municipal labor bureau; facility change registration form, plant layout at 1:20 or larger, and a worker roster","The local health authority; facility waiver approval form, building floor plan at 1:10 or larger, and health records"],
+ ["The labor inspection agency; exemption application form, site sketch at 1:100 or larger, and work plan","The central authority; exemption recordation report, site photos at 1:1,000 or larger, and business registration","The municipal labor bureau; facility change form, plant layout at 1:20 or larger, and a worker roster","The local health authority; facility waiver form, building floor plan at 1:10 or larger, and health records"],
  "Article 14: application to the inspection agency with form, sketch (scale ≥ 1%) and work plan; permits may be revoked if conditions change."),
 
 (DU,"第15條",2,"粉塵-局排",

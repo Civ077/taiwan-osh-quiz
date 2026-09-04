@@ -173,7 +173,7 @@ Q = [
 
 (L,"第20條",1,"氫氟碳化物-施行日",
  "氫氟碳化物管理辦法之施行日期規定為何？",
- ["自發布日施行","自發布後三個月施行","自發布後一年施行","自一百十五年一月一日施行"],"a",
+ ["本辦法自發布日起施行","本辦法自發布後三個月施行","本辦法自發布後一年施行","本辦法自一百十五年元旦施行"],"a",
  "第20條：本辦法自發布日施行。第4條並定自本辦法施行日起禁止製造氫氟碳化物；第5條定自114年7月1日起未經核准不得輸入或輸出。",
  "When do the HFC Management Regulations take effect?",
  ["On the date of promulgation","Three months after promulgation","One year after promulgation","On 1 January 2026"],
@@ -344,7 +344,7 @@ Q = [
  ["用途為國內排放源自願減量之抵換、相關法規溫室氣體減量承諾之抵換及其他經認可用途；九十九年九月十日前執行先期專案者其額度自核發日起三年後不得作為承諾抵換用途","用途為國際碳權市場交易及境外減量之抵換；九十九年九月十日前執行先期專案者其額度自核發日起五年後不得作為國內排放源自願減量抵換之用途","用途僅限於總量管制制度下之排放額度繳交作業；九十九年九月十日前執行先期專案者其額度自核發日起十年後即不得作為任何相關法規承諾抵換用途之使用","用途為抵繳空氣污染防制費及碳費；九十九年九月十日前執行先期專案者其額度得永久使用，不受任何年限限制亦無指定用途之例外規定"],"a",
  "第21條第1項：減量額度用途為國內排放源自願減量之抵換、相關法規溫室氣體減量承諾之抵換及其他經中央主管機關認可之用途。第2項：實施總量管制時應訂定減量額度之抵換權重因子。第3項：99年9月10日前執行先期專案者，其減量額度自核發日起三年後不得作為第1項第2款用途；但已指定用於相關法規承諾抵換者不在此限。",
  "What are the permitted uses of issued credits and the limit on early-action credits?",
- ["Voluntary domestic offsetting, offsetting statutory reduction commitments and other recognized uses; pre-2010 early-action credits may not offset commitments after three years","Trading on international carbon markets and offsetting overseas reductions; pre-2010 early-action credits may not be used for voluntary domestic offsets after five years","Only surrendering allowances under a cap-and-trade system; pre-2010 early-action credits may not be used for any statutory commitment offset after ten years","Offsetting air pollution control fees and carbon fees; pre-2010 early-action credits may be used forever with no time limit and no exception for designated uses"],
+ ["Voluntary domestic offsetting, offsetting statutory reduction commitments and other recognized uses; early-action credits before 10 Sep 2010 may not offset commitments after three years","Trading on international carbon markets and offsetting overseas reductions; early-action credits before 10 Sep 2010 may not be used for voluntary domestic offsets after five years","Only surrendering allowances under a cap-and-trade system; early-action credits before 10 Sep 2010 may not be used for any statutory commitment offset after ten years","Offsetting air pollution control fees and carbon fees; early-action credits before 10 Sep 2010 may be used forever with no time limit and no exception for designated uses"],
  "Article 21."),
 
 (M,"第22條",2,"抵換專案-過渡採認",
@@ -357,9 +357,9 @@ Q = [
 
 (M,"第23條",1,"抵換專案-施行日",
  "溫室氣體抵換專案管理辦法之施行日期規定為何？",
- ["自發布日施行","自發布後六個月施行","自發布後一年施行","自中央主管機關公告之日施行"],"a",
+ ["本辦法自發布日起施行","本辦法自發布後六個月施行","本辦法自發布後一年施行","本辦法自發布後二年施行"],"a",
  "第23條：本辦法自發布日施行。第22條並定明施行前依推動原則審查通過之先期專案、抵換專案及核發之減量額度，於本辦法施行日起採認之。",
  "When do the Offset Project Management Regulations take effect?",
- ["On the date of promulgation","Six months after promulgation","One year after promulgation","On a date announced by the authority"],
+ ["On the date of promulgation","Six months after promulgation","One year after promulgation","Two years after promulgation"],
  "Article 23."),
 ]

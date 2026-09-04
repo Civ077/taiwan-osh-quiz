@@ -1,0 +1,11 @@
+batch10_f1	55
+batch10_f2	49
+batch10_f3	55
+batch10_f4	43
+batch10_g1	42
+batch10_g2	43
+batch10_g3	54
+batch10_h1	40
+batch10_h2	44
+batch10_h3	42
+batch10_h4	41

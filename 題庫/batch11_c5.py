@@ -12,7 +12,7 @@ Q = [
  ["The undertaking itself forms an assessment team in advance as the work actually requires, its composition and assessment following the rules for Class A workplaces","The inspection agency appoints experts and scholars to form the team after accepting the application, the cost of it being borne by the applicant undertaking","A technical consultancy recognised by the central competent authority forms the team alone, and the undertaking's own personnel may take no part in it at all","The local competent authority together with the fire authority forms the team and, after assessing, informs the undertaking of the improvements to be made"],
  "Article 10; see Articles 6 and 9."),
 
-(B,"第10條",3,"危險工作場所-評估小組成員",
+(B,"第6條、第10條",3,"危險工作場所-評估小組成員",
  "乙類工作場所評估小組準用第六條規定，其成員應包括哪些人員？",
  ["工作場所負責人、製程安全評估人員、依職業安全衛生管理辦法設置之職業安全衛生人員、工作場所作業主管、熟悉該場所作業之勞工","工作場所負責人、當地勞動檢查機構之檢查員、地方主管機關指派之代表、消防主管機關人員、環境保護主管機關指派之技術人員","事業單位董事長、財務主管、法務人員、人力資源主管、公共關係主管及該工作場所所在地之里長與地方民意代表各一人以上","原設備製造廠之工程師、設備供應商業務代表、保險公司理賠人員、工程顧問公司之估價人員及承攬商之現場工地主任"],"a",
  "第6條第1項：評估小組成員為工作場所負責人、曾受國內外製程安全評估專業訓練或具製程安全評估專業能力並經中央主管機關認可者（製程安全評估人員）、依職業安全衛生管理辦法設置之職業安全衛生人員、工作場所作業主管、熟悉該場所作業之勞工。第6條第4項：實施評估之過程及結果，應予記錄。第10條第2項：乙類工作場所之評估小組組成及評估準用之。",
@@ -60,7 +60,7 @@ Q = [
  ["The undertaking itself forms an assessment team in advance as the work actually requires, its composition and assessment following the rules for Class A workplaces","The inspection agency appoints experts and scholars to form the team after accepting the application, the cost of it being borne by that applicant undertaking","The original maker of the high pressure gas or boiler plant forms the team alone, and neither the undertaking's own staff nor its workers may take any part in it","The local competent authority with the fire and environmental authorities forms the team and, after assessing, tells the undertaking what improvements to make"],
  "Article 14; see Articles 6 and 22."),
 
-(B,"第14條",3,"危險工作場所-技師替代",
+(B,"第6條、第14條",3,"危險工作場所-技師替代",
  "事業單位未置製程安全評估人員時，準用第六條規定，得由哪些人員擔任？",
  ["得以在國內完成製程安全評估人員訓練之工業安全技師，並具化學工程、職業衛生、機械工程或電機工程技師之一者任之","得以未曾受訓之土木工程技師或結構工程技師任之，並得由該工作場所負責人指定之現場作業主管一併兼任其職務","得以在國內完成施工安全評估人員訓練之建築師，並具大地工程或水利工程技師之一者任之，無須具備工業安全技師","得以事業單位人力資源主管或法務人員任之，惟應事先報請當地勞動檢查機構同意，並於評估報告書內載明其資格"],"a",
  "第6條第2項：事業單位未置製程安全評估人員者，得以在國內完成製程安全評估人員訓練之下列執業技師任之：一、工業安全技師及化學工程技師、職業衛生技師、機械工程技師、電機工程技師之一；二、工程技術顧問公司僱用之工業安全技師及前款各目所定技師之一。第3項：兼具工業安全技師資格及前項各目技師資格之一者，得為同一人。第14條第2項：丙類工作場所之評估準用之。",
@@ -124,7 +124,7 @@ Q = [
  ["A copy of the manufacturing permit issued by the authority under the Fireworks and Firecrackers Act","A copy of the storage permit for public hazardous substances issued by the fire services authority","A copy of the stationary source operating permit issued by the environmental protection authority","A copy of the use permit for the factory building issued by the building administration authority"],
  "Article 23-1; see Article 2."),
 
-(B,"第23條之1",2,"危險工作場所-爆竹煙火分類",
+(B,"第2條、第4條、第23條之1",2,"危險工作場所-爆竹煙火分類",
  "製造爆竹煙火類物品之爆竹煙火工廠，屬何類危險性工作場所？其申請期限為何？",
  ["屬乙類工作場所，應於使勞工作業四十五日前向檢查機構申請審查及檢查","屬甲類工作場所，應於使勞工作業三十日前向檢查機構申請審查及檢查","屬丙類工作場所，應於使勞工作業三十日前向檢查機構申請審查及檢查","屬丁類工作場所，應於使勞工作業四十五日前向檢查機構申請審查及檢查"],"a",
  "第2條第2款第2目：乙類工作場所包括利用氯酸鹽類、過氯酸鹽類、硝酸鹽類、硫、硫化物、磷化物、木炭粉、金屬粉末及其他原料製造爆竹煙火類物品之爆竹煙火工廠。第4條第2項：事業單位應於乙類、丙類工作場所使勞工作業四十五日前，向檢查機構申請審查及檢查。第23條之1：爆竹煙火工廠申請時應檢附製造許可文件影本。",

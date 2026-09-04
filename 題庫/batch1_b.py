@@ -76,10 +76,10 @@ Q = [
 
 (L,"第22-2條",3,"職場霸凌",
  "雇主因接獲被霸凌勞工申訴而知悉時，對申訴事件進行調查；申訴人有意願者得予協調，若協調不成立應如何？",
- ["應續行調查","應即行結案不再處理","應轉交警察機關處理","應由申訴人自行處理"],"a",
+ ["應續行調查","應逕行結案","應移送警方","應停止調查"],"a",
  "第22條之2第1項第1款第3目：對申訴事件進行調查；申訴人有意願者，得予協調，如協調不成立時，應續行調查。",
  "When an employer learns of bullying via a complaint and the complainant is willing to mediate, what happens if mediation fails?",
- ["The investigation shall continue","The case is closed with no further action","The case is referred to the police station","The matter is left to the complainant to pursue"],
+ ["The investigation shall continue","The case shall be closed at once","The case shall go to the police","The investigation shall be stopped"],
  "Article 22-2(1)(1)(iii): the employer shall investigate the complaint; mediation may be conducted if the complainant is willing, and if mediation fails the investigation shall continue."),
 
 (L,"第22-2條",3,"職場霸凌",
@@ -239,7 +239,7 @@ Q = [
  ["異常氣壓之工作","一般行政管理工作","電話客服接聽工作","賣場收銀結帳工作"],"a",
  "第30條第1項第3款：異常氣壓之工作。其他包括礦坑工作、鉛及其化合物散布場所、弓形蟲德國麻疹暴露、指定危害性化學品、顯著振動、重物處理、有害輻射等。",
  "Under Article 30(1), employers shall not assign pregnant female laborers to which work?",
- ["Work under abnormal pressure","General administrative management work","Answering telephone customer service calls","Cashier and checkout work in a store"],
+ ["Work under abnormal pressure","General administrative work","Telephone customer service work","Store cashier checkout work"],
  "Article 30(1)(3): work under abnormal pressure. Others include mining, lead dispersion sites, exposure to toxoplasma or rubella, designated hazardous chemicals, significant vibration, heavy lifting and harmful radiation."),
 
 (L,"第30條",3,"特殊族群保護",
@@ -324,18 +324,18 @@ Q = [
 
 (L,"第37條",1,"災害通報",
  "事業單位工作場所發生職業災害，雇主應即採取急救、搶救等措施，並會同何人實施調查、分析及作成紀錄？",
- ["勞工代表","承保保險公司","當地警察機關","現場媒體記者"],"a",
+ ["勞工代表","保險公司","警察機關","媒體記者"],"a",
  "第37條第1項：事業單位工作場所發生職業災害，雇主應即採取必要之急救、搶救等措施，並會同勞工代表實施調查、分析及作成紀錄。",
  "When an occupational accident occurs, the employer shall take first aid and rescue measures and, together with whom, investigate, analyze and record it?",
- ["Laborer representatives","The insurance company","The local police authority","Media reporters at the scene"],
+ ["Laborer representatives","The insurance company","The police authority","Media reporters"],
  "Article 37(1): the employer shall immediately take first aid and rescue measures and, together with laborer representatives, investigate, analyze and record the accident."),
 
 (L,"第37條",1,"災害通報",
  "事業單位勞動場所發生死亡災害時，雇主應於幾小時內通報勞動檢查機構？",
- ["八小時","二十四小時","四十八小時","七十二小時"],"a",
+ ["八小時","四小時","十二小時","二十四小時"],"a",
  "第37條第2項：發生死亡災害、罹災人數三人以上、罹災一人以上且需住院治療、其他指定災害，雇主應於八小時內通報勞動檢查機構。",
  "When a fatal accident occurs at the labor site, the employer shall report to the labor inspection agency within how many hours?",
- ["8 hours","24 hours","48 hours","72 hours"],
+ ["8 hours","4 hours","12 hours","24 hours"],
  "Article 37(2): for fatal accidents, accidents with three or more victims, accidents with one or more victims requiring hospitalization, or other designated accidents, the employer shall report within 8 hours."),
 
 (L,"第37條",2,"災害通報",

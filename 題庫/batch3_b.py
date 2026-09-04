@@ -20,7 +20,7 @@ Q = [
  ["1.8 kg/cm² (60 ft); 30 minutes","1 kg/cm² (30 ft); 10 minutes","3 kg/cm² (100 ft); 60 minutes","0.5 kg/cm² (15 ft); 15 minutes"],
  "Article 3(2): 1.8 kg/cm² (60 ft) breathing pure oxygen for 30 minutes; an air lock is where workers are compressed and decompressed."),
 
-(YC,"第5條",3,"異常氣壓-設備",
+(YC,"第5條、第6條",3,"異常氣壓-設備",
  "高壓室內作業，作業室內每一勞工占有之氣積應在多少立方公尺以上？氣閘室內每一勞工占有之氣積應在多少立方公尺以上？",
  ["四立方公尺；零點六立方公尺","二立方公尺；零點三立方公尺","十立方公尺；一立方公尺","六立方公尺；二立方公尺"],"a",
  "第5條：作業室每一勞工占有之氣積應在四立方公尺以上。第6條：氣閘室每一勞工占有之氣積應在零點六立方公尺以上，底面積應在零點三平方公尺以上。",
@@ -278,7 +278,7 @@ Q = [
 
 (YC,"第57條",2,"異常氣壓-裝備",
  "使用水肺從事潛水作業時，除攜帶水中計時器、深度表及潛水刀外，並應使勞工著用何物？",
- ["救生衣","安全頭盔","反光背心","工作手套"],"a",
+ ["救生衣","安全帽","反光衣","工作手套"],"a",
  "第57條：水面供氣潛水應攜帶緊急用水肺、信號索、水中計時器、深度表及潛水刀（可通話者得免信號索）；使用水肺潛水應攜帶水中計時器、深度表及潛水刀，並應著用救生衣。",
  "Scuba divers must carry a dive timer, depth gauge and dive knife, and also wear:",
  ["A life jacket","A safety helmet","A reflective vest","Work gloves"],
@@ -335,10 +335,10 @@ Q = [
 
 (HC,"第5條",2,"化學品標示-標示",
  "裝有危害性化學品之容器，應標示之事項不包括下列何者？",
- ["危害圖式","名稱及危害成分","警示語、危害警告訊息、危害防範措施","售價"],"d",
+ ["危害圖式","危害成分","危害防範措施","產品售價"],"d",
  "第5條：應標示危害圖式，及名稱、危害成分、警示語、危害警告訊息、危害防範措施、製造者輸入者或供應者之名稱地址及電話；文字以中文為主，必要時輔以外文。",
  "Which is NOT a required element on a hazardous chemical container label?",
- ["Hazard pictogram","Name and hazardous ingredients","Signal word, hazard statements and precautionary statements","Price"],
+ ["Hazard pictogram","Hazardous ingredients","Precautionary measures","Product selling price"],
  "Article 5: pictogram; name; hazardous ingredients; signal word; hazard statements; precautionary statements; manufacturer/importer/supplier name, address and phone; Chinese text, with foreign language where needed."),
 
 (HC,"第5條",3,"化學品標示-標示",

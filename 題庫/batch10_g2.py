@@ -171,7 +171,7 @@ Q = [
   "Have an academic institution prepare a specimen and issue an appraisal report, and send it to the township office for listing within ninety days"],
  "Article 38."),
 
-(WL,"第39條",2,"野保法-屍體價購",
+(WL,"第39條、第51條",2,"野保法-屍體價購",
  "保育類野生動物之屍體具有學術研究或展示價值者，哪些機構得如何取得？拒絕出售有何後果？",
  ["學術研究機構、公立或政府立案之私立動物園、博物館等得優先向所有人或占有人價購製成標本；拒絕出售者依第51條處新臺幣一萬元以上五萬元以下罰鍰",
   "私立收藏家、古董商及標本商行等得優先向所有人或占有人議價收購製成商品；拒絕出售者依第49條處新臺幣六萬元以上三十萬元以下罰鍰",

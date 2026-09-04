@@ -242,7 +242,7 @@ Q = [
 
 (L1,"第23條",1,"氟氯烴-施行",
  "氟氯烴管理辦法之施行日期規定為何？",
- ["本辦法自發布日施行","本辦法自發布後六個月施行","本辦法自一百十九年一月一日施行","本辦法自發布後一年施行之"],"a",
+ ["本辦法自發布日起施行","本辦法自發布後六個月施行","本辦法自一百十九年元旦施行","本辦法自發布後一年施行之"],"a",
  "第23條：本辦法自發布日施行。本辦法之管制時程另定於第3條、第4條及第6條，例如消費量與生產量自一百零九年一月一日起不得超過基準量之百分之○．五，自一百十九年一月一日起為零。",
  "When do these Regulations take effect?",
  ["They take effect on the date of promulgation","They take effect six months after promulgation","They take effect on 1 January 2030","They take effect one year after promulgation"],

@@ -18,7 +18,7 @@ Q = [
  ["Pipe-connected cylinders follow container storage and yard rules, others the cylinder yard rules; tanks and pipelines separately","All cylinders follow the rules for containers fixed on vehicles; tanks follow dike rules; pipelines follow refrigerant test rules","All cylinders follow the gas filling station rules; tanks follow the rules on burial in the ground; pipelines follow double-pipe rules","All cylinders follow the aerosol manufacturing rules; tanks follow earthquake-resistant rules; pipelines follow detox equipment rules"],
  "Article 110 lists the provisions applied by reference."),
 
-(HG,"第111條",1,"高壓氣體-液化石油氣",
+(HG,"第79條、第111條",1,"高壓氣體-液化石油氣",
  "液化石油氣之容器放置場及灌氣容器等，其設置準用何規定？",
  ["準用容器放置場之警戒標示、輕質屋頂、不滯留構造、滅火設備及溫度四十度以下等規定","準用固定於車輛容器之防波板、高度檢知桿、工作箱距離及液面計材質等相關規定","準用毒性氣體製造設施之防毒措施、二重管構造及毒性危害標示等相關之各項規定","準用冷凍設備之壓縮機設置限制、冷媒設備耐壓氣密試驗及承液器液面計等規定"],"a",
  "第111條：液化石油氣容器放置場及灌氣容器等，準用第79條之規定。第79條要求容器放置場明確標示並設警戒標示、輕質屋頂、可燃性氣體漏洩不滯留構造、除毒設備、滅火設備、灌氣與殘氣容器分別放置、四周二公尺內禁煙火、溫度保持攝氏四十度以下、防翻倒掉落措施及不得攜入火源機具等。",

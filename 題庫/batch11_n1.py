@@ -330,7 +330,7 @@ Q = [
  ["In principle no; unless the equipment is enclosed, or contact is avoided and an enclosing local exhaust hood is installed","In principle no; unless gas masks and impermeable gloves are supplied and the labor inspection agency has approved it","In principle yes; but where benzene exceeds five percent by volume and daily work exceeds two hours, general ventilation applies","In principle yes; but exposure monitoring must first be carried out and the results posted conspicuously at the workplace"],
  "Article 47 bans benzene as a solvent subject to a narrow exception."),
 
-(SC,"第48條",1,"特化標準-條文刪除",
+(SC,"第6條之1、第48條",1,"特化標準-條文刪除",
  "本標準第四十八條之現行狀態為何？特定化學物質作業之健康管理事項現依何規定辦理？",
  ["第四十八條業經刪除；健康管理事項依第六條之一規定，應依勞工健康保護規則等相關規定辦理","第四十八條仍有效施行；健康管理事項依該條規定，應由雇主每三個月實施一次特殊健康檢查","第四十八條業經刪除；健康管理事項依第五十條規定，應由勞動檢查機構逐案指定辦理之方式","第四十八條仍有效施行；健康管理事項依該條規定，應由醫師每年出具健康管理分級之報告"],"a",
  "第48條已刪除。依第6條之1規定，健康管理、作業環境監測、妊娠與分娩後女性勞工及未滿十八歲勞工保護與入槽安全等事項，應依勞工健康保護規則、勞工作業環境監測實施辦法等相關規定辦理。第49條、第50條則分別規範漏洩後之醫師診療及防護具之置備。",

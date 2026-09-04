@@ -160,7 +160,7 @@ Q = [
  ["三氟化氮與電子級液氨製造程序、丙烯腈製造程序、己內醯胺製造程序及硫酸銨化學製造程序","氮肥製造程序、磷酸銨鹽肥料製造程序、尿素化學製造程序及三聚氰胺樹脂製造程序等","苯胺製造程序、乙醇胺化學製造程序、染料製造程序（偶氮染料）及煉焦相關程序等","乙二胺四醋酸鹽化學製造程序、氨基甲酸酯製造程序、尿素甲醛樹脂製造程序等"],"a",
  "第5條第2款所列石油化學業高含氮製程共九目：三氟化氮與電子級液氨製造程序、甲基丙烯酸酯類（MMA）化學製造程序、丙烯腈製造程序、丙烯腈－丁二烯共聚合物（AB）、丙烯腈－丁二烯－苯乙烯共聚合物（ABS）、丙烯腈－苯乙烯共聚合物（AS）化學製造程序、己內醯胺製造程序、硫酸銨化學製造程序、聚醯胺塑膠（尼龍）製造程序。其餘選項所列多屬第3款化工業高含氮製程之製造程序。",
  "Which of these is listed as a petrochemical high nitrogen manufacturing process?",
- ["Nitrogen trifluoride and electronic grade liquid ammonia, acrylonitrile, caprolactam, and ammonium sulphate chemical manufacturing processes","Nitrogen fertiliser, ammonium phosphate fertiliser, urea chemical manufacturing and melamine resin manufacturing processes","Aniline manufacturing, ethanolamine chemical manufacturing, azo dye manufacturing and coke making related processes","EDTA chemical manufacturing, carbamate manufacturing, urea formaldehyde resin and polyacrylonitrile fibre manufacturing processes"],
+ ["Nitrogen trifluoride and electronic grade liquid ammonia, acrylonitrile, caprolactam, and ammonium sulphate chemical manufacturing processes","Nitrogen fertiliser, ammonium phosphate fertiliser, urea chemical manufacturing and melamine resin manufacturing processes","Aniline manufacturing, ethanolamine chemical manufacturing, azo dye manufacturing and coke making related processes","Ethylenediaminetetraacetate chemical manufacturing, carbamate manufacturing and urea formaldehyde resin manufacturing and the like"],
  "Article 5, subparagraph 2; the others fall under subparagraph 3."),
 
 (E,"第5條",3,"放流水標準-戴奧辛",

@@ -1,0 +1,15 @@
+batch5_a	37
+batch5_c	30
+batch5_d	30
+batch6_a	33
+batch6_b	37
+batch6_c	37
+batch6_d	34
+batch6_e	39
+batch8_a	13
+batch8_b	17
+batch8_c	25
+batch8_d	25
+batch9_a	64
+batch9_a1	39
+batch9_a2	55

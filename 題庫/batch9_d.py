@@ -107,7 +107,7 @@ Q = [
   "Surface or subsurface water 10 m3/s or more; groundwater 2 m3/s or more; hot spring water 0.2 m3/s or more; desalination plant design output 20,000 tonnes per day or more"],
  "Article 13, paragraph 1, subparagraphs 1 and 2."),
 
-(SC,"第26條",1,"環評認定-高樓建築",
+(SC,"第25條、第26條",1,"環評認定-高樓建築",
  "高樓建築及三戶以上集合住宅或社區之開發，其應實施環境影響評估之門檻為何？",
  ["高樓建築高度一百二十公尺以上；集合住宅或社區位於山坡地申請開發或累積開發面積一公頃以上，位於非都市土地十公頃以上",
   "高樓建築高度六十公尺以上；集合住宅或社區位於山坡地申請開發或累積開發面積○．五公頃以上，位於非都市土地五公頃以上者",

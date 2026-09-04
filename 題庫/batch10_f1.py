@@ -320,7 +320,7 @@ Q = [
  ["Announced as Class A, B or C by their impact on the marine environment; Class A may not be dumped, Class B requires a permit for timing, quantity and method, and Class C may be dumped only within the permitted period and total","Announced as Class A, B or C by impact; Class A may be dumped with a permit, Class B may not be dumped at all, and Class C may be dumped freely without any permit or filing","Announced as Class A, B or C by the source of the substance concerned; Classes A and B may not be dumped at sea at all, while Class C dumping timing, quantity and operating method need the relevant industry authority's approval","Announced as Class A, B or C by toxicity; all three classes may be dumped, but Class A pays a double control fee while Classes B and C pay half the fee"],
  "Article 24; Article 40."),
 
-(OP,"第24條",2,"海污法-甲類物質",
+(OP,"第24條、第40條",2,"海污法-甲類物質",
  "違反規定將甲類物質棄置於海洋，或違反規定從事有害物質之海上焚化者，其刑責為何？",
  ["處三年以下有期徒刑，得併科新臺幣一百萬元以上五百萬元以下罰金；因而致嚴重污染海洋者，處七年以下有期徒刑，得併科三千萬元以上一億元以下罰金","處一年以下有期徒刑，得併科新臺幣三十萬元以上一百萬元以下罰金；因而致嚴重污染海洋者，處三年以下有期徒刑，得併科五百萬元以上三千萬元以下罰金","處五年以下有期徒刑，得併科新臺幣五百萬元以上一千萬元以下罰金；因而致嚴重污染海洋者，處十年以下有期徒刑，得併科一億元以上五億元以下罰金","處三年以下有期徒刑，得併科新臺幣一百萬元以上五百萬元以下罰金；因而致嚴重污染海洋者，改處拘役或科三千萬元以下罰金，且未遂犯一律不罰"],"a",
  "第40條第1項：違反第24條第2項前段棄置甲類物質於海洋，或違反第28條從事有害物質之海上焚化者，處三年以下有期徒刑，得併科新臺幣一百萬元以上五百萬元以下罰金。第2項：因而致嚴重污染海洋者，處七年以下有期徒刑，得併科三千萬元以上一億元以下罰金。第3項：第1項之未遂犯罰之。第45條對法人負責人或監督策劃人員犯罪者加重其刑至二分之一。",
@@ -417,7 +417,7 @@ Q = [
  ["Install suitable oil boom equipment on the water around the work area; provide reception facilities for waste oil, wastewater, waste and hazardous substances inside it; prevent such matter from being discharged to sea; and other designated measures","Install warning buoys and lighting around the work area; provide firefighting and lifesaving gear inside it; prevent noise and dust from spreading to nearby waters; and other safety measures designated by the port management authorities concerned","Complete an environmental impact assessment and obtain a permit before work; install automatic water quality monitors in the work area; upload data daily to the central authority; and other monitoring measures designated","Take out adequate liability insurance and provide a financial guarantee; stock oil dispersants in the work area; ask the coast guard to send patrol boats; and other emergency preparedness measures announced"],
  "Article 32; Article 48."),
 
-(OP,"第32條",2,"海污法-船舶施工罰則",
+(OP,"第32條、第48條",2,"海污法-船舶施工罰則",
  "違反第三十一條第二項或第三十二條規定者，其罰鍰額度依何標準區分？",
  ["依船舶規模區分：總噸位四百以上之一般船舶及一百五十以上之油輪或化學品船處一百萬元以上三千萬元以下；未達該規模者處三十萬元以上三百萬元以下","依污染面積區分：污染範圍達一平方公里以上者處一百萬元以上三千萬元以下；未達一平方公里者處三十萬元以上三百萬元以下罰鍰並得按次處罰","依船齡區分：船齡二十年以上之船舶處一百萬元以上三千萬元以下；船齡未達二十年之船舶處三十萬元以上三百萬元以下罰鍰並得令其停工","依船籍區分：外國籍船舶處一百萬元以上三千萬元以下；本國籍船舶處三十萬元以上三百萬元以下罰鍰，並得限期令其改善及按次處罰"],"a",
  "第48條：違反第31條第2項或第32條規定者，依其船舶規模處罰鍰，並得限期令其改善，屆期未改善者得按次處罰，情節重大者得令其停工：一、總噸位四百以上之一般船舶及一百五十以上之油輪或化學品船，處新臺幣一百萬元以上三千萬元以下。二、未達前款規模之船舶，處新臺幣三十萬元以上三百萬元以下。第44條並對不遵行停工命令者處二年以下有期徒刑。",

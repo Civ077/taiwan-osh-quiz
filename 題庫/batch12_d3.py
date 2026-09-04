@@ -308,7 +308,7 @@ Q = [
 
 (C,"第9條",1,"熱風乾燥機-施行日",
  "熱風乾燥機粒狀污染物排放標準之施行日期為何？",
- ["本標準自發布日施行","本標準自發布後六個月施行","本標準自發布後一年始施行","本標準自次年一月一日施行"],"a",
+ ["本標準自發布日起施行","本標準自發布後六個月施行","本標準自發布後一年始施行","本標準自次年一月一日施行"],"a",
  "第9條：本標準自發布日施行。本標準修正日期為民國八十八年三月十七日，其專用名詞及符號依第3條援用固定污染源空氣污染物排放標準之定義。",
  "When does this standard take effect?",
  ["It takes effect on the date of promulgation","It takes effect six months after promulgation","It takes effect one full year after promulgation","It takes effect on January 1 of the next year"],

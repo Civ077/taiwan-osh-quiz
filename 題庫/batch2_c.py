@@ -42,7 +42,7 @@ Q = [
  ["Personnel and vehicle entrances shall be separate, with gate control personnel","Personnel and vehicle entrances may be combined to save site space and cost","Gates shall be push-open, and traffic guides are not needed at busy entrances","Vehicles may enter freely; gate staff only check vehicle licence plates"],
  "Article 11: survey underground utilities; sliding gates; traffic guides where vehicle traffic is frequent; separate personnel and vehicle entrances (unless warning signs suffice); gate control staff check PPE and vehicle permits."),
 
-(L,"第11-2條",3,"營造-工作場所",
+(L,"第11-2條、第174條",3,"營造-工作場所",
  "依民國115年修正之營造標準第11條之2，進入營繕工程工作場所作業人員應於事前接受何種訓練？該條自何時施行？",
  ["中央主管機關指定之營造作業安全訓練；一百十六年七月一日","地方主管機關指定之營造作業安全訓練；一百十五年七月一日","一般安全衛生教育訓練六小時；一百十六年一月一日","中央主管機關指定之急救人員訓練；一百十七年七月一日"],"a",
  "第11條之2：進入營繕工程工作場所作業人員，應於事前使其接受中央主管機關指定之營造作業安全訓練（已依教育訓練規則第4、5、7或10條受訓者除外）。第174條：第11條之2自一百十六年七月一日施行。",
@@ -231,7 +231,7 @@ Q = [
  ["不得","可以","僅限合梯","僅限踏凳"],"a",
  "第47條：雇主不得使勞工在施工架上使用梯子、合梯或踏凳等從事作業。",
  "May workers use ladders, stepladders or stools on scaffolds?",
- ["No","Yes","Only stepladders","Only stools"],
+ ["Not permitted","Permitted","Only stepladders","Only stools"],
  "Article 47: workers must not use ladders, stepladders or stools to work on scaffolds."),
 
 (L,"第48條",3,"營造-施工架",

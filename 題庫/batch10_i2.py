@@ -171,7 +171,7 @@ Q = [
   "To announce mandatory GWP value labeling on packaging, with fines of triple the goods value and confiscation for false labels"],
  "Article 38 empowers bans or restrictions plus approval, recording and reporting."),
 
-(L,"第38條",2,"氣候法-高GWP管制",
+(L,"第52條",2,"氣候法-罰則",
  "違反第38條第1項公告禁止之規定者，依本法應如何處罰？",
  ["處新臺幣十萬元以上一百萬元以下罰鍰，並通知限期補正或申報；屆期仍未補正或申報者，按次處罰",
   "處新臺幣二十萬元以上二百萬元以下罰鍰，並得令其停工或停業，及限制或停止其額度之交易",
@@ -635,15 +635,9 @@ Q = [
 
 (L,"第63條",1,"氣候法-施行日",
  "本法之施行日期為何？",
- ["自公布日施行",
-  "自公布後六個月施行",
-  "自公布後一年施行",
-  "由行政院另定施行日期"],"a",
+ ["自公布日施行","自公布後六個月施行","自公布後一年施行","由行政院定之"],"a",
  "第63條：本法自公布日施行。本法修正日期為民國一百十二年二月十五日，第4條並明定國家溫室氣體長期減量目標為中華民國一百三十九年淨零排放。",
  "When does the Act take effect?",
- ["On the date of promulgation",
-  "Six months after promulgation",
-  "One year after promulgation",
-  "On a date set by the Executive Yuan"],
+ ["On the date of promulgation","Six months after promulgation","One year after promulgation","As set by the Executive Yuan"],
  "Article 63 provides that the Act takes effect on the date of promulgation."),
 ]

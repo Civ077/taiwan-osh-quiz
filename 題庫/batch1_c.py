@@ -206,10 +206,10 @@ Q = [
 
 (S,"第23條",1,"施行細則",
  "下列何者屬施行細則第23條所列具有危險性之設備？",
- ["鍋爐","電腦主機","影印機","空氣清淨機"],"a",
+ ["蒸汽鍋爐","電腦主機","辦公影印機","空氣清淨機"],"a",
  "施行細則第23條：危險性設備指一定容量以上之鍋爐、壓力容器、高壓氣體特定設備、高壓氣體容器及其他指定公告者。",
  "Which of the following is dangerous equipment under Enforcement Rules Article 23?",
- ["Boiler","Computer server","Photocopier","Air purifier"],
+ ["Steam boiler","Computer server","Office photocopier","Air purifier"],
  "Enforcement Rules Article 23: dangerous equipment includes boilers, pressure vessels, specified high-pressure gas equipment, high-pressure gas containers and other designated equipment above a certain capacity."),
 
 (S,"第24條",3,"施行細則",
@@ -270,10 +270,10 @@ Q = [
 
 (S,"第33條",2,"施行細則",
  "下列何者不屬施行細則第33條所稱之安全衛生人員？",
- ["職業安全衛生業務主管","職業安全管理師","職業衛生管理師","勞動檢查員"],"d",
+ ["安全衛生主管","安全管理師","衛生管理師","勞動檢查員"],"d",
  "施行細則第33條：安全衛生人員包括職業安全衛生業務主管、職業安全管理師、職業衛生管理師、職業安全衛生管理員。勞動檢查員為政府人員。",
  "Which of the following is NOT 'safety and health personnel' under Enforcement Rules Article 33?",
- ["OSH business supervisor","Occupational safety management specialist","Occupational hygiene management specialist","Labor inspector"],
+ ["OSH supervisor","Safety specialist","Hygiene specialist","Labor inspector"],
  "Enforcement Rules Article 33: safety and health personnel include the OSH business supervisor, occupational safety management specialist, occupational hygiene management specialist and OSH administrator. A labor inspector is a government official."),
 
 (S,"第36條",2,"施行細則",

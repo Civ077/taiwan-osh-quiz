@@ -67,7 +67,7 @@ Q = [
 
 (G,"第6條",1,"固污裁罰-施行",
  "公私場所固定污染源違反空氣污染防制法應處罰鍰額度裁罰準則之施行日期為何？",
- ["自發布日施行","自發布後三個月施行","自發布後一年施行","另定施行日期並公告之"],"a",
+ ["本準則自發布日起施行","本準則自發布後三個月施行","本準則自發布後一年施行","本準則另定施行日期公告之"],"a",
  "第6條：本準則自發布日施行。屬形式規定，無緩衝期間，發布當日即生效力。",
  "When do these fine assessment rules take effect?",
  ["On the date of promulgation","Three months after promulgation","One year after promulgation","On a separately announced date"],
@@ -374,7 +374,7 @@ Q = [
 
 (J,"第12條",1,"加油站油氣-施行",
  "加油站油氣回收設施管理辦法之施行日期為何？",
- ["自發布日施行","自發布後六個月施行","自發布後一年施行","另定施行日期並公告之"],"a",
+ ["本辦法自發布日起施行","本辦法自發布後六個月施行","本辦法自發布後一年施行","本辦法另定施行日期公告之"],"a",
  "第12條：本辦法自發布日施行。屬形式規定，無緩衝期間，發布當日即生效力。",
  "When does the petrol station vapour recovery regulation take effect?",
  ["On the date of promulgation","Six months after promulgation","One year after promulgation","On a separately announced date"],

@@ -51,7 +51,7 @@ Q = [
  ["Dangerous workplace review/inspection, dangerous machinery/equipment inspection, occupational accident inspection and other approved cases","General occupational safety inspections, labor condition inspections, worker complaint inspections and other cases agreed by the union","Periodic dangerous workplace checks, type verification of machinery and equipment, occupational disease surveys and cases agreed by the employer","Construction commencement checks, periodic boiler inspections, accident statistics audits and other cases reported to the agency in advance"],
  "Article 13: the exceptions are Article 26 reviews/inspections, dangerous machinery or equipment inspections, accident inspections and other approved cases."),
 
-(LI,"第14條",2,"勞檢法-程序",
+(LI,"第14條、第35條",2,"勞檢法-程序",
  "勞動檢查員為執行檢查職務得隨時進入事業單位，雇主或有關人員無故拒絕、規避或妨礙者，處罰為何？",
  ["新臺幣三萬元以上十五萬元以下罰鍰，並得按次處罰","新臺幣三萬元以上六萬元以下罰鍰，並得按次處罰","新臺幣六萬元以上三十萬元以下罰鍰，但不得按次處罰","新臺幣二萬元以上二十萬元以下罰鍰，並得停止其營業"],"a",
  "第14條：勞動檢查員得隨時進入事業單位，雇主、代理人、勞工及有關人員不得無故拒絕、規避或妨礙，非警察協助不足以排除時得要求警察協助。第35條：違反第14條第1項或第15條第2項者處三萬元以上十五萬元以下罰鍰，並得按次處罰。",

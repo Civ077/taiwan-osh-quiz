@@ -112,7 +112,7 @@ Q = [
  ["Unused days times one day's wage, being the normal-hours wage of the day before year end or termination","Unused days times one day's wage, being the average wage over the prior six months divided by the days","Unused days times twice one day's wage, using the basic wage of that month divided by thirty","Unused days times one day's wage, the amount being negotiated afresh by the parties at year end"],
  "Rule 24-1: unused days times the day-before normal-hours wage."),
 
-("OSH-49","第24條之2",2,"勞基細則-書面通知",
+("OSH-49","第24條之1、第24條之2",2,"勞基細則-書面通知",
  "本法第三十八條第五項所定每年定期發給之特別休假書面通知，應於何時發給？得以何種方式為之？",
  ["應於年度終結後三十日內之發給工資期限前發給；得以紙本、電子資料傳輸或其他可隨時取得及列印之資料為之","應於年度終結後九十日內發給；且限以紙本方式當面交付勞工並由其簽名確認收訖後留存備查","應於每年一月底前發給；得以口頭告知或於事業場所公告方式為之，無須提供個別書面資料","應於勞工提出書面申請後十日內發給；得以電子郵件為之，惟應同時副知當地主管機關"],"a",
  "施行細則第24條之2：本法第38條第5項所定每年定期發給之書面通知，雇主應於第24條之1第2項第2款所定發給工資之期限前發給，即年度終結後三十日內或契約約定之工資給付日前；書面通知得以紙本、電子資料傳輸方式或其他勞工可隨時取得及得列印之資料為之。",
@@ -131,7 +131,7 @@ Q = [
 ("OSH-49","第25條",1,"勞基細則-危險工作",
  "本法第四十四條第二項所定危險性或有害性之工作，應依何種法令認定？",
  ["依職業安全衛生有關法令之規定","依中華民國行業標準分類之規定","依勞工保險條例有關職業病規定","依各該事業單位工作規則之規定"],"a",
- "施行細則第25條：本法第44條第2項所定危險性或有害性之工作，依職業安全衛生有關法令之規定，例如職業安全衛生法第29條及少年勞工母性健康保護實施辦法等。本法第44條第2項規定童工及十六歲以上未滿十八歲之人不得從事危險性或有害性之工作。",
+ "施行細則第25條：本法第44條第2項所定危險性或有害性之工作，依職業安全衛生有關法令之規定，例如職業安全衛生法第29條及妊娠與分娩後女性及未滿十八歲勞工禁止從事危險性或有害性工作認定標準等。本法第44條第2項規定童工及十六歲以上未滿十八歲之人不得從事危險性或有害性之工作。",
  "Which laws determine what counts as dangerous or harmful work under Article 44(2)?",
  ["The occupational safety and health related laws and regulations","The Standard Industrial Classification of the Republic of China","The occupational disease provisions of the Labor Insurance Act","The work rules adopted by each individual establishment"],
  "Rule 25: occupational safety and health laws govern."),
@@ -301,7 +301,7 @@ Q = [
  ["得以口頭或書面為之","限以書面掛號郵寄為之","限以實名書面親送為之","限經工會代為轉達為之"],"a",
  "施行細則第46條：本法第74條第1項規定之申訴得以口頭或書面為之。本法第74條規定勞工發現事業單位違反本法及其他勞工法令時得向雇主、主管機關或檢查機構申訴，雇主不得因此為解僱、降調、減薪等不利處分，主管機關並應於六十日內以書面通知處理情形且對申訴人身分嚴守秘密。",
  "In what form may a complaint under Article 74(1) be lodged?",
- ["Either orally or in writing","Only in writing by registered mail","Only in writing delivered in person","Only through the union on the worker's behalf"],
+ ["Either orally or in writing","Only by registered written mail","Only in person in signed writing","Only through the labour union"],
  "Rule 46: orally or in writing."),
 
 ("OSH-49","第47條",1,"勞基細則-申訴處理",
@@ -370,7 +370,7 @@ Q = [
 
 ("OSH-49","第51條",1,"勞基細則-施行",
  "勞動基準法施行細則之施行日期為何？",
- ["本細則自發布日施行","本細則自公布後三個月施行","本細則自次年一月一日施行","本細則之施行日由行政院定之"],"a",
+ ["本細則自發布日施行","本細則自公布後三月施行","本細則自次年元旦施行","本細則施行日由行政院定"],"a",
  "施行細則第51條：本細則自發布日施行。第1條並載明本細則依本法第85條規定訂定之；本法第85條規定施行細則由中央主管機關擬定，報請行政院核定。",
  "When do the Enforcement Rules take effect?",
  ["On the date of their promulgation","Three months after promulgation","On 1 January of the following year","On a date set by the Executive Yuan"],

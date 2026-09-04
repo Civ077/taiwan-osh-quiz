@@ -346,15 +346,15 @@ Q = [
 
 (U,"第18條",1,"再使用辦法-文書格式",
  "再生資源再使用管理辦法所定之相關文書及證明文件格式，由何機關訂定？",
- ["由環境部定之","由中央目的事業主管機關定之","由直轄市、縣（市）主管機關定之","由再生資源回收再利用促進委員會定之"],"a",
+ ["由中央主管機關（環境部）定之","由中央目的事業主管機關定之","由直轄市、縣（市）主管機關定之","由回收再利用促進委員會定之"],"a",
  "第18條：本辦法所定之相關文書及證明文件格式，由環境部定之。第6條第4項並規定應辦理登記之再使用業者規模，由環境部另定之。",
  "Which authority prescribes the document and certificate formats under these Regulations?",
- ["They are prescribed by the Ministry of Environment","They are prescribed by the central industry competent authority","They are prescribed by the municipal or county competent authority","They are prescribed by the recycling and reuse promotion committee"],
+ ["They are prescribed by the Ministry of Environment","They are prescribed by the central industry authority","They are prescribed by the municipal or county authority","They are prescribed by the recycling promotion committee"],
  "Article 18."),
 
 (U,"第19條",1,"再使用辦法-施行日",
  "再生資源再使用管理辦法之施行日期為何？",
- ["自發布日施行","自發布後三個月施行","自發布後六個月施行","自發布後滿一年施行"],"a",
+ ["本辦法自發布日起施行","本辦法自發布後三個月施行","本辦法自發布後六個月施行","本辦法自發布後滿一年施行"],"a",
  "第19條：本辦法自發布日施行。本辦法修正日期為民國114年11月21日，授權依據為資源回收再利用法第十五條第二項；第17條並定明違反特定條文者應依本法第二十六條第一項第四款辦理。",
  "When do these Reuse Regulations take effect?",
  ["They take effect on the date of promulgation","They take effect three months after promulgation","They take effect six months after promulgation","They take effect one full year after promulgation"],

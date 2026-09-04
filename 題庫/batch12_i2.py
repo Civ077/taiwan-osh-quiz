@@ -120,7 +120,7 @@ Q = [
  ["The central competent authority announces them and firms must use the announced format","Municipal and county authorities announce them and may set different local formats","The firm drafts them and files them with the local authority for approval and notice","A commissioned training body prints them and firms must buy the forms from that body"],
  "Article 12."),
 
-(C,"第13條",1,"病媒防治業-施行日期",
+(C,"第9條、第13條",1,"病媒防治業-施行日期",
  "病媒防治業管理辦法之施行日期為何？",
  ["本辦法自發布日施行，其中施作紀錄按月申報規定另定自一百零七年二月一日適用","本辦法自中華民國一百零五年十二月三十日施行，並溯及既往適用於既有業者","本辦法自發布後三個月施行，既有之病媒防治業者得於施行後一年內完成補正","本辦法自中華民國一百零七年二月一日施行，健康檢查規定亦自同日開始適用"],"a",
  "第13條：本辦法自發布日施行。惟第9條第1項另定自中華民國一百零七年二月一日起，施作紀錄改為每月十日前申報前一個月，屬條文本身之適用日期規定。",

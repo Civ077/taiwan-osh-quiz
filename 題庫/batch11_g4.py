@@ -40,7 +40,7 @@ Q = [
  ["No differential treatment based on sex or sexual orientation","No differential treatment based on sex; orientation is excluded","Participants may be limited by sex where the training requires it","Workers of a particular sex must be given priority to attend"],
  "Article 8: no discrimination by sex or sexual orientation in training."),
 
-("OSH-37","第9條",1,"性平法-福利措施",
+("OSH-37","第9條、第38條之1",1,"性平法-福利措施",
  "雇主為受僱者舉辦或提供各項福利措施時，有何禁止規定？違反者罰鍰為何？",
  ["不得因性別或性傾向而有差別待遇；處新臺幣三十萬元以上一百五十萬元以下罰鍰","不得因性別或性傾向而有差別待遇；處新臺幣二萬元以上三十萬元以下罰鍰","得依福利性質限定適用之性別對象；違反者處新臺幣一萬元以上十萬元以下罰鍰","不得因性別而有差別待遇但性傾向除外；違反者僅限期令其改善無罰鍰規定"],"a",
  "第9條：雇主為受僱者舉辦或提供各項福利措施，不得因性別或性傾向而有差別待遇。違反第7條至第10條、第11條第1項、第2項規定者，依第38條之1第1項處新臺幣三十萬元以上一百五十萬元以下罰鍰。",
@@ -210,10 +210,10 @@ Q = [
 
 ("OSH-37","第39條",1,"性平法-授權",
  "性別平等工作法施行細則之訂定機關為何？",
- ["由中央主管機關定之","由行政院會同考試院定之","由各地方主管機關分別定之","由中央主管機關報行政院核定"],"a",
+ ["由中央主管機關定之","由行政院會同考試院定之","由地方主管機關分別定之","由行政院核定後定之"],"a",
  "第39條：本法施行細則，由中央主管機關定之。性別平等工作法施行細則第1條亦載明本細則依性別平等工作法第39條規定訂定之。第34條第4項另規定申訴審議處理辦法由中央主管機關定之。",
  "Who issues the Enforcement Rules of the Gender Equality in Employment Act?",
- ["The central competent authority","The Executive Yuan with the Examination Yuan","Each local competent authority separately","The central authority with Executive Yuan approval"],
+ ["The central competent authority","The Executive and Examination Yuans","Each local authority separately","Subject to Executive Yuan approval"],
  "Article 39: issued by the central competent authority."),
 
 ("OSH-37","第39條之1",2,"性平法-過渡規定",
@@ -290,10 +290,10 @@ Q = [
 
 ("OSH-38","第6條",1,"性平細則-產假計算",
  "本法第十五條第一項規定產假期間之計算，應如何辦理？",
- ["應依曆連續計算","應扣除例假及國定假日","應僅計算實際工作日數","應由勞雇雙方協商分段計算"],"a",
+ ["應依曆連續計算","應扣除例假及國定假日","應僅計算工作日","應由勞雇協商分段計算"],"a",
  "施行細則第6條：本法第15條第1項規定產假期間之計算，應依曆連續計算。本法第15條第1項規定分娩前後應給予產假八星期，妊娠三個月以上流產者產假四星期，妊娠二個月以上未滿三個月流產者一星期，未滿二個月流產者五日。",
  "How is the maternity leave period under Article 15(1) counted?",
- ["Continuously by the calendar","Excluding days off and national holidays","Counting only actual working days","Split into stages as the parties agree"],
+ ["Continuously by the calendar","Excluding days off and national holidays","Counting only working days","Split into stages as the parties agree"],
  "Rule 6: counted continuously by the calendar."),
 
 ("OSH-38","第7條",2,"性平細則-陪產假",

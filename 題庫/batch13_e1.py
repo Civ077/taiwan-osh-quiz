@@ -174,7 +174,7 @@ Q = [
 
 (EL,"第7條",1,"環境講習-出席方式",
  "環境講習對象之出席方式有何規定？",
- ["均應親自出席，不得代理","得委任代理人出席，但以一次為限","得由受處分人之員工代為出席即可","得以線上同步視訊方式代替親自出席"],"a",
+ ["環境講習均應親自出席，不得代理","得委任代理人出席，但以一次為限","得由受處分人之員工代為出席即可","得以線上同步視訊方式代替親自出席"],"a",
  "第7條：環境講習對象接受環境講習均應親自出席，不得代理。第12條並定應攜帶環境講習通知單及身分證明文件正本，依指定時間及地點報到，以確認出席者身分。無法親自出席者，須依第13條申請重新指派或依第14條申請延期。",
  "How must the designated attendee take part in the environmental lecture?",
  ["The attendee must appear in person; representation by proxy is not allowed","A proxy may be appointed to attend, but only once for each disposition","An employee of the respondent may simply attend on the attendee's behalf","Live online video participation may replace attending the lecture in person"],

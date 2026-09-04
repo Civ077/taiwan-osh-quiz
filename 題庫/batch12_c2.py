@@ -338,7 +338,7 @@ Q = [
 
 (L3,"第7條",1,"移動源設備-施行",
  "移動污染源空氣污染防制設備管理辦法之施行日期為何？",
- ["本辦法自發布日施行","本辦法自發布後三個月施行","本辦法自次年一月一日施行","本辦法自發布後一年施行之"],"a",
+ ["本辦法自發布日起施行","本辦法自發布後三個月施行","本辦法自次年一月一日施行","本辦法自發布後一年施行之"],"a",
  "第7條：本辦法自發布日施行。第2條並規定火車、船舶、航空器及其他水上動力機具之空氣污染防制設備種類，中央主管機關得另行公告之。",
  "When do the Regulations for Mobile Source Air Pollution Control Equipment take effect?",
  ["They take effect on the date of promulgation","They take effect three months after promulgation","They take effect on 1 January of the next year","They take effect one year after promulgation"],

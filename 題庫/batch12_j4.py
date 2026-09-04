@@ -141,10 +141,10 @@ Q = [
 
 (S,"第16條",1,"設施場所-撤銷認證",
  "設施場所檢送之申請文件有虛偽不實者，中央主管機關應如何處理？",
- ["應撤銷其認證","得命其限期改善，屆期未改善始撤銷認證","應處以罰鍰並命其重新提出正確之申請文件","得暫停其認證效力一年，期滿後自動回復效力"],"a",
+ ["應撤銷其設施場所之認證","應先命限期改善屆期未改善始撤銷","應處罰鍰並命重新提出申請文件","得暫停其認證效力一年後回復"],"a",
  "第16條：設施場所依第4條及第9條第1項檢送之申請文件有虛偽不實者，中央主管機關應撤銷其認證。第17條則規定得廢止認證之十款情形；第18條並定認證之核發、撤銷或廢止應公開於中央主管機關網站。",
  "What happens if the submitted application documents are false?",
- ["The certification must be revoked","An improvement order comes first, with revocation only if unremedied","A fine is imposed together with an order to refile correct application documents","The certification is suspended for one year and then automatically restored"],
+ ["The certification of the site must be revoked","An improvement order comes first, revocation later","A fine is imposed with an order to refile documents","The certification is suspended for one year, then revives"],
  "Article 16."),
 
 (S,"第17條",3,"設施場所-廢止認證",
@@ -173,7 +173,7 @@ Q = [
 
 (S,"第20條",1,"設施場所-施行日",
  "環境教育設施場所認證及管理辦法之施行日期規定為何？",
- ["自發布日施行","自發布後三個月施行","自發布後六個月施行","自發布後一年施行"],"a",
+ ["本辦法自發布日起施行","本辦法自發布後三個月施行","本辦法自發布後六個月施行","本辦法自發布後一年施行"],"a",
  "第20條：本辦法自發布日施行。本辦法依環境教育法第14條第3項訂定，第9條並定認證有效期限為五年、每次展延五年。",
  "When do these Regulations take effect?",
  ["On the date of promulgation","Three months after promulgation","Six months after promulgation","One year after promulgation"],
@@ -333,10 +333,10 @@ Q = [
 
 (G,"第18條",1,"環教機構-撤銷認證",
  "環境教育機構檢送之申請文件有虛偽不實者，核發機關應如何處理？",
- ["應撤銷其認證","得命其限期改善，屆期未改善完成始撤銷其認證","應處以罰鍰並命其於三十日內重新檢送正確文件","得停止其招訓學員六個月，期滿後認證回復效力"],"a",
+ ["應撤銷該機構之環境教育認證","應先命限期改善屆期未改善始撤銷","應處罰鍰並命三十日內重新檢送文件","得停止其招訓學員六個月後回復"],"a",
  "第18條：環境教育機構依第4條第1項、第2項及第9條第1項檢送之申請文件有虛偽不實者，核發機關應撤銷其認證。第19條則規定得廢止認證之十款情形；第20條並定認證之核發、撤銷或廢止應公開於核發機關網站。",
  "What happens if an institution submits false application documents?",
- ["The certification must be revoked","An improvement order comes first, with revocation only if unremedied","A fine is imposed with an order to refile correct documents within thirty days","Student recruitment is suspended for six months and then certification revives"],
+ ["The institution's certification must be revoked","An improvement order comes first, revocation later","A fine is imposed with an order to refile within thirty days","Student recruitment is suspended for six months, then it revives"],
  "Article 18."),
 
 (G,"第19條",3,"環教機構-廢止認證",
@@ -349,7 +349,7 @@ Q = [
 
 (G,"第20條",1,"環教機構-資訊公開",
  "環境教育機構認證之核發、撤銷或廢止，應如何公開？",
- ["應公開於核發機關之網站","應刊登於政府公報及全國性報紙","應函知各級學校及地方主管機關轉知","應於環境教育機構門口公告三十日"],"a",
+ ["應公開於核發機關之網站","應刊登政府公報及全國性報紙","應函知各級學校及地方主管機關轉知","應於環境教育機構門口公告三十日"],"a",
  "第20條：環境教育機構認證之核發、撤銷或廢止，應公開於核發機關之網站。第2條並定核發機關指辦理環境教育機構認證之中央主管機關及中央目的事業主管機關；第8條第2項並要求認證證明文件應陳列於機構明顯處。",
  "How must the issuance, revocation or annulment of institution certification be published?",
  ["It must be published on the website of the issuing agency","It must be published in the government gazette and a national newspaper","It must be notified to schools and local authorities for onward notice","It must be posted at the institution entrance for thirty days"],
@@ -357,7 +357,7 @@ Q = [
 
 (G,"第21條",1,"環教機構-施行日",
  "環境教育機構認證及管理辦法之施行日期規定為何？",
- ["自發布日施行","自發布後三個月施行","自發布後六個月施行","自發布後一年施行"],"a",
+ ["本辦法自發布日起施行","本辦法自發布後三個月施行","本辦法自發布後六個月施行","本辦法自發布後一年施行"],"a",
  "第21條：本辦法自發布日施行。本辦法依環境教育法第10條第3項訂定，第9條並定認證有效期限為五年、每次展延之有效期限亦為五年。",
  "When do the Environmental Education Institution Regulations take effect?",
  ["On the date of promulgation","Three months after promulgation","Six months after promulgation","One year after promulgation"],

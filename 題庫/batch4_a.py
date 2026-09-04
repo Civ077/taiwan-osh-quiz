@@ -99,10 +99,10 @@ Q = [
  "Article 5-1(3): with specialists/administrators the supervisor directs and oversees; without them the supervisor drafts, plans, promotes and audits."),
 
 (GL,"第6條",3,"管理辦法-總機構",
- "事業設有總機構者，第一類事業勞工人數在幾人以上，應於總機構設直接隸屬雇主之專責一級管理單位？第三類事業幾人以上應設管理單位？",
+ "事業設有總機構者，第一類事業勞工人數在幾人以上，應於總機構或其地區事業單位設直接隸屬雇主之專責一級管理單位？第三類事業幾人以上應設管理單位？",
  ["五百人；三千人","三百人；一千人","一百人；五百人","一千人；五千人"],"a",
  "第6條第2項：設有總機構者，第一類事業五百人以上應設直接隸屬雇主之專責一級管理單位；第二類事業五百人以上應設直接隸屬雇主之一級管理單位；第三類事業三千人以上應設管理單位；所置管理人員應為專職（第二、三類之業務主管除外）。",
- "For an enterprise with a head office, a Category 1 enterprise with how many workers needs a dedicated first-level unit at head office, and Category 3 with how many needs a management unit?",
+ "For an enterprise with a head office, a Category 1 enterprise with how many workers needs a dedicated first-level unit at the head office or a regional unit, and Category 3 with how many needs a management unit?",
  ["500; 3,000","300; 1,000","100; 500","1,000; 5,000"],
  "Article 6(2): Category 1 with 500+ → dedicated first-level unit; Category 2 with 500+ → first-level unit; Category 3 with 3,000+ → management unit; personnel full-time except Category 2/3 business supervisors."),
 
@@ -407,7 +407,7 @@ Q = [
  ["每個月","每三個月","每半年","每二年"],"a",
  "第42條：再壓室或減壓艙每個月檢查輸氣設備及排氣設備運作、通話設備及警報裝置運作、電路有無漏電、電器機械器具及配線有無損傷。",
  "Recompression chambers and decompression chambers must be inspected for supply/exhaust, communication/alarm, leakage current and wiring every:",
- ["Month","3 months","6 months","2 years"],
+ ["Every month","Every 3 months","Every 6 months","Every 2 years"],
  "Article 42: monthly."),
 
 (GL,"第43條",2,"管理辦法-定期檢查",

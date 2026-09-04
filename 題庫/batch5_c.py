@@ -159,7 +159,7 @@ Q = [
  ["1 : 1/5; 1 : 1/20","1 : 1/2; 1 : 1/10","1 : 1; 1 : 1/5","1 : 1/10; 1 : 1/50"],
  "Article 7: adjacent area at least one fifth, surrounding area at least one twentieth of the work-surface level; Article 8: auxiliary lights at 30° or more from the line of sight or shielded."),
 
-(PC,"第9條",2,"精密作業-休息",
+(PC,"第9條、第10條",2,"精密作業-休息",
  "從事精密作業連續作業二小時，應給予勞工至少幾分鐘休息？眼球與工作點之距離應保持約多少公分？",
  ["十五分鐘；三十公分","十分鐘；二十公分","二十分鐘；四十公分","三十分鐘；五十公分"],"a",
  "第9條：連續作業二小時給予至少十五分鐘休息。第10條：應注意作業姿態使眼球與工作點之距離保持在明視距離約三十公分，使用放大鏡顯微鏡者除外。第11條：應採取指導勞工保護眼睛之必要措施。",

@@ -51,7 +51,7 @@ Q = [
  ["1.2 m; 45 cm","2 m; 60 cm","0.5 m; 30 cm","3 m; 1 m"],
  "Article 11: 1.2 m overhead; 45 cm at the sides (30 cm for small drums up to 500 mm × 1,000 mm)."),
 
-(BP,"第12條",3,"鍋爐-可燃物",
+(BP,"第12條、第13條",3,"鍋爐-可燃物",
  "鍋爐及其金屬製煙囪或煙道未裝設厚度十公分以上非金屬不燃材料被覆者，其外側幾公分內不得堆置可燃性物料？鍋爐房儲存固體燃料及液體氣體燃料應各距離鍋爐外側幾公尺以上？",
  ["十五公分；一點二公尺及二公尺","三十公分；三公尺及五公尺","五公分；零點五公尺及一公尺","一公尺；五公尺及十公尺"],"a",
  "第12條：未裝設厚度十公分以上非金屬不燃性材料被覆者，其外側十五公分內不得堆置可燃性物料（以不燃材料被覆者除外）。第13條：固體燃料應距鍋爐外側一點二公尺以上，液體或氣體燃料二公尺以上，設有適當防火障壁者得縮減。",
@@ -213,7 +213,7 @@ Q = [
  ["Cargo handling on board or ashore within the port area; the shipowner, carrier, master or their agent","Customs clearance, billing and claims on board or ashore in the port; the shipper, consignee, broker or agent","Storage and repacking of cargo in a free trade port zone; the wharf operator, warehouse keeper, port company or agent","Processing and packing at factories or warehouses outside the port; the charterer, pilot, class society or agent"],
  "Article 3 definitions of operations, hatches, handling equipment, cargo owner, ship's side and wharf operator."),
 
-(WH,"第8條",3,"碼頭-欄柵",
+(WH,"第8條、第9條",3,"碼頭-欄柵",
  "港區裝卸作業場所及陸上通道接近開口邊緣斷裂處等危險部分，應設置高度幾公分以上之欄柵或繩柵？沿碼頭設置之通道寬度應保持幾公尺以上？",
  ["七十五公分；一公尺","九十公分；一點五公尺","六十公分；零點八公尺","一百公分；二公尺"],"a",
  "第8條：接近開口邊緣斷裂處穿越轉角便橋船渠走道等危險部分應設高度七十五公分以上之穩固欄柵或適當強度之繩柵並設警告標示。第9條：沿碼頭或岸邊通道應保持一條自碼頭至船上暢通無阻之通道，寬度一公尺以上。第10條：便橋寬度不小於五十五公分、自岸邊或船舷延長一點五公尺以上、兩旁圍七十五公分以上欄柵。",

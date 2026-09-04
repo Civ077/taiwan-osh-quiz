@@ -274,16 +274,10 @@ Q = [
 
 (A,"第18條",1,"再生資源再生利用-文書格式",
  "本辦法所定之相關文書及證明文件格式，由何機關定之？",
- ["由環境部定之",
-  "由地方主管機關定之",
-  "由目的事業主管機關定之",
-  "由再生利用業者公會定之"],"a",
+ ["由中央主管機關（環境部）定之","由直轄市、縣（市）主管機關定之","由目的事業主管機關定之","由再生利用業者公會定之"],"a",
  "第18條：本辦法所定之相關文書及證明文件格式，由本部（環境部）定之。第6條並定申請登記應填具申請表並檢具相關文件向場（廠）所在地直轄市、縣（市）主管機關辦理。",
  "Which agency prescribes the forms and certificates used under these Regulations?",
- ["The Ministry of Environment",
-  "The local competent authority",
-  "The relevant industry regulator",
-  "The reuse operators' trade association"],
+ ["The Ministry of Environment","The municipal or county authority","The relevant industry regulator","The reuse operators' trade association"],
  "Article 18."),
 
 (A,"第19條",1,"再生資源再生利用-施行日",

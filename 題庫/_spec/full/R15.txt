@@ -1,0 +1,13 @@
+batch9_d2	23
+batch9_d3	60
+batch9_d4	29
+batch9_d5	29
+batch9_d6	24
+batch9_d7	16
+batch9_d8	32
+batch9_d9	30
+batch9_e	58
+batch9_e1	32
+batch9_e2	41
+batch9_e3	26
+batch9_e4	31

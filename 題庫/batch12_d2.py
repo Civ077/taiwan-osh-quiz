@@ -109,7 +109,7 @@ Q = [
  ["空氣污染防制法第二十條第二項及第二十三條第二項","空氣污染防制法第二十二條第二項及第二十四條第一項","空氣污染防制法第二十條第一項及第三十一條第二項規定","毒性及關注化學物質管理法第二十條第二項規定訂定"],"a",
  "第1條：本標準依空氣污染防制法第二十條第二項及第二十三條第二項規定訂定之。第3條並定適用於聚氨基甲酸酯塗布業，第8條定自發布日施行。",
  "Which provisions authorize this VOC standard for polyurethane coating?",
- ["Articles 20-2 and 23-2 of the Air Pollution Control Act","Articles 22-2 and 24-1 of the Air Pollution Control Act","Articles 20-1 and 31-2 of the Air Pollution Control Act","Article 20-2 of the Toxic Chemical Substances Act"],
+ ["Article 20(2) and Article 23(2) of the Air Pollution Control Act","Article 22(2) and Article 24(1) of the Air Pollution Control Act","Article 20(1) and Article 31(2) of the Air Pollution Control Act","Article 20(2) of the Toxic and Concerned Chemical Substances Act"],
  "Article 1."),
 
 (B,"第2條",3,"聚氨酯塗布-製程定義",
@@ -371,7 +371,7 @@ Q = [
 
 (C,"第24條",1,"蒙特婁列管物質-施行日",
  "蒙特婁議定書列管化學物質管理辦法之施行日期為何？",
- ["本辦法自發布日施行","本辦法自發布後六個月施行","本辦法自九十九年一月一日施行","本辦法自一百零八年七月一日施行"],"a",
+ ["本辦法自發布日起施行","本辦法自發布後六個月施行","本辦法自九十九年元旦施行","本辦法自一百零八年七月一日施行"],"a",
  "第24條：本辦法自發布日施行。本辦法最近一次修正日期為民國一百零八年二月十五日；至第15條所定九十九年一月一日則為冷凍空調維修限用回收物質之起始日。",
  "When do these Regulations take effect?",
  ["They take effect on the date of promulgation","They take effect six months after promulgation","They take effect on January 1, 2010","They take effect on July 1, 2019"],

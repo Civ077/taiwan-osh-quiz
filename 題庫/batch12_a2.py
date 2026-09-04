@@ -130,7 +130,7 @@ Q = [
 
 (D,"第14條",1,"排放抵換-施行",
  "公私場所固定污染源申請改善排放空氣污染物總量及濃度管理辦法之施行日期為何？",
- ["自發布日施行","自發布後三個月施行","自發布後一年施行","另定施行日期並公告之"],"a",
+ ["本辦法自發布日起施行","本辦法自發布後三個月施行","本辦法自發布後一年施行","本辦法另定施行日期公告之"],"a",
  "第14條：本辦法自發布日施行。屬形式規定，無緩衝期間，發布當日即生效力。",
  "When does this regulation take effect?",
  ["On the date of promulgation","Three months after promulgation","One year after promulgation","On a separately announced date"],
@@ -243,10 +243,10 @@ Q = [
 
 (E,"第11條",1,"排放量申報-格式",
  "本辦法所定之相關格式，應由何機關定之？",
- ["中央主管機關","直轄市、縣（市）主管機關","目的事業主管機關","受託之檢驗測定機構"],"a",
+ ["由中央主管機關定之","由地方主管機關定之","由目的事業主管機關定之","由受託檢驗測定機構定之"],"a",
  "第11條：本辦法所定之相關格式，由中央主管機關定之。與第3條第1項要求依中央主管機關所定格式以網路傳輸申報之規定相互配合，以維持全國申報格式之一致。",
  "Which authority prescribes the forms used under this regulation?",
- ["The central competent authority","The municipal or county authority","The relevant industry authority","The commissioned testing agency"],
+ ["The central competent authority","The local competent authority","The relevant industry authority","The commissioned testing agency"],
  "Article 11: the central competent authority prescribes the forms."),
 
 (E,"第12條",2,"排放量申報-保存年限",
@@ -267,7 +267,7 @@ Q = [
 
 (E,"第14條",1,"排放量申報-施行",
  "公私場所固定污染源空氣污染物排放量申報管理辦法之施行日期為何？",
- ["自發布日施行","自發布後六個月施行","自發布後一年施行","另定施行日期並公告之"],"a",
+ ["本辦法自發布日起施行","本辦法自發布後六個月施行","本辦法自發布後一年施行","本辦法另定施行日期公告之"],"a",
  "第14條：本辦法自發布日施行。屬形式規定，無緩衝期間，發布當日即生效力。",
  "When does this reporting regulation take effect?",
  ["On the date of promulgation","Six months after promulgation","One year after promulgation","On a separately announced date"],
@@ -404,7 +404,7 @@ Q = [
 
 (F,"第17條",1,"復工試車-施行",
  "公私場所固定污染源復工試車評鑑及管理辦法之施行日期為何？",
- ["自發布日施行","自發布後三個月施行","自發布後一年施行","另定施行日期並公告之"],"a",
+ ["本辦法自發布日起施行","本辦法自發布後三個月施行","本辦法自發布後一年施行","本辦法另定施行日期公告之"],"a",
  "第17條：本辦法自發布日施行。屬形式規定，無緩衝期間，發布當日即生效力。",
  "When does this trial run regulation take effect?",
  ["On the date of promulgation","Three months after promulgation","One year after promulgation","On a separately announced date"],

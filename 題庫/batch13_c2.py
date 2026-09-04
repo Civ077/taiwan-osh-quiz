@@ -2,7 +2,7 @@
 # 第 13 批（C2）：環境影響評估法施行細則（115/2/5）第27條～第53條補題
 EIAR = "ENV-63"
 Q = [
-(EIAR,"第27條",1,"環評細則-條文刪除",
+(EIAR,"第26條、第27條",1,"環評細則-條文刪除",
  "環境影響評估法施行細則第二十七條之現行狀態，及公聽會通知期限規定之所在條文為何？",
  ["第二十七條已刪除；公聽會應於十日前通知主管機關、委員、有關機關、專家學者、團體及當地居民","第二十七條仍有效；其內容即規定公聽會應於三十日前通知有關機關、專家學者及當地居民","第二十七條已刪除；公聽會通知期限改列於第二十八條，應於十四日前通知各該機關人員","第二十七條仍有效；其內容為規定開發單位提出說明書時應提供包含預測及可行方案資料"],"a",
  "第27條已刪除。公聽會之通知期限規定於第26條第1項：目的事業主管機關舉行公聽會時，應於十日前通知主管機關、委員會委員、有關機關、專家、學者、團體及當地居民，並公布於指定網站至公聽會舉行翌日。開發單位提供完整資料之義務則見第28條。",
@@ -42,7 +42,7 @@ Q = [
  ["Displayed at a suitable nearby place for at least fifteen days, or published in newspapers five days running","Displayed at a suitable nearby place for at least thirty days, or published in newspapers three days running","Displayed at a suitable nearby place for at least seven days, or published in newspapers ten days running","Displayed at a suitable nearby place for at least sixty days, or published in newspapers seven days running"],
  "Article 30; compare Article 21."),
 
-(EIAR,"第31條",1,"環評細則-條文刪除",
+(EIAR,"第30條、第31條",1,"環評細則-條文刪除",
  "環境影響評估法施行細則第三十一條之現行狀態，及審查結論公告方式規定之所在條文為何？",
  ["第三十一條已刪除；公告依第三十條應陳列或揭示至少十五日，或刊載新聞紙連續五日以上","第三十一條仍有效；其內容即規定公告應陳列至少十五日或刊載新聞紙連續五日以上","第三十一條已刪除；公告方式改列於第三十二條，應陳列至少三十日並刊載新聞紙三日","第三十一條仍有效；其內容為規定同一場所指環境背景因子類似且可合併評估之區域"],"a",
  "第31條已刪除。本法第七條第二項及第十三條第三項公告之方式規定於第30條。第33條則定明本法第十五條所稱同一場所，指一定區域內各開發場所環境背景因子類似，且其環境影響可合併評估者。",
@@ -138,7 +138,7 @@ Q = [
  ["Signatures of the overall assessor and item writers, comparison of this and prior changes with the approved content, and difference analysis","The responsible person's name, residence and ID number, the environmental status quo, known or predicted impacts, and alternatives","Surveys of environmental differences before and after completion, compared against the predictions in the statement and report","The situation qualifying for a change comparison table, the current status, an impact explanation, and other designated items"],
  "Article 37-1, paragraph 2."),
 
-(EIAR,"第38條之1",1,"環評細則-條文刪除",
+(EIAR,"第38條、第38條之1",1,"環評細則-條文刪除",
  "環境影響評估法施行細則第三十八條之一之現行狀態，及應重新辦理環評情形規定之所在條文為何？",
  ["第三十八條之一已刪除；應重新辦理之情形依第三十八條，含產能規模擴增或路線延伸百分之十以上者","第三十八條之一仍有效；其內容即規定產能擴增百分之十以上者應就變更部分重新辦理環評","第三十八條之一已刪除；應重新辦理之情形改列於第三十九條，含降低環保設施處理等級者","第三十八條之一仍有效；其內容為規定目的事業主管機關依本法第十八條所為之追蹤事項"],"a",
  "第38條之1已刪除。應就申請變更部分重新辦理環境影響評估之六款情形規定於第38條第1項，包括計畫產能、規模擴增或路線延伸百分之十以上者等；同條第3項並定明開發行為完成並取得營運許可後有規模擴增或擴建者，仍應依本法第五條實施環評。",
@@ -202,7 +202,7 @@ Q = [
  ["The conclusion must include an overall assessment; there are five categories, including a catch-all recognized centrally","The conclusion must include a quantified scoring table; there are three categories, with no central catch-all item","The conclusion must include individual member opinions; there are seven categories, including return and referral","The conclusion must include a monitoring plan; there are four categories, excluding second-stage assessment"],
  "Article 43, main text."),
 
-(EIAR,"第44條",1,"環評細則-條文刪除",
+(EIAR,"第43條、第44條",1,"環評細則-條文刪除",
  "環境影響評估法施行細則第四十四條之現行狀態，及審查結論分類規定之所在條文為何？",
  ["第四十四條已刪除；審查結論之五款分類規定於第四十三條，內容並應涵括綜合評述之部分","第四十四條仍有效；其內容即規定審查結論分為通過、有條件通過及應繼續第二階段等款","第四十四條已刪除；審查結論分類改列於第四十八條，並增列退回補正及移送他機關等款","第四十四條仍有效；其內容為規定本法第二十八條所稱主管機關認有必要時之各該情形"],"a",
  "第44條至第47條均已刪除。審查結論之分類及應涵括綜合評述規定於第43條；本法第28條所稱主管機關認有必要時之意義則見第48條。",
@@ -218,7 +218,7 @@ Q = [
  ["Article 45 is deleted; Article 48 defines it as an Article 19 situation unresolved under other applicable laws","Article 45 remains in force and itself defines the phrase as a situation unresolved under other laws","Article 45 is deleted; the phrase moved to Article 50 and refers to the original reviewing agency's finding","Article 45 remains in force and lists the eleven items to be recorded in the report under Article 28"],
  "Article 45 is deleted; see Article 48."),
 
-(EIAR,"第46條",1,"環評細則-條文刪除",
+(EIAR,"第46條、第49條",1,"環評細則-條文刪除",
  "環境影響評估法施行細則第四十六條之現行狀態，及本法第二十八條書面報告記載事項規定之所在條文為何？",
  ["第四十六條已刪除；書面報告之十一款記載事項規定於第四十九條，含環境現況及替代方案等款","第四十六條仍有效；其內容即規定書面報告應記載環境現況、替代方案及執行因應對策之經費","第四十六條已刪除；記載事項改列於第五十一條，並僅需記載開發行為名稱及開發場所二款","第四十六條仍有效；其內容為規定本法第二十九條所稱相關主管機關指本法施行前之原審查機關"],"a",
  "第46條已刪除。依本法第28條辦理環境影響調查、分析及提出因應對策之書面報告，其應記載事項規定於第49條，共十一款，包括開發單位名稱及營業所或事務所、負責人姓名住居所及身分證統一編號、開發行為名稱及場所、目的及內容、環境保護對策及成果、環境現況、已知或預測之環境影響、減輕或避免不利影響之對策、替代方案、所須經費及參考文獻。",

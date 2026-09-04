@@ -99,7 +99,7 @@ Q = [
  "Articles 12, 15–16."),
 
 # ---------- 有害事業廢棄物認定標準（109/2/21） ----------
-(HW,"第2條",2,"有害廢棄物-判定順序",
+(HW,"第2條、第3條",2,"有害廢棄物-判定順序",
  "有害事業廢棄物依何順序判定？列表之有害事業廢棄物包括哪些？",
  ["先依列表、再依有害特性認定、最後依中央主管機關公告；列表者為製程有害事業廢棄物、混合五金廢料、生物醫療廢棄物","先依有害特性認定、再依列表、最後依地方主管機關公告；列表者為溶出毒性廢棄物、戴奧辛廢棄物、石綿及其製品廢棄物","先依中央主管機關公告、再依列表、最後依有害特性認定；列表者為毒性有害廢棄物、腐蝕性廢棄物、反應性廢棄物","先依事業自行申報、再依檢測機構認定、最後依列表；列表者為易燃性廢棄物、多氯聯苯廢棄物、廢棄容器類廢棄物"],"a",
  "第2條：依序為列表之有害事業廢棄物、有害特性認定之有害事業廢棄物、其他經中央主管機關公告者。第3條：列表者為製程有害事業廢棄物（附表一製程產生）、混合五金廢料（依清理階段危害特性判定，附表二）、生物醫療廢棄物（醫療機構醫事檢驗所生物安全二級以上實驗室等產生附表三所列）。第4條：有害特性認定者為毒性（毒化物第一至三類固液體廢棄物及直接接觸之廢容器）、溶出毒性（TCLP 萃出液超過附表四）、戴奧辛（總毒性當量超過 1.0 ng I-TEQ/g）、多氯聯苯（含量百萬分之五十以上）、腐蝕性、易燃性、反應性、石綿及其製品。",
@@ -124,7 +124,7 @@ Q = [
  ["Basic data, raw material use and output, processes or workflows, waste types/quantities/properties and disposal methods, a site layout, a plan for relocation/closure/bankruptcy, and emergency measures for hazardous waste","Basic data, headcount and organization chart, product prices and annual revenue, copies of waste disposal contracts, the full text of the EIA conclusion, photos and licenses of hauling vehicles, and staff training certificates","Basic data, copies of building and occupancy permits, copies of water and air pollution permits, an annual waste disposal budget, a landfill geological drilling report, hauling route maps, and the owner's clean criminal record","Basic data, the shareholder list and paid-in capital, import customs documents for raw materials, waste sampling and testing reports, written consent from neighboring residents, fire safety certificates, and liability insurance"],
  "Articles 3–5 and 11-1."),
 
-(WPB,"第9條",3,"清理計畫書-有效期限",
+(WPB,"第9條、第11條",3,"清理計畫書-有效期限",
  "事業廢棄物清理計畫書之有效期限為幾年？展延應於何時申請？審核機關受理新設變更展延應於幾日內完成審查？",
  ["五年（首次依附表或公告方式收受不同廢棄物再利用者三年）；屆滿前四至六個月；四十五日內，得延長四十五日","三年（首次依附表或公告方式收受不同廢棄物再利用者二年）；屆滿前二至三個月；三十日內，得延長三十日","十年（首次依附表或公告方式收受不同廢棄物再利用者五年）；屆滿前六至九個月；六十日內，得延長六十日","五年（首次依附表或公告方式收受不同廢棄物再利用者亦五年）；屆滿前一至二個月；二十五日內，得延長二十五日"],"a",
  "第9條：有效期限五年，首次依中央目的事業主管機關或中央主管機關再利用管理辦法附表或公告管理方式收受不同事業廢棄物再利用者三年；屆滿後繼續營運應於屆滿前四個月至六個月申請展延，每次五年（再利用者三年以上五年以下）；期限內辦理變更者自核准日重新起算；有第16條情形或一年內無再利用業務者得縮減至未滿三年。第11條：新設新提重提變更展延應通知七日內繳審查費並於四十五日內完成審查，必要時延長四十五日；異動二十五日內（得延長二十五日）；補正以三次為限總日數不超過三十日。第11條之2：固體再生燃料原料用途須經書面審查現場勘查及試運轉三階段，試運轉不超過二個月展延一次不超過一個月。",

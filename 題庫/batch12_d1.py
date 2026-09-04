@@ -287,7 +287,7 @@ Q = [
  ["自中華民國一百零一年十一月二十三日施行","自中華民國一百零一年十一月二十三日後六個月施行","自中華民國一百零二年一月一日起開始正式施行","自中華民國一百年十一月二十三日起溯及既往施行"],"a",
  "第9條：本準則自中華民國一百零一年十一月二十三日施行，與其修正發布日期相同。至於各項罰鍰額度之計算基準，則依第2條所定附表辦理。",
  "When did these fine-assessment rules take effect?",
- ["On November 23, 2012","Six months after November 23, 2012","On January 1, 2013, as the formal effective date","Retroactively from November 23, 2011"],
+ ["They took effect on November 23, 2012","They took effect six months after that date","They took effect on January 1, 2013 as the formal date","They took effect retroactively from November 23, 2011"],
  "Article 9."),
 
 # ===== ENV-139 鉛二次冶煉廠空氣污染物排放標準（8 條）=====
@@ -325,7 +325,7 @@ Q = [
 
 (D,"第5條",1,"鉛二次冶煉-規定值",
  "本標準之各項空氣污染物排放規定值如何呈現？",
- ["本標準規定值如附表所列","本標準規定值於條文中逐項列明","本標準規定值由地方主管機關另訂","本標準規定值準用固定污染源標準"],"a",
+ ["本標準規定值如附表所列","本標準規定值於條文中列明","本標準規定值由地方機關另訂","本標準規定值準用固定污染源標準"],"a",
  "第5條：本標準規定值如附表。第6條並定各項污染物採樣及測定方法依附表及中央主管機關增訂公告之方法；第8條定該附表與第7條自一百十年七月一日施行。",
  "How are the numerical emission limits set out in this standard?",
  ["The limits are listed in the attached table","The limits are written out article by article","The limits are separately set by local agencies","The limits follow the stationary source standard"],

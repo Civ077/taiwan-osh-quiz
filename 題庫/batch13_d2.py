@@ -84,7 +84,7 @@ Q = [
  ["氣候變遷因應法第六十二條之授權規定","氣候變遷因應法第二十一條第二項規定","氣候變遷因應法第二十七條第二項規定","氣候變遷因應法第三十條第二項之規定"],"a",
  "第1條：本細則依氣候變遷因應法第六十二條規定訂定之。母法第二十一條第二項為溫室氣體排放量盤查登錄及查驗管理辦法之授權依據，第二十七條第二項等則為碳費收費辦法之授權來源。",
  "Under which provision of the Climate Change Response Act are these Rules issued?",
- ["Article 62 of the Climate Change Response Act","Article 21, Paragraph 2 of the Climate Change Response Act","Article 27, Paragraph 2 of the Climate Change Response Act","Article 30, Paragraph 2 of the Climate Change Response Act"],
+ ["Article 62 of the Climate Change Response Act","Article 21(2) of the Climate Change Response Act","Article 27(2) of the Climate Change Response Act","Article 30(2) of the Climate Change Response Act"],
  "Article 1: issued under Article 62 of the Act."),
 
 (B,"第2條",2,"氣候法細則-中央權責",
@@ -273,7 +273,7 @@ Q = [
 
 (B,"第23條",1,"氣候法細則-公聽會紀錄",
  "中央主管機關依本法第十條第二項舉辦公聽會，其會議紀錄應如何處理？",
- ["其會議紀錄應公開之","其會議紀錄應列為密件保存","其會議紀錄應送立法院備查","其會議紀錄應僅供出席者索閱"],"a",
+ ["其會議紀錄應對外公開","其會議紀錄應列為密件保存","其會議紀錄應送立法院備查","其會議紀錄應僅供出席者索閱"],"a",
  "第23條：中央主管機關依本法第十條第二項規定舉辦公聽會之會議紀錄應公開之。依第24條規定，本細則所定應公開之事項，除另有規定外，應於辦理完成或核定後三十日內公開於中央主管機關指定網站。",
  "How must the minutes of the central authority's public hearing be handled?",
  ["The minutes shall be made public","The minutes shall be kept confidential","The minutes shall be filed with the Legislative Yuan","The minutes shall be available only to attendees"],
@@ -289,7 +289,7 @@ Q = [
 
 (B,"第25條",1,"氣候法細則-施行日",
  "氣候變遷因應法施行細則之施行日期規定為何？",
- ["本細則自發布日施行","本細則自發布後六個月施行","本細則自一百十三年一月一日施行","本細則自發布後一年之次日起施行"],"a",
+ ["本細則自發布日起施行","本細則自發布後六個月施行","本細則自一百十三年元旦施行","本細則自發布後一年之次日施行"],"a",
  "第25條：本細則自發布日施行，其現行條文修正日期為民國一百十二年十二月二十九日。相對地，溫室氣體排放量盤查登錄及查驗管理辦法第17條則規定自中華民國一百十三年一月一日施行。",
  "When do the Enforcement Rules of the Climate Change Response Act take effect?",
  ["On the date of promulgation","Six months after promulgation","On January 1, 2024","The day after one year from promulgation"],

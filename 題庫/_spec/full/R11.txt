@@ -1,0 +1,13 @@
+batch13_d1	43
+batch13_d2	36
+batch13_d3	41
+batch13_e1	35
+batch13_e2	30
+batch14_a1	41
+batch14_a2	41
+batch14_b1	49
+batch14_b2	45
+batch14_b3	39
+batch1_a	40
+batch1_b	44
+batch1_c	45

@@ -134,7 +134,7 @@ Q = [
   "Any pollutant increasing by 5 percent and 0.5 tonne or more over the permitted annual amount; or NOx 1 t, SOx 1 t, VOC 1 t, particulates 1 t or more"],
  "Article 4."),
 
-(P,"第9條",2,"固污許可-容許差值",
+(P,"第9條、第41條",2,"固污許可-容許差值",
  "許可證記載之各項許可條件或數值得有多少容許差值？試車或檢測時主要原（物）料及燃料使用量未達申請量百分之八十者應如何核定操作條件？",
  ["得有百分之十容許差值；以試車或檢測時實際操作條件之一點二倍作為操作許可證核定內容",
   "得有百分之二十容許差值；以試車或檢測時實際操作條件之一點五倍作為操作許可證核定內容",
@@ -219,7 +219,7 @@ Q = [
  "Articles 21 and 26."),
 
 # ---------- ENV-33 空氣污染防制費收費辦法（111/3/24） ----------
-(F,"第2條",2,"空污費-申報期限",
+(F,"第2條、第3條",2,"空污費-申報期限",
  "依油燃料種類成分數量徵收之空污費應於何時申報繳納？依排放空氣污染物種類數量徵收者應於何時申報？",
  ["銷售者或進口者於每月十五日前申報前月份；固定污染源於每年四月、七月、十月及次年一月底前申報前季",
   "銷售者或進口者於每月月底前申報前月份；固定污染源於每年三月、六月、九月及十二月底前申報前季",
@@ -275,7 +275,7 @@ Q = [
   "At most 30 days per above-ground floor; at most 60 days per below-ground floor; at most 90 days for excavation and other miscellaneous works"],
  "Article 5, paragraph 3, subparagraph 2."),
 
-(F,"第11條",3,"空污費-查核差異",
+(F,"第11條、第12條",3,"空污費-查核差異",
  "以檢測結果計算排放量之固定污染源，其檢測結果與申報數值差異達多少應重新核算？以質量平衡計量方式者，原（物）料成分檢測查核差異達多少應重新核算？",
  ["檢測結果換算單位活動強度排放量與申報值差異達百分之二十以上；質量平衡之成分檢測查核差異達百分之十以上",
   "檢測結果換算單位活動強度排放量與申報值差異達百分之十以上；質量平衡之成分檢測查核差異達百分之二十以上",
@@ -303,7 +303,7 @@ Q = [
   "When the declared quarterly emissions differ from the audit result by five times or more and 20 tonnes or more; from the month after, using continuous monitoring"],
  "Article 13."),
 
-(F,"第14條",2,"空污費-結算補繳",
+(F,"第14條、第26條",2,"空污費-結算補繳",
  "公私場所申報空污費經審查結算不足者應如何處理？溢繳未達一定金額者如何處理？申報及紀錄資料應保存幾年？",
  ["結算不足者加徵差額並限期九十日內繳納；溢繳未達二千元者充作其後應繳費額之一部分；相關資料應保存六年備查",
   "結算不足者加徵差額並限期三十日內繳納；溢繳未達一千元者充作其後應繳費額之一部分；相關資料應保存三年備查",
@@ -487,7 +487,7 @@ Q = [
   "Report to the local authority within 24 hours of start-up or switching; if the cause cannot be cleared within seven days, file supporting documents for approval within seven days"],
  "Article 5, subparagraph 1."),
 
-(B,"第6條",3,"鍋爐-氧氣基準",
+(B,"第6條、第7條",3,"鍋爐-氧氣基準",
  "本標準污染物濃度計算之含氧參考基準為何？既存鍋爐改善計畫展延核定之改善期限不得逾何時？",
  ["燃燒過程排氣中以百分之六氧氣為參考基準；既存鍋爐改善計畫展延核定之改善期限不得逾一百十六年七月一日",
   "燃燒過程排氣中以百分之十二氧氣為參考基準；既存鍋爐改善計畫展延核定之改善期限不得逾一百十八年十二月三十一日",
@@ -757,7 +757,7 @@ Q = [
   "Areas adjoining Zone 4 may be zoned 1; areas adjoining Zone 3 may also be zoned 1; land transport systems must be zoned 1"],
  "Article 7, subparagraphs 1 and 2."),
 
-(N,"第8條",2,"噪音管制區-特定管制區",
+(N,"第7條、第8條",2,"噪音管制區-特定管制區",
  "距大眾運輸系統、非地下化鐵路、高速公路及快速道路周界多少範圍內應劃為第三類？學校、圖書館及醫療機構得將周界外多少範圍劃為特定噪音管制區？",
  ["距周界至少三十公尺以內之區域應劃定為第三類；學校等場所周界外五十公尺範圍內得劃為特定噪音管制區",
   "距周界至少五十公尺以內之區域應劃定為第三類；學校等場所周界外三十公尺範圍內得劃為特定噪音管制區",
@@ -771,7 +771,7 @@ Q = [
   "Within at least 20 m of the boundary must be Zone 2; schools and similar sites may set special zones within 10 m outside their boundary"],
  "Articles 7 and 8."),
 
-(N,"第9條",2,"噪音管制區-公告檢討",
+(N,"第9條、第10條、第11條",2,"噪音管制區-公告檢討",
  "劃定或重新劃定公告噪音管制區前應公開展覽多久？圖例顏色第一類至第四類分別為何？公告後應多久檢討一次？",
  ["應公開展覽一個月；第一類淺藍、第二類淺綠、第三類淺黃、第四類淺紅色系；公告後應每二年檢討公告",
   "應公開展覽二星期；第一類淺綠、第二類淺藍、第三類淺紅、第四類淺黃色系；公告後應每五年檢討公告",
@@ -842,7 +842,7 @@ Q = [
   "Permits for premises last two years; premises facilities apply for renewal 15 days before expiry, construction facilities 30 days before expiry"],
  "Article 13; construction permits run for the works period."),
 
-(S,"第12條",2,"噪音設施-張掛變更",
+(S,"第12條、第14條、第15條",2,"噪音設施-張掛變更",
  "易發生噪音設施在指定管制區內操作時應如何？許可證毀損、滅失或基本資料變更應於幾日內申請？變更原許可內容應如何辦理？",
  ["應張掛操作許可證影本於設施上並能明顯辨識；自事實發生之日起十五日內申請補發換發或變更；變更原許可內容應於變更前重新申請",
   "應將操作許可證正本存放辦公室備查即可；自事實發生之日起六十日內申請補發換發或變更；變更原許可內容得於變更後三十日內報備",

@@ -10,7 +10,7 @@ Q = [
  ["10 kg/cm² (or reaching 10 at 35°C); 2 kg/cm² (or reaching 2 at 35°C or below)","5 kg/cm² (or reaching 5 at 35°C); 1 kg/cm² (or reaching 1 at 35°C or below)","2 kg/cm² (or reaching 2 at 15°C); 10 kg/cm² (or reaching 10 at 15°C or below)","20 kg/cm² (or reaching 20 at 50°C); 5 kg/cm² (or reaching 5 at 50°C or below)"],
  "Article 2; compressed acetylene counts from 2 kg/cm²; Article 3 defines specified HP gases (hydrogen, natural gas, liquid oxygen, ammonia, chlorine, LPG)."),
 
-(HG,"第4條",3,"高壓氣體-可燃性",
+(HG,"第4條、第6條",3,"高壓氣體-可燃性",
  "高壓氣體勞工安全規則所稱可燃性氣體，除列舉者外，指爆炸下限在百分之多少以下或爆炸上下限之差在百分之多少以上之氣體？毒性氣體指容許濃度在百萬分之多少以下者？",
  ["百分之十以下或差百分之二十以上；二百 ppm 以下","百分之五以下或差百分之十以上；一百 ppm 以下","百分之二十以下或差百分之三十以上；五百 ppm 以下","百分之一以下或差百分之五以上；五十 ppm 以下"],"a",
  "第4條：可燃性氣體指丙烯腈丙烯醛乙炔乙醛氨一氧化碳乙烷乙烯氯乙烯環氧乙烷氰化氫氫二硫化碳丁二烯丁烷丙烷丙烯溴甲烷苯甲烷硫化氫等及其他爆炸下限在百分之十以下或爆炸上限與下限之差在百分之二十以上之氣體。第6條：毒性氣體指丙烯腈丙烯醛二氧化硫氨一氧化碳氯氯甲烷環氧乙烷氰化氫氟溴甲烷苯光氣硫化氫等及其他容許濃度在百萬分之二百以下之氣體。第5條：原料氣體指可燃性氣體及氧氣。",
@@ -42,7 +42,7 @@ Q = [
  ["300 m³; 3,000 kg; 1,000 kg","100 m³; 1,000 kg; 500 kg","500 m³; 5,000 kg; 3,000 kg","1,000 m³; 10,000 kg; 5,000 kg"],
  "Article 28; Article 29: LPG consuming enterprises from 3,000 kg or pipeline supply."),
 
-(HG,"第33條",3,"高壓氣體-距離",
+(HG,"第33條、第34條",3,"高壓氣體-距離",
  "可燃性氣體製造設備外面至處理煙火之設備應保持幾公尺以上距離？可燃性氣體高壓氣體設備與氧氣製造設備之高壓氣體設備應保持幾公尺以上？",
  ["八公尺；十公尺","五公尺；五公尺","十公尺；二十公尺","三公尺；五公尺"],"a",
  "第33條：可燃性氣體製造設備外面至處理煙火設備應保持八公尺以上距離或設置防止漏洩氣體流竄之措施。第34條：可燃性氣體高壓氣體設備與其他可燃性氣體高壓氣體設備保持五公尺以上，與氧氣製造設備之高壓氣體設備保持十公尺以上。第35條：儲存能力三百立方公尺或三千公斤以上之可燃性氣體儲槽與其他可燃性氣體或氧氣儲槽間保持一公尺或最大直徑和四分之一以上較大者（設水噴霧者除外）。",
@@ -106,7 +106,7 @@ Q = [
  ["Explosion-proof, suited to the location and gas type","Waterproof and dust-tight, suited to the gas pressure","Ordinary construction, heat- and vibration-resistant","Corrosion-proof insulated, suited to the temperature"],
  "Article 54; Article 55: emergency power for safety systems; Article 60: gas leak detectors and alarms; Article 66: static elimination."),
 
-(HG,"第58條",3,"高壓氣體-防護牆",
+(HG,"第58條、第59條",3,"高壓氣體-防護牆",
  "壓縮機與灌裝壓縮乙炔氣於容器之場所或灌氣容器放置場間，應分設厚度幾公分以上之鋼筋混凝土防護牆？使用每平方公分幾公斤以上壓力灌注壓縮氣體者亦同？",
  ["十二公分；一百公斤","九公分；五十公斤","二十公分；二百公斤","五公分；十公斤"],"a",
  "第58條：放置壓縮機或灌裝壓縮乙炔氣於容器之場所與灌氣容器放置場間應分設厚度十二公分以上鋼筋混凝土造或同等強度之防護牆。第59條：壓縮機與使用每平方公分一百公斤以上壓力灌注壓縮氣體於容器之場所或灌氣容器放置場間亦同。第56條：灌裝壓縮乙炔氣場所及灌氣容器放置場應設撒水裝置。第57條：地上液化石油氣儲槽及支柱應為耐熱性構造或設冷卻撒水設備。",
@@ -114,7 +114,7 @@ Q = [
  ["12 cm; 100 kg/cm²","9 cm; 50 kg/cm²","20 cm; 200 kg/cm²","5 cm; 10 kg/cm²"],
  "Articles 58–59; Article 56: sprinklers at acetylene filling and cylinder storage; Article 57: heat-resistant LPG tanks or cooling sprays."),
 
-(HG,"第64條",3,"高壓氣體-毒性配管",
+(HG,"第64條、第65條",3,"高壓氣體-毒性配管",
  "毒性氣體之氣體設備之配管、管接頭及閥之接合應採用何種方式？並應在必要處所採用何種構造？",
  ["熔接接合（不適於熔接者得以凸緣接合代替）；二重管構造","螺紋接合（不適於螺紋者得以熔接接合代替）；二重管構造","熔接接合（不適於熔接者得以軟管連接代替）；單層薄管構造","凸緣接合（不適於凸緣者得以黏著接合代替）；一般單管構造"],"a",
  "第64條：毒性氣體之氣體設備之配管管接頭及閥之接合應採用熔接接合，不適於熔接者得以安全上具必要強度之凸緣接合代替。第65條：毒性氣體配管應依氣體種類性狀壓力及鄰近狀況在必要處所採用二重管構造。第61條：毒性氣體製造設備應設防止漏洩氣體擴散之裝置、吸收設備及吸收劑、防毒面罩保管於安全場所。第164、165條：液氨液氯消費設備亦同。",
@@ -242,7 +242,7 @@ Q = [
  ["Secure fastening between cylinders and to the vehicle, a main valve on each cylinder, and a safety valve, pressure gauge and emergency relief valve on the filling line","Secure fastening between cylinders and to the vehicle, one master valve for the whole assembly, and a safety valve, pressure gauge and emergency relief valve on the filling line","Rope tie-downs between the cylinders, a main valve on each cylinder, and only a thermometer and a manual bleed valve on the filling line","Secure fastening between cylinders and to the vehicle, a main valve on each cylinder, and a flow meter and automatic ignition device on the filling line"],
  "Article 124; Article 133: valve open/close status visible from outside."),
 
-(HG,"第169條",2,"高壓氣體-消費禁火",
+(HG,"第169條、第176條",2,"高壓氣體-消費禁火",
  "特定高壓氣體消費設備之儲存相關設備四周幾公尺以內應嚴禁煙火？特定液化石油氣消費設備儲存相關設備至處理煙火設備應保持幾公尺以上？",
  ["五公尺；八公尺","二公尺；五公尺","十公尺；十五公尺","三公尺；六公尺"],"a",
  "第169條：儲存相關設備四周五公尺以內應嚴禁煙火且不得置放危險性物質。第176條：特定液化石油氣消費設備儲存相關設備外面至處理煙火設備應保持八公尺以上或設防止流竄措施。第184條：可燃性氣體或氧氣消費設備五公尺以內嚴禁煙火。第181條：可燃性或毒性氣體之消費應在通風良好場所並保持容器攝氏四十度以下。第170、185條：液氧或氧氣使用之閥器具應除卻石油類油脂類。",

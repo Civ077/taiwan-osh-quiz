@@ -1,0 +1,10 @@
+batch2_a	61
+batch2_b	75
+batch2_c	74
+batch3_a	36
+batch3_b	57
+batch3_c	54
+batch4_a	73
+batch4_b	59
+batch4_c	23
+batch4_d	22

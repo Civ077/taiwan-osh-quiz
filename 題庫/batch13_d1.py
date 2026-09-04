@@ -107,7 +107,7 @@ Q = [
  "直轄市、縣（市）主管機關依本法第十三條第二項規定採取適當措施進行改善，應包括哪些工作？",
  ["應包括污染範圍調查及污染監測等兩項基本工作在內","應包括污染土地之強制徵收及地上物之拆除清運工作","應包括污染行為人之刑事責任追訴及罰鍰之強制執行","應包括土地開發計畫之審查及土地使用分區之變更"],"a",
  "第13條：主管機關依本法第十三條第二項採取適當措施進行改善，應包括污染範圍調查及污染監測。第14條進一步規定污染控制計畫應載明之十四款內容。",
- "What must the appropriate improvement measures under Article 13-2 of the Act include?",
+ "What must the appropriate improvement measures under Article 13, Paragraph 2 of the Act include?",
  ["Investigation of the pollution extent and pollution monitoring","Compulsory expropriation of the land and demolition of structures","Criminal prosecution of the polluter and enforcement of fines","Review of land development plans and rezoning of land use districts"],
  "Article 13 requires extent investigation and monitoring."),
 
@@ -171,7 +171,7 @@ Q = [
  "本法第二十三條第一項所定公開整治計畫之「適當地點」，應包括下列何者？",
  ["整治場址所在地之鄉（鎮、市、區）公所、地政事務所、村（里）辦公室及主管機關資訊網站","整治場址所在地之戶政事務所、稅捐稽徵處、警察分局及全國性報紙之公告版面","整治場址所在地之法院、檢察署、消防隊及該直轄市、縣（市）議會之公布欄","整治場址所在地之學校、醫院、車站及中央主管機關指定之三家以上便利商店"],"a",
  "第23條：所定適當地點應包括整治場址所在地之鄉（鎮、市、區）公所、地政事務所、村（里）辦公室及主管機關之資訊網站。此係為使利害關係人及當地居民得以充分知悉整治計畫內容。",
- "Which places count as appropriate locations for public disclosure under Article 23-1?",
+ "Which places count as appropriate locations for public disclosure under Article 23, Paragraph 1?",
  ["The township office, land office, village office of the site's locality, and the authority's website","The household registration office, tax office, police precinct and national newspaper notice pages","The local court, prosecutors office, fire brigade and the municipal or county council notice board","Local schools, hospitals, stations and at least three convenience stores designated centrally"],
  "Article 23 lists four categories of appropriate locations."),
 
@@ -238,7 +238,7 @@ Q = [
  "第1條：本標準依土壤及地下水污染整治法第六條第二項規定訂定之。同一授權條項亦為地下水污染管制標準之訂定依據；母法第五十六條則是施行細則之授權來源。",
  "Under which provision are the Soil Pollution Control Standards issued?",
  ["Article 6, Paragraph 2 of the Soil and Groundwater Remediation Act","Article 56 of the Soil and Groundwater Pollution Remediation Act","Article 12, Paragraph 2 of the Soil and Groundwater Remediation Act","Article 24, Paragraph 2 of the Soil and Groundwater Remediation Act"],
- "Article 1: issued under Article 6-2 of the Act."),
+ "Article 1: issued under Article 6, Paragraph 2 of the Act."),
 
 (B,"第2條",3,"土壤管制標準-不適用",
  "土壤中物質濃度受區域土壤地質條件及環境背景因素影響而達管制值時，得如何處理？",
@@ -303,7 +303,7 @@ Q = [
  "第1條：本標準依土壤及地下水污染整治法第六條第二項規定訂定之，與土壤污染管制標準之授權依據相同。母法第十二條第十一項及第十四條第五項則為初步評估暨處理等級評定辦法之授權來源。",
  "Under which provision are the Groundwater Pollution Control Standards issued?",
  ["Article 6, Paragraph 2 of the Soil and Groundwater Remediation Act","Article 12, Paragraph 11 of the Soil and Groundwater Remediation Act","Article 14, Paragraph 5 of the Soil and Groundwater Remediation Act","Article 56 of the Soil and Groundwater Pollution Remediation Act"],
- "Article 1: issued under Article 6-2 of the Act."),
+ "Article 1: issued under Article 6, Paragraph 2 of the Act."),
 
 (C,"第2條",2,"地下水管制標準-不適用",
  "地下水中物質濃度受區域水文地質條件及環境背景因素影響而達管制值者，如何處理？",

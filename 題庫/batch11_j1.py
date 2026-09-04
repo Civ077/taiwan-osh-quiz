@@ -187,10 +187,10 @@ Q = [
 
 (B,"第18條",2,"職安細則-新化學物質",
  "中央主管機關審查化學物質安全評估報告後，得予公開之資訊包括下列何者？",
- ["新化學物質編碼、危害分類及標示、物理及化學特性資訊、毒理資訊、安全使用資訊等","新化學物質之名稱、製造或輸入之數量、於混合物之組成及其製造用途等資訊","製造者之營業秘密、產品配方比例、供應商名單及其產品銷售價格等資訊","勞工之暴露評估結果、作業環境監測紀錄及特殊健康檢查之個別結果等"],"a",
+ ["新化學物質編碼、危害分類及標示、物理及化學特性資訊、毒理資訊、安全使用資訊等","新化學物質之製造流程、反應條件、觸媒種類及其產率等製程技術資訊","製造者之營業秘密、產品配方比例、供應商名單及其產品銷售價格等資訊","勞工之暴露評估結果、作業環境監測紀錄及特殊健康檢查之個別結果等"],"a",
  "第18條第1項：得予公開之資訊為新化學物質編碼、危害分類及標示、物理及化學特性資訊、毒理資訊、安全使用資訊，以及為因應緊急措施或維護工作者安全健康有必要揭露予特定人員之資訊。第2項則定第1項第6款之資訊範圍包括新化學物質名稱及基本辨識資訊、製造或輸入數量、於混合物之組成及製造用途與暴露資訊。",
  "Which information may be disclosed after review of a chemical safety assessment report?",
- ["The new substance code, hazard classification and labelling, physical, toxicological and use data","The name of the new substance, the volume made or imported, its share in mixtures and its uses","The makers trade secrets, formulation ratios, supplier lists and the selling prices of products","Worker exposure assessments, workplace monitoring records and individual health check results"],
+ ["The new substance code, hazard classification and labelling, physical, toxicological and use data","The manufacturing process, reaction conditions, catalysts and product yields of the substance","The makers trade secrets, formulation ratios, supplier lists and the selling prices of products","Worker exposure assessments, workplace monitoring records and individual health check results"],
  "Article 18, Paragraph 1; Paragraph 2 covers disclosure to specified persons."),
 
 (B,"第20條",2,"職安細則-化學品",
@@ -241,7 +241,7 @@ Q = [
  ["No, it is deleted; the kinds of safety and health organisation are set out in Article 32","Yes, it sets the number of committee members, their term and how often they must meet","Yes, it sets the worker headcount at which a full-time management unit staff is required","No, it is deleted, but its on-site medical service frequency still applies as written"],
  "Article 31 was deleted; see Article 32."),
 
-(B,"第34條",1,"職安細則-刪除條文",
+(B,"第33條、第34條",1,"職安細則-刪除條文",
  "本細則第三十四條之效力如何？",
  ["業經刪除；安全衛生人員之範圍係規定於本細則第三十三條，共含四類人員","仍屬有效，規定職業安全管理師及職業衛生管理師之訓練時數與其測驗","仍屬有效，規定安全衛生人員異動時應於三十日內報請檢查機構備查","業經刪除，惟其原定之管理員設置人數表仍列為附表而繼續適用至今"],"a",
  "第34條：（刪除）。本法第23條第1項所稱安全衛生人員，依本細則第33條指事業單位內擬訂、規劃及推動安全衛生管理業務者，包括職業安全衛生業務主管、職業安全管理師、職業衛生管理師及職業安全衛生管理員四類。第35條則定職業安全衛生管理系統之意義。",

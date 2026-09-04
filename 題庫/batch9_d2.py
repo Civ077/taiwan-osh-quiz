@@ -269,10 +269,10 @@ Q = [
 
 (SC,"第53條",1,"環評認定-施行日期",
  "開發行為應實施環境影響評估細目及範圍認定標準之施行日期規定為何？",
- ["自發布日施行","自發布日後三個月施行","自發布日後六個月施行","自發布後次年一月一日施行"],"a",
+ ["自發布日施行","自發布後三個月施行","自發布後六個月施行","自次年起施行"],"a",
  "第53條：本標準自發布日施行。相對而言，開發行為環境影響評估作業準則第61條則規定自發布日後六個月施行，二者施行日期之設計不同，係因作業準則涉及書件製作格式需給予業界緩衝期間。",
  "When does this Standard take effect?",
- ["On the date of promulgation","Three months after promulgation","Six months after promulgation","On 1 January of the following year"],
+ ["On the date of promulgation","Three months after promulgation","Six months after promulgation","From the following year"],
  "Article 53."),
 # ---END---
 ]

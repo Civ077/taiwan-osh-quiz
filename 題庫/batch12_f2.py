@@ -179,7 +179,7 @@ Q = [
 
 (E,"第17條",1,"預鑄污水設施-施行日",
  "預鑄式建築物污水處理設施管理辦法之施行日期為何？",
- ["自發布日施行","自發布後三個月施行","自發布後六個月施行","自發布後滿一年施行"],"a",
+ ["本辦法自發布日起施行","本辦法自發布後三個月施行","本辦法自發布後六個月施行","本辦法自發布後滿一年施行"],"a",
  "第17條：本辦法自發布日施行。本辦法修正日期為民國98年9月17日，其授權依據為水污染防治法第二十五條第三項，第15條並就施行前已取得認可登記文件者定有過渡規定。",
  "When do these Regulations take effect?",
  ["They take effect on the date of promulgation","They take effect three months after promulgation","They take effect six months after promulgation","They take effect one full year after promulgation"],
@@ -260,7 +260,7 @@ Q = [
 
 (H,"第7條",1,"有害廢檢測-文書格式",
  "有害事業廢棄物檢測及紀錄管理辦法所訂之相關文書格式，由何機關訂定？",
- ["由中央主管機關定之","由中央目的事業主管機關定之","由直轄市、縣（市）主管機關定之","由環境檢驗測定機構公會定之"],"a",
+ ["由中央主管機關定之","由中央目的事業機關定之","由直轄市、縣市主管機關定之","由環境檢驗測定公會定之"],"a",
  "第7條：本辦法所訂之相關文書格式，由中央主管機關定之。第2條並規定檢測應由經中央主管機關許可之環境檢驗測定機構，以中央主管機關公告之檢測方法及品質管制事項辦理。",
  "Which authority prescribes the document formats under these Regulations?",
  ["They are prescribed by the central competent authority","They are prescribed by the central industry authority","They are prescribed by the municipal or county authority","They are prescribed by the testing organizations guild"],
@@ -268,7 +268,7 @@ Q = [
 
 (H,"第8條",1,"有害廢檢測-施行日",
  "有害事業廢棄物檢測及紀錄管理辦法之施行日期為何？",
- ["自發布日施行","自發布後三個月施行","自發布後六個月施行","自發布後滿一年施行"],"a",
+ ["本辦法自發布日起施行","本辦法自發布後三個月施行","本辦法自發布後六個月施行","本辦法自發布後滿一年施行"],"a",
  "第8條：本辦法自發布日施行。本辦法修正日期為民國109年2月21日，授權依據為廢棄物清理法第三十七條第二項；第6條並規定檢測紀錄報告書應保存七年。",
  "When do these Regulations take effect?",
  ["They take effect on the date of promulgation","They take effect three months after promulgation","They take effect six months after promulgation","They take effect one full year after promulgation"],
@@ -349,7 +349,7 @@ Q = [
 
 (R,"第10條",1,"再生資源輸出入-文書格式",
  "再生資源限制或禁止輸入輸出管理辦法所定之相關文書格式，由何機關訂定？",
- ["由中央主管機關定之","由中央目的事業主管機關定之","由直轄市、縣（市）主管機關定之","由經濟部國際貿易主管機關定之"],"a",
+ ["由中央主管機關定之","由中央目的事業機關定之","由直轄市、縣市主管機關定之","由經濟部國際貿易機關定之"],"a",
  "第10條：本辦法所定之相關文書格式，由中央主管機關定之。第4條、第5條並規定輸入輸出許可係由直轄市、縣（市）主管機關受理申請，經核轉中央主管機關同意後核發。",
  "Which authority prescribes the document formats under these Regulations?",
  ["They are prescribed by the central competent authority","They are prescribed by the central industry authority","They are prescribed by the municipal or county authority","They are prescribed by the foreign trade authority"],
@@ -373,7 +373,7 @@ Q = [
 
 (R,"第13條",1,"再生資源輸出入-施行日",
  "再生資源限制或禁止輸入輸出管理辦法之施行日期為何？",
- ["自發布日施行","自發布後三個月施行","自發布後六個月施行","自發布後滿一年施行"],"a",
+ ["本辦法自發布日起施行","本辦法自發布後三個月施行","本辦法自發布後六個月施行","本辦法自發布後滿一年施行"],"a",
  "第13條：本辦法自發布日施行。本辦法修正日期為民國92年7月2日，其授權依據為資源回收再利用法第十七條第二項；第2條並定明限制或禁止項目之公告程序與評估內容。",
  "When do these Regulations take effect?",
  ["They take effect on the date of promulgation","They take effect three months after promulgation","They take effect six months after promulgation","They take effect one full year after promulgation"],

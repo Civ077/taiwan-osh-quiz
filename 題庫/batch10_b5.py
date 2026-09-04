@@ -162,7 +162,7 @@ Q = [
  ["By suing in the approving court to declare the mediation void or to set it aside; within thirty days of service of the approved record","By lodging an interlocutory appeal with the higher court to quash the approval; within ten days of service of the approved record","By applying to the mediation committee to re-mediate and cancel the record; within six months of service of the approved record","By applying to the adjudication committee to adjudicate in its place; within fourteen days of service of the approved record"],
  "Article 31, paragraphs 1 and 2; applied by Article 39, paragraph 3."),
 
-(PN,"第32條",2,"公害糾紛-刪除條文",
+(PN,"第30條、第31條、第32條",2,"公害糾紛-刪除條文",
  "公害糾紛處理法第三十二條現已刪除，於現行調處程序中，當事人對於經法院核定之調處如認有無效或得撤銷之原因，應如何救濟？該調處之效力為何？",
  ["該條已刪除而不再適用；當事人得向原核定法院提起宣告調處無效或撤銷調處之訴，經核定之調處則與民事確定判決有同一之效力","該條已刪除但仍得類推適用；當事人得向調處委員會申請重新調處並停止原調處之執行，經核定之調處僅具有民事契約之效力","該條已刪除而不再適用；當事人得向行政法院提起撤銷訴訟並以調處委員會為被告，經核定之調處僅具有行政處分之效力","該條已刪除但由施行細則遞補；當事人得向裁決委員會申請裁決以推翻原調處，經核定之調處僅生證據上效力而不得執行"],"a",
  "公害糾紛處理法第32條業經刪除。現行制度下，第30條第1項規定調處經法院核定後與民事確定判決有同一之效力、不得再行起訴且得為強制執行名義；第31條規定經核定之調處有無效或得撤銷原因者，當事人得向原核定法院提起宣告調處無效或撤銷調處之訴，並應於調處書送達後三十日內提起。",
@@ -218,7 +218,7 @@ Q = [
  ["Party names and addresses, statutory or appointed agents, the holding, the facts, the reasons and the date, signed by the adjudicating members","Party names and addresses, the appraisal result and the amount of damages, signed and sealed by the Administrator of the EPA alone","Party names and addresses, the course of mediation and why it failed, signed by all the members who attended the mediation committee","Party names and addresses, the holding and the reasons, effective only after the judge of the competent court signs to approve it"],
  "Article 37, paragraph 1."),
 
-(PN,"第37條",2,"公害糾紛-裁決書送達",
+(PN,"第37條、第39條",2,"公害糾紛-裁決書送達",
  "裁決書作成後應於幾日內以何種方式送達當事人？其後當事人有何期間上之考量？",
  ["應於作成後十日內以正本送達於當事人；當事人於裁決書正本送達後二十日內未提起民事訴訟者，視為依裁決書達成合意","應於作成後三十日內以影本送達於當事人；當事人於裁決書影本送達後六十日內未提起民事訴訟者，視為依裁決書達成合意","應於作成後七日內以公告方式代替送達；當事人於公告之日起十四日內未提起民事訴訟者，視為依裁決書達成合意而確定","應於作成後三日內以言詞當場宣示並記明筆錄；當事人於宣示之日起十日內未提起民事訴訟者，視為依裁決書達成合意"],"a",
  "第37條第2項：前項裁決書，應於作成後十日內，以正本送達於當事人。第39條第1項：當事人於裁決書正本送達後二十日內，未就同一事件向法院提起民事訴訟，或經撤回其訴者，視為雙方當事人依裁決書達成合意。",

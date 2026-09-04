@@ -317,10 +317,10 @@ Q = [
 
 (TX,"第74條",1,"毒管法-施行細則",
  "本法施行細則由何機關定之？",
- ["由中央主管機關定之","由行政院會同立法院定之","由各直轄市縣市政府分別定之","由國家化學物質管理會報決議定之"],"a",
+ ["由中央主管機關定之","由行政院會同立法院定之","由地方政府分別定之","由化學物質管理會報定之"],"a",
  "第74條：本法施行細則，由中央主管機關定之。本法多數授權辦法亦由中央主管機關訂定，例如第9條第2項紀錄申報辦法、第13條第5項許可登記核可管理辦法、第17條第2項標示與安全資料表管理辦法、第18條第2項專業技術管理人員設置及管理辦法、第35條第3項危害預防及應變計畫作業辦法及第39條第3項應變器材與偵測警報設備管理辦法等。",
  "Who prescribes the enforcement rules of this Act?",
- ["The central competent authority","The Executive Yuan with the Legislative Yuan","Each municipal and county government separately","The national chemical management council by resolution"],
+ ["The central competent authority","The Executive and Legislative Yuans","Local governments separately","The chemical management council"],
  "Article 74."),
 
 (TX,"第75條",3,"毒管法-施行日",

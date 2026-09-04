@@ -407,10 +407,10 @@ Q = [
 
 (CM,"第42條",2,"海管法-沒收",
  "犯本法之罪者，其所生或所得之物及所用之物應如何處理？",
- ["沒收之","得沒入之","得酌予發還","應予估價變賣"],"a",
+ ["沒收之","沒入之","發還之","變賣之"],"a",
  "第42條：犯本法之罪，其所生或所得之物及所用之物，沒收之。相較之下，第41條係就第32條第1項、第33條第1項或第34條第1項之行政違規行為，規定其所生、所得及所用之物「得沒入之」，屬行政罰性質，二者規範層次不同。",
  "How are objects produced by, obtained from or used in a criminal offense under this Act treated?",
- ["They are criminally confiscated","They may be administratively seized","They may be returned at discretion","They must be appraised and sold off"],
+ ["They are criminally confiscated","They are administratively seized","They are returned to the owner","They are appraised and sold"],
  "Article 42; Article 41."),
 
 # ---------- 第五章 附則 ----------
@@ -432,10 +432,10 @@ Q = [
 
 (CM,"第45條",1,"海管法-施行細則",
  "本法施行細則之訂定機關為何？",
- ["由中央主管機關定之","由行政院會商中央主管機關定之","由中央主管機關報請立法院審議","由各直轄市、縣（市）主管機關定之"],"a",
+ ["由中央主管機關定之","由行政院會商定之","經立法院審議後定之","由地方主管機關定之"],"a",
  "第45條：本法施行細則，由中央主管機關定之。依第3條，本法之中央主管機關為內政部。本法另授權中央主管機關訂定之辦法包括第12條第4項不合保護計畫之認定與補償辦法、第25條第3項海岸利用管理說明書辦法及第31條第2項專案申請許可辦法等。",
  "Which authority prescribes the enforcement rules of this Act?",
- ["The central competent authority","The Executive Yuan with the central authority","The central authority, subject to legislative review","Each municipal and county competent authority"],
+ ["The central competent authority","The Executive Yuan after consultation","Subject to Legislative Yuan review","Each local competent authority"],
  "Article 45; Articles 3, 12, 25 and 31."),
 
 (CM,"第46條",1,"海管法-施行日",

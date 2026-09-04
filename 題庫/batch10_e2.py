@@ -261,7 +261,7 @@ Q = [
 
 (W,"第65條",1,"廢清法-罰鍰執行",
  "依本法所處之罰鍰拒不繳納者，應如何處理？",
- ["移送強制執行","加倍處罰後撤銷許可","逕行沒入其設備抵繳","移送司法機關偵辦"],"a",
+ ["移送強制執行","加倍處罰後撤照","沒入設備以抵繳","移送司法偵辦"],"a",
  "第65條：依本法所處之罰鍰拒不繳納者，移送強制執行。第66條就未依第24條規定繳納一般廢棄物清除處理費者，規定經限期繳納屆期仍未繳納者移送強制執行。第51條第1項則就逾期未繳納回收清除處理費者，定有每日加徵百分之零點五滯納金及逾期三十日移送強制執行之規定。",
  "What happens when a fine imposed under the Act is not paid?",
  ["It is referred for compulsory execution","The penalty is doubled and the permit revoked","The equipment is confiscated to offset it","The case is referred for criminal prosecution"],
@@ -365,18 +365,18 @@ Q = [
 
 (W,"第75條",1,"廢清法-檢測方法",
  "廢棄物檢測方法及品質管制事項，由何機關訂定？",
- ["由中央主管機關定之","由中央目的事業主管機關定之","由國家標準檢驗主管機關定之","由直轄市、縣（市）主管機關定之"],"a",
+ ["由中央主管機關定之","由中央目的事業機關定之","由國家標準檢驗機關定之","由地方主管機關定之"],"a",
  "第75條：廢棄物檢測方法及品質管制事項，由中央主管機關定之。第43條第1項規定廢棄物之檢驗測定除經中央主管機關核准外，應由取得中央主管機關核發許可證之檢驗測定機構辦理；第37條第2項並規定有害事業廢棄物檢測之項目、方法、頻率等管理辦法由中央主管機關定之。",
  "Who prescribes waste testing methods and quality control matters?",
- ["The central competent authority","The central industry competent authority","The national standards inspection authority","The municipal or county competent authority"],
+ ["The central competent authority","The central industry authority","The national standards authority","The local competent authority"],
  "Article 75, read with Articles 37 and 43."),
 
 (W,"第76條",1,"廢清法-施行細則",
  "本法施行細則由何機關訂定？",
- ["由中央主管機關定之","由行政院會同中央主管機關定之","由中央目的事業主管機關定之","由直轄市、縣（市）主管機關分別定之"],"a",
+ ["由中央主管機關定之","由行政院會同定之","由中央目的事業機關定之","由地方主管機關分別定之"],"a",
  "第76條：本法施行細則，由中央主管機關定之，即廢棄物清理法施行細則。第4條規定中央主管機關為環境部。本法多數授權辦法亦均由中央主管機關訂定，例如第12條一般廢棄物回收清除處理辦法、第36條第2項事業廢棄物貯存清除處理方法及設施標準、第42條公民營廢棄物清除處理機構許可管理辦法等。",
  "Who prescribes the enforcement rules of the Act?",
- ["The central competent authority","The Executive Yuan together with the central authority","The central industry competent authority","Each municipal or county competent authority separately"],
+ ["The central competent authority","The Executive Yuan acting jointly","The central industry authority","Each local authority separately"],
  "Article 76, read with Articles 4, 12, 36 and 42."),
 
 (W,"第77條",2,"廢清法-施行日期",

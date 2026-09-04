@@ -340,7 +340,7 @@ Q = [
  "Article 36, read with Articles 33 and 35."),
 
 (S,"第37條",1,"事廢標準-進場管制基準",
- "事業廢棄物採衛生掩埋者應符合何項基準始得掩埋？該基準由何機關依何種factors分別定之？",
+ "事業廢棄物採衛生掩埋者應符合何項基準始得掩埋？該基準由何機關依何種因素分別定之？",
  ["應符合衛生掩埋場進場管制基準；該基準由中央主管機關依行業、製程、廢棄物種類及處理方法分別定之","應符合有害事業廢棄物認定標準附表四之溶出標準；該基準由中央目的事業主管機關依事業規模及產量分別定之","應符合地下水污染管制標準及土壤污染管制標準；該基準由直轄市、縣（市）主管機關依轄區特性分別訂定公告","應符合放流水標準及事業廢水排放標準；該基準由中央主管機關會商水利主管機關依流域分區分別定之"],"a",
  "第37條第1項：事業廢棄物採衛生掩埋者須符合衛生掩埋場進場管制基準，始得進行衛生掩埋。第2項：前項衛生掩埋場進場管制基準，由中央主管機關依行業、製程、廢棄物種類、處理方法及有害物質管制項目分別定之。第41條第2項並規定有害事業廢棄物採固化法、穩定法處理者採衛生掩埋時，除第37條另有規定外應符合有害事業廢棄物認定標準附表四之毒性特性溶出程序溶出標準，並應獨立分區掩埋管理。",
  "What criteria must waste meet for sanitary landfill, and who sets them on what basis?",
@@ -445,17 +445,17 @@ Q = [
 
 (S,"第45條",1,"事廢標準-標誌公告",
  "本標準所稱之標誌，由何機關公告？",
- ["由中央主管機關公告之","由中央目的事業主管機關公告之","由直轄市、縣（市）主管機關公告之","由國家標準檢驗主管機關公告之"],"a",
+ ["由中央主管機關公告之","由中央目的事業機關公告之","由地方主管機關公告之","由國家標準檢驗機關公告之"],"a",
  "第45條：本標準所稱之標誌，由中央主管機關公告之。第7條第1項第2款要求有害事業廢棄物貯存應標示區別有害事業廢棄物特性之標誌；第11條第4款要求貯存設施應設置白底、紅字、黑框之警告標示；第12條第1款要求生物醫療廢棄物貯存設施應標示區別有害事業廢棄物特性之標誌；第16條第1項第1款要求清除車輛應標示該標誌。",
  "Who announces the symbols referred to in this Standard?",
- ["The central competent authority","The central industry competent authority","The municipal or county competent authority","The national standards inspection authority"],
+ ["The central competent authority","The central industry authority","The local competent authority","The national standards authority"],
  "Article 45, read with Articles 7, 11, 12 and 16."),
 
 (S,"第46條",1,"事廢標準-施行日期",
  "本標準之施行日期為何？",
- ["自發布日施行","自發布後六個月施行","自發布後一年施行","自中央主管機關另行公告之日施行"],"a",
+ ["自發布日施行","自發布後六個月施行","自發布後一年施行","自次年起施行"],"a",
  "第46條：本標準自發布日施行。本標準最近一次修正日期為民國112年11月1日。第41條之3並就一百十年二月二十二日修正施行前後設置之掩埋場，分別定有封場復育計畫之提報期限；第34條第3項及第41條之4亦分別就該修正施行日前後之衛生掩埋場基礎構築及已封場掩埋場之因應措施定有規定。",
  "When does this Standard take effect?",
- ["On the date of promulgation","Six months after promulgation","One year after promulgation","On a date separately announced by the central authority"],
+ ["On the date of promulgation","Six months after promulgation","One year after promulgation","From the following year"],
  "Article 46, read with Articles 34, 41-3 and 41-4."),
 ]

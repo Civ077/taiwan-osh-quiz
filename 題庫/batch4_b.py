@@ -22,10 +22,10 @@ Q = [
 
 (TR,"第5條",1,"教育訓練-管理人員",
  "雇主對擔任職業安全管理師、職業衛生管理師及職業安全衛生管理員之勞工，應於何時使其接受安全衛生教育訓練？",
- ["事前","到職後一年內","到職後三個月內","不需訓練"],"a",
+ ["到職前","到職後","滿一年後","免訓練"],"a",
  "第5條：雇主對擔任職業安全管理師、職業衛生管理師、職業安全衛生管理員之勞工，應於事前使其接受職業安全衛生管理人員之安全衛生教育訓練；課程時數依附表三。",
  "Workers assigned as OSH management specialists or administrators must receive training:",
- ["Beforehand","Within a year of appointment","Within three months","Not required"],
+ ["Before taking the post","After taking the post","After one year","No training needed"],
  "Article 5: before taking up the post, per Annex 3 curricula."),
 
 (TR,"第6條",2,"教育訓練-環測人員",

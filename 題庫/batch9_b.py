@@ -287,13 +287,13 @@ Q = [
  "Article 3, subparagraph 3, item 2."),
 
 (DW,"第3條",2,"飲用水-感觀物質",
- "飲用水「影響適飲性、感觀物質」之最大限值組合，何者正確？",
+ "依第3條，飲用水「影響適飲性、感觀物質」之最大限值組合，何者正確？",
  ["鐵○‧三、錳○‧○五、銅一‧○、鋅五‧○、硫酸鹽二五○、氯鹽二五○、氨氮○‧一、總硬度三○○、總溶解固體量五○○ 毫克／公升",
   "鐵○‧五、錳○‧一、銅二‧○、鋅一○‧○、硫酸鹽五○○、氯鹽五○○、氨氮○‧五、總硬度四○○、總溶解固體量八○○ 毫克／公升",
   "鐵○‧○三、錳○‧五、銅○‧一、鋅○‧五、硫酸鹽一五○、氯鹽一○○、氨氮一‧○、總硬度二○○、總溶解固體量一○○○ 毫克／公升",
   "鐵三‧○、錳○‧○○五、銅五‧○、鋅一‧○、硫酸鹽二○○、氯鹽三○○、氨氮○‧○一、總硬度五○○、總溶解固體量二五○ 毫克／公升"],"a",
  "第3條第3款第3目影響適飲性、感觀物質：鐵○‧三、錳○‧○五、銅一‧○、鋅五‧○、硫酸鹽二五○、酚類○‧○○一、陰離子界面活性劑○‧五、氯鹽二五○、氨氮○‧一、總硬度三○○、總溶解固體量五○○ 毫克／公升；鋁自一○八年七月一日起為○‧二 毫克／公升。",
- "Which set of limits for substances affecting palatability and appearance is correct?",
+ "Under Article 3, which set of limits for substances affecting palatability and appearance is correct?",
  ["Iron 0.3, manganese 0.05, copper 1.0, zinc 5.0, sulfate 250, chloride 250, ammonia-nitrogen 0.1, total hardness 300, TDS 500 mg/L",
   "Iron 0.5, manganese 0.1, copper 2.0, zinc 10.0, sulfate 500, chloride 500, ammonia-nitrogen 0.5, total hardness 400, TDS 800 mg/L",
   "Iron 0.03, manganese 0.5, copper 0.1, zinc 0.5, sulfate 150, chloride 100, ammonia-nitrogen 1.0, total hardness 200, TDS 1000 mg/L",
@@ -314,7 +314,7 @@ Q = [
   "Aluminium 2.0 mg/L, not applicable above 1000 NTU during a land warning or 500 NTU within five days after; dioxin 10 pg-WHO-TEQ/L"],
  "Article 3, subparagraph 3 (items on aluminium and dioxin)."),
 
-(DW,"第4條",2,"飲用水-天然災害濁度",
+(DW,"第4條、第5條",2,"飲用水-天然災害濁度",
  "自來水因暴雨或其他天然災害致水源濁度超過多少時，飲用水濁度及自由有效餘氯限值如何調整？",
  ["水源濁度超過一五○○ NTU 時，飲用水濁度最大限值為四 NTU，自由有效餘氯限值範圍放寬為○‧二～三‧○ 毫克／公升",
   "水源濁度超過五○○ NTU 時，飲用水濁度最大限值為二 NTU，自由有效餘氯限值範圍放寬為○‧五～五‧○ 毫克／公升",
@@ -498,7 +498,7 @@ Q = [
   "Class A: two Class C or above technicians with at least one Class B; Class B: one, or two at 10,000 tonnes; Class C: up to 2,000 tonnes monthly"],
  "Article 6, paragraphs 1 and 5."),
 
-(WC,"第5條",2,"清處機構-審查與許可期限",
+(WC,"第5條、第14條",2,"清處機構-審查與許可期限",
  "核發機關之審查期限，以及同意設置文件或許可證之許可期限規定為何？",
  ["應於受理申請後六十日內審查完畢作成准駁，必要時得再延長審查期限以六十日為限；同意設置文件或許可證之許可期限不得超過五年，首次核發處理許可證不得超過三年",
   "應於受理申請後三十日內審查完畢作成准駁，必要時得再延長審查期限以三十日為限；同意設置文件或許可證之許可期限不得超過三年，首次核發處理許可證不得超過一年",
@@ -540,7 +540,7 @@ Q = [
   "At most 180 days; unlimited extensions; total at most 360 days; applied for on the expiry date itself"],
  "Article 10, paragraphs 3-5."),
 
-(WC,"第8條",2,"清處機構-資本額與製證",
+(WC,"第8條、第16條之4",2,"清處機構-資本額與製證",
  "申請清除許可證之實收資本額規定，以及核准後製作許可證之期限為何？",
  ["應檢具公司設立登記實收資本額新臺幣五百萬元以上之證明文件，但申請丙級清除許可證者免附；經審查核准後應於十四日內完成許可證製作並通知繳費領證",
   "應檢具公司設立登記實收資本額新臺幣一千萬元以上之證明文件，但申請乙級清除許可證者免附；經審查核准後應於三十日內完成許可證製作並通知繳費領證",

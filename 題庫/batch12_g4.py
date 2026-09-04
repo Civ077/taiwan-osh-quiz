@@ -610,7 +610,7 @@ Q = [
   "They must comply from the day the amendment is promulgated, with only a three-month buffer available for the part involving equipment rebuilding work"],
  "Article 8."),
 
-(TR,"第9條",1,"廢輪胎-施行日期",
+(TR,"第8條、第9條",1,"廢輪胎-施行日期",
  "廢輪胎回收貯存清除處理方法及設施標準之施行日期如何規定？",
  ["自發布日施行，另於第八條就修正施行前已從事回收處理之業者定有六個月改善期",
   "自發布後六個月施行，並自施行日起同時廢止原有之廢輪胎回收清除處理相關規定",

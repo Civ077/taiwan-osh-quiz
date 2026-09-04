@@ -194,7 +194,7 @@ Q = [
  ["10 days","30 days","7 days","60 days"],
  "Article 34: 10 days, then administrative litigation; Article 33: complaints about leave rights trigger investigation within 7 days."),
 
-(GE,"第36條",2,"性平法-不利處分",
+(GE,"第36條、第38條",2,"性平法-不利處分",
  "雇主不得因受僱者提出本法之申訴或協助他人申訴而為何種處分？違反者處罰為何？",
  ["解僱、調職或其他不利處分；處二萬元以上三十萬元以下罰鍰並公布名稱、限期改善","僅限解僱一種處分，調職不受限制；處一萬元以上五萬元以下罰鍰並得按次處罰","得調職或減薪，但不得解僱；處三萬元以上十五萬元以下罰鍰並移送司法機關偵辦","得減薪或記過，僅不得無故資遣；處五萬元以上五十萬元以下罰鍰並命令停業一個月"],"a",
  "第36條：雇主不得因受僱者提出本法之申訴或協助他人申訴而予以解僱、調職或其他不利之處分。第38條：違反第21條、第27條第4項或第36條者處二萬元以上三十萬元以下罰鍰，公布姓名或名稱及負責人姓名並限期改善，屆期未改善按次處罰。第37條：主管機關應提供法律諮詢或扶助。",
@@ -229,10 +229,10 @@ Q = [
 
 (GR,"第5條",2,"性平細則-人數計算",
  "性別平等工作法第13條、第19條及第23條所定僱用人數之計算，是否包括分支機構及附屬單位？",
- ["包括","不包括","僅包括分支機構","由雇主決定"],"a",
+ ["均應包括","均不包括","僅含分支機構","由雇主決定"],"a",
  "細則第5條：第13條第1項、第19條及第23條第1項所定僱用人數之計算包括分支機構及附屬單位之僱用人數；第19條之僱用人數依受僱者申請或請求當月第一個工作日雇主僱用之總人數計算。",
  "Does the headcount for Articles 13, 19 and 23 include branches and affiliated units?",
- ["Yes","No","Branches only","Employer's choice"],
+ ["Yes, both are included","No, neither is included","Branches only","The employer decides"],
  "Enforcement Rules Article 5: includes branches and affiliates; for Article 19, counted on the first working day of the month of the request."),
 
 (GR,"第8條",3,"性平細則-產假",

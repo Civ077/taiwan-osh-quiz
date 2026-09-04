@@ -118,7 +118,7 @@ Q = [
  ["National security or military purposes; official purposes such as maritime patrol, crime investigation, fishery patrol, pollution control, sea rescue, navigation aid installation and management, marine conservation, and preservation or management of underwater cultural heritage; continuous and expeditious passage of a ship engaged in no activity other than navigation; and scientific research, monitoring or surveys consented to by the central authority","National security or military purposes; official purposes such as maritime patrol, crime investigation, fishery patrol, pollution control, sea rescue and the routine collection of oceanographic data and weather observations; ships anchoring inside the core zone to take on fuel and supplies and to let the crew rest and recreate on board; and commercial fishing, aquaculture or dive tourism activities consented to in writing by the local competent authority concerned","National security or military purposes; recreational purposes such as marine tourism, yacht mooring, water activity operations and sport fishing boat operations; continuous and expeditious passage of a ship engaged in no activity other than navigation; and mineral exploration, mining or submarine cable laying filed with the relevant industry authority","The purposes of any business handled by a public agency; official purposes such as maritime patrol, crime investigation, fishery patrol and pollution control; ships carrying out trawling or drift gillnet operations inside the core zone; and taking marine organisms within the types, quantities, methods or periods announced by the central authority"],
  "Article 10, paragraphs 1 and 2."),
 
-(OC,"第10條",2,"海保法-核心區罰則",
+(OC,"第10條、第21條",2,"海保法-核心區罰則",
  "違反規定進入海洋庇護區核心區者應如何處罰？誤入者之處理為何？",
  ["處行為人、海陸域交通工具駕駛人或船長新臺幣五萬元以上五十萬元以下罰鍰；誤入核心區經勸導駛離者不罰，但其為最近二年內經勸導又再違反者，不在此限","處行為人、海陸域交通工具駕駛人或船長新臺幣三萬元以上三十萬元以下罰鍰；誤入核心區經勸導駛離者不罰，但其為最近一年內經勸導又再違反者，不在此限","處行為人、海陸域交通工具駕駛人或船長新臺幣一萬元以上十五萬元以下罰鍰；誤入核心區者一律不罰，縱使最近二年內曾經勸導又再違反者，仍不予處罰","處行為人、海陸域交通工具駕駛人或船長新臺幣二萬元以上十萬元以下罰鍰；誤入核心區經勸導駛離者仍應處以最低額罰鍰，並令其接受海洋保育講習課程"],"a",
  "第21條第1項：違反第10條第1項規定，進入海洋庇護區之核心區者，處行為人、海陸域交通工具駕駛人或船長新臺幣五萬元以上五十萬元以下罰鍰。第2項：誤入海洋庇護區之核心區，經勸導駛離者，不罰；但其為最近二年內經勸導又再違反者，不在此限。第26條第1項並定明違反第10條第1項者，主管機關應令其接受二小時以上十二小時以下之海洋保育講習課程。",
@@ -152,10 +152,10 @@ Q = [
 
 (OC,"第13條",1,"海保法-許可辦法",
  "緩衝區及永續利用區申請許可之條件、作業程序及廢止許可等事項，應由誰訂定？",
- ["由中央主管機關定之","由行政院會商中央主管機關定之","由各直轄市、縣（市）主管機關定之","由中央漁業主管機關會同中央主管機關定之"],"a",
+ ["由中央主管機關定之","由行政院會商定之","由地方主管機關定之","由中央漁業主管機關定之"],"a",
  "第13條：第11條及第12條申請許可之條件、作業程序、廢止許可及其他相關事項之辦法，由中央主管機關定之。第11條就緩衝區禁止水產養殖、採捕海洋生物、開挖濬深航道或施作海洋工程、鋪設電纜管道及探礦採礦；第12條就永續利用區禁止後三類行為。",
  "Who prescribes the conditions, procedures and revocation rules for permits in buffer and sustainable use zones?",
- ["The central competent authority","The Executive Yuan with the central authority","Each municipal and county competent authority","The central fisheries authority with the central authority"],
+ ["The central competent authority","The Executive Yuan after consultation","Each local competent authority","The central fisheries authority"],
  "Article 13; Articles 11 and 12."),
 
 # ---------- 第三章 海洋生物保育 ----------
@@ -239,7 +239,7 @@ Q = [
  ["Following the principles for marine organism restoration measures, they may act themselves or commission agencies, juridical persons, fishermen's associations or groups to place artificial restoration installations, breed or release marine animals, plant marine flora and take other necessary restoration measures","Following the principles for marine organism restoration measures, they may act themselves or commission agencies, juridical persons, fishermen's associations or groups to salvage marine debris, clean up oil spills, dredge sediment and take other necessary sea area remediation measures","Following the principles for marine organism restoration measures, they may act themselves or commission agencies, juridical persons, fishermen's associations or groups to buy back and reduce fishing vessels, subsidize gear replacement, help fishers change jobs and make other fishery structural adjustments","Following the principles for marine organism restoration measures, they may act themselves or commission agencies, juridical persons, fishermen's associations or groups to designate protected areas, set boundary markers, conduct patrol duties and take other necessary sea control measures"],
  "Article 20, paragraphs 1 and 3."),
 
-(OC,"第20條",2,"海保法-自行復育",
+(OC,"第20條、第25條",2,"海保法-自行復育",
  "主管機關以外之機關（構）、自然人、法人或團體自行辦理復育措施前，應踐行何種程序？違者如何處罰？",
  ["應依海洋生物復育措施辦理原則提出復育計畫，報經主管機關同意後始得為之；未經同意自行辦理者，處新臺幣五萬元以上十五萬元以下罰鍰，但原住民基於傳統文化、祭儀、生活所需之保育行為不在此限","應依海洋生物復育措施辦理原則提出復育計畫，報請主管機關備查後即得為之；未報請備查自行辦理者，處新臺幣三萬元以上三十萬元以下罰鍰，並無任何除外或免罰之規定可資適用","應向中央漁業主管機關申請許可後始得辦理復育措施；未經許可自行辦理者，處新臺幣一萬元以上十五萬元以下罰鍰，並得令其限期回復原狀，屆期未回復者得按次連續處罰","得逕行辦理復育措施而無須提出任何計畫或報經同意；惟其復育措施致生海洋生態危害者，處新臺幣五萬元以上五十萬元以下罰鍰，並應令其接受海洋保育講習課程"],"a",
  "第20條第2項：第1項以外之機關（構）、自然人、法人或團體自行辦理復育措施前，應依海洋生物復育措施辦理原則，提出復育計畫，報經主管機關同意後，始得為之。第25條：違反第20條第2項規定，未經主管機關同意自行辦理復育措施者，處新臺幣五萬元以上十五萬元以下罰鍰；但原住民基於傳統文化、祭儀、生活所需之保育行為，不在此限。",
@@ -339,10 +339,10 @@ Q = [
 
 (OC,"第30條",1,"海保法-施行細則",
  "本法施行細則之訂定機關為何？",
- ["由中央主管機關定之","由行政院會商中央主管機關定之","由中央主管機關報請立法院審議","由各直轄市、縣（市）主管機關定之"],"a",
+ ["由中央主管機關定之","由行政院會商定之","經立法院審議後定之","由地方主管機關定之"],"a",
  "第30條：本法施行細則，由中央主管機關定之。依第2條第1項，本法之中央主管機關為海洋委員會。本法另授權中央主管機關訂定之辦法尚包括第6條第2項認定標準、第8條第5項劃定基準與補償辦法、第13條許可辦法、第16條第4項觀察員管理辦法及第26條第4項講習辦法等。",
  "Which authority prescribes the enforcement rules of this Act?",
- ["The central competent authority","The Executive Yuan with the central authority","The central authority, subject to legislative review","Each municipal and county competent authority"],
+ ["The central competent authority","The Executive Yuan after consultation","Subject to Legislative Yuan review","Each local competent authority"],
  "Article 30; Articles 2, 6, 8, 13, 16 and 26."),
 
 (OC,"第31條",2,"海保法-施行日期",
