@@ -43,7 +43,7 @@ Q = [
   "設於已完成環評之園區內者，其開發或累積開發面積門檻均減為二分之一；汰舊換新工程只要產能未增加即當然免實施環境影響評估，無須任何機關審核同意",
   "設於已完成環評之園區內者一律免實施環境影響評估；汰舊換新工程須產能及污染量減少百分之十以上，並經中央主管機關核准後始得免實施環境影響評估",
   "設於已完成環評之園區內者，其開發面積門檻增為三倍；汰舊換新工程之污染量未增加者應報請主管機關備查，並於三年內補行完成第二階段環境影響評估"],"a",
- "第3條第2項：工廠申請設立於經環境影響評估審查完成之園區內，其開發或累積開發面積均增為二倍。第3項：工廠屬汰舊換新工程，其產能及污染量未增加，且單位能耗降低，經目的事業主管機關審核同意者，免實施環境影響評估。第4項：申請設立於已完成公共設施及整地之園區內者，免依位於山坡地區位之規定實施環評。",
+ "第3條第2項：工廠依第1項第3款第8目至第11目、第4款第7目或第8目，申請設立於經環境影響評估審查完成之園區內，其開發或累積開發面積均增為二倍。第3項：工廠屬汰舊換新工程，其產能及污染量未增加，且單位能耗降低，經目的事業主管機關審核同意者，免實施環境影響評估。第4項：申請設立於已完成公共設施及整地之園區內者，免依位於山坡地區位之規定實施環評。",
  "How does the Standard treat factories inside a park that has completed EIA, and like-for-like replacement projects?",
  ["Area thresholds are doubled inside a park that completed EIA; a replacement project with no rise in capacity or pollution and lower unit energy use is exempt with the industry authority's approval",
   "Area thresholds are halved inside a park that completed EIA; a replacement project is automatically exempt so long as capacity does not increase, needing no approval from any authority at all",

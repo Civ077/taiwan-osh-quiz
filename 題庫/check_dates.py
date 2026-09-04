@@ -56,7 +56,10 @@ def main():
             for j, opt in enumerate(oz):
                 if j == ai:
                     continue
-                if ld in dates(opt):                       # 干擾選項寫的日期就是法規真正的發布／修正日
+                # 只在「正解＝自發布日施行」時才算真的重複（此時干擾選項寫出真正發布日＝同一件事）
+                if not re.search(r'自(發布|公布)日|發布日施行|自發布', oz[ai]):
+                    continue
+                if ld in dates(opt):
                     rows.append((os.path.basename(f)[:-3], i, lid, bs.LAWS[lid][0], art,
                                  "%d.%02d.%02d" % ld, 'abcd'[j], opt[:50], oz[ai][:40]))
     out = os.path.join(HERE, '_spec', '日期查核.tsv')

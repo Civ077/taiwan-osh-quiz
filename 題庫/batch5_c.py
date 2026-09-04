@@ -75,7 +75,7 @@ Q = [
  "附表一第十一項：十五歲以上未滿十六歲者斷續性作業十二公斤、持續性作業八公斤；十六歲以上未滿十八歲者斷續性二十五公斤、持續性十五公斤以上之重物處理作業，不得使其從事。",
  "For workers aged 16 to under 18, the weight limits for intermittent and continuous heavy-load handling are:",
  ["25 kg; 15 kg","12 kg; 8 kg","30 kg; 20 kg","10 kg; 6 kg"],
- "Annex 1 item 11: ages 15–15: 12 kg intermittent / 8 kg continuous; ages 16–17: 25 kg / 15 kg."),
+ "Annex 1 item 11: ages 15 to under 16: 12 kg intermittent / 8 kg continuous; ages 16 to under 18: 25 kg / 15 kg."),
 
 (PR,"第3條附表二",2,"妊娠-禁止",
  "雇主不得使妊娠中之女性勞工從事之工作，下列何者屬之？",

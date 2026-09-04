@@ -130,10 +130,10 @@ Q = [
 
 (A,"第14條",1,"焚化爐排放-施行日",
  "廢棄物焚化爐空氣污染物排放標準之施行日期規定為何？",
- ["除已另訂施行日期者外，自發布日起施行","除已另訂施行日期者外，自發布後一年施行","一律自中華民國九十五年十二月二十五日施行","一律自中華民國八十一年十二月二日起施行"],"a",
+ ["除已另訂施行日期者外，自發布日起施行","除已另訂施行日期者外，自發布後一年施行","一律自中華民國九十六年七月一日起施行","一律自中華民國八十一年十二月二日起施行"],"a",
  "第14條：本標準除已另訂施行日期者外，自發布日起施行。本標準最近一次修正日期為民國九十五年十二月二十五日；第11條所定八十一年十二月二日則為既存焚化爐之認定基準日。",
  "When does this standard take effect?",
- ["Unless a date is separately set, on the date of promulgation","Unless a date is separately set, one year after promulgation","In every case on December 25, 2006, without exception","In every case on December 2, 1992, without any exception"],
+ ["Unless a date is separately set, on the date of promulgation","Unless a date is separately set, one year after promulgation","In every case on July 1, 2007, without any exception","In every case on December 2, 1992, without any exception"],
  "Article 14."),
 
 # ===== ENV-144 廢棄物焚化爐戴奧辛管制及排放標準（11 條）=====
@@ -365,10 +365,10 @@ Q = [
 
 (D,"第7條",1,"磚瓦窯業-施行日",
  "本標準之施行日期規定為何？",
- ["除另定施行日期者外，自發布日施行","除另定施行日期者外，自發布後一年施行","一律自中華民國八十八年四月七日起施行","一律自中華民國八十九年一月一日起施行"],"a",
+ ["除另定施行日期者外，自發布日施行","除另定施行日期者外，自發布後一年施行","一律自中華民國八十七年七月一日起施行","一律自中華民國八十九年一月一日起施行"],"a",
  "第7條：本標準規定事項除另定施行日期者外，自發布日施行。本標準修正日期為民國八十八年四月七日，第5條所定十八％含氧率參考基準亦自該日起適用。",
  "When does this standard take effect?",
- ["Unless a date is separately set, on the date of promulgation","Unless a date is separately set, one year after promulgation","In every case from April 7, 1999 without any exception at all","In every case from January 1, 2000 without any exception at all"],
+ ["Unless a date is separately set, on the date of promulgation","Unless a date is separately set, one year after promulgation","In every case from July 1, 1998 without any exception at all","In every case from January 1, 2000 without any exception at all"],
  "Article 7."),
 
 ]
