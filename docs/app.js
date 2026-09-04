@@ -124,18 +124,18 @@ function scoreFor(ok, usedSec, streak) {
 }
 
 /* ---------- 題庫 ---------- */
-async function loadBank() {
-  let j = null, src = 'local';
-  const url = new URLSearchParams(location.search).get('bank') || CFG.bankUrl;
-  if (url) {
-    try {
-      const ctrl = new AbortController(); const tm = setTimeout(() => ctrl.abort(), 8000);
-      const r = await fetch(url + (url.includes('?') ? '&' : '?') + 'status=' + (CFG.useDraft ? 'draft' : 'active'), { signal: ctrl.signal });
-      clearTimeout(tm);
-      if (r.ok) { j = await r.json(); src = 'cloud'; }
-    } catch (e) { console.warn('雲端題庫讀取失敗，改用本機：', e); }
-  }
-  if (!j) { const r = await fetch('data/questions.json', { cache: 'no-cache' }); j = await r.json(); }
+/* 題庫快取：雲端 JSON 已達 14 MB、GAS 回應 10–50 秒，改為「先用本機快取（IndexedDB）立即開玩，背景再更新」 */
+function idbOpen() {
+  return new Promise((res, rej) => {
+    const r = indexedDB.open('osh-quiz', 1);
+    r.onupgradeneeded = () => r.result.createObjectStore('kv');
+    r.onsuccess = () => res(r.result); r.onerror = () => rej(r.error);
+  });
+}
+async function idbGet(k) { try { const db = await idbOpen(); return await new Promise((res, rej) => { const t = db.transaction('kv').objectStore('kv').get(k); t.onsuccess = () => res(t.result); t.onerror = () => rej(t.error); }); } catch (e) { return null; } }
+async function idbSet(k, v) { try { const db = await idbOpen(); await new Promise((res, rej) => { const t = db.transaction('kv', 'readwrite').objectStore('kv').put(v, k); t.onsuccess = res; t.onerror = () => rej(t.error); }); } catch (e) { console.warn('cache write failed', e); } }
+
+function applyBankJson(j, src) {
   if (j.config) Object.keys(CFG_MAP).forEach(k => { const v = Number(j.config[k]); if (k in j.config && !isNaN(v) && v > 0) CFG[CFG_MAP[k]] = v; });
   if (CFG.lobbyWaitSec) CFG.lobbyWaitMs = CFG.lobbyWaitSec * 1000;
   CFG.maxPlayers = Math.min(5, Math.max(2, CFG.maxPlayers | 0));
@@ -145,6 +145,43 @@ async function loadBank() {
   BANK_ALL.forEach(q => { if (!q.law_group) q.law_group = String(q.law_id || q.id || '').startsWith('ENV') ? 'ENV' : 'OSH'; });
   applyGroup();
   renderBankInfo(String(j.generated || '').slice(0, 10), src);
+}
+async function fetchCloudBank(url, timeoutMs) {
+  const ctrl = new AbortController(); const tm = setTimeout(() => ctrl.abort(), timeoutMs);
+  try {
+    const r = await fetch(url + (url.includes('?') ? '&' : '?') + 'status=' + (CFG.useDraft ? 'draft' : 'active'), { signal: ctrl.signal });
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    const j = await r.json();
+    if (!j || !Array.isArray(j.questions) || !j.questions.length) throw new Error('empty bank');
+    return j;
+  } finally { clearTimeout(tm); }
+}
+async function loadBank() {
+  const url = new URLSearchParams(location.search).get('bank') || CFG.bankUrl;
+  const key = 'bank:' + (CFG.useDraft ? 'draft' : 'active');
+  const el = $('bankInfo');
+  // 1) 先用快取（有的話）立即可玩
+  const cached = url ? await idbGet(key) : null;
+  if (cached && cached.questions && cached.questions.length) {
+    applyBankJson(cached, 'cache');
+  } else {
+    if (el) el.textContent = lang === 'zh' ? '題庫載入中（第一次約 10–60 秒）…' : 'Loading question bank (first time 10–60 s)…';
+  }
+  // 2) 雲端更新（最長 120 秒）；若沒有快取且雲端失敗 → 退回站內 data/questions.json
+  if (url) {
+    try {
+      const j = await fetchCloudBank(url, 120000);
+      const newer = !cached || String(j.generated || '') !== String(cached.generated || '') || j.questions.length !== cached.questions.length;
+      if (newer) {
+        await idbSet(key, j);
+        const playing = document.getElementById('play').classList.contains('active');
+        if (!cached || !playing) applyBankJson(j, 'cloud');   // 作答中不換題庫，下次載入生效
+        else { const e2 = $('bankInfo'); if (e2) e2.dataset.pending = '1'; }
+      } else { renderBankInfo(String(j.generated || '').slice(0, 10), 'cloud'); }
+      return;
+    } catch (e) { console.warn('雲端題庫讀取失敗：', e); if (cached) return; }
+  }
+  const r = await fetch('data/questions.json', { cache: 'no-cache' }); applyBankJson(await r.json(), 'local');
 }
 function applyGroup() {
   BANK = BANK_ALL.filter(q => q.law_group === GROUP);
@@ -161,7 +198,7 @@ function renderGroup() {
 function renderBankInfo(gen, src) {
   const el = $('bankInfo'); if (!el) return;
   el.dataset.gen = gen || el.dataset.gen || ''; el.dataset.src = src || el.dataset.src || '';
-  const srcLabel = el.dataset.src === 'cloud' ? (lang === 'zh' ? '雲端' : 'cloud') : (lang === 'zh' ? '本機' : 'local');
+  const srcLabel = el.dataset.src === 'cloud' ? (lang === 'zh' ? '雲端' : 'cloud') : el.dataset.src === 'cache' ? (lang === 'zh' ? '快取（背景更新中）' : 'cached (updating)') : (lang === 'zh' ? '本機' : 'local');
   el.textContent = `${t(GROUP === 'ENV' ? 'groupEnv' : 'groupOsh')} ${t('bank')} ${BANK.length} ${lang === 'zh' ? '題' : 'questions'}（${lang === 'zh' ? '全部' : 'all'} ${BANK_ALL.length}） · ${srcLabel} · ${t('ver')} ${el.dataset.gen} ${CFG.useDraft ? t('draftNote') : ''}`;
 }
 
