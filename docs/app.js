@@ -1,20 +1,20 @@
-/* 台灣職安環保知識王 — 前端 v0.8
+/* 台灣職安環保知識王 — 前端 v0.9
    單人闖關 / 每日挑戰 / 連線對戰（2–5 人房間、隨機配對、電腦）＋ 全站排行榜（Firebase）
    出題範圍：首頁「職業安全衛生／環保」切換，兩邊題庫、每日挑戰、對戰配對、排行榜完全獨立
    題庫：GAS API（CFG.bankUrl）→ 失敗退回 data/questions.json
-   計分：答對 500 + 500×(剩餘秒/20)，連對 3 題起每題 +50；答錯/逾時 0。
+   計分：答對 200 + 300×(剩餘秒/20)，連對 3 題起速度分 ×1.2，單題上限 500（20 題滿分 10000）；答錯/逾時 0。
    對戰：房主同步題目與每題起算時間；該題全員作答完畢（或時間到）即跳下一題，不必等倒數跑完。 */
 (() => {
 'use strict';
 
 const CFG = { questionsPerGame: 20, secondsPerQuestion: 20, baseScore: 200, speedBonusMax: 300,
               perQuestionMax: 500, streakMult: 1.2,          // 單題上限 500 分（20 題滿分 10000）；連對速度分 ×1.2 但不超過上限
-              streakStart: 3, streakBonus: 50, dailyQuestions: 10, useDraft: true,
+              streakStart: 3, dailyQuestions: 10, useDraft: true,
               pvpGapMs: 2500, pvpCountdownMs: 4000, lobbyWaitMs: 10000, maxPlayers: 5,
               // 題庫 API（GAS 網頁應用程式 /exec 網址；留空＝只用 repo 內的 data/questions.json）
               bankUrl: 'https://script.google.com/macros/s/AKfycbw8GLA29GyEC4hLyXCZoaRBrG3mgJl389Tye47b8XARo-2fKs3rY6Jbfcm6Uxe0ewDM/exec' };
 const CFG_MAP = { questions_per_game: 'questionsPerGame', seconds_per_question: 'secondsPerQuestion', base_score: 'baseScore',
-                  speed_bonus_max: 'speedBonusMax', streak_start: 'streakStart', streak_bonus: 'streakBonus', daily_questions: 'dailyQuestions',
+                  speed_bonus_max: 'speedBonusMax', streak_start: 'streakStart', daily_questions: 'dailyQuestions',
                   per_question_max: 'perQuestionMax', streak_mult: 'streakMult',
                   lobby_wait_seconds: 'lobbyWaitSec', max_players: 'maxPlayers' };
 
@@ -71,6 +71,7 @@ const $ = id => document.getElementById(id);
 const t = k => I18N[lang][k];
 const L = (obj, key) => { if (key === 'explain' && obj && EXPLAIN[obj.id]) obj = Object.assign({}, obj, EXPLAIN[obj.id]); return obj[key + '_' + lang] || obj[key + '_zh'] || ''; };
 const fmt = (s, o) => s.replace(/\{(\w+)\}/g, (_, k) => o[k]);
+const SEP = () => (lang === 'zh' ? '、' : ', ');           // 中文用頓號、英文用逗號
 
 /* ---------- Firebase（可選） ---------- */
 const FB = { ok: false, uid: null, db: null, offset: 0, nick: '' };
@@ -91,6 +92,7 @@ const now = () => Date.now() + FB.offset;
 function nickVal() { return $('nick').value.trim().slice(0, 12); }
 function requireNick() {            // 暱稱必填：沒填就不能開始任何模式
   if (nickVal()) return true;
+  if (!$('home').classList.contains('active')) show('home');      // 暱稱欄在首頁，先切回去才看得到提醒
   const f = $('nick'); f.focus(); f.classList.add('shake'); setTimeout(() => f.classList.remove('shake'), 600);
   const h = $('nickHint'); if (h) { h.textContent = t('nickRequired'); h.classList.add('warn'); }
   return false;
@@ -124,7 +126,7 @@ function applyLang() {
 function mulberry32(a) { return () => { a |= 0; a = a + 0x6D2B79F5 | 0; let x = Math.imul(a ^ a >>> 15, 1 | a); x = x + Math.imul(x ^ x >>> 7, 61 | x) ^ x; return ((x ^ x >>> 14) >>> 0) / 4294967296; }; }
 function hashStr(s) { let h = 2166136261; for (const c of s) { h ^= c.charCodeAt(0); h = Math.imul(h, 16777619); } return h >>> 0; }
 function shuffle(arr, rnd = Math.random) { const a = arr.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
-const today = () => new Date().toLocaleDateString('sv-SE');
+const today = () => new Date(Date.now() + 8 * 3600e3).toISOString().slice(0, 10);   // 一律以台灣時間（UTC+8）計日，全站同一天同題
 function show(id) { document.querySelectorAll('.screen').forEach(s => s.classList.remove('active')); $(id).classList.add('active'); window.scrollTo(0, 0); }
 function escapeHtml(s) { return String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
 /* 計分（v0.7）：答對 = 基本 200 + 速度 300×(剩餘秒/總秒)；連對 3 題起速度分 ×1.2。
@@ -142,12 +144,15 @@ const maxScore = n => (CFG.perQuestionMax || 500) * n;
 
 /* ---------- 題庫 ---------- */
 /* 題庫載入（v0.5）：每個範圍各自載入 core 欄位（不含解析），先用 IndexedDB 快取立即開玩、背景更新；解析另外背景載入 */
+let _idb = null;
 function idbOpen() {
-  return new Promise((res, rej) => {
+  if (_idb) return _idb;
+  _idb = new Promise((res, rej) => {
     const r = indexedDB.open('osh-quiz', 1);
     r.onupgradeneeded = () => r.result.createObjectStore('kv');
-    r.onsuccess = () => res(r.result); r.onerror = () => rej(r.error);
+    r.onsuccess = () => res(r.result); r.onerror = () => { _idb = null; rej(r.error); };
   });
+  return _idb;
 }
 async function idbGet(k) { try { const db = await idbOpen(); return await new Promise((res, rej) => { const t = db.transaction('kv').objectStore('kv').get(k); t.onsuccess = () => res(t.result); t.onerror = () => rej(t.error); }); } catch (e) { return null; } }
 async function idbDel(k) { try { const db = await idbOpen(); await new Promise((res, rej) => { const t = db.transaction('kv', 'readwrite').objectStore('kv').delete(k); t.onsuccess = res; t.onerror = () => rej(t.error); }); } catch (e) {} }
@@ -246,7 +251,8 @@ function renderBankInfo(gen, src) {
 /* 加權抽題：先依 Laws.weight 抽法規（同一局盡量不重複法規），再從該法規抽一題；小法規也有機會出現、大法規不會洗版 */
 function pickWeighted(n, rnd) {
   const byLaw = {}; BANK.forEach(q => { (byLaw[q.law_id] = byLaw[q.law_id] || []).push(q); });
-  const ids = Object.keys(byLaw); if (!ids.length) return [];
+  Object.keys(byLaw).forEach(k => byLaw[k].sort((a, b) => String(a.id).localeCompare(String(b.id))));   // 固定順序，確保每日挑戰全站同題
+  const ids = Object.keys(byLaw).sort(); if (!ids.length) return [];
   const w = {}; (LAWS[GROUP] || []).forEach(l => { w[l.law_id] = Math.max(0.1, Number(l.weight) || 1); });
   const pool = {}; ids.forEach(id => { pool[id] = shuffle(byLaw[id], rnd); });
   const out = []; let avail = ids.slice(); let usedLaw = new Set();
@@ -270,12 +276,13 @@ function newGame(mode, ids, pvp) {
   const qs = ids.map(x => typeof x === 'string' ? BANK_BY_ID[x] : x).filter(Boolean);
   game = { mode, nick: nickVal(), qs, i: 0, view: null, score: 0, streak: 0, bestStreak: 0, log: [], timer: null, tLeft: 0, tStart: 0, paused: 0, locked: false, pvp: pvp || null };
   $('vs').classList.toggle('hidden', !pvp);
+  { const w = $('vsWait'); if (w) w.classList.toggle('hidden', !pvp); }     // 對戰的「尚未作答」提示不要殘留到單人／每日
   $('gap').classList.add('hidden');
   show('play');
   if (pvp) pvpTickStart(); else renderQuestion();
 }
 function start(mode) {
-  if (!BANK.length) return;
+  if (!BANK.length) { const el = $('bankInfo'); if (el) { el.classList.add('shake'); setTimeout(() => el.classList.remove('shake'), 600); } return; }
   if (!requireNick()) return;
   if (mode === 'daily' && localStorage.getItem('daily-' + GROUP + '-' + today())) { alert(t('dailyDone')); return; }
   syncNick();
@@ -346,6 +353,7 @@ function backToCurrent() {
 }
 function answer(chosen) {
   if (game.locked || game.view !== null) return;
+  if (game.pvp && now() < game.pvp.curAt) return;      // 題間倒數時不可搶答（否則用時算 0 秒＝滿分）
   game.locked = true;
   if (game.pvp) return pvpAnswer(chosen);
   clearInterval(game.timer);
@@ -398,6 +406,7 @@ function pvpWaitUI(msg, opts = {}) {
 function pvpCleanup() {
   if (!pv) return;
   try { pv.refs.forEach(r => r.off()); } catch (e) {}
+  if (pv.roomRef && FB.uid) { try { pv.roomRef.child('players/' + FB.uid + '/online').onDisconnect().cancel(); } catch (e) {} }
   if (pv.lobbyRef) pv.lobbyRef.remove().catch(() => {});
   if (pv.roomRef && pv.role === 'host' && !pv.started) pv.roomRef.remove().catch(() => {});
   if (pv.roomRef && pv.role === 'guest' && !pv.started && FB.uid) pv.roomRef.child('players/' + FB.uid).remove().catch(() => {});
@@ -442,9 +451,10 @@ function pvpMatch() {
 function pvpHost() {
   pvpCleanup();
   pv = { role: 'host', refs: [], started: false };
+  const mine = pv;                                     // 建房途中若按取消，pv 會換人，這裡就不要再進房
   const code = roomCodeGen();
   pv.roomRef = FB.db.ref('rooms/' + code);
-  pv.roomRef.set(roomPayload(code)).then(() => { pvpWaitUI(t('waitRoom'), { code, start: true }); pvpEnterRoom(code, 'host'); });
+  pv.roomRef.set(roomPayload(code)).then(() => { if (pv !== mine) return; pvpWaitUI(t('waitRoom'), { code, start: true }); pvpEnterRoom(code, 'host'); });
 }
 /* 以房號加入 */
 function pvpJoin(code) {
@@ -475,14 +485,14 @@ function pvpEnterRoom(code, role) {
     if (r.state !== 'playing') {
       if (role === 'host') {
         if (pv.autoStart && n >= 2 && !pv.scheduling) return pvpStartRoom();
-        pvpWaitUI(n >= 2 ? fmt(t('found'), { n: Object.entries(players).filter(([u]) => u !== FB.uid).map(([, p]) => p.nick).join('、') }) : t('waitRoom'),
+        pvpWaitUI(n >= 2 ? fmt(t('found'), { n: Object.entries(players).filter(([u]) => u !== FB.uid).map(([, p]) => p.nick).join(SEP()) }) : t('waitRoom'),
                   { code, start: true, startOk: n >= 2, players, host: r.host, max: r.max });
       } else pvpWaitUI(t('waitHost'), { players, host: r.host, max: r.max });
       return;
     }
     if (r.qs && r.curAt && !pv.started) {
       pv.started = true;
-      if (r.sec) CFG.secondsPerQuestion = r.sec;          // 以房主的每題秒數為準，所有人時程一致
+      if (r.sec) { CFG._secSaved = CFG.secondsPerQuestion; CFG.secondsPerQuestion = r.sec; }   // 以房主秒數為準；離開對戰後在 finish() 還原
       pvpStartCountdown(r);
     }
   });
@@ -497,7 +507,7 @@ function pvpStartRoom() {
 function pvpStartCountdown(r) {
   const upd = () => {
     const s = Math.max(0, Math.ceil((r.curAt - now()) / 1000));
-    pvpWaitUI(fmt(t('found'), { n: Object.entries(r.players || {}).filter(([u]) => u !== FB.uid).map(([, p]) => p.nick).join('、') }) + '　' + fmt(t('starting'), { s }), { players: r.players, host: r.host, max: r.max });
+    pvpWaitUI(fmt(t('found'), { n: Object.entries(r.players || {}).filter(([u]) => u !== FB.uid).map(([, p]) => p.nick).join(SEP()) }) + '　' + fmt(t('starting'), { s }), { players: r.players, host: r.host, max: r.max });
     if (now() >= r.curAt - 200) { clearInterval(pv.timer2); beginPvp(r, pv.roomRef, pv.role); }
   };
   upd(); pv.timer2 = setInterval(upd, 250);
@@ -638,7 +648,7 @@ function renderVs() {
   // 本題尚未作答的人（在線且非電腦）；全員作答完畢會提前跳題
   const pending = p.order.filter(u => { const pl = p.players[u]; return pl.online && !pl.bot && getAnswer(p, u, k) == null; }).map(u => p.players[u].nick);
   let w = $('vsWait'); if (!w) { w = document.createElement('div'); w.id = 'vsWait'; w.className = 'vswait'; $('vs').after(w); }
-  w.textContent = pending.length ? fmt(t('waitingFor'), { n: pending.map(n => escapeHtml(n)).join('、') }) : t('allIn');
+  w.textContent = pending.length ? fmt(t('waitingFor'), { n: pending.join(SEP()) }) : t('allIn');
   w.classList.toggle('all', !pending.length);
 }
 
@@ -646,6 +656,7 @@ function renderVs() {
 function finish() {
   clearInterval(game.timer);
   if (game.finished) return; game.finished = true;
+  if (CFG._secSaved) { CFG.secondsPerQuestion = CFG._secSaved; CFG._secSaved = 0; }   // 還原對戰房間覆寫的每題秒數
   const correct = game.log.filter(r => r && r.ok).length;
   const rec = { uid: FB.uid || 'local', nick: game.nick, score: game.score, correct, n: game.qs.length, date: today(), ts: Date.now() };
   let result = null;
@@ -677,7 +688,7 @@ function renderResult() {
   $('rScore').textContent = game.score;
 
   const correct = game.log.filter(r => r && r.ok).length;
-  const avg = (game.log.reduce((s, r) => s + (r ? r.used : CFG.secondsPerQuestion), 0) / game.log.length).toFixed(1);
+  const avg = (game.log.reduce((s, r) => s + (r ? r.used : CFG.secondsPerQuestion), 0) / Math.max(1, game.qs.length)).toFixed(1);
   $('rStats').innerHTML = `<div><b>${correct}/${game.qs.length}</b><span>${t('correctN')}</span></div><div><b>${game.bestStreak}</b><span>${t('bestStreak')}</span></div><div><b>${avg}s</b><span>${t('avgTime')}</span></div>`;
   const vr = $('vsResult');
   if (game.pvp) {
@@ -697,7 +708,7 @@ function renderResult() {
   });
   renderBoard();
 }
-let boardQuery = null, boardHandler = null;                       // 排行榜即時監聽（切換範圍／模式時重綁）
+let boardQuery = null, boardHandler = null, boardScope = '', boardCache = null;                       // 排行榜即時監聽（切換範圍／模式時重綁）
 function boardRows(snap) { const all = []; snap.forEach(c => { const r = c.val(); if (r && r.ts) all.push(r); }); return all; }
 function renderBoard() {
   const el = $('boardBody'); if (!el) return;
@@ -709,12 +720,18 @@ function renderBoard() {
     if (!rows.length) { el.innerHTML = `<p class="empty">${t('noWeekBoard')}</p>`; return; }
     el.innerHTML = `<table>${rows.slice(0, 10).map((r, i) => `<tr><td>${i + 1}. ${escapeHtml(r.nick)}${r.uid && r.uid === FB.uid ? ' ★' : ''}</td><td>${r.result ? ({ win: '🏆', lose: '·', draw: '=' })[r.result] + ' ' : ''}${r.correct}/${r.n} · ${r.date}</td><td>${r.score}</td></tr>`).join('')}</table><p class="note">${note}</p>`;
   };
+  if (!FB.ok) { if (boardQuery && boardHandler) { boardQuery.off('value', boardHandler); boardQuery = null; boardHandler = null; } draw(local, t('localNote')); renderWeekly(null); return; }
+  const scope = scopeKey(boardMode);
+  if (boardQuery && boardHandler && boardScope === scope && boardCache) {   // 同一個榜單就不重綁，直接用最近一次的資料重畫
+    const wk = boardCache.filter(thisWeek).sort((a, b) => b.score - a.score || a.ts - b.ts);
+    draw(wk, t('globalNote')); renderWeekly(boardCache); return;
+  }
   if (boardQuery && boardHandler) { boardQuery.off('value', boardHandler); boardQuery = null; boardHandler = null; }
-  if (!FB.ok) { draw(local, t('localNote')); renderWeekly(null); return; }
+  boardScope = scope;
   // 即時監聽：任何人交出新成績，本週排行榜與每週冠軍都會自動更新
-  boardQuery = FB.db.ref('scores/' + scopeKey(boardMode)).orderByChild('ts').limitToLast(3000);
+  boardQuery = FB.db.ref('scores/' + scope).orderByChild('ts').limitToLast(3000);
   boardHandler = s => {
-    const all = boardRows(s);
+    const all = boardRows(s); boardCache = all;
     const week = all.filter(thisWeek).sort((a, b) => b.score - a.score || a.ts - b.ts);
     draw(week, t('globalNote'));
     renderWeekly(all);
