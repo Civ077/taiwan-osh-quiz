@@ -25,11 +25,11 @@
           "nick": { ".validate": "newData.isString() && newData.val().length >= 1 && newData.val().length <= 12" },
           "score": { ".validate": "newData.isNumber() && newData.val() >= 0 && newData.val() <= newData.parent().child('n').val() * 500" },
           "correct": { ".validate": "newData.isNumber() && newData.val() >= 0 && newData.val() <= newData.parent().child('n').val()" },
-          "n": { ".validate": "newData.isNumber() && newData.val() >= 1 && newData.val() <= 50" },
+          "n": { ".validate": "newData.isNumber() && newData.val() >= 1 && newData.val() <= 20" },
           "date": { ".validate": "newData.isString() && newData.val().matches(/^\\d{4}-\\d{2}-\\d{2}$/)" },
-          "ts": { ".validate": "newData.isNumber() && newData.val() > 1735689600000 && newData.val() <= now + 300000" },
+          "ts": { ".validate": "newData.isNumber() && newData.val() > now - 600000 && newData.val() <= now + 300000" },
           "opp": { ".validate": "newData.isString() && newData.val().length <= 12" },
-          "oppScore": { ".validate": "newData.isNumber() && newData.val() >= 0 && newData.val() <= 25000" },
+          "oppScore": { ".validate": "newData.isNumber() && newData.val() >= 0 && newData.val() <= 10000" },
           "result": { ".validate": "newData.isString() && newData.val().matches(/^(win|lose|draw)$/)" },
           "$other": { ".validate": false }
         }
@@ -37,6 +37,7 @@
     },
 
     "lobby": {
+      ".read": "auth != null",
       "$uid": {
         ".read": "auth != null",
         ".write": "auth != null && auth.uid === $uid",
@@ -61,9 +62,14 @@
         "host": { ".validate": "newData.isString()" },
         "max": { ".validate": "newData.isNumber() && newData.val() >= 2 && newData.val() <= 5" },
         "sec": { ".validate": "newData.isNumber() && newData.val() >= 5 && newData.val() <= 120" },
-        "state": { ".validate": "newData.isString() && newData.val().matches(/^(waiting|playing)$/)" },
+        "state": { ".validate": "newData.isString() && newData.val().matches(/^(waiting|ready|playing)$/)" },
         "group": { ".validate": "newData.isString() && newData.val().matches(/^(OSH|ENV)$/)" },
         "cur": { ".validate": "newData.isNumber() && newData.val() >= 0 && newData.val() <= 50" },
+        "curAt": { ".validate": "newData.isNumber() && newData.val() > now - 300000 && newData.val() < now + 120000" },
+        "gap": { ".validate": "newData.isNumber() && newData.val() >= 0 && newData.val() <= 30000" },
+        "startAt": { ".validate": "newData.isNumber()" },
+        "code": { ".validate": "newData.isString() && newData.val().matches(/^[A-Z0-9]{4}$/)" },
+        "createdAt": { ".validate": "newData.isNumber()" },
 
         "players": {
           "$uid": {
@@ -77,6 +83,7 @@
         "answers": {
           "$uid": {
             ".write": "auth != null && auth.uid === $uid",
+            ".validate": "auth.uid === $uid",
             "$k": {
               ".write": "auth != null && auth.uid === $uid && !data.exists()",
               ".validate": "newData.hasChildren(['c','ms']) && now >= root.child('rooms').child($roomId).child('curAt').val() - 1500",

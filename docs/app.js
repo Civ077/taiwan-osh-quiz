@@ -126,7 +126,7 @@ function applyLang() {
 function mulberry32(a) { return () => { a |= 0; a = a + 0x6D2B79F5 | 0; let x = Math.imul(a ^ a >>> 15, 1 | a); x = x + Math.imul(x ^ x >>> 7, 61 | x) ^ x; return ((x ^ x >>> 14) >>> 0) / 4294967296; }; }
 function hashStr(s) { let h = 2166136261; for (const c of s) { h ^= c.charCodeAt(0); h = Math.imul(h, 16777619); } return h >>> 0; }
 function shuffle(arr, rnd = Math.random) { const a = arr.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
-const today = () => new Date(Date.now() + 8 * 3600e3).toISOString().slice(0, 10);   // 一律以台灣時間（UTC+8）計日，全站同一天同題
+const today = () => new Date(now() + 8 * 3600e3).toISOString().slice(0, 10);   // 一律以台灣時間（UTC+8）計日，全站同一天同題
 function show(id) { document.querySelectorAll('.screen').forEach(s => s.classList.remove('active')); $(id).classList.add('active'); window.scrollTo(0, 0); }
 function escapeHtml(s) { return String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
 /* 計分（v0.7）：答對 = 基本 200 + 速度 300×(剩餘秒/總秒)；連對 3 題起速度分 ×1.2。
@@ -158,7 +158,8 @@ async function idbGet(k) { try { const db = await idbOpen(); return await new Pr
 async function idbDel(k) { try { const db = await idbOpen(); await new Promise((res, rej) => { const t = db.transaction('kv', 'readwrite').objectStore('kv').delete(k); t.onsuccess = res; t.onerror = () => rej(t.error); }); } catch (e) {} }
 async function idbSet(k, v) { try { const db = await idbOpen(); await new Promise((res, rej) => { const t = db.transaction('kv', 'readwrite').objectStore('kv').put(v, k); t.onsuccess = res; t.onerror = () => rej(t.error); }); } catch (e) { console.warn('cache write failed', e); } }
 
-const bankUrl = () => new URLSearchParams(location.search).get('bank') || CFG.bankUrl;
+const isLocal = () => ['localhost', '127.0.0.1', ''].indexOf(location.hostname) >= 0;   // 測試參數只在本機生效
+const bankUrl = () => (isLocal() && new URLSearchParams(location.search).get('bank')) || CFG.bankUrl;
 async function fetchJson(url, timeoutMs) {
   const ctrl = new AbortController(); const tm = setTimeout(() => ctrl.abort(), timeoutMs);
   try { const r = await fetch(url, { signal: ctrl.signal }); if (!r.ok) throw new Error('HTTP ' + r.status); return await r.json(); }
@@ -170,7 +171,7 @@ function applyConfig(j) {
   if (CFG.lobbyWaitSec) CFG.lobbyWaitMs = CFG.lobbyWaitSec * 1000;
   CFG.maxPlayers = Math.min(5, Math.max(2, CFG.maxPlayers | 0));
   const secParam = Number(new URLSearchParams(location.search).get('sec'));   // 測試用：?sec=4 縮短每題秒數
-  if (secParam > 0) CFG.secondsPerQuestion = secParam;
+  if (secParam > 0 && isLocal()) CFG.secondsPerQuestion = secParam;
   const sm = String(j.config.site_mode || '').toLowerCase();
   SITE_MODE = sm === 'active' ? 'active' : 'draft';
   CFG.useDraft = SITE_MODE !== 'active';
@@ -403,7 +404,9 @@ function pvpWaitUI(msg, opts = {}) {
       list.map(([u, p]) => `<span class="pl${u === FB.uid ? ' me' : ''}${p.online === false ? ' off' : ''}">${escapeHtml(p.nick || '?')}${u === opts.host ? ` <i>${t('hostTag')}</i>` : ''}${u === FB.uid ? ` <i>${t('youTag')}</i>` : ''}</span>`).join('');
   }
 }
+function restoreSec() { if (CFG._secSaved) { CFG.secondsPerQuestion = CFG._secSaved; CFG._secSaved = 0; } }   // 還原對戰房間覆寫的每題秒數
 function pvpCleanup() {
+  restoreSec();
   if (!pv) return;
   try { pv.refs.forEach(r => r.off()); } catch (e) {}
   if (pv.roomRef && FB.uid) { try { pv.roomRef.child('players/' + FB.uid + '/online').onDisconnect().cancel(); } catch (e) {} }
@@ -559,7 +562,9 @@ function flash(msg) { $('gap').textContent = msg; $('gap').classList.remove('hid
 function pvpGoto(k, curAt) {
   const p = game.pvp;
   for (let j = 0; j < k; j++) if (!game.log[j]) { game.log[j] = { chosen: null, ok: false, used: CFG.secondsPerQuestion, gained: 0, bonus: 0 }; game.streak = 0; }
-  p.k = k; p.curAt = curAt; game.i = k; game.view = null; game.locked = false; p.gapShown = -1;
+  if (!(curAt > 0)) curAt = now();                 // curAt 缺失／非數值時以現在時間起算，避免倒數變 NaN 卡死
+  p.k = k; p.curAt = curAt; p.fallbackAt = 0;      // 換題就解除上一題排定的保險，否則會在新題第 4 秒誤判房主離線
+  game.i = k; game.view = null; game.locked = false; p.gapShown = -1;
   $('gap').classList.add('hidden');
   renderQuestion(true);
 }
@@ -592,9 +597,9 @@ function pvpTick() {
     p.gapShown = k; game.locked = true; document.querySelectorAll('.opt').forEach(b => b.disabled = true);
     recomputeAll(true); renderVs(); showGap(k, !timeUp);
     if (p.local || p.role === 'host') scheduleNext(p, k);
-    else p.fallbackAt = now() + (r.gap || CFG.pvpGapMs) + 4000;   // 房主沒推進時的保險：時間到 4 秒後自己往下走
+    else { p.fallbackAt = now() + (r.gap || CFG.pvpGapMs) + 4000; p.fallbackK = k; }   // 房主沒推進時的保險：時間到 4 秒後自己往下走
   }
-  if (!p.local && p.role !== 'host' && p.fallbackAt && now() > p.fallbackAt && p.k === k) { p.fallbackAt = 0; if (!p.hostGone) flash(t('hostLeft')); const nk = k + 1; if (nk >= game.qs.length) return finish(); pvpGoto(nk, now() + 500); }
+  if (!p.local && p.role !== 'host' && p.fallbackAt && now() > p.fallbackAt && p.fallbackK === k) { p.fallbackAt = 0; if (!p.hostGone) flash(t('hostLeft')); const nk = k + 1; if (nk >= game.qs.length) return finish(); pvpGoto(nk, now() + 500); }
   if (p.local) { recomputeAll(); renderVs(); }
 }
 function scheduleNext(p, k) {
@@ -656,7 +661,7 @@ function renderVs() {
 function finish() {
   clearInterval(game.timer);
   if (game.finished) return; game.finished = true;
-  if (CFG._secSaved) { CFG.secondsPerQuestion = CFG._secSaved; CFG._secSaved = 0; }   // 還原對戰房間覆寫的每題秒數
+  restoreSec();
   const correct = game.log.filter(r => r && r.ok).length;
   const rec = { uid: FB.uid || 'local', nick: game.nick, score: game.score, correct, n: game.qs.length, date: today(), ts: now() };
   let result = null;
