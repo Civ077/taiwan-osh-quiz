@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#16324f">
+<title>台灣職安環保知識王</title>
+<link rel="stylesheet" href="style.css?v=20260907b">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <span class="shield">🛡</span>
+    <span class="t" data-i18n="title">台灣職安環保知識王</span>
+  </div>
+  <div class="topright">
+    <span id="who" class="who"></span>
+    <button id="langBtn" class="pill" type="button">EN</button>
+  </div>
+</header>
+
+<main id="app">
+
+  <!-- 首頁 -->
+  <section id="home" class="screen active">
+    <p class="lead" data-i18n="lead">職業安全衛生 × 環保法規　限時搶答</p>
+    <div class="seg" id="groupSeg" role="tablist">
+      <button class="segbtn" data-group="OSH" type="button" role="tab"><span class="ic">🦺</span><span data-i18n="groupOsh">職業安全衛生</span></button>
+      <button class="segbtn" data-group="ENV" type="button" role="tab"><span class="ic">🌱</span><span data-i18n="groupEnv">環保</span></button>
+    </div>
+    <p class="segnote" id="segNote"></p>
+    <div class="row">
+      <label class="field">
+        <span data-i18n="nick">暱稱</span>
+        <input id="nick" maxlength="12" placeholder="" required autocomplete="nickname">
+      </label>
+    </div>
+    <p id="nickHint" class="nickhint"></p>
+    <p id="bankTop" class="nickhint"></p>
+    <div class="menu">
+      <button class="card mode" data-mode="solo" type="button">
+        <span class="ic">🎯</span>
+        <span class="name" data-i18n="solo">單人闖關</span>
+        <span class="desc" data-i18n="soloDesc">20 題・每題 20 秒・越快分越高</span>
+      </button>
+      <button class="card mode" data-mode="daily" type="button">
+        <span class="ic">📅</span>
+        <span class="name" data-i18n="daily">每日挑戰</span>
+        <span class="desc" data-i18n="dailyDesc">每天 10 題，全站同題</span>
+      </button>
+      <button class="card mode" data-mode="pvp" type="button">
+        <span class="ic">⚔️</span>
+        <span class="name" data-i18n="pvp">連線對戰</span>
+        <span class="desc" data-i18n="pvpDesc">2–5 人房間或隨機配對，同題同步搶答</span>
+      </button>
+    </div>
+    <div class="board">
+      <div class="board-head">
+        <h4 data-i18n="weekBoard">本週排行榜（每週一重置）</h4>
+        <div class="tabs">
+          <button class="tab active" data-board="solo" type="button">🎯</button>
+          <button class="tab" data-board="daily" type="button">📅</button>
+          <button class="tab" data-board="pvp" type="button">⚔️</button>
+        </div>
+      </div>
+      <div id="boardBody"></div>
+      <h4 class="weekly-title" data-i18n="weekly">歷屆每週冠軍</h4>
+      <div id="weeklyBody"></div>
+    </div>
+    <p class="foot"><span id="bankInfo"></span><br><span id="netInfo"></span></p>
+  </section>
+
+  <!-- 對戰入口 -->
+  <section id="pvp" class="screen">
+    <h2 data-i18n="pvp">連線對戰</h2>
+    <div id="pvpMenu" class="menu">
+      <button id="btnMatch" class="card" type="button">
+        <span class="ic">🎲</span>
+        <span class="name" data-i18n="match">隨機配對</span>
+        <span class="desc" data-i18n="matchDesc">10 秒內沒人就可改打電腦或開房間</span>
+      </button>
+      <button id="btnHost" class="card" type="button">
+        <span class="ic">🏠</span>
+        <span class="name" data-i18n="host">建立房間</span>
+        <span class="desc" data-i18n="hostDesc">拿到四碼房號，最多 5 人一起玩</span>
+      </button>
+      <div class="card joinrow">
+        <span class="ic">🔑</span>
+        <span class="name" data-i18n="join">輸入房號加入</span>
+        <span class="desc"><input id="joinCode" maxlength="4" placeholder="ABCD" autocapitalize="characters"> <button id="btnJoin" class="mini" type="button" data-i18n="joinBtn">加入</button></span>
+      </div>
+      <button id="btnBot" class="card" type="button">
+        <span class="ic">🤖</span>
+        <span class="name" data-i18n="bot">跟電腦對戰</span>
+        <span class="desc" data-i18n="botDesc">電腦依難度隨機作答，不列入全站排行</span>
+      </button>
+    </div>
+    <div id="pvpWait" class="wait hidden">
+      <div class="spinner"></div>
+      <div id="waitMsg" class="waitmsg"></div>
+      <div id="roomCodeBox" class="roomcode hidden"><span data-i18n="roomCode">房號</span> <b id="roomCode"></b></div>
+      <div id="roomPlayers" class="players"></div>
+      <div class="actions">
+        <button id="btnStart" class="primary hidden" type="button" data-i18n="startBtn">開始對戰</button>
+        <button id="btnWaitBot" class="primary hidden" type="button" data-i18n="waitBot">改打電腦</button>
+        <button id="btnCancelWait" class="ghost" type="button" data-i18n="cancel">取消</button>
+      </div>
+    </div>
+    <button id="pvpBack" class="ghost" type="button" data-i18n="home">回首頁</button>
+  </section>
+
+  <!-- 作答 -->
+  <section id="play" class="screen">
+    <!-- 作答中不能回看上一題（防作弊）；答題回顧在結果頁 -->
+    <div class="nav hidden">
+      <button id="prevBtn" class="navbtn" type="button" disabled>‹ <span data-i18n="prev">上一題</span></button>
+      <button id="backBtn" class="navbtn accent hidden" type="button"><span data-i18n="backCur">回到目前題目</span> ›</button>
+    </div>
+    <div class="hud">
+      <span id="qNo" class="qno">1 / 20</span>
+      <span id="score" class="score">0</span>
+      <span id="streak" class="streak"></span>
+    </div>
+    <div id="vs" class="vs hidden"></div>
+    <div class="timer"><div id="timerBar" class="bar"></div><span id="timerNum" class="num">20</span></div>
+    <div class="meta"><span id="qLaw"></span><span id="qDiff"></span></div>
+    <h2 id="qText" class="q"></h2>
+    <div id="opts" class="opts"></div>
+    <p id="viewNote" class="viewnote hidden"></p>
+    <div id="gap" class="gap hidden"></div>
+  </section>
+
+  <!-- 結果 -->
+  <section id="result" class="screen">
+    <h2 data-i18n="resultTitle">本局結果</h2>
+    <div id="vsResult" class="vsresult hidden"></div>
+    <div class="total"><span id="rScore">0</span><small data-i18n="pts">分</small></div>
+    <div id="rStats" class="stats"></div>
+    <p id="rNote" class="rnote"></p>
+    <p id="boardNote" class="rnote"></p>
+    <button id="regradeBtn" class="ghost hidden" type="button" data-i18n="regrade">重新計分</button>
+    <div class="actions">
+      <button id="againBtn" class="primary" type="button" data-i18n="again">再來一局</button>
+      <button id="homeBtn" class="ghost" type="button" data-i18n="home">回首頁</button>
+    </div>
+    <h3 data-i18n="review">答題回顧</h3>
+    <ol id="reviewList" class="review"></ol>
+  </section>
+
+</main>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-check-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-database-compat.js"></script>
+<script src="firebase-config.js"></script>
+<script src="app.js?v=20260907b"></script>
+</body>
+</html>

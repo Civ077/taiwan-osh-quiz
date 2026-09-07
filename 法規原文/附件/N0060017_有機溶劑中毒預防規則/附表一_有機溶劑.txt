@@ -1,0 +1,184 @@
+附表一 有機溶劑 
+本規則第三條第一款規定之有機溶劑及其分類如下： 
+一、第一種有機溶劑 
+１ 三氯甲烷 
+  CHCl3 
+  Trichloromethane 
+２ 1, 1, 2, 2–四氯乙烷 
+  CHCl2CHCl2 
+  1, 1, 2, 2–Tetrachloroethane 
+３ 四氯化碳 
+  CCl4 
+  Tetrachloromethane 
+４ 1, 2–二氯乙烯 
+  CHCl=CHCl 
+  1, 2–Dichloroethylene 
+５ 1, 2–二氯乙烷 
+  CH2ClCH2Cl 
+  1, 2–Dichloroethane 
+６ 二硫化碳 
+  CS2 
+  Carbon disulfide 
+７ 三氯乙烯 
+  CHCl=CCl2 
+  Trichloroethylene 
+８ 僅由１.至７.列舉之物質之混合物 
+二、第二種有機溶劑 
+１ 丙酮 
+  CH3COCH3 
+  Acetone 
+ 
+
+２ 異戊醇 
+  (CH3)2CHCH2CH2OH 
+  Isoamyl alcohol 
+３ 異丁醇 
+  (CH3)2CHCH2OH 
+  Isobutyl alcohol 
+４ 異丙醇 
+  (CH3) 2CHOH 
+  Isopropyl alcohol 
+５ 乙醚 
+  C2H5OC2H5 
+  Ethyl ether 
+６ 乙二醇乙醚 
+  HO(CH2)2OC2H5 
+  Ethylene glycol monoethyl ether 
+７ 乙二醇乙醚醋酸酯 
+  C2H5O(CH2)2OCOCH3 
+  Ethylene glycol monoethyl ether acetate 
+８ 乙二醇丁醚 
+  HO(CH2)2OC4H9 
+  Ethylene glycol monobutyl ether 
+９ 乙二醇甲醚 
+  HO(CH2)2OCH3 
+  Ethylene glycol monomethyl ether 
+１０ 鄰–二氯苯 
+   C6H4Cl2 
+   O–dichlorobenzene 
+１１ 二甲苯（含鄰、間、對異構物） 
+   C6H4(CH3)2 
+   Xylenes（o–,m–,p–isomers） 
+
+１２ 甲酚 
+   HOC6H4CH3 
+   Cresol 
+１３ 氯苯 
+   C6H5Cl 
+   Chlorobenzene 
+１４ 乙酸戊酯 
+   CH3CO2C5H11 
+   Amyl acetate 
+１５ 乙酸異戊酯 
+   CH3CO2CH2CH2CH(CH3)2 
+   Isoamyl acetate 
+１６ 乙酸異丁酯 
+   CH3CO2CH2CH(CH3)2 
+   Isobutyl acetate 
+１７ 乙酸異丙酯 
+   CH3CO2CH(CH3)2 
+   Isopropyl acetate 
+１８ 乙酸乙酯 
+   CH3CO2C2H5 
+   Ethyl acetate 
+１９ 乙酸丙酯 
+   CH3CO2C3H7 
+   Propyl acetate 
+２０ 乙酸丁酯 
+   CH3CO2C4H9 
+   Butyl acetate 
+２１ 乙酸甲酯 
+   CH3COOCH3 
+   Methyl acetate 
+
+２２ 苯乙烯 
+   C6H5 CH=CH2 
+   Styrene 
+２３ 1, 4–二氧陸圜 
+     ／CH2CH2＼ 
+    O       O 
+    ＼CH2CH2／  
+   1, 4–Dioxan 
+２４ 四氯乙烯 
+   C12C=CCl2 
+   Tetrachloroethylene 
+２５ 環己醇 
+   C6H11OH 
+   Cyclohexanol 
+２６ 環己酮 
+   C6H10O 
+   Cyclohexanone 
+２７ 1–丁醇 
+   CH3(CH2)3OH 
+   1–Butyl alcohol 
+２８ 2–丁醇 
+   CH3CH2CH(OH)CH3 
+   2–Butyl alcohol 
+２９ 甲苯 
+   C6H5CH3 
+   Toluene 
+３０ 二氯甲烷 
+   CH2Cl2 
+   Dichloromethane 
+ 
+
+３１ 甲醇 
+   CH3OH 
+   Methyl alcohol 
+３２ 甲基異丁酮 
+   (CH3)2CHCH2COCH3 
+   Methyl isobutyl ketone 
+３３ 甲基環己醇 
+   CH3C6H10OH 
+   Methyl cyclohexanol 
+３４ 甲基環己酮 
+   CH3C5H9CO 
+   Methyl cyclohexanone 
+３５ 甲丁酮 
+   CH3OC(CH2)3CH3 
+   Methyl butyl ketone 
+３６ 1,1,1–三氯乙烷 
+   CH3CCl3 
+   1,1,1–Trichloroethane 
+３７ 1,1,2–三氯乙烷 
+   CH2ClCHCl2 
+   1,1,2–Trichloroethane 
+３８ 丁酮 
+   CH3COC2H5 
+   Methyl ethyl ketone 
+３９ 二甲基甲醯胺 
+   HCON(CH3)2 
+   N,N-Dimethyl formamide 
+ 
+ 
+ 
+
+４０ 四氫呋喃 
+   CH2—CH2 
+   ︱   ︱ 
+   CH2 CH2 
+    ＼O／ 
+   Tetrahydrofuran 
+４１ 正己烷 
+   CH3CH2CH2CH2CH2CH3 
+   n-hexane 
+４２ 1–溴丙烷 
+   1–C3H7Br 
+   1–Bromopropane 
+４３ 僅由１.至４２.列舉之物質之混合物 
+三、第三種有機溶劑 
+１ 汽油 
+  Gasoline 
+２ 煤焦油精 
+  Coal tar naphtha 
+３ 石油醚 
+  Petroleum ether 
+４ 石油精 
+  Petroleum naphtha 
+５ 輕油精 
+  Petroleum benzine 
+６ 松節油 
+  Turpentine 
+７ 礦油精 
+  Mineral spirit（Mineral thinner, petroleum spirit, white spirit） 
+８ 僅由１.至７.列舉之物質之混合物 

@@ -1,0 +1,13 @@
+rules_version = '2';
+// 這個專案沒有用到 Cloud Storage。
+// 之所以先把規則寫好放著：主控台一旦有人點了「啟用 Storage」，跑的會是 Google 的
+// 預設規則（常是「登入過就能讀寫」），而本站開著匿名登入 —— 任何陌生人打開網址
+// 就自動有帳號，等於把專案變成免費公開雲端硬碟。
+// 有了這個檔案，啟用後只要跑一次 firebase deploy 就會全部鎖死。
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}

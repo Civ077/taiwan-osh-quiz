@@ -1,0 +1,986 @@
+/* 台灣職安環保知識王 — 前端 v0.9
+   單人闖關 / 每日挑戰 / 連線對戰（2–5 人房間、隨機配對、電腦）＋ 全站排行榜（Firebase）
+   出題範圍：首頁「職業安全衛生／環保」切換，兩邊題庫、每日挑戰、對戰配對、排行榜完全獨立
+   題庫：GAS API（CFG.bankUrl）→ 失敗退回 data/questions.json
+   計分：答對 200 + 300×(剩餘秒/20)，連對 3 題起速度分 ×1.2，單題上限 500（20 題滿分 10000）；答錯/逾時 0。
+   對戰：房主同步題目與每題起算時間；該題全員作答完畢（或時間到）即跳下一題，不必等倒數跑完。 */
+(() => {
+'use strict';
+
+const CFG = { questionsPerGame: 20, secondsPerQuestion: 20, baseScore: 200, speedBonusMax: 300,
+              perQuestionMax: 500, streakMult: 1.2,          // 單題上限 500 分（20 題滿分 10000）；連對速度分 ×1.2 但不超過上限
+              streakStart: 3, dailyQuestions: 10, useDraft: true,
+              pvpGapMs: 2500, pvpCountdownMs: 4000, lobbyWaitMs: 10000, maxPlayers: 5,
+              // 題庫 API（GAS 網頁應用程式 /exec 網址；留空＝只用 repo 內的 data/questions.json）
+              bankUrl: 'https://script.google.com/macros/s/AKfycbw8GLA29GyEC4hLyXCZoaRBrG3mgJl389Tye47b8XARo-2fKs3rY6Jbfcm6Uxe0ewDM/exec' };
+const CFG_MAP = { questions_per_game: 'questionsPerGame', seconds_per_question: 'secondsPerQuestion', base_score: 'baseScore',
+                  speed_bonus_max: 'speedBonusMax', streak_start: 'streakStart', daily_questions: 'dailyQuestions',
+                  per_question_max: 'perQuestionMax', streak_mult: 'streakMult',
+                  lobby_wait_seconds: 'lobbyWaitSec', max_players: 'maxPlayers' };
+
+const I18N = {
+  zh: { title:'台灣職安環保知識王', lead:'職業安全衛生 × 環保法規　限時搶答', solo:'單人闖關', soloDesc:'20 題・每題 20 秒・越快分越高',
+        daily:'每日挑戰', dailyDesc:'每天 10 題，全站同題', pvp:'連線對戰', pvpDesc:'2–5 人房間或隨機配對，同題同步搶答', nick:'暱稱',
+        prev:'上一題', backCur:'回到目前題目', viewing:'回看第 {n} 題（你的作答已標示，倒數暫停中）', noAns:'未作答', resultTitle:'本局結果',
+        pts:'分', again:'再來一局', home:'回首頁', review:'答題回顧', timeout:'時間到', ans:'正確答案', correctN:'答對', bestStreak:'最長連對', avgTime:'平均秒數',
+        board:'排行榜', noBoard:'還沒有紀錄，先來一局！', diff:['','入門','進階','困難'], bank:'題庫', ver:'版本', draftNote:'（含待審 draft 題）',
+        nickDefault:'玩家', dailyDone:'今天的每日挑戰已完成，明天再來！', bonus:'連對加成',
+        match:'隨機配對', matchDesc:'10 秒內沒人就可改打電腦或開房間', host:'建立房間', hostDesc:'拿到四碼房號，最多 5 人一起玩', join:'輸入房號加入', joinBtn:'加入',
+        bot:'跟電腦對戰', botDesc:'電腦依難度隨機作答，不列入全站排行', roomCode:'房號', waitBot:'改打電腦', cancel:'取消',
+        waitMatch:'配對中…', waitNoOne:'目前沒有其他玩家，可以改打電腦或建立房間邀請朋友', waitRoom:'等待朋友加入…把房號傳給對方（最多 5 人），人數夠了按「開始對戰」', joining:'加入中…',
+        found:'配對成功！對手：{n}', starting:'{s} 秒後開始', roomNotFound:'找不到這個房號、房間已開始或已滿', needOnline:'連線對戰需要網路與雲端登入，目前不可用；可改打電腦',
+        waitHost:'已加入房間，等待房主開始…', startBtn:'開始對戰', players:'玩家', playersN:'{n} 人', hostTag:'房主', youTag:'你',
+        bot1:'電腦', you:'你', opp:'對手', win:'你贏了！', lose:'你輸了', draw:'平手', gapMe:'你 {a}', gapOpp:'{n} {b}', oppLeft:'{n} 已離線，之後不再作答',
+        allAnswered:'全員作答完畢，準備下一題', rank:'第 {r} 名', hostLeft:'房主離線，改以計時方式繼續', regrade:'重新計分', grading:'計分中…（答案由伺服器批改）', gradeFailed:'⚠ 計分失敗，成績未上傳。請按下方重新計分。', pushFailed:'⚠ 這局成績沒有上傳到全站排行榜（連線或驗證未通過）',
+        nickHint:'請先輸入暱稱（1–12 字）才能開始遊戲，暱稱會顯示在排行榜與對戰中', nickRequired:'⚠ 請先輸入暱稱再開始',
+        groupOsh:'職業安全衛生', groupEnv:'環保', segNoteOsh:'目前出題範圍：職業安全衛生法規（單人、每日、對戰、排行榜各自獨立）', segNoteEnv:'目前出題範圍：環保法規（單人、每日、對戰、排行榜各自獨立）',
+        online:'雲端連線中', offline:'離線（無法遊戲）', globalNote:'全站前 10 名', localNote:'本機紀錄',
+        needNet:'⚠ 需要連上網路才能遊戲，目前為離線狀態', netLost:'⚠ 連線中斷，本局已結束且不列入紀錄', boardNeedNet:'離線中，連上網路後才會顯示排行榜', vsBot:'（對電腦，不列入全站排行）',
+        waitingFor:'尚未作答：{n}', allIn:'全員已作答', weekly:'歷屆每週冠軍', weekLead:'本週目前領先', weekN:'第 {w} 週（{a}～{b}）', noWeekly:'尚無週冠軍紀錄',
+        weekBoard:'本週排行榜（每週一重置）', noWeekBoard:'本週還沒有紀錄，先來一局！', ofMax:'滿分 {m}' },
+  en: { title:'Taiwan OSH & Env Quiz', lead:'Occupational Safety × Environmental Law · Speed quiz', solo:'Solo Run', soloDesc:'20 questions · 20 s each · faster = more points',
+        daily:'Daily Challenge', dailyDesc:'10 questions a day, same for everyone', pvp:'Online Battle', pvpDesc:'Rooms of 2–5 or random match, same questions in sync', nick:'Nickname',
+        prev:'Previous', backCur:'Back to current', viewing:'Viewing Q{n} (your answer marked; timer paused)', noAns:'No answer', resultTitle:'Results',
+        pts:'pts', again:'Play again', home:'Home', review:'Review', timeout:'Time up', ans:'Answer', correctN:'Correct', bestStreak:'Best streak', avgTime:'Avg seconds',
+        board:'Leaderboard', noBoard:'No records yet. Play a round!', diff:['','Easy','Medium','Hard'], bank:'Bank', ver:'version', draftNote:'(incl. draft items)',
+        nickDefault:'Player', dailyDone:'Today\'s challenge is done. Come back tomorrow!', bonus:'Streak bonus',
+        match:'Random match', matchDesc:'No one in 10 s? Play the bot or open a room', host:'Create room', hostDesc:'Get a 4-letter code, up to 5 players', join:'Join with code', joinBtn:'Join',
+        bot:'Play vs bot', botDesc:'Bot answers by difficulty; not ranked globally', roomCode:'Room', waitBot:'Play bot instead', cancel:'Cancel',
+        waitMatch:'Matching…', waitNoOne:'No other players right now. Play the bot or create a room for a friend', waitRoom:'Waiting for friends… share the room code (up to 5 players), then press Start', joining:'Joining…',
+        found:'Matched! Opponent: {n}', starting:'Starting in {s} s', roomNotFound:'Room not found, already started or full', needOnline:'Online battle needs network + cloud sign-in; try the bot instead',
+        waitHost:'Joined. Waiting for the host to start…', startBtn:'Start battle', players:'Players', playersN:'{n} players', hostTag:'host', youTag:'you',
+        bot1:'Bot', you:'You', opp:'Opp', win:'You win!', lose:'You lose', draw:'Draw', gapMe:'You {a}', gapOpp:'{n} {b}', oppLeft:'{n} went offline and stops answering',
+        allAnswered:'Everyone answered — next question', rank:'Rank {r}', hostLeft:'Host offline; continuing on the timer', regrade:'Retry scoring', grading:'Scoring… (graded on the server)', gradeFailed:'⚠ Scoring failed; nothing was uploaded. Tap below to retry.', pushFailed:'⚠ This score was not uploaded to the global leaderboard (connection or validation failed).',
+        nickHint:'Enter a nickname (1–12 chars) to play; it appears on leaderboards and in battles', nickRequired:'⚠ Please enter a nickname first',
+        groupOsh:'Occupational Safety', groupEnv:'Environment', segNoteOsh:'Current scope: occupational safety & health laws (solo, daily, battle and leaderboard are separate)', segNoteEnv:'Current scope: environmental laws (solo, daily, battle and leaderboard are separate)',
+        online:'Online', offline:'Offline (cannot play)', globalNote:'Global top 10', localNote:'Local records',
+        needNet:'⚠ You need to be online to play; you are currently offline.', netLost:'⚠ Connection lost — this round ended and is not recorded.', boardNeedNet:'Offline — the leaderboard appears once you are back online', vsBot:'(vs bot, not ranked globally)',
+        waitingFor:'Waiting for: {n}', allIn:'Everyone answered', weekly:'Past weekly champions', weekLead:'Leading this week', weekN:'Week {w} ({a}–{b})', noWeekly:'No weekly champions yet',
+        weekBoard:'This week (resets every Monday)', noWeekBoard:'No records this week yet — play a round!', ofMax:'max {m}' }
+};
+
+let lang = localStorage.getItem('lang') || 'zh';
+let GROUP = (localStorage.getItem('group') === 'ENV') ? 'ENV' : 'OSH';   // 出題範圍：OSH 職安 / ENV 環保，兩邊完全獨立
+let BANK_ALL = [], BANK = [], BANK_BY_ID = {};
+const BANKS = { OSH: null, ENV: null };        // 各範圍題庫（core 欄位）
+const LAWS = { OSH: [], ENV: [] };             // 各範圍法規表（law_id, name, weight, family）
+const EXPLAIN = {};                            // id → {explain_zh, explain_en}（背景載入）
+let SITE_MODE = 'draft';                       // Config.site_mode：draft＝含待審題；active＝只出 active
+const scopeKey = mode => mode + '_' + GROUP;                               // 排行榜、每日挑戰都依範圍分開
+let game = null;
+let boardMode = 'solo';
+const $ = id => document.getElementById(id);
+const t = k => I18N[lang][k];
+const L = (obj, key) => { if (key === 'explain' && obj && EXPLAIN[obj.id]) obj = Object.assign({}, obj, EXPLAIN[obj.id]); return obj[key + '_' + lang] || obj[key + '_zh'] || ''; };
+const fmt = (s, o) => s.replace(/\{(\w+)\}/g, (_, k) => o[k]);
+const SEP = () => (lang === 'zh' ? '、' : ', ');           // 中文用頓號、英文用逗號
+
+/* ---------- Firebase（可選） ---------- */
+const FB = { ok: false, uid: null, db: null, offset: 0, nick: '' };
+function initFirebase() {
+  try {
+    if (!window.firebase || !window.FIREBASE_CONFIG) throw new Error('no firebase');
+    firebase.initializeApp(window.FIREBASE_CONFIG);
+    // App Check：把這份公開設定綁在本站網域。別人把 firebase-config.js 複製到自己的
+    // 網頁或用腳本直接呼叫，拿不到 App Check 權杖，Firebase 會直接拒絕。
+    // 尚未設定 reCAPTCHA 金鑰時整段跳過，網站行為不變。
+    if (window.FIREBASE_APPCHECK_KEY && firebase.appCheck) {
+      try { firebase.appCheck().activate(window.FIREBASE_APPCHECK_KEY, true); }
+      catch (e) { console.warn('App Check 啟用失敗', e); }
+    }
+    FB.db = firebase.database();
+    firebase.auth().onAuthStateChanged(u => {
+      if (u) { FB.uid = u.uid; FB.ok = true; syncNick(); renderNet(); renderBoard(); }
+      else firebase.auth().signInAnonymously().catch(e => { console.warn('anon auth failed', e); FB.ok = false; renderNet(); });
+    });
+    FB.db.ref('.info/serverTimeOffset').on('value', s => { FB.offset = s.val() || 0; });
+    FB.db.ref('.info/connected').on('value', s => {
+      const was = FB.conn; FB.conn = !!s.val(); renderNet();
+      if (FB.conn && was !== true) renderBoard();   // 登入會早於 RTDB 通道接上，接上後要把排行榜重畫一次
+    });
+  } catch (e) { console.warn('Firebase 未啟用：', e.message); FB.ok = false; renderNet(); }
+}
+const now = () => Date.now() + FB.offset;
+/* 遊戲一律需要連線：成績要能上傳、對戰要同步，離線就當斷線 */
+const isOnline = () => FB.ok && FB.conn !== false && navigator.onLine !== false;
+function nickVal() { return $('nick').value.trim().slice(0, 12); }
+function requireNick() {            // 暱稱必填：沒填就不能開始任何模式（欄位預設留空，每次都要自己輸入）
+  if (nickVal()) return true;
+  if (!$('home').classList.contains('active')) show('home');      // 暱稱欄在首頁，先切回去才看得到提醒
+  const f = $('nick'); f.focus(); f.classList.add('shake'); setTimeout(() => f.classList.remove('shake'), 600);
+  const h = $('nickHint'); if (h) { h.textContent = t('nickRequired'); h.classList.add('warn'); }
+  return false;
+}
+function syncNick() {
+  const n = nickVal(); localStorage.setItem('nick', n);
+  const h = $('nickHint'); if (h) { h.textContent = t('nickHint'); h.classList.remove('warn'); }
+  if (!n) return;
+  if (FB.ok && FB.nick !== n) { FB.nick = n; FB.db.ref('users/' + FB.uid).set({ nick: n, updatedAt: firebase.database.ServerValue.TIMESTAMP }).catch(() => {}); }
+}
+let offlineTimer = 0;
+function renderNet() {
+  const el = $('netInfo'); if (!el) return;
+  const on = isOnline();
+  el.textContent = on ? '☁ ' + t('online') : '○ ' + t('offline');
+  $('who').textContent = on ? nickVal() : '';
+  const playing = () => game && !game.result && $('play').classList.contains('active');
+  if (on) {
+    clearTimeout(offlineTimer); offlineTimer = 0;
+    const e = $('bankTop');
+    if (e && (e.textContent === t('needNet') || e.textContent === t('netLost'))) bankTop('');   // 只清掉連線相關訊息，別蓋掉題庫載入中
+  } else if (playing() && !offlineTimer) {
+    offlineTimer = setTimeout(() => { offlineTimer = 0; if (!isOnline() && playing()) abortOffline(); }, 5000);   // 瞬斷不砍局，持續 5 秒才算斷線
+  }
+}
+/* 遊戲進行中斷線：直接結束本局，不寫任何紀錄 */
+function abortOffline() {
+  if (!game) return;
+  clearInterval(game.timer);
+  game = null;
+  pvpCleanup();
+  show('home'); renderBoard();
+  bankTop(t('netLost'), true);
+}
+
+/* ---------- i18n ---------- */
+function applyLang() {
+  document.documentElement.lang = lang === 'zh' ? 'zh-Hant' : 'en';
+  document.querySelectorAll('[data-i18n]').forEach(el => { el.textContent = t(el.dataset.i18n); });
+  $('langBtn').textContent = lang === 'zh' ? 'EN' : '中';
+  $('nick').placeholder = '';                 // 輸入框保持空白，提醒文字放在下方
+  renderGroup(); renderBoard(); renderBankInfo(); renderNet();
+  const h = $('nickHint'); if (h) h.textContent = t('nickHint');
+  if (game && $('play').classList.contains('active')) renderQuestion(true);
+  if ($('result').classList.contains('active')) renderResult();
+}
+
+/* ---------- 工具 ---------- */
+function mulberry32(a) { return () => { a |= 0; a = a + 0x6D2B79F5 | 0; let x = Math.imul(a ^ a >>> 15, 1 | a); x = x + Math.imul(x ^ x >>> 7, 61 | x) ^ x; return ((x ^ x >>> 14) >>> 0) / 4294967296; }; }
+function hashStr(s) { let h = 2166136261; for (const c of s) { h ^= c.charCodeAt(0); h = Math.imul(h, 16777619); } return h >>> 0; }
+function shuffle(arr, rnd = Math.random) { const a = arr.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+const today = () => new Date(now() + 8 * 3600e3).toISOString().slice(0, 10);   // 一律以台灣時間（UTC+8）計日，全站同一天同題
+function show(id) { document.querySelectorAll('.screen').forEach(s => s.classList.remove('active')); $(id).classList.add('active'); window.scrollTo(0, 0); }
+function escapeHtml(s) { return String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
+/* 計分（v0.7）：答對 = 基本 200 + 速度 300×(剩餘秒/總秒)；連對 3 題起速度分 ×1.2。
+   單題不超過 perQuestionMax（500），故 20 題滿分 10000、每日挑戰 10 題滿分 5000。答錯或逾時 0 分。 */
+function scoreFor(ok, usedSec, streak) {
+  if (!ok) return { gained: 0, bonus: 0 };
+  const remain = Math.max(0, CFG.secondsPerQuestion - usedSec);
+  const speed = CFG.speedBonusMax * remain / CFG.secondsPerQuestion;
+  const cap = CFG.perQuestionMax || (CFG.baseScore + CFG.speedBonusMax);
+  const plain = Math.min(cap, Math.round(CFG.baseScore + speed));
+  const withStreak = Math.min(cap, Math.round(CFG.baseScore + speed * (streak >= CFG.streakStart ? (CFG.streakMult || 1) : 1)));
+  return { gained: plain, bonus: withStreak - plain };
+}
+const maxScore = n => (CFG.perQuestionMax || 500) * n;
+
+/* ---------- 題庫 ---------- */
+/* 題庫載入（v0.5）：每個範圍各自載入 core 欄位（不含解析），先用 IndexedDB 快取立即開玩、背景更新；解析另外背景載入 */
+let _idb = null;
+function idbOpen() {
+  if (_idb) return _idb;
+  _idb = new Promise((res, rej) => {
+    const r = indexedDB.open('osh-quiz', 1);
+    r.onupgradeneeded = () => r.result.createObjectStore('kv');
+    r.onsuccess = () => res(r.result); r.onerror = () => { _idb = null; rej(r.error); };
+  });
+  return _idb;
+}
+async function idbGet(k) { try { const db = await idbOpen(); return await new Promise((res, rej) => { const t = db.transaction('kv').objectStore('kv').get(k); t.onsuccess = () => res(t.result); t.onerror = () => rej(t.error); }); } catch (e) { return null; } }
+async function idbDel(k) { try { const db = await idbOpen(); await new Promise((res, rej) => { const t = db.transaction('kv', 'readwrite').objectStore('kv').delete(k); t.onsuccess = res; t.onerror = () => rej(t.error); }); } catch (e) {} }
+async function idbSet(k, v) { try { const db = await idbOpen(); await new Promise((res, rej) => { const t = db.transaction('kv', 'readwrite').objectStore('kv').put(v, k); t.onsuccess = res; t.onerror = () => rej(t.error); }); } catch (e) { console.warn('cache write failed', e); } }
+
+const isLocal = () => ['localhost', '127.0.0.1', ''].indexOf(location.hostname) >= 0;   // 測試參數只在本機生效
+const bankUrl = () => (isLocal() && new URLSearchParams(location.search).get('bank')) || CFG.bankUrl;
+async function fetchJson(url, timeoutMs) {
+  const ctrl = new AbortController(); const tm = setTimeout(() => ctrl.abort(), timeoutMs);
+  try { const r = await fetch(url, { signal: ctrl.signal }); if (!r.ok) throw new Error('HTTP ' + r.status); return await r.json(); }
+  finally { clearTimeout(tm); }
+}
+function applyConfig(j) {
+  if (!j || !j.config) return;
+  Object.keys(CFG_MAP).forEach(k => { const v = Number(j.config[k]); if (k in j.config && !isNaN(v) && v > 0) CFG[CFG_MAP[k]] = v; });
+  if (CFG.lobbyWaitSec) CFG.lobbyWaitMs = CFG.lobbyWaitSec * 1000;
+  CFG.maxPlayers = Math.min(5, Math.max(2, CFG.maxPlayers | 0));
+  const secParam = Number(new URLSearchParams(location.search).get('sec'));   // 測試用：?sec=4 縮短每題秒數
+  if (secParam > 0 && isLocal()) CFG.secondsPerQuestion = secParam;
+  const sm = String(j.config.site_mode || '').toLowerCase();
+  SITE_MODE = sm === 'active' ? 'active' : 'draft';
+  CFG.useDraft = SITE_MODE !== 'active';
+}
+/* 題庫就緒／載入中的提示（模式卡正上方，手機也看得到） */
+function bankTop(msg, warn) { const el = $('bankTop'); if (!el) return; el.textContent = msg || ''; el.classList.toggle('warn', !!warn); }
+function installBank(g, j, src) {
+  applyConfig(j);
+  const qs = (j.questions || []).filter(q => String(q.law_id || q.id || '').startsWith(g))   // GAS v6 以前不認 group 參數，會回全部：這裡再過濾一次
+                                   .filter(q => SITE_MODE === 'active' ? q.status === 'active' : q.status !== 'archived');
+  qs.forEach(q => { if (!q.law_group) q.law_group = String(q.law_id || q.id || '').startsWith('ENV') ? 'ENV' : 'OSH'; });
+  BANKS[g] = qs; LAWS[g] = Array.isArray(j.laws) ? j.laws : [];
+  if (g === GROUP) { BANK_ALL = qs; applyGroup(); renderBankInfo(String(j.generated || '').slice(0, 10), src); }
+}
+async function loadExplain(g) {                // 解析：背景載入到 EXPLAIN（結果頁答題回顧用），有快取先用快取
+  const key = 'explain:' + g;
+  const cached = await idbGet(key);
+  if (cached && cached.questions) cached.questions.forEach(q => { EXPLAIN[q.id] = q; });
+  const url = bankUrl(); if (!url) return;
+  try {
+    const j = await fetchJson(url + (url.includes('?') ? '&' : '?') + 'status=all&group=' + g + '&fields=explain', 180000);
+    if (j && j.questions && j.questions.length) { j.questions.forEach(q => { EXPLAIN[q.id] = q; }); await idbSet(key, j); }
+  } catch (e) { console.warn('解析載入失敗（不影響作答）：', e); }
+}
+async function loadBankGroup(g) {
+  const url = bankUrl(); const key = 'bank:play:' + g;      // v0.10：play＝不含答案的題庫（換 key，舊的含答案快取自然作廢）
+  const el = $('bankInfo');
+  const cached = url ? await idbGet(key) : null;
+  if (cached && cached.questions && cached.questions.length) installBank(g, cached, 'cache');
+  else if (g === GROUP && el) { const m = lang === 'zh' ? '題庫載入中（第一次約 10–30 秒）…' : 'Loading question bank (first time 10–30 s)…'; el.textContent = m; bankTop(m); }
+  if (url) {
+    try {
+      const j = await fetchJson(url + (url.includes('?') ? '&' : '?') + 'status=all&group=' + g + '&fields=play', 120000);
+      if (!j || !Array.isArray(j.questions) || !j.questions.length) throw new Error('empty bank');
+      const newer = !cached || String(j.generated || '') !== String(cached.generated || '') || j.questions.length !== cached.questions.length;
+      if (newer) {
+        await idbSet(key, j);
+        const playing = document.getElementById('play').classList.contains('active');
+        if (!cached || !playing) installBank(g, j, 'cloud');        // 作答中不換題庫，下次載入生效
+      } else if (g === GROUP) { applyConfig(j); renderBankInfo(String(j.generated || '').slice(0, 10), 'cloud'); }
+      return;
+    } catch (e) { console.warn('雲端題庫讀取失敗：', e); if (cached) return; }
+  }
+  // 沒有快取且雲端失敗 → 站內 data/questions.json（含全部範圍與解析）
+  const r = await fetch('data/questions.json', { cache: 'no-cache' }); const all = await r.json();
+  const j = { generated: all.generated, config: all.config || {}, laws: [], questions: (all.questions || []).filter(q => String(q.law_id || q.id || '').startsWith(g)) };
+  j.questions.forEach(q => { delete q.answer; delete q.explain_zh; delete q.explain_en; });   // 備援檔若是舊版仍含答案，這裡一律剝掉
+  installBank(g, j, 'local');
+}
+async function loadBank() {
+  ['bank:draft', 'bank:active', 'bank:core:OSH', 'bank:core:ENV', 'bank:explain:OSH', 'bank:explain:ENV']
+    .forEach(k => idbDel(k));      // 清掉舊版快取（其中 core／explain 含答案與解析，一定要刪）
+  await loadBankGroup(GROUP);
+  loadBankGroup(GROUP === 'OSH' ? 'ENV' : 'OSH');   // 另一範圍背景預載，切換時立刻可用
+}
+function applyGroup() {
+  BANK_ALL = BANKS[GROUP] || [];
+  BANK = BANK_ALL.slice();
+  BANK_BY_ID = {}; BANK.forEach(q => BANK_BY_ID[q.id] = q);
+}
+function setGroup(g) {
+  GROUP = g === 'ENV' ? 'ENV' : 'OSH'; localStorage.setItem('group', GROUP);
+  applyGroup(); renderGroup(); renderBankInfo(); renderBoard();
+  if (!BANKS[GROUP]) loadBankGroup(GROUP);
+}
+function renderGroup() {
+  document.querySelectorAll('.segbtn').forEach(b => { b.classList.toggle('active', b.dataset.group === GROUP); b.setAttribute('aria-selected', b.dataset.group === GROUP); });
+  const n = $('segNote'); if (n) n.textContent = t(GROUP === 'ENV' ? 'segNoteEnv' : 'segNoteOsh');
+}
+const CN_NUM = { 一:1, 二:2, 三:3, 四:4, 五:5, 六:6, 七:7, 八:8, 九:9, 十:10, 十一:11, 十二:12, 十三:13, 十四:14, 十五:15, 十六:16, 十七:17, 十八:18, 十九:19, 二十:20 };
+/* 英文介面的法規出處：法規名用 Laws 表的 name_en，條號轉成 Art. 12-1 / Annex 3 */
+function lawEn(q) {
+  const l = (LAWS[GROUP] || []).find(x => x.law_id === q.law_id);
+  const name = (l && l.name_en) || q.law;
+  const art = String(q.article || '')
+    .replace(/第\s*([0-9]+)\s*條\s*之\s*([0-9]+)/g, 'Art. $1-$2')
+    .replace(/第\s*([0-9]+)\s*條/g, 'Art. $1')
+    .replace(/附表([一二三四五六七八九十]+)/g, (m, c) => 'Annex ' + (CN_NUM[c] || c))
+    .replace(/附件([一二三四五六七八九十]+)/g, (m, c) => 'Appendix ' + (CN_NUM[c] || c));
+  return name + ' ' + art;
+}
+function renderBankInfo(gen, src) {
+  const el = $('bankInfo'); if (!el) return;
+  el.dataset.gen = gen || el.dataset.gen || ''; el.dataset.src = src || el.dataset.src || '';
+  const srcLabel = el.dataset.src === 'cloud' ? (lang === 'zh' ? '雲端' : 'cloud') : el.dataset.src === 'cache' ? (lang === 'zh' ? '快取（背景更新中）' : 'cached (updating)') : (lang === 'zh' ? '本機' : 'local');
+  const total = (BANKS.OSH ? BANKS.OSH.length : 0) + (BANKS.ENV ? BANKS.ENV.length : 0);
+  const par = lang === 'zh' ? ['（', '）'] : [' (', ')'];
+  if (BANK.length) bankTop('');
+  el.textContent = `${t(GROUP === 'ENV' ? 'groupEnv' : 'groupOsh')} ${t('bank')} ${BANK.length} ${lang === 'zh' ? '題' : 'questions'}${par[0]}${lang === 'zh' ? '全部' : 'all'} ${total}${par[1]} · ${srcLabel} · ${t('ver')} ${el.dataset.gen}`;
+}
+
+/* ---------- 開局 ---------- */
+/* 加權抽題：先依 Laws.weight 抽法規（同一局盡量不重複法規），再從該法規抽一題；小法規也有機會出現、大法規不會洗版 */
+function pickWeighted(n, rnd) {
+  const byLaw = {}; BANK.forEach(q => { (byLaw[q.law_id] = byLaw[q.law_id] || []).push(q); });
+  Object.keys(byLaw).forEach(k => byLaw[k].sort((a, b) => String(a.id).localeCompare(String(b.id))));   // 固定順序，確保每日挑戰全站同題
+  const ids = Object.keys(byLaw).sort(); if (!ids.length) return [];
+  const w = {}; (LAWS[GROUP] || []).forEach(l => { w[l.law_id] = Math.max(0.1, Number(l.weight) || 1); });
+  const pool = {}; ids.forEach(id => { pool[id] = shuffle(byLaw[id], rnd); });
+  const out = []; let avail = ids.slice(); let usedLaw = new Set();
+  while (out.length < n && avail.length) {
+    let cand = avail.filter(id => !usedLaw.has(id)); if (!cand.length) { usedLaw = new Set(); cand = avail; }
+    const tot = cand.reduce((a, id) => a + (w[id] || 1), 0); let x = rnd() * tot, pick = cand[cand.length - 1];
+    for (const id of cand) { x -= (w[id] || 1); if (x <= 0) { pick = id; break; } }
+    out.push(pool[pick].pop().id); usedLaw.add(pick);
+    if (!pool[pick].length) avail = avail.filter(id => id !== pick);
+  }
+  return out;
+}
+function pickIds(mode) {
+  if (mode === 'daily') return pickWeighted(CFG.dailyQuestions, mulberry32(hashStr('osh-daily-' + GROUP + '-' + today())));
+  return pickWeighted(CFG.questionsPerGame, Math.random);
+}
+const Q_FIELDS = ['id','law_id','law','article','category','difficulty','q_zh','a_zh','b_zh','c_zh','d_zh','q_en','a_en','b_en','c_en','d_en'];   // v0.10：不含 answer／explain
+const slimQ = q => { const o = {}; Q_FIELDS.forEach(k => { if (q[k] != null) o[k] = q[k]; }); return o; };
+function newGame(mode, ids, pvp) {
+  // ids 可以是題目 id，也可以是題目物件（連線對戰由房主把整份題目存進房間，所有人保證同題）
+  const qs = ids.map(x => typeof x === 'string' ? BANK_BY_ID[x] : x).filter(Boolean);
+  game = { mode, nick: nickVal(), qs, i: 0, view: null, score: 0, streak: 0, bestStreak: 0, log: [], timer: null, tLeft: 0, tStart: 0, paused: 0, locked: false, pvp: pvp || null };
+  $('vs').classList.toggle('hidden', !pvp);
+  { const w = $('vsWait'); if (w) w.classList.toggle('hidden', !pvp); }     // 對戰的「尚未作答」提示不要殘留到單人／每日
+  $('gap').classList.add('hidden');
+  show('play');
+  if (pvp) pvpTickStart(); else renderQuestion();
+}
+function start(mode) {
+  if (!BANK.length) { const el = $('bankTop'); if (el) { el.textContent = lang === 'zh' ? '題庫還在載入，請稍候…' : 'Still loading the question bank…'; el.classList.add('warn', 'shake'); setTimeout(() => el.classList.remove('shake'), 600); } return; }
+  if (!isOnline()) { bankTop(t('needNet'), true); const e = $('bankTop'); if (e) { e.classList.add('shake'); setTimeout(() => e.classList.remove('shake'), 600); } return; }
+  if (!requireNick()) return;
+  if (mode === 'daily' && localStorage.getItem('daily-' + GROUP + '-' + today())) { alert(t('dailyDone')); return; }
+  syncNick();
+  if (mode === 'pvp') { show('pvp'); pvpMenu(); return; }
+  newGame(mode, pickIds(mode));
+}
+
+/* ---------- 作答（單人／回看共用） ---------- */
+function renderQuestion(rerenderOnly) {
+  const viewing = game.view !== null;
+  const idx = viewing ? game.view : game.i;
+  const q = game.qs[idx];
+  $('qNo').textContent = `${idx + 1} / ${game.qs.length}`;
+  $('score').textContent = '—';                 // 分數要等整局結束由伺服器批改後才知道
+  $('streak').textContent = '';
+  $('qLaw').textContent = lang === 'en' ? lawEn(q) : `${q.law}${q.article}`;
+  $('qDiff').textContent = t('diff')[q.difficulty] || '';
+  $('qText').textContent = L(q, 'q');
+  $('prevBtn').disabled = idx === 0;
+  $('backBtn').classList.toggle('hidden', !viewing);
+  const opts = $('opts'); opts.innerHTML = '';
+  const rec = game.log[idx];
+  ['a', 'b', 'c', 'd'].forEach(k => {
+    const b = document.createElement('button'); b.type = 'button'; b.className = 'opt'; b.dataset.k = k;
+    b.innerHTML = `<span class="k">${k.toUpperCase()}</span><span>${escapeHtml(L(q, k))}</span>`;
+    if (viewing || rec) { b.disabled = true; if (rec && k === rec.chosen) b.classList.add('picked'); }
+    else b.onclick = () => answer(k);
+    opts.appendChild(b);
+  });
+  const note = $('viewNote');
+  note.classList.toggle('hidden', !viewing);
+  if (viewing) note.textContent = fmt(t('viewing'), { n: idx + 1 }) + (rec && !rec.chosen ? `　(${t('noAns')})` : '');
+  if (game.pvp) renderVs();
+  if (!viewing && !rerenderOnly && !game.pvp) startTimer();
+}
+function startTimer() {
+  clearInterval(game.timer);
+  game.tLeft = CFG.secondsPerQuestion; game.tStart = performance.now(); game.paused = 0; game.locked = false;
+  updateTimer(game.tLeft);
+  game.timer = setInterval(tick, 100);
+}
+function tick() {
+  if (game.view !== null) return;
+  game.tLeft = Math.max(0, CFG.secondsPerQuestion - (performance.now() - game.tStart - game.paused) / 1000);
+  updateTimer(game.tLeft);
+  if (game.tLeft <= 0) answer(null);
+}
+function updateTimer(left) {
+  const pct = left / CFG.secondsPerQuestion * 100;
+  const bar = $('timerBar'); bar.style.width = pct + '%';
+  bar.className = 'bar' + (pct < 25 ? ' danger' : pct < 50 ? ' warn' : '');
+  $('timerNum').textContent = Math.ceil(left);
+}
+function viewPrev() {
+  return;   // 作答中禁止回看上一題（防作弊）；答題回顧只在結果頁
+  // eslint-disable-next-line no-unreachable
+  const cur = game.view === null ? game.i : game.view;
+  if (cur === 0 || (game.locked && !game.pvp)) return;
+  if (game.view === null && !game.pvp) game.pauseAt = performance.now();
+  game.view = cur - 1;
+  renderQuestion(true);
+}
+function backToCurrent() {
+  if (game.view === null) return;
+  if (!game.pvp) game.paused += performance.now() - game.pauseAt;
+  game.view = null;
+  renderQuestion(true);
+}
+function answer(chosen) {
+  if (game.locked || game.view !== null) return;
+  if (game.pvp && now() < game.pvp.curAt) return;      // 題間倒數時不可搶答（否則用時算 0 秒＝滿分）
+  game.locked = true;
+  if (game.pvp) return pvpAnswer(chosen);
+  clearInterval(game.timer);
+  const q = game.qs[game.i];
+  const used = Math.min(CFG.secondsPerQuestion, (performance.now() - game.tStart - game.paused) / 1000);
+  commit(chosen, used);
+  document.querySelectorAll('.opt').forEach(b => { b.disabled = true; if (b.dataset.k === chosen) b.classList.add('picked'); });
+  setTimeout(next, chosen ? 300 : 600);
+}
+/* v0.10：答案不再下發到瀏覽器，所以作答當下無從得知對錯。
+   這裡只記「選了什麼、花了幾秒」，整局結束後才向伺服器換回對錯並計分。 */
+function commit(chosen, used) {
+  const rec = { chosen, ok: null, used: Math.round(used * 10) / 10, gained: 0, bonus: 0 };
+  game.log[game.i] = rec;
+  $('score').textContent = '—';
+  $('streak').textContent = '';
+  return rec;
+}
+/* 整局結束後依序計分（連對加成需要照題號順序算） */
+function scoreGame() {
+  game.score = 0; game.streak = 0; game.bestStreak = 0;
+  game.log.forEach(r => {
+    if (!r) return;
+    if (r.ok) { game.streak++; game.bestStreak = Math.max(game.bestStreak, game.streak); } else game.streak = 0;
+    const s = scoreFor(r.ok, r.used, game.streak);
+    r.gained = s.gained; r.bonus = s.bonus; game.score += s.gained + s.bonus;
+  });
+}
+/* 向伺服器批改：送出「題號.選項」，換回正解、對錯與解析。答案只在這一刻進到瀏覽器。 */
+async function gradeGame() {
+  const url = CFG.bankUrl;
+  if (!url) throw new Error('no api');
+  const q = game.qs.map((x, i) => x.id + '.' + ((game.log[i] && game.log[i].chosen) || '')).join(',');
+  const j = await fetchJson(url + (url.includes('?') ? '&' : '?') + 'act=grade&q=' + encodeURIComponent(q), 60000);
+  if (!j || !j.ok || !Array.isArray(j.results)) throw new Error((j && j.error) || 'grade failed');
+  const by = {}; j.results.forEach(r => { by[r.id] = r; });
+  game.qs.forEach((x, i) => {
+    const r = by[x.id]; if (!r || !r.answer) throw new Error('missing ' + x.id);
+    x.answer = r.answer;
+    EXPLAIN[x.id] = { id: x.id, explain_zh: r.explain_zh || '', explain_en: r.explain_en || '' };
+    if (game.log[i]) game.log[i].ok = !!r.ok; else game.log[i] = { chosen: null, ok: false, used: CFG.secondsPerQuestion, gained: 0, bonus: 0 };
+  });
+  scoreGame();
+}
+function next() {
+  if (game.i + 1 < game.qs.length) { game.i++; renderQuestion(); }
+  else finish();
+}
+
+/* ---------- 連線對戰（2–5 人） ----------
+   房間資料：{ host, code, group, max, state:'waiting'|'playing', players:{uid:{nick,online}}, qs, sec, cur, curAt, answers:{uid:{k:{c,ms}}} }
+   房主負責推進：第 k 題所有在線玩家都作答、或時間到 → 寫 cur=k+1、curAt=現在+間隔；其他人跟著 cur 走。
+   電腦對戰在本機模擬同一套房間物件（LR），邏輯共用。 */
+let pv = null;   // 配對/房間狀態（進入 play 前）
+function pvpMenu() {
+  pvpCleanup();
+  $('pvpMenu').classList.remove('hidden'); $('pvpWait').classList.add('hidden');
+  const on = FB.ok && FB.conn !== false;
+  ['btnMatch', 'btnHost', 'btnJoin'].forEach(id => $(id).disabled = !on);
+  if (!on) $('waitMsg').textContent = t('needOnline');
+}
+function pvpWaitUI(msg, opts = {}) {
+  $('pvpMenu').classList.add('hidden'); $('pvpWait').classList.remove('hidden');
+  $('waitMsg').textContent = msg;
+  $('roomCodeBox').classList.toggle('hidden', !opts.code); if (opts.code) $('roomCode').textContent = opts.code;
+  $('btnWaitBot').classList.toggle('hidden', !opts.bot);
+  $('btnStart').classList.toggle('hidden', !opts.start); $('btnStart').disabled = !opts.startOk;
+  const pl = $('roomPlayers'); pl.innerHTML = '';
+  if (opts.players) {
+    const list = Object.entries(opts.players);
+    pl.innerHTML = `<div class="pl-head">${t('players')} ${fmt(t('playersN'), { n: list.length })} / ${opts.max || CFG.maxPlayers}</div>` +
+      list.map(([u, p]) => `<span class="pl${u === FB.uid ? ' me' : ''}${p.online === false ? ' off' : ''}">${escapeHtml(p.nick || '?')}${u === opts.host ? ` <i>${t('hostTag')}</i>` : ''}${u === FB.uid ? ` <i>${t('youTag')}</i>` : ''}</span>`).join('');
+  }
+}
+function restoreSec() { if (CFG._secSaved) { CFG.secondsPerQuestion = CFG._secSaved; CFG._secSaved = 0; } }   // 還原對戰房間覆寫的每題秒數
+function pvpCleanup() {
+  restoreSec();
+  if (!pv) return;
+  try { pv.refs.forEach(r => r.off()); } catch (e) {}
+  if (pv.roomRef && FB.uid) { try { pv.roomRef.child('players/' + FB.uid + '/online').onDisconnect().cancel(); } catch (e) {} }
+  if (pv.lobbyRef) pv.lobbyRef.remove().catch(() => {});
+  if (pv.roomRef && pv.role === 'host' && !pv.started) pv.roomRef.remove().catch(() => {});
+  if (pv.roomRef && pv.role === 'guest' && !pv.started && FB.uid) pv.roomRef.child('players/' + FB.uid).remove().catch(() => {});
+  clearTimeout(pv.timer); clearInterval(pv.timer2);
+  pv = null;
+}
+function roomCodeGen() { const A = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'; let s = ''; for (let i = 0; i < 4; i++) s += A[Math.floor(Math.random() * A.length)]; return s; }
+function roomPayload(code, guestUid, guestNick) {
+  const p = {}; p[FB.uid] = { nick: nickVal(), online: true }; if (guestUid) p[guestUid] = { nick: guestNick || '?', online: true };
+  return { host: FB.uid, code, group: GROUP, max: CFG.maxPlayers, state: guestUid ? 'ready' : 'waiting', players: p, createdAt: firebase.database.ServerValue.TIMESTAMP };
+}
+
+/* 隨機配對：進大廳；由「最早進入的等待者」負責配對最早的另一位（同出題範圍），配到就直接開打 */
+function pvpMatch() {
+  pvpCleanup();
+  pv = { role: null, refs: [], started: false };
+  pv.lobbyRef = FB.db.ref('lobby/' + FB.uid);
+  pv.lobbyRef.onDisconnect().remove();
+  pv.lobbyRef.set({ nick: nickVal(), group: GROUP, ts: firebase.database.ServerValue.TIMESTAMP, room: null });
+  pvpWaitUI(t('waitMatch'));
+  pv.timer = setTimeout(() => { if (pv && !pv.roomRef) pvpWaitUI(t('waitNoOne'), { bot: true }); }, CFG.lobbyWaitMs);
+  const lobby = FB.db.ref('lobby'); pv.refs.push(lobby);
+  lobby.on('value', snap => {
+    if (!pv || pv.roomRef) return;
+    const all = snap.val() || {};
+    const me = all[FB.uid]; if (!me) return;
+    if (me.room) return pvpEnterRoom(me.room, 'guest');
+    const waiting = Object.entries(all).filter(([u, v]) => v && !v.room && v.ts && now() - v.ts < 90000 && (v.group || 'OSH') === GROUP).sort((a, b) => a[1].ts - b[1].ts);   // 只配對同範圍（職安／環保）的玩家
+    if (waiting.length < 2 || waiting[0][0] !== FB.uid) return;      // 只有最早者負責配對
+    const [oppUid, opp] = waiting[1];
+    const code = roomCodeGen();
+    const roomRef = FB.db.ref('rooms/' + code);
+    roomRef.set(roomPayload(code, oppUid, opp.nick)).then(() => {
+      FB.db.ref('lobby/' + oppUid + '/room').set(code);
+      pv.lobbyRef.remove();
+      pv.autoStart = true;
+      pvpEnterRoom(code, 'host');
+    }).catch(e => console.warn('create room failed', e));
+  });
+}
+/* 建立房間（房間碼）：等人進來，房主按「開始對戰」 */
+function pvpHost() {
+  pvpCleanup();
+  pv = { role: 'host', refs: [], started: false };
+  const mine = pv;                                     // 建房途中若按取消，pv 會換人，這裡就不要再進房
+  const code = roomCodeGen();
+  pv.roomRef = FB.db.ref('rooms/' + code);
+  pv.roomRef.set(roomPayload(code)).then(() => { if (pv !== mine) return; pvpWaitUI(t('waitRoom'), { code, start: true }); pvpEnterRoom(code, 'host'); });
+}
+/* 以房號加入 */
+function pvpJoin(code) {
+  code = (code || '').trim().toUpperCase(); if (code.length !== 4) return;
+  pvpCleanup();
+  pv = { role: 'guest', refs: [], started: false };
+  pvpWaitUI(t('joining'));
+  const roomRef = FB.db.ref('rooms/' + code);
+  roomRef.once('value').then(s => {
+    const r = s.val();
+    if (!r || r.state !== 'waiting' || Object.keys(r.players || {}).length >= (r.max || CFG.maxPlayers)) { pvpWaitUI(t('roomNotFound')); setTimeout(pvpMenu, 1800); return; }
+    if (r.group && r.group !== GROUP) setGroup(r.group);   // 用房號加入時，跟著房主的出題範圍
+    return roomRef.child('players/' + FB.uid).set({ nick: nickVal(), online: true }).then(() => pvpEnterRoom(code, 'guest'));
+  }).catch(e => { console.warn(e); pvpWaitUI(t('roomNotFound')); setTimeout(pvpMenu, 1800); });
+}
+/* 進房：監聽房間；房主在按下開始（或配對成功）時抽題並排定第 1 題起算時間 */
+function pvpEnterRoom(code, role) {
+  if (!pv) pv = { refs: [], started: false };
+  pv.role = role; pv.code = code;
+  if (pv.lobbyRef) { pv.lobbyRef.remove().catch(() => {}); pv.lobbyRef = null; }
+  pv.roomRef = FB.db.ref('rooms/' + code);
+  pv.roomRef.child('players/' + FB.uid + '/online').onDisconnect().set(false);
+  pv.refs.push(pv.roomRef);
+  pv.roomRef.on('value', snap => {
+    const r = snap.val(); if (!pv || !r) return;
+    const players = r.players || {};
+    const n = Object.keys(players).length;
+    if (r.state !== 'playing') {
+      if (role === 'host') {
+        if (pv.autoStart && n >= 2 && !pv.scheduling) return pvpStartRoom();
+        pvpWaitUI(n >= 2 ? fmt(t('found'), { n: Object.entries(players).filter(([u]) => u !== FB.uid).map(([, p]) => p.nick).join(SEP()) }) : t('waitRoom'),
+                  { code, start: true, startOk: n >= 2, players, host: r.host, max: r.max });
+      } else pvpWaitUI(t('waitHost'), { players, host: r.host, max: r.max });
+      return;
+    }
+    if (r.qs && r.curAt && !pv.started) {
+      pv.started = true;
+      if (r.sec) { CFG._secSaved = CFG.secondsPerQuestion; CFG.secondsPerQuestion = r.sec; }   // 以房主秒數為準；離開對戰後在 finish() 還原
+      pvpStartCountdown(r);
+    }
+  });
+}
+function pvpStartRoom() {
+  if (!pv || pv.role !== 'host' || pv.scheduling) return;
+  pv.scheduling = true;
+  const at = now() + CFG.pvpCountdownMs;
+  pv.roomRef.update({ state: 'playing', qs: pickIds('pvp').map(id => slimQ(BANK_BY_ID[id])), sec: CFG.secondsPerQuestion, gap: CFG.pvpGapMs, cur: 0, curAt: at, startAt: at })
+    .catch(e => { console.warn(e); pv.scheduling = false; });
+}
+function pvpStartCountdown(r) {
+  const upd = () => {
+    const s = Math.max(0, Math.ceil((r.curAt - now()) / 1000));
+    pvpWaitUI(fmt(t('found'), { n: Object.entries(r.players || {}).filter(([u]) => u !== FB.uid).map(([, p]) => p.nick).join(SEP()) }) + '　' + fmt(t('starting'), { s }), { players: r.players, host: r.host, max: r.max });
+    if (now() >= r.curAt - 200) { clearInterval(pv.timer2); beginPvp(r, pv.roomRef, pv.role); }
+  };
+  upd(); pv.timer2 = setInterval(upd, 250);
+}
+/* 電腦對戰：本機模擬一個房間，不需雲端 */
+function pvpBot() {
+  pvpCleanup();
+  const ids = pickIds('pvp');
+  const rnd = mulberry32(hashStr('bot-' + Date.now()));
+  const bot = {};
+  ids.forEach((id, k) => {
+    const q = BANK_BY_ID[id]; if (!q) return;
+    const pOk = [0, 0.8, 0.62, 0.45][q.difficulty] || 0.6;
+    const ok = rnd() < pOk;
+    const wrong = 'abcd'.replace(q.answer, '');
+    bot[k] = { c: ok ? q.answer : wrong[Math.floor(rnd() * 3)], ms: Math.round((0.15 + rnd() * 0.55) * CFG.secondsPerQuestion * 1000) };
+  });
+  const me = FB.uid || 'me';
+  const players = {}; players[me] = { nick: nickVal(), online: true }; players.bot = { nick: t('bot1'), online: true, bot: true };
+  const LR = { host: me, code: 'BOT', group: GROUP, max: 2, state: 'playing', players, qs: ids.map(id => slimQ(BANK_BY_ID[id])), sec: CFG.secondsPerQuestion, gap: CFG.pvpGapMs, cur: 0, curAt: now() + 1500, answers: {}, botPlan: bot };
+  beginPvp(LR, null, 'host');
+}
+/* 開打：p = 對戰狀態；roomRef 為 null 表示本機（電腦）房間 */
+function beginPvp(r, roomRef, role) {
+  const me = FB.uid || 'me';
+  const p = { roomRef, role, me, room: r, local: !roomRef, k: -1, gapShown: -1, players: {}, order: [], refs: [], hostGone: false, lastAdvance: -1 };   // -1：第 0 題也要能推進（原本設 0 會卡在第一題）
+  Object.entries(r.players || {}).forEach(([u, pl]) => { p.players[u] = { uid: u, nick: pl.nick || '?', online: pl.online !== false, bot: !!pl.bot, score: 0, streak: 0, log: [] }; });
+  p.order = Object.keys(p.players);
+  if (roomRef) {
+    p.refs.push(roomRef);
+    roomRef.on('value', s => { const v = s.val(); if (!v || !game || game.pvp !== p) return; p.room = v; onRoomUpdate(p); });
+  }
+  newGame('pvp', r.qs, p);
+}
+/* 房間資料變動：同步玩家在線狀態、答案、目前題號 */
+function onRoomUpdate(p) {
+  const r = p.room;
+  Object.entries(r.players || {}).forEach(([u, pl]) => {
+    if (!p.players[u]) { p.players[u] = { uid: u, nick: pl.nick || '?', online: true, bot: false, score: 0, streak: 0, log: [] }; p.order.push(u); }
+    const was = p.players[u].online; p.players[u].online = pl.online !== false;
+    if (was && !p.players[u].online && u !== p.me) { flash(fmt(t('oppLeft'), { n: p.players[u].nick })); if (u === r.host) p.hostGone = true; }
+  });
+  // 只跟隨「往前」的題號：房主離線時房間的 cur 會停住，若照舊同步會把已自行推進的玩家拉回舊題（該題已作答，選項會全部鎖住）
+  if (typeof r.cur === 'number' && r.cur > game.i) { if (r.cur >= game.qs.length) return finish(); pvpGoto(r.cur, r.curAt); }
+  recomputeAll(); renderVs();
+}
+function flash(msg) { $('gap').textContent = msg; $('gap').classList.remove('hidden'); setTimeout(() => { if (game && $('gap').textContent === msg) $('gap').classList.add('hidden'); }, 2500); }
+/* 進入第 k 題（時間以房間 curAt 為準） */
+function pvpGoto(k, curAt) {
+  const p = game.pvp;
+  for (let j = 0; j < k; j++) if (!game.log[j]) { game.log[j] = { chosen: null, ok: false, used: CFG.secondsPerQuestion, gained: 0, bonus: 0 }; game.streak = 0; }
+  if (!(curAt > 0)) curAt = now();                 // curAt 缺失／非數值時以現在時間起算，避免倒數變 NaN 卡死
+  p.k = k; p.curAt = curAt; p.fallbackAt = 0;      // 換題就解除上一題排定的保險，否則會在新題第 4 秒誤判房主離線
+  game.i = k; game.view = null; game.locked = false; p.gapShown = -1;
+  $('gap').classList.add('hidden');
+  renderQuestion(true);
+}
+function pvpTickStart() {
+  clearInterval(game.timer);
+  const p = game.pvp; pvpGoto(p.room.cur || 0, p.room.curAt);
+  game.timer = setInterval(pvpTick, 100);
+  pvpTick();
+}
+function allAnswered(p, k) {
+  return p.order.every(u => { const pl = p.players[u]; if (!pl.online && !pl.bot) return true; return getAnswer(p, u, k) != null; });
+}
+function getAnswer(p, u, k) {
+  const r = p.room;
+  if (p.players[u] && p.players[u].bot) { const a = r.botPlan && r.botPlan[k]; return a && (k !== p.k || now() - p.curAt >= a.ms) ? a : null; }   // 電腦要等到它「該答的時間」才算已作答
+  return r.answers && r.answers[u] && r.answers[u][k] ? r.answers[u][k] : null;
+}
+function pvpTick() {
+  if (!game || !game.pvp) return;
+  const p = game.pvp, r = p.room, k = p.k;
+  const inQ = now() - p.curAt;
+  if (inQ < 0) { updateTimer(CFG.secondsPerQuestion); if (!p.preRendered) { p.preRendered = true; renderQuestion(true); document.querySelectorAll('.opt').forEach(b => b.disabled = true); } return; }
+  if (p.preRendered) { p.preRendered = false; renderQuestion(true); }
+  const left = Math.max(0, CFG.secondsPerQuestion - inQ / 1000);
+  if (game.view === null) updateTimer(left);
+  const timeUp = inQ >= CFG.secondsPerQuestion * 1000;
+  if (timeUp && !game.log[k]) {
+    game.locked = true; commit(null, CFG.secondsPerQuestion); document.querySelectorAll('.opt').forEach(b => b.disabled = true);
+    const blank = { c: '', ms: CFG.secondsPerQuestion * 1000 };   // 時間到也要記一筆，否則自己會一直掛在「尚未作答」
+    if (!r.answers) r.answers = {}; if (!r.answers[p.me]) r.answers[p.me] = {}; r.answers[p.me][k] = blank;
+    if (p.roomRef) p.roomRef.child('answers/' + p.me + '/' + k).set(blank).catch(e => console.warn(e));
+  }
+  // 本題結束（時間到，或全員作答完畢）→ 顯示各家得分；房主（或本機房間）排定下一題
+  const done = timeUp || allAnswered(p, k);
+  if (done && p.gapShown !== k) {
+    p.gapShown = k; game.locked = true; document.querySelectorAll('.opt').forEach(b => b.disabled = true);
+    recomputeAll(true); renderVs(); showGap(k, !timeUp);
+    if (p.local || p.role === 'host') scheduleNext(p, k);
+    else { p.fallbackAt = now() + (r.gap || CFG.pvpGapMs) + 4000; p.fallbackK = k; }   // 房主沒推進時的保險：時間到 4 秒後自己往下走
+  }
+  if (!p.local && p.role !== 'host' && p.fallbackAt && now() > p.fallbackAt && p.fallbackK === k) { p.fallbackAt = 0; if (!p.hostGone) flash(t('hostLeft')); const nk = k + 1; if (nk >= game.qs.length) return finish(); pvpGoto(nk, now() + 500); }
+  if (p.local) { recomputeAll(); renderVs(); }
+}
+function scheduleNext(p, k) {
+  if (p.lastAdvance === k) return; p.lastAdvance = k;
+  const nk = k + 1, at = now() + (p.room.gap || CFG.pvpGapMs);
+  if (p.local) { setTimeout(() => { if (!game || game.pvp !== p) return; p.room.cur = nk; p.room.curAt = at; if (nk >= game.qs.length) return finish(); pvpGoto(nk, at); }, at - now()); return; }
+  p.roomRef.update({ cur: nk, curAt: at }).catch(e => console.warn('advance failed', e));
+}
+function showGap(k, early) {
+  const p = game.pvp; recomputeAll(true);
+  const parts = p.order.map(u => { const pl = p.players[u]; const l = pl.log[k]; const v = l ? (l.ms / 1000).toFixed(1) + 's' : '—';
+    return u === p.me ? fmt(t('gapMe'), { a: v }) : fmt(t('gapOpp'), { n: pl.nick, b: v }); });
+  $('gap').textContent = (early ? t('allAnswered') + '　·　' : '') + parts.join('　·　');
+  $('gap').classList.remove('hidden');
+}
+function pvpAnswer(chosen) {
+  const p = game.pvp;
+  const ms = Math.min(CFG.secondsPerQuestion * 1000, Math.max(0, now() - p.curAt));
+  const q = game.qs[game.i];
+  commit(chosen, ms / 1000);
+  document.querySelectorAll('.opt').forEach(b => { b.disabled = true; if (b.dataset.k === chosen) b.classList.add('picked'); });
+  const a = { c: chosen || '', ms: Math.round(ms) };
+  if (!p.room.answers) p.room.answers = {}; if (!p.room.answers[p.me]) p.room.answers[p.me] = {}; p.room.answers[p.me][game.i] = a;
+  if (p.roomRef) p.roomRef.child('answers/' + p.me + '/' + game.i).set(a).catch(e => console.warn(e));
+  renderVs();
+}
+/* 依房間答案重算每位玩家分數；final=true 時本題全部算入（不論時間點） */
+/* v0.10：答案不在瀏覽器裡，對戰進行中無法（也不該）算分。
+   這裡只更新「誰已作答、花了幾秒」，分數等到整局結束、雙方各自向伺服器批改後才公布。 */
+function recomputeAll(final) {
+  const p = game && game.pvp; if (!p) return;
+  p.order.forEach(u => {
+    const pl = p.players[u]; pl.log = pl.log || [];
+    game.qs.forEach((q, k) => {
+      const a = u === p.me ? (game.log[k] && { c: game.log[k].chosen || '', ms: game.log[k].used * 1000 }) : getAnswer(p, u, k);
+      const elapsed = k < p.k ? Infinity : (k === p.k ? now() - p.curAt : -1);
+      const visible = a && (k < p.k || (k === p.k && (final || a.ms <= elapsed)));
+      if (!visible) { if (!pl.log[k] || pl.log[k].ok == null) pl.log[k] = null; return; }
+      if (pl.log[k] && pl.log[k].ok != null) return;      // 已有批改結果就不要蓋掉
+      pl.log[k] = { ok: null, chosen: a.c, ms: a.ms };
+    });
+  });
+}
+function rankOrder(p) {
+  const graded = p.order.some(u => typeof p.players[u].score === 'number' && p.players[u].scored);
+  const done = u => (p.players[u].log || []).filter(x => x).length;
+  const time = u => (p.players[u].log || []).reduce((s, x) => s + (x ? x.ms : 0), 0);
+  return p.order.slice().sort((a, b) => graded
+    ? (p.players[b].score - p.players[a].score || a.localeCompare(b))
+    : (done(b) - done(a) || time(a) - time(b) || a.localeCompare(b)));
+}
+function renderVs() {
+  const p = game && game.pvp; if (!p) return;
+  const k = game.i;
+  $('vs').innerHTML = rankOrder(p).map((u, i) => {
+    const pl = p.players[u]; const a = u === p.me ? (game.log[k] && { ms: game.log[k].used * 1000 }) : getAnswer(p, u, k);
+    const done = k < p.k || a != null;
+    const val = pl.scored ? pl.score : (a ? (a.ms / 1000).toFixed(1) + 's' : '');   // 分數公布前只顯示用時
+    return `<span class="vsp${u === p.me ? ' me' : ''}${pl.online ? '' : ' off'}${done ? ' done' : ' pending'}">${i + 1}. ${done ? '✔ ' : '⏳ '}<b>${escapeHtml(pl.nick)}</b> ${val}${pl.online ? '' : (pl.bot ? ' 🤖' : ' 💤')}</span>`;
+  }).join('');
+  // 本題尚未作答的人（在線且非電腦）；全員作答完畢會提前跳題
+  const pending = p.order.filter(u => { const pl = p.players[u]; return pl.online && !pl.bot && getAnswer(p, u, k) == null; }).map(u => p.players[u].nick);
+  let w = $('vsWait'); if (!w) { w = document.createElement('div'); w.id = 'vsWait'; w.className = 'vswait'; $('vs').after(w); }
+  w.textContent = pending.length ? fmt(t('waitingFor'), { n: pending.join(SEP()) }) : t('allIn');
+  w.classList.toggle('all', !pending.length);
+}
+
+/* ---------- 結果與排行榜 ---------- */
+/* 對戰結束：各自向伺服器批改後，把自己的成績寫進房間，再等其他人公布（最多 8 秒）。
+   對電腦則在批改拿到正解後於本機算出電腦的分數。 */
+async function pvpFinals(p) {
+  const oks = game.log.map(r => (r && r.ok) ? '1' : '0').join('');
+  const me = p.players[p.me];
+  me.score = game.score; me.correct = game.log.filter(r => r && r.ok).length; me.scored = true;
+  game.log.forEach((r, k) => { me.log[k] = { ok: !!(r && r.ok), chosen: r ? r.chosen : null, ms: r ? r.used * 1000 : 0 }; });
+  if (p.local) {                                   // 對電腦：正解已在批改後填回 game.qs，可直接算電腦分數
+    p.order.filter(u => u !== p.me).forEach(u => {
+      const pl = p.players[u]; let sc = 0, st = 0;
+      game.qs.forEach((q, k) => {
+        const a = getAnswer(p, u, k); if (!a) { pl.log[k] = null; return; }
+        const ok = a.c === q.answer; if (ok) st++; else st = 0;
+        const g = scoreFor(ok, a.ms / 1000, st); sc += g.gained + g.bonus;
+        pl.log[k] = { ok, chosen: a.c, ms: a.ms };
+      });
+      pl.score = sc; pl.correct = pl.log.filter(x => x && x.ok).length; pl.scored = true;
+    });
+    return;
+  }
+  if (!p.roomRef) return;
+  try { await p.roomRef.child('players/' + p.me + '/final').set({ score: me.score, correct: me.correct, oks }); } catch (e) { console.warn('final write failed', e); }
+  const need = p.order.filter(u => u !== p.me && p.players[u].online);
+  const t0 = Date.now();
+  while (Date.now() - t0 < 8000) {
+    let v = {};
+    try { v = (await p.roomRef.child('players').once('value')).val() || {}; } catch (e) { break; }
+    Object.keys(v).forEach(u => {
+      const f = v[u] && v[u].final; const pl = p.players[u];
+      if (!f || !pl || pl.scored) return;
+      pl.score = Number(f.score) || 0; pl.correct = Number(f.correct) || 0; pl.scored = true;
+      const ok = String(f.oks || '');
+      game.qs.forEach((q, k) => { const a = getAnswer(p, u, k); pl.log[k] = { ok: ok[k] === '1', chosen: a ? a.c : null, ms: a ? a.ms : 0 }; });
+    });
+    if (need.every(u => p.players[u].scored)) break;
+    await new Promise(r => setTimeout(r, 700));
+  }
+  need.forEach(u => { const pl = p.players[u]; if (!pl.scored) { pl.score = 0; pl.correct = 0; pl.scored = true; } });   // 沒公布的當 0 分
+}
+
+async function finish() {
+  clearInterval(game.timer);
+  if (game.finished) return; game.finished = true;
+  restoreSec();
+  const mine = game;
+  $('gap').textContent = t('grading'); $('gap').classList.remove('hidden');
+  document.querySelectorAll('.opt').forEach(b => b.disabled = true);
+  try {
+    await gradeGame();                                   // 答案在這一刻才進到瀏覽器
+    if (game.pvp) { game.pvp.k = game.qs.length; await pvpFinals(game.pvp); }
+  } catch (e) {
+    console.warn('grade failed', e);
+    if (game !== mine) return;
+    game.gradeError = true; game.finished = false;       // 允許重試，成績不上傳
+    $('gap').classList.add('hidden');
+    show('result'); renderResult();
+    return;
+  }
+  if (game !== mine) return;                             // 批改期間玩家已離開
+  game.gradeError = false;
+  $('gap').classList.add('hidden');
+  const correct = game.log.filter(r => r && r.ok).length;
+  const rec = { uid: FB.uid || 'local', nick: game.nick, score: game.score, correct, n: game.qs.length, date: today(), ts: now() };
+  let result = null;
+  if (game.pvp) {
+    const p = game.pvp;
+    const order = rankOrder(p); const top = p.players[order[0]].score; const myRank = order.indexOf(p.me) + 1;
+    const tiedTop = order.filter(u => p.players[u].score === top).length;
+    result = game.score === top ? (tiedTop > 1 ? 'draw' : 'win') : 'lose';
+    const best = order.find(u => u !== p.me);
+    rec.opp = best ? p.players[best].nick.slice(0, 12) : '?'; rec.oppScore = best ? p.players[best].score : 0; rec.result = result;
+    game.rank = myRank;
+    if (p.refs) p.refs.forEach(r => r.off());
+    if (p.roomRef) {
+      p.roomRef.child('players/' + p.me + '/online').onDisconnect().cancel();
+      if (p.role === 'host') { const ref = p.roomRef; setTimeout(() => ref.remove().catch(() => {}), 30000); }   // 對局結束 30 秒後清掉房間
+    }
+  }
+  if (!isOnline()) { bankTop(t('netLost'), true); game = null; pvpCleanup(); show('home'); renderBoard(); return; }   // 離線不留任何紀錄
+  const board = JSON.parse(localStorage.getItem('board') || '[]');
+  board.push({ ...rec, mode: game.mode, group: GROUP }); board.sort((a, b) => b.score - a.score); localStorage.setItem('board', JSON.stringify(board.slice(0, 60)));
+  if (game.mode === 'daily') localStorage.setItem('daily-' + GROUP + '-' + today(), String(game.score));
+  const isBot = game.pvp && game.pvp.local;
+  if (!isBot) recordChampion(rec);   // 對電腦不列入
+  game.pushFailed = false;
+  if (FB.ok && !isBot) FB.db.ref('scores/' + scopeKey(game.mode)).push(rec)
+    .catch(e => { console.warn('score push failed', e); game.pushFailed = true; const n = $('boardNote'); if (n) { n.textContent = t('pushFailed'); n.classList.add('warn'); } });
+  game.result = result; game.isBot = !!isBot;
+  { const n = $('boardNote'); if (n && !game.pushFailed) { n.textContent = ''; n.classList.remove('warn'); } }
+  pvpCleanup();
+  show('result'); renderResult();
+}
+function renderResult() {
+  if (!game) return;
+  const rb = $('regradeBtn');
+  if (game.gradeError) {                       // 批改失敗：不公布成績、不上傳，讓玩家重試
+    $('rScore').textContent = '—'; $('rStats').innerHTML = ''; $('reviewList').innerHTML = '';
+    $('vsResult').classList.add('hidden');
+    $('rNote').textContent = t('gradeFailed'); $('rNote').classList.add('warn');
+    if (rb) rb.classList.remove('hidden');
+    return;
+  }
+  if (rb) rb.classList.add('hidden');
+  $('rNote').classList.remove('warn');
+  $('rScore').textContent = game.score;
+
+  const correct = game.log.filter(r => r && r.ok).length;
+  const avg = (game.log.reduce((s, r) => s + (r ? r.used : CFG.secondsPerQuestion), 0) / Math.max(1, game.qs.length)).toFixed(1);
+  $('rStats').innerHTML = `<div><b>${correct}/${game.qs.length}</b><span>${t('correctN')}</span></div><div><b>${game.bestStreak}</b><span>${t('bestStreak')}</span></div><div><b>${avg}s</b><span>${t('avgTime')}</span></div>`;
+  const vr = $('vsResult');
+  if (game.pvp) {
+    const p = game.pvp; const order = rankOrder(p);
+    vr.className = 'vsresult ' + game.result;
+    vr.innerHTML = `<div class="vr-title">${t(game.result)}　<small>${fmt(t('rank'), { r: game.rank })}</small></div><div class="vr-list">${order.map((u, i) => `<div class="vr-row${u === p.me ? ' me' : ''}"><span>${i + 1}. ${escapeHtml(p.players[u].nick)}</span><b>${p.players[u].score}</b></div>`).join('')}</div>`;
+    vr.classList.remove('hidden');
+    $('rNote').textContent = (game.isBot ? t('vsBot') + '　·　' : '') + fmt(t('ofMax'), { m: maxScore(game.qs.length) });
+  } else { vr.classList.add('hidden'); $('rNote').textContent = fmt(t('ofMax'), { m: maxScore(game.qs.length) }); }
+  const ol = $('reviewList'); ol.innerHTML = '';
+  game.qs.forEach((q, i) => {
+    const r = game.log[i] || { chosen: null, ok: false };
+    const li = document.createElement('li'); li.className = r.ok ? 'ok' : 'ng';
+    const oppTxt = game.pvp ? game.pvp.order.filter(u => u !== game.pvp.me).map(u => { const l = game.pvp.players[u].log[i]; return `${escapeHtml(game.pvp.players[u].nick)}：${l ? (l.ok ? '✔' : '✘') : '—'}`; }).join('　') : '';
+    li.innerHTML = `<div class="rq">${escapeHtml(L(q, 'q'))}</div><div class="ra">${t('ans')}${lang === 'zh' ? '：' : ': '}${q.answer.toUpperCase()}. ${escapeHtml(L(q, q.answer))}${r.ok ? '' : r.chosen ? (lang === 'zh' ? `　（你選 ${r.chosen.toUpperCase()}）` : ` (you chose ${r.chosen.toUpperCase()})`) : (lang === 'zh' ? `　（${t('timeout')}）` : ` (${t('timeout')})`)}${oppTxt ? '　·　' + oppTxt : ''}</div><div class="rx">${escapeHtml(L(q, 'explain'))}</div>`;
+    ol.appendChild(li);
+  });
+  renderBoard();
+}
+let boardQuery = null, boardHandler = null, boardScope = '', boardCache = null, champQuery = null, champHandler = null, champCache = null;                       // 排行榜即時監聽（切換範圍／模式時重綁）
+function boardRows(snap) { const all = []; snap.forEach(c => { const r = c.val(); if (r && r.ts) all.push(r); }); return all; }
+function renderBoard() {
+  const el = $('boardBody'); if (!el) return;
+  document.querySelectorAll('.tab').forEach(b => b.classList.toggle('active', b.dataset.board === boardMode));
+  const wk0 = weekKey(now());                                   // 本週起點（週一 00:00，UTC+8）
+  const thisWeek = r => r && r.ts && weekKey(r.ts) === wk0;
+  const draw = (rows, note) => {
+    if (!rows.length) { el.innerHTML = `<p class="empty">${t('noWeekBoard')}</p>`; return; }
+    el.innerHTML = `<table>${rows.slice(0, 10).map((r, i) => `<tr><td>${i + 1}. ${escapeHtml(r.nick)}${r.uid && r.uid === FB.uid ? ' ★' : ''}</td><td>${r.result ? ({ win: '🏆', lose: '·', draw: '=' })[r.result] + ' ' : ''}${r.correct}/${r.n} · ${r.date}</td><td>${r.score}</td></tr>`).join('')}</table><p class="note">${note}</p>`;
+  };
+  if (!isOnline()) { if (boardQuery && boardHandler) { boardQuery.off('value', boardHandler); boardQuery = null; boardHandler = null; } el.innerHTML = `<p class="empty">${t('boardNeedNet')}</p>`; renderWeekly(null); return; }
+  const scope = scopeKey(boardMode);
+  if (boardQuery && boardHandler && boardScope === scope && boardCache) {   // 同一個榜單就不重綁，直接用最近一次的資料重畫
+    const wk = boardCache.filter(thisWeek).sort((a, b) => b.score - a.score || a.ts - b.ts);
+    draw(wk, t('globalNote')); renderWeekly(boardCache); return;
+  }
+  if (boardQuery && boardHandler) { boardQuery.off('value', boardHandler); boardQuery = null; boardHandler = null; }
+  boardScope = scope;
+  // 即時監聽：任何人交出新成績，本週排行榜與每週冠軍都會自動更新
+  if (champQuery && champHandler) { champQuery.off('value', champHandler); }
+  champQuery = FB.db.ref('champions/' + scope); champCache = null;
+  champHandler = s => { champCache = s.val() || {}; renderWeekly(boardCache); };
+  champQuery.on('value', champHandler, () => { champCache = null; });
+  boardQuery = FB.db.ref('scores/' + scope).orderByChild('ts').limitToLast(3000);
+  boardHandler = s => {
+    const all = boardRows(s); boardCache = all;
+    const week = all.filter(thisWeek).sort((a, b) => b.score - a.score || a.ts - b.ts);
+    draw(week, t('globalNote'));
+    renderWeekly(all);
+  };
+  boardQuery.on('value', boardHandler, () => { el.innerHTML = `<p class="empty">${t('boardNeedNet')}</p>`; renderWeekly(null); });
+}
+/* 每週冠軍另存一份到 champions/<榜單>/<週起點>，排行榜之後清空也不會失去歷屆紀錄 */
+function recordChampion(rec) {
+  if (!FB.ok || !rec || !rec.ts) return;
+  const ref = FB.db.ref('champions/' + scopeKey(game.mode) + '/' + weekKey(rec.ts));
+  const mine = { nick: rec.nick, score: rec.score, uid: rec.uid, correct: rec.correct, n: rec.n, date: rec.date, ts: rec.ts };
+  ref.transaction(cur => (cur && cur.score >= mine.score) ? undefined : mine).catch(e => console.warn('champion write failed', e));
+}
+/* 每週冠軍：以週一為一週起點（台灣時間）；本週冠軍也列出（標示「本週目前領先」），有人超車會即時更新 */
+function weekKey(ts) {
+  const d = new Date(ts + 8 * 3600e3);                      // 以 UTC+8 計算週次
+  const day = (d.getUTCDay() + 6) % 7;                       // 週一=0
+  const mon = new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate() - day));
+  return mon.getTime();
+}
+const fmtMD = ms => { const d = new Date(ms); return (d.getUTCMonth() + 1) + '/' + d.getUTCDate(); };
+function isoWeekNo(wk) { const d = new Date(wk); const t0 = new Date(Date.UTC(d.getUTCFullYear(), 0, 4)); return Math.round(((wk - t0.getTime()) / 86400e3 - 3 + ((t0.getUTCDay() + 6) % 7)) / 7) + 1; }
+function renderWeekly(all) {
+  const el = $('weeklyBody'); if (!el) return;
+  const best = {};
+  Object.entries(champCache || {}).forEach(([wk, r]) => { if (r && typeof r.score === 'number') best[Number(wk)] = r; });   // 已保存的歷屆冠軍
+  (all || []).forEach(r => { const wk = weekKey(r.ts); if (!best[wk] || r.score > best[wk].score || (r.score === best[wk].score && r.ts < best[wk].ts)) best[wk] = r; });
+  const cur = weekKey(now());
+  if (!best[cur]) best[cur] = null;                                        // 本週還沒有人玩也要占一列
+  const weeks = Object.keys(best).map(Number).sort((a, b) => b - a);
+  el.innerHTML = `<table>${weeks.slice(0, 12).map(wk => {
+    const r = best[wk], isCur = wk === cur;
+    const who = r ? `${escapeHtml(r.nick)}${r.uid && r.uid === FB.uid ? ' ★' : ''}${isCur ? ' <small>' + t('weekLead') + '</small>' : ''}` : `<small>${t('noWeekBoard')}</small>`;
+    return `<tr${isCur ? ' class="cur"' : ''}><td>${isCur ? '⏳ ' : '🏆 '}${fmt(t('weekN'), { w: isoWeekNo(wk), a: fmtMD(wk), b: fmtMD(wk + 6 * 86400e3) })}</td><td>${who}</td><td>${r ? r.score : ''}</td></tr>`;
+  }).join('')}</table>`;
+}
+/* ---------- 綁定 ---------- */
+document.querySelectorAll('.mode').forEach(b => b.addEventListener('click', () => start(b.dataset.mode)));
+document.querySelectorAll('.segbtn').forEach(b => b.addEventListener('click', () => setGroup(b.dataset.group)));
+document.querySelectorAll('.tab').forEach(b => b.addEventListener('click', () => { boardMode = b.dataset.board; renderBoard(); }));
+$('prevBtn').addEventListener('click', viewPrev);
+$('backBtn').addEventListener('click', backToCurrent);
+$('againBtn').addEventListener('click', () => { const m = game.mode; if (m === 'pvp') { show('pvp'); pvpMenu(); } else start(m); });
+$('homeBtn').addEventListener('click', () => { clearInterval(game && game.timer); game = null; pvpCleanup(); show('home'); renderBoard(); });
+$('regradeBtn').addEventListener('click', () => { if (!game) return; $('rNote').textContent = t('grading'); finish(); });
+$('langBtn').addEventListener('click', () => { lang = lang === 'zh' ? 'en' : 'zh'; localStorage.setItem('lang', lang); applyLang(); });
+$('nick').value = '';                      // 暱稱欄預設留空，不帶入上次輸入
+$('nick').addEventListener('change', syncNick);
+$('nick').addEventListener('input', () => { const h = $('nickHint'); if (h && nickVal()) { h.textContent = t('nickHint'); h.classList.remove('warn'); } });
+$('btnMatch').addEventListener('click', pvpMatch);
+$('btnHost').addEventListener('click', pvpHost);
+$('btnJoin').addEventListener('click', () => pvpJoin($('joinCode').value));
+$('joinCode').addEventListener('keydown', e => { if (e.key === 'Enter') pvpJoin($('joinCode').value); });
+$('btnBot').addEventListener('click', pvpBot);
+$('btnWaitBot').addEventListener('click', pvpBot);
+$('btnStart').addEventListener('click', pvpStartRoom);
+$('btnCancelWait').addEventListener('click', pvpMenu);
+$('pvpBack').addEventListener('click', () => { pvpCleanup(); show('home'); renderBoard(); });
+document.addEventListener('keydown', e => {
+  if (!game || !$('play').classList.contains('active')) return;
+  const k = e.key.toLowerCase();
+  if ('abcd'.includes(k) && k.length === 1) answer(k);
+  else if (e.key === 'ArrowLeft') viewPrev();
+  else if (e.key === 'ArrowRight' || e.key === 'Escape') backToCurrent();
+});
+window.addEventListener('beforeunload', () => pvpCleanup());
+window.__dbg = () => ({ game, pv, FB: { ok: FB.ok, uid: FB.uid, offset: FB.offset }, CFG });
+applyLang();
+syncNick();
+initFirebase();
+/* Service Worker 換新版時自動重載一次，避免使用者停在舊版（舊版會向雲端索取含答案的題庫） */
+if ('serviceWorker' in navigator) {
+  let swReloaded = false;
+  const hadController = !!navigator.serviceWorker.controller;   // 首次註冊也會觸發 controllerchange，那次不該重載
+  const swReload = () => { if (swReloaded) return; swReloaded = true; location.reload(); };
+  navigator.serviceWorker.addEventListener('controllerchange', () => { if (hadController) swReload(); });
+  navigator.serviceWorker.addEventListener('message', e => { if (e.data && e.data.type === 'reload') swReload(); });
+}
+window.addEventListener('online', renderNet);
+window.addEventListener('offline', renderNet);
+loadBank().catch(err => { $('bankInfo').textContent = '題庫載入失敗 / failed to load bank: ' + err; });
+if ('serviceWorker' in navigator && location.protocol === 'https:') navigator.serviceWorker.register('sw.js').catch(e => console.warn('sw', e));
+})();

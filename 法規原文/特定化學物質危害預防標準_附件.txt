@@ -1,0 +1,369 @@
+# 特定化學物質危害預防標準（N0060015）附表／附件全文
+
+
+## 附表一：特定化學物質
+附表一：特定化學物質
+一、甲類物質：
+1、黃磷火柴
+P
+Yellow phosphorus match
+2、聯苯胺及其鹽類
+(C6H4NH2)2
+Benzidine and its salts
+3、4-胺基聯苯及其鹽類
+C12H9NH2
+4-Aminodiphenyl and its salts
+4、4-硝基聯苯及其鹽類
+C12H9NO2
+4-Nitrodiphenyl and its salts
+5、β-萘胺及其鹽類
+C10H7NH2
+β-Naphthylamine and its salts
+6、二氯甲基醚
+ClCH2OCH2Cl
+bis-Chloromethyl ether
+7、多氯聯苯
+C12HnCl(10-n)（0≦n≦9）
+Polychlorinated biphenyls
+8、氯甲基甲基醚
+ClCH2OCH3
+Chloromethyl methyl ether
+9、青石綿、褐石綿
+3MgO．2SiO2．2H2O、(FeO．MgO)SiO2
+Crocidolite、Amosite
+
+10、甲基汞化合物
+CH3HgX,(CH3)2Hg（X:H2PO4,Cl 等）
+Methyl mercury compounds
+11、五氯酚及其鈉鹽
+C6Cl5OH
+Pentachlorophenol and its sodium salts
+12、含苯膠糊〔含苯容量占該膠糊之溶劑（含稀釋劑）超過百分之五
+者。〕
+13、含有2 至11 列舉物占其重量超過百分之一之混合物。
+二、乙類物質：
+1、二氯聯苯胺及其鹽類
+(C6H3ClNH2)2 
+Dichlorobenzidine and its salts
+2、α-萘胺及其鹽類
+C10H7NH2
+α-Naphthylamine and its salts
+3、鄰-二甲基聯苯胺及其鹽類
+(C6H3(CH3)NH2)2
+o-Tolidine and its salts
+4、二甲氧基聯苯胺及其鹽類
+(C6H3(NH2)OCH3)2
+Dianisidine and its salts
+5、鈹及其化合物
+Be
+Beryllium and its compounds
+6、三氯甲苯
+C6H5CCl3
+Benzotrichloride
+
+7、含有1 至5 列舉物占其重量超過百分之一或鈹合金含鈹占其重量超過百
+分之三之混合物；含有6 列舉物占其重量超過百分之○．五之混合物。
+三、丙類物質 
+（一）丙類第一種物質
+1、次乙亞胺
+C2H5N
+Ethyleneimine
+2、氯乙烯
+CH2CHCl
+Vinyl chloride
+3、3,3'-二氯-4,4'-二胺基苯化甲烷
+C13H12Cl2N2
+3,3'-Dichloro-4,4'-diaminodiphenylmethane
+4、四羰化鎳
+Ni(CO)4
+Nickel carbonyl
+5、對-二甲胺基偶氮苯
+C6H5N2C6H4N(CH3)2
+p-Dimethylaminoazobenzene
+6、β-丙內酯
+(CH2)2CO2
+β-Propiolactone
+7、丙烯醯胺
+CH2CHCONH2
+Acrylamide
+8、丙烯腈
+CH2CHCN
+Acrylonitrile
+
+9、氯
+Cl2
+Chlorine
+10、氰化氫
+HCN
+Hydrogen cyanide
+11、溴甲烷
+CH3Br
+Methyl bromide
+12、2,4-二異氰酸甲苯或2,6-二異氰酸甲苯
+C6H3CH3(NCO)2
+Toluene 2,4-diisocyanate
+or Toluene 2,6-diisocyanate
+13、4,4'-二異氰酸二苯甲烷
+CH2(C6H4NCO)2
+4,4'-Methylene bisphenyl diisocyanate
+14、二異氰酸異佛爾酮
+(CH3)C6H7(CH3)(NCO)CH2(NCO)
+Isophorone diisocyanate
+15、異氰酸甲酯
+CH3NCO
+Methyl isocyanate
+16、碘甲烷
+CH3I
+Methyl iodide
+17、硫化氫
+H2S
+Hydrogen sulfide
+18、硫酸二甲酯
+
+(CH3)2SO4
+Dimethyl sulfate
+19、四氯化鈦
+TiCl4
+Titanium tetrachloride
+20、氧氯化磷
+POCl3
+Phosphorus oxychloride
+21、環氧乙烷
+C2H4O
+Ethylene oxide
+22、甲醛
+HCHO
+Formaldehyde
+23、1,3-丁二烯
+C4H6
+1,3-Butadiene
+24、1,2-環氧丙烷
+C3H6O
+1,2-Epoxypropane
+25、苯
+C6H6
+Benzene
+26、氫氧化四甲銨
+(CH3)4NOH
+Tetramethylammonium hydroxide
+27、溴化氫
+HBr
+Hydrogen bromide
+
+28、三氟化氯
+ClF3
+Chlorine trifluoride
+29、對-硝基氯苯
+C6H4ClNO2
+p-Nitrochlorobenzene
+30、氟化氫
+HF
+Hydrogen fluoride
+31、含有1 至24 列舉物佔其重量超過百分之一之混合物；含有25 列舉物
+體積比超過百分之一之混合物；含有26 列舉物佔其重量超過百分之
+二點三八之混合物；含有27、28 列舉物佔其重量超過百分之四之混
+合物。含有29、30 列舉物佔其重量超過百分之五之混合物。
+（二）丙類第二種物質
+1、奧黃
+[(CH3)2NC6H4]2CNH
+Auramine
+2、苯胺紅
+C20H19N3
+Magenta
+3、含有1 及2 列舉物占其重量超過百分之一之混合物。
+（三）丙類第三種物質
+1、石綿（不含青石綿、褐石綿）
+3MgO．2SiO2．2H2O(FeO．MgO)SiO2
+Asbestos（not including Crocidolite and Amosite）
+2、鉻酸及其鹽類
+CrO3
+Chromic acid and chromates
+3、砷及其化合物
+
+As
+Arsenic and its compounds
+4、重鉻酸及其鹽類
+H2Cr2O7
+Dichromic acid and its salts
+5、乙基汞化合物
+C2H5HgX、(C2H5)2Hg（X:H2PO4,Cl 等）
+Ethyl mercury compounds
+6、鄰-二腈苯
+C6H4(CN)2
+o-Phthalonitrile
+7、鎘及其化合物
+Cd
+Cadmium and its compounds
+8、五氧化二釩
+V2O5
+Vanadium pentaoxide
+9、汞及其無機化合物（硫化汞除外）
+Hg
+Mercury and its inorganic compounds（Except mercury sulfide）
+10、硝基乙二醇
+(CH2ONO2)2
+Nitroglycol
+11、錳及其化合物（一氧化錳及三氧化錳除外）
+Mn
+Manganese and its compounds（Except manganese monoxide, manganese 
+trioxide）
+12、鎳及其化合物（四羰化鎳除外）
+Ni
+
+Nickel and its compounds（except nickel carbonyl）
+13、銦及其化合物
+In
+Indium and its compounds
+14、鈷及其無機化合物
+Co
+Cobalt and its inorganic compounds
+15、萘
+C10H8
+Naphthalene
+16、煤焦油
+Coal tar
+17、氰化鉀
+KCN
+Potassium cyanide
+18、氰化鈉
+NaCN
+Sodium cyanide
+19、含有1 至15 列舉物占其重量超過百分之一之混合物；含有16 至18 列
+舉物占其重量超過百分之五之混合物。
+四、丁類物質：
+1、氨
+NH3
+Ammonia
+2、一氧化碳
+CO
+Carbon monoxide
+3、氯化氫
+
+HCl
+Hydrogen chloride
+4、硝酸
+HNO3
+Nitric acid
+5、二氧化硫
+SO2
+Sulfur dioxide
+6、光氣
+COCl2
+Phosgene
+7、硫酸
+H2SO4
+Sulfuric acid
+8、酚
+C6H5OH
+Phenol
+9、含有1 至7 列舉物占其重量超過百分之一之混合物；含有8 列舉物占其
+重量超過百分之五之混合物。
+
+
+## 附表二：局部排氣裝置設計報告書
+附表二：局部排氣裝置設計報告書
+設計報告書內容包含下列事項：
+一、場所基本資料
+（一）事業單位基本資料
+（二）工作場所平面配置圖
+（三）製程流程圖
+（四）局部排氣裝置設置系統略圖（應標示特定化學物質作業範圍、
+作業位置、氣罩與排氣機之位置及其與發生源等之關係，比例
+尺以能辨識其標示內容為度）
+（五）特定化學物質之種類及其危害資訊
+（六）特定化學物質作業方式
+（七）作業勞工人數及暴露途徑
+二、局部排氣裝置設計之說明
+（一）環境干擾氣流及降低方式
+（二）補氣系統設計及措施
+（三）氣罩設計資料及其規格
+（四）導管系統設計資料及其規格
+（五）空氣清淨裝置設計及其規格
+（六）排氣機設計及其規格
+（七）局部排氣裝置壓力損失計算
+（八）其他設計資料（含清潔口及測定孔或其他監測裝置）
+三、設計人員資格證號及簽名
+
+
+## 附表三：局部排氣裝置原始性能測試報告書
+附表三：局部排氣裝置原始性能測試報告書
+原始性能測試報告書內容包含下列事項：
+一、場所基本資料
+（一）事業單位基本資料
+（二）設計單位/人員
+（三）測試單位/人員
+二、局部排氣裝置原始性能測試結果與設計報告比較
+（一）環境干擾氣流測試
+（二）補氣效能測試（室內外壓力差）
+（三）氣罩測試結果
+1、氣罩幾何形狀與尺寸
+2、入口風速
+3、吸氣口與特定化學物質發生源之相對位置與距離
+（四）管道系統重要檢測點（氣罩、節點、空氣清淨裝置、排氣機）
+上下游靜壓、檢測孔靜壓測試結果
+（五）其他檢測資料
+（六）測試人員簽名及測試完成日期
+
+
+## 附表四：局部排氣裝置設計專業人員資格、條件
+附表四：局部排氣裝置設計專業人員資格、條件
+局部排氣裝置設計專業人員應具下列資格之一，並經附表五所定課程訓練
+合格：
+一、下列執業技師之一：水利工程技師、化學工程技師、職業衛生技師、
+機械工程技師、工業安全技師、冷凍空調技師、環境工程技師、航空
+工程技師或造船工程技師。
+二、工程技術顧問公司僱用之前款所定技師之一。
+三、事業單位僱用領有第一款所定技師之證書，並具工業通風、冷凍空調、
+環境工程、風管工程、職業衛生或工業生產等相關實務經驗三年以上，
+且有證明文件。
+四、公立或立案之私立專科以上學校或經教育部承認之國外專科以上學校
+之理、工科系畢業，並具五年以上工業通風、冷凍空調、環境工程、
+風管工程之設計實務工作經驗，且有證明文件。
+
+
+## 附表五：局部排氣裝置設計專業人員訓練課程及時數
+附表五：局部排氣裝置設計專業人員訓練課程及時數
+項次
+課程名稱
+時數
+（小時）
+1
+有害物危害預防法規
+2
+2
+暴露評估
+4
+3
+工業通風原理
+5
+4
+整體通風系統（原理、案例說明）
+5
+5
+局部通風系統設計（含氣罩設計與案例說明）
+15
+6
+管道系統設計與排氣機匹配（含案例說明及計算練
+習）
+15
+7
+空氣清淨裝置
+3
+8
+局部通風系統安裝施工、檢測、維修保養之方法及技
+術
+3
+9
+局部排氣裝置設計報告書與原始性能測試報告書之製
+作及練習
+8
+10
+工廠實習（含案例設計演練）
+12
+合計
+72
+備註：
+1、工廠實習之場地可為工廠、實習工廠或試驗工廠。
+2、除72 小時課程外，需配合工廠實習完成並提交2 廠次局部排氣裝置設
+計報告書，且危害類別涵蓋氣態及粒狀有害物，經考試及報告書審核
+通過，方為訓練合格。

@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+.claude/
+_fbtmp/
+firebase-debug.log
+.firebase/
+gas/.token
+法規原文/附件/**/*.pdf
+法規原文/附件/**/*.odt
+法規原文/附件/**/*.doc
+法規原文/附件/**/*.docx
+題庫/copy2.html
+題庫/_pieces.json
+
+# ── 題庫原始檔不上傳公開庫（含答案與解析）─────────────────────
+# 答案只存在 Google Sheet（供 GAS 批改）與私有備份庫
+# Civ077/taiwan-osh-quiz-bank。公開庫只放 docs/ 的網站檔案，
+# 而 docs/data/questions.json 已不含 answer／explain。
+# 整個資料夾排除，之後新增的批次檔會自動不上傳。
+題庫/
+*.xlsx
