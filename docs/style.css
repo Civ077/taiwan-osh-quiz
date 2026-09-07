@@ -144,3 +144,19 @@ button{font:inherit;cursor:pointer}
 .board small{font-weight:400;color:var(--muted)}
 
 .board tr.cur td{background:#fffbeb}
+
+/* ── 手機版（≤420px）版面微調 ───────────────────────────────
+   1. 排行榜標題原本會被模式圖示擠到換行
+   2. 歷屆每週冠軍那列的「本週目前領先」擠在暱稱旁邊
+   3. 頁尾版本號會從中間斷開（2026- / 09-07） */
+@media (max-width: 420px) {
+  .board { padding: 12px 12px; }
+  .board-head h4 { font-size: 15px; letter-spacing: -0.2px; }
+  .tab { padding: 3px 8px; font-size: 14px; }
+  .board table { font-size: 13px; }
+  .board td { padding: 5px 0; }
+  .board td:first-child { max-width: 42%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .board td:nth-child(2) { white-space: nowrap; color: var(--muted); }
+  .board tr td small { display: block; margin-top: 1px; }   /* 「本週目前領先」移到暱稱下一行 */
+  .foot { font-size: 11px; line-height: 1.6; word-break: keep-all; overflow-wrap: anywhere; }
+}

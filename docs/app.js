@@ -291,8 +291,9 @@ function renderBankInfo(gen, src) {
   const srcLabel = el.dataset.src === 'cloud' ? (lang === 'zh' ? '雲端' : 'cloud') : el.dataset.src === 'cache' ? (lang === 'zh' ? '快取（背景更新中）' : 'cached (updating)') : (lang === 'zh' ? '本機' : 'local');
   const total = (BANKS.OSH ? BANKS.OSH.length : 0) + (BANKS.ENV ? BANKS.ENV.length : 0);
   const par = lang === 'zh' ? ['（', '）'] : [' (', ')'];
+  const all = total && total !== BANK.length ? `${par[0]}${lang === 'zh' ? '全部' : 'all'} ${total}${par[1]}` : '';   // 只有一個範圍載入時不重複顯示
   if (BANK.length) bankTop('');
-  el.textContent = `${t(GROUP === 'ENV' ? 'groupEnv' : 'groupOsh')} ${t('bank')} ${BANK.length} ${lang === 'zh' ? '題' : 'questions'}${par[0]}${lang === 'zh' ? '全部' : 'all'} ${total}${par[1]} · ${srcLabel} · ${t('ver')} ${el.dataset.gen}`;
+  el.textContent = `${t(GROUP === 'ENV' ? 'groupEnv' : 'groupOsh')} ${t('bank')} ${BANK.length} ${lang === 'zh' ? '題' : 'questions'}${all} · ${srcLabel} · ${t('ver')} ${el.dataset.gen}`;
 }
 
 /* ---------- 開局 ---------- */
@@ -883,7 +884,7 @@ function renderBoard() {
   const thisWeek = r => r && r.ts && weekKey(r.ts) === wk0;
   const draw = (rows, note) => {
     if (!rows.length) { el.innerHTML = `<p class="empty">${t('noWeekBoard')}</p>`; return; }
-    el.innerHTML = `<table>${rows.slice(0, 10).map((r, i) => `<tr><td>${i + 1}. ${escapeHtml(r.nick)}${r.uid && r.uid === FB.uid ? ' ★' : ''}</td><td>${r.result ? ({ win: '🏆', lose: '·', draw: '=' })[r.result] + ' ' : ''}${r.correct}/${r.n} · ${r.date}</td><td>${r.score}</td></tr>`).join('')}</table><p class="note">${note}</p>`;
+    el.innerHTML = `<table>${rows.slice(0, 10).map((r, i) => `<tr><td>${i + 1}. ${escapeHtml(r.nick)}${r.uid && r.uid === FB.uid ? ' ★' : ''}</td><td>${r.result ? ({ win: '🏆', lose: '·', draw: '=' })[r.result] + ' ' : ''}${r.correct}/${r.n} · ${String(r.date).slice(5)}</td><td>${r.score}</td></tr>`).join('')}</table><p class="note">${note}</p>`;
   };
   if (!isOnline()) { if (boardQuery && boardHandler) { boardQuery.off('value', boardHandler); boardQuery = null; boardHandler = null; } el.innerHTML = `<p class="empty">${t('boardNeedNet')}</p>`; renderWeekly(null); return; }
   const scope = scopeKey(boardMode);
